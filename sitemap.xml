@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://walkquest.site/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://walkquest.site/rules.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://walkquest.site/routes.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://walkquest.site/premium.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://walkquest.site/news.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://walkquest.site/release-notes.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://walkquest.site/europe-explorer.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://walkquest.site/health-connect-guide.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://walkquest.site/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

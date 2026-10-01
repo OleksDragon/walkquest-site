@@ -8,6 +8,7 @@
   const languageLabel = document.getElementById("pageLanguageLabel");
   const description = document.querySelector('meta[name="description"]');
   const page = document.body.dataset.page || "guide";
+  const navPage = document.body.dataset.navPage || page;
 
   languages.forEach(({ code, label }) => select.add(new Option(label, code)));
 
@@ -54,8 +55,8 @@
       if (typeof value === "string") element.alt = value;
     });
 
-    const titleKey = page + "PageTitle";
-    const descriptionKey = page + "PageDescription";
+    const titleKey = document.body.dataset.titleKey || page + "PageTitle";
+    const descriptionKey = document.body.dataset.descriptionKey || page + "PageDescription";
     document.title = copy[titleKey] || translations.en[titleKey];
     if (description) description.content = copy[descriptionKey] || translations.en[descriptionKey];
 
@@ -65,7 +66,7 @@
     localStorage.setItem("walkquest-language", language.code);
 
     document.querySelectorAll("[data-page-link]").forEach((link) => {
-      if (link.dataset.pageLink === page) link.setAttribute("aria-current", "page");
+      if (link.dataset.pageLink === navPage) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     });
   }

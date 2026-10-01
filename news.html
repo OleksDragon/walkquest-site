@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./pages.css?v=2">
+  <link rel="stylesheet" href="./pages.css?v=3">
 </head>
 <body class="info-site" data-page="news">
   <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
@@ -39,16 +39,17 @@
       <article class="news-card"><span class="news-tag" data-i18n="news3Tag">Guide</span><time class="news-date" datetime="2026-09-20" data-i18n="news3Date">September 20, 2026</time><h3 data-i18n="news3Title">Discover more inside every unlocked city</h3><p data-i18n="news3Text">Open city stories, landmarks, local food, Google Maps, nearby Street View, passport stamps, and shareable travel cards.</p></article>
     </div></div></section>
 
-    <section class="page-section dark"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="newsNextKicker">Coming to the journal</span><h2 data-i18n="newsNextTitle">A useful companion for every update</h2><p class="section-intro" data-i18n="newsNextText">Future posts will focus on clear information rather than marketing noise.</p></div><div class="next-grid">
-      <article class="next-card"><h3 data-i18n="newsNext1Title">Release notes</h3><p data-i18n="newsNext1Text">Short explanations of important changes and how they affect your progress.</p></article>
-      <article class="next-card"><h3 data-i18n="newsNext2Title">Route spotlights</h3><p data-i18n="newsNext2Text">A closer look at destinations, distances, transfers, landmarks, and local stories.</p></article>
-      <article class="next-card"><h3 data-i18n="newsNext3Title">Practical guides</h3><p data-i18n="newsNext3Text">Help with Health Connect, maps, Premium, tickets, privacy, and restoring purchases.</p></article>
+    <section class="page-section dark journal-section"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="newsNextKicker">Fresh from the journal</span><h2 data-i18n="newsNextTitle">Three stories to start with</h2><p class="section-intro" data-i18n="newsNextText">Release details, a route worth walking, and a practical setup guide—written to be useful, not noisy.</p></div><div class="next-grid">
+      <a class="next-card" href="./release-notes.html"><img src="./assets/article-release.png" width="1672" height="941" alt="WalkQuest app update illustration" data-i18n-alt="releaseCardAlt"><div class="next-card-copy"><span class="news-tag" data-i18n="releaseTag">Release notes</span><h3 data-i18n="newsNext1Title">A bigger home for every WalkQuest journey</h3><p data-i18n="newsNext1Text">See what changed on the multilingual website and why the new guides make the first walk easier.</p><span class="article-link-label" data-i18n="readArticle">Read article →</span></div></a>
+      <a class="next-card" href="./europe-explorer.html"><img src="./assets/article-europe.png" width="1672" height="941" alt="Europe Explorer route illustration" data-i18n-alt="europeCardAlt"><div class="next-card-copy"><span class="news-tag" data-i18n="europeTag">Route spotlight</span><h3 data-i18n="newsNext2Title">Europe Explorer: 1,240 km from London to Prague</h3><p data-i18n="newsNext2Text">Meet the free starter route with twelve city stops, six countries, and a rewarding rhythm.</p><span class="article-link-label" data-i18n="readArticle">Read article →</span></div></a>
+      <a class="next-card" href="./health-connect-guide.html"><img src="./assets/article-health-connect.png" width="1672" height="941" alt="Health Connect synchronization illustration" data-i18n-alt="healthCardAlt"><div class="next-card-copy"><span class="news-tag" data-i18n="healthTag">Practical guide</span><h3 data-i18n="newsNext3Title">Connect Health Connect without guesswork</h3><p data-i18n="newsNext3Text">Set up step access, understand synchronization, and solve the most common missing-step problems.</p><span class="article-link-label" data-i18n="readArticle">Read article →</span></div></a>
     </div></div></section>
 
     <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="newsCtaTitle">The next story begins with your next walk</h2><p data-i18n="newsCtaText">Download WalkQuest and turn today’s steps into a destination.</p></div><a class="play-button" href="https://play.google.com/store/apps/details?id=com.walkquest" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 32 36" aria-hidden="true"><path fill="currentColor" d="M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9Z"/></svg><span><small data-i18n="playSmall">Get it on</small><strong>Google Play</strong></span></a></div></section>
   </main>
   <footer><div class="shell footer-grid"><div><a class="brand footer-brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span></a><p data-i18n="footerTagline">Real steps. Remarkable journeys.</p></div><div class="footer-links"><a href="./rules.html" data-i18n="navGuide">Game guide</a><a href="./routes.html" data-i18n="navRoutes">Routes</a><a href="./premium.html" data-i18n="navPremium">Premium</a><a href="./news.html" data-i18n="navNews">News</a><a href="./privacy.html" data-i18n="navPrivacy">Privacy</a></div><p class="copyright">© <span id="year"></span> WalkQuest. <span data-i18n="footerRights">All rights reserved.</span></p></div></footer>
   <script src="./pages-translations.js"></script>
+
   <script src="./pages.js"></script>
 </body>
 </html>

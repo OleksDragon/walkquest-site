@@ -8,7 +8,7 @@
 .page-hero-copy>p{max-width:610px;color:var(--muted);font-size:1.1rem}
 .page-hero-media{position:relative}
 .page-hero-media:before{content:"";position:absolute;inset:-18px 28px 22px -18px;border-radius:34px;background:var(--mint);transform:rotate(-2deg)}
-.page-hero-media img{position:relative;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:30px;box-shadow:var(--shadow)}
+.page-hero-media img{position:relative;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:30px;box-shadow:var(--shadow)}
 .page-hero-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .page-hero-badges span{padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.8);font-size:.78rem;font-weight:800}
 .page-section{padding:92px 0}

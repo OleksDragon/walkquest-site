@@ -4,6 +4,18 @@
 
   const { languages, translations } = config;
   const supported = new Set(languages.map(({ code }) => code));
+  const localeBySlug = new Map(languages.map(({ code }) => [code.toLowerCase(), code]));
+
+  function pathLanguage() {
+    return localeBySlug.get(location.pathname.split("/").filter(Boolean)[0]?.toLowerCase()) || null;
+  }
+
+  function localizedPath(code) {
+    const parts = location.pathname.split("/").filter(Boolean);
+    if (parts.length && localeBySlug.has(parts[0].toLowerCase())) parts.shift();
+    const suffix = parts.length ? "/" + parts.join("/") : "/";
+    return code === "en" ? suffix : "/" + code.toLowerCase() + suffix;
+  }
   const select = document.getElementById("pageLanguageSelect");
   const languageLabel = document.getElementById("pageLanguageLabel");
   const description = document.querySelector('meta[name="description"]');
@@ -29,6 +41,9 @@
   }
 
   function detectLanguage() {
+    const fromPath = pathLanguage();
+    if (fromPath) return fromPath;
+
     const queryLanguage = new URLSearchParams(window.location.search).get("lang");
     if (queryLanguage && supported.has(queryLanguage)) return queryLanguage;
 
@@ -57,8 +72,20 @@
 
     const titleKey = document.body.dataset.titleKey || page + "PageTitle";
     const descriptionKey = document.body.dataset.descriptionKey || page + "PageDescription";
-    document.title = copy[titleKey] || translations.en[titleKey];
-    if (description) description.content = copy[descriptionKey] || translations.en[descriptionKey];
+    const title = copy[titleKey] || translations.en[titleKey];
+    const summary = copy[descriptionKey] || translations.en[descriptionKey];
+    const nextPath = localizedPath(language.code);
+    const url = "https://walkquest.site" + nextPath;
+    document.title = title;
+    if (description) description.content = summary;
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", url);
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", summary);
+    document.querySelector('meta[property="og:url"]')?.setAttribute("content", url);
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", title);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", summary);
+    document.querySelector('meta[name="twitter:url"]')?.setAttribute("content", url);
+    history.replaceState(null, "", nextPath + location.search + location.hash);
 
     if (languageLabel) languageLabel.textContent = copy.languageLabel;
     select.value = language.code;

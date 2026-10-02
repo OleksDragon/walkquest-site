@@ -4,6 +4,18 @@
 
   const { languages, translations } = config;
   const supported = new Set(languages.map(({ code }) => code));
+  const localeBySlug = new Map(languages.map(({ code }) => [code.toLowerCase(), code]));
+
+  function pathLanguage() {
+    return localeBySlug.get(location.pathname.split("/").filter(Boolean)[0]?.toLowerCase()) || null;
+  }
+
+  function localizedPath(code) {
+    const parts = location.pathname.split("/").filter(Boolean);
+    if (parts.length && localeBySlug.has(parts[0].toLowerCase())) parts.shift();
+    const suffix = parts.length ? "/" + parts.join("/") : "/";
+    return code === "en" ? suffix : "/" + code.toLowerCase() + suffix;
+  }
   const select = document.getElementById("privacyLanguageSelect");
   const languageLabel = document.getElementById("privacyLanguageLabel");
   const backLink = document.getElementById("privacyBackLink");
@@ -29,6 +41,9 @@
   }
 
   function detectLanguage() {
+    const fromPath = pathLanguage();
+    if (fromPath) return fromPath;
+
     const queryLanguage = new URLSearchParams(window.location.search).get("lang");
     if (queryLanguage && supported.has(queryLanguage)) return queryLanguage;
 
@@ -107,8 +122,19 @@
 
     document.documentElement.lang = language.code;
     document.documentElement.dir = language.dir || "ltr";
-    document.title = "WalkQuest — " + copy.shortTitle;
+    const title = "WalkQuest — " + copy.shortTitle;
+    const nextPath = localizedPath(language.code);
+    const url = "https://walkquest.site" + nextPath;
+    document.title = title;
     description.content = copy.description;
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", url);
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", copy.description);
+    document.querySelector('meta[property="og:url"]')?.setAttribute("content", url);
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", title);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", copy.description);
+    document.querySelector('meta[name="twitter:url"]')?.setAttribute("content", url);
+    history.replaceState(null, "", nextPath + location.search + location.hash);
     languageLabel.textContent = copy.languageLabel;
     backLink.textContent = "← " + copy.backLabel;
     backLink.setAttribute("aria-label", copy.backLabel);

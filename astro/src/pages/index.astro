@@ -1,0 +1,8 @@
+---
+import LegacyLayout from "../layouts/LegacyLayout.astro";
+import { getLegacyPage } from "../lib/legacy-pages";
+
+const page = getLegacyPage("index.html");
+---
+
+<LegacyLayout page={page} />

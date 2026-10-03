@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Connectガイド | WalkQuest</title>
+  <meta name="description" content="Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../pages.css?v=3">
+  <link rel="canonical" href="https://walkquest.site/ja/health-connect-guide.html">
+  <link rel="alternate" hreflang="en" href="https://walkquest.site/health-connect-guide.html">
+  <link rel="alternate" hreflang="uk" href="https://walkquest.site/uk/health-connect-guide.html">
+  <link rel="alternate" hreflang="ru" href="https://walkquest.site/ru/health-connect-guide.html">
+  <link rel="alternate" hreflang="es" href="https://walkquest.site/es/health-connect-guide.html">
+  <link rel="alternate" hreflang="de" href="https://walkquest.site/de/health-connect-guide.html">
+  <link rel="alternate" hreflang="fr" href="https://walkquest.site/fr/health-connect-guide.html">
+  <link rel="alternate" hreflang="pl" href="https://walkquest.site/pl/health-connect-guide.html">
+  <link rel="alternate" hreflang="pt" href="https://walkquest.site/pt/health-connect-guide.html">
+  <link rel="alternate" hreflang="it" href="https://walkquest.site/it/health-connect-guide.html">
+  <link rel="alternate" hreflang="tr" href="https://walkquest.site/tr/health-connect-guide.html">
+  <link rel="alternate" hreflang="ja" href="https://walkquest.site/ja/health-connect-guide.html">
+  <link rel="alternate" hreflang="ko" href="https://walkquest.site/ko/health-connect-guide.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://walkquest.site/zh-cn/health-connect-guide.html">
+  <link rel="alternate" hreflang="ar" href="https://walkquest.site/ar/health-connect-guide.html">
+  <link rel="alternate" hreflang="hi" href="https://walkquest.site/hi/health-connect-guide.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://walkquest.site/pt-br/health-connect-guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://walkquest.site/health-connect-guide.html">
+  <meta property="og:title" content="Health Connectガイド | WalkQuest">
+  <meta property="og:description" content="Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。">
+  <meta property="og:image" content="https://walkquest.site/assets/article-health-connect.png">
+  <meta property="og:image:alt" content="Health Connect step synchronization guide for WalkQuest">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:url" content="https://walkquest.site/ja/health-connect-guide.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="WalkQuest">
+  <meta property="og:locale" content="ja">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Health Connectガイド | WalkQuest">
+  <meta name="twitter:description" content="Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。">
+  <meta name="twitter:image" content="https://walkquest.site/assets/article-health-connect.png">
+  <meta name="twitter:url" content="https://walkquest.site/ja/health-connect-guide.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Health Connectガイド | WalkQuest",
+  "description": "Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。",
+  "image": "https://walkquest.site/assets/article-health-connect.png",
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-03",
+  "mainEntityOfPage": "https://walkquest.site/ja/health-connect-guide.html",
+  "author": {
+    "@type": "Organization",
+    "name": "Gold Digital Studio"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gold Digital Studio"
+  },
+  "inLanguage": "ja",
+  "url": "https://walkquest.site/ja/health-connect-guide.html"
+}
+</script>
+</head>
+<body class="info-site article-site" data-page="healthArticle" data-nav-page="news" data-title-key="healthArticlePageTitle" data-description-key="healthArticlePageDescription">
+  <a class="skip-link" href="#main" data-i18n="skipLink">コンテンツにスキップ</a>
+  <header class="site-header"><div class="shell nav-wrap"><a class="brand" href="./index.html" aria-label="WalkQuest home"><span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span></a><nav class="desktop-nav" aria-label="Primary navigation"><a href="./index.html" data-page-link="home" data-i18n="navHome">ホーム</a><a href="./rules.html" data-page-link="guide" data-i18n="navGuide">ゲームガイド</a><a href="./routes.html" data-page-link="routes" data-i18n="navRoutes">ルート</a><a href="./premium.html" data-page-link="premium" data-i18n="navPremium">Premium</a><a href="./news.html" data-page-link="news" data-i18n="navNews">ニュース</a><a href="./privacy.html" data-i18n="navPrivacy">プライバシー</a></nav><label class="language-picker"><span class="sr-only" id="pageLanguageLabel" data-i18n="languageLabel">言語を選択してください</span><span aria-hidden="true">🌐</span><select id="pageLanguageSelect" aria-label="Choose language"></select><span class="chevron" aria-hidden="true">⌄</span></label></div></header>
+  <main id="main"><article>
+    <header class="article-hero"><div class="shell article-hero-inner"><a class="article-back" href="./news.html" data-i18n="articleBack">← ニュースに戻る</a><span class="news-tag" data-i18n="healthTag">実践ガイド</span><h1 data-i18n="healthTitle">迷わず「Health Connect」を接続する</h1><p class="article-lead" data-i18n="healthLead">権限設定や同期、そして歩数が反映されない問題の多くを解決する簡単なチェック手順を、わかりやすく解説します。</p><div class="article-meta"><time datetime="2026-10-01" data-i18n="healthDate">2026年10月1日</time><span>•</span><span data-i18n="healthReadTime">読了時間：8分</span></div><img src="../assets/article-health-connect.png" width="1672" height="941" alt="ヘルスケアサービスからWalkQuestルートへの確実な歩数同期" data-i18n-alt="healthHeroAlt"></div></header>
+    <div class="shell article-layout"><div class="article-body">
+      <p class="article-drop" data-i18n="healthIntroP1">WalkQuestは、バックグラウンドで常にトラッカーを動作させて移動を計測するわけではありません。ユーザーが許可を与えた後、Androidの「Health Connect」を通じてすでに収集されている歩数の合計値を読み取ります。そのため、接続の仕組みが明確で、ユーザー自身がコントロールできるようになっています。</p>
+      <div class="article-stat-grid"><div><strong data-i18n="healthStatReadOnlyValue">読み取り専用</strong><span data-i18n="healthStatReadOnly">歩数データのアクセス許可</span></div><div><strong data-i18n="healthStatAccountValue">アカウント不要</strong><span data-i18n="healthStatAccount">必要</span></div><div><strong>≈ 1,250</strong><span data-i18n="healthStatSteps">ルート1kmあたりの歩数</span></div></div>
+      <h2 data-i18n="healthSetupTitle">3つのステップで確実に接続</h2>
+      <ol class="article-steps"><li><strong data-i18n="healthStep1Title">WalkQuestの設定を開きます。</strong><span data-i18n="healthStep1Text">「Health Connect」の項目を見つけ、アプリ内から接続を開始します。</span></li><li><strong data-i18n="healthStep2Title">歩数データへのアクセスを許可します。</strong><span data-i18n="healthStep2Text">歩数データの読み取りを許可してください。WalkQuestが健康記録を変更する権限を必要とすることはありません。</span></li><li><strong data-i18n="healthStep3Title">戻って同期する。</strong><span data-i18n="healthStep3Text">WalkQuestに戻り、歩数データを更新して、ルート上のマーカーが進むことを確認してください。</span></li></ol>
+      <aside class="article-callout"><strong data-i18n="healthCalloutTitle">知っておくと役立つ情報</strong><p data-i18n="healthCalloutText">お使いのスマートフォンやウェアラブル端末からHealth Connectへの歩数データの書き込みには、多少の遅延が生じることがあります。更新が遅れても、記録が失われたわけではありません。</p></aside>
+      <h2 data-i18n="healthMissingTitle">数値が変化しない場合</h2>
+      <p data-i18n="healthMissingP1">まずは基本的な確認から始めましょう。Health Connectを開き、本日の歩数データが存在することを確認してください。次に、WalkQuestにそのデータを読み取る権限が維持されているか確認します。バッテリー制限の設定、新しいヘルスケアアプリのインストール、またはスマートフォンの機種変更などが、接続状況に影響を与える可能性があります。</p>
+      <ul class="article-checks"><li data-i18n="healthCheck1">歩数データの計測元（ソース）がHealth Connectにデータを書き込んでいるか確認してください。</li><li data-i18n="healthCheck2">Health Connect内でWalkQuestの権限設定を確認してください。</li><li data-i18n="healthCheck3">インターネットに接続した状態でWalkQuestを開き、再度同期を行ってください。</li><li data-i18n="healthCheck4">選択した日付を確認してください。また、本日の合計歩数はまとめて更新される場合がある点にご注意ください。</li><li data-i18n="healthCheck5">アプリを再インストールした場合は、過去の歩数が表示される前に、Health Connectとの接続を再度行ってください。</li></ul>
+      <h2 data-i18n="healthDistanceTitle">歩数と距離（キロメートル）が一致しない理由</h2>
+      <p data-i18n="healthDistanceP1">WalkQuestでは、ボーナスやその他の補正要素を除き、仮想上の1キロメートルを約1,250歩と換算するシンプルなゲーム内計算式を採用しています。これはあくまでゲーム上の距離であり、歩幅に基づく医学的な測定値ではありません。</p>
+      <p data-i18n="healthDistanceP2">そのため、歩数の数値が同じであっても、アプリによって表示される距離（キロメートル）が異なる場合があります。WalkQuestにおいて重要な入力データは「合計歩数」であり、ルート上の距離はその努力をゲームとして解釈した結果に過ぎません。</p>
+      <h2 data-i18n="healthPrivacyTitle">WalkQuestが読み取るデータ・読み取らないデータ</h2>
+      <p data-i18n="healthPrivacyP1">要求されるアクセス権限は、ルートの進行に必要な歩数情報のみに限定されています。WalkQuestの利用にアカウント登録は不要であり、健康データが広告配信用のプロファイル作成に使用されることもありません。アクセス権限は、Health Connectの設定からいつでも取り消すことができます。</p>
+      <blockquote data-i18n="healthQuote">優れた連携とは、静かなものです。一度許可を与えれば、あとは普通に歩くだけ。地図がその旅の物語を語ってくれます。</blockquote>
+    </div></div>
+    <nav class="article-next shell" aria-label="Related articles"><a href="./release-notes.html"><span data-i18n="articleNext">次の記事</span><strong data-i18n="healthNextLink">WalkQuestウェブサイトの変更点を確認する →</strong></a></nav>
+  </article></main>
+  <footer><div class="shell footer-grid"><div><a class="brand footer-brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span></a><p data-i18n="footerTagline">本当のステップ。素晴らしい旅。</p></div><div class="footer-links"><a href="./rules.html" data-i18n="navGuide">ゲームガイド</a><a href="./routes.html" data-i18n="navRoutes">ルート</a><a href="./premium.html" data-i18n="navPremium">Premium</a><a href="./news.html" data-i18n="navNews">ニュース</a><a href="./privacy.html" data-i18n="navPrivacy">プライバシー</a><a href="https://play.google.com/store/apps/details?id=com.walkquest" target="_blank" rel="noopener noreferrer">Google Play</a></div><p class="copyright">© <span id="year"></span> WalkQuest. <span data-i18n="footerRights">すべての著作権は留保されています。</span></p></div></footer>
+  <script src="../pages-translations.js"></script><script src="../pages.js"></script>
+</body>
+</html>

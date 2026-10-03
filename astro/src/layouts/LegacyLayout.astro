@@ -1,0 +1,23 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import type { LegacyPage } from "../lib/legacy-pages";
+
+interface Props {
+  page: LegacyPage;
+}
+
+const { page } = Astro.props;
+---
+
+<!doctype html>
+<html lang={page.lang} dir={page.dir}>
+  <head><Fragment set:html={page.headHtml} /></head>
+  <body {...page.bodyAttributes}>
+    <a class="skip-link" href="#main">{page.labels.skipLink}</a>
+    {page.isInfoSite ? <SiteHeader labels={page.labels} /> : <Fragment set:html={page.headerHtml} />}
+    <Fragment set:html={page.mainHtml} />
+    {page.isInfoSite ? <SiteFooter labels={page.labels} /> : <Fragment set:html={page.footerHtml} />}
+    <Fragment set:html={page.scriptsHtml} />
+  </body>
+</html>

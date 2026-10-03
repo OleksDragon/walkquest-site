@@ -1,0 +1,14 @@
+---
+import LegacyLayout from "../layouts/LegacyLayout.astro";
+import { getLegacyPage, listLegacyPages } from "../lib/legacy-pages";
+
+export function getStaticPaths() {
+  return listLegacyPages()
+    .filter((file) => !file.includes("/") && file !== "index.html")
+    .map((file) => ({ params: { page: file.replace(/\.html$/, "") }, props: { file } }));
+}
+
+const page = getLegacyPage(Astro.props.file);
+---
+
+<LegacyLayout page={page} />

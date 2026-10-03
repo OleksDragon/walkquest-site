@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: Oleksandr Zolotopup
+Contact: digitalstudiogold@gmail.com
+Location: Kharkiv, Ukraine
+Studio: Gold Digital Studio
+
+/* SITE */
+Last update: 2026-10-01
+Language: English, Ukrainian, Russian, Spanish, German, French, Polish, Portuguese, Italian, Turkish, Japanese, Korean, Chinese, Arabic, Hindi
+Doctype: HTML5
+IDE: Flutter, VS Code

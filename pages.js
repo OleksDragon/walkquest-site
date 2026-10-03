@@ -55,7 +55,8 @@
 
   function applyLanguage(code) {
     const language = languages.find((item) => item.code === code) || languages[0];
-    const copy = { ...translations.en, ...(translations[language.code] || {}) };
+    const routeTranslations = window.WalkQuestEuropeRouteI18n?.translations || {};
+    const copy = { ...translations.en, ...(routeTranslations.en || {}), ...(translations[language.code] || {}), ...(routeTranslations[language.code] || {}) };
 
     document.documentElement.lang = language.code;
     document.documentElement.dir = language.dir || "ltr";

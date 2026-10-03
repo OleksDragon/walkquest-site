@@ -56,7 +56,10 @@
   function applyLanguage(code) {
     const language = languages.find((item) => item.code === code) || languages[0];
     const routeTranslations = window.WalkQuestEuropeRouteI18n?.translations || {};
-    const copy = { ...translations.en, ...(routeTranslations.en || {}), ...(translations[language.code] || {}), ...(routeTranslations[language.code] || {}) };
+    const kyotoTranslations = window.WalkQuestKyotoRouteI18n?.translations || {};
+    const extendedRouteTranslations = window.WalkQuestExtendedRouteI18n?.translations || {};
+    const epicRouteTranslations = window.WalkQuestEpicRouteI18n?.translations || {};
+    const copy = { ...translations.en, ...(routeTranslations.en || {}), ...(kyotoTranslations.en || {}), ...(extendedRouteTranslations.en || {}), ...(epicRouteTranslations.en || {}), ...(translations[language.code] || {}), ...(routeTranslations[language.code] || {}), ...(kyotoTranslations[language.code] || {}), ...(extendedRouteTranslations[language.code] || {}), ...(epicRouteTranslations[language.code] || {}) };
 
     document.documentElement.lang = language.code;
     document.documentElement.dir = language.dir || "ltr";

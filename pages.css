@@ -165,6 +165,16 @@ html[dir=rtl] .article-checks li:before{left:auto;right:18px}
 
 /* Reusable route detail page */
 .route-detail-hero{padding-bottom:52px;background:radial-gradient(circle at 8% 18%,rgba(119,223,179,.35),transparent 25%),radial-gradient(circle at 92% 12%,rgba(255,209,102,.5),transparent 28%),linear-gradient(135deg,#effbf5,#fff8e8 60%,#edf9fb)}
+.kyoto-route-hero{background:radial-gradient(circle at 8% 18%,rgba(90,140,76,.25),transparent 25%),radial-gradient(circle at 92% 12%,rgba(255,155,74,.42),transparent 30%),linear-gradient(135deg,#f2f8e9,#fff4df 52%,#ffe8dc)}
+.kyoto-route-hero .news-tag{color:#8b3c25;background:#ffe1d2}.kyoto-route-hero .route-hero-chips>span:first-child{color:#fff;background:#9f452d;border-color:#9f452d}
+.greek-route-hero{background:radial-gradient(circle at 8% 18%,rgba(20,126,183,.2),transparent 27%),radial-gradient(circle at 92% 12%,rgba(255,180,73,.38),transparent 30%),linear-gradient(135deg,#eefaff,#fffaf0 54%,#e9f7ff)}
+.greek-route-hero .news-tag{color:#075f91;background:#dff4ff}.greek-route-hero .route-hero-chips>span:first-child{color:#fff;background:#096d9c;border-color:#096d9c}
+.iceland-route-hero{background:radial-gradient(circle at 8% 18%,rgba(47,126,140,.24),transparent 27%),radial-gradient(circle at 92% 12%,rgba(107,162,201,.32),transparent 30%),linear-gradient(135deg,#eaf6f4,#f2f7fb 54%,#e6edf5)}
+.iceland-route-hero .news-tag{color:#124c62;background:#d8edf1}.iceland-route-hero .route-hero-chips>span:first-child{color:#fff;background:#174f64;border-color:#174f64}
+.route66-route-hero{background:radial-gradient(circle at 8% 18%,rgba(202,72,38,.2),transparent 27%),radial-gradient(circle at 92% 12%,rgba(255,181,61,.42),transparent 30%),linear-gradient(135deg,#fff1e7,#fff7df 54%,#eaf4f4)}
+.route66-route-hero .news-tag{color:#8b351f;background:#ffe1d3}.route66-route-hero .route-hero-chips>span:first-child{color:#fff;background:#a54228;border-color:#a54228}
+.world-route-hero{background:radial-gradient(circle at 8% 18%,rgba(36,145,157,.22),transparent 27%),radial-gradient(circle at 92% 12%,rgba(255,177,66,.36),transparent 30%),linear-gradient(135deg,#e8f8f6,#fff8e8 54%,#e9f1ff)}
+.world-route-hero .news-tag{color:#075c66;background:#d9f1ee}.world-route-hero .route-hero-chips>span:first-child{color:#fff;background:#08717a;border-color:#08717a}
 .route-detail-hero .article-hero-inner{max-width:1180px}
 .route-detail-hero h1{max-width:1050px}
 .route-detail-hero img{margin-top:32px;aspect-ratio:16/9;box-shadow:0 32px 80px rgba(8,47,54,.2)}
@@ -186,6 +196,11 @@ html[dir=rtl] .route-ribbon>span{transform:translateX(50%)}
 .route-city-card:hover{transform:translateY(-5px);box-shadow:0 22px 48px rgba(8,47,54,.12)}
 .route-city-card:before{content:"";position:absolute;inset-inline-end:-28px;top:-32px;width:105px;height:105px;border-radius:50%;background:rgba(119,223,179,.22)}
 .route-city-transfer:before{background:rgba(255,209,102,.32)}.route-city-finish:before{background:rgba(255,107,74,.2)}
+.kyoto-city-grid .route-city-card:before{background:rgba(224,99,53,.18)}.kyoto-city-grid .route-city-card:nth-child(2n):before{background:rgba(255,190,74,.25)}.kyoto-city-grid .route-city-card:nth-child(3n):before{background:rgba(90,140,76,.2)}
+.greek-city-grid .route-city-card:before{background:rgba(23,136,194,.18)}.greek-city-grid .route-city-card:nth-child(2n):before{background:rgba(255,188,73,.25)}.greek-city-grid .route-city-card:nth-child(3n):before{background:rgba(230,95,124,.17)}
+.iceland-city-grid .route-city-card:before{background:rgba(38,126,144,.19)}.iceland-city-grid .route-city-card:nth-child(2n):before{background:rgba(111,181,210,.24)}.iceland-city-grid .route-city-card:nth-child(3n):before{background:rgba(98,132,105,.2)}
+.route66-city-grid .route-city-card:before{background:rgba(203,75,39,.18)}.route66-city-grid .route-city-card:nth-child(2n):before{background:rgba(240,159,55,.23)}.route66-city-grid .route-city-card:nth-child(3n):before{background:rgba(35,118,126,.17)}
+.world-city-grid .route-city-card:before{background:rgba(26,143,153,.19)}.world-city-grid .route-city-card:nth-child(2n):before{background:rgba(255,178,70,.24)}.world-city-grid .route-city-card:nth-child(3n):before{background:rgba(92,128,189,.17)}
 .route-city-number{position:relative;color:var(--coral);font-size:.78rem;font-weight:900;letter-spacing:.12em}
 .route-city-km{position:absolute;inset-inline-end:22px;top:24px;color:var(--green);font-size:.72rem;font-weight:900}
 .route-city-card h3{margin:28px 0 0;font-size:1.45rem;letter-spacing:-.04em}
@@ -199,6 +214,11 @@ html[dir=rtl] .route-ribbon>span{transform:translateX(50%)}
 .route-crossing .check-list{margin-top:24px}.route-crossing .check-list li{color:#e7f1f1}.route-crossing .check-list li:before{background:var(--mint)}
 .route-crossing-visual{min-height:230px;display:flex;align-items:center;justify-content:center;gap:8px;padding:28px;background:radial-gradient(circle at center,rgba(119,223,179,.2),transparent 62%);font-size:2.5rem}
 .route-crossing-visual i{width:52px;border-top:3px dashed var(--sun)}.route-crossing-visual b{display:grid;place-items:center;width:72px;height:72px;background:#fff;border-radius:22px;font-size:2rem;box-shadow:0 16px 34px rgba(0,0,0,.18)}
+.kyoto-ritual{background:linear-gradient(135deg,#713722,#173f3d)}.kyoto-route-ribbon{background:linear-gradient(135deg,#edf6e5,#fff3d5 48%,#ffe5d9)}
+.greek-ritual{background:linear-gradient(135deg,#075d85,#123d62)}.greek-route-ribbon{background:linear-gradient(135deg,#e7f7ff,#fff7df 48%,#e7f5fb)}
+.iceland-ritual{background:linear-gradient(135deg,#123e4d,#1c334b)}.iceland-route-ribbon{background:linear-gradient(135deg,#e5f4f3,#edf5fa 48%,#e7eef7)}
+.route66-ritual{background:linear-gradient(135deg,#7f341f,#173e43)}.route66-route-ribbon{background:linear-gradient(135deg,#fff0e6,#fff6d9 48%,#e8f3f1)}
+.world-ritual{background:linear-gradient(135deg,#075765,#153555)}.world-route-ribbon{background:linear-gradient(135deg,#e2f6f3,#fff6de 48%,#e7effb)}
 .route-faq{margin:76px 0 28px}.route-faq h2{margin-top:8px}.route-faq details{padding:20px 0;border-top:1px solid var(--line)}.route-faq details:last-child{border-bottom:1px solid var(--line)}.route-faq summary{cursor:pointer;font-weight:800}.route-faq p{margin:12px 0 0;color:var(--muted)}
 .route-board-link{position:absolute;inset-inline-end:28px;bottom:18px;z-index:3;color:var(--green);font-size:.72rem;font-weight:900}.route-board-link:hover,.inline-route-link:hover{color:var(--coral)}.inline-route-link{display:inline-flex;margin-bottom:12px;color:var(--mint);font-size:.78rem;font-weight:900}.plan-card .inline-route-link{color:var(--green)}
 @media(max-width:900px){.route-city-grid{grid-template-columns:repeat(2,1fr)}.route-crossing{grid-template-columns:1fr}.route-crossing-visual{min-height:160px}}

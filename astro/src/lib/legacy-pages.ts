@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const legacyRoot = path.resolve("legacy-pages");
+const routeDataRoot = path.resolve("src/data/routes");
 
 export interface LegacyPage {
   relativePath: string;
@@ -77,8 +78,14 @@ export function getLegacyPage(relativePath: string): LegacyPage {
 }
 
 export function listLegacyPages(): string[] {
-  return fs.readdirSync(legacyRoot, { recursive: true, encoding: "utf8" })
+  const legacy = fs.readdirSync(legacyRoot, { recursive: true, encoding: "utf8" })
     .filter((entry: string) => entry.endsWith(".html"))
-    .map((entry: string) => entry.replaceAll("\\", "/"))
-    .sort();
+    .map((entry: string) => entry.replaceAll("\\", "/"));
+  const routes = fs.readdirSync(routeDataRoot)
+    .filter((entry) => entry.endsWith(".json"))
+    .flatMap((entry) => {
+      const data = JSON.parse(fs.readFileSync(path.join(routeDataRoot, entry), "utf8"));
+      return Object.keys(data.locales).map((locale) => locale === "en" ? `${data.slug}.html` : `${locale}/${data.slug}.html`);
+    });
+  return [...new Set([...legacy, ...routes])].sort();
 }

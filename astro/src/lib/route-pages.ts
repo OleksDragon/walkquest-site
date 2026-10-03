@@ -1,4 +1,9 @@
-import { getLegacyPage, type LegacyPage } from "./legacy-pages";
+import fs from "node:fs";
+import path from "node:path";
+import type { LegacyPage } from "./legacy-pages";
+
+const routeDataRoot = path.resolve("src/data/routes");
+const cache = new Map<string, { slug: string; locales: Record<string, RoutePage> }>();
 
 export const routeSlugs = new Set([
   "europe-explorer",
@@ -23,16 +28,15 @@ export function isRouteFile(relativePath: string): boolean {
 }
 
 export function getRoutePage(relativePath: string): RoutePage {
-  const page = getLegacyPage(relativePath);
-  const match = page.mainHtml.match(
-    /^([\s\S]*?)<section class="page-cta"><div class="shell page-cta-card"><div>([\s\S]*?)<\/div><a class="play-button light-button"[\s\S]*?<small[^>]*>([\s\S]*?)<\/small>[\s\S]*?<\/a><\/div><\/section>([\s\S]*)$/,
-  );
-  if (!match) throw new Error(`Unable to parse route CTA in ${relativePath}`);
-  return {
-    page,
-    beforeCtaHtml: match[1],
-    ctaCopyHtml: match[2],
-    playLabel: match[3].replace(/<[^>]+>/g, "").trim(),
-    afterCtaHtml: match[4],
-  };
+  const parts = relativePath.split("/");
+  const slug = (parts.at(-1) ?? "").replace(/\.html$/, "");
+  const locale = parts.length === 1 ? "en" : parts[0];
+  let data = cache.get(slug);
+  if (!data) {
+    data = JSON.parse(fs.readFileSync(path.join(routeDataRoot, `${slug}.json`), "utf8"));
+    cache.set(slug, data!);
+  }
+  const route = data?.locales[locale];
+  if (!route) throw new Error(`Missing structured route data for ${relativePath}`);
+  return route;
 }

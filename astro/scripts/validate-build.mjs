@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = path.resolve("dist");
 const errors = [];
+const routeSlugs = new Set(["europe-explorer", "kyoto-autumn-temples", "greek-islands-odyssey", "iceland-ring-road", "route-66-usa", "around-the-world-lite"]);
 
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -37,6 +38,11 @@ for (const page of pages) {
   }
   for (const match of html.matchAll(/https:\/\/play\.google\.com\/store\/apps\/details\?[^"']*/g)) {
     if (!match[0].includes("id=com.walkquest")) errors.push(`${relative}: wrong Google Play package URL.`);
+  }
+  if (routeSlugs.has(path.basename(page, ".html"))) {
+    const routeCtas = [...html.matchAll(/class="play-button light-button"/g)].length;
+    const completeIcons = [...html.matchAll(/M3\.9 35\.6l14\.2-8\.1/g)].length;
+    if (routeCtas !== 1 || completeIcons !== 1) errors.push(`${relative}: route CTA is not using one complete shared Google Play icon.`);
   }
 }
 

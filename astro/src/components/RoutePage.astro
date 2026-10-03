@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import RouteCta from "./RouteCta.astro";
+import type { RoutePage as RoutePageData } from "../lib/route-pages";
+
+interface Props {
+  route: RoutePageData;
+}
+
+const { route } = Astro.props;
+---
+
+<BaseLayout page={route.page}>
+  <Fragment set:html={route.beforeCtaHtml} />
+  <RouteCta copyHtml={route.ctaCopyHtml} playLabel={route.playLabel} />
+  <Fragment set:html={route.afterCtaHtml} />
+</BaseLayout>

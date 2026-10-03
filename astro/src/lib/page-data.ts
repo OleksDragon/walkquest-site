@@ -3,9 +3,9 @@ import path from "node:path";
 
 const pageDataRoot = path.resolve("src/data/pages");
 const routeDataRoot = path.resolve("src/data/routes");
-const cache = new Map<string, { slug: string; locales: Record<string, LegacyPage> }>();
+const cache = new Map<string, { slug: string; locales: Record<string, PageData> }>();
 
-export interface LegacyPage {
+export interface PageData {
   relativePath: string;
   lang: string;
   dir: string;
@@ -19,7 +19,7 @@ export interface LegacyPage {
   isInfoSite: boolean;
 }
 
-export function getLegacyPage(relativePath: string): LegacyPage {
+export function getPageData(relativePath: string): PageData {
   const normalized = relativePath.replaceAll("\\", "/");
   const parts = normalized.split("/");
   const slug = (parts.at(-1) ?? "").replace(/\.html$/, "");
@@ -34,7 +34,7 @@ export function getLegacyPage(relativePath: string): LegacyPage {
   return page;
 }
 
-export function listLegacyPages(): string[] {
+export function listPageFiles(): string[] {
   return [pageDataRoot, routeDataRoot].flatMap((directory) => fs.readdirSync(directory)
     .filter((entry) => entry.endsWith(".json"))
     .flatMap((entry) => {

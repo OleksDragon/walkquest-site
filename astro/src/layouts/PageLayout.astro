@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import type { LegacyPage } from "../lib/legacy-pages";
+import type { PageData } from "../lib/page-data";
 
 interface Props {
-  page: LegacyPage;
+  page: PageData;
 }
 
 const { page } = Astro.props;

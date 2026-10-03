@@ -1,9 +1,9 @@
 import type { APIRoute } from "astro";
-import { listLegacyPages } from "../lib/legacy-pages";
+import { listPageFiles } from "../lib/page-data";
 import { siteUrl } from "../lib/site";
 
 export const GET: APIRoute = () => {
-  const urls = listLegacyPages().map((file) => {
+  const urls = listPageFiles().map((file) => {
     const url = file === "index.html" ? `${siteUrl}/` : `${siteUrl}/${file}`;
     return `  <url>\n    <loc>${url}</loc>\n    <lastmod>2026-10-03</lastmod>\n  </url>`;
   });

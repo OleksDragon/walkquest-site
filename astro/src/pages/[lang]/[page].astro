@@ -1,11 +1,11 @@
 ---
-import LegacyLayout from "../../layouts/LegacyLayout.astro";
+import PageLayout from "../../layouts/PageLayout.astro";
 import RoutePage from "../../components/RoutePage.astro";
-import { getLegacyPage, listLegacyPages } from "../../lib/legacy-pages";
+import { getPageData, listPageFiles } from "../../lib/page-data";
 import { getRoutePage, isRouteFile } from "../../lib/route-pages";
 
 export function getStaticPaths() {
-  return listLegacyPages()
+  return listPageFiles()
     .filter((file) => file.includes("/"))
     .map((file) => {
       const [lang, name] = file.split("/");
@@ -17,7 +17,7 @@ export function getStaticPaths() {
 }
 
 const route = isRouteFile(Astro.props.file) ? getRoutePage(Astro.props.file) : null;
-const page = route ? null : getLegacyPage(Astro.props.file);
+const page = route ? null : getPageData(Astro.props.file);
 ---
 
-{route ? <RoutePage route={route} /> : <LegacyLayout page={page!} />}
+{route ? <RoutePage route={route} /> : <PageLayout page={page!} />}

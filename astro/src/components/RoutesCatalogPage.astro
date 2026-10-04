@@ -1,0 +1,43 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+const c = page.routes!.copy;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const featured = [
+  ["europe-explorer", "🏙️", "Europe Explorer", "1,240 km", "routeEuropeTag", "routeEuropeDesc"],
+  ["kyoto-autumn-temples", "⛩️", "Kyoto Autumn Temples", "165 km", "routeKyotoTag", "routeKyotoDesc"],
+  ["greek-islands-odyssey", "⛴️", "Greek Islands Odyssey", "200 km", "routeGreekTag", "routeGreekDesc"],
+  ["iceland-ring-road", "🌋", "Iceland Ring Road", "380 km", "routeIcelandTag", "routeIcelandDesc"],
+  ["route-66-usa", "🛣️", "Route 66 USA", "3,940 km", "route66Tag", "route66Desc"],
+  ["around-the-world-lite", "🌍", "Around the World Lite", "12,000 km", "routeWorldTag", "routeWorldDesc"],
+] as const;
+const linkedRoutes = new Map([
+  ["Europe Explorer", "europe-explorer"],
+  ["Route 66 USA", "route-66-usa"],
+  ["Around the World Lite", "around-the-world-lite"],
+  ["Kyoto Autumn Temples", "kyoto-autumn-temples"],
+  ["Greek Islands Odyssey", "greek-islands-odyssey"],
+  ["Iceland Ring Road", "iceland-ring-road"],
+]);
+const routeNames = ["Europe Explorer", "Italy Dream", "Japan Tour", "Route 66 USA", "Nordic Route", "Camino de Santiago", "Silk Road Journey", "Ancient Egypt", "Australia Coast", "Alps Journey", "Around Ukraine", "France Tour", "Spain Tour", "Great Britain Walk", "Turkey Journey", "Balkan Route", "South America Explorer", "Canada Route", "Thailand Journey", "Around the World Lite", "Kyiv Heritage & Legends", "Alpine Peaks & Castles", "Kyoto Autumn Temples", "Greek Islands Odyssey", "Iceland Ring Road", "Bali Tropical Trail", "Scandinavian Fjords & Coast", "Prague & Bohemian Castles", "Patagonia Wilderness", "Scottish Highlands & Lochs"];
+---
+
+<main id="main">
+  <section class="page-hero"><div class="shell page-hero-grid"><div class="page-hero-copy"><span class="section-kicker" data-i18n="routesEyebrow">{c.routesEyebrow}</span><h1 data-i18n="routesTitle">{c.routesTitle}</h1><p data-i18n="routesDesc">{c.routesDesc}</p><div class="page-hero-badges"><span data-i18n="routesBadgeFree">{c.routesBadgeFree}</span><span data-i18n="routesBadgeDifficulty">{c.routesBadgeDifficulty}</span><span data-i18n="routesBadgeStories">{c.routesBadgeStories}</span></div></div><div class="page-hero-media"><img src={`${assetPrefix}assets/routes-hero.png`} width="1672" height="941" alt={c.routesHeroAlt} data-i18n-alt="routesHeroAlt" /></div></div></section>
+  <div class="shell route-stats-bar"><div><strong>30</strong><span data-i18n="routesStatRoutes">{c.routesStatRoutes}</span></div><div><strong>303</strong><span data-i18n="routesStatStops">{c.routesStatStops}</span></div><div><strong>18</strong><span data-i18n="routesStatTransfers">{c.routesStatTransfers}</span></div></div>
+
+  <section class="page-section"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="routesPickKicker">{c.routesPickKicker}</span><h2 data-i18n="routesPickTitle">{c.routesPickTitle}</h2><p class="section-intro" data-i18n="routesPickText">{c.routesPickText}</p></div><div class="route-catalog">
+    {featured.map(([slug, emoji, name, distance, tag, description]) => <a class="route-feature route-feature-link" href={`./${slug}.html`} aria-label={`${name} route guide`}><div class="route-feature-top"><span>{emoji}</span><h3>{name}</h3></div><div class="route-feature-body"><div class="route-meta"><b>{distance}</b><b data-i18n={tag}>{c[tag]}</b></div><p data-i18n={description}>{c[description]}</p></div><span class="route-card-action">{name} →</span></a>)}
+  </div></div></section>
+
+  <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="routesCatalogKicker">{c.routesCatalogKicker}</span><h2 data-i18n="routesCatalogTitle">{c.routesCatalogTitle}</h2><p class="section-intro" data-i18n="routesCatalogText">{c.routesCatalogText}</p></div><div class="route-cloud" aria-label="WalkQuest route names">
+    {routeNames.map((name) => linkedRoutes.has(name) ? <a href={`./${linkedRoutes.get(name)}.html`}>{name}</a> : <span>{name}</span>)}
+  </div></div></section>
+
+  <section class="page-section dark"><div class="shell map-explainer"><div><span class="section-kicker" data-i18n="routesHowKicker">{c.routesHowKicker}</span><h2 data-i18n="routesHowTitle">{c.routesHowTitle}</h2><p class="section-intro" data-i18n="routesHowText">{c.routesHowText}</p><ul class="check-list"><li data-i18n="routesHowPoint1">{c.routesHowPoint1}</li><li data-i18n="routesHowPoint2">{c.routesHowPoint2}</li><li data-i18n="routesHowPoint3">{c.routesHowPoint3}</li></ul></div><div class="mock-map" aria-hidden="true"><span class="mock-map-label">Europe Explorer</span><div class="mock-path"></div><span class="mock-pin one">🇬🇧</span><span class="mock-walker">🚶</span><span class="mock-pin two">🇫🇷</span><span class="mock-pin three">🇨🇿</span></div></div></section>
+
+  <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="routesCtaTitle">{c.routesCtaTitle}</h2><p data-i18n="routesCtaText">{c.routesCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
+</main>

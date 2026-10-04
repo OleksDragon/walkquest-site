@@ -71,6 +71,10 @@ export interface PremiumContent {
   copy: Record<string, string>;
 }
 
+export interface RoutesContent {
+  copy: Record<string, string>;
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
@@ -83,6 +87,7 @@ export interface PageData {
   news?: NewsContent;
   rules?: RulesContent;
   premium?: PremiumContent;
+  routes?: RoutesContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

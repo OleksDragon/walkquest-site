@@ -55,6 +55,9 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
       if (filename === "premium.json" && (page.mainHtml || !page.premium?.copy?.premiumTitle)) {
         errors.push(`${filename}:${locale}: premium content is not structured.`);
       }
+      if (filename === "routes.json" && (page.mainHtml || !page.routes?.copy?.routesTitle)) {
+        errors.push(`${filename}:${locale}: route catalog content is not structured.`);
+      }
       if (!head?.title || !head.description || !head.canonical) errors.push(`${filename}:${locale}: incomplete SEO head data.`);
       if (head?.alternates?.length !== 17) errors.push(`${filename}:${locale}: expected 17 hreflang links.`);
       if (!Array.isArray(head?.structuredData) || !Array.isArray(head?.scripts) || !Array.isArray(head?.inlineStyles)) {

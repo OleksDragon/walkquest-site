@@ -17,5 +17,5 @@ const { page } = Astro.props;
 ---
 
 <BaseLayout page={page}>
-  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : page.chrome === "landing" ? <LandingPage page={page} /> : page.news ? <NewsPage page={page} /> : page.rules ? <RulesPage page={page} /> : page.premium ? <PremiumPage page={page} /> : page.routes ? <RoutesCatalogPage page={page} /> : page.article ? <ArticlePage page={page} /> : <Fragment set:html={page.mainHtml!} />}
+  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : page.chrome === "landing" ? <LandingPage page={page} /> : page.news ? <NewsPage page={page} /> : page.rules ? <RulesPage page={page} /> : page.premium ? <PremiumPage page={page} /> : page.routes ? <RoutesCatalogPage page={page} /> : page.article ? <ArticlePage page={page} /> : null}
 </BaseLayout>

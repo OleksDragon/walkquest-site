@@ -34,34 +34,37 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
       const head = page.head;
       sourcePageCount += 1;
       if (page.headHtml || !head) errors.push(`${filename}:${locale}: head data is not structured.`);
-      if (page.headerHtml || page.footerHtml || page.scriptsHtml || "isInfoSite" in page) {
+      if (page.headerHtml || page.footerHtml || page.scriptsHtml || "isInfoSite" in page || "mainHtml" in page) {
         errors.push(`${filename}:${locale}: page shell still contains raw HTML fields.`);
       }
       if (!["landing", "site", "privacy"].includes(page.chrome) || !Array.isArray(page.bodyScripts)) {
         errors.push(`${filename}:${locale}: invalid page chrome or body scripts.`);
       }
-      if (page.chrome === "privacy" && (page.mainHtml || !page.privacy?.blocks?.length)) {
+      if (page.chrome === "privacy" && !page.privacy?.blocks?.length) {
         errors.push(`${filename}:${locale}: privacy content is not structured.`);
       }
-      if (page.chrome === "landing" && (page.mainHtml || !page.landing?.copy?.heroTitle)) {
+      if (page.chrome === "landing" && !page.landing?.copy?.heroTitle) {
         errors.push(`${filename}:${locale}: landing content is not structured.`);
       }
-      if (filename === "news.json" && (page.mainHtml || !page.news?.copy?.newsTitle)) {
+      if (filename === "news.json" && !page.news?.copy?.newsTitle) {
         errors.push(`${filename}:${locale}: news content is not structured.`);
       }
-      if (filename === "rules.json" && (page.mainHtml || !page.rules?.copy?.guideTitle)) {
+      if (filename === "rules.json" && !page.rules?.copy?.guideTitle) {
         errors.push(`${filename}:${locale}: rules content is not structured.`);
       }
-      if (filename === "premium.json" && (page.mainHtml || !page.premium?.copy?.premiumTitle)) {
+      if (filename === "premium.json" && !page.premium?.copy?.premiumTitle) {
         errors.push(`${filename}:${locale}: premium content is not structured.`);
       }
-      if (filename === "routes.json" && (page.mainHtml || !page.routes?.copy?.routesTitle)) {
+      if (filename === "routes.json" && !page.routes?.copy?.routesTitle) {
         errors.push(`${filename}:${locale}: route catalog content is not structured.`);
       }
-      if (["health-connect-guide.json", "release-notes.json", "sharing-achievements.json"].includes(filename) && (page.mainHtml || !page.article?.blocks?.length)) {
+      if (["health-connect-guide.json", "release-notes.json", "sharing-achievements.json"].includes(filename) && !page.article?.blocks?.length) {
         errors.push(`${filename}:${locale}: article content is not structured.`);
       }
       if (!head?.title || !head.description || !head.canonical) errors.push(`${filename}:${locale}: incomplete SEO head data.`);
+      if (directory.endsWith("routes") && (localized.beforeCtaHtml || localized.afterCtaHtml || localized.ctaCopyHtml || !localized.detail?.cities?.length)) {
+        errors.push(`${filename}:${locale}: route detail content is not structured.`);
+      }
       if (head?.alternates?.length !== 17) errors.push(`${filename}:${locale}: expected 17 hreflang links.`);
       if (!Array.isArray(head?.structuredData) || !Array.isArray(head?.scripts) || !Array.isArray(head?.inlineStyles)) {
         errors.push(`${filename}:${locale}: invalid structured head collections.`);

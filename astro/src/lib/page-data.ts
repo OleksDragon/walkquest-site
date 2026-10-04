@@ -77,7 +77,7 @@ export interface RoutesContent {
 
 export type ArticleBlock =
   | { type: "paragraph"; key: string; drop?: boolean }
-  | { type: "heading"; key: string }
+  | { type: "heading"; key: string; id?: string }
   | { type: "quote"; key: string }
   | { type: "callout"; title: string; text: string }
   | { type: "list"; items: string[] }
@@ -99,7 +99,6 @@ export interface PageData {
   dir: string;
   head: HeadData;
   bodyAttributes: Record<string, string>;
-  mainHtml?: string;
   privacy?: PrivacyContent;
   landing?: LandingContent;
   news?: NewsContent;

@@ -32,6 +32,8 @@ The route atlas is rendered by `RoutesCatalogPage.astro` from localized copy fie
 
 Editorial stories are rendered by the shared `ArticlePage.astro` component from typed content blocks. Paragraphs, statistics, steps, lists, callouts, feature cards, quotes, related links, and calls to action are reusable across all locales without raw main HTML fragments.
 
+All detailed journeys are rendered by the shared `RoutePage.astro` component from typed route data: hero chips, jump navigation, statistics, route ribbons, city stops, crossings, FAQs, and calls to action. Route data no longer contains raw HTML fragments.
+
 The build keeps the existing `.html` URLs, emits all 240 localized pages, generates `sitemap.xml`, preserves the custom domain, and deploys through the official Astro GitHub Pages action.
 
 New route work should copy an existing file in `src/data/routes/` and add the new slug to `src/lib/route-pages.ts`.

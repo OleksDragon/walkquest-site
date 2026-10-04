@@ -1,0 +1,73 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+if (!page.landing) throw new Error(`Missing landing content for ${page.relativePath}`);
+const c = page.landing.copy;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const proofItems = [
+  ["proofRoutes", "proofRoutesText"],
+  ["proofMotivation", "proofMotivationText"],
+  ["proofPrivate", "proofPrivateText"],
+];
+const steps = [
+  ["01", "♥", "health", "step1Title", "step1Text"],
+  ["02", "↟", "walk", "step2Title", "step2Text"],
+  ["03", "◎", "explore", "step3Title", "step3Text"],
+];
+const features = [
+  ["🗺️", "feature1Title", "feature1Text"],
+  ["📔", "feature2Title", "feature2Text"],
+  ["🏆", "feature3Title", "feature3Text"],
+  ["🔒", "feature4Title", "feature4Text"],
+];
+---
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span><span data-i18n="eyebrow">{c.eyebrow}</span></div>
+        <h1 data-i18n="heroTitle">{c.heroTitle}</h1>
+        <p class="hero-lead" data-i18n="heroText">{c.heroText}</p>
+        <div class="hero-actions"><GooglePlayButton label={c.playSmall} /><a class="text-link" href="#how" data-i18n="seeHow">{c.seeHow}</a></div>
+        <p class="hero-meta"><span>✓</span><span data-i18n="heroMeta">{c.heroMeta}</span></p>
+      </div>
+      <div class="hero-visual" aria-label={c.previewLabel} data-i18n-aria="previewLabel">
+        <div class="sun-disc" aria-hidden="true"></div>
+        <div class="phone-frame">
+          <img src={`${assetPrefix}assets/welcome-hero.png`} alt={c.heroImageAlt} data-i18n-alt="heroImageAlt" width="1024" height="1024" />
+          <div class="phone-top"></div>
+          <div class="progress-card"><div><span data-i18n="nextStop">{c.nextStop}</span><strong data-i18n="cityName">{c.cityName}</strong></div><b>72%</b><div class="progress-track"><i></i></div></div>
+        </div>
+        <div class="floating-card steps-card"><span class="card-icon">👟</span><span><strong>8,420</strong><small data-i18n="stepsToday">{c.stepsToday}</small></span></div>
+        <div class="floating-card stamp-card"><span>✓</span><small data-i18n="stampUnlocked">{c.stampUnlocked}</small></div>
+      </div>
+    </div>
+  </section>
+  <section class="proof-strip" aria-label="Highlights"><div class="shell proof-grid">{proofItems.map(([title, text]) => <div><strong data-i18n={title}>{c[title]}</strong><span data-i18n={text}>{c[text]}</span></div>)}</div></section>
+  <section class="section how" id="how"><div class="shell">
+    <div class="section-heading"><span class="section-kicker" data-i18n="howKicker">{c.howKicker}</span><h2 data-i18n="howTitle">{c.howTitle}</h2><p data-i18n="howText">{c.howText}</p></div>
+    <div class="steps-grid">{steps.map(([number, icon, className, title, text]) => <article><span class="step-number">{number}</span><div class:list={["step-icon", className]}>{icon}</div><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}</div>
+  </div></section>
+  <section class="section journey" id="journey"><div class="shell journey-grid">
+    <div class="journey-copy"><span class="section-kicker" data-i18n="journeyKicker">{c.journeyKicker}</span><h2 data-i18n="journeyTitle">{c.journeyTitle}</h2><p data-i18n="journeyText">{c.journeyText}</p><ul>
+      {["journeyPoint1", "journeyPoint2", "journeyPoint3"].map((key) => <li><span>✓</span><span data-i18n={key}>{c[key]}</span></li>)}
+    </ul></div>
+    <div class="route-board" aria-label={c.routeLabel} data-i18n-aria="routeLabel">
+      <a class="route-board-link" href="./europe-explorer.html" aria-label="Europe Explorer route guide">Europe Explorer →</a>
+      <div class="route-top"><span data-i18n="activeRoute">{c.activeRoute}</span><b data-i18n="routeName">{c.routeName}</b></div>
+      <div class="route-line"><span class="route-fill"></span><i class="pin start">✓</i><i class="pin mid">2</i><i class="pin end">3</i></div>
+      <div class="route-cities"><div><b>Berlin</b><small data-i18n="completed">{c.completed}</small></div><div><b>Prague</b><small data-i18n="currentStop">{c.currentStop}</small></div><div><b>Vienna</b><small data-i18n="upNext">{c.upNext}</small></div></div>
+      <div class="route-stats"><div><span data-i18n="distanceWalked">{c.distanceWalked}</span><strong>31.6 km</strong></div><div><span data-i18n="streak">{c.streak}</span><strong>7 <small data-i18n="days">{c.days}</small></strong></div></div>
+    </div>
+  </div></section>
+  <section class="section features" id="features"><div class="shell">
+    <div class="section-heading compact"><span class="section-kicker" data-i18n="featuresKicker">{c.featuresKicker}</span><h2 data-i18n="featuresTitle">{c.featuresTitle}</h2></div>
+    <div class="feature-grid">{features.map(([icon, title, text]) => <article><span>{icon}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}</div>
+  </div></section>
+  <section class="cta-section"><div class="shell cta-card"><div><span class="section-kicker light" data-i18n="ctaKicker">{c.ctaKicker}</span><h2 data-i18n="ctaTitle">{c.ctaTitle}</h2><p data-i18n="ctaText">{c.ctaText}</p></div><GooglePlayButton label={c.playSmall} light /></div></section>
+</main>

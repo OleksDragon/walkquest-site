@@ -55,6 +55,10 @@ export interface PrivacyContent {
   blocks: PrivacyBlock[];
 }
 
+export interface LandingContent {
+  copy: Record<string, string>;
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
@@ -63,6 +67,7 @@ export interface PageData {
   bodyAttributes: Record<string, string>;
   mainHtml?: string;
   privacy?: PrivacyContent;
+  landing?: LandingContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

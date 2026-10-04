@@ -43,6 +43,9 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
       if (page.chrome === "privacy" && (page.mainHtml || !page.privacy?.blocks?.length)) {
         errors.push(`${filename}:${locale}: privacy content is not structured.`);
       }
+      if (page.chrome === "landing" && (page.mainHtml || !page.landing?.copy?.heroTitle)) {
+        errors.push(`${filename}:${locale}: landing content is not structured.`);
+      }
       if (!head?.title || !head.description || !head.canonical) errors.push(`${filename}:${locale}: incomplete SEO head data.`);
       if (head?.alternates?.length !== 17) errors.push(`${filename}:${locale}: expected 17 hreflang links.`);
       if (!Array.isArray(head?.structuredData) || !Array.isArray(head?.scripts) || !Array.isArray(head?.inlineStyles)) {

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import LandingPage from "../components/LandingPage.astro";
 import PrivacyPage from "../components/PrivacyPage.astro";
 import type { PageData } from "../lib/page-data";
 
@@ -11,5 +12,5 @@ const { page } = Astro.props;
 ---
 
 <BaseLayout page={page}>
-  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : <Fragment set:html={page.mainHtml!} />}
+  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : page.chrome === "landing" ? <LandingPage page={page} /> : <Fragment set:html={page.mainHtml!} />}
 </BaseLayout>

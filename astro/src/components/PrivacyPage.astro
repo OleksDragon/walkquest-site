@@ -1,0 +1,31 @@
+---
+import InlineContent from "./InlineContent.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props {
+  page: PageData;
+}
+
+const { page } = Astro.props;
+if (!page.privacy) throw new Error(`Missing privacy content for ${page.relativePath}`);
+const { privacy } = page;
+---
+
+<main id="main" class="privacy-page" style="width:min(780px,calc(100% - 32px));margin:0 auto;padding:64px 0 80px;">
+  <header class="privacy-toolbar">
+    <a id="privacyBackLink" href="./index.html" style="display:inline-block;margin-bottom:32px;font-weight:800;">{privacy.backLabel}</a>
+    <label class="privacy-language" for="privacyLanguageSelect">
+      <span id="privacyLanguageLabel">{privacy.languageLabel}</span>
+      <select id="privacyLanguageSelect" aria-label={privacy.languageLabel}></select>
+    </label>
+  </header>
+  <article id="privacyContent" style="background:#fff;border:1px solid rgba(23,60,63,.12);border-radius:28px;padding:clamp(24px,5vw,56px);box-shadow:0 20px 60px rgba(23,60,63,.08);">
+    {privacy.blocks.map((block) => block.type === "heading" ? (
+      block.level === 1 ? <h1><InlineContent nodes={block.content} /></h1> : <h2><InlineContent nodes={block.content} /></h2>
+    ) : block.type === "paragraph" ? (
+      <p class={block.updated ? "privacy-updated" : undefined}><InlineContent nodes={block.content} /></p>
+    ) : (
+      <ul>{block.items.map((item) => <li><InlineContent nodes={item} /></li>)}</ul>
+    ))}
+  </article>
+</main>

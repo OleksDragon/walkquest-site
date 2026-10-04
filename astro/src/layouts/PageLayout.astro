@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import PrivacyPage from "../components/PrivacyPage.astro";
 import type { PageData } from "../lib/page-data";
 
 interface Props {
@@ -10,5 +11,5 @@ const { page } = Astro.props;
 ---
 
 <BaseLayout page={page}>
-  <Fragment set:html={page.mainHtml} />
+  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : <Fragment set:html={page.mainHtml!} />}
 </BaseLayout>

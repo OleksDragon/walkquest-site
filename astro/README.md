@@ -18,6 +18,8 @@ SEO metadata is structured and type-checked in `src/lib/page-data.ts`. `BaseLayo
 
 Page chrome is component-based: the landing page and information pages use dedicated Astro header/footer components, privacy intentionally uses a minimal shell, and body scripts are declared as structured data. Raw header, footer, and script HTML fields are rejected by validation.
 
+The privacy policy is also component-rendered from typed rich-text blocks (headings, paragraphs, lists, emphasis, and links) for every locale; it no longer uses a raw main HTML fragment.
+
 The build keeps the existing `.html` URLs, emits all 240 localized pages, generates `sitemap.xml`, preserves the custom domain, and deploys through the official Astro GitHub Pages action.
 
 New route work should copy an existing file in `src/data/routes/` and add the new slug to `src/lib/route-pages.ts`.

@@ -40,13 +40,29 @@ export interface HeadData {
   inlineStyles: string[];
 }
 
+export type InlineNode =
+  | { type: "text" | "strong"; text: string }
+  | { type: "link"; text: string; href: string; external: boolean; strong: boolean };
+
+export type PrivacyBlock =
+  | { type: "heading"; level: 1 | 2; content: InlineNode[] }
+  | { type: "paragraph"; updated: boolean; content: InlineNode[] }
+  | { type: "list"; items: InlineNode[][] };
+
+export interface PrivacyContent {
+  backLabel: string;
+  languageLabel: string;
+  blocks: PrivacyBlock[];
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
   dir: string;
   head: HeadData;
   bodyAttributes: Record<string, string>;
-  mainHtml: string;
+  mainHtml?: string;
+  privacy?: PrivacyContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

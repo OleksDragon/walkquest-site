@@ -5,7 +5,6 @@
       "relativePath": "rules.html",
       "lang": "en",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest Game Guide — Turn Real Steps Into Travel</title>\n  <meta name=\"description\" content=\"Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"./styles.css\">\n  <link rel=\"stylesheet\" href=\"./pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"WalkQuest Game Guide — Turn Real Steps Into Travel\">\n  <meta property=\"og:description\" content=\"Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"en\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest Game Guide — Turn Real Steps Into Travel\">\n  <meta name=\"twitter:description\" content=\"Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -26,13 +25,130 @@
         "languageLabel": "Choose language",
         "footerTagline": "Real steps. Remarkable journeys.",
         "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Game Guide — Turn Real Steps Into Travel",
+        "description": "Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Game Guide — Turn Real Steps Into Travel",
+          "description": "Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Game Guide — Turn Real Steps Into Travel",
+          "description": "Learn how WalkQuest converts real Health Connect steps into virtual route progress, unlocks cities, shows your position and handles water crossings safely.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "uk": {
       "relativePath": "uk/rules.html",
       "lang": "uk",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Посібник з гри | WalkQuest</title>\n  <meta name=\"description\" content=\"Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Посібник з гри | WalkQuest\">\n  <meta property=\"og:description\" content=\"Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/uk/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"uk\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Посібник з гри | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/uk/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -53,13 +169,130 @@
         "languageLabel": "Виберіть мову",
         "footerTagline": "Реальні кроки. Чудові подорожі.",
         "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Посібник з гри | WalkQuest",
+        "description": "Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Посібник з гри | WalkQuest",
+          "description": "Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Посібник з гри | WalkQuest",
+          "description": "Дізнайтеся, як реальні кроки рухаються по карті WalkQuest, як розблоковуються міста та як працюють пересадки на поромах, поїздах і літаках.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/uk/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ru": {
       "relativePath": "ru/rules.html",
       "lang": "ru",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Руководство по игре | WalkQuest</title>\n  <meta name=\"description\" content=\"Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Руководство по игре | WalkQuest\">\n  <meta property=\"og:description\" content=\"Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ru/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ru\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Руководство по игре | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ru/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -80,13 +313,130 @@
         "languageLabel": "Выберите язык",
         "footerTagline": "Реальные шаги. Замечательные путешествия.",
         "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Руководство по игре | WalkQuest",
+        "description": "Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Руководство по игре | WalkQuest",
+          "description": "Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Руководство по игре | WalkQuest",
+          "description": "Узнайте, как реальные шаги перемещают вас по карте WalkQuest, как открываются города и как работают пересадки на пароме, поезде и самолете.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/ru/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "es": {
       "relativePath": "es/rules.html",
       "lang": "es",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Guía del juego | WalkQuest</title>\n  <meta name=\"description\" content=\"Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Guía del juego | WalkQuest\">\n  <meta property=\"og:description\" content=\"Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/es/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"es\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Guía del juego | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/es/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -107,13 +457,130 @@
         "languageLabel": "Elige idioma",
         "footerTagline": "Pasos reales. Viajes notables.",
         "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Guía del juego | WalkQuest",
+        "description": "Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Guía del juego | WalkQuest",
+          "description": "Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Guía del juego | WalkQuest",
+          "description": "Descubra cómo los pasos reales lo mueven por el mapa WalkQuest, cómo se desbloquean las ciudades y cómo funcionan los traslados en ferry, tren y avión.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/es/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "de": {
       "relativePath": "de/rules.html",
       "lang": "de",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Spielanleitung | WalkQuest</title>\n  <meta name=\"description\" content=\"Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Spielanleitung | WalkQuest\">\n  <meta property=\"og:description\" content=\"Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/de/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"de\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Spielanleitung | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/de/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -134,13 +601,130 @@
         "languageLabel": "Sprache wählen",
         "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
         "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Spielanleitung | WalkQuest",
+        "description": "Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Spielanleitung | WalkQuest",
+          "description": "Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Spielanleitung | WalkQuest",
+          "description": "Erfahren Sie, wie echte Schritte Sie über die WalkQuest-Karte bewegen, wie Städte freigeschaltet werden und wie Fähr-, Zug- und Flugtransfers funktionieren.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/de/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "fr": {
       "relativePath": "fr/rules.html",
       "lang": "fr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Guide du jeu | WalkQuest</title>\n  <meta name=\"description\" content=\"Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Guide du jeu | WalkQuest\">\n  <meta property=\"og:description\" content=\"Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/fr/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"fr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Guide du jeu | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/fr/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -161,13 +745,130 @@
         "languageLabel": "Choisir la langue",
         "footerTagline": "De vraies étapes. Des voyages remarquables.",
         "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Guide du jeu | WalkQuest",
+        "description": "Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Guide du jeu | WalkQuest",
+          "description": "Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Guide du jeu | WalkQuest",
+          "description": "Découvrez comment de véritables étapes vous font parcourir la carte WalkQuest, comment les villes se déverrouillent et comment fonctionnent les transferts en ferry, en train et en avion.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/fr/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pl": {
       "relativePath": "pl/rules.html",
       "lang": "pl",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Przewodnik po grze | WalkQuest</title>\n  <meta name=\"description\" content=\"Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Przewodnik po grze | WalkQuest\">\n  <meta property=\"og:description\" content=\"Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pl/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pl\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Przewodnik po grze | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pl/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -188,13 +889,130 @@
         "languageLabel": "Wybierz język",
         "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
         "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Przewodnik po grze | WalkQuest",
+        "description": "Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Przewodnik po grze | WalkQuest",
+          "description": "Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Przewodnik po grze | WalkQuest",
+          "description": "Dowiedz się, jak prawdziwe kroki prowadzą Cię po mapie WalkQuest, jak odblokowują się miasta i jak działają promy, pociągi i transfery lotnicze.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/pl/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt": {
       "relativePath": "pt/rules.html",
       "lang": "pt",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Guia do jogo | WalkQuest</title>\n  <meta name=\"description\" content=\"Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Guia do jogo | WalkQuest\">\n  <meta property=\"og:description\" content=\"Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Guia do jogo | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -215,13 +1033,130 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Guia do jogo | WalkQuest",
+        "description": "Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Guia do jogo | WalkQuest",
+          "description": "Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Guia do jogo | WalkQuest",
+          "description": "Saiba como os passos reais o movem pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de ferry, comboio e voo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/pt/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "it": {
       "relativePath": "it/rules.html",
       "lang": "it",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Guida al gioco | WalkQuest</title>\n  <meta name=\"description\" content=\"Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Guida al gioco | WalkQuest\">\n  <meta property=\"og:description\" content=\"Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/it/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"it\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Guida al gioco | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/it/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -242,13 +1177,130 @@
         "languageLabel": "Scegli la lingua",
         "footerTagline": "Passi veri. Viaggi straordinari.",
         "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Guida al gioco | WalkQuest",
+        "description": "Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Guida al gioco | WalkQuest",
+          "description": "Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Guida al gioco | WalkQuest",
+          "description": "Scopri come i passi reali ti spostano sulla mappa WalkQuest, come si sbloccano le città e come funzionano i trasferimenti in traghetto, treno e volo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/it/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "tr": {
       "relativePath": "tr/rules.html",
       "lang": "tr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Oyun rehberi | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Oyun rehberi | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/tr/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"tr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Oyun rehberi | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/tr/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -269,13 +1321,130 @@
         "languageLabel": "Dil seçin",
         "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
         "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Oyun rehberi | WalkQuest",
+        "description": "WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Oyun rehberi | WalkQuest",
+          "description": "WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Oyun rehberi | WalkQuest",
+          "description": "WalkQuest haritasında gerçek adımların sizi nasıl yönlendirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ve uçuş transferlerinin nasıl çalıştığını öğrenin.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/tr/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ja": {
       "relativePath": "ja/rules.html",
       "lang": "ja",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>ゲームガイド | WalkQuest</title>\n  <meta name=\"description\" content=\"実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"ゲームガイド | WalkQuest\">\n  <meta property=\"og:description\" content=\"実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ja/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ja\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"ゲームガイド | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ja/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -296,13 +1465,130 @@
         "languageLabel": "言語を選択してください",
         "footerTagline": "本当のステップ。素晴らしい旅。",
         "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "ゲームガイド | WalkQuest",
+        "description": "実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "ゲームガイド | WalkQuest",
+          "description": "実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "ゲームガイド | WalkQuest",
+          "description": "実際のステップで WalkQuest マップ内を移動する方法、都市のロックが解除される方法、フェリー、電車、飛行機の移動方法を学びましょう。",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/ja/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ko": {
       "relativePath": "ko/rules.html",
       "lang": "ko",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>게임 가이드 | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"게임 가이드 | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ko/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ko\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"게임 가이드 | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ko/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -323,13 +1609,130 @@
         "languageLabel": "언어를 선택하세요",
         "footerTagline": "실제 단계. 놀라운 여행.",
         "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "게임 가이드 | WalkQuest",
+        "description": "WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "게임 가이드 | WalkQuest",
+          "description": "WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "게임 가이드 | WalkQuest",
+          "description": "WalkQuest 지도에서 실제 단계로 이동하는 방법, 도시 잠금 해제 방법, 페리, 기차 및 항공편 환승 방법을 알아보세요.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/ko/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "zh-cn": {
       "relativePath": "zh-cn/rules.html",
       "lang": "zh-CN",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>游戏指南| WalkQuest</title>\n  <meta name=\"description\" content=\"了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"游戏指南| WalkQuest\">\n  <meta property=\"og:description\" content=\"了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/zh-cn/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"zh_CN\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"游戏指南| WalkQuest\">\n  <meta name=\"twitter:description\" content=\"了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/zh-cn/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -350,13 +1753,130 @@
         "languageLabel": "选择语言",
         "footerTagline": "真实的步骤。非凡的旅程。",
         "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "游戏指南| WalkQuest",
+        "description": "了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "游戏指南| WalkQuest",
+          "description": "了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "游戏指南| WalkQuest",
+          "description": "了解真实的步骤如何让您穿越 WalkQuest 地图、城市如何解锁以及渡轮、火车和航班转乘如何运作。",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/zh-cn/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ar": {
       "relativePath": "ar/rules.html",
       "lang": "ar",
       "dir": "rtl",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>دليل اللعبة | WalkQuest</title>\n  <meta name=\"description\" content=\"تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"دليل اللعبة | WalkQuest\">\n  <meta property=\"og:description\" content=\"تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ar/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ar\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"دليل اللعبة | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ar/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -377,13 +1897,130 @@
         "languageLabel": "اختر اللغة",
         "footerTagline": "خطوات حقيقية. رحلات رائعة.",
         "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "دليل اللعبة | WalkQuest",
+        "description": "تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "دليل اللعبة | WalkQuest",
+          "description": "تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "دليل اللعبة | WalkQuest",
+          "description": "تعرف على كيفية تنقلك الخطوات الحقيقية عبر خريطة WalkQuest، وكيفية فتح المدن، وكيفية عمل النقل بالعبّارات والقطارات والطيران.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/ar/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "hi": {
       "relativePath": "hi/rules.html",
       "lang": "hi",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>गेम गाइड | WalkQuest</title>\n  <meta name=\"description\" content=\"जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"गेम गाइड | WalkQuest\">\n  <meta property=\"og:description\" content=\"जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/hi/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"hi\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"गेम गाइड | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/hi/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -404,13 +2041,130 @@
         "languageLabel": "भाषा चुनें",
         "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
         "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "गेम गाइड | WalkQuest",
+        "description": "जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "गेम गाइड | WalkQuest",
+          "description": "जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "गेम गाइड | WalkQuest",
+          "description": "जानें कि वास्तविक कदम आपको WalkQuest मानचित्र पर कैसे ले जाते हैं, शहर कैसे अनलॉक होते हैं, और नौका, ट्रेन और उड़ान स्थानांतरण कैसे काम करते हैं।",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/hi/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt-br": {
       "relativePath": "pt-br/rules.html",
       "lang": "pt-BR",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Guia do jogo | WalkQuest</title>\n  <meta name=\"description\" content=\"Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/rules.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/rules.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/rules.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/rules.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/rules.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/rules.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/rules.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/rules.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/rules.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/rules.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/rules.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/rules.html\">\n  <meta property=\"og:title\" content=\"Guia do jogo | WalkQuest\">\n  <meta property=\"og:description\" content=\"Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest game guide with map, city markers and ferry crossings\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt-br/rules.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt_BR\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Guia do jogo | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/guide-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt-br/rules.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "guide"
@@ -431,6 +2185,124 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Guia do jogo | WalkQuest",
+        "description": "Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/rules.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/rules.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/rules.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/rules.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/rules.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/rules.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/rules.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/rules.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/rules.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/rules.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/rules.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/rules.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/rules.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/rules.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/rules.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/rules.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/rules.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/rules.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Guia do jogo | WalkQuest",
+          "description": "Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "imageAlt": "WalkQuest game guide with map, city markers and ferry crossings",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/rules.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Guia do jogo | WalkQuest",
+          "description": "Aprenda como etapas reais movem você pelo mapa WalkQuest, como as cidades são desbloqueadas e como funcionam as transferências de balsa, trem e voo.",
+          "image": "https://walkquest.site/assets/guide-hero.png",
+          "url": "https://walkquest.site/pt-br/rules.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     }
   }

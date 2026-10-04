@@ -5,7 +5,6 @@
       "relativePath": "news.html",
       "lang": "en",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest News — Updates, Routes and Walking Guides</title>\n  <meta name=\"description\" content=\"Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"./styles.css\">\n  <link rel=\"stylesheet\" href=\"./pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"WalkQuest News — Updates, Routes and Walking Guides\">\n  <meta property=\"og:description\" content=\"Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"en\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest News — Updates, Routes and Walking Guides\">\n  <meta name=\"twitter:description\" content=\"Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -26,13 +25,130 @@
         "languageLabel": "Choose language",
         "footerTagline": "Real steps. Remarkable journeys.",
         "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest News — Updates, Routes and Walking Guides",
+        "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest News — Updates, Routes and Walking Guides",
+          "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest News — Updates, Routes and Walking Guides",
+          "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "uk": {
       "relativePath": "uk/news.html",
       "lang": "uk",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Новини | WalkQuest</title>\n  <meta name=\"description\" content=\"Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Новини | WalkQuest\">\n  <meta property=\"og:description\" content=\"Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/uk/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"uk\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Новини | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/uk/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -53,13 +169,130 @@
         "languageLabel": "Виберіть мову",
         "footerTagline": "Реальні кроки. Чудові подорожі.",
         "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Новини | WalkQuest",
+        "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Новини | WalkQuest",
+          "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Новини | WalkQuest",
+          "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/uk/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ru": {
       "relativePath": "ru/news.html",
       "lang": "ru",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Новости | WalkQuest</title>\n  <meta name=\"description\" content=\"Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Новости | WalkQuest\">\n  <meta property=\"og:description\" content=\"Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ru/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ru\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Новости | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ru/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -80,13 +313,130 @@
         "languageLabel": "Выберите язык",
         "footerTagline": "Реальные шаги. Замечательные путешествия.",
         "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Новости | WalkQuest",
+        "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Новости | WalkQuest",
+          "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Новости | WalkQuest",
+          "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ru/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "es": {
       "relativePath": "es/news.html",
       "lang": "es",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Noticias | WalkQuest</title>\n  <meta name=\"description\" content=\"Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Noticias | WalkQuest\">\n  <meta property=\"og:description\" content=\"Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/es/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"es\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Noticias | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/es/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -107,13 +457,130 @@
         "languageLabel": "Elige idioma",
         "footerTagline": "Pasos reales. Viajes notables.",
         "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Noticias | WalkQuest",
+        "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Noticias | WalkQuest",
+          "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Noticias | WalkQuest",
+          "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/es/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "de": {
       "relativePath": "de/news.html",
       "lang": "de",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Nachrichten | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Nachrichten | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/de/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"de\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Nachrichten | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/de/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -134,13 +601,130 @@
         "languageLabel": "Sprache wählen",
         "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
         "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Nachrichten | WalkQuest",
+        "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Nachrichten | WalkQuest",
+          "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Nachrichten | WalkQuest",
+          "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/de/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "fr": {
       "relativePath": "fr/news.html",
       "lang": "fr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Actualités | WalkQuest</title>\n  <meta name=\"description\" content=\"Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Actualités | WalkQuest\">\n  <meta property=\"og:description\" content=\"Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/fr/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"fr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Actualités | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/fr/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -161,13 +745,130 @@
         "languageLabel": "Choisir la langue",
         "footerTagline": "De vraies étapes. Des voyages remarquables.",
         "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Actualités | WalkQuest",
+        "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Actualités | WalkQuest",
+          "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Actualités | WalkQuest",
+          "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/fr/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pl": {
       "relativePath": "pl/news.html",
       "lang": "pl",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Wiadomości | WalkQuest</title>\n  <meta name=\"description\" content=\"Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Wiadomości | WalkQuest\">\n  <meta property=\"og:description\" content=\"Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pl/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pl\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Wiadomości | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pl/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -188,13 +889,130 @@
         "languageLabel": "Wybierz język",
         "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
         "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Wiadomości | WalkQuest",
+        "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Wiadomości | WalkQuest",
+          "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Wiadomości | WalkQuest",
+          "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pl/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt": {
       "relativePath": "pt/news.html",
       "lang": "pt",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Notícias | WalkQuest</title>\n  <meta name=\"description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Notícias | WalkQuest\">\n  <meta property=\"og:description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Notícias | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -215,13 +1033,130 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Notícias | WalkQuest",
+        "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "it": {
       "relativePath": "it/news.html",
       "lang": "it",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Novità | WalkQuest</title>\n  <meta name=\"description\" content=\"Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Novità | WalkQuest\">\n  <meta property=\"og:description\" content=\"Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/it/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"it\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Novità | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/it/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -242,13 +1177,130 @@
         "languageLabel": "Scegli la lingua",
         "footerTagline": "Passi veri. Viaggi straordinari.",
         "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Novità | WalkQuest",
+        "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Novità | WalkQuest",
+          "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Novità | WalkQuest",
+          "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/it/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "tr": {
       "relativePath": "tr/news.html",
       "lang": "tr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Haberler | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Haberler | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/tr/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"tr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Haberler | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/tr/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -269,13 +1321,130 @@
         "languageLabel": "Dil seçin",
         "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
         "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Haberler | WalkQuest",
+        "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Haberler | WalkQuest",
+          "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Haberler | WalkQuest",
+          "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/tr/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ja": {
       "relativePath": "ja/news.html",
       "lang": "ja",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>ニュース | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"ニュース | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ja/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ja\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"ニュース | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ja/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -296,13 +1465,130 @@
         "languageLabel": "言語を選択してください",
         "footerTagline": "本当のステップ。素晴らしい旅。",
         "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "ニュース | WalkQuest",
+        "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "ニュース | WalkQuest",
+          "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "ニュース | WalkQuest",
+          "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ja/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ko": {
       "relativePath": "ko/news.html",
       "lang": "ko",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>뉴스 | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"뉴스 | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ko/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ko\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"뉴스 | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ko/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -323,13 +1609,130 @@
         "languageLabel": "언어를 선택하세요",
         "footerTagline": "실제 단계. 놀라운 여행.",
         "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "뉴스 | WalkQuest",
+        "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "뉴스 | WalkQuest",
+          "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "뉴스 | WalkQuest",
+          "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ko/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "zh-cn": {
       "relativePath": "zh-cn/news.html",
       "lang": "zh-CN",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>新闻 | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"新闻 | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/zh-cn/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"zh_CN\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"新闻 | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/zh-cn/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -350,13 +1753,130 @@
         "languageLabel": "选择语言",
         "footerTagline": "真实的步骤。非凡的旅程。",
         "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "新闻 | WalkQuest",
+        "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "新闻 | WalkQuest",
+          "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "新闻 | WalkQuest",
+          "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/zh-cn/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ar": {
       "relativePath": "ar/news.html",
       "lang": "ar",
       "dir": "rtl",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>الأخبار | WalkQuest</title>\n  <meta name=\"description\" content=\"تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"الأخبار | WalkQuest\">\n  <meta property=\"og:description\" content=\"تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ar/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ar\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"الأخبار | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ar/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -377,13 +1897,130 @@
         "languageLabel": "اختر اللغة",
         "footerTagline": "خطوات حقيقية. رحلات رائعة.",
         "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "الأخبار | WalkQuest",
+        "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "الأخبار | WalkQuest",
+          "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "الأخبار | WalkQuest",
+          "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ar/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "hi": {
       "relativePath": "hi/news.html",
       "lang": "hi",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>समाचार | WalkQuest</title>\n  <meta name=\"description\" content=\"WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"समाचार | WalkQuest\">\n  <meta property=\"og:description\" content=\"WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/hi/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"hi\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"समाचार | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/hi/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -404,13 +2041,130 @@
         "languageLabel": "भाषा चुनें",
         "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
         "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "समाचार | WalkQuest",
+        "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "समाचार | WalkQuest",
+          "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "समाचार | WalkQuest",
+          "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/hi/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt-br": {
       "relativePath": "pt-br/news.html",
       "lang": "pt-BR",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Notícias | WalkQuest</title>\n  <meta name=\"description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/news.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/news.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/news.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/news.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/news.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/news.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/news.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/news.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/news.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/news.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/news.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/news.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/news.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/news.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/news.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/news.html\">\n  <meta property=\"og:title\" content=\"Notícias | WalkQuest\">\n  <meta property=\"og:description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest news, route stories and practical walking guides\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt-br/news.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt_BR\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Notícias | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt-br/news.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "news"
@@ -431,6 +2185,124 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Notícias | WalkQuest",
+        "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt-br/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     }
   }

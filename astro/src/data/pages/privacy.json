@@ -5,7 +5,6 @@
       "relativePath": "privacy.html",
       "lang": "en",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Privacy Policy — Health Connect and Data</title>\n  <meta name=\"description\" content=\"Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"./styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Privacy Policy — Health Connect and Data\">\n  <meta property=\"og:description\" content=\"Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"en\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Privacy Policy — Health Connect and Data\">\n  <meta name=\"twitter:description\" content=\"Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Privacy Policy — Health Connect and Data\",\n  \"url\": \"https://walkquest.site/privacy.html\",\n  \"inLanguage\": \"en\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -25,13 +24,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Privacy Policy — Health Connect and Data",
+        "description": "Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "./styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Privacy Policy — Health Connect and Data",
+          "description": "Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Privacy Policy — Health Connect and Data",
+          "description": "Read how WalkQuest handles Health Connect step data, local game progress, purchases, advertising, analytics and your privacy choices on Android securely.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Privacy Policy — Health Connect and Data",
+            "url": "https://walkquest.site/privacy.html",
+            "inLanguage": "en",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "uk": {
       "relativePath": "uk/privacy.html",
       "lang": "uk",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Політика конфіденційності</title>\n  <meta name=\"description\" content=\"Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Політика конфіденційності\">\n  <meta property=\"og:description\" content=\"Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/uk/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"uk\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Політика конфіденційності\">\n  <meta name=\"twitter:description\" content=\"Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/uk/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Політика конфіденційності\",\n  \"url\": \"https://walkquest.site/uk/privacy.html\",\n  \"inLanguage\": \"uk\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -51,13 +166,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Політика конфіденційності",
+        "description": "Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Політика конфіденційності",
+          "description": "Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Політика конфіденційності",
+          "description": "Політика конфіденційності WalkQuest: як ми обробляємо дані кроків, Health Connect, покупки, рекламу та аналітику.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/uk/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Політика конфіденційності",
+            "url": "https://walkquest.site/uk/privacy.html",
+            "inLanguage": "uk",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "ru": {
       "relativePath": "ru/privacy.html",
       "lang": "ru",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Политика конфиденциальности</title>\n  <meta name=\"description\" content=\"Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Политика конфиденциальности\">\n  <meta property=\"og:description\" content=\"Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ru/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ru\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Политика конфиденциальности\">\n  <meta name=\"twitter:description\" content=\"Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ru/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Политика конфиденциальности\",\n  \"url\": \"https://walkquest.site/ru/privacy.html\",\n  \"inLanguage\": \"ru\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -77,13 +308,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Политика конфиденциальности",
+        "description": "Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Политика конфиденциальности",
+          "description": "Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Политика конфиденциальности",
+          "description": "Политика конфиденциальности WalkQuest: как мы обрабатываем данные о шагах, Health Connect, покупках, рекламе и аналитике.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ru/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Политика конфиденциальности",
+            "url": "https://walkquest.site/ru/privacy.html",
+            "inLanguage": "ru",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "es": {
       "relativePath": "es/privacy.html",
       "lang": "es",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Política de privacidad</title>\n  <meta name=\"description\" content=\"Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Política de privacidad\">\n  <meta property=\"og:description\" content=\"Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/es/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"es\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Política de privacidad\">\n  <meta name=\"twitter:description\" content=\"Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/es/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Política de privacidad\",\n  \"url\": \"https://walkquest.site/es/privacy.html\",\n  \"inLanguage\": \"es\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -103,13 +450,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Política de privacidad",
+        "description": "Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Política de privacidad",
+          "description": "Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Política de privacidad",
+          "description": "Política de privacidad de WalkQuest: cómo manejamos los datos de pasos, Health Connect, compras, anuncios y análisis.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/es/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Política de privacidad",
+            "url": "https://walkquest.site/es/privacy.html",
+            "inLanguage": "es",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "de": {
       "relativePath": "de/privacy.html",
       "lang": "de",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Datenschutzrichtlinie</title>\n  <meta name=\"description\" content=\"WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Datenschutzrichtlinie\">\n  <meta property=\"og:description\" content=\"WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/de/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"de\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Datenschutzrichtlinie\">\n  <meta name=\"twitter:description\" content=\"WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/de/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Datenschutzrichtlinie\",\n  \"url\": \"https://walkquest.site/de/privacy.html\",\n  \"inLanguage\": \"de\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -129,13 +592,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Datenschutzrichtlinie",
+        "description": "WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Datenschutzrichtlinie",
+          "description": "WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Datenschutzrichtlinie",
+          "description": "WalkQuest-Datenschutzrichtlinie: Wie wir mit Schrittdaten, Health Connect, Käufen, Anzeigen und Analysen umgehen.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/de/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Datenschutzrichtlinie",
+            "url": "https://walkquest.site/de/privacy.html",
+            "inLanguage": "de",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "fr": {
       "relativePath": "fr/privacy.html",
       "lang": "fr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Politique de confidentialité</title>\n  <meta name=\"description\" content=\"Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Politique de confidentialité\">\n  <meta property=\"og:description\" content=\"Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/fr/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"fr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Politique de confidentialité\">\n  <meta name=\"twitter:description\" content=\"Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/fr/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Politique de confidentialité\",\n  \"url\": \"https://walkquest.site/fr/privacy.html\",\n  \"inLanguage\": \"fr\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -155,13 +734,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Politique de confidentialité",
+        "description": "Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Politique de confidentialité",
+          "description": "Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Politique de confidentialité",
+          "description": "Politique de confidentialité de WalkQuest : comment nous traitons les données de pas, Health Connect, les achats, les publicités et les analyses.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/fr/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Politique de confidentialité",
+            "url": "https://walkquest.site/fr/privacy.html",
+            "inLanguage": "fr",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "pl": {
       "relativePath": "pl/privacy.html",
       "lang": "pl",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Polityka prywatności</title>\n  <meta name=\"description\" content=\"Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Polityka prywatności\">\n  <meta property=\"og:description\" content=\"Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pl/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pl\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Polityka prywatności\">\n  <meta name=\"twitter:description\" content=\"Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pl/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Polityka prywatności\",\n  \"url\": \"https://walkquest.site/pl/privacy.html\",\n  \"inLanguage\": \"pl\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -181,13 +876,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Polityka prywatności",
+        "description": "Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Polityka prywatności",
+          "description": "Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Polityka prywatności",
+          "description": "Polityka prywatności WalkQuest: jak postępujemy z danymi krokowymi, Health Connect, zakupami, reklamami i analityką.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pl/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Polityka prywatności",
+            "url": "https://walkquest.site/pl/privacy.html",
+            "inLanguage": "pl",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "pt": {
       "relativePath": "pt/privacy.html",
       "lang": "pt",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Política de Privacidade</title>\n  <meta name=\"description\" content=\"Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Política de Privacidade\">\n  <meta property=\"og:description\" content=\"Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Política de Privacidade\">\n  <meta name=\"twitter:description\" content=\"Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Política de Privacidade\",\n  \"url\": \"https://walkquest.site/pt/privacy.html\",\n  \"inLanguage\": \"pt\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -207,13 +1018,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Política de Privacidade",
+        "description": "Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Política de Privacidade",
+          "description": "Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Política de Privacidade",
+          "description": "Política de privacidade WalkQuest: como lidamos com os dados de etapas, Health Connect, compras, anúncios e análises.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Política de Privacidade",
+            "url": "https://walkquest.site/pt/privacy.html",
+            "inLanguage": "pt",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "it": {
       "relativePath": "it/privacy.html",
       "lang": "it",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Informativa sulla privacy</title>\n  <meta name=\"description\" content=\"Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Informativa sulla privacy\">\n  <meta property=\"og:description\" content=\"Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/it/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"it\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Informativa sulla privacy\">\n  <meta name=\"twitter:description\" content=\"Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/it/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Informativa sulla privacy\",\n  \"url\": \"https://walkquest.site/it/privacy.html\",\n  \"inLanguage\": \"it\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -233,13 +1160,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Informativa sulla privacy",
+        "description": "Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Informativa sulla privacy",
+          "description": "Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Informativa sulla privacy",
+          "description": "Informativa sulla privacy WalkQuest: come gestiamo i dati sui passaggi, Health Connect, acquisti, annunci e analisi.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/it/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Informativa sulla privacy",
+            "url": "https://walkquest.site/it/privacy.html",
+            "inLanguage": "it",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "tr": {
       "relativePath": "tr/privacy.html",
       "lang": "tr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Gizlilik Politikası</title>\n  <meta name=\"description\" content=\"WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Gizlilik Politikası\">\n  <meta property=\"og:description\" content=\"WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/tr/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"tr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Gizlilik Politikası\">\n  <meta name=\"twitter:description\" content=\"WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/tr/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Gizlilik Politikası\",\n  \"url\": \"https://walkquest.site/tr/privacy.html\",\n  \"inLanguage\": \"tr\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -259,13 +1302,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Gizlilik Politikası",
+        "description": "WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Gizlilik Politikası",
+          "description": "WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Gizlilik Politikası",
+          "description": "WalkQuest gizlilik politikası: adım verilerini, Health Connect, satın alma işlemlerini, reklamları ve analizleri nasıl ele alıyoruz.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/tr/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Gizlilik Politikası",
+            "url": "https://walkquest.site/tr/privacy.html",
+            "inLanguage": "tr",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "ja": {
       "relativePath": "ja/privacy.html",
       "lang": "ja",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — プライバシーポリシー</title>\n  <meta name=\"description\" content=\"WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — プライバシーポリシー\">\n  <meta property=\"og:description\" content=\"WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ja/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ja\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — プライバシーポリシー\">\n  <meta name=\"twitter:description\" content=\"WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ja/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — プライバシーポリシー\",\n  \"url\": \"https://walkquest.site/ja/privacy.html\",\n  \"inLanguage\": \"ja\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -285,13 +1444,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — プライバシーポリシー",
+        "description": "WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — プライバシーポリシー",
+          "description": "WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — プライバシーポリシー",
+          "description": "WalkQuest プライバシー ポリシー: 歩数データ、Health Connect、購入、広告、分析の処理方法。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ja/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — プライバシーポリシー",
+            "url": "https://walkquest.site/ja/privacy.html",
+            "inLanguage": "ja",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "ko": {
       "relativePath": "ko/privacy.html",
       "lang": "ko",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — 개인 정보 보호 정책</title>\n  <meta name=\"description\" content=\"WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — 개인 정보 보호 정책\">\n  <meta property=\"og:description\" content=\"WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ko/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ko\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — 개인 정보 보호 정책\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ko/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — 개인 정보 보호 정책\",\n  \"url\": \"https://walkquest.site/ko/privacy.html\",\n  \"inLanguage\": \"ko\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -311,13 +1586,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — 개인 정보 보호 정책",
+        "description": "WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — 개인 정보 보호 정책",
+          "description": "WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — 개인 정보 보호 정책",
+          "description": "WalkQuest 개인 정보 보호 정책: 걸음 수 데이터, Health Connect, 구매, 광고 및 분석을 처리하는 방법.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ko/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — 개인 정보 보호 정책",
+            "url": "https://walkquest.site/ko/privacy.html",
+            "inLanguage": "ko",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "zh-cn": {
       "relativePath": "zh-cn/privacy.html",
       "lang": "zh-CN",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — 隐私政策</title>\n  <meta name=\"description\" content=\"WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — 隐私政策\">\n  <meta property=\"og:description\" content=\"WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/zh-cn/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"zh_CN\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — 隐私政策\">\n  <meta name=\"twitter:description\" content=\"WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/zh-cn/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — 隐私政策\",\n  \"url\": \"https://walkquest.site/zh-cn/privacy.html\",\n  \"inLanguage\": \"zh-CN\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -337,13 +1728,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — 隐私政策",
+        "description": "WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — 隐私政策",
+          "description": "WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — 隐私政策",
+          "description": "WalkQuest 隐私政策：我们如何处理步骤数据、Health Connect、购买、广告和分析。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/zh-cn/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — 隐私政策",
+            "url": "https://walkquest.site/zh-cn/privacy.html",
+            "inLanguage": "zh-CN",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "ar": {
       "relativePath": "ar/privacy.html",
       "lang": "ar",
       "dir": "rtl",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — سياسة الخصوصية</title>\n  <meta name=\"description\" content=\"سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — سياسة الخصوصية\">\n  <meta property=\"og:description\" content=\"سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ar/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ar\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — سياسة الخصوصية\">\n  <meta name=\"twitter:description\" content=\"سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ar/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — سياسة الخصوصية\",\n  \"url\": \"https://walkquest.site/ar/privacy.html\",\n  \"inLanguage\": \"ar\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -363,13 +1870,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — سياسة الخصوصية",
+        "description": "سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — سياسة الخصوصية",
+          "description": "سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — سياسة الخصوصية",
+          "description": "سياسة خصوصية WalkQuest: كيف نتعامل مع بيانات الخطوات، Health Connect والمشتريات والإعلانات والتحليلات.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ar/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — سياسة الخصوصية",
+            "url": "https://walkquest.site/ar/privacy.html",
+            "inLanguage": "ar",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "hi": {
       "relativePath": "hi/privacy.html",
       "lang": "hi",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — गोपनीयता नीति</title>\n  <meta name=\"description\" content=\"WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — गोपनीयता नीति\">\n  <meta property=\"og:description\" content=\"WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/hi/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"hi\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — गोपनीयता नीति\">\n  <meta name=\"twitter:description\" content=\"WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/hi/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — गोपनीयता नीति\",\n  \"url\": \"https://walkquest.site/hi/privacy.html\",\n  \"inLanguage\": \"hi\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -389,13 +2012,129 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — गोपनीयता नीति",
+        "description": "WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — गोपनीयता नीति",
+          "description": "WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — गोपनीयता नीति",
+          "description": "WalkQuest गोपनीयता नीति: हम चरण डेटा, Health Connect, खरीदारी, विज्ञापन और विश्लेषण को कैसे संभालते हैं।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/hi/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — गोपनीयता नीति",
+            "url": "https://walkquest.site/hi/privacy.html",
+            "inLanguage": "hi",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     },
     "pt-br": {
       "relativePath": "pt-br/privacy.html",
       "lang": "pt-BR",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest — Política de Privacidade</title>\n  <meta name=\"description\" content=\"Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <style>\n    .privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }\n  </style>\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/privacy.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/privacy.html\">\n  <meta property=\"og:title\" content=\"WalkQuest — Política de Privacidade\">\n  <meta property=\"og:description\" content=\"Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest privacy policy for Health Connect step data\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt-br/privacy.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt_BR\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest — Política de Privacidade\">\n  <meta name=\"twitter:description\" content=\"Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/news-hero-v3.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt-br/privacy.html\">\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WalkQuest — Política de Privacidade\",\n  \"url\": \"https://walkquest.site/pt-br/privacy.html\",\n  \"inLanguage\": \"pt-BR\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://walkquest.site/\"\n  }\n}\n</script>",
       "bodyAttributes": {
         "style": "margin:0;background:#f6f7f2;color:#173c3f;"
       },
@@ -415,6 +2154,123 @@
         "languageLabel": "",
         "footerTagline": "",
         "footerRights": ""
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest — Política de Privacidade",
+        "description": "Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/privacy.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/privacy.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/privacy.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/privacy.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/privacy.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/privacy.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/privacy.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/privacy.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/privacy.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/privacy.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/privacy.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/privacy.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/privacy.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/privacy.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/privacy.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/privacy.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/privacy.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/privacy.html"
+          }
+        ],
+        "preconnects": [],
+        "stylesheets": [
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest — Política de Privacidade",
+          "description": "Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest privacy policy for Health Connect step data",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/privacy.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest — Política de Privacidade",
+          "description": "Política de privacidade WalkQuest: como lidamos com dados de etapas, Health Connect, compras, anúncios e análises.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt-br/privacy.html"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "WalkQuest — Política de Privacidade",
+            "url": "https://walkquest.site/pt-br/privacy.html",
+            "inLanguage": "pt-BR",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://walkquest.site/"
+            }
+          }
+        ],
+        "scripts": [],
+        "inlineStyles": [
+          ".privacy-page h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; margin: 0 0 16px; }\n    .privacy-page h2 { font-size: clamp(1.35rem, 4vw, 1.8rem); line-height: 1.2; margin: 2.2rem 0 .75rem; }\n    .privacy-page p, .privacy-page li { line-height: 1.75; }\n    .privacy-page ul { padding-inline-start: 1.4rem; }\n    .privacy-page a { color: #087f72; overflow-wrap: anywhere; }\n    .privacy-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:32px; }\n    .privacy-toolbar > a { margin:0 !important; }\n    .privacy-language { display:flex; align-items:center; gap:10px; font-weight:700; }\n    .privacy-language select { min-height:44px; max-width:220px; padding:0 36px 0 14px; border:1px solid rgba(23,60,63,.2); border-radius:999px; background:#fff; color:#173c3f; font:inherit; cursor:pointer; }\n    .privacy-updated { font-weight:800; }\n    @media (max-width:600px) { .privacy-toolbar { align-items:flex-start; flex-direction:column; } .privacy-language { width:100%; justify-content:space-between; } .privacy-language select { max-width:65%; } }"
+        ]
       }
     }
   }

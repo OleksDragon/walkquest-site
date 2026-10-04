@@ -5,7 +5,6 @@
       "relativePath": "routes.html",
       "lang": "en",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest Virtual Routes — Walk the World From Home</title>\n  <meta name=\"description\" content=\"Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"./styles.css\">\n  <link rel=\"stylesheet\" href=\"./pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"WalkQuest Virtual Routes — Walk the World From Home\">\n  <meta property=\"og:description\" content=\"Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"en\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest Virtual Routes — Walk the World From Home\">\n  <meta name=\"twitter:description\" content=\"Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -26,13 +25,130 @@
         "languageLabel": "Choose language",
         "footerTagline": "Real steps. Remarkable journeys.",
         "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Virtual Routes — Walk the World From Home",
+        "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Virtual Routes — Walk the World From Home",
+          "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Virtual Routes — Walk the World From Home",
+          "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "uk": {
       "relativePath": "uk/routes.html",
       "lang": "uk",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Маршрути | WalkQuest</title>\n  <meta name=\"description\" content=\"Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Маршрути | WalkQuest\">\n  <meta property=\"og:description\" content=\"Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/uk/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"uk\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Маршрути | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/uk/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -53,13 +169,130 @@
         "languageLabel": "Виберіть мову",
         "footerTagline": "Реальні кроки. Чудові подорожі.",
         "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Маршрути | WalkQuest",
+        "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Маршрути | WalkQuest",
+          "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Маршрути | WalkQuest",
+          "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/uk/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ru": {
       "relativePath": "ru/routes.html",
       "lang": "ru",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Маршруты | WalkQuest</title>\n  <meta name=\"description\" content=\"Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Маршруты | WalkQuest\">\n  <meta property=\"og:description\" content=\"Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ru/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ru\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Маршруты | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ru/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -80,13 +313,130 @@
         "languageLabel": "Выберите язык",
         "footerTagline": "Реальные шаги. Замечательные путешествия.",
         "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Маршруты | WalkQuest",
+        "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Маршруты | WalkQuest",
+          "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Маршруты | WalkQuest",
+          "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ru/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "es": {
       "relativePath": "es/routes.html",
       "lang": "es",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Rutas | WalkQuest</title>\n  <meta name=\"description\" content=\"Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Rutas | WalkQuest\">\n  <meta property=\"og:description\" content=\"Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/es/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"es\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Rutas | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/es/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -107,13 +457,130 @@
         "languageLabel": "Elige idioma",
         "footerTagline": "Pasos reales. Viajes notables.",
         "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rutas | WalkQuest",
+        "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rutas | WalkQuest",
+          "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rutas | WalkQuest",
+          "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/es/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "de": {
       "relativePath": "de/routes.html",
       "lang": "de",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Routen | WalkQuest</title>\n  <meta name=\"description\" content=\"Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Routen | WalkQuest\">\n  <meta property=\"og:description\" content=\"Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/de/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"de\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Routen | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/de/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -134,13 +601,130 @@
         "languageLabel": "Sprache wählen",
         "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
         "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Routen | WalkQuest",
+        "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Routen | WalkQuest",
+          "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Routen | WalkQuest",
+          "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/de/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "fr": {
       "relativePath": "fr/routes.html",
       "lang": "fr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Itinéraires | WalkQuest</title>\n  <meta name=\"description\" content=\"Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l&#039;Europe et de Kyoto à l&#039;Islande, la Patagonie et le Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Itinéraires | WalkQuest\">\n  <meta property=\"og:description\" content=\"Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l&#039;Europe et de Kyoto à l&#039;Islande, la Patagonie et le Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/fr/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"fr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Itinéraires | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l&#039;Europe et de Kyoto à l&#039;Islande, la Patagonie et le Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/fr/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -161,13 +745,130 @@
         "languageLabel": "Choisir la langue",
         "footerTagline": "De vraies étapes. Des voyages remarquables.",
         "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Itinéraires | WalkQuest",
+        "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Itinéraires | WalkQuest",
+          "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Itinéraires | WalkQuest",
+          "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/fr/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pl": {
       "relativePath": "pl/routes.html",
       "lang": "pl",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Trasy | WalkQuest</title>\n  <meta name=\"description\" content=\"Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Trasy | WalkQuest\">\n  <meta property=\"og:description\" content=\"Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pl/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pl\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Trasy | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pl/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -188,13 +889,130 @@
         "languageLabel": "Wybierz język",
         "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
         "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Trasy | WalkQuest",
+        "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Trasy | WalkQuest",
+          "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Trasy | WalkQuest",
+          "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pl/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt": {
       "relativePath": "pt/routes.html",
       "lang": "pt",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Rotas | WalkQuest</title>\n  <meta name=\"description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Rotas | WalkQuest\">\n  <meta property=\"og:description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Rotas | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -215,13 +1033,130 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotas | WalkQuest",
+        "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pt/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "it": {
       "relativePath": "it/routes.html",
       "lang": "it",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Percorsi | WalkQuest</title>\n  <meta name=\"description\" content=\"Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall&#039;Europa e Kyoto all&#039;Islanda, alla Patagonia e Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Percorsi | WalkQuest\">\n  <meta property=\"og:description\" content=\"Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall&#039;Europa e Kyoto all&#039;Islanda, alla Patagonia e Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/it/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"it\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Percorsi | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall&#039;Europa e Kyoto all&#039;Islanda, alla Patagonia e Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/it/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -242,13 +1177,130 @@
         "languageLabel": "Scegli la lingua",
         "footerTagline": "Passi veri. Viaggi straordinari.",
         "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Percorsi | WalkQuest",
+        "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Percorsi | WalkQuest",
+          "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Percorsi | WalkQuest",
+          "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/it/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "tr": {
       "relativePath": "tr/routes.html",
       "lang": "tr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Rotalar | WalkQuest</title>\n  <meta name=\"description\" content=\"Avrupa ve Kyoto&#039;dan İzlanda, Patagonya ve Route 66&#039;e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Rotalar | WalkQuest\">\n  <meta property=\"og:description\" content=\"Avrupa ve Kyoto&#039;dan İzlanda, Patagonya ve Route 66&#039;e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/tr/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"tr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Rotalar | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Avrupa ve Kyoto&#039;dan İzlanda, Patagonya ve Route 66&#039;e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/tr/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -269,13 +1321,130 @@
         "languageLabel": "Dil seçin",
         "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
         "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotalar | WalkQuest",
+        "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotalar | WalkQuest",
+          "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotalar | WalkQuest",
+          "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/tr/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ja": {
       "relativePath": "ja/routes.html",
       "lang": "ja",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>ルート | WalkQuest</title>\n  <meta name=\"description\" content=\"ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"ルート | WalkQuest\">\n  <meta property=\"og:description\" content=\"ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ja/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ja\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"ルート | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ja/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -296,13 +1465,130 @@
         "languageLabel": "言語を選択してください",
         "footerTagline": "本当のステップ。素晴らしい旅。",
         "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "ルート | WalkQuest",
+        "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "ルート | WalkQuest",
+          "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "ルート | WalkQuest",
+          "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ja/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ko": {
       "relativePath": "ko/routes.html",
       "lang": "ko",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>노선 | WalkQuest</title>\n  <meta name=\"description\" content=\"유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"노선 | WalkQuest\">\n  <meta property=\"og:description\" content=\"유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ko/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ko\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"노선 | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ko/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -323,13 +1609,130 @@
         "languageLabel": "언어를 선택하세요",
         "footerTagline": "실제 단계. 놀라운 여행.",
         "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "노선 | WalkQuest",
+        "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "노선 | WalkQuest",
+          "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "노선 | WalkQuest",
+          "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ko/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "zh-cn": {
       "relativePath": "zh-cn/routes.html",
       "lang": "zh-CN",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>路线 | WalkQuest</title>\n  <meta name=\"description\" content=\"探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"路线 | WalkQuest\">\n  <meta property=\"og:description\" content=\"探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/zh-cn/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"zh_CN\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"路线 | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/zh-cn/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -350,13 +1753,130 @@
         "languageLabel": "选择语言",
         "footerTagline": "真实的步骤。非凡的旅程。",
         "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "路线 | WalkQuest",
+        "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "路线 | WalkQuest",
+          "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "路线 | WalkQuest",
+          "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/zh-cn/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ar": {
       "relativePath": "ar/routes.html",
       "lang": "ar",
       "dir": "rtl",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>الطرق | WalkQuest</title>\n  <meta name=\"description\" content=\"استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"الطرق | WalkQuest\">\n  <meta property=\"og:description\" content=\"استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ar/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ar\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"الطرق | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ar/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -377,13 +1897,130 @@
         "languageLabel": "اختر اللغة",
         "footerTagline": "خطوات حقيقية. رحلات رائعة.",
         "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "الطرق | WalkQuest",
+        "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "الطرق | WalkQuest",
+          "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "الطرق | WalkQuest",
+          "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ar/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "hi": {
       "relativePath": "hi/routes.html",
       "lang": "hi",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>मार्ग | WalkQuest</title>\n  <meta name=\"description\" content=\"यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"मार्ग | WalkQuest\">\n  <meta property=\"og:description\" content=\"यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/hi/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"hi\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"मार्ग | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/hi/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -404,13 +2041,130 @@
         "languageLabel": "भाषा चुनें",
         "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
         "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "मार्ग | WalkQuest",
+        "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "मार्ग | WalkQuest",
+          "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "मार्ग | WalkQuest",
+          "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/hi/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt-br": {
       "relativePath": "pt-br/routes.html",
       "lang": "pt-BR",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Rotas | WalkQuest</title>\n  <meta name=\"description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/routes.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/routes.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/routes.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/routes.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/routes.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/routes.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/routes.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/routes.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/routes.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/routes.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/routes.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/routes.html\">\n  <meta property=\"og:title\" content=\"Rotas | WalkQuest\">\n  <meta property=\"og:description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest virtual walking routes around the world\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt-br/routes.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt_BR\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Rotas | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/routes-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt-br/routes.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "routes"
@@ -431,6 +2185,124 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotas | WalkQuest",
+        "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pt-br/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     }
   }

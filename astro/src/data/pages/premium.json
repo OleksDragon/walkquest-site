@@ -5,7 +5,6 @@
       "relativePath": "premium.html",
       "lang": "en",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>WalkQuest Premium — More Routes, No Ads, More Fun Today</title>\n  <meta name=\"description\" content=\"See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"./styles.css\">\n  <link rel=\"stylesheet\" href=\"./pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"WalkQuest Premium — More Routes, No Ads, More Fun Today\">\n  <meta property=\"og:description\" content=\"See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"en\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"WalkQuest Premium — More Routes, No Ads, More Fun Today\">\n  <meta name=\"twitter:description\" content=\"See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -26,13 +25,130 @@
         "languageLabel": "Choose language",
         "footerTagline": "Real steps. Remarkable journeys.",
         "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+        "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+          "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+          "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "uk": {
       "relativePath": "uk/premium.html",
       "lang": "uk",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/uk/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"uk\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/uk/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -53,13 +169,130 @@
         "languageLabel": "Виберіть мову",
         "footerTagline": "Реальні кроки. Чудові подорожі.",
         "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/uk/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ru": {
       "relativePath": "ru/premium.html",
       "lang": "ru",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ru/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ru\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ru/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -80,13 +313,130 @@
         "languageLabel": "Выберите язык",
         "footerTagline": "Реальные шаги. Замечательные путешествия.",
         "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ru/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "es": {
       "relativePath": "es/premium.html",
       "lang": "es",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/es/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"es\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/es/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -107,13 +457,130 @@
         "languageLabel": "Elige idioma",
         "footerTagline": "Pasos reales. Viajes notables.",
         "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/es/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "de": {
       "relativePath": "de/premium.html",
       "lang": "de",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/de/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"de\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/de/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -134,13 +601,130 @@
         "languageLabel": "Sprache wählen",
         "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
         "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/de/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "fr": {
       "relativePath": "fr/premium.html",
       "lang": "fr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/fr/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"fr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/fr/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -161,13 +745,130 @@
         "languageLabel": "Choisir la langue",
         "footerTagline": "De vraies étapes. Des voyages remarquables.",
         "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/fr/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pl": {
       "relativePath": "pl/premium.html",
       "lang": "pl",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pl/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pl\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pl/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -188,13 +889,130 @@
         "languageLabel": "Wybierz język",
         "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
         "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pl/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt": {
       "relativePath": "pt/premium.html",
       "lang": "pt",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -215,13 +1033,130 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pt/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "it": {
       "relativePath": "it/premium.html",
       "lang": "it",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/it/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"it\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/it/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -242,13 +1177,130 @@
         "languageLabel": "Scegli la lingua",
         "footerTagline": "Passi veri. Viaggi straordinari.",
         "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/it/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "tr": {
       "relativePath": "tr/premium.html",
       "lang": "tr",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/tr/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"tr\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/tr/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -269,13 +1321,130 @@
         "languageLabel": "Dil seçin",
         "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
         "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/tr/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ja": {
       "relativePath": "ja/premium.html",
       "lang": "ja",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ja/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ja\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ja/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -296,13 +1465,130 @@
         "languageLabel": "言語を選択してください",
         "footerTagline": "本当のステップ。素晴らしい旅。",
         "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ja/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ko": {
       "relativePath": "ko/premium.html",
       "lang": "ko",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ko/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ko\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ko/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -323,13 +1609,130 @@
         "languageLabel": "언어를 선택하세요",
         "footerTagline": "실제 단계. 놀라운 여행.",
         "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ko/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "zh-cn": {
       "relativePath": "zh-cn/premium.html",
       "lang": "zh-CN",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/zh-cn/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"zh_CN\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/zh-cn/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -350,13 +1753,130 @@
         "languageLabel": "选择语言",
         "footerTagline": "真实的步骤。非凡的旅程。",
         "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/zh-cn/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "ar": {
       "relativePath": "ar/premium.html",
       "lang": "ar",
       "dir": "rtl",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/ar/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"ar\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/ar/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -377,13 +1897,130 @@
         "languageLabel": "اختر اللغة",
         "footerTagline": "خطوات حقيقية. رحلات رائعة.",
         "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ar/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "hi": {
       "relativePath": "hi/premium.html",
       "lang": "hi",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/hi/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"hi\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/hi/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -404,13 +2041,130 @@
         "languageLabel": "भाषा चुनें",
         "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
         "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/hi/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     },
     "pt-br": {
       "relativePath": "pt-br/premium.html",
       "lang": "pt-BR",
       "dir": "ltr",
-      "headHtml": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Premium | WalkQuest</title>\n  <meta name=\"description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta name=\"robots\" content=\"index, follow\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"../styles.css\">\n  <link rel=\"stylesheet\" href=\"../pages.css?v=3\">\n  <link rel=\"canonical\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"en\" href=\"https://walkquest.site/premium.html\">\n  <link rel=\"alternate\" hreflang=\"uk\" href=\"https://walkquest.site/uk/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ru\" href=\"https://walkquest.site/ru/premium.html\">\n  <link rel=\"alternate\" hreflang=\"es\" href=\"https://walkquest.site/es/premium.html\">\n  <link rel=\"alternate\" hreflang=\"de\" href=\"https://walkquest.site/de/premium.html\">\n  <link rel=\"alternate\" hreflang=\"fr\" href=\"https://walkquest.site/fr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pl\" href=\"https://walkquest.site/pl/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt\" href=\"https://walkquest.site/pt/premium.html\">\n  <link rel=\"alternate\" hreflang=\"it\" href=\"https://walkquest.site/it/premium.html\">\n  <link rel=\"alternate\" hreflang=\"tr\" href=\"https://walkquest.site/tr/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ja\" href=\"https://walkquest.site/ja/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ko\" href=\"https://walkquest.site/ko/premium.html\">\n  <link rel=\"alternate\" hreflang=\"zh-CN\" href=\"https://walkquest.site/zh-cn/premium.html\">\n  <link rel=\"alternate\" hreflang=\"ar\" href=\"https://walkquest.site/ar/premium.html\">\n  <link rel=\"alternate\" hreflang=\"hi\" href=\"https://walkquest.site/hi/premium.html\">\n  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://walkquest.site/pt-br/premium.html\">\n  <link rel=\"alternate\" hreflang=\"x-default\" href=\"https://walkquest.site/premium.html\">\n  <meta property=\"og:title\" content=\"Premium | WalkQuest\">\n  <meta property=\"og:description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta property=\"og:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta property=\"og:image:alt\" content=\"WalkQuest Premium routes, passport stamps and travel rewards\">\n  <meta property=\"og:image:width\" content=\"1672\">\n  <meta property=\"og:image:height\" content=\"941\">\n  <meta property=\"og:url\" content=\"https://walkquest.site/pt-br/premium.html\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:site_name\" content=\"WalkQuest\">\n  <meta property=\"og:locale\" content=\"pt_BR\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"Premium | WalkQuest\">\n  <meta name=\"twitter:description\" content=\"Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.\">\n  <meta name=\"twitter:image\" content=\"https://walkquest.site/assets/premium-hero.png\">\n  <meta name=\"twitter:url\" content=\"https://walkquest.site/pt-br/premium.html\">",
       "bodyAttributes": {
         "class": "info-site",
         "data-page": "premium"
@@ -431,6 +2185,124 @@
         "languageLabel": "Escolha o idioma",
         "footerTagline": "Passos reais. Viagens notáveis.",
         "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pt-br/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
       }
     }
   }

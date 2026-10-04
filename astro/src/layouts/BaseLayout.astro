@@ -8,11 +8,45 @@ interface Props {
 }
 
 const { page } = Astro.props;
+const { head } = page;
+const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringify(value).replaceAll("</script", "<\\/script");
 ---
 
 <!doctype html>
 <html lang={page.lang} dir={page.dir}>
-  <head><Fragment set:html={page.headHtml} /></head>
+  <head>
+    <meta charset={head.charset} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{head.title}</title>
+    <meta name="description" content={head.description} />
+    <meta name="robots" content={head.robots} />
+    {head.themeColor && <meta name="theme-color" content={head.themeColor} />}
+    {head.icon && <link rel="icon" type={head.icon.type} href={head.icon.href} />}
+    {head.preconnects.map((connection) => (
+      <link rel="preconnect" href={connection.href} crossorigin={connection.crossOrigin ? "anonymous" : undefined} />
+    ))}
+    {head.stylesheets.map((href) => <link rel="stylesheet" href={href} />)}
+    <link rel="canonical" href={head.canonical} />
+    {head.alternates.map((alternate) => <link rel="alternate" hreflang={alternate.lang} href={alternate.href} />)}
+    <meta property="og:title" content={head.openGraph.title} />
+    <meta property="og:description" content={head.openGraph.description} />
+    <meta property="og:image" content={head.openGraph.image} />
+    <meta property="og:image:alt" content={head.openGraph.imageAlt} />
+    {head.openGraph.imageWidth && <meta property="og:image:width" content={head.openGraph.imageWidth} />}
+    {head.openGraph.imageHeight && <meta property="og:image:height" content={head.openGraph.imageHeight} />}
+    <meta property="og:url" content={head.openGraph.url} />
+    <meta property="og:type" content={head.openGraph.type} />
+    <meta property="og:site_name" content={head.openGraph.siteName} />
+    <meta property="og:locale" content={head.openGraph.locale} />
+    <meta name="twitter:card" content={head.twitter.card} />
+    <meta name="twitter:title" content={head.twitter.title} />
+    <meta name="twitter:description" content={head.twitter.description} />
+    <meta name="twitter:image" content={head.twitter.image} />
+    <meta name="twitter:url" content={head.twitter.url} />
+    {head.inlineStyles.map((styles) => <style set:html={styles} />)}
+    {head.structuredData.map((entry) => <script type="application/ld+json" set:html={serializeStructuredData(entry)} />)}
+    {head.scripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
+  </head>
   <body {...page.bodyAttributes}>
     <a class="skip-link" href="#main">{page.labels.skipLink}</a>
     {page.isInfoSite ? <SiteHeader labels={page.labels} /> : <Fragment set:html={page.headerHtml} />}

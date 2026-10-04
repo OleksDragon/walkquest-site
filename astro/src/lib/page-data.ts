@@ -5,11 +5,46 @@ const pageDataRoot = path.resolve("src/data/pages");
 const routeDataRoot = path.resolve("src/data/routes");
 const cache = new Map<string, { slug: string; locales: Record<string, PageData> }>();
 
+export interface HeadData {
+  charset: string;
+  title: string;
+  description: string;
+  robots: string;
+  themeColor?: string;
+  canonical: string;
+  alternates: Array<{ lang: string; href: string }>;
+  icon?: { href: string; type?: string };
+  preconnects: Array<{ href: string; crossOrigin: boolean }>;
+  stylesheets: string[];
+  openGraph: {
+    title: string;
+    description: string;
+    image: string;
+    imageAlt: string;
+    imageWidth?: string;
+    imageHeight?: string;
+    url: string;
+    type: string;
+    siteName: string;
+    locale: string;
+  };
+  twitter: {
+    card: string;
+    title: string;
+    description: string;
+    image: string;
+    url: string;
+  };
+  structuredData: Array<Record<string, unknown>>;
+  scripts: Array<{ src: string; defer: boolean }>;
+  inlineStyles: string[];
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
   dir: string;
-  headHtml: string;
+  head: HeadData;
   bodyAttributes: Record<string, string>;
   headerHtml: string;
   mainHtml: string;

@@ -1,0 +1,27 @@
+---
+interface Props {
+  labels: Record<string, string>;
+}
+
+const { labels } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="#top" aria-label="WalkQuest home">
+      <span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="./rules.html" data-i18n="siteGuide">{labels.navGuide}</a>
+      <a href="./routes.html" data-i18n="siteRoutes">{labels.navRoutes}</a>
+      <a href="./premium.html" data-i18n="sitePremium">{labels.navPremium}</a>
+      <a href="./news.html" data-i18n="siteNews">{labels.navNews}</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only" data-i18n="languageLabel">{labels.languageLabel}</span>
+      <span aria-hidden="true">🌐</span>
+      <select id="languageSelect" aria-label={labels.languageLabel}></select>
+      <span class="chevron" aria-hidden="true">⌄</span>
+    </label>
+  </div>
+</header>

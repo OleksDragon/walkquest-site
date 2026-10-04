@@ -46,12 +46,10 @@ export interface PageData {
   dir: string;
   head: HeadData;
   bodyAttributes: Record<string, string>;
-  headerHtml: string;
   mainHtml: string;
-  footerHtml: string;
-  scriptsHtml: string;
+  chrome: "landing" | "site" | "privacy";
+  bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;
-  isInfoSite: boolean;
 }
 
 export function getPageData(relativePath: string): PageData {

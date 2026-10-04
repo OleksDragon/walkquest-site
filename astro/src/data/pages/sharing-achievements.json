@@ -12,11 +12,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Home</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Game guide</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Routes</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">News</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacy</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Choose language</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Back to news</a><span class=\"news-tag\" data-i18n=\"shareTag\">Product update</span><h1 data-i18n=\"shareTitle\">Share every WalkQuest milestone — now free</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Achievements, passport progress, routes, and distance milestones can now be shared without Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">October 3, 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min read</span></div><img src=\"./assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest achievement sharing illustration\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Your progress deserves to travel farther than the app. Sharing is now available to every WalkQuest player, so a completed route, a new stamp, or a hard-earned achievement can invite friends to start walking too.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Sharing belongs to everyone</h2>\n      <p data-i18n=\"shareFreeText\">The share action is no longer a Premium feature. Use the apps installed on your phone to publish an achievement, route progress, passport milestone, or distance record.</p>\n      <h2 data-i18n=\"shareLinksTitle\">One post, two useful destinations</h2>\n      <p data-i18n=\"shareLinksText\">Shared messages include links to the WalkQuest website and Google Play. UTM and Play referrer tags show how many visits and installs come from community posts.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Measurement without changing your story</strong><p data-i18n=\"sharePrivacyText\">Campaign tags describe the sharing channel and campaign. They do not add your name, steps, location, or achievement details to the link.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Every shared milestone can be the first step of somebody else’s journey.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Walk it. Earn it. Share it.</h2><p data-i18n=\"shareCtaText\">Get WalkQuest on Google Play and turn today’s steps into a journey worth sharing.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Get it on</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Real steps. Remarkable journeys.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Game guide</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Routes</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">News</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacy</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">All rights reserved.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"./pages-translations.js\"></script>\n  <script src=\"./sharing-translations.js\"></script>\n  <script src=\"./pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Skip to content",
         "navHome": "Home",
@@ -165,7 +161,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "./pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./pages.js",
+          "defer": false
+        }
+      ]
     },
     "uk": {
       "relativePath": "uk/sharing-achievements.html",
@@ -178,11 +189,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">додому</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Посібник з гри</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Маршрути</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Новини</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Конфіденційність</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Виберіть мову</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Назад до новин</a><span class=\"news-tag\" data-i18n=\"shareTag\">Оновлення продукту</span><h1 data-i18n=\"shareTitle\">Діліться кожним досягненням WalkQuest — тепер безкоштовно</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Досягненнями, прогресом паспорта, маршрутами та рекордами відстані тепер можна ділитися без Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 жовтня 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 хв читання</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ілюстрація поширення досягнень WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Ваш прогрес вартий того, щоб вийти за межі застосунку. Діліться завершеним маршрутом, новою печаткою чи заслуженим досягненням і запрошуйте друзів почати ходити.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Шеринг доступний усім</h2>\n      <p data-i18n=\"shareFreeText\">Кнопка «Поділитися» більше не є функцією Premium. Публікуйте досягнення, прогрес маршруту, паспортну відмітку або рекорд відстані через застосунки на телефоні.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Одна публікація — два корисні посилання</h2>\n      <p data-i18n=\"shareLinksText\">У повідомленні є посилання на сайт WalkQuest і Google Play. UTM та Play referrer показують, скільки відвідувань і встановлень дають публікації спільноти.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Вимірювання без зміни вашої історії</strong><p data-i18n=\"sharePrivacyText\">Мітки описують канал і кампанію. Вони не додають до посилання ваше ім’я, кроки, місцезнаходження чи дані досягнення.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Кожне поширене досягнення може стати першим кроком чужої подорожі.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Пройдіть. Здобудьте. Поділіться.</h2><p data-i18n=\"shareCtaText\">Завантажте WalkQuest у Google Play і перетворіть сьогоднішні кроки на подорож, якою хочеться ділитися.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Завантажити з</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Реальні кроки. Чудові подорожі.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Посібник з гри</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Маршрути</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Новини</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Конфіденційність</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Всі права захищені.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Перейти до вмісту",
         "navHome": "додому",
@@ -331,7 +338,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "ru": {
       "relativePath": "ru/sharing-achievements.html",
@@ -344,11 +366,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Главная</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Руководство по игре</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Маршруты</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Новости</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Конфиденциальность</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Выберите язык</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Назад к новостям</a><span class=\"news-tag\" data-i18n=\"shareTag\">Обновление продукта</span><h1 data-i18n=\"shareTitle\">Делитесь каждым достижением WalkQuest — теперь бесплатно</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Достижениями, прогрессом паспорта, маршрутами и рекордами расстояния теперь можно делиться без Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 октября 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 мин чтения</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Иллюстрация публикации достижений WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Ваш прогресс достоин выйти за пределы приложения. Делитесь завершённым маршрутом, новым штампом или заслуженным достижением и приглашайте друзей начать ходить.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Шеринг доступен всем</h2>\n      <p data-i18n=\"shareFreeText\">Кнопка «Поделиться» больше не относится к Premium. Публикуйте достижение, прогресс маршрута, паспортную отметку или рекорд расстояния через приложения на телефоне.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Одна публикация — два полезных адреса</h2>\n      <p data-i18n=\"shareLinksText\">В сообщении есть ссылки на сайт WalkQuest и Google Play. UTM-метки и Play referrer показывают, сколько посещений и установок дают публикации сообщества.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Измерение без изменения вашей истории</strong><p data-i18n=\"sharePrivacyText\">Метки описывают канал и кампанию. Они не добавляют в ссылку ваше имя, шаги, местоположение или данные достижения.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Каждое опубликованное достижение может стать первым шагом чьего-то путешествия.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Пройдите. Получите. Поделитесь.</h2><p data-i18n=\"shareCtaText\">Установите WalkQuest из Google Play и превратите сегодняшние шаги в путешествие, которым хочется делиться.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Скачать в</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Реальные шаги. Замечательные путешествия.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Руководство по игре</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Маршруты</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Новости</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Конфиденциальность</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Все права защищены.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Перейти к содержимому",
         "navHome": "Главная",
@@ -497,7 +515,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "es": {
       "relativePath": "es/sharing-achievements.html",
@@ -510,11 +543,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Inicio</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">guía del juego</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Rutas</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Noticias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidad</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Elige idioma</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Volver a las noticias</a><span class=\"news-tag\" data-i18n=\"shareTag\">Actualización del producto</span><h1 data-i18n=\"shareTitle\">Comparte cada logro de WalkQuest — ahora gratis</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Ya puedes compartir logros, progreso del pasaporte, rutas y récords de distancia sin Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de octubre de 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min de lectura</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustración para compartir logros de WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Tu progreso merece llegar más lejos que la aplicación. Comparte una ruta completada, un sello nuevo o un logro y anima a tus amigos a caminar.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Compartir es para todos</h2>\n      <p data-i18n=\"shareFreeText\">Compartir ya no es una función Premium. Publica logros, progreso de rutas, hitos del pasaporte o récords con las aplicaciones de tu teléfono.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Una publicación, dos destinos útiles</h2>\n      <p data-i18n=\"shareLinksText\">Los mensajes incluyen enlaces al sitio de WalkQuest y a Google Play. Las etiquetas UTM y Play referrer miden las visitas e instalaciones de la comunidad.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Medición sin cambiar tu historia</strong><p data-i18n=\"sharePrivacyText\">Las etiquetas describen el canal y la campaña; no añaden tu nombre, pasos, ubicación ni datos del logro al enlace.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Cada logro compartido puede ser el primer paso del viaje de otra persona.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Camina. Consíguelo. Compártelo.</h2><p data-i18n=\"shareCtaText\">Descarga WalkQuest en Google Play y convierte tus pasos de hoy en un viaje para compartir.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Consíguelo</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Pasos reales. Viajes notables.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">guía del juego</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Rutas</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Noticias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidad</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Todos los derechos reservados.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Saltar al contenido",
         "navHome": "Inicio",
@@ -663,7 +692,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "de": {
       "relativePath": "de/sharing-achievements.html",
@@ -676,11 +720,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Zuhause</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Spielanleitung</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Routen</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Nachrichten</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privatsphäre</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Sprache wählen</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Zurück zu den Neuigkeiten</a><span class=\"news-tag\" data-i18n=\"shareTag\">Produktupdate</span><h1 data-i18n=\"shareTitle\">Teile jeden WalkQuest-Meilenstein — jetzt kostenlos</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Erfolge, Passfortschritt, Routen und Distanzrekorde lassen sich jetzt ohne Premium teilen.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3. Oktober 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 Min. Lesezeit</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustration zum Teilen von WalkQuest-Erfolgen\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Dein Fortschritt darf über die App hinausreichen. Teile eine abgeschlossene Route, einen neuen Stempel oder Erfolg und motiviere Freunde zum Losgehen.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Teilen ist für alle da</h2>\n      <p data-i18n=\"shareFreeText\">Teilen ist keine Premium-Funktion mehr. Veröffentliche Erfolge, Routenfortschritt, Passmeilensteine oder Distanzrekorde über deine installierten Apps.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Ein Beitrag, zwei hilfreiche Ziele</h2>\n      <p data-i18n=\"shareLinksText\">Geteilte Nachrichten enthalten Links zur WalkQuest-Website und zu Google Play. UTM- und Play-Referrer-Tags messen Besuche und Installationen aus Community-Beiträgen.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Messung, ohne deine Geschichte zu verändern</strong><p data-i18n=\"sharePrivacyText\">Kampagnen-Tags beschreiben Kanal und Kampagne. Name, Schritte, Standort oder Erfolgsdetails werden nicht in den Link aufgenommen.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Jeder geteilte Meilenstein kann der erste Schritt einer anderen Reise sein.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Gehen. Verdienen. Teilen.</h2><p data-i18n=\"shareCtaText\">Hol dir WalkQuest bei Google Play und mach aus heutigen Schritten eine teilenswerte Reise.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Zieh es an</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Echte Schritte. Bemerkenswerte Reisen.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Spielanleitung</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Routen</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Nachrichten</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privatsphäre</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Alle Rechte vorbehalten.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Zum Inhalt springen",
         "navHome": "Zuhause",
@@ -829,7 +869,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "fr": {
       "relativePath": "fr/sharing-achievements.html",
@@ -842,11 +897,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Accueil</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Guide du jeu</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Itinéraires</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Actualités</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Confidentialité</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Choisir la langue</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Retour aux actualités</a><span class=\"news-tag\" data-i18n=\"shareTag\">Mise à jour du produit</span><h1 data-i18n=\"shareTitle\">Partagez chaque étape WalkQuest — désormais gratuitement</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Les succès, la progression du passeport, les parcours et les records de distance se partagent maintenant sans Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 octobre 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min de lecture</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustration du partage des succès WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Votre progression mérite de voyager au-delà de l’application. Partagez un parcours terminé, un nouveau tampon ou un succès et donnez envie à vos proches de marcher.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Le partage est pour tout le monde</h2>\n      <p data-i18n=\"shareFreeText\">Le partage n’est plus réservé à Premium. Publiez un succès, une progression, une étape du passeport ou un record via les applications du téléphone.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Une publication, deux destinations utiles</h2>\n      <p data-i18n=\"shareLinksText\">Les messages contiennent des liens vers le site WalkQuest et Google Play. Les balises UTM et Play referrer mesurent les visites et installations issues de la communauté.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Mesurer sans modifier votre histoire</strong><p data-i18n=\"sharePrivacyText\">Les balises décrivent le canal et la campagne. Elles n’ajoutent au lien ni votre nom, ni vos pas, ni votre position, ni le détail du succès.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Chaque étape partagée peut devenir le premier pas du voyage de quelqu’un d’autre.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Marchez. Gagnez. Partagez.</h2><p data-i18n=\"shareCtaText\">Téléchargez WalkQuest sur Google Play et transformez vos pas en voyage à partager.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Mettez-le</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">De vraies étapes. Des voyages remarquables.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Guide du jeu</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Itinéraires</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Actualités</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Confidentialité</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Tous droits réservés.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Passer au contenu",
         "navHome": "Accueil",
@@ -995,7 +1046,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "pl": {
       "relativePath": "pl/sharing-achievements.html",
@@ -1008,11 +1074,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Dom</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Przewodnik po grze</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Trasy</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Wiadomości</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Prywatność</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Wybierz język</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Powrót do aktualności</a><span class=\"news-tag\" data-i18n=\"shareTag\">Aktualizacja produktu</span><h1 data-i18n=\"shareTitle\">Udostępniaj każde osiągnięcie WalkQuest — teraz bezpłatnie</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Osiągnięcia, postęp paszportu, trasy i rekordy dystansu można teraz udostępniać bez Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 października 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min czytania</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustracja udostępniania osiągnięć WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Twój postęp zasługuje, by wyjść poza aplikację. Udostępnij ukończoną trasę, nową pieczątkę lub osiągnięcie i zachęć znajomych do spaceru.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Udostępnianie jest dla wszystkich</h2>\n      <p data-i18n=\"shareFreeText\">Udostępnianie nie jest już funkcją Premium. Publikuj osiągnięcia, postęp trasy, etapy paszportu lub rekordy przez aplikacje w telefonie.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Jeden post, dwa przydatne miejsca</h2>\n      <p data-i18n=\"shareLinksText\">Wiadomości zawierają linki do strony WalkQuest i Google Play. Tagi UTM i Play referrer mierzą wizyty oraz instalacje z postów społeczności.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Pomiar bez zmiany Twojej historii</strong><p data-i18n=\"sharePrivacyText\">Tagi opisują kanał i kampanię. Nie dodają do linku imienia, kroków, lokalizacji ani szczegółów osiągnięcia.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Każde udostępnione osiągnięcie może być pierwszym krokiem czyjejś podróży.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Przejdź. Zdobądź. Udostępnij.</h2><p data-i18n=\"shareCtaText\">Pobierz WalkQuest z Google Play i zmień dzisiejsze kroki w podróż wartą udostępnienia.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Włącz to</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Prawdziwe kroki. Niezwykłe podróże.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Przewodnik po grze</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Trasy</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Wiadomości</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Prywatność</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Wszelkie prawa zastrzeżone.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Przejdź do treści",
         "navHome": "Dom",
@@ -1161,7 +1223,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "pt": {
       "relativePath": "pt/sharing-achievements.html",
@@ -1174,11 +1251,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Página inicial</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Guia do jogo</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Rotas</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Notícias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidade</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Escolha o idioma</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Voltar às notícias</a><span class=\"news-tag\" data-i18n=\"shareTag\">Atualização do produto</span><h1 data-i18n=\"shareTitle\">Partilha cada conquista WalkQuest — agora grátis</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Conquistas, progresso do passaporte, rotas e recordes de distância podem agora ser partilhados sem Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de outubro de 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min de leitura</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustração de partilha de conquistas WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">O teu progresso merece ir além da aplicação. Partilha uma rota concluída, um novo carimbo ou conquista e convida amigos a caminhar.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Partilhar é para todos</h2>\n      <p data-i18n=\"shareFreeText\">Partilhar deixou de ser uma função Premium. Publica conquistas, progresso, marcos do passaporte ou recordes através das aplicações do telemóvel.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Uma publicação, dois destinos úteis</h2>\n      <p data-i18n=\"shareLinksText\">As mensagens incluem links para o site WalkQuest e Google Play. As etiquetas UTM e Play referrer medem visitas e instalações vindas da comunidade.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Medição sem alterar a tua história</strong><p data-i18n=\"sharePrivacyText\">As etiquetas descrevem o canal e a campanha. Não adicionam ao link o teu nome, passos, localização ou detalhes da conquista.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Cada marco partilhado pode ser o primeiro passo da viagem de outra pessoa.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Caminha. Conquista. Partilha.</h2><p data-i18n=\"shareCtaText\">Obtém WalkQuest no Google Play e transforma os passos de hoje numa viagem para partilhar.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Comece</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Passos reais. Viagens notáveis.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Guia do jogo</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Rotas</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Notícias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidade</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Todos os direitos reservados.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Saltar para o conteúdo",
         "navHome": "Página inicial",
@@ -1327,7 +1400,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "it": {
       "relativePath": "it/sharing-achievements.html",
@@ -1340,11 +1428,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Casa</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Guida al gioco</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Percorsi</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Novità</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacy</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Scegli la lingua</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Torna alle notizie</a><span class=\"news-tag\" data-i18n=\"shareTag\">Aggiornamento prodotto</span><h1 data-i18n=\"shareTitle\">Condividi ogni traguardo WalkQuest — ora gratis</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Traguardi, progressi del passaporto, percorsi e record di distanza si possono ora condividere senza Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 ottobre 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min di lettura</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustrazione della condivisione dei traguardi WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">I tuoi progressi meritano di andare oltre l’app. Condividi un percorso completato, un nuovo timbro o un traguardo e invita gli amici a camminare.</p>\n      <h2 data-i18n=\"shareFreeTitle\">La condivisione è per tutti</h2>\n      <p data-i18n=\"shareFreeText\">La condivisione non è più una funzione Premium. Pubblica traguardi, progressi, tappe del passaporto o record con le app del telefono.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Un post, due destinazioni utili</h2>\n      <p data-i18n=\"shareLinksText\">I messaggi includono link al sito WalkQuest e a Google Play. I tag UTM e Play referrer misurano visite e installazioni dai post della community.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Misurare senza cambiare la tua storia</strong><p data-i18n=\"sharePrivacyText\">I tag descrivono canale e campagna. Non aggiungono al link nome, passi, posizione o dettagli del traguardo.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Ogni traguardo condiviso può essere il primo passo del viaggio di qualcun altro.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Cammina. Ottieni. Condividi.</h2><p data-i18n=\"shareCtaText\">Scarica WalkQuest da Google Play e trasforma i passi di oggi in un viaggio da condividere.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Mettiti al lavoro</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Passi veri. Viaggi straordinari.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Guida al gioco</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Percorsi</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Novità</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacy</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Tutti i diritti riservati.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Vai al contenuto",
         "navHome": "Casa",
@@ -1493,7 +1577,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "tr": {
       "relativePath": "tr/sharing-achievements.html",
@@ -1506,11 +1605,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Ana sayfa</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Oyun rehberi</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Rotalar</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Haberler</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Gizlilik</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Dil seçin</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Haberlere dön</a><span class=\"news-tag\" data-i18n=\"shareTag\">Ürün güncellemesi</span><h1 data-i18n=\"shareTitle\">Her WalkQuest başarısını paylaş — artık ücretsiz</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Başarılar, pasaport ilerlemesi, rotalar ve mesafe rekorları artık Premium olmadan paylaşılabilir.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 Ekim 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 dk okuma</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest başarı paylaşımı çizimi\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">İlerlemen uygulamanın ötesine ulaşmayı hak ediyor. Tamamlanan rotanı, yeni damganı veya başarını paylaş ve arkadaşlarını yürümeye davet et.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Paylaşım herkes içindir</h2>\n      <p data-i18n=\"shareFreeText\">Paylaşım artık Premium özelliği değil. Başarılarını, rota ilerlemeni, pasaport kilometre taşlarını veya rekorlarını telefondaki uygulamalarla yayınla.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Bir gönderi, iki yararlı hedef</h2>\n      <p data-i18n=\"shareLinksText\">Mesajlarda WalkQuest sitesi ve Google Play bağlantıları bulunur. UTM ve Play referrer etiketleri topluluk gönderilerinden gelen ziyaretleri ve yüklemeleri ölçer.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Hikâyeni değiştirmeden ölçüm</strong><p data-i18n=\"sharePrivacyText\">Etiketler kanalı ve kampanyayı açıklar; adını, adımlarını, konumunu veya başarı ayrıntılarını bağlantıya eklemez.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Paylaşılan her başarı, başka birinin yolculuğundaki ilk adım olabilir.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Yürü. Kazan. Paylaş.</h2><p data-i18n=\"shareCtaText\">WalkQuest’i Google Play’den indir ve bugünün adımlarını paylaşmaya değer bir yolculuğa dönüştür.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Başla</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Gerçek adımlar. Dikkat çekici yolculuklar.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Oyun rehberi</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Rotalar</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Haberler</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Gizlilik</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Tüm hakları saklıdır.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "İçeriğe atla",
         "navHome": "Ana sayfa",
@@ -1659,7 +1754,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "ja": {
       "relativePath": "ja/sharing-achievements.html",
@@ -1672,11 +1782,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">ホーム</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">ゲームガイド</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">ルート</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">ニュース</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">プライバシー</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">言語を選択してください</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← ニュースに戻る</a><span class=\"news-tag\" data-i18n=\"shareTag\">製品アップデート</span><h1 data-i18n=\"shareTitle\">WalkQuestの達成を共有 — 今なら無料</h1><p class=\"article-lead\" data-i18n=\"shareLead\">実績、パスポートの進捗、ルート、距離記録をPremiumなしで共有できるようになりました。</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026年10月3日</time><span>•</span><span data-i18n=\"shareReadTime\">読了3分</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest実績共有のイラスト\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">進捗をアプリの外へ届けましょう。完了ルート、新しいスタンプ、実績を共有して、友達が歩き始めるきっかけを作れます。</p>\n      <h2 data-i18n=\"shareFreeTitle\">共有はすべての人に</h2>\n      <p data-i18n=\"shareFreeText\">共有はPremium限定ではありません。スマートフォンのアプリから実績、ルート進捗、パスポート、距離記録を投稿できます。</p>\n      <h2 data-i18n=\"shareLinksTitle\">1つの投稿、2つの便利なリンク</h2>\n      <p data-i18n=\"shareLinksText\">共有文にはWalkQuestサイトとGoogle Playへのリンクが入ります。UTMとPlay referrerでコミュニティ投稿からの訪問・インストールを測定します。</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">物語を変えない計測</strong><p data-i18n=\"sharePrivacyText\">タグは共有経路とキャンペーンのみを示し、氏名、歩数、位置、実績の詳細をリンクに含めません。</p></aside>\n      <blockquote data-i18n=\"shareQuote\">共有した達成が、誰かの旅の第一歩になります。</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">歩く。達成する。共有する。</h2><p data-i18n=\"shareCtaText\">Google PlayでWalkQuestを入手し、今日の歩みを共有したくなる旅に変えましょう。</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">それを着てください</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">本当のステップ。素晴らしい旅。</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">ゲームガイド</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">ルート</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">ニュース</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">プライバシー</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">すべての著作権は留保されています。</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "コンテンツにスキップ",
         "navHome": "ホーム",
@@ -1825,7 +1931,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "ko": {
       "relativePath": "ko/sharing-achievements.html",
@@ -1838,11 +1959,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">홈</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">게임 가이드</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">노선</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">뉴스</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">개인 정보 보호</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">언어를 선택하세요</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← 뉴스로 돌아가기</a><span class=\"news-tag\" data-i18n=\"shareTag\">제품 업데이트</span><h1 data-i18n=\"shareTitle\">WalkQuest의 모든 성과를 공유하세요 — 이제 무료</h1><p class=\"article-lead\" data-i18n=\"shareLead\">업적, 여권 진행도, 경로와 거리 기록을 Premium 없이 공유할 수 있습니다.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026년 10월 3일</time><span>•</span><span data-i18n=\"shareReadTime\">3분 분량</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 업적 공유 일러스트\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">진행 기록을 앱 밖으로 보내 보세요. 완료한 경로, 새 스탬프, 소중한 업적을 공유해 친구가 걷기 시작할 계기를 만들 수 있습니다.</p>\n      <h2 data-i18n=\"shareFreeTitle\">공유는 모두를 위한 기능</h2>\n      <p data-i18n=\"shareFreeText\">공유는 더 이상 Premium 기능이 아닙니다. 휴대전화 앱으로 업적, 경로 진행도, 여권 이정표와 거리 기록을 게시하세요.</p>\n      <h2 data-i18n=\"shareLinksTitle\">게시물 하나, 유용한 목적지 두 곳</h2>\n      <p data-i18n=\"shareLinksText\">공유 메시지에는 WalkQuest 사이트와 Google Play 링크가 포함됩니다. UTM과 Play referrer로 커뮤니티 게시물에서 온 방문과 설치를 측정합니다.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">내 이야기를 바꾸지 않는 측정</strong><p data-i18n=\"sharePrivacyText\">태그는 공유 채널과 캠페인만 설명하며 이름, 걸음 수, 위치 또는 업적 세부 정보를 링크에 넣지 않습니다.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">공유한 하나의 성과가 누군가의 여행을 시작하는 첫걸음이 될 수 있습니다.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">걷고. 달성하고. 공유하세요.</h2><p data-i18n=\"shareCtaText\">Google Play에서 WalkQuest를 받고 오늘의 걸음을 공유할 만한 여행으로 바꿔 보세요.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">시작해 보세요</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">실제 단계. 놀라운 여행.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">게임 가이드</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">노선</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">뉴스</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">개인 정보 보호</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">모든 권리 보유.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "콘텐츠로 건너뛰기",
         "navHome": "홈",
@@ -1991,7 +2108,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "zh-cn": {
       "relativePath": "zh-cn/sharing-achievements.html",
@@ -2004,11 +2136,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">首页</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">游戏指南</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">路线</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">新闻动态</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">隐私</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">选择语言</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← 返回新闻</a><span class=\"news-tag\" data-i18n=\"shareTag\">产品更新</span><h1 data-i18n=\"shareTitle\">分享每个 WalkQuest 里程碑——现在免费</h1><p class=\"article-lead\" data-i18n=\"shareLead\">成就、护照进度、路线和距离记录现在无需 Premium 即可分享。</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026年10月3日</time><span>•</span><span data-i18n=\"shareReadTime\">阅读约3分钟</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 成就分享插图\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">让你的进度走出应用。分享完成的路线、新印章或珍贵成就，也许就能邀请朋友开始步行。</p>\n      <h2 data-i18n=\"shareFreeTitle\">分享属于每个人</h2>\n      <p data-i18n=\"shareFreeText\">分享不再是 Premium 功能。可通过手机中的应用发布成就、路线进度、护照里程碑或距离记录。</p>\n      <h2 data-i18n=\"shareLinksTitle\">一条动态，两个实用去处</h2>\n      <p data-i18n=\"shareLinksText\">分享内容包含 WalkQuest 网站和 Google Play 链接。UTM 与 Play referrer 用于统计社区动态带来的访问和安装。</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">统计不会改变你的故事</strong><p data-i18n=\"sharePrivacyText\">标签只描述分享渠道和活动，不会把姓名、步数、位置或成就详情加入链接。</p></aside>\n      <blockquote data-i18n=\"shareQuote\">每个被分享的里程碑，都可能成为他人旅程的第一步。</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">行走。收获。分享。</h2><p data-i18n=\"shareCtaText\">在 Google Play 获取 WalkQuest，把今天的步数变成值得分享的旅程。</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">穿上它</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">真实的步骤。非凡的旅程。</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">游戏指南</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">路线</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">新闻动态</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">隐私</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">保留所有权利。</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "跳至内容",
         "navHome": "首页",
@@ -2157,7 +2285,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "ar": {
       "relativePath": "ar/sharing-achievements.html",
@@ -2170,11 +2313,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">الصفحة الرئيسية</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">دليل اللعبة</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">الطرق</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">أخبار</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">الخصوصية</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">اختر اللغة</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← العودة إلى الأخبار</a><span class=\"news-tag\" data-i18n=\"shareTag\">تحديث المنتج</span><h1 data-i18n=\"shareTitle\">شارك كل إنجاز في WalkQuest — مجانًا الآن</h1><p class=\"article-lead\" data-i18n=\"shareLead\">يمكن الآن مشاركة الإنجازات وتقدم الجواز والمسارات وأرقام المسافة من دون Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 أكتوبر 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 دقائق للقراءة</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"رسم توضيحي لمشاركة إنجازات WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">يستحق تقدمك أن يصل إلى ما بعد التطبيق. شارك مسارًا مكتملًا أو ختمًا جديدًا أو إنجازًا وادعُ أصدقاءك لبدء المشي.</p>\n      <h2 data-i18n=\"shareFreeTitle\">المشاركة للجميع</h2>\n      <p data-i18n=\"shareFreeText\">لم تعد المشاركة ميزة Premium. انشر إنجازًا أو تقدم مسار أو محطة في الجواز أو رقم مسافة عبر التطبيقات المثبتة على هاتفك.</p>\n      <h2 data-i18n=\"shareLinksTitle\">منشور واحد ووجهتان مفيدتان</h2>\n      <p data-i18n=\"shareLinksText\">تتضمن الرسائل روابط إلى موقع WalkQuest وGoogle Play. تقيس علامات UTM وPlay referrer الزيارات وعمليات التثبيت من منشورات المجتمع.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">قياس من دون تغيير قصتك</strong><p data-i18n=\"sharePrivacyText\">تصف العلامات قناة المشاركة والحملة فقط، ولا تضيف اسمك أو خطواتك أو موقعك أو تفاصيل الإنجاز إلى الرابط.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">قد يصبح كل إنجاز تتم مشاركته الخطوة الأولى في رحلة شخص آخر.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">امشِ. حقق. شارك.</h2><p data-i18n=\"shareCtaText\">حمّل WalkQuest من Google Play وحوّل خطوات اليوم إلى رحلة تستحق المشاركة.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">احصل عليه</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">خطوات حقيقية. رحلات رائعة.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">دليل اللعبة</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">الطرق</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">أخبار</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">الخصوصية</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">جميع الحقوق محفوظة.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "انتقل إلى المحتوى",
         "navHome": "الصفحة الرئيسية",
@@ -2323,7 +2462,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "hi": {
       "relativePath": "hi/sharing-achievements.html",
@@ -2336,11 +2490,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">घर</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">गेम गाइड</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">मार्ग</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">समाचार</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">गोपनीयता</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">भाषा चुनें</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← समाचार पर वापस जाएँ</a><span class=\"news-tag\" data-i18n=\"shareTag\">प्रोडक्ट अपडेट</span><h1 data-i18n=\"shareTitle\">हर WalkQuest उपलब्धि साझा करें — अब मुफ़्त</h1><p class=\"article-lead\" data-i18n=\"shareLead\">उपलब्धियाँ, पासपोर्ट प्रगति, रूट और दूरी रिकॉर्ड अब Premium के बिना साझा किए जा सकते हैं।</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 अक्टूबर 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 मिनट पढ़ें</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest उपलब्धि साझा करने का चित्र\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">आपकी प्रगति ऐप से आगे जाने योग्य है। पूरा रूट, नया स्टैम्प या उपलब्धि साझा करें और दोस्तों को चलना शुरू करने के लिए प्रेरित करें।</p>\n      <h2 data-i18n=\"shareFreeTitle\">शेयरिंग सभी के लिए</h2>\n      <p data-i18n=\"shareFreeText\">शेयरिंग अब Premium फ़ीचर नहीं है। फ़ोन के ऐप से उपलब्धि, रूट प्रगति, पासपोर्ट पड़ाव या दूरी रिकॉर्ड पोस्ट करें।</p>\n      <h2 data-i18n=\"shareLinksTitle\">एक पोस्ट, दो उपयोगी स्थान</h2>\n      <p data-i18n=\"shareLinksText\">साझा संदेशों में WalkQuest वेबसाइट और Google Play के लिंक हैं। UTM और Play referrer समुदाय पोस्ट से आए विज़िट और इंस्टॉल मापते हैं।</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">आपकी कहानी बदले बिना माप</strong><p data-i18n=\"sharePrivacyText\">टैग केवल चैनल और अभियान बताते हैं; वे लिंक में नाम, कदम, स्थान या उपलब्धि विवरण नहीं जोड़ते।</p></aside>\n      <blockquote data-i18n=\"shareQuote\">हर साझा उपलब्धि किसी और की यात्रा का पहला कदम बन सकती है।</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">चलें। कमाएँ। साझा करें।</h2><p data-i18n=\"shareCtaText\">Google Play से WalkQuest पाएँ और आज के कदमों को साझा करने योग्य यात्रा बनाएँ।</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">इसे लगाओ</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">असली कदम. उल्लेखनीय यात्राएँ.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">गेम गाइड</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">मार्ग</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">समाचार</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">गोपनीयता</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">सर्वाधिकार सुरक्षित.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "सामग्री पर जाएं",
         "navHome": "घर",
@@ -2489,7 +2639,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     },
     "pt-br": {
       "relativePath": "pt-br/sharing-achievements.html",
@@ -2502,11 +2667,7 @@
         "data-title-key": "shareArticlePageTitle",
         "data-description-key": "shareArticlePageDescription"
       },
-      "headerHtml": "<header class=\"site-header\"><div class=\"shell nav-wrap\"><a class=\"brand\" href=\"./index.html\" aria-label=\"WalkQuest home\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><nav class=\"desktop-nav\" aria-label=\"Primary navigation\"><a href=\"./index.html\" data-page-link=\"home\" data-i18n=\"navHome\">Página inicial</a><a href=\"./rules.html\" data-page-link=\"guide\" data-i18n=\"navGuide\">Guia do jogo</a><a href=\"./routes.html\" data-page-link=\"routes\" data-i18n=\"navRoutes\">Rotas</a><a href=\"./premium.html\" data-page-link=\"premium\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-page-link=\"news\" data-i18n=\"navNews\">Notícias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidade</a></nav><label class=\"language-picker\"><span class=\"sr-only\" id=\"pageLanguageLabel\" data-i18n=\"languageLabel\">Escolha o idioma</span><span aria-hidden=\"true\">🌐</span><select id=\"pageLanguageSelect\" aria-label=\"Choose language\"></select><span class=\"chevron\" aria-hidden=\"true\">⌄</span></label></div></header>",
       "mainHtml": "<main id=\"main\"><article>\n    <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Voltar para as notícias</a><span class=\"news-tag\" data-i18n=\"shareTag\">Atualização do produto</span><h1 data-i18n=\"shareTitle\">Compartilhe cada conquista WalkQuest — agora grátis</h1><p class=\"article-lead\" data-i18n=\"shareLead\">Conquistas, progresso do passaporte, rotas e recordes de distância agora podem ser compartilhados sem Premium.</p><div class=\"article-meta\"><time datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de outubro de 2026</time><span>•</span><span data-i18n=\"shareReadTime\">3 min de leitura</span></div><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustração de compartilhamento de conquistas WalkQuest\" data-i18n-alt=\"shareHeroAlt\"></div></header>\n    <div class=\"shell article-layout\"><div class=\"article-body\">\n      <p class=\"article-drop\" data-i18n=\"shareIntro\">Seu progresso merece ir além do aplicativo. Compartilhe uma rota concluída, um novo carimbo ou uma conquista e convide amigos a caminhar.</p>\n      <h2 data-i18n=\"shareFreeTitle\">Compartilhar é para todos</h2>\n      <p data-i18n=\"shareFreeText\">Compartilhar não é mais um recurso Premium. Publique conquistas, progresso, marcos do passaporte ou recordes pelos aplicativos do celular.</p>\n      <h2 data-i18n=\"shareLinksTitle\">Uma publicação, dois destinos úteis</h2>\n      <p data-i18n=\"shareLinksText\">As mensagens incluem links para o site WalkQuest e o Google Play. Tags UTM e Play referrer medem visitas e instalações vindas da comunidade.</p>\n      <aside class=\"article-callout\"><strong data-i18n=\"sharePrivacyTitle\">Medição sem mudar sua história</strong><p data-i18n=\"sharePrivacyText\">As tags descrevem o canal e a campanha. Elas não adicionam ao link seu nome, passos, localização ou detalhes da conquista.</p></aside>\n      <blockquote data-i18n=\"shareQuote\">Cada marco compartilhado pode ser o primeiro passo da jornada de outra pessoa.</blockquote>\n    </div></div>\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"shareCtaTitle\">Caminhe. Conquiste. Compartilhe.</h2><p data-i18n=\"shareCtaText\">Baixe WalkQuest no Google Play e transforme os passos de hoje em uma jornada para compartilhar.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest&amp;utm_source=walkquest_site&amp;utm_medium=owned_web&amp;utm_campaign=share_launch_2026_10&amp;referrer=utm_source%3Dwalkquest_site%26utm_medium%3Downed_web%26utm_campaign%3Dshare_launch_2026_10\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Comece</small><strong>Google Play</strong></span></a></div></section>\n  </article></main>",
-      "footerHtml": "<footer><div class=\"shell footer-grid\"><div><a class=\"brand footer-brand\" href=\"./index.html\"><span class=\"brand-mark\" aria-hidden=\"true\"><span></span></span><span>WalkQuest</span></a><p data-i18n=\"footerTagline\">Passos reais. Viagens notáveis.</p></div><div class=\"footer-links\"><a href=\"./rules.html\" data-i18n=\"navGuide\">Guia do jogo</a><a href=\"./routes.html\" data-i18n=\"navRoutes\">Rotas</a><a href=\"./premium.html\" data-i18n=\"navPremium\">Premium</a><a href=\"./news.html\" data-i18n=\"navNews\">Notícias</a><a href=\"./privacy.html\" data-i18n=\"navPrivacy\">Privacidade</a><a href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play</a></div><p class=\"copyright\">© <span id=\"year\"></span> WalkQuest. <span data-i18n=\"footerRights\">Todos os direitos reservados.</span></p></div></footer>",
-      "scriptsHtml": "<script src=\"../pages-translations.js\"></script>\n  <script src=\"../sharing-translations.js\"></script>\n  <script src=\"../pages.js\"></script>",
-      "isInfoSite": true,
       "labels": {
         "skipLink": "Pular para o conteúdo",
         "navHome": "Página inicial",
@@ -2655,7 +2816,22 @@
         ],
         "scripts": [],
         "inlineStyles": []
-      }
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ]
     }
   }
 }

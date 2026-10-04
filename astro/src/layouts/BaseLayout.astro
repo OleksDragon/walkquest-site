@@ -1,4 +1,6 @@
 ---
+import LandingFooter from "../components/LandingFooter.astro";
+import LandingHeader from "../components/LandingHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import type { PageData } from "../lib/page-data";
@@ -49,9 +51,11 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
   </head>
   <body {...page.bodyAttributes}>
     <a class="skip-link" href="#main">{page.labels.skipLink}</a>
-    {page.isInfoSite ? <SiteHeader labels={page.labels} /> : <Fragment set:html={page.headerHtml} />}
+    {page.chrome === "site" && <SiteHeader labels={page.labels} />}
+    {page.chrome === "landing" && <LandingHeader labels={page.labels} />}
     <slot />
-    {page.isInfoSite ? <SiteFooter labels={page.labels} /> : <Fragment set:html={page.footerHtml} />}
-    <Fragment set:html={page.scriptsHtml} />
+    {page.chrome === "site" && <SiteFooter labels={page.labels} />}
+    {page.chrome === "landing" && <LandingFooter labels={page.labels} />}
+    {page.bodyScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
   </body>
 </html>

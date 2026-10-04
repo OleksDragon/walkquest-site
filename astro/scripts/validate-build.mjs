@@ -34,6 +34,12 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
       const head = page.head;
       sourcePageCount += 1;
       if (page.headHtml || !head) errors.push(`${filename}:${locale}: head data is not structured.`);
+      if (page.headerHtml || page.footerHtml || page.scriptsHtml || "isInfoSite" in page) {
+        errors.push(`${filename}:${locale}: page shell still contains raw HTML fields.`);
+      }
+      if (!["landing", "site", "privacy"].includes(page.chrome) || !Array.isArray(page.bodyScripts)) {
+        errors.push(`${filename}:${locale}: invalid page chrome or body scripts.`);
+      }
       if (!head?.title || !head.description || !head.canonical) errors.push(`${filename}:${locale}: incomplete SEO head data.`);
       if (head?.alternates?.length !== 17) errors.push(`${filename}:${locale}: expected 17 hreflang links.`);
       if (!Array.isArray(head?.structuredData) || !Array.isArray(head?.scripts) || !Array.isArray(head?.inlineStyles)) {

@@ -2,6 +2,8 @@ name: Deploy Astro to GitHub Pages
 
 on:
   push:
+    branches: [main, codex/astro-migration]
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -24,7 +26,11 @@ jobs:
         uses: withastro/action@v5
         with:
           path: ./astro
+      - name: Validate generated site
+        working-directory: ./astro
+        run: npm run validate
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

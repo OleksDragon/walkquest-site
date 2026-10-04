@@ -30,6 +30,8 @@ The Premium comparison is rendered by `PremiumPage.astro` from localized copy fi
 
 The route atlas is rendered by `RoutesCatalogPage.astro` from localized copy fields and structured route collections. Its featured journeys, complete atlas, route explanation, and call to action no longer use a raw main HTML fragment.
 
+Editorial stories are rendered by the shared `ArticlePage.astro` component from typed content blocks. Paragraphs, statistics, steps, lists, callouts, feature cards, quotes, related links, and calls to action are reusable across all locales without raw main HTML fragments.
+
 The build keeps the existing `.html` URLs, emits all 240 localized pages, generates `sitemap.xml`, preserves the custom domain, and deploys through the official Astro GitHub Pages action.
 
 New route work should copy an existing file in `src/data/routes/` and add the new slug to `src/lib/route-pages.ts`.

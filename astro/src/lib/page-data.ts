@@ -75,6 +75,24 @@ export interface RoutesContent {
   copy: Record<string, string>;
 }
 
+export type ArticleBlock =
+  | { type: "paragraph"; key: string; drop?: boolean }
+  | { type: "heading"; key: string }
+  | { type: "quote"; key: string }
+  | { type: "callout"; title: string; text: string }
+  | { type: "list"; items: string[] }
+  | { type: "steps"; items: Array<{ title: string; text: string }> }
+  | { type: "stats"; items: Array<{ value?: string; literal?: string; label: string }> }
+  | { type: "features"; items: Array<{ emoji: string; title: string; text: string }> };
+
+export interface ArticleContent {
+  copy: Record<string, string>;
+  hero: { tag: string; title: string; lead: string; date: string; readTime: string; dateTime: string; image: string; alt: string };
+  blocks: ArticleBlock[];
+  next?: { href: string; label: string; title: string };
+  cta?: { title: string; text: string; label: string; href: string };
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
@@ -88,6 +106,7 @@ export interface PageData {
   rules?: RulesContent;
   premium?: PremiumContent;
   routes?: RoutesContent;
+  article?: ArticleContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

@@ -12,7 +12,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Back to news</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Release notes</span><h1 data-i18n=\"releaseTitle\">A bigger home for every WalkQuest journey</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">The new WalkQuest website is more than a landing page: it is now a multilingual field guide for understanding the game before your first step.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">October 1, 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 min read</span></div><img src=\"./assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest app update with routes, passport stamps, and multilingual travel cards\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">A walking game can be simple to play and still contain a whole world of details. WalkQuest connects steps, routes, cities, transfers, passport stamps, achievements, and Premium options. The redesigned website brings those pieces together in one calm place.</p>\n        <p data-i18n=\"releaseIntroP2\">The goal is practical: a visitor should understand what WalkQuest does in less than a minute, while an active traveller can find a deeper answer without searching through menus.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Sixteen languages, one shared journey</h2>\n        <p data-i18n=\"releaseLanguageP1\">Every main page and every article follows the language selected on the site. On a first visit, WalkQuest checks the browser language; if it is supported, the page opens in that language automatically. Otherwise, English is used.</p>\n        <p data-i18n=\"releaseLanguageP2\">The choice is saved on the device and follows you from the game guide to routes, Premium, privacy, and the journal. Arabic also changes the complete reading direction to right-to-left.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Why this matters</strong><p data-i18n=\"releaseCalloutText\">A player arriving directly from Google Play can read the explanation, privacy policy, and support material in a familiar language without creating an account.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">A clearer path from curiosity to the first walk</h2>\n        <p data-i18n=\"releasePathP1\">The website now separates quick answers from detailed guidance. The home page explains the promise; the game guide shows the controls; the route atlas helps choose a destination; the Premium page explains purchases without hiding the free experience.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Game guide</h3><p data-i18n=\"releaseFeature1Text\">See how steps move the marker, how cities unlock, and what happens at a ferry, train, or flight gate.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Route atlas</h3><p data-i18n=\"releaseFeature2Text\">Compare short adventures with epic journeys using real distances, stops, difficulty, and transfer counts.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Journal</h3><p data-i18n=\"releaseFeature3Text\">Read focused stories about releases, destinations, and practical setup instead of vague marketing announcements.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">What has not changed</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest still does not require an account. Step access remains read-only and permission-based. Your real movement becomes progress on the route you choose, while the website remains a lightweight static site with no sign-in wall.</p>\n        <blockquote data-i18n=\"releaseQuote\">The website should feel like the first page of a travel journal: useful before the journey and worth returning to after it begins.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">What comes next</h2>\n        <p data-i18n=\"releaseNextP1\">Future notes will explain meaningful changes in plain language: what changed, why it changed, and whether it affects existing progress. Route spotlights and practical guides will continue alongside them.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Next article</span><strong data-i18n=\"releaseNextLink\">Explore the free Europe Explorer route →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Skip to content",
         "navHome": "Home",
@@ -174,7 +173,131 @@
           "src": "./pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Back to news",
+          "releaseTag": "Release notes",
+          "releaseTitle": "A bigger home for every WalkQuest journey",
+          "releaseLead": "The new WalkQuest website is more than a landing page: it is now a multilingual field guide for understanding the game before your first step.",
+          "releaseDate": "October 1, 2026",
+          "releaseReadTime": "6 min read",
+          "releaseIntroP1": "A walking game can be simple to play and still contain a whole world of details. WalkQuest connects steps, routes, cities, transfers, passport stamps, achievements, and Premium options. The redesigned website brings those pieces together in one calm place.",
+          "releaseIntroP2": "The goal is practical: a visitor should understand what WalkQuest does in less than a minute, while an active traveller can find a deeper answer without searching through menus.",
+          "releaseLanguageTitle": "Sixteen languages, one shared journey",
+          "releaseLanguageP1": "Every main page and every article follows the language selected on the site. On a first visit, WalkQuest checks the browser language; if it is supported, the page opens in that language automatically. Otherwise, English is used.",
+          "releaseLanguageP2": "The choice is saved on the device and follows you from the game guide to routes, Premium, privacy, and the journal. Arabic also changes the complete reading direction to right-to-left.",
+          "releaseCalloutTitle": "Why this matters",
+          "releaseCalloutText": "A player arriving directly from Google Play can read the explanation, privacy policy, and support material in a familiar language without creating an account.",
+          "releasePathTitle": "A clearer path from curiosity to the first walk",
+          "releasePathP1": "The website now separates quick answers from detailed guidance. The home page explains the promise; the game guide shows the controls; the route atlas helps choose a destination; the Premium page explains purchases without hiding the free experience.",
+          "releaseFeature1Title": "Game guide",
+          "releaseFeature1Text": "See how steps move the marker, how cities unlock, and what happens at a ferry, train, or flight gate.",
+          "releaseFeature2Title": "Route atlas",
+          "releaseFeature2Text": "Compare short adventures with epic journeys using real distances, stops, difficulty, and transfer counts.",
+          "releaseFeature3Title": "Journal",
+          "releaseFeature3Text": "Read focused stories about releases, destinations, and practical setup instead of vague marketing announcements.",
+          "releaseSameTitle": "What has not changed",
+          "releaseSameP1": "WalkQuest still does not require an account. Step access remains read-only and permission-based. Your real movement becomes progress on the route you choose, while the website remains a lightweight static site with no sign-in wall.",
+          "releaseQuote": "The website should feel like the first page of a travel journal: useful before the journey and worth returning to after it begins.",
+          "releaseNextTitle": "What comes next",
+          "releaseNextP1": "Future notes will explain meaningful changes in plain language: what changed, why it changed, and whether it affects existing progress. Route spotlights and practical guides will continue alongside them.",
+          "articleNext": "Next article",
+          "releaseNextLink": "Explore the free Europe Explorer route →",
+          "releaseHeroAlt": "WalkQuest app update with routes, passport stamps, and multilingual travel cards"
+        }
+      }
     },
     "uk": {
       "relativePath": "uk/release-notes.html",
@@ -187,7 +310,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Назад до новин</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Нотатки до випуску</span><h1 data-i18n=\"releaseTitle\">Новий простір для кожної подорожі з WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Новий вебсайт WalkQuest — це більше, ніж просто цільова сторінка (лендінг): тепер це багатомовний путівник, що дозволяє зрозуміти гру ще до того, як ви зробите перший крок.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 жовтня 2026 р.</time><span>•</span><span data-i18n=\"releaseReadTime\">Час читання: 6 хв.</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Оновлення застосунку WalkQuest: маршрути, штампи в паспорті та багатомовні картки мандрівника\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Гра, що базується на ходьбі, може бути простою у використанні, але при цьому містити цілий світ деталей. WalkQuest поєднує кроки, маршрути, міста, пересадки, штампи в паспорті, досягнення та преміум-функції. Оновлений сайт об’єднує всі ці елементи в одному зручному та зрозумілому просторі.</p>\n        <p data-i18n=\"releaseIntroP2\">Мета цілком практична: відвідувач має зрозуміти суть WalkQuest менш ніж за хвилину, тоді як активний мандрівник може знайти більш детальну інформацію, не блукаючи по меню.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Шістнадцять мов, одна спільна подорож</h2>\n        <p data-i18n=\"releaseLanguageP1\">Усі основні сторінки та статті відображаються мовою, обраною на сайті. Під час першого візиту WalkQuest перевіряє мову браузера;якщо вона підтримується, сторінка автоматично відкривається цією мовою. В іншому разі використовується англійська.</p>\n        <p data-i18n=\"releaseLanguageP2\">Вибір зберігається на пристрої та супроводжує вас усюди: від ігрового путівника до маршрутів, преміум-розділу, політики конфіденційності та журналу подорожей. У разі вибору арабської мови напрямок читання змінюється на «справа наліво».</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Чому це важливо</strong><p data-i18n=\"releaseCalloutText\">Гравець, який перейшов безпосередньо з Google Play, може ознайомитися з описом гри, політикою конфіденційності та довідковими матеріалами рідною мовою, не створюючи облікового запису.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Чіткіший шлях від цікавості до першої прогулянки</h2>\n        <p data-i18n=\"releasePathP1\">Тепер на сайті розмежовано швидкі відповіді та детальні інструкції. Головна сторінка розкриває суть гри;путівник пояснює керування;атлас маршрутів допомагає обрати напрямок;сторінка преміум-версії пояснює умови покупок, не приховуючи при цьому можливостей безкоштовної гри.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Ігровий путівник</h3><p data-i18n=\"releaseFeature1Text\">Дізнайтеся, як кроки переміщують маркер, як відкриваються міста та що відбувається під час поїздок на поромі, потязі чи перельотів.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Атлас маршрутів</h3><p data-i18n=\"releaseFeature2Text\">Порівнюйте короткі пригоди з масштабними подорожами, враховуючи реальні відстані, зупинки, рівень складності та кількість пересадок.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Журнал</h3><p data-i18n=\"releaseFeature3Text\">Читайте змістовні матеріали про нові релізи, напрямки та практичні поради, а не розмиті маркетингові анонси.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Що залишилося незмінним</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest, як і раніше, не вимагає створення облікового запису. Доступ до даних про кроки залишається в режимі «тільки читання» та надається лише за вашою згодою. Ваші реальні переміщення перетворюються на прогрес на обраному маршруті, а сам вебсайт залишається легким статичним ресурсом без обов’язкової реєстрації чи входу в систему.</p>\n        <blockquote data-i18n=\"releaseQuote\">Сайт має нагадувати першу сторінку щоденника подорожей: він корисний ще до початку мандрівки, і до нього варто повертатися вже в процесі подорожі.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Що далі</h2>\n        <p data-i18n=\"releaseNextP1\">У майбутніх публікаціях ми простою мовою розповідатимемо про важливі зміни: що саме змінилося, чому це сталося і чи впливає це на вже досягнутий прогрес. Паралельно ми й надалі публікуватимемо огляди маршрутів та практичні посібники.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Наступна стаття</span><strong data-i18n=\"releaseNextLink\">Відкрийте для себе безкоштовний маршрут «Europe Explorer» →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Перейти до вмісту",
         "navHome": "додому",
@@ -349,7 +471,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Назад до новин",
+          "releaseTag": "Нотатки до випуску",
+          "releaseTitle": "Новий простір для кожної подорожі з WalkQuest",
+          "releaseLead": "Новий вебсайт WalkQuest — це більше, ніж просто цільова сторінка (лендінг): тепер це багатомовний путівник, що дозволяє зрозуміти гру ще до того, як ви зробите перший крок.",
+          "releaseDate": "1 жовтня 2026 р.",
+          "releaseReadTime": "Час читання: 6 хв.",
+          "releaseIntroP1": "Гра, що базується на ходьбі, може бути простою у використанні, але при цьому містити цілий світ деталей. WalkQuest поєднує кроки, маршрути, міста, пересадки, штампи в паспорті, досягнення та преміум-функції. Оновлений сайт об’єднує всі ці елементи в одному зручному та зрозумілому просторі.",
+          "releaseIntroP2": "Мета цілком практична: відвідувач має зрозуміти суть WalkQuest менш ніж за хвилину, тоді як активний мандрівник може знайти більш детальну інформацію, не блукаючи по меню.",
+          "releaseLanguageTitle": "Шістнадцять мов, одна спільна подорож",
+          "releaseLanguageP1": "Усі основні сторінки та статті відображаються мовою, обраною на сайті. Під час першого візиту WalkQuest перевіряє мову браузера;якщо вона підтримується, сторінка автоматично відкривається цією мовою. В іншому разі використовується англійська.",
+          "releaseLanguageP2": "Вибір зберігається на пристрої та супроводжує вас усюди: від ігрового путівника до маршрутів, преміум-розділу, політики конфіденційності та журналу подорожей. У разі вибору арабської мови напрямок читання змінюється на «справа наліво».",
+          "releaseCalloutTitle": "Чому це важливо",
+          "releaseCalloutText": "Гравець, який перейшов безпосередньо з Google Play, може ознайомитися з описом гри, політикою конфіденційності та довідковими матеріалами рідною мовою, не створюючи облікового запису.",
+          "releasePathTitle": "Чіткіший шлях від цікавості до першої прогулянки",
+          "releasePathP1": "Тепер на сайті розмежовано швидкі відповіді та детальні інструкції. Головна сторінка розкриває суть гри;путівник пояснює керування;атлас маршрутів допомагає обрати напрямок;сторінка преміум-версії пояснює умови покупок, не приховуючи при цьому можливостей безкоштовної гри.",
+          "releaseFeature1Title": "Ігровий путівник",
+          "releaseFeature1Text": "Дізнайтеся, як кроки переміщують маркер, як відкриваються міста та що відбувається під час поїздок на поромі, потязі чи перельотів.",
+          "releaseFeature2Title": "Атлас маршрутів",
+          "releaseFeature2Text": "Порівнюйте короткі пригоди з масштабними подорожами, враховуючи реальні відстані, зупинки, рівень складності та кількість пересадок.",
+          "releaseFeature3Title": "Журнал",
+          "releaseFeature3Text": "Читайте змістовні матеріали про нові релізи, напрямки та практичні поради, а не розмиті маркетингові анонси.",
+          "releaseSameTitle": "Що залишилося незмінним",
+          "releaseSameP1": "WalkQuest, як і раніше, не вимагає створення облікового запису. Доступ до даних про кроки залишається в режимі «тільки читання» та надається лише за вашою згодою. Ваші реальні переміщення перетворюються на прогрес на обраному маршруті, а сам вебсайт залишається легким статичним ресурсом без обов’язкової реєстрації чи входу в систему.",
+          "releaseQuote": "Сайт має нагадувати першу сторінку щоденника подорожей: він корисний ще до початку мандрівки, і до нього варто повертатися вже в процесі подорожі.",
+          "releaseNextTitle": "Що далі",
+          "releaseNextP1": "У майбутніх публікаціях ми простою мовою розповідатимемо про важливі зміни: що саме змінилося, чому це сталося і чи впливає це на вже досягнутий прогрес. Паралельно ми й надалі публікуватимемо огляди маршрутів та практичні посібники.",
+          "articleNext": "Наступна стаття",
+          "releaseNextLink": "Відкрийте для себе безкоштовний маршрут «Europe Explorer» →",
+          "releaseHeroAlt": "Оновлення застосунку WalkQuest: маршрути, штампи в паспорті та багатомовні картки мандрівника"
+        }
+      }
     },
     "ru": {
       "relativePath": "ru/release-notes.html",
@@ -362,7 +608,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Назад к новостям</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Информация о выпуске</span><h1 data-i18n=\"releaseTitle\">Новое пространство для каждого путешествия в WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Новый сайт WalkQuest — это больше, чем просто посадочная страница: теперь это многоязычный путеводитель, позволяющий разобраться в игре еще до того, как вы сделаете первый шаг.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 октября 2026 г.</time><span>•</span><span data-i18n=\"releaseReadTime\">Время чтения: 6 мин.</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Обновление приложения WalkQuest: маршруты, отметки в паспорте путешественника и многоязычные карточки поездок\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Игра, основанная на ходьбе, может быть простой в освоении, но при этом содержать множество деталей. WalkQuest объединяет шаги, маршруты, города, пересадки, штампы в паспорте, достижения и премиум-функции. Обновленный сайт собирает все эти элементы воедино в удобном и понятном формате.</p>\n        <p data-i18n=\"releaseIntroP2\">Цель практична: посетитель должен понять суть WalkQuest менее чем за минуту, а активный путешественник — найти более подробную информацию, не блуждая по меню.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Шестнадцать языков, одно общее путешествие</h2>\n        <p data-i18n=\"releaseLanguageP1\">Все основные страницы и статьи отображаются на языке, выбранном на сайте. При первом посещении WalkQuest определяет язык браузера: если он поддерживается, страница открывается на нем автоматически. В противном случае используется английский язык.</p>\n        <p data-i18n=\"releaseLanguageP2\">Выбор сохраняется на устройстве и действует во всех разделах: от руководства по игре до маршрутов, премиум-функций, политики конфиденциальности и журнала. При выборе арабского языка направление чтения меняется на «справа налево».</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Почему это важно</strong><p data-i18n=\"releaseCalloutText\">Игрок, перешедший прямо из Google Play, может ознакомиться с описанием, политикой конфиденциальности и справочными материалами на родном языке, не создавая учетную запись.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Более простой путь от любопытства к первой прогулке</h2>\n        <p data-i18n=\"releasePathP1\">Теперь на сайте четко разделены краткие ответы и подробные инструкции. Главная страница раскрывает суть игры;руководство объясняет управление;атлас маршрутов помогает выбрать направление;страница премиум-функций рассказывает о покупках, не умаляя при этом ценности бесплатной версии.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Руководство по игре</h3><p data-i18n=\"releaseFeature1Text\">Узнайте, как шаги перемещают маркер, как открываются города и что происходит при использовании парома, поезда или во время посадки на самолет.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Атлас маршрутов</h3><p data-i18n=\"releaseFeature2Text\">Сравнивайте короткие приключения с грандиозными путешествиями, учитывая реальные расстояния, остановки, сложность и количество пересадок.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Журнал</h3><p data-i18n=\"releaseFeature3Text\">Читайте содержательные материалы о новых выпусках, пунктах назначения и практических аспектах подготовки — вместо расплывчатых маркетинговых анонсов.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Что осталось неизменным</h2>\n        <p data-i18n=\"releaseSameP1\">Для использования WalkQuest по-прежнему не требуется создавать учетную запись. Доступ к данным о шагах остается односторонним (только чтение) и предоставляется по вашему разрешению. Ваши реальные перемещения преобразуются в прогресс на выбранном маршруте, а сам ресурс остается легким статичным сайтом без обязательной регистрации.</p>\n        <blockquote data-i18n=\"releaseQuote\">Сайт должен восприниматься как первая страница дневника путешествий: он полезен до начала пути, и к нему хочется возвращаться уже в процессе поездки.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Что дальше</h2>\n        <p data-i18n=\"releaseNextP1\">В будущих публикациях мы будем простым языком рассказывать о важных изменениях: что именно изменилось, почему это произошло и как это влияет на уже достигнутый прогресс. Параллельно будут выходить обзоры маршрутов и практические руководства.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Следующая статья</span><strong data-i18n=\"releaseNextLink\">Откройте для себя бесплатный маршрут Europe Explorer →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Перейти к содержимому",
         "navHome": "Главная",
@@ -524,7 +769,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Назад к новостям",
+          "releaseTag": "Информация о выпуске",
+          "releaseTitle": "Новое пространство для каждого путешествия в WalkQuest",
+          "releaseLead": "Новый сайт WalkQuest — это больше, чем просто посадочная страница: теперь это многоязычный путеводитель, позволяющий разобраться в игре еще до того, как вы сделаете первый шаг.",
+          "releaseDate": "1 октября 2026 г.",
+          "releaseReadTime": "Время чтения: 6 мин.",
+          "releaseIntroP1": "Игра, основанная на ходьбе, может быть простой в освоении, но при этом содержать множество деталей. WalkQuest объединяет шаги, маршруты, города, пересадки, штампы в паспорте, достижения и премиум-функции. Обновленный сайт собирает все эти элементы воедино в удобном и понятном формате.",
+          "releaseIntroP2": "Цель практична: посетитель должен понять суть WalkQuest менее чем за минуту, а активный путешественник — найти более подробную информацию, не блуждая по меню.",
+          "releaseLanguageTitle": "Шестнадцать языков, одно общее путешествие",
+          "releaseLanguageP1": "Все основные страницы и статьи отображаются на языке, выбранном на сайте. При первом посещении WalkQuest определяет язык браузера: если он поддерживается, страница открывается на нем автоматически. В противном случае используется английский язык.",
+          "releaseLanguageP2": "Выбор сохраняется на устройстве и действует во всех разделах: от руководства по игре до маршрутов, премиум-функций, политики конфиденциальности и журнала. При выборе арабского языка направление чтения меняется на «справа налево».",
+          "releaseCalloutTitle": "Почему это важно",
+          "releaseCalloutText": "Игрок, перешедший прямо из Google Play, может ознакомиться с описанием, политикой конфиденциальности и справочными материалами на родном языке, не создавая учетную запись.",
+          "releasePathTitle": "Более простой путь от любопытства к первой прогулке",
+          "releasePathP1": "Теперь на сайте четко разделены краткие ответы и подробные инструкции. Главная страница раскрывает суть игры;руководство объясняет управление;атлас маршрутов помогает выбрать направление;страница премиум-функций рассказывает о покупках, не умаляя при этом ценности бесплатной версии.",
+          "releaseFeature1Title": "Руководство по игре",
+          "releaseFeature1Text": "Узнайте, как шаги перемещают маркер, как открываются города и что происходит при использовании парома, поезда или во время посадки на самолет.",
+          "releaseFeature2Title": "Атлас маршрутов",
+          "releaseFeature2Text": "Сравнивайте короткие приключения с грандиозными путешествиями, учитывая реальные расстояния, остановки, сложность и количество пересадок.",
+          "releaseFeature3Title": "Журнал",
+          "releaseFeature3Text": "Читайте содержательные материалы о новых выпусках, пунктах назначения и практических аспектах подготовки — вместо расплывчатых маркетинговых анонсов.",
+          "releaseSameTitle": "Что осталось неизменным",
+          "releaseSameP1": "Для использования WalkQuest по-прежнему не требуется создавать учетную запись. Доступ к данным о шагах остается односторонним (только чтение) и предоставляется по вашему разрешению. Ваши реальные перемещения преобразуются в прогресс на выбранном маршруте, а сам ресурс остается легким статичным сайтом без обязательной регистрации.",
+          "releaseQuote": "Сайт должен восприниматься как первая страница дневника путешествий: он полезен до начала пути, и к нему хочется возвращаться уже в процессе поездки.",
+          "releaseNextTitle": "Что дальше",
+          "releaseNextP1": "В будущих публикациях мы будем простым языком рассказывать о важных изменениях: что именно изменилось, почему это произошло и как это влияет на уже достигнутый прогресс. Параллельно будут выходить обзоры маршрутов и практические руководства.",
+          "articleNext": "Следующая статья",
+          "releaseNextLink": "Откройте для себя бесплатный маршрут Europe Explorer →",
+          "releaseHeroAlt": "Обновление приложения WalkQuest: маршруты, отметки в паспорте путешественника и многоязычные карточки поездок"
+        }
+      }
     },
     "es": {
       "relativePath": "es/release-notes.html",
@@ -537,7 +906,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Volver a las noticias</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas de la versión</span><h1 data-i18n=\"releaseTitle\">Un espacio más amplio para cada aventura en WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">El nuevo sitio web de WalkQuest es más que una simple página de inicio: ahora es una guía de campo multilingüe para comprender el juego antes de dar el primer paso.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 de octubre de 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 minutos de lectura</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Actualización de la aplicación WalkQuest: nuevas rutas, sellos para el pasaporte y tarjetas de viaje multilingües\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Un juego basado en caminar puede ser sencillo de jugar y, aun así, albergar todo un mundo de detalles. WalkQuest conecta pasos, rutas, ciudades, traslados, sellos de pasaporte, logros y opciones Premium. El sitio web rediseñado reúne todos estos elementos en un espacio tranquilo y ordenado.</p>\n        <p data-i18n=\"releaseIntroP2\">El objetivo es práctico: que cualquier visitante comprenda qué hace WalkQuest en menos de un minuto, mientras que el viajero activo pueda encontrar información más detallada sin tener que navegar por menús complejos.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Dieciséis idiomas, una aventura compartida</h2>\n        <p data-i18n=\"releaseLanguageP1\">Todas las páginas principales y los artículos se muestran en el idioma seleccionado en el sitio. En la primera visita, WalkQuest detecta el idioma del navegador;si es compatible, la página se abre automáticamente en ese idioma. De lo contrario, se utiliza el inglés.</p>\n        <p data-i18n=\"releaseLanguageP2\">La elección se guarda en el dispositivo y se mantiene al pasar de la guía del juego a las rutas, la versión Premium, la política de privacidad y el diario de viaje. En el caso del árabe, la dirección de lectura cambia a derecha a izquierda.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Por qué esto es importante</strong><p data-i18n=\"releaseCalloutText\">Un jugador que llega directamente desde Google Play puede leer la explicación, la política de privacidad y el material de ayuda en un idioma familiar, sin necesidad de crear una cuenta.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Un camino más claro desde la curiosidad hasta la primera caminata</h2>\n        <p data-i18n=\"releasePathP1\">El sitio web ahora distingue entre respuestas rápidas e información detallada. La página de inicio explica la propuesta del juego;la guía del juego muestra los controles;el atlas de rutas ayuda a elegir un destino;y la página Premium explica las opciones de compra sin ocultar la experiencia gratuita.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Guía del juego</h3><p data-i18n=\"releaseFeature1Text\">Descubre cómo los pasos desplazan el marcador, cómo se desbloquean las ciudades y qué sucede en las terminales de ferry, tren o avión.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlas de rutas</h3><p data-i18n=\"releaseFeature2Text\">Compara aventuras breves con viajes épicos utilizando distancias reales, paradas, niveles de dificultad y número de traslados.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Diario</h3><p data-i18n=\"releaseFeature3Text\">Lee historias centradas en novedades, destinos y consejos prácticos, en lugar de vagos anuncios publicitarios.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Lo que no ha cambiado</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest sigue sin requerir una cuenta de usuario. El acceso a los pasos se mantiene en modo de solo lectura y basado en permisos. Tus movimientos reales se traducen en progreso en la ruta que elijas, mientras que el sitio web permanece como una página estática y ligera, sin barreras de inicio de sesión.</p>\n        <blockquote data-i18n=\"releaseQuote\">El sitio web busca transmitir la sensación de la primera página de un diario de viaje: útil antes de emprender la aventura y digno de consultarse una vez iniciada.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Lo que está por venir</h2>\n        <p data-i18n=\"releaseNextP1\">Las futuras publicaciones explicarán los cambios importantes con un lenguaje claro: qué ha cambiado, por qué y si afecta al progreso acumulado. Paralelamente, se seguirán publicando artículos destacados sobre rutas y guías prácticas.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Siguiente artículo</span><strong data-i18n=\"releaseNextLink\">Explora la ruta gratuita «Europe Explorer» →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Saltar al contenido",
         "navHome": "Inicio",
@@ -699,7 +1067,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Volver a las noticias",
+          "releaseTag": "Notas de la versión",
+          "releaseTitle": "Un espacio más amplio para cada aventura en WalkQuest",
+          "releaseLead": "El nuevo sitio web de WalkQuest es más que una simple página de inicio: ahora es una guía de campo multilingüe para comprender el juego antes de dar el primer paso.",
+          "releaseDate": "1 de octubre de 2026",
+          "releaseReadTime": "6 minutos de lectura",
+          "releaseIntroP1": "Un juego basado en caminar puede ser sencillo de jugar y, aun así, albergar todo un mundo de detalles. WalkQuest conecta pasos, rutas, ciudades, traslados, sellos de pasaporte, logros y opciones Premium. El sitio web rediseñado reúne todos estos elementos en un espacio tranquilo y ordenado.",
+          "releaseIntroP2": "El objetivo es práctico: que cualquier visitante comprenda qué hace WalkQuest en menos de un minuto, mientras que el viajero activo pueda encontrar información más detallada sin tener que navegar por menús complejos.",
+          "releaseLanguageTitle": "Dieciséis idiomas, una aventura compartida",
+          "releaseLanguageP1": "Todas las páginas principales y los artículos se muestran en el idioma seleccionado en el sitio. En la primera visita, WalkQuest detecta el idioma del navegador;si es compatible, la página se abre automáticamente en ese idioma. De lo contrario, se utiliza el inglés.",
+          "releaseLanguageP2": "La elección se guarda en el dispositivo y se mantiene al pasar de la guía del juego a las rutas, la versión Premium, la política de privacidad y el diario de viaje. En el caso del árabe, la dirección de lectura cambia a derecha a izquierda.",
+          "releaseCalloutTitle": "Por qué esto es importante",
+          "releaseCalloutText": "Un jugador que llega directamente desde Google Play puede leer la explicación, la política de privacidad y el material de ayuda en un idioma familiar, sin necesidad de crear una cuenta.",
+          "releasePathTitle": "Un camino más claro desde la curiosidad hasta la primera caminata",
+          "releasePathP1": "El sitio web ahora distingue entre respuestas rápidas e información detallada. La página de inicio explica la propuesta del juego;la guía del juego muestra los controles;el atlas de rutas ayuda a elegir un destino;y la página Premium explica las opciones de compra sin ocultar la experiencia gratuita.",
+          "releaseFeature1Title": "Guía del juego",
+          "releaseFeature1Text": "Descubre cómo los pasos desplazan el marcador, cómo se desbloquean las ciudades y qué sucede en las terminales de ferry, tren o avión.",
+          "releaseFeature2Title": "Atlas de rutas",
+          "releaseFeature2Text": "Compara aventuras breves con viajes épicos utilizando distancias reales, paradas, niveles de dificultad y número de traslados.",
+          "releaseFeature3Title": "Diario",
+          "releaseFeature3Text": "Lee historias centradas en novedades, destinos y consejos prácticos, en lugar de vagos anuncios publicitarios.",
+          "releaseSameTitle": "Lo que no ha cambiado",
+          "releaseSameP1": "WalkQuest sigue sin requerir una cuenta de usuario. El acceso a los pasos se mantiene en modo de solo lectura y basado en permisos. Tus movimientos reales se traducen en progreso en la ruta que elijas, mientras que el sitio web permanece como una página estática y ligera, sin barreras de inicio de sesión.",
+          "releaseQuote": "El sitio web busca transmitir la sensación de la primera página de un diario de viaje: útil antes de emprender la aventura y digno de consultarse una vez iniciada.",
+          "releaseNextTitle": "Lo que está por venir",
+          "releaseNextP1": "Las futuras publicaciones explicarán los cambios importantes con un lenguaje claro: qué ha cambiado, por qué y si afecta al progreso acumulado. Paralelamente, se seguirán publicando artículos destacados sobre rutas y guías prácticas.",
+          "articleNext": "Siguiente artículo",
+          "releaseNextLink": "Explora la ruta gratuita «Europe Explorer» →",
+          "releaseHeroAlt": "Actualización de la aplicación WalkQuest: nuevas rutas, sellos para el pasaporte y tarjetas de viaje multilingües"
+        }
+      }
     },
     "de": {
       "relativePath": "de/release-notes.html",
@@ -712,7 +1204,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Zurück zu den Neuigkeiten</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Versionshinweise</span><h1 data-i18n=\"releaseTitle\">Ein neues Zuhause für jede WalkQuest-Reise</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Die neue WalkQuest-Website ist mehr als nur eine Landingpage: Sie ist jetzt ein mehrsprachiger Wegweiser, der das Spiel schon vor dem ersten Schritt verständlich macht.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1. Oktober 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 Min. Lesezeit</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest-App-Update mit Routen, Reisepass-Stempeln und mehrsprachigen Reisekarten\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Ein Spiel, das auf Gehen basiert, kann einfach zu spielen sein und dennoch eine ganze Welt voller Details bieten. WalkQuest verknüpft Schritte, Routen, Städte, Verkehrsmittelwechsel, Reisepassstempel, Erfolge und Premium-Optionen. Die neu gestaltete Website führt all diese Elemente an einem übersichtlichen Ort zusammen.</p>\n        <p data-i18n=\"releaseIntroP2\">Das Ziel ist praxisorientiert: Besucher sollen in weniger als einer Minute verstehen, worum es bei WalkQuest geht, während aktive Reisende tiefergehende Informationen finden können, ohne sich durch Menüs wühlen zu müssen.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Sechzehn Sprachen, eine gemeinsame Reise</h2>\n        <p data-i18n=\"releaseLanguageP1\">Jede Hauptseite und jeder Artikel passt sich der auf der Website gewählten Sprache an. Beim ersten Besuch prüft WalkQuest die Browsersprache;wird diese unterstützt, öffnet sich die Seite automatisch in dieser Sprache. Andernfalls wird Englisch verwendet.</p>\n        <p data-i18n=\"releaseLanguageP2\">Die Auswahl wird auf dem Gerät gespeichert und bleibt erhalten – vom Spiel-Guide über Routen, Premium-Optionen und Datenschutz bis hin zum Tagebuch. Bei Arabisch wechselt zudem die gesamte Leserichtung auf „von rechts nach links“.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Warum das wichtig ist</strong><p data-i18n=\"releaseCalloutText\">Spieler, die direkt von Google Play kommen, können Erklärungen, Datenschutzbestimmungen und Support-Informationen in ihrer vertrauten Sprache lesen, ohne ein Konto erstellen zu müssen.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Ein klarerer Weg von der Neugier bis zum ersten Spaziergang</h2>\n        <p data-i18n=\"releasePathP1\">Die Website unterscheidet nun zwischen schnellen Antworten und detaillierten Anleitungen. Die Startseite erläutert das Spielkonzept, der Spiel-Guide zeigt die Steuerung, der Routenatlas hilft bei der Zielwahl und die Premium-Seite erklärt die Kaufoptionen, ohne das kostenlose Spielerlebnis in den Hintergrund zu drängen.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Spiel-Guide</h3><p data-i18n=\"releaseFeature1Text\">Erfahren Sie, wie Schritte die Markierung bewegen, wie Städte freigeschaltet werden und was an Fähranlegern, Bahnhöfen oder Flugsteigen passiert.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Routenatlas</h3><p data-i18n=\"releaseFeature2Text\">Vergleiche kurze Abenteuer mit epischen Reisen – anhand von realen Entfernungen, Zwischenstopps, Schwierigkeitsgraden und der Anzahl der Etappen.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Tagebuch</h3><p data-i18n=\"releaseFeature3Text\">Lies gezielte Beiträge zu neuen Veröffentlichungen, Reisezielen und praktischen Tipps, statt vager Marketing-Ankündigungen.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Was gleich geblieben ist</h2>\n        <p data-i18n=\"releaseSameP1\">Für WalkQuest ist weiterhin kein Benutzerkonto erforderlich. Der Zugriff auf deine Schritte erfolgt nur lesend und auf Basis deiner Berechtigung. Deine tatsächliche Bewegung lässt dich auf der gewählten Route vorankommen, während die Website eine schlanke, statische Seite ohne Anmeldezwang bleibt.</p>\n        <blockquote data-i18n=\"releaseQuote\">Die Website soll sich wie die erste Seite eines Reisetagebuchs anfühlen: nützlich vor Reiseantritt und ein Ort, zu dem man auch während der Reise gerne zurückkehrt.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Wie es weitergeht</h2>\n        <p data-i18n=\"releaseNextP1\">Zukünftige Beiträge erläutern wichtige Änderungen in verständlicher Sprache: Was hat sich geändert, warum und welche Auswirkungen hat das auf den bisherigen Fortschritt? Ergänzend dazu wird es weiterhin Routen-Porträts und praktische Anleitungen geben.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Nächster Artikel</span><strong data-i18n=\"releaseNextLink\">Entdecke die kostenlose Route „Europe Explorer“ →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Zum Inhalt springen",
         "navHome": "Zuhause",
@@ -874,7 +1365,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Zurück zu den Neuigkeiten",
+          "releaseTag": "Versionshinweise",
+          "releaseTitle": "Ein neues Zuhause für jede WalkQuest-Reise",
+          "releaseLead": "Die neue WalkQuest-Website ist mehr als nur eine Landingpage: Sie ist jetzt ein mehrsprachiger Wegweiser, der das Spiel schon vor dem ersten Schritt verständlich macht.",
+          "releaseDate": "1. Oktober 2026",
+          "releaseReadTime": "6 Min. Lesezeit",
+          "releaseIntroP1": "Ein Spiel, das auf Gehen basiert, kann einfach zu spielen sein und dennoch eine ganze Welt voller Details bieten. WalkQuest verknüpft Schritte, Routen, Städte, Verkehrsmittelwechsel, Reisepassstempel, Erfolge und Premium-Optionen. Die neu gestaltete Website führt all diese Elemente an einem übersichtlichen Ort zusammen.",
+          "releaseIntroP2": "Das Ziel ist praxisorientiert: Besucher sollen in weniger als einer Minute verstehen, worum es bei WalkQuest geht, während aktive Reisende tiefergehende Informationen finden können, ohne sich durch Menüs wühlen zu müssen.",
+          "releaseLanguageTitle": "Sechzehn Sprachen, eine gemeinsame Reise",
+          "releaseLanguageP1": "Jede Hauptseite und jeder Artikel passt sich der auf der Website gewählten Sprache an. Beim ersten Besuch prüft WalkQuest die Browsersprache;wird diese unterstützt, öffnet sich die Seite automatisch in dieser Sprache. Andernfalls wird Englisch verwendet.",
+          "releaseLanguageP2": "Die Auswahl wird auf dem Gerät gespeichert und bleibt erhalten – vom Spiel-Guide über Routen, Premium-Optionen und Datenschutz bis hin zum Tagebuch. Bei Arabisch wechselt zudem die gesamte Leserichtung auf „von rechts nach links“.",
+          "releaseCalloutTitle": "Warum das wichtig ist",
+          "releaseCalloutText": "Spieler, die direkt von Google Play kommen, können Erklärungen, Datenschutzbestimmungen und Support-Informationen in ihrer vertrauten Sprache lesen, ohne ein Konto erstellen zu müssen.",
+          "releasePathTitle": "Ein klarerer Weg von der Neugier bis zum ersten Spaziergang",
+          "releasePathP1": "Die Website unterscheidet nun zwischen schnellen Antworten und detaillierten Anleitungen. Die Startseite erläutert das Spielkonzept, der Spiel-Guide zeigt die Steuerung, der Routenatlas hilft bei der Zielwahl und die Premium-Seite erklärt die Kaufoptionen, ohne das kostenlose Spielerlebnis in den Hintergrund zu drängen.",
+          "releaseFeature1Title": "Spiel-Guide",
+          "releaseFeature1Text": "Erfahren Sie, wie Schritte die Markierung bewegen, wie Städte freigeschaltet werden und was an Fähranlegern, Bahnhöfen oder Flugsteigen passiert.",
+          "releaseFeature2Title": "Routenatlas",
+          "releaseFeature2Text": "Vergleiche kurze Abenteuer mit epischen Reisen – anhand von realen Entfernungen, Zwischenstopps, Schwierigkeitsgraden und der Anzahl der Etappen.",
+          "releaseFeature3Title": "Tagebuch",
+          "releaseFeature3Text": "Lies gezielte Beiträge zu neuen Veröffentlichungen, Reisezielen und praktischen Tipps, statt vager Marketing-Ankündigungen.",
+          "releaseSameTitle": "Was gleich geblieben ist",
+          "releaseSameP1": "Für WalkQuest ist weiterhin kein Benutzerkonto erforderlich. Der Zugriff auf deine Schritte erfolgt nur lesend und auf Basis deiner Berechtigung. Deine tatsächliche Bewegung lässt dich auf der gewählten Route vorankommen, während die Website eine schlanke, statische Seite ohne Anmeldezwang bleibt.",
+          "releaseQuote": "Die Website soll sich wie die erste Seite eines Reisetagebuchs anfühlen: nützlich vor Reiseantritt und ein Ort, zu dem man auch während der Reise gerne zurückkehrt.",
+          "releaseNextTitle": "Wie es weitergeht",
+          "releaseNextP1": "Zukünftige Beiträge erläutern wichtige Änderungen in verständlicher Sprache: Was hat sich geändert, warum und welche Auswirkungen hat das auf den bisherigen Fortschritt? Ergänzend dazu wird es weiterhin Routen-Porträts und praktische Anleitungen geben.",
+          "articleNext": "Nächster Artikel",
+          "releaseNextLink": "Entdecke die kostenlose Route „Europe Explorer“ →",
+          "releaseHeroAlt": "WalkQuest-App-Update mit Routen, Reisepass-Stempeln und mehrsprachigen Reisekarten"
+        }
+      }
     },
     "fr": {
       "relativePath": "fr/release-notes.html",
@@ -887,7 +1502,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Retour aux actualités</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Notes de mise à jour</span><h1 data-i18n=\"releaseTitle\">Un nouvel espace pour chaque aventure WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Le nouveau site web de WalkQuest est bien plus qu&#039;une simple page de présentation : c&#039;est désormais un guide multilingue pour comprendre le jeu avant même de faire le premier pas.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1er octobre 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 min de lecture</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Mise à jour de l&#039;application WalkQuest : itinéraires, tampons de passeport et cartes de voyage multilingues\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Un jeu basé sur la marche peut être simple à prendre en main tout en recelant une multitude de détails. WalkQuest associe pas, itinéraires, villes, correspondances, tampons de passeport, succès et options Premium. Le site web repensé rassemble tous ces éléments dans un espace clair et épuré.</p>\n        <p data-i18n=\"releaseIntroP2\">L&#039;objectif est pragmatique : un visiteur doit comprendre le concept de WalkQuest en moins d&#039;une minute, tandis qu&#039;un voyageur actif peut trouver des informations approfondies sans avoir à fouiller dans les menus.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Seize langues, une aventure commune</h2>\n        <p data-i18n=\"releaseLanguageP1\">Chaque page principale et chaque article s&#039;affichent dans la langue sélectionnée sur le site. Lors de la première visite, WalkQuest détecte la langue du navigateur ;si elle est prise en charge, la page s&#039;ouvre automatiquement dans cette langue. Sinon, l&#039;anglais est utilisé par défaut.</p>\n        <p data-i18n=\"releaseLanguageP2\">Ce choix est enregistré sur l&#039;appareil et vous suit partout : du guide du jeu aux itinéraires, en passant par les options Premium, la politique de confidentialité et le journal de bord. Pour l&#039;arabe, le sens de lecture est également inversé (de droite à gauche).</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Pourquoi c&#039;est important</strong><p data-i18n=\"releaseCalloutText\">Un joueur arrivant directement depuis Google Play peut lire les explications, la politique de confidentialité et les ressources d&#039;aide dans une langue familière, sans avoir à créer de compte.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Un parcours plus fluide, de la curiosité à la première marche</h2>\n        <p data-i18n=\"releasePathP1\">Le site web distingue désormais les réponses rapides des explications détaillées. La page d&#039;accueil présente le concept ;le guide du jeu explique les commandes ;l&#039;atlas des itinéraires aide à choisir une destination ;la page Premium détaille les achats sans occulter l&#039;expérience gratuite.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Guide du jeu</h3><p data-i18n=\"releaseFeature1Text\">Découvrez comment vos pas déplacent le marqueur, comment les villes se débloquent et ce qui se passe lors des correspondances en ferry, en train ou en avion.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlas des itinéraires</h3><p data-i18n=\"releaseFeature2Text\">Comparez les aventures courtes aux périples épiques en vous basant sur les distances réelles, les étapes, la difficulté et le nombre de transferts.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Carnet de bord</h3><p data-i18n=\"releaseFeature3Text\">Découvrez des récits détaillés sur les nouveautés, les destinations et les aspects pratiques, plutôt que de vagues annonces marketing.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Ce qui reste inchangé</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest ne nécessite toujours pas de compte. L&#039;accès aux données de pas reste en lecture seule et soumis à autorisation. Vos déplacements réels se traduisent par une progression sur l&#039;itinéraire choisi, tandis que le site web demeure une plateforme statique et légère, sans barrière de connexion.</p>\n        <blockquote data-i18n=\"releaseQuote\">Le site web se veut semblable à la première page d&#039;un carnet de voyage : utile avant le départ et intéressant à consulter une fois l&#039;aventure commencée.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">La suite</h2>\n        <p data-i18n=\"releaseNextP1\">Les prochaines publications expliqueront les changements significatifs en termes simples : ce qui a changé, pourquoi, et si cela affecte la progression en cours. Des présentations d&#039;itinéraires et des guides pratiques continueront d&#039;être publiés en parallèle.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Article suivant</span><strong data-i18n=\"releaseNextLink\">Découvrez l&#039;itinéraire gratuit « Europe Explorer » →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Passer au contenu",
         "navHome": "Accueil",
@@ -1049,7 +1663,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Retour aux actualités",
+          "releaseTag": "Notes de mise à jour",
+          "releaseTitle": "Un nouvel espace pour chaque aventure WalkQuest",
+          "releaseLead": "Le nouveau site web de WalkQuest est bien plus qu'une simple page de présentation : c'est désormais un guide multilingue pour comprendre le jeu avant même de faire le premier pas.",
+          "releaseDate": "1er octobre 2026",
+          "releaseReadTime": "6 min de lecture",
+          "releaseIntroP1": "Un jeu basé sur la marche peut être simple à prendre en main tout en recelant une multitude de détails. WalkQuest associe pas, itinéraires, villes, correspondances, tampons de passeport, succès et options Premium. Le site web repensé rassemble tous ces éléments dans un espace clair et épuré.",
+          "releaseIntroP2": "L'objectif est pragmatique : un visiteur doit comprendre le concept de WalkQuest en moins d'une minute, tandis qu'un voyageur actif peut trouver des informations approfondies sans avoir à fouiller dans les menus.",
+          "releaseLanguageTitle": "Seize langues, une aventure commune",
+          "releaseLanguageP1": "Chaque page principale et chaque article s'affichent dans la langue sélectionnée sur le site. Lors de la première visite, WalkQuest détecte la langue du navigateur ;si elle est prise en charge, la page s'ouvre automatiquement dans cette langue. Sinon, l'anglais est utilisé par défaut.",
+          "releaseLanguageP2": "Ce choix est enregistré sur l'appareil et vous suit partout : du guide du jeu aux itinéraires, en passant par les options Premium, la politique de confidentialité et le journal de bord. Pour l'arabe, le sens de lecture est également inversé (de droite à gauche).",
+          "releaseCalloutTitle": "Pourquoi c'est important",
+          "releaseCalloutText": "Un joueur arrivant directement depuis Google Play peut lire les explications, la politique de confidentialité et les ressources d'aide dans une langue familière, sans avoir à créer de compte.",
+          "releasePathTitle": "Un parcours plus fluide, de la curiosité à la première marche",
+          "releasePathP1": "Le site web distingue désormais les réponses rapides des explications détaillées. La page d'accueil présente le concept ;le guide du jeu explique les commandes ;l'atlas des itinéraires aide à choisir une destination ;la page Premium détaille les achats sans occulter l'expérience gratuite.",
+          "releaseFeature1Title": "Guide du jeu",
+          "releaseFeature1Text": "Découvrez comment vos pas déplacent le marqueur, comment les villes se débloquent et ce qui se passe lors des correspondances en ferry, en train ou en avion.",
+          "releaseFeature2Title": "Atlas des itinéraires",
+          "releaseFeature2Text": "Comparez les aventures courtes aux périples épiques en vous basant sur les distances réelles, les étapes, la difficulté et le nombre de transferts.",
+          "releaseFeature3Title": "Carnet de bord",
+          "releaseFeature3Text": "Découvrez des récits détaillés sur les nouveautés, les destinations et les aspects pratiques, plutôt que de vagues annonces marketing.",
+          "releaseSameTitle": "Ce qui reste inchangé",
+          "releaseSameP1": "WalkQuest ne nécessite toujours pas de compte. L'accès aux données de pas reste en lecture seule et soumis à autorisation. Vos déplacements réels se traduisent par une progression sur l'itinéraire choisi, tandis que le site web demeure une plateforme statique et légère, sans barrière de connexion.",
+          "releaseQuote": "Le site web se veut semblable à la première page d'un carnet de voyage : utile avant le départ et intéressant à consulter une fois l'aventure commencée.",
+          "releaseNextTitle": "La suite",
+          "releaseNextP1": "Les prochaines publications expliqueront les changements significatifs en termes simples : ce qui a changé, pourquoi, et si cela affecte la progression en cours. Des présentations d'itinéraires et des guides pratiques continueront d'être publiés en parallèle.",
+          "articleNext": "Article suivant",
+          "releaseNextLink": "Découvrez l'itinéraire gratuit « Europe Explorer » →",
+          "releaseHeroAlt": "Mise à jour de l'application WalkQuest : itinéraires, tampons de passeport et cartes de voyage multilingues"
+        }
+      }
     },
     "pl": {
       "relativePath": "pl/release-notes.html",
@@ -1062,7 +1800,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Powrót do aktualności</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Informacje o wydaniu</span><h1 data-i18n=\"releaseTitle\">Nowa, rozbudowana przestrzeń dla każdej podróży z WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Nowa strona internetowa WalkQuest to coś więcej niż zwykła witryna promocyjna – to wielojęzyczny przewodnik, który pozwala poznać grę jeszcze przed wykonaniem pierwszego kroku.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 października 2026 r.</time><span>•</span><span data-i18n=\"releaseReadTime\">Czas czytania: 6 min</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Aktualizacja aplikacji WalkQuest: nowe trasy, pieczątki w paszporcie i wielojęzyczne karty podróżne\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Gra oparta na chodzeniu może być prosta w obsłudze, a jednocześnie kryć w sobie bogactwo szczegółów. WalkQuest łączy kroki, trasy, miasta, przesiadki, pieczątki w paszporcie, osiągnięcia i opcje Premium. Nowa odsłona strony gromadzi te elementy w jednym, przejrzystym miejscu.</p>\n        <p data-i18n=\"releaseIntroP2\">Cel jest praktyczny: odwiedzający powinien w niespełna minutę zrozumieć, na czym polega WalkQuest, podczas gdy aktywny podróżnik może znaleźć bardziej szczegółowe informacje bez konieczności przeszukiwania menu.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Szesnaście języków, jedna wspólna podróż</h2>\n        <p data-i18n=\"releaseLanguageP1\">Treść każdej strony głównej i każdego artykułu dostosowuje się do języka wybranego w witrynie. Przy pierwszej wizycie WalkQuest sprawdza język przeglądarki;jeśli jest on obsługiwany, strona otwiera się w tym języku automatycznie. W przeciwnym razie używany jest język angielski.</p>\n        <p data-i18n=\"releaseLanguageP2\">Wybór jest zapisywany na urządzeniu i towarzyszy użytkownikowi podczas przeglądania przewodnika po grze, tras, opcji Premium, zasad prywatności czy dziennika podróży. W przypadku języka arabskiego zmienia się również kierunek czytania na „od prawej do lewej”.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Dlaczego to ma znaczenie</strong><p data-i18n=\"releaseCalloutText\">Gracz trafiający na stronę bezpośrednio z Google Play może zapoznać się z opisem gry, polityką prywatności i materiałami pomocniczymi w znanym sobie języku – bez konieczności zakładania konta.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Prostsza droga od ciekawości do pierwszego spaceru</h2>\n        <p data-i18n=\"releasePathP1\">Witryna wyraźnie oddziela szybkie odpowiedzi od szczegółowych wskazówek. Strona główna przedstawia ideę gry;przewodnik wyjaśnia sterowanie;atlas tras pomaga wybrać cel podróży;a strona Premium opisuje dostępne zakupy, nie przesłaniając przy tym możliwości korzystania z darmowej wersji gry.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Przewodnik po grze</h3><p data-i18n=\"releaseFeature1Text\">Zobacz, jak kroki przesuwają znacznik, jak odblokowują się miasta i co dzieje się podczas korzystania z promu, pociągu czy bramki lotniskowej.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlas tras</h3><p data-i18n=\"releaseFeature2Text\">Porównaj krótkie wyprawy z epickimi podróżami, biorąc pod uwagę rzeczywiste odległości, przystanki, stopień trudności i liczbę przesiadek.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Dziennik</h3><p data-i18n=\"releaseFeature3Text\">Czytaj konkretne historie o nowych trasach, celach podróży i praktycznych aspektach wypraw – zamiast ogólnikowych komunikatów marketingowych.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Co pozostaje bez zmian</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest nadal nie wymaga zakładania konta. Dostęp do danych o krokach pozostaje ograniczony do odczytu i wymaga udzielenia zgody. Twój rzeczywisty ruch przekłada się na postępy na wybranej trasie, a serwis pozostaje lekką, statyczną stroną bez wymogu logowania.</p>\n        <blockquote data-i18n=\"releaseQuote\">Serwis ma przypominać pierwszą stronę dziennika podróży: jest przydatny przed wyruszeniem w drogę i wart odwiedzenia już w trakcie wyprawy.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Co dalej</h2>\n        <p data-i18n=\"releaseNextP1\">Przyszłe wpisy będą w przystępny sposób wyjaśniać istotne zmiany: co się zmieniło, dlaczego wprowadzono modyfikacje i czy wpływają one na dotychczasowe postępy. Równolegle publikowane będą prezentacje tras i praktyczne poradniki.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Kolejny artykuł</span><strong data-i18n=\"releaseNextLink\">Poznaj darmową trasę Europe Explorer →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Przejdź do treści",
         "navHome": "Dom",
@@ -1224,7 +1961,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Powrót do aktualności",
+          "releaseTag": "Informacje o wydaniu",
+          "releaseTitle": "Nowa, rozbudowana przestrzeń dla każdej podróży z WalkQuest",
+          "releaseLead": "Nowa strona internetowa WalkQuest to coś więcej niż zwykła witryna promocyjna – to wielojęzyczny przewodnik, który pozwala poznać grę jeszcze przed wykonaniem pierwszego kroku.",
+          "releaseDate": "1 października 2026 r.",
+          "releaseReadTime": "Czas czytania: 6 min",
+          "releaseIntroP1": "Gra oparta na chodzeniu może być prosta w obsłudze, a jednocześnie kryć w sobie bogactwo szczegółów. WalkQuest łączy kroki, trasy, miasta, przesiadki, pieczątki w paszporcie, osiągnięcia i opcje Premium. Nowa odsłona strony gromadzi te elementy w jednym, przejrzystym miejscu.",
+          "releaseIntroP2": "Cel jest praktyczny: odwiedzający powinien w niespełna minutę zrozumieć, na czym polega WalkQuest, podczas gdy aktywny podróżnik może znaleźć bardziej szczegółowe informacje bez konieczności przeszukiwania menu.",
+          "releaseLanguageTitle": "Szesnaście języków, jedna wspólna podróż",
+          "releaseLanguageP1": "Treść każdej strony głównej i każdego artykułu dostosowuje się do języka wybranego w witrynie. Przy pierwszej wizycie WalkQuest sprawdza język przeglądarki;jeśli jest on obsługiwany, strona otwiera się w tym języku automatycznie. W przeciwnym razie używany jest język angielski.",
+          "releaseLanguageP2": "Wybór jest zapisywany na urządzeniu i towarzyszy użytkownikowi podczas przeglądania przewodnika po grze, tras, opcji Premium, zasad prywatności czy dziennika podróży. W przypadku języka arabskiego zmienia się również kierunek czytania na „od prawej do lewej”.",
+          "releaseCalloutTitle": "Dlaczego to ma znaczenie",
+          "releaseCalloutText": "Gracz trafiający na stronę bezpośrednio z Google Play może zapoznać się z opisem gry, polityką prywatności i materiałami pomocniczymi w znanym sobie języku – bez konieczności zakładania konta.",
+          "releasePathTitle": "Prostsza droga od ciekawości do pierwszego spaceru",
+          "releasePathP1": "Witryna wyraźnie oddziela szybkie odpowiedzi od szczegółowych wskazówek. Strona główna przedstawia ideę gry;przewodnik wyjaśnia sterowanie;atlas tras pomaga wybrać cel podróży;a strona Premium opisuje dostępne zakupy, nie przesłaniając przy tym możliwości korzystania z darmowej wersji gry.",
+          "releaseFeature1Title": "Przewodnik po grze",
+          "releaseFeature1Text": "Zobacz, jak kroki przesuwają znacznik, jak odblokowują się miasta i co dzieje się podczas korzystania z promu, pociągu czy bramki lotniskowej.",
+          "releaseFeature2Title": "Atlas tras",
+          "releaseFeature2Text": "Porównaj krótkie wyprawy z epickimi podróżami, biorąc pod uwagę rzeczywiste odległości, przystanki, stopień trudności i liczbę przesiadek.",
+          "releaseFeature3Title": "Dziennik",
+          "releaseFeature3Text": "Czytaj konkretne historie o nowych trasach, celach podróży i praktycznych aspektach wypraw – zamiast ogólnikowych komunikatów marketingowych.",
+          "releaseSameTitle": "Co pozostaje bez zmian",
+          "releaseSameP1": "WalkQuest nadal nie wymaga zakładania konta. Dostęp do danych o krokach pozostaje ograniczony do odczytu i wymaga udzielenia zgody. Twój rzeczywisty ruch przekłada się na postępy na wybranej trasie, a serwis pozostaje lekką, statyczną stroną bez wymogu logowania.",
+          "releaseQuote": "Serwis ma przypominać pierwszą stronę dziennika podróży: jest przydatny przed wyruszeniem w drogę i wart odwiedzenia już w trakcie wyprawy.",
+          "releaseNextTitle": "Co dalej",
+          "releaseNextP1": "Przyszłe wpisy będą w przystępny sposób wyjaśniać istotne zmiany: co się zmieniło, dlaczego wprowadzono modyfikacje i czy wpływają one na dotychczasowe postępy. Równolegle publikowane będą prezentacje tras i praktyczne poradniki.",
+          "articleNext": "Kolejny artykuł",
+          "releaseNextLink": "Poznaj darmową trasę Europe Explorer →",
+          "releaseHeroAlt": "Aktualizacja aplikacji WalkQuest: nowe trasy, pieczątki w paszporcie i wielojęzyczne karty podróżne"
+        }
+      }
     },
     "pt": {
       "relativePath": "pt/release-notes.html",
@@ -1237,7 +2098,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Voltar às notícias</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas de lançamento</span><h1 data-i18n=\"releaseTitle\">Um espaço maior para cada jornada WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">O novo site do WalkQuest é mais do que uma página inicial: é agora um guia multilingue para compreender o jogo antes mesmo de dar o primeiro passo.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 de outubro de 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">Tempo de leitura: 6 min</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Atualização da app WalkQuest com percursos, carimbos no passaporte e cartões de viagem multilingues\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Um jogo de caminhada pode ser simples de jogar e ainda assim conter um mundo inteiro de detalhes. O WalkQuest liga passos, rotas, cidades, transfers, carimbos no passaporte, conquistas e opções Premium. O site reformulado reúne todos estes elementos num só lugar.</p>\n        <p data-i18n=\"releaseIntroP2\">O objetivo é prático: um visitante deve compreender o que o WalkQuest faz em menos de um minuto, enquanto um viajante ativo pode encontrar respostas mais detalhadas sem ter de navegar por menus.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Dezasseis línguas, uma viagem partilhada</h2>\n        <p data-i18n=\"releaseLanguageP1\">Cada página principal e cada artigo estão disponíveis no idioma selecionado no site. Na primeira visita, o WalkQuest verifica o idioma do browser;se for compatível, a página abre automaticamente nesse idioma. Caso contrário, é utilizado o inglês.</p>\n        <p data-i18n=\"releaseLanguageP2\">A escolha é guardada no dispositivo e acompanha-o desde o guia do jogo até às rotas, ao Premium, à privacidade e ao diário. O árabe também altera completamente o sentido de leitura para da direita para a esquerda.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Porque é que isso é importante?</strong><p data-i18n=\"releaseCalloutText\">Um jogador que aceda ao site diretamente através do Google Play pode ler a explicação, a política de privacidade e o material de suporte numa língua familiar, sem ter de criar uma conta.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Um caminho mais claro da curiosidade à primeira caminhada.</h2>\n        <p data-i18n=\"releasePathP1\">O site separa agora as respostas rápidas das orientações detalhadas. A página inicial explica a proposta do jogo;o guia mostra os controlos;o atlas de rotas ajuda a escolher um destino;a página Premium explica as compras sem esconder a experiência gratuita.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Guia do jogo</h3><p data-i18n=\"releaseFeature1Text\">Veja como os passos movem o marcador, como as cidades são desbloqueadas e o que acontece num portão de embarque de ferry, comboio ou avião.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlas de percursos</h3><p data-i18n=\"releaseFeature2Text\">Compare aventuras curtas com viagens épicas utilizando distâncias reais, paragens, dificuldade e número de transbordos.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Diário</h3><p data-i18n=\"releaseFeature3Text\">Leia histórias focadas em lançamentos, destinos e cenários práticos, em vez de anúncios de marketing vagos.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">O que não mudou</h2>\n        <p data-i18n=\"releaseSameP1\">O WalkQuest ainda não requer uma conta. O acesso aos passos continua a ser de leitura apenas e baseado em permissões. O seu deslocamento real torna-se o progresso na rota escolhida, enquanto o site permanece um site estático e leve, sem necessidade de login.</p>\n        <blockquote data-i18n=\"releaseQuote\">O site deve ser como a primeira página de um diário de viagem: útil antes da viagem e que vale a pena consultar depois de esta começar.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">O que vem a seguir</h2>\n        <p data-i18n=\"releaseNextP1\">As próximas notas explicarão as mudanças significativas em linguagem simples: o que mudou, porque mudou e se isso afeta o progresso existente. Os destaques das rotas e os guias práticos continuarão a ser publicados.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Próximo artigo</span><strong data-i18n=\"releaseNextLink\">Explore a rota gratuita Europe Explorer →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Saltar para o conteúdo",
         "navHome": "Página inicial",
@@ -1399,7 +2259,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Voltar às notícias",
+          "releaseTag": "Notas de lançamento",
+          "releaseTitle": "Um espaço maior para cada jornada WalkQuest",
+          "releaseLead": "O novo site do WalkQuest é mais do que uma página inicial: é agora um guia multilingue para compreender o jogo antes mesmo de dar o primeiro passo.",
+          "releaseDate": "1 de outubro de 2026",
+          "releaseReadTime": "Tempo de leitura: 6 min",
+          "releaseIntroP1": "Um jogo de caminhada pode ser simples de jogar e ainda assim conter um mundo inteiro de detalhes. O WalkQuest liga passos, rotas, cidades, transfers, carimbos no passaporte, conquistas e opções Premium. O site reformulado reúne todos estes elementos num só lugar.",
+          "releaseIntroP2": "O objetivo é prático: um visitante deve compreender o que o WalkQuest faz em menos de um minuto, enquanto um viajante ativo pode encontrar respostas mais detalhadas sem ter de navegar por menus.",
+          "releaseLanguageTitle": "Dezasseis línguas, uma viagem partilhada",
+          "releaseLanguageP1": "Cada página principal e cada artigo estão disponíveis no idioma selecionado no site. Na primeira visita, o WalkQuest verifica o idioma do browser;se for compatível, a página abre automaticamente nesse idioma. Caso contrário, é utilizado o inglês.",
+          "releaseLanguageP2": "A escolha é guardada no dispositivo e acompanha-o desde o guia do jogo até às rotas, ao Premium, à privacidade e ao diário. O árabe também altera completamente o sentido de leitura para da direita para a esquerda.",
+          "releaseCalloutTitle": "Porque é que isso é importante?",
+          "releaseCalloutText": "Um jogador que aceda ao site diretamente através do Google Play pode ler a explicação, a política de privacidade e o material de suporte numa língua familiar, sem ter de criar uma conta.",
+          "releasePathTitle": "Um caminho mais claro da curiosidade à primeira caminhada.",
+          "releasePathP1": "O site separa agora as respostas rápidas das orientações detalhadas. A página inicial explica a proposta do jogo;o guia mostra os controlos;o atlas de rotas ajuda a escolher um destino;a página Premium explica as compras sem esconder a experiência gratuita.",
+          "releaseFeature1Title": "Guia do jogo",
+          "releaseFeature1Text": "Veja como os passos movem o marcador, como as cidades são desbloqueadas e o que acontece num portão de embarque de ferry, comboio ou avião.",
+          "releaseFeature2Title": "Atlas de percursos",
+          "releaseFeature2Text": "Compare aventuras curtas com viagens épicas utilizando distâncias reais, paragens, dificuldade e número de transbordos.",
+          "releaseFeature3Title": "Diário",
+          "releaseFeature3Text": "Leia histórias focadas em lançamentos, destinos e cenários práticos, em vez de anúncios de marketing vagos.",
+          "releaseSameTitle": "O que não mudou",
+          "releaseSameP1": "O WalkQuest ainda não requer uma conta. O acesso aos passos continua a ser de leitura apenas e baseado em permissões. O seu deslocamento real torna-se o progresso na rota escolhida, enquanto o site permanece um site estático e leve, sem necessidade de login.",
+          "releaseQuote": "O site deve ser como a primeira página de um diário de viagem: útil antes da viagem e que vale a pena consultar depois de esta começar.",
+          "releaseNextTitle": "O que vem a seguir",
+          "releaseNextP1": "As próximas notas explicarão as mudanças significativas em linguagem simples: o que mudou, porque mudou e se isso afeta o progresso existente. Os destaques das rotas e os guias práticos continuarão a ser publicados.",
+          "articleNext": "Próximo artigo",
+          "releaseNextLink": "Explore a rota gratuita Europe Explorer →",
+          "releaseHeroAlt": "Atualização da app WalkQuest com percursos, carimbos no passaporte e cartões de viagem multilingues"
+        }
+      }
     },
     "it": {
       "relativePath": "it/release-notes.html",
@@ -1412,7 +2396,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Torna alle notizie</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Note di rilascio</span><h1 data-i18n=\"releaseTitle\">Una nuova casa per ogni viaggio su WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Il nuovo sito web di WalkQuest è molto più di una semplice landing page: è una guida multilingue che ti permette di comprendere il gioco ancor prima di muovere il primo passo.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1° ottobre 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 minuti di lettura</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Aggiornamento dell&#039;app WalkQuest: nuovi percorsi, timbri per il passaporto e schede di viaggio multilingue\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Un gioco basato sul cammino può essere semplice da giocare e, al contempo, racchiudere un mondo di dettagli. WalkQuest unisce passi, percorsi, città, spostamenti, timbri sul passaporto, obiettivi e opzioni Premium. Il sito web, completamente ridisegnato, riunisce tutti questi elementi in uno spazio ordinato e accogliente.</p>\n        <p data-i18n=\"releaseIntroP2\">L&#039;obiettivo è pratico: il visitatore deve poter capire cosa offre WalkQuest in meno di un minuto, mentre il viaggiatore attivo deve poter trovare informazioni più approfondite senza dover navigare tra complessi menu.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Sedici lingue, un unico viaggio condiviso</h2>\n        <p data-i18n=\"releaseLanguageP1\">Ogni pagina principale e ogni articolo si adattano alla lingua selezionata sul sito. Alla prima visita, WalkQuest rileva la lingua del browser: se è supportata, la pagina si apre automaticamente in quella lingua;in caso contrario, viene utilizzato l&#039;inglese.</p>\n        <p data-i18n=\"releaseLanguageP2\">La scelta viene salvata sul dispositivo e ti accompagna ovunque: dalla guida al gioco ai percorsi, dalle opzioni Premium alla privacy e al diario di viaggio. Con la lingua araba, anche la direzione di lettura cambia, passando da sinistra a destra a destra a sinistra.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Perché è importante</strong><p data-i18n=\"releaseCalloutText\">Un giocatore che arriva direttamente da Google Play può leggere la spiegazione del gioco, l&#039;informativa sulla privacy e il materiale di supporto nella propria lingua, senza dover creare un account.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Un percorso più chiaro dalla curiosità alla prima camminata</h2>\n        <p data-i18n=\"releasePathP1\">Il sito web ora distingue tra risposte rapide e guide dettagliate. La home page illustra la filosofia del gioco;la guida spiega i comandi;l&#039;atlante dei percorsi aiuta a scegliere la destinazione;la pagina Premium descrive gli acquisti senza mettere in ombra l&#039;esperienza gratuita.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Guida al gioco</h3><p data-i18n=\"releaseFeature1Text\">Scopri come i passi spostano il tuo indicatore, come si sbloccano le città e cosa succede quando raggiungi un traghetto, un treno o un gate aeroportuale.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlante dei percorsi</h3><p data-i18n=\"releaseFeature2Text\">Confronta brevi avventure e viaggi epici basandoti su distanze reali, tappe, difficoltà e numero di trasferimenti.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Diario</h3><p data-i18n=\"releaseFeature3Text\">Leggi storie approfondite su nuove uscite, destinazioni e aspetti pratici, invece di vaghi annunci di marketing.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Cosa non è cambiato</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest continua a non richiedere un account. L&#039;accesso ai passi rimane in sola lettura e basato su permessi. I tuoi movimenti reali si traducono in progressi lungo il percorso scelto, mentre il sito web resta una piattaforma statica e leggera, senza barriere di accesso o richieste di login.</p>\n        <blockquote data-i18n=\"releaseQuote\">Il sito web vuole trasmettere la sensazione della prima pagina di un diario di viaggio: utile prima di partire e interessante da consultare anche una volta iniziato il cammino.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Prossimi passi</h2>\n        <p data-i18n=\"releaseNextP1\">I futuri aggiornamenti spiegheranno i cambiamenti significativi con un linguaggio semplice: cosa è cambiato, perché e se ciò influisce sui progressi già raggiunti. Continueranno inoltre a essere pubblicati approfondimenti sui percorsi e guide pratiche.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Articolo successivo</span><strong data-i18n=\"releaseNextLink\">Scopri il percorso gratuito &quot;Europe Explorer&quot; →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Vai al contenuto",
         "navHome": "Casa",
@@ -1574,7 +2557,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Torna alle notizie",
+          "releaseTag": "Note di rilascio",
+          "releaseTitle": "Una nuova casa per ogni viaggio su WalkQuest",
+          "releaseLead": "Il nuovo sito web di WalkQuest è molto più di una semplice landing page: è una guida multilingue che ti permette di comprendere il gioco ancor prima di muovere il primo passo.",
+          "releaseDate": "1° ottobre 2026",
+          "releaseReadTime": "6 minuti di lettura",
+          "releaseIntroP1": "Un gioco basato sul cammino può essere semplice da giocare e, al contempo, racchiudere un mondo di dettagli. WalkQuest unisce passi, percorsi, città, spostamenti, timbri sul passaporto, obiettivi e opzioni Premium. Il sito web, completamente ridisegnato, riunisce tutti questi elementi in uno spazio ordinato e accogliente.",
+          "releaseIntroP2": "L'obiettivo è pratico: il visitatore deve poter capire cosa offre WalkQuest in meno di un minuto, mentre il viaggiatore attivo deve poter trovare informazioni più approfondite senza dover navigare tra complessi menu.",
+          "releaseLanguageTitle": "Sedici lingue, un unico viaggio condiviso",
+          "releaseLanguageP1": "Ogni pagina principale e ogni articolo si adattano alla lingua selezionata sul sito. Alla prima visita, WalkQuest rileva la lingua del browser: se è supportata, la pagina si apre automaticamente in quella lingua;in caso contrario, viene utilizzato l'inglese.",
+          "releaseLanguageP2": "La scelta viene salvata sul dispositivo e ti accompagna ovunque: dalla guida al gioco ai percorsi, dalle opzioni Premium alla privacy e al diario di viaggio. Con la lingua araba, anche la direzione di lettura cambia, passando da sinistra a destra a destra a sinistra.",
+          "releaseCalloutTitle": "Perché è importante",
+          "releaseCalloutText": "Un giocatore che arriva direttamente da Google Play può leggere la spiegazione del gioco, l'informativa sulla privacy e il materiale di supporto nella propria lingua, senza dover creare un account.",
+          "releasePathTitle": "Un percorso più chiaro dalla curiosità alla prima camminata",
+          "releasePathP1": "Il sito web ora distingue tra risposte rapide e guide dettagliate. La home page illustra la filosofia del gioco;la guida spiega i comandi;l'atlante dei percorsi aiuta a scegliere la destinazione;la pagina Premium descrive gli acquisti senza mettere in ombra l'esperienza gratuita.",
+          "releaseFeature1Title": "Guida al gioco",
+          "releaseFeature1Text": "Scopri come i passi spostano il tuo indicatore, come si sbloccano le città e cosa succede quando raggiungi un traghetto, un treno o un gate aeroportuale.",
+          "releaseFeature2Title": "Atlante dei percorsi",
+          "releaseFeature2Text": "Confronta brevi avventure e viaggi epici basandoti su distanze reali, tappe, difficoltà e numero di trasferimenti.",
+          "releaseFeature3Title": "Diario",
+          "releaseFeature3Text": "Leggi storie approfondite su nuove uscite, destinazioni e aspetti pratici, invece di vaghi annunci di marketing.",
+          "releaseSameTitle": "Cosa non è cambiato",
+          "releaseSameP1": "WalkQuest continua a non richiedere un account. L'accesso ai passi rimane in sola lettura e basato su permessi. I tuoi movimenti reali si traducono in progressi lungo il percorso scelto, mentre il sito web resta una piattaforma statica e leggera, senza barriere di accesso o richieste di login.",
+          "releaseQuote": "Il sito web vuole trasmettere la sensazione della prima pagina di un diario di viaggio: utile prima di partire e interessante da consultare anche una volta iniziato il cammino.",
+          "releaseNextTitle": "Prossimi passi",
+          "releaseNextP1": "I futuri aggiornamenti spiegheranno i cambiamenti significativi con un linguaggio semplice: cosa è cambiato, perché e se ciò influisce sui progressi già raggiunti. Continueranno inoltre a essere pubblicati approfondimenti sui percorsi e guide pratiche.",
+          "articleNext": "Articolo successivo",
+          "releaseNextLink": "Scopri il percorso gratuito \"Europe Explorer\" →",
+          "releaseHeroAlt": "Aggiornamento dell'app WalkQuest: nuovi percorsi, timbri per il passaporto e schede di viaggio multilingue"
+        }
+      }
     },
     "tr": {
       "relativePath": "tr/release-notes.html",
@@ -1587,7 +2694,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Haberlere dön</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Sürüm notları</span><h1 data-i18n=\"releaseTitle\">Her WalkQuest yolculuğu için daha geniş bir yuva</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">Yeni WalkQuest web sitesi, sıradan bir tanıtım sayfasından çok daha fazlası; artık oyuna ilk adımınızı atmadan önce onu tanımanızı sağlayan, çok dilli bir rehber niteliğinde.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 Ekim 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 dakikalık okuma</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Rotalar, pasaport damgaları ve çok dilli seyahat kartları içeren WalkQuest uygulaması güncellemesi\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Bir yürüyüş oyunu hem basit bir oynanışa sahip olabilir hem de koca bir detay dünyasını içinde barındırabilir. WalkQuest; adımları, rotaları, şehirleri, aktarmaları, pasaport damgalarını, başarımları ve Premium seçeneklerini birbirine bağlar. Yenilenen web sitesi, tüm bu unsurları sakin ve düzenli bir ortamda bir araya getiriyor.</p>\n        <p data-i18n=\"releaseIntroP2\">Amaç gayet pratik: Ziyaretçi WalkQuest&#039;in ne işe yaradığını bir dakikadan kısa sürede anlamalı; aktif bir gezgin ise menüler arasında kaybolmadan daha kapsamlı bilgilere ulaşabilmeli.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">On altı dil, tek bir ortak yolculuk</h2>\n        <p data-i18n=\"releaseLanguageP1\">Tüm ana sayfalar ve makaleler, sitede seçilen dili temel alır. İlk ziyarette WalkQuest tarayıcı dilini kontrol eder;eğer bu dil destekleniyorsa sayfa otomatik olarak o dilde açılır. Aksi takdirde İngilizce kullanılır.</p>\n        <p data-i18n=\"releaseLanguageP2\">Yapılan seçim cihaza kaydedilir ve oyun rehberinden rotalara, Premium seçeneklerine, gizlilik bilgilerine ve günlüğe kadar her adımda sizinle gelir. Arapça seçildiğinde ise okuma yönü tamamen sağdan sola döner.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Neden önemli?</strong><p data-i18n=\"releaseCalloutText\">Google Play&#039;den doğrudan gelen bir oyuncu; hesap oluşturmaya gerek kalmadan açıklamaları, gizlilik politikasını ve destek materyallerini kendi dilinde okuyabilir.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Meraktan ilk yürüyüşe uzanan daha net bir yol</h2>\n        <p data-i18n=\"releasePathP1\">Web sitesi artık hızlı yanıtlar ile ayrıntılı rehberlik bilgilerini birbirinden ayırıyor. Ana sayfa oyunun vaadini anlatıyor;oyun rehberi kontrolleri gösteriyor;rota atlası bir varış noktası seçmeye yardımcı oluyor;Premium sayfası ise ücretsiz deneyimi gölgelemeden satın alma seçeneklerini açıklıyor.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Oyun rehberi</h3><p data-i18n=\"releaseFeature1Text\">Adımların haritadaki işareti nasıl hareket ettirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ya da uçuş kapılarında neler yaşandığını keşfedin.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Rota atlası</h3><p data-i18n=\"releaseFeature2Text\">Gerçek mesafeler, duraklar, zorluk derecesi ve aktarma sayılarını kullanarak kısa maceraları destansı yolculuklarla karşılaştırın.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Günlük</h3><p data-i18n=\"releaseFeature3Text\">Muğlak pazarlama duyuruları yerine; yeni sürümler, destinasyonlar ve pratik kurulum detayları hakkındaki odaklanmış yazıları okuyun.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">Değişmeyenler</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest hâlâ bir hesap oluşturmanızı gerektirmiyor. Adım verilerine erişim, yalnızca okuma amaçlı ve izin tabanlı olmaya devam ediyor. Gerçek hareketleriniz seçtiğiniz rotada ilerlemeye dönüşürken, web sitesi herhangi bir oturum açma zorunluluğu olmayan, hafif ve statik bir site olarak kalıyor.</p>\n        <blockquote data-i18n=\"releaseQuote\">Web sitesi, bir seyahat günlüğünün ilk sayfası hissini vermeli: yolculuk öncesinde yararlı ve yolculuk başladıktan sonra da tekrar dönüp bakmaya değer.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">Sırada ne var?</h2>\n        <p data-i18n=\"releaseNextP1\">Gelecekteki notlar, önemli değişiklikleri sade bir dille açıklayacak: nelerin değiştiği, neden değiştiği ve mevcut ilerlemeyi etkileyip etkilemediği. Bunların yanı sıra rota tanıtımları ve pratik rehberler de sunulmaya devam edecek.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Sıradaki yazı</span><strong data-i18n=\"releaseNextLink\">Ücretsiz Europe Explorer rotasını keşfedin →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "İçeriğe atla",
         "navHome": "Ana sayfa",
@@ -1749,7 +2855,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Haberlere dön",
+          "releaseTag": "Sürüm notları",
+          "releaseTitle": "Her WalkQuest yolculuğu için daha geniş bir yuva",
+          "releaseLead": "Yeni WalkQuest web sitesi, sıradan bir tanıtım sayfasından çok daha fazlası; artık oyuna ilk adımınızı atmadan önce onu tanımanızı sağlayan, çok dilli bir rehber niteliğinde.",
+          "releaseDate": "1 Ekim 2026",
+          "releaseReadTime": "6 dakikalık okuma",
+          "releaseIntroP1": "Bir yürüyüş oyunu hem basit bir oynanışa sahip olabilir hem de koca bir detay dünyasını içinde barındırabilir. WalkQuest; adımları, rotaları, şehirleri, aktarmaları, pasaport damgalarını, başarımları ve Premium seçeneklerini birbirine bağlar. Yenilenen web sitesi, tüm bu unsurları sakin ve düzenli bir ortamda bir araya getiriyor.",
+          "releaseIntroP2": "Amaç gayet pratik: Ziyaretçi WalkQuest'in ne işe yaradığını bir dakikadan kısa sürede anlamalı; aktif bir gezgin ise menüler arasında kaybolmadan daha kapsamlı bilgilere ulaşabilmeli.",
+          "releaseLanguageTitle": "On altı dil, tek bir ortak yolculuk",
+          "releaseLanguageP1": "Tüm ana sayfalar ve makaleler, sitede seçilen dili temel alır. İlk ziyarette WalkQuest tarayıcı dilini kontrol eder;eğer bu dil destekleniyorsa sayfa otomatik olarak o dilde açılır. Aksi takdirde İngilizce kullanılır.",
+          "releaseLanguageP2": "Yapılan seçim cihaza kaydedilir ve oyun rehberinden rotalara, Premium seçeneklerine, gizlilik bilgilerine ve günlüğe kadar her adımda sizinle gelir. Arapça seçildiğinde ise okuma yönü tamamen sağdan sola döner.",
+          "releaseCalloutTitle": "Neden önemli?",
+          "releaseCalloutText": "Google Play'den doğrudan gelen bir oyuncu; hesap oluşturmaya gerek kalmadan açıklamaları, gizlilik politikasını ve destek materyallerini kendi dilinde okuyabilir.",
+          "releasePathTitle": "Meraktan ilk yürüyüşe uzanan daha net bir yol",
+          "releasePathP1": "Web sitesi artık hızlı yanıtlar ile ayrıntılı rehberlik bilgilerini birbirinden ayırıyor. Ana sayfa oyunun vaadini anlatıyor;oyun rehberi kontrolleri gösteriyor;rota atlası bir varış noktası seçmeye yardımcı oluyor;Premium sayfası ise ücretsiz deneyimi gölgelemeden satın alma seçeneklerini açıklıyor.",
+          "releaseFeature1Title": "Oyun rehberi",
+          "releaseFeature1Text": "Adımların haritadaki işareti nasıl hareket ettirdiğini, şehirlerin kilidinin nasıl açıldığını ve feribot, tren ya da uçuş kapılarında neler yaşandığını keşfedin.",
+          "releaseFeature2Title": "Rota atlası",
+          "releaseFeature2Text": "Gerçek mesafeler, duraklar, zorluk derecesi ve aktarma sayılarını kullanarak kısa maceraları destansı yolculuklarla karşılaştırın.",
+          "releaseFeature3Title": "Günlük",
+          "releaseFeature3Text": "Muğlak pazarlama duyuruları yerine; yeni sürümler, destinasyonlar ve pratik kurulum detayları hakkındaki odaklanmış yazıları okuyun.",
+          "releaseSameTitle": "Değişmeyenler",
+          "releaseSameP1": "WalkQuest hâlâ bir hesap oluşturmanızı gerektirmiyor. Adım verilerine erişim, yalnızca okuma amaçlı ve izin tabanlı olmaya devam ediyor. Gerçek hareketleriniz seçtiğiniz rotada ilerlemeye dönüşürken, web sitesi herhangi bir oturum açma zorunluluğu olmayan, hafif ve statik bir site olarak kalıyor.",
+          "releaseQuote": "Web sitesi, bir seyahat günlüğünün ilk sayfası hissini vermeli: yolculuk öncesinde yararlı ve yolculuk başladıktan sonra da tekrar dönüp bakmaya değer.",
+          "releaseNextTitle": "Sırada ne var?",
+          "releaseNextP1": "Gelecekteki notlar, önemli değişiklikleri sade bir dille açıklayacak: nelerin değiştiği, neden değiştiği ve mevcut ilerlemeyi etkileyip etkilemediği. Bunların yanı sıra rota tanıtımları ve pratik rehberler de sunulmaya devam edecek.",
+          "articleNext": "Sıradaki yazı",
+          "releaseNextLink": "Ücretsiz Europe Explorer rotasını keşfedin →",
+          "releaseHeroAlt": "Rotalar, pasaport damgaları ve çok dilli seyahat kartları içeren WalkQuest uygulaması güncellemesi"
+        }
+      }
     },
     "ja": {
       "relativePath": "ja/release-notes.html",
@@ -1762,7 +2992,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← ニュースに戻る</a><span class=\"news-tag\" data-i18n=\"releaseTag\">リリースノート</span><h1 data-i18n=\"releaseTitle\">WalkQuestのすべての旅のための、より大きな「ホーム」</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">新しいWalkQuestウェブサイトは、単なるランディングページではありません。ゲームの第一歩を踏み出す前に、その仕組みを理解するための多言語対応ガイドとしての役割も果たします。</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">2026年10月1日</time><span>•</span><span data-i18n=\"releaseReadTime\">読了時間：6分</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuestアプリのアップデート：ルート、パスポートスタンプ、多言語対応トラベルカード機能を追加\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">ウォーキングゲームはシンプルな遊びでありながら、その中には奥深い世界が広がっています。WalkQuestは、歩数、ルート、都市、乗り継ぎ、パスポートスタンプ、実績、そしてプレミアムオプションといった要素を組み合わせて構成されています。リニューアルされたウェブサイトは、これらすべての要素を一つの落ち着いた空間にまとめ上げました。</p>\n        <p data-i18n=\"releaseIntroP2\">目指したのは実用性です。初めて訪れた人は1分以内にWalkQuestの概要を理解でき、アクティブな旅人は複雑なメニューをたどることなく、より詳細な情報をすぐに見つけられるようにしました。</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">16の言語、共有される一つの旅</h2>\n        <p data-i18n=\"releaseLanguageP1\">すべてのメインページや記事は、サイト上で選択された言語で表示されます。初回訪問時にはブラウザの言語設定が確認され、対応言語であれば自動的にその言語でページが開きます。対応していない場合は英語で表示されます。</p>\n        <p data-i18n=\"releaseLanguageP2\">選択した言語設定はデバイスに保存され、ゲームガイドからルート、プレミアム、プライバシー、ジャーナルに至るまで、サイト全体に適用されます。アラビア語を選択した場合は、読み進める方向も右から左へと切り替わります。</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">なぜこれが重要なのか</strong><p data-i18n=\"releaseCalloutText\">Google Playから直接訪れたプレイヤーは、アカウントを作成することなく、使い慣れた言語でゲームの解説やプライバシーポリシー、サポート情報を確認できます。</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">興味を持ってから最初のウォーキングに出かけるまで、よりスムーズな道のりを</h2>\n        <p data-i18n=\"releasePathP1\">ウェブサイトでは、簡潔な回答と詳細なガイドを明確に区別しました。ホームぺージでゲームの魅力を伝え、ゲームガイドで操作方法を説明し、ルートアトラスで行き先を選び、プレミアムページでは無料体験の内容を隠すことなく購入オプションを案内します。</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">ゲームガイド</h3><p data-i18n=\"releaseFeature1Text\">歩数によってマーカーがどう動くか、都市がどうアンロックされるか、そしてフェリーや列車、飛行機のゲートで何が起こるかを確認できます。</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">ルート・アトラス</h3><p data-i18n=\"releaseFeature2Text\">実際の距離、立ち寄り地、難易度、乗り換え回数をもとに、手軽な冒険と壮大な旅を比較してみましょう。</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">ジャーナル</h3><p data-i18n=\"releaseFeature3Text\">曖昧な宣伝文句ではなく、新機能のリリースや目的地、実践的な設定方法など、中身のある記事をお届けします。</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">変わらないこと</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuestは引き続き、アカウント登録不要で利用できます。歩数データへのアクセスは「読み取り専用」かつ「許可制」のままです。実際の歩行が選んだルート上の進捗に反映される一方で、ウェブサイトはサインインを求めない軽量な静的サイトであり続けます。</p>\n        <blockquote data-i18n=\"releaseQuote\">このウェブサイトは、旅の記録帳の最初のページのような存在でありたいと考えています。旅に出る前に役立ち、旅が始まってからも見返したくなるような場所です。</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">今後の予定</h2>\n        <p data-i18n=\"releaseNextP1\">今後の記事では、重要な変更点について分かりやすく解説します（何が変わったのか、なぜ変わったのか、既存の進捗に影響はあるか、など）。ルートの特集や実践的なガイドも引き続き掲載していきます。</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">次の記事</span><strong data-i18n=\"releaseNextLink\">無料ルート「ヨーロッパ・エクスプローラー」をチェック →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "コンテンツにスキップ",
         "navHome": "ホーム",
@@ -1924,7 +3153,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← ニュースに戻る",
+          "releaseTag": "リリースノート",
+          "releaseTitle": "WalkQuestのすべての旅のための、より大きな「ホーム」",
+          "releaseLead": "新しいWalkQuestウェブサイトは、単なるランディングページではありません。ゲームの第一歩を踏み出す前に、その仕組みを理解するための多言語対応ガイドとしての役割も果たします。",
+          "releaseDate": "2026年10月1日",
+          "releaseReadTime": "読了時間：6分",
+          "releaseIntroP1": "ウォーキングゲームはシンプルな遊びでありながら、その中には奥深い世界が広がっています。WalkQuestは、歩数、ルート、都市、乗り継ぎ、パスポートスタンプ、実績、そしてプレミアムオプションといった要素を組み合わせて構成されています。リニューアルされたウェブサイトは、これらすべての要素を一つの落ち着いた空間にまとめ上げました。",
+          "releaseIntroP2": "目指したのは実用性です。初めて訪れた人は1分以内にWalkQuestの概要を理解でき、アクティブな旅人は複雑なメニューをたどることなく、より詳細な情報をすぐに見つけられるようにしました。",
+          "releaseLanguageTitle": "16の言語、共有される一つの旅",
+          "releaseLanguageP1": "すべてのメインページや記事は、サイト上で選択された言語で表示されます。初回訪問時にはブラウザの言語設定が確認され、対応言語であれば自動的にその言語でページが開きます。対応していない場合は英語で表示されます。",
+          "releaseLanguageP2": "選択した言語設定はデバイスに保存され、ゲームガイドからルート、プレミアム、プライバシー、ジャーナルに至るまで、サイト全体に適用されます。アラビア語を選択した場合は、読み進める方向も右から左へと切り替わります。",
+          "releaseCalloutTitle": "なぜこれが重要なのか",
+          "releaseCalloutText": "Google Playから直接訪れたプレイヤーは、アカウントを作成することなく、使い慣れた言語でゲームの解説やプライバシーポリシー、サポート情報を確認できます。",
+          "releasePathTitle": "興味を持ってから最初のウォーキングに出かけるまで、よりスムーズな道のりを",
+          "releasePathP1": "ウェブサイトでは、簡潔な回答と詳細なガイドを明確に区別しました。ホームぺージでゲームの魅力を伝え、ゲームガイドで操作方法を説明し、ルートアトラスで行き先を選び、プレミアムページでは無料体験の内容を隠すことなく購入オプションを案内します。",
+          "releaseFeature1Title": "ゲームガイド",
+          "releaseFeature1Text": "歩数によってマーカーがどう動くか、都市がどうアンロックされるか、そしてフェリーや列車、飛行機のゲートで何が起こるかを確認できます。",
+          "releaseFeature2Title": "ルート・アトラス",
+          "releaseFeature2Text": "実際の距離、立ち寄り地、難易度、乗り換え回数をもとに、手軽な冒険と壮大な旅を比較してみましょう。",
+          "releaseFeature3Title": "ジャーナル",
+          "releaseFeature3Text": "曖昧な宣伝文句ではなく、新機能のリリースや目的地、実践的な設定方法など、中身のある記事をお届けします。",
+          "releaseSameTitle": "変わらないこと",
+          "releaseSameP1": "WalkQuestは引き続き、アカウント登録不要で利用できます。歩数データへのアクセスは「読み取り専用」かつ「許可制」のままです。実際の歩行が選んだルート上の進捗に反映される一方で、ウェブサイトはサインインを求めない軽量な静的サイトであり続けます。",
+          "releaseQuote": "このウェブサイトは、旅の記録帳の最初のページのような存在でありたいと考えています。旅に出る前に役立ち、旅が始まってからも見返したくなるような場所です。",
+          "releaseNextTitle": "今後の予定",
+          "releaseNextP1": "今後の記事では、重要な変更点について分かりやすく解説します（何が変わったのか、なぜ変わったのか、既存の進捗に影響はあるか、など）。ルートの特集や実践的なガイドも引き続き掲載していきます。",
+          "articleNext": "次の記事",
+          "releaseNextLink": "無料ルート「ヨーロッパ・エクスプローラー」をチェック →",
+          "releaseHeroAlt": "WalkQuestアプリのアップデート：ルート、パスポートスタンプ、多言語対応トラベルカード機能を追加"
+        }
+      }
     },
     "ko": {
       "relativePath": "ko/release-notes.html",
@@ -1937,7 +3290,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← 뉴스로 돌아가기</a><span class=\"news-tag\" data-i18n=\"releaseTag\">릴리스 노트</span><h1 data-i18n=\"releaseTitle\">모든 WalkQuest 여정을 위한 더 넓은 공간</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">새로운 WalkQuest 웹사이트는 단순한 랜딩 페이지 그 이상입니다. 이제는 첫 발을 내딛기 전에 게임을 이해할 수 있는 다국어 가이드 역할을 합니다.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">2026년 10월 1일</time><span>•</span><span data-i18n=\"releaseReadTime\">읽는 시간 6분</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"경로, 여권 스탬프, 다국어 여행 카드가 포함된 WalkQuest 앱 업데이트\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">걷기 게임은 플레이하기 간단하면서도 그 안에 방대한 디테일을 담을 수 있습니다. WalkQuest는 걸음 수, 경로, 도시, 환승, 여권 스탬프, 업적, 프리미엄 옵션 등을 하나로 연결합니다. 새롭게 디자인된 웹사이트는 이 모든 요소를 차분하고 정돈된 공간에 모았습니다.</p>\n        <p data-i18n=\"releaseIntroP2\">목표는 실용성입니다. 방문자는 1분 이내에 WalkQuest가 어떤 게임인지 파악할 수 있어야 하며, 활동적인 여행자는 복잡한 메뉴를 뒤질 필요 없이 더 깊이 있는 정보를 찾을 수 있어야 합니다.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">16개 언어, 하나의 여정</h2>\n        <p data-i18n=\"releaseLanguageP1\">모든 메인 페이지와 게시물은 사이트에서 선택한 언어로 표시됩니다. 처음 방문할 때 WalkQuest는 브라우저 언어를 확인하며, 지원되는 언어라면 자동으로 해당 언어로 페이지가 열립니다. 지원되지 않는 경우 영어로 표시됩니다.</p>\n        <p data-i18n=\"releaseLanguageP2\">선택한 언어 설정은 기기에 저장되어 게임 가이드, 경로, 프리미엄, 개인정보 처리방침, 저널 등 사이트 전체에서 유지됩니다. 아랍어의 경우 읽기 방향이 오른쪽에서 왼쪽으로 변경됩니다.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">이것이 중요한 이유</strong><p data-i18n=\"releaseCalloutText\">Google Play에서 바로 유입된 플레이어는 계정을 생성하지 않고도 익숙한 언어로 게임 설명, 개인정보 처리방침, 지원 자료를 확인할 수 있습니다.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">호기심에서 첫 걸음까지, 더 명확해진 경로</h2>\n        <p data-i18n=\"releasePathP1\">이제 웹사이트는 빠른 답변과 상세한 안내를 구분하여 제공합니다. 홈 페이지는 게임의 핵심 가치를 설명하고, 게임 가이드는 조작법을 보여주며, 경로 아틀라스는 목적지 선택을 돕습니다. 프리미엄 페이지는 무료 경험을 가리지 않으면서 구매 관련 정보를 안내합니다.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">게임 가이드</h3><p data-i18n=\"releaseFeature1Text\">걸음 수에 따라 마커가 어떻게 이동하는지, 도시는 어떻게 잠금 해제되는지, 그리고 페리, 기차, 항공기 탑승구에서는 어떤 일이 일어나는지 확인해 보세요.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">경로 지도</h3><p data-i18n=\"releaseFeature2Text\">실제 거리, 경유지, 난이도, 환승 횟수를 기준으로 짧은 모험과 대장정을 비교해 보세요.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">여정 기록</h3><p data-i18n=\"releaseFeature3Text\">모호한 마케팅 홍보 문구 대신, 새로운 기능 출시, 여행지 소개, 실용적인 설정 방법 등 알찬 이야기를 확인해 보세요.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">변하지 않은 점</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest는 여전히 계정 생성을 요구하지 않습니다. 걸음 수 데이터는 읽기 전용이며 권한 기반으로만 접근할 수 있습니다. 사용자의 실제 움직임은 선택한 경로상의 진행 상황으로 반영되지만, 웹사이트는 로그인 절차 없이 가볍게 이용할 수 있는 정적 사이트로 유지됩니다.</p>\n        <blockquote data-i18n=\"releaseQuote\">이 웹사이트는 마치 여행 일기의 첫 페이지처럼 느껴지길 바랍니다. 여행을 떠나기 전에는 유용한 정보를 제공하고, 여행이 시작된 후에도 다시 찾고 싶은 공간이 되고자 합니다.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">향후 계획</h2>\n        <p data-i18n=\"releaseNextP1\">앞으로의 소식에서는 중요한 변경 사항을 알기 쉬운 언어로 설명해 드릴 예정입니다. 무엇이, 왜 바뀌었는지, 그리고 기존 진행 상황에 어떤 영향을 미치는지 등을 다룹니다. 이와 더불어 특정 경로를 집중 조명하는 콘텐츠와 실용적인 가이드도 계속 제공됩니다.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">다음 글</span><strong data-i18n=\"releaseNextLink\">무료 &#039;유럽 탐험가(Europe Explorer)&#039; 경로 살펴보기 →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "콘텐츠로 건너뛰기",
         "navHome": "홈",
@@ -2099,7 +3451,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← 뉴스로 돌아가기",
+          "releaseTag": "릴리스 노트",
+          "releaseTitle": "모든 WalkQuest 여정을 위한 더 넓은 공간",
+          "releaseLead": "새로운 WalkQuest 웹사이트는 단순한 랜딩 페이지 그 이상입니다. 이제는 첫 발을 내딛기 전에 게임을 이해할 수 있는 다국어 가이드 역할을 합니다.",
+          "releaseDate": "2026년 10월 1일",
+          "releaseReadTime": "읽는 시간 6분",
+          "releaseIntroP1": "걷기 게임은 플레이하기 간단하면서도 그 안에 방대한 디테일을 담을 수 있습니다. WalkQuest는 걸음 수, 경로, 도시, 환승, 여권 스탬프, 업적, 프리미엄 옵션 등을 하나로 연결합니다. 새롭게 디자인된 웹사이트는 이 모든 요소를 차분하고 정돈된 공간에 모았습니다.",
+          "releaseIntroP2": "목표는 실용성입니다. 방문자는 1분 이내에 WalkQuest가 어떤 게임인지 파악할 수 있어야 하며, 활동적인 여행자는 복잡한 메뉴를 뒤질 필요 없이 더 깊이 있는 정보를 찾을 수 있어야 합니다.",
+          "releaseLanguageTitle": "16개 언어, 하나의 여정",
+          "releaseLanguageP1": "모든 메인 페이지와 게시물은 사이트에서 선택한 언어로 표시됩니다. 처음 방문할 때 WalkQuest는 브라우저 언어를 확인하며, 지원되는 언어라면 자동으로 해당 언어로 페이지가 열립니다. 지원되지 않는 경우 영어로 표시됩니다.",
+          "releaseLanguageP2": "선택한 언어 설정은 기기에 저장되어 게임 가이드, 경로, 프리미엄, 개인정보 처리방침, 저널 등 사이트 전체에서 유지됩니다. 아랍어의 경우 읽기 방향이 오른쪽에서 왼쪽으로 변경됩니다.",
+          "releaseCalloutTitle": "이것이 중요한 이유",
+          "releaseCalloutText": "Google Play에서 바로 유입된 플레이어는 계정을 생성하지 않고도 익숙한 언어로 게임 설명, 개인정보 처리방침, 지원 자료를 확인할 수 있습니다.",
+          "releasePathTitle": "호기심에서 첫 걸음까지, 더 명확해진 경로",
+          "releasePathP1": "이제 웹사이트는 빠른 답변과 상세한 안내를 구분하여 제공합니다. 홈 페이지는 게임의 핵심 가치를 설명하고, 게임 가이드는 조작법을 보여주며, 경로 아틀라스는 목적지 선택을 돕습니다. 프리미엄 페이지는 무료 경험을 가리지 않으면서 구매 관련 정보를 안내합니다.",
+          "releaseFeature1Title": "게임 가이드",
+          "releaseFeature1Text": "걸음 수에 따라 마커가 어떻게 이동하는지, 도시는 어떻게 잠금 해제되는지, 그리고 페리, 기차, 항공기 탑승구에서는 어떤 일이 일어나는지 확인해 보세요.",
+          "releaseFeature2Title": "경로 지도",
+          "releaseFeature2Text": "실제 거리, 경유지, 난이도, 환승 횟수를 기준으로 짧은 모험과 대장정을 비교해 보세요.",
+          "releaseFeature3Title": "여정 기록",
+          "releaseFeature3Text": "모호한 마케팅 홍보 문구 대신, 새로운 기능 출시, 여행지 소개, 실용적인 설정 방법 등 알찬 이야기를 확인해 보세요.",
+          "releaseSameTitle": "변하지 않은 점",
+          "releaseSameP1": "WalkQuest는 여전히 계정 생성을 요구하지 않습니다. 걸음 수 데이터는 읽기 전용이며 권한 기반으로만 접근할 수 있습니다. 사용자의 실제 움직임은 선택한 경로상의 진행 상황으로 반영되지만, 웹사이트는 로그인 절차 없이 가볍게 이용할 수 있는 정적 사이트로 유지됩니다.",
+          "releaseQuote": "이 웹사이트는 마치 여행 일기의 첫 페이지처럼 느껴지길 바랍니다. 여행을 떠나기 전에는 유용한 정보를 제공하고, 여행이 시작된 후에도 다시 찾고 싶은 공간이 되고자 합니다.",
+          "releaseNextTitle": "향후 계획",
+          "releaseNextP1": "앞으로의 소식에서는 중요한 변경 사항을 알기 쉬운 언어로 설명해 드릴 예정입니다. 무엇이, 왜 바뀌었는지, 그리고 기존 진행 상황에 어떤 영향을 미치는지 등을 다룹니다. 이와 더불어 특정 경로를 집중 조명하는 콘텐츠와 실용적인 가이드도 계속 제공됩니다.",
+          "articleNext": "다음 글",
+          "releaseNextLink": "무료 '유럽 탐험가(Europe Explorer)' 경로 살펴보기 →",
+          "releaseHeroAlt": "경로, 여권 스탬프, 다국어 여행 카드가 포함된 WalkQuest 앱 업데이트"
+        }
+      }
     },
     "zh-cn": {
       "relativePath": "zh-cn/release-notes.html",
@@ -2112,7 +3588,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← 返回新闻</a><span class=\"news-tag\" data-i18n=\"releaseTag\">发布说明</span><h1 data-i18n=\"releaseTitle\">为每一段 WalkQuest 旅程打造更广阔的家园</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">全新的 WalkQuest 网站不仅仅是一个简单的着陆页：它现在是一份多语言的实地指南，让您在迈出第一步之前就能充分了解这款游戏。</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">2026年10月1日</time><span>•</span><span data-i18n=\"releaseReadTime\">6分钟阅读</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 应用更新：新增路线、护照印章及多语言旅行卡功能\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">一款步行游戏既可以玩法简单，又能蕴含丰富的细节。WalkQuest 将步数、路线、城市、换乘、护照印章、成就和高级版（Premium）选项有机结合。重新设计的网站将这些元素汇聚于一个简洁舒适的页面之中。</p>\n        <p data-i18n=\"releaseIntroP2\">设计目标务实明确：访客应能在不到一分钟的时间内了解 WalkQuest 的功能，而活跃的旅行者则无需翻阅繁琐菜单，即可找到更深入的资讯。</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">十六种语言，一段共同旅程</h2>\n        <p data-i18n=\"releaseLanguageP1\">网站上的所有主页面和文章均会根据您选择的语言进行显示。首次访问时，WalkQuest 会检测浏览器语言；若该语言受支持，页面将自动以该语言加载，否则默认显示英语。</p>\n        <p data-i18n=\"releaseLanguageP2\">您的语言选择会保存在设备上，并贯穿于游戏指南、路线、高级版、隐私政策及日志等各个页面。若选择阿拉伯语，阅读方向也会相应调整为从右向左。</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">意义何在</strong><p data-i18n=\"releaseCalloutText\">直接从 Google Play 访问的玩家，无需创建账户，即可用熟悉的语言阅读游戏说明、隐私政策及支持资料。</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">从好奇到首次步行的清晰路径</h2>\n        <p data-i18n=\"releasePathP1\">网站现已将快速解答与详细指南区分开来。主页阐述游戏理念；游戏指南展示操作方法；路线图册助您选择目的地；高级版页面详解购买选项，同时清晰呈现免费体验内容。</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">游戏指南</h3><p data-i18n=\"releaseFeature1Text\">了解步数如何推动标记移动、城市如何解锁，以及在轮渡、火车或航班登机口会发生什么。</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">路线图集</h3><p data-i18n=\"releaseFeature2Text\">根据实际距离、途经站点、难度及换乘次数，对比短途探险与长途壮游。</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">游记</h3><p data-i18n=\"releaseFeature3Text\">阅读关于新发布内容、目的地及实用设置的深度故事，而非空泛的营销公告。</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">保持不变之处</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest 依然无需注册账户。步数数据的读取权限保持“只读”且基于授权机制。您的实际行走将转化为所选路线上的进度，而网站则继续保持轻量级静态站点的形式，不设登录门槛。</p>\n        <blockquote data-i18n=\"releaseQuote\">网站的体验应如同旅行日记的扉页：既能在旅程开始前提供实用信息，又值得在旅程途中随时回访。</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">未来展望</h2>\n        <p data-i18n=\"releaseNextP1\">未来的更新说明将以通俗易懂的语言阐述重要变化：包括变动内容、变动原因以及对现有进度的影响。此外，路线专题介绍与实用指南也将持续推出。</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">下一篇</span><strong data-i18n=\"releaseNextLink\">探索免费的“欧洲探索者”（Europe Explorer）路线 →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "跳至内容",
         "navHome": "首页",
@@ -2274,7 +3749,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← 返回新闻",
+          "releaseTag": "发布说明",
+          "releaseTitle": "为每一段 WalkQuest 旅程打造更广阔的家园",
+          "releaseLead": "全新的 WalkQuest 网站不仅仅是一个简单的着陆页：它现在是一份多语言的实地指南，让您在迈出第一步之前就能充分了解这款游戏。",
+          "releaseDate": "2026年10月1日",
+          "releaseReadTime": "6分钟阅读",
+          "releaseIntroP1": "一款步行游戏既可以玩法简单，又能蕴含丰富的细节。WalkQuest 将步数、路线、城市、换乘、护照印章、成就和高级版（Premium）选项有机结合。重新设计的网站将这些元素汇聚于一个简洁舒适的页面之中。",
+          "releaseIntroP2": "设计目标务实明确：访客应能在不到一分钟的时间内了解 WalkQuest 的功能，而活跃的旅行者则无需翻阅繁琐菜单，即可找到更深入的资讯。",
+          "releaseLanguageTitle": "十六种语言，一段共同旅程",
+          "releaseLanguageP1": "网站上的所有主页面和文章均会根据您选择的语言进行显示。首次访问时，WalkQuest 会检测浏览器语言；若该语言受支持，页面将自动以该语言加载，否则默认显示英语。",
+          "releaseLanguageP2": "您的语言选择会保存在设备上，并贯穿于游戏指南、路线、高级版、隐私政策及日志等各个页面。若选择阿拉伯语，阅读方向也会相应调整为从右向左。",
+          "releaseCalloutTitle": "意义何在",
+          "releaseCalloutText": "直接从 Google Play 访问的玩家，无需创建账户，即可用熟悉的语言阅读游戏说明、隐私政策及支持资料。",
+          "releasePathTitle": "从好奇到首次步行的清晰路径",
+          "releasePathP1": "网站现已将快速解答与详细指南区分开来。主页阐述游戏理念；游戏指南展示操作方法；路线图册助您选择目的地；高级版页面详解购买选项，同时清晰呈现免费体验内容。",
+          "releaseFeature1Title": "游戏指南",
+          "releaseFeature1Text": "了解步数如何推动标记移动、城市如何解锁，以及在轮渡、火车或航班登机口会发生什么。",
+          "releaseFeature2Title": "路线图集",
+          "releaseFeature2Text": "根据实际距离、途经站点、难度及换乘次数，对比短途探险与长途壮游。",
+          "releaseFeature3Title": "游记",
+          "releaseFeature3Text": "阅读关于新发布内容、目的地及实用设置的深度故事，而非空泛的营销公告。",
+          "releaseSameTitle": "保持不变之处",
+          "releaseSameP1": "WalkQuest 依然无需注册账户。步数数据的读取权限保持“只读”且基于授权机制。您的实际行走将转化为所选路线上的进度，而网站则继续保持轻量级静态站点的形式，不设登录门槛。",
+          "releaseQuote": "网站的体验应如同旅行日记的扉页：既能在旅程开始前提供实用信息，又值得在旅程途中随时回访。",
+          "releaseNextTitle": "未来展望",
+          "releaseNextP1": "未来的更新说明将以通俗易懂的语言阐述重要变化：包括变动内容、变动原因以及对现有进度的影响。此外，路线专题介绍与实用指南也将持续推出。",
+          "articleNext": "下一篇",
+          "releaseNextLink": "探索免费的“欧洲探索者”（Europe Explorer）路线 →",
+          "releaseHeroAlt": "WalkQuest 应用更新：新增路线、护照印章及多语言旅行卡功能"
+        }
+      }
     },
     "ar": {
       "relativePath": "ar/release-notes.html",
@@ -2287,7 +3886,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← العودة إلى الأخبار</a><span class=\"news-tag\" data-i18n=\"releaseTag\">ملاحظات الإصدار</span><h1 data-i18n=\"releaseTitle\">مساحة أوسع لكل رحلة من رحلات WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">لم يعد موقع WalkQuest مجرد صفحة ترحيبية؛ فقد أصبح الآن دليلاً ميدانياً متعدد اللغات يتيح لك فهم اللعبة قبل اتخاذ خطوتك الأولى.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 أكتوبر 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">وقت القراءة: 6 دقائق</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"تحديث تطبيق WalkQuest: مسارات جديدة، وأختام جواز السفر، وبطاقات سفر متعددة اللغات\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">يمكن أن تكون لعبة المشي بسيطة في أسلوب لعبها، ومع ذلك فهي تنطوي على عالم زاخر بالتفاصيل. تربط WalkQuest بين الخطوات، والمسارات، والمدن، ووسائل النقل، وأختام جواز السفر، والإنجازات، وخيارات العضوية المميزة (Premium). ويجمع الموقع الإلكتروني بحلته الجديدة كل هذه العناصر في مكان واحد يتسم بالهدوء والوضوح.</p>\n        <p data-i18n=\"releaseIntroP2\">الهدف عملي ومباشر: ينبغي أن يفهم الزائر ماهية WalkQuest في أقل من دقيقة، بينما يمكن للمسافر النشط العثور على إجابات أكثر تفصيلاً دون الحاجة للبحث في القوائم.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">ست عشرة لغة، ورحلة مشتركة واحدة</h2>\n        <p data-i18n=\"releaseLanguageP1\">تتبع كل صفحة رئيسية وكل مقال اللغة المختارة في الموقع. عند الزيارة الأولى، يتحقق WalkQuest من لغة المتصفح؛فإذا كانت مدعومة، تُفتح الصفحة بتلك اللغة تلقائياً، وإلا يتم استخدام اللغة الإنجليزية.</p>\n        <p data-i18n=\"releaseLanguageP2\">يُحفظ الخيار المختار على الجهاز ويرافقك أثناء التنقل بين دليل اللعبة، والمسارات، وخيارات العضوية المميزة، وسياسة الخصوصية، وسجل الرحلات. كما تؤدي اللغة العربية إلى تغيير اتجاه القراءة بالكامل ليصبح من اليمين إلى اليسار.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">لماذا يُعد هذا الأمر مهماً؟</strong><p data-i18n=\"releaseCalloutText\">يمكن للاعب القادم مباشرة من متجر Google Play قراءة الشرح، وسياسة الخصوصية، ومواد الدعم بلغة مألوفة دون الحاجة إلى إنشاء حساب.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">مسار أوضح: من الفضول إلى خطوة المشي الأولى</h2>\n        <p data-i18n=\"releasePathP1\">يفصل الموقع الآن بين الإجابات السريعة والإرشادات التفصيلية؛إذ توضح الصفحة الرئيسية فكرة اللعبة وميزاتها، ويعرض دليل اللعبة عناصر التحكم، ويساعد أطلس المسارات في اختيار الوجهة، بينما تشرح صفحة العضوية المميزة خيارات الشراء دون إغفال التجربة المجانية المتاحة.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">دليل اللعبة</h3><p data-i18n=\"releaseFeature1Text\">اكتشف كيف تحرك الخطواتُ المؤشرَ على الخريطة، وكيف يتم فتح المدن، وماذا يحدث عند استخدام العبّارة أو القطار أو بوابة الصعود للطائرة.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">أطلس المسارات</h3><p data-i18n=\"releaseFeature2Text\">قارن بين المغامرات القصيرة والرحلات الملحمية بالاعتماد على المسافات الفعلية، ومحطات التوقف، ومستوى الصعوبة، وعدد عمليات الانتقال.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">المدونة</h3><p data-i18n=\"releaseFeature3Text\">اقرأ قصصاً مركزة حول الإصدارات والوجهات والتجهيزات العملية، بدلاً من الإعلانات التسويقية الغامضة.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">ما لم يتغير</h2>\n        <p data-i18n=\"releaseSameP1\">لا تزال WalkQuest لا تتطلب إنشاء حساب. تظل إمكانية الوصول إلى بيانات الخطوات للقراءة فقط وتعتمد على الأذونات؛حيث تتحول حركتك الفعلية إلى تقدم على المسار الذي اخترته، بينما يظل الموقع بسيطاً وخفيفاً (ثابتاً) دون الحاجة لتسجيل الدخول.</p>\n        <blockquote data-i18n=\"releaseQuote\">ينبغي أن يمنحك الموقع شعور الصفحة الأولى في دفتر يوميات السفر: مفيد قبل الرحلة وجدير بالعودة إليه بعد بدئها.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">الخطوات القادمة</h2>\n        <p data-i18n=\"releaseNextP1\">ستشرح التحديثات المستقبلية التغييرات الجوهرية بلغة واضحة: ما الذي تغير، وسبب التغيير، وما إذا كان ذلك يؤثر على التقدم المحرز حالياً. وستستمر أيضاً المقالات التي تسلط الضوء على المسارات والأدلة العملية.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">المقال التالي</span><strong data-i18n=\"releaseNextLink\">استكشف مسار &quot;مستكشف أوروبا&quot; (Europe Explorer) المجاني ←</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "انتقل إلى المحتوى",
         "navHome": "الصفحة الرئيسية",
@@ -2449,7 +4047,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← العودة إلى الأخبار",
+          "releaseTag": "ملاحظات الإصدار",
+          "releaseTitle": "مساحة أوسع لكل رحلة من رحلات WalkQuest",
+          "releaseLead": "لم يعد موقع WalkQuest مجرد صفحة ترحيبية؛ فقد أصبح الآن دليلاً ميدانياً متعدد اللغات يتيح لك فهم اللعبة قبل اتخاذ خطوتك الأولى.",
+          "releaseDate": "1 أكتوبر 2026",
+          "releaseReadTime": "وقت القراءة: 6 دقائق",
+          "releaseIntroP1": "يمكن أن تكون لعبة المشي بسيطة في أسلوب لعبها، ومع ذلك فهي تنطوي على عالم زاخر بالتفاصيل. تربط WalkQuest بين الخطوات، والمسارات، والمدن، ووسائل النقل، وأختام جواز السفر، والإنجازات، وخيارات العضوية المميزة (Premium). ويجمع الموقع الإلكتروني بحلته الجديدة كل هذه العناصر في مكان واحد يتسم بالهدوء والوضوح.",
+          "releaseIntroP2": "الهدف عملي ومباشر: ينبغي أن يفهم الزائر ماهية WalkQuest في أقل من دقيقة، بينما يمكن للمسافر النشط العثور على إجابات أكثر تفصيلاً دون الحاجة للبحث في القوائم.",
+          "releaseLanguageTitle": "ست عشرة لغة، ورحلة مشتركة واحدة",
+          "releaseLanguageP1": "تتبع كل صفحة رئيسية وكل مقال اللغة المختارة في الموقع. عند الزيارة الأولى، يتحقق WalkQuest من لغة المتصفح؛فإذا كانت مدعومة، تُفتح الصفحة بتلك اللغة تلقائياً، وإلا يتم استخدام اللغة الإنجليزية.",
+          "releaseLanguageP2": "يُحفظ الخيار المختار على الجهاز ويرافقك أثناء التنقل بين دليل اللعبة، والمسارات، وخيارات العضوية المميزة، وسياسة الخصوصية، وسجل الرحلات. كما تؤدي اللغة العربية إلى تغيير اتجاه القراءة بالكامل ليصبح من اليمين إلى اليسار.",
+          "releaseCalloutTitle": "لماذا يُعد هذا الأمر مهماً؟",
+          "releaseCalloutText": "يمكن للاعب القادم مباشرة من متجر Google Play قراءة الشرح، وسياسة الخصوصية، ومواد الدعم بلغة مألوفة دون الحاجة إلى إنشاء حساب.",
+          "releasePathTitle": "مسار أوضح: من الفضول إلى خطوة المشي الأولى",
+          "releasePathP1": "يفصل الموقع الآن بين الإجابات السريعة والإرشادات التفصيلية؛إذ توضح الصفحة الرئيسية فكرة اللعبة وميزاتها، ويعرض دليل اللعبة عناصر التحكم، ويساعد أطلس المسارات في اختيار الوجهة، بينما تشرح صفحة العضوية المميزة خيارات الشراء دون إغفال التجربة المجانية المتاحة.",
+          "releaseFeature1Title": "دليل اللعبة",
+          "releaseFeature1Text": "اكتشف كيف تحرك الخطواتُ المؤشرَ على الخريطة، وكيف يتم فتح المدن، وماذا يحدث عند استخدام العبّارة أو القطار أو بوابة الصعود للطائرة.",
+          "releaseFeature2Title": "أطلس المسارات",
+          "releaseFeature2Text": "قارن بين المغامرات القصيرة والرحلات الملحمية بالاعتماد على المسافات الفعلية، ومحطات التوقف، ومستوى الصعوبة، وعدد عمليات الانتقال.",
+          "releaseFeature3Title": "المدونة",
+          "releaseFeature3Text": "اقرأ قصصاً مركزة حول الإصدارات والوجهات والتجهيزات العملية، بدلاً من الإعلانات التسويقية الغامضة.",
+          "releaseSameTitle": "ما لم يتغير",
+          "releaseSameP1": "لا تزال WalkQuest لا تتطلب إنشاء حساب. تظل إمكانية الوصول إلى بيانات الخطوات للقراءة فقط وتعتمد على الأذونات؛حيث تتحول حركتك الفعلية إلى تقدم على المسار الذي اخترته، بينما يظل الموقع بسيطاً وخفيفاً (ثابتاً) دون الحاجة لتسجيل الدخول.",
+          "releaseQuote": "ينبغي أن يمنحك الموقع شعور الصفحة الأولى في دفتر يوميات السفر: مفيد قبل الرحلة وجدير بالعودة إليه بعد بدئها.",
+          "releaseNextTitle": "الخطوات القادمة",
+          "releaseNextP1": "ستشرح التحديثات المستقبلية التغييرات الجوهرية بلغة واضحة: ما الذي تغير، وسبب التغيير، وما إذا كان ذلك يؤثر على التقدم المحرز حالياً. وستستمر أيضاً المقالات التي تسلط الضوء على المسارات والأدلة العملية.",
+          "articleNext": "المقال التالي",
+          "releaseNextLink": "استكشف مسار \"مستكشف أوروبا\" (Europe Explorer) المجاني ←",
+          "releaseHeroAlt": "تحديث تطبيق WalkQuest: مسارات جديدة، وأختام جواز السفر، وبطاقات سفر متعددة اللغات"
+        }
+      }
     },
     "hi": {
       "relativePath": "hi/release-notes.html",
@@ -2462,7 +4184,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← समाचार पर वापस जाएँ</a><span class=\"news-tag\" data-i18n=\"releaseTag\">रिलीज़ नोट्स</span><h1 data-i18n=\"releaseTitle\">हर WalkQuest यात्रा के लिए एक बड़ी जगह</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">नई WalkQuest वेबसाइट सिर्फ़ एक लैंडिंग पेज नहीं है: यह अब गेम शुरू करने से पहले उसे समझने के लिए कई भाषाओं में उपलब्ध एक गाइड है।</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1 अक्टूबर, 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">पढ़ने में 6 मिनट</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"रूट, पासपोर्ट स्टैम्प और कई भाषाओं वाले ट्रैवल कार्ड के साथ WalkQuest ऐप अपडेट\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">चलने-फिरने वाला गेम खेलने में आसान हो सकता है और फिर भी उसमें बहुत सारी बारीकियाँ हो सकती हैं।WalkQuest में कदम, रास्ते, शहर, ट्रांसफ़र, पासपोर्ट स्टैम्प, उपलब्धियाँ और प्रीमियम विकल्प शामिल हैं।नई डिज़ाइन वाली वेबसाइट इन सभी चीज़ों को एक ही जगह पर व्यवस्थित करती है।</p>\n        <p data-i18n=\"releaseIntroP2\">इसका मकसद व्यावहारिक है: विज़िटर को एक मिनट से भी कम समय में समझ आ जाना चाहिए कि WalkQuest क्या है, जबकि सक्रिय यात्री बिना मेनू में खोजे ज़्यादा जानकारी पा सकें।</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">सोलह भाषाएँ, एक साझा यात्रा</h2>\n        <p data-i18n=\"releaseLanguageP1\">हर मुख्य पेज और लेख उसी भाषा में होता है जो साइट पर चुनी गई है।पहली बार आने पर, WalkQuest ब्राउज़र की भाषा की जाँच करता है;अगर वह भाषा सपोर्टेड है, तो पेज अपने-आप उसी भाषा में खुलता है।नहीं तो, अंग्रेज़ी का इस्तेमाल होता है।</p>\n        <p data-i18n=\"releaseLanguageP2\">यह पसंद डिवाइस पर सेव हो जाती है और गेम गाइड से लेकर रास्तों, प्रीमियम, प्राइवेसी और जर्नल तक हर जगह लागू रहती है।अरबी भाषा में पढ़ने की दिशा भी दाईं से बाईं ओर हो जाती है।</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">यह क्यों ज़रूरी है</strong><p data-i18n=\"releaseCalloutText\">Google Play से सीधे आने वाला खिलाड़ी बिना अकाउंट बनाए जानी-पहचानी भाषा में जानकारी, प्राइवेसी पॉलिसी और सपोर्ट मटीरियल पढ़ सकता है।</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">उत्सुकता से पहली वॉक तक का साफ़ रास्ता</h2>\n        <p data-i18n=\"releasePathP1\">वेबसाइट अब जल्दी मिलने वाले जवाबों और विस्तृत जानकारी को अलग-अलग रखती है।होम पेज गेम के वादे के बारे में बताता है;गेम गाइड कंट्रोल दिखाता है;रूट एटलस मंज़िल चुनने में मदद करता है;प्रीमियम पेज मुफ़्त अनुभव को छिपाए बिना खरीदारी के बारे में बताता है।</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">गेम गाइड</h3><p data-i18n=\"releaseFeature1Text\">देखें कि कदम कैसे मार्कर को आगे बढ़ाते हैं, शहर कैसे अनलॉक होते हैं, और फ़ेरी, ट्रेन या फ़्लाइट गेट पर क्या होता है।</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">रूट एटलस</h3><p data-i18n=\"releaseFeature2Text\">असली दूरी, स्टॉप, मुश्किल और ट्रांसफर की संख्या के आधार पर छोटे एडवेंचर और लंबी यात्राओं की तुलना करें।</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">जर्नल</h3><p data-i18n=\"releaseFeature3Text\">अस्पष्ट मार्केटिंग घोषणाओं के बजाय रिलीज़, डेस्टिनेशन और प्रैक्टिकल सेटअप के बारे में खास कहानियाँ पढ़ें।</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">क्या नहीं बदला है</h2>\n        <p data-i18n=\"releaseSameP1\">WalkQuest के लिए अभी भी किसी अकाउंट की ज़रूरत नहीं है।स्टेप एक्सेस अभी भी सिर्फ़ &#039;रीड-ओनली&#039; और परमिशन-बेस्ड है।आपकी असली मूवमेंट आपके चुने हुए रूट पर प्रोग्रेस बन जाती है, जबकि वेबसाइट बिना किसी साइन-इन वॉल के एक हल्की-फुल्की स्टैटिक साइट बनी रहती है।</p>\n        <blockquote data-i18n=\"releaseQuote\">वेबसाइट ऐसी लगनी चाहिए जैसे किसी ट्रैवल जर्नल का पहला पन्ना हो: यात्रा से पहले काम की और यात्रा शुरू होने के बाद भी दोबारा देखने लायक।</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">आगे क्या होगा</h2>\n        <p data-i18n=\"releaseNextP1\">भविष्य के नोट्स में आसान भाषा में ज़रूरी बदलावों के बारे में बताया जाएगा: क्या बदला, क्यों बदला और क्या इससे मौजूदा प्रोग्रेस पर कोई असर पड़ता है।इनके साथ-साथ रूट स्पॉटलाइट और प्रैक्टिकल गाइड भी आते रहेंगे।</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">अगला आर्टिकल</span><strong data-i18n=\"releaseNextLink\">मुफ़्त यूरोप एक्सप्लोरर रूट देखें →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "सामग्री पर जाएं",
         "navHome": "घर",
@@ -2624,7 +4345,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← समाचार पर वापस जाएँ",
+          "releaseTag": "रिलीज़ नोट्स",
+          "releaseTitle": "हर WalkQuest यात्रा के लिए एक बड़ी जगह",
+          "releaseLead": "नई WalkQuest वेबसाइट सिर्फ़ एक लैंडिंग पेज नहीं है: यह अब गेम शुरू करने से पहले उसे समझने के लिए कई भाषाओं में उपलब्ध एक गाइड है।",
+          "releaseDate": "1 अक्टूबर, 2026",
+          "releaseReadTime": "पढ़ने में 6 मिनट",
+          "releaseIntroP1": "चलने-फिरने वाला गेम खेलने में आसान हो सकता है और फिर भी उसमें बहुत सारी बारीकियाँ हो सकती हैं।WalkQuest में कदम, रास्ते, शहर, ट्रांसफ़र, पासपोर्ट स्टैम्प, उपलब्धियाँ और प्रीमियम विकल्प शामिल हैं।नई डिज़ाइन वाली वेबसाइट इन सभी चीज़ों को एक ही जगह पर व्यवस्थित करती है।",
+          "releaseIntroP2": "इसका मकसद व्यावहारिक है: विज़िटर को एक मिनट से भी कम समय में समझ आ जाना चाहिए कि WalkQuest क्या है, जबकि सक्रिय यात्री बिना मेनू में खोजे ज़्यादा जानकारी पा सकें।",
+          "releaseLanguageTitle": "सोलह भाषाएँ, एक साझा यात्रा",
+          "releaseLanguageP1": "हर मुख्य पेज और लेख उसी भाषा में होता है जो साइट पर चुनी गई है।पहली बार आने पर, WalkQuest ब्राउज़र की भाषा की जाँच करता है;अगर वह भाषा सपोर्टेड है, तो पेज अपने-आप उसी भाषा में खुलता है।नहीं तो, अंग्रेज़ी का इस्तेमाल होता है।",
+          "releaseLanguageP2": "यह पसंद डिवाइस पर सेव हो जाती है और गेम गाइड से लेकर रास्तों, प्रीमियम, प्राइवेसी और जर्नल तक हर जगह लागू रहती है।अरबी भाषा में पढ़ने की दिशा भी दाईं से बाईं ओर हो जाती है।",
+          "releaseCalloutTitle": "यह क्यों ज़रूरी है",
+          "releaseCalloutText": "Google Play से सीधे आने वाला खिलाड़ी बिना अकाउंट बनाए जानी-पहचानी भाषा में जानकारी, प्राइवेसी पॉलिसी और सपोर्ट मटीरियल पढ़ सकता है।",
+          "releasePathTitle": "उत्सुकता से पहली वॉक तक का साफ़ रास्ता",
+          "releasePathP1": "वेबसाइट अब जल्दी मिलने वाले जवाबों और विस्तृत जानकारी को अलग-अलग रखती है।होम पेज गेम के वादे के बारे में बताता है;गेम गाइड कंट्रोल दिखाता है;रूट एटलस मंज़िल चुनने में मदद करता है;प्रीमियम पेज मुफ़्त अनुभव को छिपाए बिना खरीदारी के बारे में बताता है।",
+          "releaseFeature1Title": "गेम गाइड",
+          "releaseFeature1Text": "देखें कि कदम कैसे मार्कर को आगे बढ़ाते हैं, शहर कैसे अनलॉक होते हैं, और फ़ेरी, ट्रेन या फ़्लाइट गेट पर क्या होता है।",
+          "releaseFeature2Title": "रूट एटलस",
+          "releaseFeature2Text": "असली दूरी, स्टॉप, मुश्किल और ट्रांसफर की संख्या के आधार पर छोटे एडवेंचर और लंबी यात्राओं की तुलना करें।",
+          "releaseFeature3Title": "जर्नल",
+          "releaseFeature3Text": "अस्पष्ट मार्केटिंग घोषणाओं के बजाय रिलीज़, डेस्टिनेशन और प्रैक्टिकल सेटअप के बारे में खास कहानियाँ पढ़ें।",
+          "releaseSameTitle": "क्या नहीं बदला है",
+          "releaseSameP1": "WalkQuest के लिए अभी भी किसी अकाउंट की ज़रूरत नहीं है।स्टेप एक्सेस अभी भी सिर्फ़ 'रीड-ओनली' और परमिशन-बेस्ड है।आपकी असली मूवमेंट आपके चुने हुए रूट पर प्रोग्रेस बन जाती है, जबकि वेबसाइट बिना किसी साइन-इन वॉल के एक हल्की-फुल्की स्टैटिक साइट बनी रहती है।",
+          "releaseQuote": "वेबसाइट ऐसी लगनी चाहिए जैसे किसी ट्रैवल जर्नल का पहला पन्ना हो: यात्रा से पहले काम की और यात्रा शुरू होने के बाद भी दोबारा देखने लायक।",
+          "releaseNextTitle": "आगे क्या होगा",
+          "releaseNextP1": "भविष्य के नोट्स में आसान भाषा में ज़रूरी बदलावों के बारे में बताया जाएगा: क्या बदला, क्यों बदला और क्या इससे मौजूदा प्रोग्रेस पर कोई असर पड़ता है।इनके साथ-साथ रूट स्पॉटलाइट और प्रैक्टिकल गाइड भी आते रहेंगे।",
+          "articleNext": "अगला आर्टिकल",
+          "releaseNextLink": "मुफ़्त यूरोप एक्सप्लोरर रूट देखें →",
+          "releaseHeroAlt": "रूट, पासपोर्ट स्टैम्प और कई भाषाओं वाले ट्रैवल कार्ड के साथ WalkQuest ऐप अपडेट"
+        }
+      }
     },
     "pt-br": {
       "relativePath": "pt-br/release-notes.html",
@@ -2637,7 +4482,6 @@
         "data-title-key": "releaseArticlePageTitle",
         "data-description-key": "releaseArticlePageDescription"
       },
-      "mainHtml": "<main id=\"main\">\n    <article>\n      <header class=\"article-hero\"><div class=\"shell article-hero-inner\"><a class=\"article-back\" href=\"./news.html\" data-i18n=\"articleBack\">← Voltar para as notícias</a><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas da atualização</span><h1 data-i18n=\"releaseTitle\">Um espaço maior para cada jornada no WalkQuest</h1><p class=\"article-lead\" data-i18n=\"releaseLead\">O novo site do WalkQuest é mais do que uma simples página de apresentação: agora é um guia de campo multilíngue para entender o jogo antes mesmo de dar o primeiro passo.</p><div class=\"article-meta\"><time datetime=\"2026-10-01\" data-i18n=\"releaseDate\">1º de outubro de 2026</time><span>•</span><span data-i18n=\"releaseReadTime\">6 min de leitura</span></div><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Atualização do app WalkQuest com rotas, carimbos no passaporte e cartões de viagem multilíngues\" data-i18n-alt=\"releaseHeroAlt\"></div></header>\n      <div class=\"shell article-layout\"><div class=\"article-body\">\n        <p class=\"article-drop\" data-i18n=\"releaseIntroP1\">Um jogo de caminhada pode ser simples de jogar e, ainda assim, conter um mundo inteiro de detalhes. O WalkQuest conecta passos, rotas, cidades, traslados, carimbos no passaporte, conquistas e opções Premium. O site reformulado reúne todos esses elementos em um ambiente tranquilo e organizado.</p>\n        <p data-i18n=\"releaseIntroP2\">O objetivo é prático: o visitante deve entender o que o WalkQuest faz em menos de um minuto, enquanto o viajante ativo pode encontrar informações mais detalhadas sem precisar navegar por vários menus.</p>\n        <h2 data-i18n=\"releaseLanguageTitle\">Dezesseis idiomas, uma jornada compartilhada</h2>\n        <p data-i18n=\"releaseLanguageP1\">Todas as páginas principais e artigos seguem o idioma selecionado no site. Na primeira visita, o WalkQuest verifica o idioma do navegador;se for um idioma suportado, a página abre automaticamente nele. Caso contrário, o inglês é utilizado.</p>\n        <p data-i18n=\"releaseLanguageP2\">A escolha é salva no dispositivo e acompanha você desde o guia do jogo até as rotas, a versão Premium, a política de privacidade e o diário de bordo. No caso do árabe, a direção da leitura muda completamente para o sentido da direita para a esquerda.</p>\n        <aside class=\"article-callout\"><strong data-i18n=\"releaseCalloutTitle\">Por que isso é importante</strong><p data-i18n=\"releaseCalloutText\">Um jogador que chega diretamente da Google Play pode ler a explicação, a política de privacidade e o material de suporte em um idioma familiar, sem precisar criar uma conta.</p></aside>\n        <h2 data-i18n=\"releasePathTitle\">Um caminho mais claro da curiosidade à primeira caminhada</h2>\n        <p data-i18n=\"releasePathP1\">O site agora separa respostas rápidas de orientações detalhadas. A página inicial explica a proposta do jogo;o guia do jogo mostra os controles;o atlas de rotas ajuda a escolher um destino;e a página Premium explica as compras sem ocultar a experiência gratuita.</p>\n        <div class=\"article-feature-grid\">\n          <section><span>🗺️</span><h3 data-i18n=\"releaseFeature1Title\">Guia do jogo</h3><p data-i18n=\"releaseFeature1Text\">Veja como os passos movem o marcador, como as cidades são desbloqueadas e o que acontece em balsas, trens ou portões de embarque de voos.</p></section>\n          <section><span>🧭</span><h3 data-i18n=\"releaseFeature2Title\">Atlas de rotas</h3><p data-i18n=\"releaseFeature2Text\">Compare aventuras curtas com jornadas épicas usando distâncias reais, paradas, níveis de dificuldade e número de traslados.</p></section>\n          <section><span>📔</span><h3 data-i18n=\"releaseFeature3Title\">Diário</h3><p data-i18n=\"releaseFeature3Text\">Leia histórias focadas em lançamentos, destinos e dicas práticas de configuração, em vez de anúncios de marketing vagos.</p></section>\n        </div>\n        <h2 data-i18n=\"releaseSameTitle\">O que não mudou</h2>\n        <p data-i18n=\"releaseSameP1\">O WalkQuest continua não exigindo a criação de conta. O acesso aos passos permanece apenas para leitura e baseado em permissões. Seus movimentos reais se transformam em progresso na rota escolhida, enquanto o site continua sendo uma página estática e leve, sem barreiras de login.</p>\n        <blockquote data-i18n=\"releaseQuote\">O site deve transmitir a sensação da primeira página de um diário de viagem: útil antes da jornada e interessante para revisitar depois que ela começa.</blockquote>\n        <h2 data-i18n=\"releaseNextTitle\">O que vem a seguir</h2>\n        <p data-i18n=\"releaseNextP1\">Futuras publicações explicarão mudanças significativas em linguagem simples: o que mudou, por que mudou e se isso afeta o progresso já realizado. Destaques de rotas e guias práticos continuarão sendo publicados paralelamente.</p>\n      </div></div>\n      <nav class=\"article-next shell\" aria-label=\"Related articles\"><a href=\"./europe-explorer.html\"><span data-i18n=\"articleNext\">Próximo artigo</span><strong data-i18n=\"releaseNextLink\">Explore a rota gratuita Europe Explorer →</strong></a></nav>\n    </article>\n  </main>",
       "labels": {
         "skipLink": "Pular para o conteúdo",
         "navHome": "Página inicial",
@@ -2799,7 +4643,131 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "article": {
+        "hero": {
+          "tag": "releaseTag",
+          "title": "releaseTitle",
+          "lead": "releaseLead",
+          "date": "releaseDate",
+          "readTime": "releaseReadTime",
+          "dateTime": "2026-10-01",
+          "image": "article-release.png",
+          "alt": "releaseHeroAlt"
+        },
+        "blocks": [
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP1",
+            "drop": true
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseIntroP2"
+          },
+          {
+            "type": "heading",
+            "key": "releaseLanguageTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP1"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseLanguageP2"
+          },
+          {
+            "type": "callout",
+            "title": "releaseCalloutTitle",
+            "text": "releaseCalloutText"
+          },
+          {
+            "type": "heading",
+            "key": "releasePathTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releasePathP1"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "emoji": "🗺️",
+                "title": "releaseFeature1Title",
+                "text": "releaseFeature1Text"
+              },
+              {
+                "emoji": "🧭",
+                "title": "releaseFeature2Title",
+                "text": "releaseFeature2Text"
+              },
+              {
+                "emoji": "📔",
+                "title": "releaseFeature3Title",
+                "text": "releaseFeature3Text"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "key": "releaseSameTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseSameP1"
+          },
+          {
+            "type": "quote",
+            "key": "releaseQuote"
+          },
+          {
+            "type": "heading",
+            "key": "releaseNextTitle"
+          },
+          {
+            "type": "paragraph",
+            "key": "releaseNextP1"
+          }
+        ],
+        "next": {
+          "href": "./europe-explorer.html",
+          "label": "articleNext",
+          "title": "releaseNextLink"
+        },
+        "copy": {
+          "articleBack": "← Voltar para as notícias",
+          "releaseTag": "Notas da atualização",
+          "releaseTitle": "Um espaço maior para cada jornada no WalkQuest",
+          "releaseLead": "O novo site do WalkQuest é mais do que uma simples página de apresentação: agora é um guia de campo multilíngue para entender o jogo antes mesmo de dar o primeiro passo.",
+          "releaseDate": "1º de outubro de 2026",
+          "releaseReadTime": "6 min de leitura",
+          "releaseIntroP1": "Um jogo de caminhada pode ser simples de jogar e, ainda assim, conter um mundo inteiro de detalhes. O WalkQuest conecta passos, rotas, cidades, traslados, carimbos no passaporte, conquistas e opções Premium. O site reformulado reúne todos esses elementos em um ambiente tranquilo e organizado.",
+          "releaseIntroP2": "O objetivo é prático: o visitante deve entender o que o WalkQuest faz em menos de um minuto, enquanto o viajante ativo pode encontrar informações mais detalhadas sem precisar navegar por vários menus.",
+          "releaseLanguageTitle": "Dezesseis idiomas, uma jornada compartilhada",
+          "releaseLanguageP1": "Todas as páginas principais e artigos seguem o idioma selecionado no site. Na primeira visita, o WalkQuest verifica o idioma do navegador;se for um idioma suportado, a página abre automaticamente nele. Caso contrário, o inglês é utilizado.",
+          "releaseLanguageP2": "A escolha é salva no dispositivo e acompanha você desde o guia do jogo até as rotas, a versão Premium, a política de privacidade e o diário de bordo. No caso do árabe, a direção da leitura muda completamente para o sentido da direita para a esquerda.",
+          "releaseCalloutTitle": "Por que isso é importante",
+          "releaseCalloutText": "Um jogador que chega diretamente da Google Play pode ler a explicação, a política de privacidade e o material de suporte em um idioma familiar, sem precisar criar uma conta.",
+          "releasePathTitle": "Um caminho mais claro da curiosidade à primeira caminhada",
+          "releasePathP1": "O site agora separa respostas rápidas de orientações detalhadas. A página inicial explica a proposta do jogo;o guia do jogo mostra os controles;o atlas de rotas ajuda a escolher um destino;e a página Premium explica as compras sem ocultar a experiência gratuita.",
+          "releaseFeature1Title": "Guia do jogo",
+          "releaseFeature1Text": "Veja como os passos movem o marcador, como as cidades são desbloqueadas e o que acontece em balsas, trens ou portões de embarque de voos.",
+          "releaseFeature2Title": "Atlas de rotas",
+          "releaseFeature2Text": "Compare aventuras curtas com jornadas épicas usando distâncias reais, paradas, níveis de dificuldade e número de traslados.",
+          "releaseFeature3Title": "Diário",
+          "releaseFeature3Text": "Leia histórias focadas em lançamentos, destinos e dicas práticas de configuração, em vez de anúncios de marketing vagos.",
+          "releaseSameTitle": "O que não mudou",
+          "releaseSameP1": "O WalkQuest continua não exigindo a criação de conta. O acesso aos passos permanece apenas para leitura e baseado em permissões. Seus movimentos reais se transformam em progresso na rota escolhida, enquanto o site continua sendo uma página estática e leve, sem barreiras de login.",
+          "releaseQuote": "O site deve transmitir a sensação da primeira página de um diário de viagem: útil antes da jornada e interessante para revisitar depois que ela começa.",
+          "releaseNextTitle": "O que vem a seguir",
+          "releaseNextP1": "Futuras publicações explicarão mudanças significativas em linguagem simples: o que mudou, por que mudou e se isso afeta o progresso já realizado. Destaques de rotas e guias práticos continuarão sendo publicados paralelamente.",
+          "articleNext": "Próximo artigo",
+          "releaseNextLink": "Explore a rota gratuita Europe Explorer →",
+          "releaseHeroAlt": "Atualização do app WalkQuest com rotas, carimbos no passaporte e cartões de viagem multilíngues"
+        }
+      }
     }
   }
 }

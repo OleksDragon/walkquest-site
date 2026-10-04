@@ -1,0 +1,27 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+const article = page.article!;
+const c = article.copy;
+const h = article.hero;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+---
+
+<main id="main"><article>
+  <header class="article-hero"><div class="shell article-hero-inner"><a class="article-back" href="./news.html" data-i18n="articleBack">{c.articleBack}</a><span class="news-tag" data-i18n={h.tag}>{c[h.tag]}</span><h1 data-i18n={h.title}>{c[h.title]}</h1><p class="article-lead" data-i18n={h.lead}>{c[h.lead]}</p><div class="article-meta"><time datetime={h.dateTime} data-i18n={h.date}>{c[h.date]}</time><span>•</span><span data-i18n={h.readTime}>{c[h.readTime]}</span></div><img src={`${assetPrefix}assets/${h.image}`} width="1672" height="941" alt={c[h.alt]} data-i18n-alt={h.alt} /></div></header>
+  <div class="shell article-layout"><div class="article-body">
+    {article.blocks.map((block) => block.type === "paragraph" ? <p class:list={{ "article-drop": block.drop }} data-i18n={block.key}>{c[block.key]}</p>
+      : block.type === "heading" ? <h2 data-i18n={block.key}>{c[block.key]}</h2>
+      : block.type === "quote" ? <blockquote data-i18n={block.key}>{c[block.key]}</blockquote>
+      : block.type === "callout" ? <aside class="article-callout"><strong data-i18n={block.title}>{c[block.title]}</strong><p data-i18n={block.text}>{c[block.text]}</p></aside>
+      : block.type === "list" ? <ul class="article-checks">{block.items.map((key) => <li data-i18n={key}>{c[key]}</li>)}</ul>
+      : block.type === "steps" ? <ol class="article-steps">{block.items.map((item) => <li><strong data-i18n={item.title}>{c[item.title]}</strong><span data-i18n={item.text}>{c[item.text]}</span></li>)}</ol>
+      : block.type === "stats" ? <div class="article-stat-grid">{block.items.map((item) => <div><strong data-i18n={item.value}>{item.literal ?? c[item.value!]}</strong><span data-i18n={item.label}>{c[item.label]}</span></div>)}</div>
+      : <div class="article-feature-grid">{block.items.map((item) => <section><span>{item.emoji}</span><h3 data-i18n={item.title}>{c[item.title]}</h3><p data-i18n={item.text}>{c[item.text]}</p></section>)}</div>)}
+  </div></div>
+  {article.next && <nav class="article-next shell" aria-label="Related articles"><a href={article.next.href}><span data-i18n={article.next.label}>{c[article.next.label]}</span><strong data-i18n={article.next.title}>{c[article.next.title]}</strong></a></nav>}
+  {article.cta && <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n={article.cta.title}>{c[article.cta.title]}</h2><p data-i18n={article.cta.text}>{c[article.cta.text]}</p></div><GooglePlayButton label={c[article.cta.label]} href={article.cta.href} /></div></section>}
+</article></main>

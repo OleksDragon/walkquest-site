@@ -1,0 +1,3205 @@
+{
+  "slug": "news",
+  "locales": {
+    "en": {
+      "relativePath": "news.html",
+      "lang": "en",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "Home",
+        "navGuide": "Game guide",
+        "navRoutes": "Routes",
+        "navPremium": "Premium",
+        "navNews": "News",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Choose language",
+        "footerTagline": "Real steps. Remarkable journeys.",
+        "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest News — Updates, Routes and Walking Guides",
+        "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest News — Updates, Routes and Walking Guides",
+          "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest News — Updates, Routes and Walking Guides",
+          "description": "Read WalkQuest news, release notes, virtual route spotlights and practical guides for Health Connect, walking motivation and travel game features worldwide.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "./pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest journal",
+          "newsTitle": "WalkQuest news from the road",
+          "newsDesc": "Product updates, new destinations, feature guides, and stories from the expanding WalkQuest world.",
+          "newsBadgeUpdates": "Product updates",
+          "newsBadgeRoutes": "Route spotlights",
+          "newsBadgeGuides": "Player guides",
+          "newsLatestKicker": "Latest stories",
+          "newsLatestTitle": "What is happening in WalkQuest",
+          "newsLatestText": "This page will grow with release notes, route launches, and practical tips.",
+          "shareTag": "Product update",
+          "shareDate": "October 3, 2026",
+          "shareTitle": "Share every WalkQuest milestone — now free",
+          "shareLead": "Achievements, passport progress, routes, and distance milestones can now be shared without Premium.",
+          "readArticle": "Read article →",
+          "news2Tag": "Routes",
+          "news2Date": "September 28, 2026",
+          "news2Title": "The route library reaches thirty journeys",
+          "news2Text": "WalkQuest now spans 303 city stops and 18 train, ferry, or flight transfers across routes from Kyiv and Kyoto to Patagonia and Iceland.",
+          "news3Tag": "Guide",
+          "news3Date": "September 20, 2026",
+          "news3Title": "Discover more inside every unlocked city",
+          "news3Text": "Open city stories, landmarks, local food, Google Maps, nearby Street View, passport stamps, and shareable travel cards.",
+          "newsNextKicker": "Fresh from the journal",
+          "newsNextTitle": "Three stories to start with",
+          "newsNextText": "Release details, a route worth walking, and a practical setup guide—written to be useful, not noisy.",
+          "releaseTag": "Release notes",
+          "newsNext1Title": "A bigger home for every WalkQuest journey",
+          "newsNext1Text": "See what changed on the multilingual website and why the new guides make the first walk easier.",
+          "europeTag": "Route spotlight",
+          "newsNext2Title": "Europe Explorer: 1,240 km from London to Prague",
+          "newsNext2Text": "Meet the free starter route with twelve city stops, six countries, and a rewarding rhythm.",
+          "healthTag": "Practical guide",
+          "newsNext3Title": "Connect Health Connect without guesswork",
+          "newsNext3Text": "Set up step access, understand synchronization, and solve the most common missing-step problems.",
+          "newsCtaTitle": "The next story begins with your next walk",
+          "newsCtaText": "Download WalkQuest and turn today’s steps into a destination.",
+          "playSmall": "Get it on",
+          "newsHeroAlt": "WalkQuest traveller celebrating new destinations around a globe",
+          "shareHeroAlt": "WalkQuest achievement sharing illustration",
+          "releaseCardAlt": "WalkQuest app update illustration",
+          "europeCardAlt": "Europe Explorer route illustration",
+          "healthCardAlt": "Health Connect synchronization illustration"
+        }
+      }
+    },
+    "uk": {
+      "relativePath": "uk/news.html",
+      "lang": "uk",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Перейти до вмісту",
+        "navHome": "додому",
+        "navGuide": "Посібник з гри",
+        "navRoutes": "Маршрути",
+        "navPremium": "Premium",
+        "navNews": "Новини",
+        "navPrivacy": "Конфіденційність",
+        "languageLabel": "Виберіть мову",
+        "footerTagline": "Реальні кроки. Чудові подорожі.",
+        "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Новини | WalkQuest",
+        "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Новини | WalkQuest",
+          "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Новини | WalkQuest",
+          "description": "Оновлення продукту WalkQuest, нові віртуальні маршрути, путівники та історії з дороги.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/uk/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Журнал WalkQuest",
+          "newsTitle": "Новини з дороги",
+          "newsDesc": "Оновлення продуктів, нові напрямки, путівники по функціях та історії зі світу WalkQuest, що розширюється.",
+          "newsBadgeUpdates": "Оновлення продукту",
+          "newsBadgeRoutes": "Маршрутні прожектори",
+          "newsBadgeGuides": "Посібники для гравців",
+          "newsLatestKicker": "Останні історії",
+          "newsLatestTitle": "Що відбувається в WalkQuest",
+          "newsLatestText": "Ця сторінка буде розширюватися з примітками до випуску, запусками маршрутів і практичними порадами.",
+          "shareTag": "Оновлення продукту",
+          "shareDate": "3 жовтня 2026",
+          "shareTitle": "Діліться кожним досягненням WalkQuest — тепер безкоштовно",
+          "shareLead": "Досягненнями, прогресом паспорта, маршрутами та рекордами відстані тепер можна ділитися без Premium.",
+          "readArticle": "Читати статтю →",
+          "news2Tag": "Маршрути",
+          "news2Date": "28 вересня 2026 р",
+          "news2Title": "Маршрутна бібліотека сягає тридцяти поїздок",
+          "news2Text": "WalkQuest тепер охоплює 303 міські зупинки та 18 пересадок на потягах, поромах або літаках за маршрутами з Києва та Кіото до Патагонії та Ісландії.",
+          "news3Tag": "Гід",
+          "news3Date": "20 вересня 2026 р",
+          "news3Title": "Відкрийте для себе більше в кожному розблокованому місті",
+          "news3Text": "Відкрийте історії міста, пам’ятки, місцеву їжу, Карти Google, найближчу вулицю Street View, штампи в паспорті та проїзні картки, якими можна поділитися.",
+          "newsNextKicker": "Нове в журналі",
+          "newsNextTitle": "Три статті для початку",
+          "newsNextText": "Подробиці оновлення, маршрут для натхнення та практичний посібник — корисно й без зайвого шуму.",
+          "releaseTag": "Нотатки до випуску",
+          "newsNext1Title": "Новий простір для кожної подорожі з WalkQuest",
+          "newsNext1Text": "Подивіться, що змінилося на багатомовному сайті та чому нові посібники полегшують першу прогулянку.",
+          "europeTag": "Огляд маршруту",
+          "newsNext2Title": "Europe Explorer: 1240 км від Лондона до Праги",
+          "newsNext2Text": "Знайомтеся з безкоштовним стартовим маршрутом: 12 зупинок у містах, 6 країн і приємний ритм руху.",
+          "healthTag": "Практичний посібник",
+          "newsNext3Title": "Підключення Health Connect без зайвих запитань",
+          "newsNext3Text": "Налаштуйте доступ до даних про кроки, зрозумійте принцип синхронізації та вирішіть найпоширеніші проблеми з їхнім обліком.",
+          "newsCtaTitle": "Наступна історія починається з вашої наступної прогулянки",
+          "newsCtaText": "Завантажте WalkQuest і перетворите сьогоднішні кроки на пункт призначення.",
+          "playSmall": "Завантажити з",
+          "newsHeroAlt": "WalkQuest мандрівник, який відзначає нові напрямки по всьому світу",
+          "shareHeroAlt": "Ілюстрація поширення досягнень WalkQuest",
+          "releaseCardAlt": "Ілюстрація оновлення додатка WalkQuest",
+          "europeCardAlt": "Ілюстрація маршруту Europe Explorer",
+          "healthCardAlt": "Ілюстрація синхронізації з Health Connect"
+        }
+      }
+    },
+    "ru": {
+      "relativePath": "ru/news.html",
+      "lang": "ru",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Перейти к содержимому",
+        "navHome": "Главная",
+        "navGuide": "Руководство по игре",
+        "navRoutes": "Маршруты",
+        "navPremium": "Premium",
+        "navNews": "Новости",
+        "navPrivacy": "Конфиденциальность",
+        "languageLabel": "Выберите язык",
+        "footerTagline": "Реальные шаги. Замечательные путешествия.",
+        "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Новости | WalkQuest",
+        "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Новости | WalkQuest",
+          "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Новости | WalkQuest",
+          "description": "Обновления продуктов WalkQuest, новые виртуальные маршруты, руководства по функциям и истории с дорог.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ru/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "журнал WalkQuest",
+          "newsTitle": "Новости с дороги",
+          "newsDesc": "Обновления продуктов, новые направления, руководства по функциям и истории из расширяющегося мира WalkQuest.",
+          "newsBadgeUpdates": "Обновления продукта",
+          "newsBadgeRoutes": "Истории маршрутов",
+          "newsBadgeGuides": "Руководства для игроков",
+          "newsLatestKicker": "Последние истории",
+          "newsLatestTitle": "Что происходит в WalkQuest",
+          "newsLatestText": "Эта страница будет пополняться примечаниями к выпуску, новыми маршрутами и практическими советами.",
+          "shareTag": "Обновление продукта",
+          "shareDate": "3 октября 2026",
+          "shareTitle": "Делитесь каждым достижением WalkQuest — теперь бесплатно",
+          "shareLead": "Достижениями, прогрессом паспорта, маршрутами и рекордами расстояния теперь можно делиться без Premium.",
+          "readArticle": "Читать статью →",
+          "news2Tag": "Маршруты",
+          "news2Date": "28 сентября 2026 г.",
+          "news2Title": "В библиотеке уже тридцать путешествий",
+          "news2Text": "WalkQuest теперь охватывает 303 городские остановки и 18 пересадок на поездах, паромах или самолетах по маршрутам из Киева и Киото в Патагонию и Исландию.",
+          "news3Tag": "Руководство",
+          "news3Date": "20 сентября 2026 г.",
+          "news3Title": "Узнайте больше в каждом открытом городе",
+          "news3Text": "Читайте истории городов, открывайте достопримечательности и местную кухню, запускайте Google Maps и Street View, собирайте паспортные печати и делитесь карточками путешествий.",
+          "newsNextKicker": "Новое в журнале",
+          "newsNextTitle": "Три статьи для начала",
+          "newsNextText": "Подробности обновления, маршрут для вдохновения и практическое руководство — полезно и без лишнего шума.",
+          "releaseTag": "Информация о выпуске",
+          "newsNext1Title": "Больше пространства для каждого путешествия с WalkQuest",
+          "newsNext1Text": "Узнайте, что изменилось на многоязычном сайте и почему новые руководства упрощают начало пути.",
+          "europeTag": "Обзор маршрута",
+          "newsNext2Title": "Europe Explorer: 1240 км от Лондона до Праги",
+          "newsNext2Text": "Знакомьтесь: бесплатный стартовый маршрут с двенадцатью остановками в городах, проходящий через шесть стран и задающий приятный ритм ходьбы.",
+          "healthTag": "Практическое руководство",
+          "newsNext3Title": "Подключение Health Connect без лишних сложностей",
+          "newsNext3Text": "Настройте доступ к данным о шагах, разберитесь в работе синхронизации и решите распространенные проблемы с отсутствием данных.",
+          "newsCtaTitle": "Следующая история начинается с вашей следующей прогулки",
+          "newsCtaText": "Загрузите WalkQuest и превратите сегодняшние шаги в пункт назначения.",
+          "playSmall": "Скачать в",
+          "newsHeroAlt": "Путешественник WalkQuest отмечает новые направления по всему миру",
+          "shareHeroAlt": "Иллюстрация публикации достижений WalkQuest",
+          "releaseCardAlt": "Иллюстрация обновления приложения WalkQuest",
+          "europeCardAlt": "Иллюстрация маршрута Europe Explorer",
+          "healthCardAlt": "Иллюстрация синхронизации с Health Connect"
+        }
+      }
+    },
+    "es": {
+      "relativePath": "es/news.html",
+      "lang": "es",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Saltar al contenido",
+        "navHome": "Inicio",
+        "navGuide": "guía del juego",
+        "navRoutes": "Rutas",
+        "navPremium": "Premium",
+        "navNews": "Noticias",
+        "navPrivacy": "Privacidad",
+        "languageLabel": "Elige idioma",
+        "footerTagline": "Pasos reales. Viajes notables.",
+        "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Noticias | WalkQuest",
+        "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Noticias | WalkQuest",
+          "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Noticias | WalkQuest",
+          "description": "Actualizaciones de productos WalkQuest, nuevas rutas virtuales, guías de funciones e historias de la carretera.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/es/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diario WalkQuest",
+          "newsTitle": "Noticias de la carretera",
+          "newsDesc": "Actualizaciones de productos, nuevos destinos, guías de funciones e historias del mundo en expansión de WalkQuest.",
+          "newsBadgeUpdates": "Actualizaciones de productos",
+          "newsBadgeRoutes": "Focos de ruta",
+          "newsBadgeGuides": "Guías del jugador",
+          "newsLatestKicker": "Últimas historias",
+          "newsLatestTitle": "¿Qué está pasando en WalkQuest?",
+          "newsLatestText": "Esta página crecerá con notas de la versión, lanzamientos de rutas y consejos prácticos.",
+          "shareTag": "Actualización del producto",
+          "shareDate": "3 de octubre de 2026",
+          "shareTitle": "Comparte cada logro de WalkQuest — ahora gratis",
+          "shareLead": "Ya puedes compartir logros, progreso del pasaporte, rutas y récords de distancia sin Premium.",
+          "readArticle": "Leer artículo →",
+          "news2Tag": "Rutas",
+          "news2Date": "28 de septiembre de 2026",
+          "news2Title": "La biblioteca de rutas llega a la treintena de viajes",
+          "news2Text": "WalkQuest ahora abarca 303 paradas en ciudades y 18 traslados en tren, ferry o avión a través de rutas desde Kiev y Kioto hasta la Patagonia e Islandia.",
+          "news3Tag": "Guía",
+          "news3Date": "20 de septiembre de 2026",
+          "news3Title": "Descubre más dentro de cada ciudad desbloqueada",
+          "news3Text": "Abra historias de la ciudad, puntos de referencia, comida local, Google Maps, Street View cercano, sellos de pasaporte y tarjetas de viaje para compartir.",
+          "newsNextKicker": "Recién salido del diario",
+          "newsNextTitle": "Tres historias para empezar",
+          "newsNextText": "Detalles de la actualización, una ruta que vale la pena recorrer y una guía de configuración práctica: contenido útil, sin distracciones.",
+          "releaseTag": "Notas de la versión",
+          "newsNext1Title": "Un espacio más amplio para cada viaje en WalkQuest",
+          "newsNext1Text": "Descubre las novedades del sitio web multilingüe y cómo las nuevas guías facilitan el primer recorrido.",
+          "europeTag": "Ruta destacada",
+          "newsNext2Title": "Europe Explorer: 1240 km de Londres a Praga",
+          "newsNext2Text": "Conoce la ruta inicial gratuita, con doce paradas en ciudades, seis países y un ritmo gratificante.",
+          "healthTag": "Guía práctica",
+          "newsNext3Title": "Conecta Health Connect sin complicaciones",
+          "newsNext3Text": "Configura el acceso a los pasos, comprende la sincronización y resuelve los problemas más comunes de recuento de pasos.",
+          "newsCtaTitle": "La próxima historia comienza con tu próxima caminata.",
+          "newsCtaText": "Descargue WalkQuest y convierta los pasos de hoy en un destino.",
+          "playSmall": "Consíguelo",
+          "newsHeroAlt": "Viajero de WalkQuest celebrando nuevos destinos alrededor del mundo",
+          "shareHeroAlt": "Ilustración para compartir logros de WalkQuest",
+          "releaseCardAlt": "Ilustración de la actualización de la aplicación WalkQuest",
+          "europeCardAlt": "Ilustración de la ruta Europe Explorer",
+          "healthCardAlt": "Ilustración de la sincronización con Health Connect"
+        }
+      }
+    },
+    "de": {
+      "relativePath": "de/news.html",
+      "lang": "de",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Zum Inhalt springen",
+        "navHome": "Zuhause",
+        "navGuide": "Spielanleitung",
+        "navRoutes": "Routen",
+        "navPremium": "Premium",
+        "navNews": "Nachrichten",
+        "navPrivacy": "Privatsphäre",
+        "languageLabel": "Sprache wählen",
+        "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
+        "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Nachrichten | WalkQuest",
+        "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Nachrichten | WalkQuest",
+          "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Nachrichten | WalkQuest",
+          "description": "WalkQuest-Produktaktualisierungen, neue virtuelle Routen, Funktionsführer und Geschichten von unterwegs.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/de/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest-Tagebuch",
+          "newsTitle": "Neuigkeiten von unterwegs",
+          "newsDesc": "Produktaktualisierungen, neue Reiseziele, Funktionsführer und Geschichten aus der wachsenden WalkQuest-Welt.",
+          "newsBadgeUpdates": "Produktaktualisierungen",
+          "newsBadgeRoutes": "Routenstrahler",
+          "newsBadgeGuides": "Spielerhandbücher",
+          "newsLatestKicker": "Neueste Geschichten",
+          "newsLatestTitle": "Was passiert in WalkQuest",
+          "newsLatestText": "Diese Seite wird mit Versionshinweisen, Routeneinführungen und praktischen Tipps erweitert.",
+          "shareTag": "Produktupdate",
+          "shareDate": "3. Oktober 2026",
+          "shareTitle": "Teile jeden WalkQuest-Meilenstein — jetzt kostenlos",
+          "shareLead": "Erfolge, Passfortschritt, Routen und Distanzrekorde lassen sich jetzt ohne Premium teilen.",
+          "readArticle": "Artikel lesen →",
+          "news2Tag": "Routen",
+          "news2Date": "28. September 2026",
+          "news2Title": "Die Streckenbibliothek umfasst dreißig Fahrten",
+          "news2Text": "WalkQuest umfasst mittlerweile 303 Haltestellen in der Stadt und 18 Zug-, Fähr- oder Flugtransfers auf Strecken von Kiew und Kyoto nach Patagonien und Island.",
+          "news3Tag": "Leitfaden",
+          "news3Date": "20. September 2026",
+          "news3Title": "Entdecken Sie mehr in jeder freigeschalteten Stadt",
+          "news3Text": "Öffnen Sie Stadtgeschichten, Sehenswürdigkeiten, lokales Essen, Google Maps, das nahegelegene Street View, Passstempel und gemeinsam nutzbare Reisekarten.",
+          "newsNextKicker": "Neu aus dem Journal",
+          "newsNextTitle": "Drei Geschichten für den Start",
+          "newsNextText": "Details zum Update, eine lohnende Route und eine praktische Einrichtungsanleitung – informativ und ohne unnötiges Rauschen.",
+          "releaseTag": "Versionshinweise",
+          "newsNext1Title": "Mehr Platz für jede WalkQuest-Reise",
+          "newsNext1Text": "Entdecken Sie die Neuerungen auf der mehrsprachigen Website und erfahren Sie, wie die neuen Anleitungen den ersten Spaziergang erleichtern.",
+          "europeTag": "Routen-Porträt",
+          "newsNext2Title": "Europe Explorer: 1. 240 km von London nach Prag",
+          "newsNext2Text": "Lernen Sie die kostenlose Start-Route kennen – mit zwölf Städte-Etappen, sechs Ländern und einem angenehmen Rhythmus.",
+          "healthTag": "Praktischer Leitfaden",
+          "newsNext3Title": "Health Connect ganz einfach verbinden",
+          "newsNext3Text": "Zugriff auf Schrittdaten einrichten, Synchronisierung verstehen und die häufigsten Probleme bei der Schrittzählung lösen.",
+          "newsCtaTitle": "Die nächste Geschichte beginnt mit Ihrem nächsten Spaziergang",
+          "newsCtaText": "Laden Sie WalkQuest herunter und verwandeln Sie die heutigen Schritte in ein Ziel.",
+          "playSmall": "Zieh es an",
+          "newsHeroAlt": "WalkQuest-Reisender feiert neue Reiseziele rund um den Globus",
+          "shareHeroAlt": "Illustration zum Teilen von WalkQuest-Erfolgen",
+          "releaseCardAlt": "Illustration zum WalkQuest-App-Update",
+          "europeCardAlt": "Illustration der Europe-Explorer-Route",
+          "healthCardAlt": "Illustration zur Health-Connect-Synchronisierung"
+        }
+      }
+    },
+    "fr": {
+      "relativePath": "fr/news.html",
+      "lang": "fr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Passer au contenu",
+        "navHome": "Accueil",
+        "navGuide": "Guide du jeu",
+        "navRoutes": "Itinéraires",
+        "navPremium": "Premium",
+        "navNews": "Actualités",
+        "navPrivacy": "Confidentialité",
+        "languageLabel": "Choisir la langue",
+        "footerTagline": "De vraies étapes. Des voyages remarquables.",
+        "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Actualités | WalkQuest",
+        "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Actualités | WalkQuest",
+          "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Actualités | WalkQuest",
+          "description": "Mises à jour des produits WalkQuest, nouveaux itinéraires virtuels, guides de fonctionnalités et récits de la route.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/fr/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Revue WalkQuest",
+          "newsTitle": "Des nouvelles de la route",
+          "newsDesc": "Mises à jour de produits, nouvelles destinations, guides de fonctionnalités et histoires du monde en expansion de WalkQuest.",
+          "newsBadgeUpdates": "Mises à jour du produit",
+          "newsBadgeRoutes": "Projecteurs d'itinéraire",
+          "newsBadgeGuides": "Guides du joueur",
+          "newsLatestKicker": "Dernières histoires",
+          "newsLatestTitle": "Que se passe-t-il dans WalkQuest",
+          "newsLatestText": "Cette page s'enrichira de notes de version, de lancements d'itinéraires et de conseils pratiques.",
+          "shareTag": "Mise à jour du produit",
+          "shareDate": "3 octobre 2026",
+          "shareTitle": "Partagez chaque étape WalkQuest — désormais gratuitement",
+          "shareLead": "Les succès, la progression du passeport, les parcours et les records de distance se partagent maintenant sans Premium.",
+          "readArticle": "Lire l'article →",
+          "news2Tag": "Itinéraires",
+          "news2Date": "28 septembre 2026",
+          "news2Title": "La bibliothèque d'itinéraires atteint une trentaine de trajets",
+          "news2Text": "WalkQuest couvre désormais 303 arrêts urbains et 18 transferts en train, ferry ou avion sur des itinéraires allant de Kiev et Kyoto à la Patagonie et à l'Islande.",
+          "news3Tag": "Guider",
+          "news3Date": "20 septembre 2026",
+          "news3Title": "Découvrez-en davantage dans chaque ville déverrouillée",
+          "news3Text": "Histoires de la ville ouvertes, monuments, cuisine locale, Google Maps, Street View à proximité, tampons de passeport et cartes de voyage partageables.",
+          "newsNextKicker": "Les dernières nouvelles du journal",
+          "newsNextTitle": "Trois histoires pour commencer",
+          "newsNextText": "Détails de la mise à jour, un itinéraire qui vaut le détour et un guide de configuration pratique : conçu pour être utile, sans superflu.",
+          "releaseTag": "Notes de mise à jour",
+          "newsNext1Title": "Un espace plus vaste pour chaque aventure WalkQuest",
+          "newsNext1Text": "Découvrez les nouveautés du site multilingue et comment les nouveaux guides facilitent votre première marche.",
+          "europeTag": "Plein feu sur un itinéraire",
+          "newsNext2Title": "Europe Explorer : 1 240 km de Londres à Prague",
+          "newsNext2Text": "Découvrez l'itinéraire de départ gratuit : douze étapes urbaines, six pays et un rythme gratifiant.",
+          "healthTag": "Guide pratique",
+          "newsNext3Title": "Connectez Health Connect sans tâtonner",
+          "newsNext3Text": "Configurez l'accès aux données de pas, comprenez la synchronisation et résolvez les problèmes courants de comptage des pas.",
+          "newsCtaTitle": "La prochaine histoire commence avec votre prochaine promenade",
+          "newsCtaText": "Téléchargez WalkQuest et transformez les étapes d'aujourd'hui en destination.",
+          "playSmall": "Mettez-le",
+          "newsHeroAlt": "Voyageur WalkQuest célébrant de nouvelles destinations à travers le monde",
+          "shareHeroAlt": "Illustration du partage des succès WalkQuest",
+          "releaseCardAlt": "Illustration de la mise à jour de l'application WalkQuest",
+          "europeCardAlt": "Illustration de l'itinéraire Europe Explorer",
+          "healthCardAlt": "Illustration de la synchronisation avec Health Connect"
+        }
+      }
+    },
+    "pl": {
+      "relativePath": "pl/news.html",
+      "lang": "pl",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Przejdź do treści",
+        "navHome": "Dom",
+        "navGuide": "Przewodnik po grze",
+        "navRoutes": "Trasy",
+        "navPremium": "Premium",
+        "navNews": "Wiadomości",
+        "navPrivacy": "Prywatność",
+        "languageLabel": "Wybierz język",
+        "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
+        "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Wiadomości | WalkQuest",
+        "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Wiadomości | WalkQuest",
+          "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Wiadomości | WalkQuest",
+          "description": "Aktualizacje produktów WalkQuest, nowe wirtualne trasy, przewodniki po funkcjach i historie z podróży.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pl/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Dziennik WalkQuest",
+          "newsTitle": "Wiadomości z drogi",
+          "newsDesc": "Aktualizacje produktów, nowe miejsca docelowe, przewodniki po funkcjach i historie z rozwijającego się świata WalkQuest.",
+          "newsBadgeUpdates": "Aktualizacje produktów",
+          "newsBadgeRoutes": "Reflektory trasy",
+          "newsBadgeGuides": "Przewodniki dla graczy",
+          "newsLatestKicker": "Najnowsze historie",
+          "newsLatestTitle": "Co się dzieje w WalkQuest",
+          "newsLatestText": "Ta strona będzie się powiększać o informacje o wydaniach, premiery tras i praktyczne wskazówki.",
+          "shareTag": "Aktualizacja produktu",
+          "shareDate": "3 października 2026",
+          "shareTitle": "Udostępniaj każde osiągnięcie WalkQuest — teraz bezpłatnie",
+          "shareLead": "Osiągnięcia, postęp paszportu, trasy i rekordy dystansu można teraz udostępniać bez Premium.",
+          "readArticle": "Przeczytaj artykuł →",
+          "news2Tag": "Trasy",
+          "news2Date": "28 września 2026 r",
+          "news2Title": "Biblioteka tras obejmuje trzydzieści przejazdów",
+          "news2Text": "WalkQuest obejmuje obecnie 303 przystanki miejskie oraz 18 przesiadek kolejowych, promowych i lotniczych na trasach z Kijowa i Kioto do Patagonii i Islandii.",
+          "news3Tag": "Przewodnik",
+          "news3Date": "20 września 2026 r",
+          "news3Title": "Odkryj więcej w każdym odblokowanym mieście",
+          "news3Text": "Otwórz historie miast, zabytki, lokalną kuchnię, Mapy Google, pobliski Street View, pieczątki paszportowe i wspólne karty podróżne.",
+          "newsNextKicker": "Nowości z dziennika",
+          "newsNextTitle": "Trzy historie na początek",
+          "newsNextText": "Szczegóły aktualizacji, trasa warta przejścia i praktyczny poradnik konfiguracji – treści przydatne, a nie natrętne.",
+          "releaseTag": "Informacje o wydaniu",
+          "newsNext1Title": "Więcej przestrzeni dla każdej podróży z WalkQuest",
+          "newsNext1Text": "Zobacz, co zmieniło się na wielojęzycznej stronie i dlaczego nowe poradniki ułatwiają pierwszy spacer.",
+          "europeTag": "Prezentacja trasy",
+          "newsNext2Title": "Europe Explorer: 1240 km z Londynu do Pragi",
+          "newsNext2Text": "Poznaj darmową trasę startową z dwunastoma przystankami w miastach, sześcioma krajami i satysfakcjonującym rytmem marszu.",
+          "healthTag": "Praktyczny przewodnik",
+          "newsNext3Title": "Połącz Health Connect bez zbędnych domysłów",
+          "newsNext3Text": "Skonfiguruj dostęp do danych o krokach, zrozum zasady synchronizacji i rozwiąż najczęstsze problemy z brakiem zliczeń.",
+          "newsCtaTitle": "Następna historia zaczyna się od następnego spaceru",
+          "newsCtaText": "Pobierz WalkQuest i zamień dzisiejsze kroki w cel.",
+          "playSmall": "Włącz to",
+          "newsHeroAlt": "Podróżnik WalkQuest świętujący nowe miejsca na całym świecie",
+          "shareHeroAlt": "Ilustracja udostępniania osiągnięć WalkQuest",
+          "releaseCardAlt": "Ilustracja aktualizacji aplikacji WalkQuest",
+          "europeCardAlt": "Ilustracja trasy Europe Explorer",
+          "healthCardAlt": "Ilustracja synchronizacji z Health Connect"
+        }
+      }
+    },
+    "pt": {
+      "relativePath": "pt/news.html",
+      "lang": "pt",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Saltar para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Notícias | WalkQuest",
+        "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diário WalkQuest",
+          "newsTitle": "Notícias da estrada",
+          "newsDesc": "Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.",
+          "newsBadgeUpdates": "Atualizações de produtos",
+          "newsBadgeRoutes": "Destaques de percurso",
+          "newsBadgeGuides": "Guias do jogador",
+          "newsLatestKicker": "Últimas histórias",
+          "newsLatestTitle": "O que está a acontecer em WalkQuest",
+          "newsLatestText": "Esta página irá crescer com notas de lançamento, lançamentos de rotas e dicas práticas.",
+          "shareTag": "Atualização do produto",
+          "shareDate": "3 de outubro de 2026",
+          "shareTitle": "Partilha cada conquista WalkQuest — agora grátis",
+          "shareLead": "Conquistas, progresso do passaporte, rotas e recordes de distância podem agora ser partilhados sem Premium.",
+          "readArticle": "Ler artigo →",
+          "news2Tag": "Rotas",
+          "news2Date": "28 de setembro de 2026",
+          "news2Title": "A biblioteca de rotas chega às trinta viagens",
+          "news2Text": "O WalkQuest abrange agora 303 paragens na cidade e 18 transfers de comboio, ferry ou voo em rotas de Kiev e Quioto para a Patagónia e Islândia.",
+          "news3Tag": "Guia",
+          "news3Date": "20 de setembro de 2026",
+          "news3Title": "Descubra mais dentro de cada cidade desbloqueada",
+          "news3Text": "Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem partilháveis.",
+          "newsNextKicker": "Direto do diário",
+          "newsNextTitle": "Três histórias para começar",
+          "newsNextText": "Detalhes do lançamento, uma rota que vale a pena percorrer e um guia prático de configuração — escrito para ser útil, e não confuso.",
+          "releaseTag": "Notas de lançamento",
+          "newsNext1Title": "Um espaço maior para cada jornada do WalkQuest",
+          "newsNext1Text": "Veja o que mudou no site multilingue e porque é que os novos guias facilitam a primeira caminhada.",
+          "europeTag": "Destaque da rota",
+          "newsNext2Title": "Explorador da Europa: 1. 240 km de Londres a Praga",
+          "newsNext2Text": "Conheça a rota inicial gratuita com doze paragens em cidades, seis países e um ritmo compensador.",
+          "healthTag": "Guia prático",
+          "newsNext3Title": "Ligue o Health Connect sem complicações",
+          "newsNext3Text": "Configure o acesso aos passos, compreenda a sincronização e resolva os problemas mais comuns de passos em falta.",
+          "newsCtaTitle": "A próxima história começa com a sua próxima caminhada",
+          "newsCtaText": "Descarregue o WalkQuest e transforme os passos de hoje num destino.",
+          "playSmall": "Comece",
+          "newsHeroAlt": "Viajante WalkQuest a celebrar novos destinos ao redor do mundo",
+          "shareHeroAlt": "Ilustração de partilha de conquistas WalkQuest",
+          "releaseCardAlt": "Ilustração da atualização da aplicação WalkQuest",
+          "europeCardAlt": "Ilustração da rota Europe Explorer",
+          "healthCardAlt": "Ilustração da sincronização do Health Connect"
+        }
+      }
+    },
+    "it": {
+      "relativePath": "it/news.html",
+      "lang": "it",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Vai al contenuto",
+        "navHome": "Casa",
+        "navGuide": "Guida al gioco",
+        "navRoutes": "Percorsi",
+        "navPremium": "Premium",
+        "navNews": "Novità",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Scegli la lingua",
+        "footerTagline": "Passi veri. Viaggi straordinari.",
+        "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Novità | WalkQuest",
+        "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Novità | WalkQuest",
+          "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Novità | WalkQuest",
+          "description": "Aggiornamenti dei prodotti WalkQuest, nuovi percorsi virtuali, guide alle funzionalità e storie dalla strada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/it/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diario WalkQuest",
+          "newsTitle": "Notizie dalla strada",
+          "newsDesc": "Aggiornamenti sui prodotti, nuove destinazioni, guide alle funzionalità e storie dal mondo in espansione di WalkQuest.",
+          "newsBadgeUpdates": "Aggiornamenti del prodotto",
+          "newsBadgeRoutes": "Faretti di percorso",
+          "newsBadgeGuides": "Guide per i giocatori",
+          "newsLatestKicker": "Ultime storie",
+          "newsLatestTitle": "Cosa sta succedendo in WalkQuest",
+          "newsLatestText": "Questa pagina crescerà con note di rilascio, lanci di percorsi e suggerimenti pratici.",
+          "shareTag": "Aggiornamento prodotto",
+          "shareDate": "3 ottobre 2026",
+          "shareTitle": "Condividi ogni traguardo WalkQuest — ora gratis",
+          "shareLead": "Traguardi, progressi del passaporto, percorsi e record di distanza si possono ora condividere senza Premium.",
+          "readArticle": "Leggi l'articolo →",
+          "news2Tag": "Percorsi",
+          "news2Date": "28 settembre 2026",
+          "news2Title": "La biblioteca delle rotte raggiunge trenta viaggi",
+          "news2Text": "WalkQuest ora copre 303 fermate in città e 18 trasferimenti in treno, traghetto o volo su rotte da Kiev e Kyoto alla Patagonia e all'Islanda.",
+          "news3Tag": "Guida",
+          "news3Date": "20 settembre 2026",
+          "news3Title": "Scopri di più in ogni città sbloccata",
+          "news3Text": "Apri storie di città, punti di riferimento, cibo locale, Google Maps, Street View nelle vicinanze, timbri sui passaporti e abbonamenti di viaggio condivisibili.",
+          "newsNextKicker": "Novità dal diario di bordo",
+          "newsNextTitle": "Tre storie da cui cominciare",
+          "newsNextText": "Dettagli sulla versione, un percorso imperdibile e una guida pratica alla configurazione: contenuti utili, senza inutili distrazioni.",
+          "releaseTag": "Note di rilascio",
+          "newsNext1Title": "Più spazio per ogni viaggio WalkQuest",
+          "newsNext1Text": "Scopri le novità del sito multilingue e come le nuove guide rendono più semplice la prima camminata.",
+          "europeTag": "Focus sul percorso",
+          "newsNext2Title": "Europe Explorer: 1. 240 km da Londra a Praga",
+          "newsNext2Text": "Scopri il percorso iniziale gratuito: dodici tappe cittadine, sei paesi e un ritmo gratificante.",
+          "healthTag": "Guida pratica",
+          "newsNext3Title": "Collega Health Connect senza incertezze",
+          "newsNext3Text": "Configura l'accesso ai dati dei passi, comprendi la sincronizzazione e risolvi i problemi più comuni relativi alla mancata rilevazione dei passi.",
+          "newsCtaTitle": "La prossima storia inizia con la tua prossima passeggiata",
+          "newsCtaText": "Scarica WalkQuest e trasforma i passi di oggi in una destinazione.",
+          "playSmall": "Mettiti al lavoro",
+          "newsHeroAlt": "Il viaggiatore WalkQuest celebra nuove destinazioni in tutto il mondo",
+          "shareHeroAlt": "Illustrazione della condivisione dei traguardi WalkQuest",
+          "releaseCardAlt": "Illustrazione dell'aggiornamento dell'app WalkQuest",
+          "europeCardAlt": "Illustrazione del percorso Europe Explorer",
+          "healthCardAlt": "Illustrazione della sincronizzazione con Health Connect"
+        }
+      }
+    },
+    "tr": {
+      "relativePath": "tr/news.html",
+      "lang": "tr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "İçeriğe atla",
+        "navHome": "Ana sayfa",
+        "navGuide": "Oyun rehberi",
+        "navRoutes": "Rotalar",
+        "navPremium": "Premium",
+        "navNews": "Haberler",
+        "navPrivacy": "Gizlilik",
+        "languageLabel": "Dil seçin",
+        "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
+        "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Haberler | WalkQuest",
+        "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Haberler | WalkQuest",
+          "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Haberler | WalkQuest",
+          "description": "WalkQuest ürün güncellemeleri, yeni sanal rotalar, özellik kılavuzları ve yoldan hikayeler.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/tr/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest günlüğü",
+          "newsTitle": "Yoldan haberler",
+          "newsDesc": "Genişleyen WalkQuest dünyasından ürün güncellemeleri, yeni yerler, özellik kılavuzları ve hikayeler.",
+          "newsBadgeUpdates": "Ürün güncellemeleri",
+          "newsBadgeRoutes": "Rota spot ışıkları",
+          "newsBadgeGuides": "Oyuncu kılavuzları",
+          "newsLatestKicker": "En son hikayeler",
+          "newsLatestTitle": "WalkQuest'te neler oluyor",
+          "newsLatestText": "Bu sayfa sürüm notları, rota lansmanları ve pratik ipuçlarıyla büyüyecek.",
+          "shareTag": "Ürün güncellemesi",
+          "shareDate": "3 Ekim 2026",
+          "shareTitle": "Her WalkQuest başarısını paylaş — artık ücretsiz",
+          "shareLead": "Başarılar, pasaport ilerlemesi, rotalar ve mesafe rekorları artık Premium olmadan paylaşılabilir.",
+          "readArticle": "Makaleyi okuyun →",
+          "news2Tag": "Rotalar",
+          "news2Date": "28 Eylül 2026",
+          "news2Title": "Rota kütüphanesi otuz yolculuğa ulaşıyor",
+          "news2Text": "WalkQuest artık Kiev ve Kyoto'dan Patagonya ve İzlanda'ya kadar 303 şehir durağını ve 18 tren, feribot veya uçuş transferini kapsıyor.",
+          "news3Tag": "Rehber",
+          "news3Date": "20 Eylül 2026",
+          "news3Title": "Kilidi açılmış her şehrin içinde daha fazlasını keşfedin",
+          "news3Text": "Açık şehir hikayeleri, önemli noktalar, yerel yemekler, Google Haritalar, yakındaki Street View, pasaport pulları ve paylaşılabilir seyahat kartları.",
+          "newsNextKicker": "Günlükten en yeni haberler",
+          "newsNextTitle": "Başlangıç için üç hikaye",
+          "newsNextText": "Sürüm detayları, yürümeye değer bir rota ve pratik bir kurulum rehberi; gürültü yaratmak için değil, faydalı olmak için hazırlandı.",
+          "releaseTag": "Sürüm notları",
+          "newsNext1Title": "Her WalkQuest yolculuğu için daha geniş bir yuva",
+          "newsNext1Text": "Çok dilli web sitesindeki değişiklikleri ve yeni rehberlerin ilk yürüyüşü nasıl kolaylaştırdığını görün.",
+          "europeTag": "Rota tanıtımı",
+          "newsNext2Title": "Europe Explorer: Londra'dan Prag'a 1. 240 km",
+          "newsNext2Text": "On iki şehir durağı, altı ülke ve tatmin edici bir tempoya sahip ücretsiz başlangıç rotasıyla tanışın.",
+          "healthTag": "Pratik rehber",
+          "newsNext3Title": "Tahmin yürütmeden Health Connect bağlantısı kurun",
+          "newsNext3Text": "Adım erişimini ayarlayın, senkronizasyonu anlayın ve en sık karşılaşılan eksik adım sorunlarını çözün.",
+          "newsCtaTitle": "Bir sonraki hikaye bir sonraki yürüyüşünüzle başlar",
+          "newsCtaText": "WalkQuest'i indirin ve bugünün adımlarını hedefe dönüştürün.",
+          "playSmall": "Başla",
+          "newsHeroAlt": "WalkQuest gezgini dünya çapında yeni destinasyonları kutluyor",
+          "shareHeroAlt": "WalkQuest başarı paylaşımı çizimi",
+          "releaseCardAlt": "WalkQuest uygulaması güncelleme görseli",
+          "europeCardAlt": "Europe Explorer rotası görseli",
+          "healthCardAlt": "Health Connect senkronizasyon görseli"
+        }
+      }
+    },
+    "ja": {
+      "relativePath": "ja/news.html",
+      "lang": "ja",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "コンテンツにスキップ",
+        "navHome": "ホーム",
+        "navGuide": "ゲームガイド",
+        "navRoutes": "ルート",
+        "navPremium": "Premium",
+        "navNews": "ニュース",
+        "navPrivacy": "プライバシー",
+        "languageLabel": "言語を選択してください",
+        "footerTagline": "本当のステップ。素晴らしい旅。",
+        "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "ニュース | WalkQuest",
+        "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "ニュース | WalkQuest",
+          "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "ニュース | WalkQuest",
+          "description": "WalkQuest 製品のアップデート、新しい仮想ルート、機能ガイド、道路からのストーリー。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ja/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest ジャーナル",
+          "newsTitle": "道路からのニュース",
+          "newsDesc": "製品のアップデート、新しい目的地、機能ガイド、拡大する WalkQuest の世界のストーリー。",
+          "newsBadgeUpdates": "製品のアップデート",
+          "newsBadgeRoutes": "ルートのスポットライト",
+          "newsBadgeGuides": "プレイヤーガイド",
+          "newsLatestKicker": "最新話",
+          "newsLatestTitle": "WalkQuestで何が起こっているのか",
+          "newsLatestText": "このページは、リリース ノート、ルートの開始、実用的なヒントとともに成長していきます。",
+          "shareTag": "製品アップデート",
+          "shareDate": "2026年10月3日",
+          "shareTitle": "WalkQuestの達成を共有 — 今なら無料",
+          "shareLead": "実績、パスポートの進捗、ルート、距離記録をPremiumなしで共有できるようになりました。",
+          "readArticle": "記事を読む →",
+          "news2Tag": "ルート",
+          "news2Date": "2026 年 9 月 28 日",
+          "news2Title": "ルート ライブラリが 30 行に達しました",
+          "news2Text": "WalkQuest は現在、キエフと京都からパタゴニアとアイスランドまでのルートで 303 の都市停留所と 18 の列車、フェリー、または飛行機の乗り継ぎを行っています。",
+          "news3Tag": "ガイド",
+          "news3Date": "2026 年 9 月 20 日",
+          "news3Title": "ロックされていないすべての都市でさらに発見してください",
+          "news3Text": "オープンな街のストーリー、ランドマーク、地元の食べ物、Google マップ、近くの Street View、パスポートのスタンプ、共有可能な旅行カード。",
+          "newsNextKicker": "ジャーナルからの最新情報",
+          "newsNextTitle": "まず試したい3つのストーリー",
+          "newsNextText": "リリース詳細、歩きがいのあるルート、そして実践的な設定ガイド。ノイズではなく、役に立つ情報を届けます。",
+          "releaseTag": "リリースノート",
+          "newsNext1Title": "すべてのWalkQuestの旅を支える、より充実したホーム画面",
+          "newsNext1Text": "多言語対応ウェブサイトの変更点と、新しいガイドが「最初のウォーキング」をより簡単にする理由をご覧ください。",
+          "europeTag": "ルート特集",
+          "newsNext2Title": "ヨーロッパ・エクスプローラー：ロンドンからプラハまでの1,240km",
+          "newsNext2Text": "6カ国・12都市を巡る、充実感あふれる無料のスタータールートをご紹介します。",
+          "healthTag": "実践ガイド",
+          "newsNext3Title": "迷うことなくHealth Connectを連携",
+          "newsNext3Text": "歩数データへのアクセス設定、同期の仕組みの理解、そしてよくある「歩数が反映されない」問題の解決方法を解説します。",
+          "newsCtaTitle": "次のストーリーはあなたの次の散歩から始まります",
+          "newsCtaText": "WalkQuest をダウンロードして、今日の一歩を目的地に変えましょう。",
+          "playSmall": "それを着てください",
+          "newsHeroAlt": "世界中の新しい目的地を祝う WalkQuest 旅行者",
+          "shareHeroAlt": "WalkQuest実績共有のイラスト",
+          "releaseCardAlt": "WalkQuestアプリのアップデート図",
+          "europeCardAlt": "ヨーロッパ・エクスプローラー・ルートの図",
+          "healthCardAlt": "Health Connect同期の図"
+        }
+      }
+    },
+    "ko": {
+      "relativePath": "ko/news.html",
+      "lang": "ko",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "콘텐츠로 건너뛰기",
+        "navHome": "홈",
+        "navGuide": "게임 가이드",
+        "navRoutes": "노선",
+        "navPremium": "Premium",
+        "navNews": "뉴스",
+        "navPrivacy": "개인 정보 보호",
+        "languageLabel": "언어를 선택하세요",
+        "footerTagline": "실제 단계. 놀라운 여행.",
+        "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "뉴스 | WalkQuest",
+        "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "뉴스 | WalkQuest",
+          "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "뉴스 | WalkQuest",
+          "description": "WalkQuest 제품 업데이트, 새로운 가상 경로, 기능 가이드 및 이동 중에 일어난 이야기.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ko/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest 저널",
+          "newsTitle": "길에서 온 소식",
+          "newsDesc": "확장되는 WalkQuest 세계의 제품 업데이트, 새로운 목적지, 기능 가이드 및 스토리.",
+          "newsBadgeUpdates": "제품 업데이트",
+          "newsBadgeRoutes": "경로 스포트라이트",
+          "newsBadgeGuides": "플레이어 가이드",
+          "newsLatestKicker": "최신 기사",
+          "newsLatestTitle": "WalkQuest에서는 무슨 일이 일어나고 있나요?",
+          "newsLatestText": "이 페이지는 릴리스 노트, 경로 출시 및 실용적인 팁으로 성장할 것입니다.",
+          "shareTag": "제품 업데이트",
+          "shareDate": "2026년 10월 3일",
+          "shareTitle": "WalkQuest의 모든 성과를 공유하세요 — 이제 무료",
+          "shareLead": "업적, 여권 진행도, 경로와 거리 기록을 Premium 없이 공유할 수 있습니다.",
+          "readArticle": "기사 읽기 →",
+          "news2Tag": "노선",
+          "news2Date": "2026년 9월 28일",
+          "news2Title": "경로 라이브러리가 30개 여정에 도달했습니다.",
+          "news2Text": "WalkQuest는 이제 키예프와 교토에서 파타고니아와 아이슬란드까지 노선을 가로지르는 303개의 도시 정류장과 18개의 기차, 페리, 항공 환승 서비스를 제공합니다.",
+          "news3Tag": "가이드",
+          "news3Date": "2026년 9월 20일",
+          "news3Title": "잠금 해제된 모든 도시에서 더 많은 것을 발견하세요",
+          "news3Text": "도시 이야기, 랜드마크, 현지 음식, Google 지도, 인근 Street View, 여권 스탬프, 공유 가능한 여행 카드를 공개하세요.",
+          "newsNextKicker": "최신 저널 소식",
+          "newsNextTitle": "시작하기 좋은 세 가지 이야기",
+          "newsNextText": "릴리스 정보, 걷기 좋은 경로, 실용적인 설정 가이드—불필요한 알림 없이 꼭 필요한 정보만 담았습니다.",
+          "releaseTag": "릴리스 노트",
+          "newsNext1Title": "모든 WalkQuest 여정을 위한 더 넓은 공간",
+          "newsNext1Text": "다국어 웹사이트의 변경 사항과, 새로운 가이드가 어떻게 첫 걸음을 더 쉽게 만들어주는지 확인해 보세요.",
+          "europeTag": "경로 집중 조명",
+          "newsNext2Title": "유럽 탐험가(Europe Explorer): 런던에서 프라하까지 1,240km",
+          "newsNext2Text": "6개국, 12개 도시를 거치며 보람찬 리듬으로 걷는 무료 시작 경로를 만나보세요.",
+          "healthTag": "실용적인 가이드",
+          "newsNext3Title": "복잡한 과정 없이 Health Connect 연결하기",
+          "newsNext3Text": "걸음 수 데이터 접근 권한 설정, 동기화 원리 이해, 그리고 흔히 발생하는 데이터 누락 문제 해결법.",
+          "newsCtaTitle": "다음 이야기는 당신의 다음 산책에서부터 시작됩니다",
+          "newsCtaText": "WalkQuest를 다운로드하고 오늘의 발걸음을 목표로 삼으세요.",
+          "playSmall": "시작해 보세요",
+          "newsHeroAlt": "전 세계의 새로운 목적지를 축하하는 WalkQuest 여행자",
+          "shareHeroAlt": "WalkQuest 업적 공유 일러스트",
+          "releaseCardAlt": "WalkQuest 앱 업데이트 일러스트",
+          "europeCardAlt": "유럽 탐험가 경로 일러스트",
+          "healthCardAlt": "Health Connect 동기화 일러스트"
+        }
+      }
+    },
+    "zh-cn": {
+      "relativePath": "zh-cn/news.html",
+      "lang": "zh-CN",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "跳至内容",
+        "navHome": "首页",
+        "navGuide": "游戏指南",
+        "navRoutes": "路线",
+        "navPremium": "Premium",
+        "navNews": "新闻动态",
+        "navPrivacy": "隐私",
+        "languageLabel": "选择语言",
+        "footerTagline": "真实的步骤。非凡的旅程。",
+        "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "新闻 | WalkQuest",
+        "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "新闻 | WalkQuest",
+          "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "新闻 | WalkQuest",
+          "description": "WalkQuest 产品更新、新的虚拟路线、功能指南和路上的故事。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/zh-cn/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest 期刊",
+          "newsTitle": "路上传来的消息",
+          "newsDesc": "产品更新、新目的地、功能指南以及不断扩展的 WalkQuest 世界的故事。",
+          "newsBadgeUpdates": "产品更新",
+          "newsBadgeRoutes": "路线聚光灯",
+          "newsBadgeGuides": "玩家指南",
+          "newsLatestKicker": "最新故事",
+          "newsLatestTitle": "WalkQuest 发生了什么",
+          "newsLatestText": "此页面将随着发行说明、路线发布和实用技巧而不断增长。",
+          "shareTag": "产品更新",
+          "shareDate": "2026年10月3日",
+          "shareTitle": "分享每个 WalkQuest 里程碑——现在免费",
+          "shareLead": "成就、护照进度、路线和距离记录现在无需 Premium 即可分享。",
+          "readArticle": "阅读文章 →",
+          "news2Tag": "路线",
+          "news2Date": "2026 年 9 月 28 日",
+          "news2Title": "航线库已达三十条旅程",
+          "news2Text": "WalkQuest 目前横跨 303 个城市站点以及 18 个火车、渡轮或航班换乘服务，横跨从基辅和京都到巴塔哥尼亚和冰岛的路线。",
+          "news3Tag": "指南",
+          "news3Date": "2026 年 9 月 20 日",
+          "news3Title": "在每个解锁的城市中发现更多",
+          "news3Text": "打开城市故事、地标、当地美食、Google 地图、附近的 Street View、护照印章和可共享的旅行卡。",
+          "newsNextKicker": "来自日志的最新动态",
+          "newsNextTitle": "三个值得体验的入门故事",
+          "newsNextText": "版本更新详情、一条值得探索的路线以及实用的设置指南——内容力求实用，拒绝冗余干扰。",
+          "releaseTag": "发布说明",
+          "newsNext1Title": "为每一段 WalkQuest 旅程打造更广阔的展示空间",
+          "newsNext1Text": "了解多语言网站的更新内容，以及新版指南如何让首次徒步体验更轻松。",
+          "europeTag": "路线聚焦",
+          "newsNext2Title": "欧洲探索之旅 (Europe Explorer)：从伦敦到布拉格，全长 1,240 公里",
+          "newsNext2Text": "体验这条免费的入门路线：途经六国、十二个城市站点，节奏舒缓且充满成就感。",
+          "healthTag": "实用指南",
+          "newsNext3Title": "轻松连接 Health Connect，无需盲目摸索",
+          "newsNext3Text": "设置步数访问权限，理解同步机制，并解决常见的步数数据缺失问题。",
+          "newsCtaTitle": "下一个故事从你的下一次散步开始",
+          "newsCtaText": "下载 WalkQuest，将今天的脚步变成目的地。",
+          "playSmall": "穿上它",
+          "newsHeroAlt": "WalkQuest 旅行者庆祝全球新目的地",
+          "shareHeroAlt": "WalkQuest 成就分享插图",
+          "releaseCardAlt": "WalkQuest 应用更新示意图",
+          "europeCardAlt": "“欧洲探索之旅”路线示意图",
+          "healthCardAlt": "Health Connect 同步示意图"
+        }
+      }
+    },
+    "ar": {
+      "relativePath": "ar/news.html",
+      "lang": "ar",
+      "dir": "rtl",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "انتقل إلى المحتوى",
+        "navHome": "الصفحة الرئيسية",
+        "navGuide": "دليل اللعبة",
+        "navRoutes": "الطرق",
+        "navPremium": "Premium",
+        "navNews": "أخبار",
+        "navPrivacy": "الخصوصية",
+        "languageLabel": "اختر اللغة",
+        "footerTagline": "خطوات حقيقية. رحلات رائعة.",
+        "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "الأخبار | WalkQuest",
+        "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "الأخبار | WalkQuest",
+          "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "الأخبار | WalkQuest",
+          "description": "تحديثات منتج WalkQuest ومسارات افتراضية جديدة وأدلة ميزات وقصص من الطريق.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ar/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "مجلة WalkQuest",
+          "newsTitle": "أخبار من الطريق",
+          "newsDesc": "تحديثات المنتج والوجهات الجديدة وأدلة الميزات والقصص من عالم WalkQuest المتوسع.",
+          "newsBadgeUpdates": "تحديثات المنتج",
+          "newsBadgeRoutes": "أضواء الطريق",
+          "newsBadgeGuides": "أدلة اللاعب",
+          "newsLatestKicker": "أحدث القصص",
+          "newsLatestTitle": "ما يحدث في WalkQuest",
+          "newsLatestText": "ستنمو هذه الصفحة مع ملاحظات الإصدار وعمليات إطلاق المسار والنصائح العملية.",
+          "shareTag": "تحديث المنتج",
+          "shareDate": "3 أكتوبر 2026",
+          "shareTitle": "شارك كل إنجاز في WalkQuest — مجانًا الآن",
+          "shareLead": "يمكن الآن مشاركة الإنجازات وتقدم الجواز والمسارات وأرقام المسافة من دون Premium.",
+          "readArticle": "اقرأ المقال ←",
+          "news2Tag": "الطرق",
+          "news2Date": "28 سبتمبر 2026",
+          "news2Title": "تصل مكتبة الطرق إلى ثلاثين رحلة",
+          "news2Text": "تمتد WalkQuest الآن على 303 محطة توقف في المدينة و18 رحلة بالقطار أو العبارة أو الطيران عبر الطرق من كييف وكيوتو إلى باتاغونيا وأيسلندا.",
+          "news3Tag": "دليل",
+          "news3Date": "20 سبتمبر 2026",
+          "news3Title": "اكتشف المزيد داخل كل مدينة غير مقفلة",
+          "news3Text": "افتح قصص المدينة والمعالم والأطعمة المحلية وخرائط Google وStreet View القريبة وطوابع جواز السفر وبطاقات السفر القابلة للمشاركة.",
+          "newsNextKicker": "جديد المدونة",
+          "newsNextTitle": "ثلاث قصص للبدء بها",
+          "newsNextText": "تفاصيل الإصدار، ومسار يستحق المشي، ودليل إعداد عملي؛ محتوى مفيد ومباشر بعيداً عن الإزعاج.",
+          "releaseTag": "ملاحظات الإصدار",
+          "newsNext1Title": "مساحة أكبر لكل رحلة من رحلات WalkQuest",
+          "newsNext1Text": "اطّلع على التغييرات في الموقع متعدد اللغات واعرف كيف تجعل الأدلة الجديدة رحلة المشي الأولى أسهل.",
+          "europeTag": "تسليط الضوء على مسار",
+          "newsNext2Title": "مستكشف أوروبا (Europe Explorer): مسافة 1240 كم من لندن إلى براغ",
+          "newsNext2Text": "تعرّف على المسار المجاني للمبتدئين الذي يضم اثنتي عشرة محطة في المدن، ويمر عبر ست دول، ويتميز بإيقاع ممتع ومجزٍ.",
+          "healthTag": "دليل عملي",
+          "newsNext3Title": "ربط خدمة Health Connect دون عناء أو تخمين",
+          "newsNext3Text": "قم بإعداد صلاحية الوصول للخطوات، وافهم آلية المزامنة، وحل أكثر المشكلات شيوعاً المتعلقة بفقدان بيانات الخطوات.",
+          "newsCtaTitle": "تبدأ القصة التالية بمسيرتك التالية",
+          "newsCtaText": "قم بتنزيل WalkQuest وحوّل خطوات اليوم إلى وجهة.",
+          "playSmall": "احصل عليه",
+          "newsHeroAlt": "مسافر WalkQuest يحتفل بالوجهات الجديدة حول العالم",
+          "shareHeroAlt": "رسم توضيحي لمشاركة إنجازات WalkQuest",
+          "releaseCardAlt": "رسم توضيحي لتحديث تطبيق WalkQuest",
+          "europeCardAlt": "رسم توضيحي لمسار \"مستكشف أوروبا\" (Europe Explorer)",
+          "healthCardAlt": "رسم توضيحي لمزامنة Health Connect"
+        }
+      }
+    },
+    "hi": {
+      "relativePath": "hi/news.html",
+      "lang": "hi",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "सामग्री पर जाएं",
+        "navHome": "घर",
+        "navGuide": "गेम गाइड",
+        "navRoutes": "मार्ग",
+        "navPremium": "Premium",
+        "navNews": "समाचार",
+        "navPrivacy": "गोपनीयता",
+        "languageLabel": "भाषा चुनें",
+        "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
+        "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "समाचार | WalkQuest",
+        "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "समाचार | WalkQuest",
+          "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "समाचार | WalkQuest",
+          "description": "WalkQuest उत्पाद अपडेट, नए आभासी मार्ग, फीचर गाइड और सड़क से कहानियाँ।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/hi/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest जर्नल",
+          "newsTitle": "सड़क से समाचार",
+          "newsDesc": "उत्पाद अपडेट, नए गंतव्य, फीचर गाइड और विस्तारित WalkQuest दुनिया की कहानियां।",
+          "newsBadgeUpdates": "उत्पाद अद्यतन",
+          "newsBadgeRoutes": "रूट स्पॉटलाइट",
+          "newsBadgeGuides": "खिलाड़ी मार्गदर्शन करता है",
+          "newsLatestKicker": "नवीनतम कहानियाँ",
+          "newsLatestTitle": "WalkQuest में क्या हो रहा है?",
+          "newsLatestText": "यह पृष्ठ रिलीज़ नोट्स, रूट लॉन्च और व्यावहारिक युक्तियों के साथ विकसित होगा।",
+          "shareTag": "प्रोडक्ट अपडेट",
+          "shareDate": "3 अक्टूबर 2026",
+          "shareTitle": "हर WalkQuest उपलब्धि साझा करें — अब मुफ़्त",
+          "shareLead": "उपलब्धियाँ, पासपोर्ट प्रगति, रूट और दूरी रिकॉर्ड अब Premium के बिना साझा किए जा सकते हैं।",
+          "readArticle": "आर्टिकल पढ़ें →",
+          "news2Tag": "मार्ग",
+          "news2Date": "28 सितंबर 2026",
+          "news2Title": "मार्ग पुस्तकालय तीस यात्राओं तक पहुंचता है",
+          "news2Text": "WalkQuest अब 303 सिटी स्टॉप और कीव और क्योटो से पैटागोनिया और आइसलैंड तक के मार्गों पर 18 ट्रेन, फ़ेरी या उड़ान स्थानांतरण तक फैला हुआ है।",
+          "news3Tag": "मार्गदर्शक",
+          "news3Date": "20 सितंबर 2026",
+          "news3Title": "प्रत्येक अनलॉक शहर के अंदर और अधिक जानें",
+          "news3Text": "खुले शहर की कहानियाँ, स्थलचिह्न, स्थानीय भोजन, Google मानचित्र, निकटवर्ती Street View, पासपोर्ट टिकट और साझा करने योग्य यात्रा कार्ड।",
+          "newsNextKicker": "जर्नल से ताज़ा जानकारी",
+          "newsNextTitle": "शुरुआत करने के लिए तीन कहानियाँ",
+          "newsNextText": "रिलीज़ की जानकारी, चलने लायक रूट, और एक प्रैक्टिकल सेटअप गाइड—जो काम की हो, न कि फालतू जानकारी से भरी।",
+          "releaseTag": "रिलीज़ नोट्स",
+          "newsNext1Title": "हर WalkQuest यात्रा के लिए एक बड़ी जगह",
+          "newsNext1Text": "देखें कि मल्टीलिंगुअल वेबसाइट पर क्या बदला है और नए गाइड पहली वॉक को कैसे आसान बनाते हैं।",
+          "europeTag": "रूट स्पॉटलाइट",
+          "newsNext2Title": "यूरोप एक्सप्लोरर: लंदन से प्राग तक 1,240 km",
+          "newsNext2Text": "मुफ़्त स्टार्टर रूट से मिलें जिसमें बारह शहरों में स्टॉप, छह देश और एक शानदार रिदम है।",
+          "healthTag": "प्रैक्टिकल गाइड",
+          "newsNext3Title": "बिना किसी अंदाज़े के Health Connect को कनेक्ट करें",
+          "newsNext3Text": "स्टेप एक्सेस सेट अप करें, सिंक्रोनाइज़ेशन को समझें, और स्टेप्स न दिखने की आम समस्याओं को हल करें।",
+          "newsCtaTitle": "अगली कहानी आपकी अगली सैर से शुरू होती है",
+          "newsCtaText": "WalkQuest डाउनलोड करें और आज के कदमों को गंतव्य में बदलें।",
+          "playSmall": "इसे लगाओ",
+          "newsHeroAlt": "WalkQuest यात्री दुनिया भर में नए गंतव्यों का जश्न मना रहा है",
+          "shareHeroAlt": "WalkQuest उपलब्धि साझा करने का चित्र",
+          "releaseCardAlt": "WalkQuest ऐप अपडेट का इलस्ट्रेशन",
+          "europeCardAlt": "यूरोप एक्सप्लोरर रूट का इलस्ट्रेशन",
+          "healthCardAlt": "Health Connect सिंक्रोनाइज़ेशन का इलस्ट्रेशन"
+        }
+      }
+    },
+    "pt-br": {
+      "relativePath": "pt-br/news.html",
+      "lang": "pt-BR",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "news"
+      },
+      "labels": {
+        "skipLink": "Pular para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Notícias | WalkQuest",
+        "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/news.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/news.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/news.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/news.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/news.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/news.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/news.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/news.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/news.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/news.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/news.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/news.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/news.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/news.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/news.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/news.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/news.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/news.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest news, route stories and practical walking guides",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/news.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Notícias | WalkQuest",
+          "description": "Atualizações de produtos WalkQuest, novas rotas virtuais, guias de recursos e histórias da estrada.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt-br/news.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../sharing-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diário WalkQuest",
+          "newsTitle": "Notícias da estrada",
+          "newsDesc": "Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.",
+          "newsBadgeUpdates": "Atualizações de produtos",
+          "newsBadgeRoutes": "Destaques de rota",
+          "newsBadgeGuides": "Guias do jogador",
+          "newsLatestKicker": "Últimas histórias",
+          "newsLatestTitle": "O que está acontecendo em WalkQuest",
+          "newsLatestText": "Esta página crescerá com notas de lançamento, lançamentos de rotas e dicas práticas.",
+          "shareTag": "Atualização do produto",
+          "shareDate": "3 de outubro de 2026",
+          "shareTitle": "Compartilhe cada conquista WalkQuest — agora grátis",
+          "shareLead": "Conquistas, progresso do passaporte, rotas e recordes de distância agora podem ser compartilhados sem Premium.",
+          "readArticle": "Leia o artigo →",
+          "news2Tag": "Rotas",
+          "news2Date": "28 de setembro de 2026",
+          "news2Title": "A biblioteca de rotas chega a trinta viagens",
+          "news2Text": "WalkQuest agora abrange 303 paradas na cidade e 18 transferências de trem, balsa ou voo em rotas de Kiev e Kyoto para a Patagônia e Islândia.",
+          "news3Tag": "Guia",
+          "news3Date": "20 de setembro de 2026",
+          "news3Title": "Descubra mais dentro de cada cidade desbloqueada",
+          "news3Text": "Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem compartilháveis.",
+          "newsNextKicker": "Novidades do diário",
+          "newsNextTitle": "Três histórias para começar",
+          "newsNextText": "Detalhes da atualização, uma rota que vale a pena percorrer e um guia prático de configuração — tudo feito para ser útil, sem excesso de ruído.",
+          "releaseTag": "Notas da atualização",
+          "newsNext1Title": "Um espaço maior para cada jornada no WalkQuest",
+          "newsNext1Text": "Veja o que mudou no site multilíngue e por que os novos guias facilitam a primeira caminhada.",
+          "europeTag": "Destaque de rota",
+          "newsNext2Title": "Europe Explorer: 1. 240 km de Londres a Praga",
+          "newsNext2Text": "Conheça a rota inicial gratuita, com doze paradas em cidades, seis países e um ritmo gratificante.",
+          "healthTag": "Guia prático",
+          "newsNext3Title": "Conecte o Health Connect sem dúvidas",
+          "newsNext3Text": "Configure o acesso aos passos, entenda a sincronização e resolva os problemas mais comuns de contagem de passos.",
+          "newsCtaTitle": "A próxima história começa com sua próxima caminhada",
+          "newsCtaText": "Baixe WalkQuest e transforme os passos de hoje em um destino.",
+          "playSmall": "Comece",
+          "newsHeroAlt": "Viajante WalkQuest comemorando novos destinos ao redor do mundo",
+          "shareHeroAlt": "Ilustração de compartilhamento de conquistas WalkQuest",
+          "releaseCardAlt": "Ilustração da atualização do aplicativo WalkQuest",
+          "europeCardAlt": "Ilustração da rota Europe Explorer",
+          "healthCardAlt": "Ilustração da sincronização com o Health Connect"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { RoutePage as RoutePageData } from "../lib/route-pages";
+
+interface Props {
+  route: RoutePageData;
+}
+
+const { route } = Astro.props;
+const detail = route.detail;
+const c = detail.copy;
+const assetPrefix = route.page.relativePath.includes("/") ? "../" : "./";
+---
+
+<BaseLayout page={route.page}>
+  <main id="main"><article>
+    <header class={detail.hero.className}><div class="shell article-hero-inner"><a class="article-back" href="./routes.html"><span aria-hidden="true">←</span> <span data-i18n="navRoutes">{c.navRoutes}</span></a><span class="news-tag" data-i18n={detail.hero.tag}>{c[detail.hero.tag]}</span><h1 data-i18n={detail.hero.title}>{c[detail.hero.title]}</h1><p class="article-lead" data-i18n={detail.hero.lead}>{c[detail.hero.lead]}</p><div class="route-hero-chips">{detail.hero.chips.map((chip) => <span>{chip.key && <span data-i18n={chip.key}>{c[chip.key]}</span>}{chip.literal}{chip.label && <> <span data-i18n={chip.label}>{c[chip.label]}</span></>}</span>)}</div><img src={`${assetPrefix}assets/${detail.hero.image}`} width="1672" height="941" alt={c[detail.hero.alt]} data-i18n-alt={detail.hero.alt} /></div></header>
+    <nav class="route-jump-nav" aria-label={`${c[detail.hero.title]} page sections`}><div class="shell">{detail.jumpLinks.map((link) => <a href={link.href} data-i18n={link.label}>{c[link.label]}</a>)}</div></nav>
+    <div class="shell article-layout"><div class="article-body" id="overview">
+      <div class="article-stat-grid">{detail.stats.map((stat) => <div><strong data-i18n={stat.key}>{stat.literal ?? c[stat.key!]}</strong><span data-i18n={stat.label}>{c[stat.label]}</span></div>)}</div>
+      {detail.introBlocks.map((block) => block.type === "paragraph" ? <p class:list={{ "article-drop": block.drop }} data-i18n={block.key}>{c[block.key]}</p> : block.type === "heading" ? <h2 data-i18n={block.key}>{c[block.key]}</h2> : block.type === "callout" ? <aside class="article-callout"><strong data-i18n={block.title}>{c[block.title]}</strong><p data-i18n={block.text}>{c[block.text]}</p></aside> : null)}
+      {detail.features.length > 0 && <div class="article-feature-grid">{detail.features.map((item) => <section><span>{item.emoji}</span><h3 data-i18n={item.title}>{c[item.title]}</h3><p data-i18n={item.text}>{c[item.text]}</p></section>)}</div>}
+      <div class={detail.ribbon.className} aria-label={detail.ribbon.label}><div class="route-ribbon-line"></div>{detail.ribbon.stops.map((stop) => <span style={`--at:${stop.at}`}><b>{stop.name}</b><small>{stop.distance}</small></span>)}</div>
+      <h2 id="itinerary" data-i18n={detail.itinerary.title}>{c[detail.itinerary.title]}</h2>{detail.itinerary.paragraphs.map((key) => <p data-i18n={key}>{c[key]}</p>)}
+      <div class="route-city-grid">{detail.cities.map((city) => <article class={city.className} id={city.id}><div class="route-city-number">{city.number}</div><span class="route-city-km">{city.distance}</span><h3 data-i18n={city.name}>{c[city.name]}</h3><p class="route-city-country" data-i18n={city.country}>{c[city.country]}</p><p data-i18n={city.description}>{c[city.description]}</p><details><summary data-i18n={city.factLabel}>{c[city.factLabel]}</summary><p data-i18n={city.fact}>{c[city.fact]}</p></details></article>)}</div>
+      <section class={detail.crossing.className} id={detail.crossing.id}><div class="route-crossing-visual" aria-hidden="true"><span>{detail.crossing.visual[0]}</span><i></i><b>{detail.crossing.visual[1]}</b><i></i><span>{detail.crossing.visual[2]}</span></div><div><span class="section-kicker" data-i18n={detail.crossing.kicker}>{c[detail.crossing.kicker]}</span><h2 data-i18n={detail.crossing.title}>{c[detail.crossing.title]}</h2><p data-i18n={detail.crossing.text}>{c[detail.crossing.text]}</p><ul class="check-list">{detail.crossing.items.map((item) => <li><span><strong data-i18n={item.title}>{c[item.title]}</strong> — <span data-i18n={item.text}>{c[item.text]}</span></span></li>)}</ul></div></section>
+      {detail.postBlocks.map((block) => block.type === "heading" ? <h2 id={block.id} data-i18n={block.key}>{c[block.key]}</h2> : block.type === "paragraph" ? <p data-i18n={block.key}>{c[block.key]}</p> : block.type === "quote" ? <blockquote data-i18n={block.key}>{c[block.key]}</blockquote> : block.type === "steps" ? <ol class="article-steps">{block.items.map((item) => <li><strong data-i18n={item.title}>{c[item.title]}</strong><span data-i18n={item.text}>{c[item.text]}</span></li>)}</ol> : null)}
+      <section class="route-faq" id={detail.faq.id}><span class="section-kicker" data-i18n={detail.faq.title}>{c[detail.faq.title]}</span><h2 data-i18n={detail.faq.title}>{c[detail.faq.title]}</h2>{detail.faq.items.map((item) => <details><summary data-i18n={item.title}>{item.literalTitle ?? c[item.title!]}</summary><p data-i18n={item.text}>{c[item.text]}</p></details>)}</section>
+    </div></div>
+    <section class="page-cta"><div class="shell page-cta-card"><div><span class="section-kicker light" data-i18n={detail.cta.kicker}>{c[detail.cta.kicker]}</span><h2 data-i18n={detail.cta.title}>{c[detail.cta.title]}</h2><p data-i18n={detail.cta.text}>{c[detail.cta.text]}</p></div><GooglePlayButton label={route.playLabel} light /></div></section>
+  </article></main>
+</BaseLayout>

@@ -1,0 +1,3669 @@
+{
+  "slug": "index",
+  "locales": {
+    "en": {
+      "relativePath": "index.html",
+      "lang": "en",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Game guide",
+        "navRoutes": "Routes",
+        "navPremium": "Premium",
+        "navNews": "News",
+        "navPrivacy": "Privacy policy",
+        "languageLabel": "Choose language",
+        "footerTagline": "Real steps. Remarkable journeys.",
+        "footerRights": "All rights reserved.",
+        "contact": "Contact"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Walking Game — Turn Steps Into Adventures",
+        "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Walking Game — Turn Steps Into Adventures",
+          "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Walking Game — Turn Steps Into Adventures",
+          "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "en",
+            "url": "https://walkquest.site/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "./app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Your steps. Your world.",
+          "heroTitle": "Turn every walk into a journey.",
+          "heroText": "WalkQuest transforms your real steps from Health Connect into progress across virtual routes, cities and landmarks.",
+          "playSmall": "Get it on",
+          "playStore": "Google Play",
+          "seeHow": "See how it works",
+          "heroMeta": "Android · Health Connect · No account required",
+          "nextStop": "Next stop",
+          "cityName": "Paris",
+          "stepsToday": "steps today",
+          "stampUnlocked": "New stamp unlocked",
+          "proofRoutes": "World routes",
+          "proofRoutesText": "from city streets to legendary trails",
+          "proofMotivation": "Gentle motivation",
+          "proofMotivationText": "missions, streaks and achievements",
+          "proofPrivate": "Your steps stay yours",
+          "proofPrivateText": "Health data is never used for ads",
+          "howKicker": "A walk with a destination",
+          "howTitle": "Three steps to your next adventure",
+          "howText": "No complicated setup. Connect, walk and watch the map come alive.",
+          "step1Title": "Connect your steps",
+          "step1Text": "Allow read-only access to your step count through Android Health Connect.",
+          "step2Title": "Walk in real life",
+          "step2Text": "Everyday movement becomes distance on the virtual route you choose.",
+          "step3Title": "Discover the world",
+          "step3Text": "Reach cities, uncover landmarks and fill your passport with stamps.",
+          "journeyKicker": "Progress you can feel",
+          "journeyTitle": "Your daily walk has a story now.",
+          "journeyText": "Choose a route, move at your own pace and return each day to see how far your real effort has carried you.",
+          "journeyPoint1": "Unlock cities and destination stories",
+          "journeyPoint2": "Build streaks with achievable daily missions",
+          "journeyPoint3": "Collect passport stamps and route certificates",
+          "activeRoute": "Active route",
+          "routeName": "European capitals",
+          "completed": "Completed",
+          "currentStop": "Current stop",
+          "upNext": "Up next",
+          "distanceWalked": "Distance walked",
+          "streak": "Current streak",
+          "days": "days",
+          "featuresKicker": "Made to keep you moving",
+          "featuresTitle": "More than a step counter",
+          "feature1Title": "Virtual routes",
+          "feature1Text": "Explore destinations around the world, one real kilometre at a time.",
+          "feature2Title": "Travel passport",
+          "feature2Text": "Collect stamps and keep a visual record of every completed journey.",
+          "feature3Title": "Missions & XP",
+          "feature3Text": "Turn consistency into streaks, achievements and satisfying progress.",
+          "feature4Title": "Privacy by design",
+          "feature4Text": "No account required. Step counts are read only with your permission.",
+          "ctaKicker": "The world is waiting",
+          "ctaTitle": "Where will your next walk take you?",
+          "ctaText": "Start your first virtual route today.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "uk": {
+      "relativePath": "uk/index.html",
+      "lang": "uk",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Керівництво по грі",
+        "navRoutes": "Маршрути",
+        "navPremium": "Premium",
+        "navNews": "Новини",
+        "navPrivacy": "Політика конфіденційності",
+        "languageLabel": "Choose language",
+        "footerTagline": "Реальні кроки. Незвичайні подорожі.",
+        "footerRights": "Усі права захищено.",
+        "contact": "Контакти"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Перетвори кожну прогулянку на подорож. | WalkQuest",
+        "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/uk/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Перетвори кожну прогулянку на подорож. | WalkQuest",
+          "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Перетвори кожну прогулянку на подорож. | WalkQuest",
+          "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/uk/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "uk",
+            "url": "https://walkquest.site/uk/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Твої кроки. Твій світ.",
+          "heroTitle": "Перетвори кожну прогулянку на подорож.",
+          "heroText": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
+          "playSmall": "Завантажити з",
+          "playStore": "Google Play",
+          "seeHow": "Дізнатися як",
+          "heroMeta": "Android · Health Connect · Без реєстрації",
+          "nextStop": "Наступна зупинка",
+          "cityName": "Париж",
+          "stepsToday": "кроків сьогодні",
+          "stampUnlocked": "Відкрито нову печатку",
+          "proofRoutes": "Маршрути світом",
+          "proofRoutesText": "від міських вулиць до легендарних стежок",
+          "proofMotivation": "М’яка мотивація",
+          "proofMotivationText": "місії, серії та досягнення",
+          "proofPrivate": "Твої кроки належать тобі",
+          "proofPrivateText": "Дані про здоров’я не використовуються для реклами",
+          "howKicker": "Прогулянка з метою",
+          "howTitle": "Три кроки до нової пригоди",
+          "howText": "Жодних складних налаштувань. Підключай, ходи й оживляй мапу.",
+          "step1Title": "Підключи кроки",
+          "step1Text": "Надай доступ лише для читання кількості кроків через Android Health Connect.",
+          "step2Title": "Ходи в реальному світі",
+          "step2Text": "Щоденний рух стає відстанню на обраному віртуальному маршруті.",
+          "step3Title": "Відкривай світ",
+          "step3Text": "Досягай міст, знаходь пам’ятки та наповнюй паспорт печатками.",
+          "journeyKicker": "Прогрес, який відчувається",
+          "journeyTitle": "Тепер у щоденної прогулянки є сюжет.",
+          "journeyText": "Обери маршрут, рухайся у своєму темпі й щодня бач, куди привели реальні зусилля.",
+          "journeyPoint1": "Відкривай міста та їхні історії",
+          "journeyPoint2": "Створюй серії з посильними щоденними місіями",
+          "journeyPoint3": "Збирай печатки та сертифікати маршрутів",
+          "activeRoute": "Активний маршрут",
+          "routeName": "Європейські столиці",
+          "completed": "Завершено",
+          "currentStop": "Поточна зупинка",
+          "upNext": "Далі",
+          "distanceWalked": "Пройдено",
+          "streak": "Поточна серія",
+          "days": "днів",
+          "featuresKicker": "Створено, щоб ти рухався",
+          "featuresTitle": "Більше, ніж лічильник кроків",
+          "feature1Title": "Віртуальні маршрути",
+          "feature1Text": "Досліджуй світ — по одному реальному кілометру.",
+          "feature2Title": "Паспорт мандрівника",
+          "feature2Text": "Збирай печатки та зберігай історію завершених подорожей.",
+          "feature3Title": "Місії та XP",
+          "feature3Text": "Перетворюй регулярність на серії, досягнення й помітний прогрес.",
+          "feature4Title": "Приватність у основі",
+          "feature4Text": "Без акаунта. Кроки читаються лише з твого дозволу.",
+          "ctaKicker": "Світ чекає",
+          "ctaTitle": "Куди приведе тебе наступна прогулянка?",
+          "ctaText": "Почни перший віртуальний маршрут сьогодні.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "ru": {
+      "relativePath": "ru/index.html",
+      "lang": "ru",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Руководство по игре",
+        "navRoutes": "Маршруты",
+        "navPremium": "Premium",
+        "navNews": "Новости",
+        "navPrivacy": "Политика конфиденциальности",
+        "languageLabel": "Choose language",
+        "footerTagline": "Реальные шаги. Удивительные путешествия.",
+        "footerRights": "Все права защищены.",
+        "contact": "Контакты"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Преврати каждую прогулку в путешествие. | WalkQuest",
+        "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/ru/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Преврати каждую прогулку в путешествие. | WalkQuest",
+          "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Преврати каждую прогулку в путешествие. | WalkQuest",
+          "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ru/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "ru",
+            "url": "https://walkquest.site/ru/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Твои шаги. Твой мир.",
+          "heroTitle": "Преврати каждую прогулку в путешествие.",
+          "heroText": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
+          "playSmall": "Скачать в",
+          "playStore": "Google Play",
+          "seeHow": "Узнать как",
+          "heroMeta": "Android · Health Connect · Без регистрации",
+          "nextStop": "Следующая остановка",
+          "cityName": "Париж",
+          "stepsToday": "шагов сегодня",
+          "stampUnlocked": "Открыта новая печать",
+          "proofRoutes": "Маршруты по миру",
+          "proofRoutesText": "от городских улиц до легендарных троп",
+          "proofMotivation": "Мягкая мотивация",
+          "proofMotivationText": "миссии, серии и достижения",
+          "proofPrivate": "Твои шаги остаются твоими",
+          "proofPrivateText": "Данные о здоровье не используются для рекламы",
+          "howKicker": "Прогулка с целью",
+          "howTitle": "Три шага до нового приключения",
+          "howText": "Никаких сложных настроек. Подключай, ходи и оживляй карту.",
+          "step1Title": "Подключи шаги",
+          "step1Text": "Разреши доступ только для чтения шагов через Android Health Connect.",
+          "step2Title": "Ходи в реальном мире",
+          "step2Text": "Ежедневное движение становится расстоянием на выбранном виртуальном маршруте.",
+          "step3Title": "Открывай мир",
+          "step3Text": "Достигай городов, находи места и заполняй паспорт печатями.",
+          "journeyKicker": "Прогресс, который ощущается",
+          "journeyTitle": "Теперь у ежедневной прогулки есть сюжет.",
+          "journeyText": "Выбери маршрут, двигайся в своём темпе и каждый день смотри, куда привели реальные усилия.",
+          "journeyPoint1": "Открывай города и их истории",
+          "journeyPoint2": "Создавай серии с посильными ежедневными миссиями",
+          "journeyPoint3": "Собирай печати и сертификаты маршрутов",
+          "activeRoute": "Активный маршрут",
+          "routeName": "Европейские столицы",
+          "completed": "Завершено",
+          "currentStop": "Текущая остановка",
+          "upNext": "Далее",
+          "distanceWalked": "Пройдено",
+          "streak": "Текущая серия",
+          "days": "дней",
+          "featuresKicker": "Создано, чтобы ты двигался",
+          "featuresTitle": "Больше, чем счётчик шагов",
+          "feature1Title": "Виртуальные маршруты",
+          "feature1Text": "Исследуй мир — по одному реальному километру.",
+          "feature2Title": "Паспорт путешественника",
+          "feature2Text": "Собирай печати и сохраняй историю завершённых путешествий.",
+          "feature3Title": "Миссии и XP",
+          "feature3Text": "Превращай регулярность в серии, достижения и заметный прогресс.",
+          "feature4Title": "Приватность в основе",
+          "feature4Text": "Без аккаунта. Шаги читаются только с твоего разрешения.",
+          "ctaKicker": "Мир ждёт",
+          "ctaTitle": "Куда приведёт тебя следующая прогулка?",
+          "ctaText": "Начни первый виртуальный маршрут сегодня.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "es": {
+      "relativePath": "es/index.html",
+      "lang": "es",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "guía del juego",
+        "navRoutes": "Rutas",
+        "navPremium": "Premium",
+        "navNews": "Noticias",
+        "navPrivacy": "Política de privacidad",
+        "languageLabel": "Choose language",
+        "footerTagline": "Pasos reales. Viajes extraordinarios.",
+        "footerRights": "Todos los derechos reservados.",
+        "contact": "Contacto"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Convierte cada paseo en un viaje. | WalkQuest",
+        "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/es/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Convierte cada paseo en un viaje. | WalkQuest",
+          "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Convierte cada paseo en un viaje. | WalkQuest",
+          "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/es/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "es",
+            "url": "https://walkquest.site/es/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Tus pasos. Tu mundo.",
+          "heroTitle": "Convierte cada paseo en un viaje.",
+          "heroText": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
+          "playSmall": "Disponible en",
+          "playStore": "Google Play",
+          "seeHow": "Ver cómo funciona",
+          "heroMeta": "Android · Health Connect · Sin cuenta",
+          "nextStop": "Próxima parada",
+          "cityName": "París",
+          "stepsToday": "pasos hoy",
+          "stampUnlocked": "Nuevo sello desbloqueado",
+          "proofRoutes": "Rutas del mundo",
+          "proofRoutesText": "de calles urbanas a senderos legendarios",
+          "proofMotivation": "Motivación amable",
+          "proofMotivationText": "misiones, rachas y logros",
+          "proofPrivate": "Tus pasos son tuyos",
+          "proofPrivateText": "Los datos de salud nunca se usan para anuncios",
+          "howKicker": "Un paseo con destino",
+          "howTitle": "Tres pasos hacia tu próxima aventura",
+          "howText": "Sin ajustes complicados. Conecta, camina y da vida al mapa.",
+          "step1Title": "Conecta tus pasos",
+          "step1Text": "Permite acceso de solo lectura a tus pasos mediante Android Health Connect.",
+          "step2Title": "Camina en la vida real",
+          "step2Text": "Tu movimiento diario se convierte en distancia en la ruta que elijas.",
+          "step3Title": "Descubre el mundo",
+          "step3Text": "Llega a ciudades, descubre lugares y llena tu pasaporte de sellos.",
+          "journeyKicker": "Progreso que se siente",
+          "journeyTitle": "Ahora tu paseo diario tiene una historia.",
+          "journeyText": "Elige una ruta, avanza a tu ritmo y vuelve cada día para ver hasta dónde llegaste.",
+          "journeyPoint1": "Desbloquea ciudades y sus historias",
+          "journeyPoint2": "Crea rachas con misiones diarias alcanzables",
+          "journeyPoint3": "Colecciona sellos y certificados de ruta",
+          "activeRoute": "Ruta activa",
+          "routeName": "Capitales europeas",
+          "completed": "Completado",
+          "currentStop": "Parada actual",
+          "upNext": "A continuación",
+          "distanceWalked": "Distancia recorrida",
+          "streak": "Racha actual",
+          "days": "días",
+          "featuresKicker": "Hecho para mantenerte en movimiento",
+          "featuresTitle": "Más que un contador de pasos",
+          "feature1Title": "Rutas virtuales",
+          "feature1Text": "Explora destinos del mundo, un kilómetro real cada vez.",
+          "feature2Title": "Pasaporte de viaje",
+          "feature2Text": "Colecciona sellos y conserva cada viaje completado.",
+          "feature3Title": "Misiones y XP",
+          "feature3Text": "Convierte la constancia en rachas, logros y progreso.",
+          "feature4Title": "Privacidad desde el diseño",
+          "feature4Text": "Sin cuenta. Tus pasos solo se leen con tu permiso.",
+          "ctaKicker": "El mundo te espera",
+          "ctaTitle": "¿Adónde te llevará tu próximo paseo?",
+          "ctaText": "Empieza hoy tu primera ruta virtual.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "de": {
+      "relativePath": "de/index.html",
+      "lang": "de",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Spielanleitung",
+        "navRoutes": "Routen",
+        "navPremium": "Premium",
+        "navNews": "Nachrichten",
+        "navPrivacy": "Datenschutz",
+        "languageLabel": "Choose language",
+        "footerTagline": "Echte Schritte. Außergewöhnliche Reisen.",
+        "footerRights": "Alle Rechte vorbehalten.",
+        "contact": "Kontakt"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Mach jeden Spaziergang zur Reise. | WalkQuest",
+        "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/de/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Mach jeden Spaziergang zur Reise. | WalkQuest",
+          "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Mach jeden Spaziergang zur Reise. | WalkQuest",
+          "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/de/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "de",
+            "url": "https://walkquest.site/de/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Deine Schritte. Deine Welt.",
+          "heroTitle": "Mach jeden Spaziergang zur Reise.",
+          "heroText": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
+          "playSmall": "Jetzt bei",
+          "playStore": "Google Play",
+          "seeHow": "So geht’s",
+          "heroMeta": "Android · Health Connect · Kein Konto nötig",
+          "nextStop": "Nächster Halt",
+          "cityName": "Paris",
+          "stepsToday": "Schritte heute",
+          "stampUnlocked": "Neuer Stempel freigeschaltet",
+          "proofRoutes": "Routen weltweit",
+          "proofRoutesText": "von Stadtstraßen bis zu legendären Wegen",
+          "proofMotivation": "Sanfte Motivation",
+          "proofMotivationText": "Missionen, Serien und Erfolge",
+          "proofPrivate": "Deine Schritte bleiben deine",
+          "proofPrivateText": "Gesundheitsdaten werden nie für Werbung genutzt",
+          "howKicker": "Ein Spaziergang mit Ziel",
+          "howTitle": "Drei Schritte zum nächsten Abenteuer",
+          "howText": "Keine komplizierte Einrichtung. Verbinden, laufen und die Karte erwacht.",
+          "step1Title": "Schritte verbinden",
+          "step1Text": "Erlaube den Nur-Lese-Zugriff auf deine Schrittzahl über Android Health Connect.",
+          "step2Title": "Draußen loslaufen",
+          "step2Text": "Alltägliche Bewegung wird zur Distanz auf deiner gewählten Route.",
+          "step3Title": "Die Welt entdecken",
+          "step3Text": "Erreiche Städte, entdecke Orte und fülle deinen Pass mit Stempeln.",
+          "journeyKicker": "Fortschritt, den du spürst",
+          "journeyTitle": "Dein täglicher Weg erzählt jetzt eine Geschichte.",
+          "journeyText": "Wähle eine Route, geh in deinem Tempo und sieh täglich, wie weit du gekommen bist.",
+          "journeyPoint1": "Städte und Geschichten freischalten",
+          "journeyPoint2": "Serien mit machbaren Tagesmissionen aufbauen",
+          "journeyPoint3": "Passstempel und Routenzertifikate sammeln",
+          "activeRoute": "Aktive Route",
+          "routeName": "Europäische Hauptstädte",
+          "completed": "Abgeschlossen",
+          "currentStop": "Aktueller Halt",
+          "upNext": "Als Nächstes",
+          "distanceWalked": "Gegangene Strecke",
+          "streak": "Aktuelle Serie",
+          "days": "Tage",
+          "featuresKicker": "Gemacht, damit du in Bewegung bleibst",
+          "featuresTitle": "Mehr als ein Schrittzähler",
+          "feature1Title": "Virtuelle Routen",
+          "feature1Text": "Erkunde Ziele weltweit – Kilometer für Kilometer.",
+          "feature2Title": "Reisepass",
+          "feature2Text": "Sammle Stempel und bewahre jede abgeschlossene Reise auf.",
+          "feature3Title": "Missionen & XP",
+          "feature3Text": "Mach aus Regelmäßigkeit Serien, Erfolge und sichtbaren Fortschritt.",
+          "feature4Title": "Datenschutz von Anfang an",
+          "feature4Text": "Kein Konto. Schritte werden nur mit deiner Erlaubnis gelesen.",
+          "ctaKicker": "Die Welt wartet",
+          "ctaTitle": "Wohin führt dich dein nächster Spaziergang?",
+          "ctaText": "Starte heute deine erste virtuelle Route.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "fr": {
+      "relativePath": "fr/index.html",
+      "lang": "fr",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Guide du jeu",
+        "navRoutes": "Itinéraires",
+        "navPremium": "Premium",
+        "navNews": "Actualités",
+        "navPrivacy": "Confidentialité",
+        "languageLabel": "Choose language",
+        "footerTagline": "Des pas réels. Des voyages remarquables.",
+        "footerRights": "Tous droits réservés.",
+        "contact": "Contact"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Transformez chaque marche en voyage. | WalkQuest",
+        "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/fr/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Transformez chaque marche en voyage. | WalkQuest",
+          "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Transformez chaque marche en voyage. | WalkQuest",
+          "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/fr/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "fr",
+            "url": "https://walkquest.site/fr/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Vos pas. Votre monde.",
+          "heroTitle": "Transformez chaque marche en voyage.",
+          "heroText": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
+          "playSmall": "Disponible sur",
+          "playStore": "Google Play",
+          "seeHow": "Voir comment",
+          "heroMeta": "Android · Health Connect · Aucun compte requis",
+          "nextStop": "Prochaine étape",
+          "cityName": "Paris",
+          "stepsToday": "pas aujourd’hui",
+          "stampUnlocked": "Nouveau tampon débloqué",
+          "proofRoutes": "Itinéraires du monde",
+          "proofRoutesText": "des rues aux sentiers légendaires",
+          "proofMotivation": "Motivation douce",
+          "proofMotivationText": "missions, séries et réussites",
+          "proofPrivate": "Vos pas restent les vôtres",
+          "proofPrivateText": "Les données de santé ne servent jamais aux publicités",
+          "howKicker": "Une marche avec une destination",
+          "howTitle": "Trois étapes vers votre prochaine aventure",
+          "howText": "Aucun réglage compliqué. Connectez, marchez et animez la carte.",
+          "step1Title": "Connectez vos pas",
+          "step1Text": "Autorisez l’accès en lecture seule au nombre de pas via Android Health Connect.",
+          "step2Title": "Marchez dans la vraie vie",
+          "step2Text": "Chaque mouvement devient une distance sur l’itinéraire choisi.",
+          "step3Title": "Découvrez le monde",
+          "step3Text": "Atteignez des villes, découvrez des lieux et remplissez votre passeport.",
+          "journeyKicker": "Des progrès qui se ressentent",
+          "journeyTitle": "Votre marche quotidienne a maintenant une histoire.",
+          "journeyText": "Choisissez un itinéraire, avancez à votre rythme et mesurez chaque jour vos progrès.",
+          "journeyPoint1": "Débloquez des villes et leurs histoires",
+          "journeyPoint2": "Créez des séries avec des missions quotidiennes accessibles",
+          "journeyPoint3": "Collectionnez tampons et certificats",
+          "activeRoute": "Itinéraire actif",
+          "routeName": "Capitales européennes",
+          "completed": "Terminé",
+          "currentStop": "Étape actuelle",
+          "upNext": "À suivre",
+          "distanceWalked": "Distance parcourue",
+          "streak": "Série actuelle",
+          "days": "jours",
+          "featuresKicker": "Pensé pour vous faire bouger",
+          "featuresTitle": "Plus qu’un compteur de pas",
+          "feature1Title": "Itinéraires virtuels",
+          "feature1Text": "Explorez le monde, un vrai kilomètre à la fois.",
+          "feature2Title": "Passeport de voyage",
+          "feature2Text": "Collectionnez des tampons et gardez la trace de chaque voyage.",
+          "feature3Title": "Missions et XP",
+          "feature3Text": "Transformez la régularité en séries, réussites et progrès.",
+          "feature4Title": "Confidentialité intégrée",
+          "feature4Text": "Aucun compte. Vos pas ne sont lus qu’avec votre accord.",
+          "ctaKicker": "Le monde vous attend",
+          "ctaTitle": "Où vous mènera votre prochaine marche ?",
+          "ctaText": "Commencez votre premier itinéraire virtuel aujourd’hui.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "pl": {
+      "relativePath": "pl/index.html",
+      "lang": "pl",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Przewodnik po grze",
+        "navRoutes": "Trasy",
+        "navPremium": "Premium",
+        "navNews": "Wiadomości",
+        "navPrivacy": "Polityka prywatności",
+        "languageLabel": "Choose language",
+        "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
+        "footerRights": "Wszelkie prawa zastrzeżone.",
+        "contact": "Kontakt"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Zmień każdy spacer w podróż. | WalkQuest",
+        "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/pl/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Zmień każdy spacer w podróż. | WalkQuest",
+          "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Zmień każdy spacer w podróż. | WalkQuest",
+          "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pl/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "pl",
+            "url": "https://walkquest.site/pl/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Twoje kroki. Twój świat.",
+          "heroTitle": "Zmień każdy spacer w podróż.",
+          "heroText": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
+          "playSmall": "Pobierz z",
+          "playStore": "Google Play",
+          "seeHow": "Zobacz jak",
+          "heroMeta": "Android · Health Connect · Bez konta",
+          "nextStop": "Następny przystanek",
+          "cityName": "Paryż",
+          "stepsToday": "kroków dzisiaj",
+          "stampUnlocked": "Nowa pieczęć odblokowana",
+          "proofRoutes": "Trasy świata",
+          "proofRoutesText": "od ulic miast po legendarne szlaki",
+          "proofMotivation": "Łagodna motywacja",
+          "proofMotivationText": "misje, serie i osiągnięcia",
+          "proofPrivate": "Twoje kroki należą do Ciebie",
+          "proofPrivateText": "Dane zdrowotne nie służą reklamom",
+          "howKicker": "Spacer z celem",
+          "howTitle": "Trzy kroki do kolejnej przygody",
+          "howText": "Bez trudnej konfiguracji. Połącz, idź i ożyw mapę.",
+          "step1Title": "Połącz kroki",
+          "step1Text": "Zezwól na odczyt liczby kroków przez Android Health Connect.",
+          "step2Title": "Idź w realnym świecie",
+          "step2Text": "Codzienny ruch staje się dystansem na wybranej trasie.",
+          "step3Title": "Odkrywaj świat",
+          "step3Text": "Docieraj do miast, poznawaj miejsca i wypełniaj paszport pieczęciami.",
+          "journeyKicker": "Postęp, który czuć",
+          "journeyTitle": "Twój codzienny spacer ma teraz historię.",
+          "journeyText": "Wybierz trasę, idź we własnym tempie i codziennie sprawdzaj postęp.",
+          "journeyPoint1": "Odblokowuj miasta i historie",
+          "journeyPoint2": "Buduj serie dzięki osiągalnym misjom",
+          "journeyPoint3": "Zbieraj pieczęcie i certyfikaty tras",
+          "activeRoute": "Aktywna trasa",
+          "routeName": "Europejskie stolice",
+          "completed": "Ukończono",
+          "currentStop": "Obecny przystanek",
+          "upNext": "Następny",
+          "distanceWalked": "Przebyty dystans",
+          "streak": "Obecna seria",
+          "days": "dni",
+          "featuresKicker": "Stworzone, by motywować do ruchu",
+          "featuresTitle": "Więcej niż krokomierz",
+          "feature1Title": "Wirtualne trasy",
+          "feature1Text": "Odkrywaj świat, kilometr po kilometrze.",
+          "feature2Title": "Paszport podróży",
+          "feature2Text": "Zbieraj pieczęcie i zapisuj ukończone podróże.",
+          "feature3Title": "Misje i XP",
+          "feature3Text": "Zamieniaj regularność w serie, osiągnięcia i postęp.",
+          "feature4Title": "Prywatność w projekcie",
+          "feature4Text": "Bez konta. Kroki odczytujemy tylko za zgodą.",
+          "ctaKicker": "Świat czeka",
+          "ctaTitle": "Dokąd zabierze Cię następny spacer?",
+          "ctaText": "Zacznij pierwszą wirtualną trasę już dziś.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "pt": {
+      "relativePath": "pt/index.html",
+      "lang": "pt",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Política de privacidade",
+        "languageLabel": "Choose language",
+        "footerTagline": "Passos reais. Viagens extraordinárias.",
+        "footerRights": "Todos os direitos reservados.",
+        "contact": "Contacto"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Transforma cada caminhada numa viagem. | WalkQuest",
+        "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/pt/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Transforma cada caminhada numa viagem. | WalkQuest",
+          "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Transforma cada caminhada numa viagem. | WalkQuest",
+          "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "pt",
+            "url": "https://walkquest.site/pt/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Os teus passos. O teu mundo.",
+          "heroTitle": "Transforma cada caminhada numa viagem.",
+          "heroText": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
+          "playSmall": "Disponível no",
+          "playStore": "Google Play",
+          "seeHow": "Ver como funciona",
+          "heroMeta": "Android · Health Connect · Sem conta",
+          "nextStop": "Próxima paragem",
+          "cityName": "Paris",
+          "stepsToday": "passos hoje",
+          "stampUnlocked": "Novo carimbo desbloqueado",
+          "proofRoutes": "Rotas pelo mundo",
+          "proofRoutesText": "de ruas urbanas a trilhos lendários",
+          "proofMotivation": "Motivação leve",
+          "proofMotivationText": "missões, sequências e conquistas",
+          "proofPrivate": "Os teus passos são teus",
+          "proofPrivateText": "Os dados de saúde nunca são usados em anúncios",
+          "howKicker": "Uma caminhada com destino",
+          "howTitle": "Três passos para a próxima aventura",
+          "howText": "Sem configuração complicada. Liga, caminha e dá vida ao mapa.",
+          "step1Title": "Liga os teus passos",
+          "step1Text": "Permite acesso só de leitura aos passos através do Android Health Connect.",
+          "step2Title": "Caminha na vida real",
+          "step2Text": "O movimento diário torna-se distância na rota escolhida.",
+          "step3Title": "Descobre o mundo",
+          "step3Text": "Chega a cidades, descobre locais e enche o passaporte de carimbos.",
+          "journeyKicker": "Progresso que se sente",
+          "journeyTitle": "A tua caminhada diária agora tem uma história.",
+          "journeyText": "Escolhe uma rota, avança ao teu ritmo e vê todos os dias até onde chegaste.",
+          "journeyPoint1": "Desbloqueia cidades e histórias",
+          "journeyPoint2": "Cria sequências com missões diárias alcançáveis",
+          "journeyPoint3": "Coleciona carimbos e certificados",
+          "activeRoute": "Rota ativa",
+          "routeName": "Capitais europeias",
+          "completed": "Concluído",
+          "currentStop": "Paragem atual",
+          "upNext": "A seguir",
+          "distanceWalked": "Distância percorrida",
+          "streak": "Sequência atual",
+          "days": "dias",
+          "featuresKicker": "Criado para te manter em movimento",
+          "featuresTitle": "Mais do que um contador de passos",
+          "feature1Title": "Rotas virtuais",
+          "feature1Text": "Explora o mundo, um quilómetro real de cada vez.",
+          "feature2Title": "Passaporte de viagem",
+          "feature2Text": "Coleciona carimbos e guarda cada viagem concluída.",
+          "feature3Title": "Missões e XP",
+          "feature3Text": "Transforma consistência em sequências, conquistas e progresso.",
+          "feature4Title": "Privacidade de raiz",
+          "feature4Text": "Sem conta. Os passos só são lidos com a tua permissão.",
+          "ctaKicker": "O mundo espera",
+          "ctaTitle": "Onde te levará a próxima caminhada?",
+          "ctaText": "Começa hoje a tua primeira rota virtual.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "it": {
+      "relativePath": "it/index.html",
+      "lang": "it",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Guida al gioco",
+        "navRoutes": "Percorsi",
+        "navPremium": "Premium",
+        "navNews": "Novità",
+        "navPrivacy": "Informativa sulla privacy",
+        "languageLabel": "Choose language",
+        "footerTagline": "Passi reali. Viaggi straordinari.",
+        "footerRights": "Tutti i diritti riservati.",
+        "contact": "Contatti"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Trasforma ogni passeggiata in un viaggio. | WalkQuest",
+        "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/it/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Trasforma ogni passeggiata in un viaggio. | WalkQuest",
+          "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Trasforma ogni passeggiata in un viaggio. | WalkQuest",
+          "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/it/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "it",
+            "url": "https://walkquest.site/it/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "I tuoi passi. Il tuo mondo.",
+          "heroTitle": "Trasforma ogni passeggiata in un viaggio.",
+          "heroText": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
+          "playSmall": "Disponibile su",
+          "playStore": "Google Play",
+          "seeHow": "Scopri come",
+          "heroMeta": "Android · Health Connect · Nessun account",
+          "nextStop": "Prossima tappa",
+          "cityName": "Parigi",
+          "stepsToday": "passi oggi",
+          "stampUnlocked": "Nuovo timbro sbloccato",
+          "proofRoutes": "Percorsi nel mondo",
+          "proofRoutesText": "dalle vie cittadine ai sentieri leggendari",
+          "proofMotivation": "Motivazione gentile",
+          "proofMotivationText": "missioni, serie e traguardi",
+          "proofPrivate": "I tuoi passi restano tuoi",
+          "proofPrivateText": "I dati sanitari non servono mai per la pubblicità",
+          "howKicker": "Una passeggiata con meta",
+          "howTitle": "Tre passi verso la prossima avventura",
+          "howText": "Nessuna configurazione complessa. Collega, cammina e anima la mappa.",
+          "step1Title": "Collega i tuoi passi",
+          "step1Text": "Consenti l’accesso in sola lettura ai passi tramite Android Health Connect.",
+          "step2Title": "Cammina nel mondo reale",
+          "step2Text": "Il movimento quotidiano diventa distanza sul percorso scelto.",
+          "step3Title": "Scopri il mondo",
+          "step3Text": "Raggiungi città, scopri luoghi e riempi il passaporto di timbri.",
+          "journeyKicker": "Progressi da vivere",
+          "journeyTitle": "La tua passeggiata quotidiana ora ha una storia.",
+          "journeyText": "Scegli un percorso, vai al tuo ritmo e scopri ogni giorno quanta strada hai fatto.",
+          "journeyPoint1": "Sblocca città e storie",
+          "journeyPoint2": "Crea serie con missioni quotidiane raggiungibili",
+          "journeyPoint3": "Colleziona timbri e certificati",
+          "activeRoute": "Percorso attivo",
+          "routeName": "Capitali europee",
+          "completed": "Completato",
+          "currentStop": "Tappa attuale",
+          "upNext": "Prossima",
+          "distanceWalked": "Distanza percorsa",
+          "streak": "Serie attuale",
+          "days": "giorni",
+          "featuresKicker": "Pensato per farti muovere",
+          "featuresTitle": "Più di un contapassi",
+          "feature1Title": "Percorsi virtuali",
+          "feature1Text": "Esplora il mondo, un chilometro reale alla volta.",
+          "feature2Title": "Passaporto di viaggio",
+          "feature2Text": "Colleziona timbri e conserva ogni viaggio completato.",
+          "feature3Title": "Missioni e XP",
+          "feature3Text": "Trasforma la costanza in serie, traguardi e progressi.",
+          "feature4Title": "Privacy integrata",
+          "feature4Text": "Nessun account. I passi vengono letti solo col tuo permesso.",
+          "ctaKicker": "Il mondo ti aspetta",
+          "ctaTitle": "Dove ti porterà la prossima passeggiata?",
+          "ctaText": "Inizia oggi il primo percorso virtuale.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "tr": {
+      "relativePath": "tr/index.html",
+      "lang": "tr",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Oyun rehberi",
+        "navRoutes": "Rotalar",
+        "navPremium": "Premium",
+        "navNews": "Haberler",
+        "navPrivacy": "Gizlilik politikası",
+        "languageLabel": "Choose language",
+        "footerTagline": "Gerçek adımlar. Olağanüstü yolculuklar.",
+        "footerRights": "Tüm hakları saklıdır.",
+        "contact": "İletişim"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Her yürüyüşü bir yolculuğa dönüştür. | WalkQuest",
+        "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/tr/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Her yürüyüşü bir yolculuğa dönüştür. | WalkQuest",
+          "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Her yürüyüşü bir yolculuğa dönüştür. | WalkQuest",
+          "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/tr/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "tr",
+            "url": "https://walkquest.site/tr/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Adımların. Dünyan.",
+          "heroTitle": "Her yürüyüşü bir yolculuğa dönüştür.",
+          "heroText": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
+          "playSmall": "Şuradan edin",
+          "playStore": "Google Play",
+          "seeHow": "Nasıl çalıştığını gör",
+          "heroMeta": "Android · Health Connect · Hesap gerekmez",
+          "nextStop": "Sonraki durak",
+          "cityName": "Paris",
+          "stepsToday": "bugünkü adım",
+          "stampUnlocked": "Yeni damga açıldı",
+          "proofRoutes": "Dünya rotaları",
+          "proofRoutesText": "şehir sokaklarından efsanevi patikalara",
+          "proofMotivation": "Nazik motivasyon",
+          "proofMotivationText": "görevler, seriler ve başarılar",
+          "proofPrivate": "Adımların sana ait",
+          "proofPrivateText": "Sağlık verileri reklam için kullanılmaz",
+          "howKicker": "Hedefi olan yürüyüş",
+          "howTitle": "Yeni macerana üç adım",
+          "howText": "Karmaşık kurulum yok. Bağlan, yürü ve haritayı canlandır.",
+          "step1Title": "Adımlarını bağla",
+          "step1Text": "Android Health Connect üzerinden adım sayına salt okunur erişim ver.",
+          "step2Title": "Gerçek hayatta yürü",
+          "step2Text": "Günlük hareketin seçtiğin rotada mesafeye dönüşür.",
+          "step3Title": "Dünyayı keşfet",
+          "step3Text": "Şehirlere ulaş, yerleri keşfet ve pasaportunu damgalarla doldur.",
+          "journeyKicker": "Hissedilen ilerleme",
+          "journeyTitle": "Günlük yürüyüşünün artık bir hikâyesi var.",
+          "journeyText": "Bir rota seç, kendi hızında ilerle ve emeğinin seni nereye taşıdığını gör.",
+          "journeyPoint1": "Şehirleri ve hikâyeleri aç",
+          "journeyPoint2": "Ulaşılabilir günlük görevlerle seri oluştur",
+          "journeyPoint3": "Pasaport damgaları ve sertifikalar topla",
+          "activeRoute": "Aktif rota",
+          "routeName": "Avrupa başkentleri",
+          "completed": "Tamamlandı",
+          "currentStop": "Mevcut durak",
+          "upNext": "Sıradaki",
+          "distanceWalked": "Yürünen mesafe",
+          "streak": "Mevcut seri",
+          "days": "gün",
+          "featuresKicker": "Hareket etmen için tasarlandı",
+          "featuresTitle": "Adım sayardan fazlası",
+          "feature1Title": "Sanal rotalar",
+          "feature1Text": "Dünyayı her seferinde bir gerçek kilometreyle keşfet.",
+          "feature2Title": "Seyahat pasaportu",
+          "feature2Text": "Damga topla ve tamamlanan yolculukları kaydet.",
+          "feature3Title": "Görevler ve XP",
+          "feature3Text": "İstikrarı serilere, başarılara ve ilerlemeye dönüştür.",
+          "feature4Title": "Tasarımdan gelen gizlilik",
+          "feature4Text": "Hesap gerekmez. Adımlar yalnızca izninle okunur.",
+          "ctaKicker": "Dünya seni bekliyor",
+          "ctaTitle": "Bir sonraki yürüyüşün seni nereye götürecek?",
+          "ctaText": "İlk sanal rotana bugün başla.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "ja": {
+      "relativePath": "ja/index.html",
+      "lang": "ja",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "ゲームガイド",
+        "navRoutes": "ルート",
+        "navPremium": "Premium",
+        "navNews": "ニュース",
+        "navPrivacy": "プライバシーポリシー",
+        "languageLabel": "Choose language",
+        "footerTagline": "リアルな一歩。特別な旅。",
+        "footerRights": "無断転載を禁じます。",
+        "contact": "お問い合わせ"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "いつもの散歩を、旅に変えよう。 | WalkQuest",
+        "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/ja/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "いつもの散歩を、旅に変えよう。 | WalkQuest",
+          "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "いつもの散歩を、旅に変えよう。 | WalkQuest",
+          "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ja/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "ja",
+            "url": "https://walkquest.site/ja/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "あなたの歩み。あなたの世界。",
+          "heroTitle": "いつもの散歩を、旅に変えよう。",
+          "heroText": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
+          "playSmall": "Google Playで",
+          "playStore": "Google Play",
+          "seeHow": "使い方を見る",
+          "heroMeta": "Android · Health Connect · アカウント不要",
+          "nextStop": "次の目的地",
+          "cityName": "パリ",
+          "stepsToday": "今日の歩数",
+          "stampUnlocked": "新しいスタンプを獲得",
+          "proofRoutes": "世界のルート",
+          "proofRoutesText": "街角から伝説のトレイルまで",
+          "proofMotivation": "やさしいモチベーション",
+          "proofMotivationText": "ミッション、連続記録、実績",
+          "proofPrivate": "歩数データはあなたのもの",
+          "proofPrivateText": "健康データを広告に使用しません",
+          "howKicker": "目的地のある散歩",
+          "howTitle": "次の冒険まで3ステップ",
+          "howText": "複雑な設定は不要。つないで、歩いて、地図を動かそう。",
+          "step1Title": "歩数をつなぐ",
+          "step1Text": "Android Health Connectで歩数の読み取りだけを許可します。",
+          "step2Title": "現実の世界を歩く",
+          "step2Text": "毎日の動きが選んだルートの距離になります。",
+          "step3Title": "世界を発見",
+          "step3Text": "都市に到着し、名所を見つけ、パスポートにスタンプを集めよう。",
+          "journeyKicker": "実感できる進歩",
+          "journeyTitle": "毎日の散歩が物語になる。",
+          "journeyText": "ルートを選び、自分のペースで歩き、努力が運んだ距離を毎日確認できます。",
+          "journeyPoint1": "都市と物語をアンロック",
+          "journeyPoint2": "無理のないデイリーミッションで連続記録",
+          "journeyPoint3": "スタンプとルート証明書を収集",
+          "activeRoute": "進行中のルート",
+          "routeName": "ヨーロッパの首都",
+          "completed": "完了",
+          "currentStop": "現在地",
+          "upNext": "次の目的地",
+          "distanceWalked": "歩いた距離",
+          "streak": "現在の連続記録",
+          "days": "日",
+          "featuresKicker": "歩き続けたくなる設計",
+          "featuresTitle": "歩数計以上の体験",
+          "feature1Title": "バーチャルルート",
+          "feature1Text": "実際の1キロずつ、世界を探索しよう。",
+          "feature2Title": "旅のパスポート",
+          "feature2Text": "スタンプを集め、完了した旅を記録します。",
+          "feature3Title": "ミッションとXP",
+          "feature3Text": "継続を連続記録、実績、成長に変えます。",
+          "feature4Title": "プライバシー重視",
+          "feature4Text": "アカウント不要。歩数は許可した場合のみ読み取ります。",
+          "ctaKicker": "世界が待っています",
+          "ctaTitle": "次の散歩はどこへ続く？",
+          "ctaText": "今日、最初のバーチャルルートへ。",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "ko": {
+      "relativePath": "ko/index.html",
+      "lang": "ko",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "게임 가이드",
+        "navRoutes": "노선",
+        "navPremium": "Premium",
+        "navNews": "뉴스",
+        "navPrivacy": "개인정보 처리방침",
+        "languageLabel": "Choose language",
+        "footerTagline": "진짜 걸음. 특별한 여행.",
+        "footerRights": "모든 권리 보유.",
+        "contact": "문의"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "모든 산책을 여행으로 바꾸세요. | WalkQuest",
+        "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/ko/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "모든 산책을 여행으로 바꾸세요. | WalkQuest",
+          "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "모든 산책을 여행으로 바꾸세요. | WalkQuest",
+          "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ko/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "ko",
+            "url": "https://walkquest.site/ko/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "나의 걸음. 나의 세상.",
+          "heroTitle": "모든 산책을 여행으로 바꾸세요.",
+          "heroText": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
+          "playSmall": "Google Play에서",
+          "playStore": "Google Play",
+          "seeHow": "이용 방법 보기",
+          "heroMeta": "Android · Health Connect · 계정 불필요",
+          "nextStop": "다음 목적지",
+          "cityName": "파리",
+          "stepsToday": "오늘의 걸음",
+          "stampUnlocked": "새 스탬프 획득",
+          "proofRoutes": "세계 여행 경로",
+          "proofRoutesText": "도시 거리부터 전설적인 트레일까지",
+          "proofMotivation": "부담 없는 동기 부여",
+          "proofMotivationText": "미션, 연속 기록, 업적",
+          "proofPrivate": "걸음 데이터는 나의 것",
+          "proofPrivateText": "건강 데이터는 광고에 사용되지 않아요",
+          "howKicker": "목적지가 있는 산책",
+          "howTitle": "다음 모험까지 세 단계",
+          "howText": "복잡한 설정 없이 연결하고 걷기만 하면 지도가 살아납니다.",
+          "step1Title": "걸음 연결",
+          "step1Text": "Android Health Connect를 통해 걸음 수 읽기 전용 권한을 허용하세요.",
+          "step2Title": "현실에서 걷기",
+          "step2Text": "일상의 움직임이 선택한 가상 경로의 거리로 바뀝니다.",
+          "step3Title": "세상 발견",
+          "step3Text": "도시에 도착하고 명소를 발견하며 여권을 스탬프로 채우세요.",
+          "journeyKicker": "느껴지는 성장",
+          "journeyTitle": "매일의 산책에 이야기가 생깁니다.",
+          "journeyText": "경로를 고르고 내 속도로 걸으며 실제 노력이 만든 거리를 확인하세요.",
+          "journeyPoint1": "도시와 여행 이야기 잠금 해제",
+          "journeyPoint2": "달성 가능한 일일 미션으로 연속 기록",
+          "journeyPoint3": "여권 스탬프와 경로 인증서 수집",
+          "activeRoute": "진행 중인 경로",
+          "routeName": "유럽의 수도",
+          "completed": "완료",
+          "currentStop": "현재 목적지",
+          "upNext": "다음",
+          "distanceWalked": "걸은 거리",
+          "streak": "현재 연속 기록",
+          "days": "일",
+          "featuresKicker": "계속 움직이게 하는 디자인",
+          "featuresTitle": "걸음 수 이상의 경험",
+          "feature1Title": "가상 경로",
+          "feature1Text": "실제 1km씩 세계를 탐험하세요.",
+          "feature2Title": "여행 여권",
+          "feature2Text": "스탬프를 모으고 완료한 여행을 기록하세요.",
+          "feature3Title": "미션과 XP",
+          "feature3Text": "꾸준함을 연속 기록, 업적, 성장으로 바꾸세요.",
+          "feature4Title": "개인정보 보호 설계",
+          "feature4Text": "계정 불필요. 허용한 경우에만 걸음을 읽습니다.",
+          "ctaKicker": "세상이 기다려요",
+          "ctaTitle": "다음 산책은 어디로 이어질까요?",
+          "ctaText": "오늘 첫 가상 경로를 시작하세요.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "zh-cn": {
+      "relativePath": "zh-cn/index.html",
+      "lang": "zh-CN",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "游戏指南",
+        "navRoutes": "路线",
+        "navPremium": "Premium",
+        "navNews": "新闻动态",
+        "navPrivacy": "隐私政策",
+        "languageLabel": "Choose language",
+        "footerTagline": "真实脚步，非凡旅程。",
+        "footerRights": "保留所有权利。",
+        "contact": "联系我们"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "让每次步行都成为一段旅程。 | WalkQuest",
+        "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/zh-cn/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "让每次步行都成为一段旅程。 | WalkQuest",
+          "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "让每次步行都成为一段旅程。 | WalkQuest",
+          "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/zh-cn/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "zh-CN",
+            "url": "https://walkquest.site/zh-cn/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "你的脚步。你的世界。",
+          "heroTitle": "让每次步行都成为一段旅程。",
+          "heroText": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
+          "playSmall": "前往下载",
+          "playStore": "Google Play",
+          "seeHow": "查看使用方式",
+          "heroMeta": "Android · Health Connect · 无需账户",
+          "nextStop": "下一站",
+          "cityName": "巴黎",
+          "stepsToday": "今日步数",
+          "stampUnlocked": "已解锁新印章",
+          "proofRoutes": "世界路线",
+          "proofRoutesText": "从城市街道到传奇步道",
+          "proofMotivation": "轻松激励",
+          "proofMotivationText": "任务、连续记录与成就",
+          "proofPrivate": "步数属于你",
+          "proofPrivateText": "健康数据绝不用于广告",
+          "howKicker": "有目的地的步行",
+          "howTitle": "三步开启下一场冒险",
+          "howText": "无需复杂设置。连接、步行，看地图鲜活起来。",
+          "step1Title": "连接步数",
+          "step1Text": "通过 Android Health Connect 授予步数只读权限。",
+          "step2Title": "在现实中步行",
+          "step2Text": "日常运动会变成所选虚拟路线上的距离。",
+          "step3Title": "探索世界",
+          "step3Text": "抵达城市、发现地标，用印章填满护照。",
+          "journeyKicker": "看得见的进步",
+          "journeyTitle": "你的每日步行从此有了故事。",
+          "journeyText": "选择路线，按自己的节奏前进，每天看看真实努力带你走了多远。",
+          "journeyPoint1": "解锁城市和目的地故事",
+          "journeyPoint2": "通过可实现的每日任务保持连续记录",
+          "journeyPoint3": "收集护照印章和路线证书",
+          "activeRoute": "当前路线",
+          "routeName": "欧洲首都",
+          "completed": "已完成",
+          "currentStop": "当前站点",
+          "upNext": "下一站",
+          "distanceWalked": "已行距离",
+          "streak": "当前连续记录",
+          "days": "天",
+          "featuresKicker": "为持续运动而设计",
+          "featuresTitle": "不只是计步器",
+          "feature1Title": "虚拟路线",
+          "feature1Text": "一步一公里，探索世界各地。",
+          "feature2Title": "旅行护照",
+          "feature2Text": "收集印章，记录每段完成的旅程。",
+          "feature3Title": "任务与 XP",
+          "feature3Text": "把坚持变成连续记录、成就和进步。",
+          "feature4Title": "隐私优先设计",
+          "feature4Text": "无需账户。仅在你允许时读取步数。",
+          "ctaKicker": "世界在等你",
+          "ctaTitle": "下一次步行会带你去哪里？",
+          "ctaText": "今天就开始第一条虚拟路线。",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "ar": {
+      "relativePath": "ar/index.html",
+      "lang": "ar",
+      "dir": "rtl",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "دليل اللعبة",
+        "navRoutes": "الطرق",
+        "navPremium": "Premium",
+        "navNews": "أخبار",
+        "navPrivacy": "سياسة الخصوصية",
+        "languageLabel": "Choose language",
+        "footerTagline": "خطوات حقيقية. رحلات استثنائية.",
+        "footerRights": "جميع الحقوق محفوظة.",
+        "contact": "تواصل معنا"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "حوّل كل مشي إلى رحلة. | WalkQuest",
+        "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/ar/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "حوّل كل مشي إلى رحلة. | WalkQuest",
+          "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "حوّل كل مشي إلى رحلة. | WalkQuest",
+          "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/ar/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "ar",
+            "url": "https://walkquest.site/ar/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "خطواتك. عالمك.",
+          "heroTitle": "حوّل كل مشي إلى رحلة.",
+          "heroText": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
+          "playSmall": "حمّله من",
+          "playStore": "Google Play",
+          "seeHow": "اكتشف كيف",
+          "heroMeta": "Android · Health Connect · لا حاجة إلى حساب",
+          "nextStop": "المحطة التالية",
+          "cityName": "باريس",
+          "stepsToday": "خطوة اليوم",
+          "stampUnlocked": "تم فتح ختم جديد",
+          "proofRoutes": "مسارات حول العالم",
+          "proofRoutesText": "من شوارع المدن إلى الدروب الأسطورية",
+          "proofMotivation": "تحفيز لطيف",
+          "proofMotivationText": "مهام وسلاسل إنجازات وجوائز",
+          "proofPrivate": "خطواتك تبقى لك",
+          "proofPrivateText": "لا تُستخدم البيانات الصحية للإعلانات",
+          "howKicker": "مشي بوجهة",
+          "howTitle": "ثلاث خطوات إلى مغامرتك التالية",
+          "howText": "لا إعدادات معقدة. اتصل وامشِ وشاهد الخريطة تنبض بالحياة.",
+          "step1Title": "اربط خطواتك",
+          "step1Text": "اسمح بقراءة عدد الخطوات فقط عبر Android Health Connect.",
+          "step2Title": "امشِ في الواقع",
+          "step2Text": "تتحول حركتك اليومية إلى مسافة على المسار الذي تختاره.",
+          "step3Title": "اكتشف العالم",
+          "step3Text": "صل إلى المدن واكتشف المعالم واملأ جوازك بالأختام.",
+          "journeyKicker": "تقدّم يمكنك الشعور به",
+          "journeyTitle": "لمشيتك اليومية قصة الآن.",
+          "journeyText": "اختر مسارًا وتقدّم بوتيرتك وشاهد كل يوم إلى أين أوصلك جهدك الحقيقي.",
+          "journeyPoint1": "افتح المدن وقصص الوجهات",
+          "journeyPoint2": "ابنِ سلاسل بمهام يومية قابلة للتحقيق",
+          "journeyPoint3": "اجمع أختام الجواز وشهادات المسارات",
+          "activeRoute": "المسار النشط",
+          "routeName": "عواصم أوروبا",
+          "completed": "مكتمل",
+          "currentStop": "المحطة الحالية",
+          "upNext": "التالي",
+          "distanceWalked": "المسافة المقطوعة",
+          "streak": "السلسلة الحالية",
+          "days": "أيام",
+          "featuresKicker": "صُمم ليبقيك متحركًا",
+          "featuresTitle": "أكثر من عدّاد خطوات",
+          "feature1Title": "مسارات افتراضية",
+          "feature1Text": "استكشف العالم كيلومترًا حقيقيًا في كل مرة.",
+          "feature2Title": "جواز السفر",
+          "feature2Text": "اجمع الأختام واحتفظ بسجل لكل رحلة مكتملة.",
+          "feature3Title": "المهام وXP",
+          "feature3Text": "حوّل الاستمرارية إلى سلاسل وإنجازات وتقدّم.",
+          "feature4Title": "الخصوصية في التصميم",
+          "feature4Text": "لا حساب مطلوب. تُقرأ الخطوات بإذنك فقط.",
+          "ctaKicker": "العالم ينتظر",
+          "ctaTitle": "إلى أين ستأخذك مشيتك القادمة؟",
+          "ctaText": "ابدأ أول مسار افتراضي اليوم.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "hi": {
+      "relativePath": "hi/index.html",
+      "lang": "hi",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "गेम गाइड",
+        "navRoutes": "मार्ग",
+        "navPremium": "Premium",
+        "navNews": "समाचार",
+        "navPrivacy": "गोपनीयता नीति",
+        "languageLabel": "Choose language",
+        "footerTagline": "असली कदम। शानदार यात्राएँ।",
+        "footerRights": "सर्वाधिकार सुरक्षित।",
+        "contact": "संपर्क"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "हर सैर को यात्रा बनाएँ। | WalkQuest",
+        "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/hi/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "हर सैर को यात्रा बनाएँ। | WalkQuest",
+          "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "हर सैर को यात्रा बनाएँ। | WalkQuest",
+          "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/hi/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "hi",
+            "url": "https://walkquest.site/hi/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "आपके कदम। आपकी दुनिया।",
+          "heroTitle": "हर सैर को यात्रा बनाएँ।",
+          "heroText": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
+          "playSmall": "यहाँ से पाएँ",
+          "playStore": "Google Play",
+          "seeHow": "देखें कैसे",
+          "heroMeta": "Android · Health Connect · खाता आवश्यक नहीं",
+          "nextStop": "अगला पड़ाव",
+          "cityName": "पेरिस",
+          "stepsToday": "आज के कदम",
+          "stampUnlocked": "नई मुहर अनलॉक",
+          "proofRoutes": "दुनिया के रास्ते",
+          "proofRoutesText": "शहर की गलियों से प्रसिद्ध ट्रेल तक",
+          "proofMotivation": "हल्की प्रेरणा",
+          "proofMotivationText": "मिशन, स्ट्रीक और उपलब्धियाँ",
+          "proofPrivate": "आपके कदम आपके हैं",
+          "proofPrivateText": "स्वास्थ्य डेटा विज्ञापनों में उपयोग नहीं होता",
+          "howKicker": "मंज़िल वाली सैर",
+          "howTitle": "अगले रोमांच के लिए तीन कदम",
+          "howText": "कोई जटिल सेटअप नहीं। कनेक्ट करें, चलें और नक्शे को जीवंत देखें।",
+          "step1Title": "कदम कनेक्ट करें",
+          "step1Text": "Android Health Connect से कदमों की केवल पढ़ने की अनुमति दें।",
+          "step2Title": "असल दुनिया में चलें",
+          "step2Text": "रोज़ की गतिविधि चुने हुए वर्चुअल रास्ते की दूरी बनती है।",
+          "step3Title": "दुनिया खोजें",
+          "step3Text": "शहरों तक पहुँचें, स्थल खोजें और पासपोर्ट में मुहरें भरें।",
+          "journeyKicker": "महसूस होने वाली प्रगति",
+          "journeyTitle": "अब आपकी रोज़ की सैर की अपनी कहानी है।",
+          "journeyText": "रास्ता चुनें, अपनी गति से चलें और देखें आपकी मेहनत आपको कहाँ लाई।",
+          "journeyPoint1": "शहर और उनकी कहानियाँ अनलॉक करें",
+          "journeyPoint2": "आसान दैनिक मिशनों से स्ट्रीक बनाएँ",
+          "journeyPoint3": "पासपोर्ट मुहरें और रूट प्रमाणपत्र जुटाएँ",
+          "activeRoute": "सक्रिय रास्ता",
+          "routeName": "यूरोपीय राजधानियाँ",
+          "completed": "पूरा हुआ",
+          "currentStop": "वर्तमान पड़ाव",
+          "upNext": "अगला",
+          "distanceWalked": "चली गई दूरी",
+          "streak": "वर्तमान स्ट्रीक",
+          "days": "दिन",
+          "featuresKicker": "आपको चलते रहने के लिए बना",
+          "featuresTitle": "सिर्फ़ कदम गिनने वाला नहीं",
+          "feature1Title": "वर्चुअल रास्ते",
+          "feature1Text": "एक-एक असली किलोमीटर के साथ दुनिया घूमें।",
+          "feature2Title": "यात्रा पासपोर्ट",
+          "feature2Text": "मुहरें जुटाएँ और हर पूरी यात्रा का रिकॉर्ड रखें।",
+          "feature3Title": "मिशन और XP",
+          "feature3Text": "नियमितता को स्ट्रीक, उपलब्धि और प्रगति में बदलें।",
+          "feature4Title": "निजता को ध्यान में रखकर",
+          "feature4Text": "खाता नहीं चाहिए। कदम केवल आपकी अनुमति से पढ़े जाते हैं।",
+          "ctaKicker": "दुनिया इंतज़ार कर रही है",
+          "ctaTitle": "अगली सैर आपको कहाँ ले जाएगी?",
+          "ctaText": "आज ही पहला वर्चुअल रास्ता शुरू करें।",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    },
+    "pt-br": {
+      "relativePath": "pt-br/index.html",
+      "lang": "pt-BR",
+      "dir": "ltr",
+      "bodyAttributes": {},
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Política de privacidade",
+        "languageLabel": "Choose language",
+        "footerTagline": "Passos reais. Viagens incríveis.",
+        "footerRights": "Todos os direitos reservados.",
+        "contact": "Contato"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Transforme cada caminhada em uma viagem. | WalkQuest",
+        "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
+        "robots": "index,follow",
+        "themeColor": "#082f36",
+        "canonical": "https://walkquest.site/pt-br/",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css"
+        ],
+        "openGraph": {
+          "title": "Transforme cada caminhada em uma viagem. | WalkQuest",
+          "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Transforme cada caminhada em uma viagem. | WalkQuest",
+          "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
+          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "url": "https://walkquest.site/pt-br/"
+        },
+        "structuredData": [
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            "name": "WalkQuest",
+            "alternateName": "WalkQuest — Walking Game",
+            "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
+            "operatingSystem": "Android",
+            "applicationCategory": "GameApplication",
+            "applicationSubCategory": "HealthAndFitness",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
+            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Gold Digital Studio",
+              "email": "digitalstudiogold@gmail.com"
+            },
+            "inLanguage": "pt-BR",
+            "url": "https://walkquest.site/pt-br/"
+          }
+        ],
+        "scripts": [
+          {
+            "src": "../app.js",
+            "defer": true
+          }
+        ],
+        "inlineStyles": []
+      },
+      "chrome": "landing",
+      "bodyScripts": [],
+      "landing": {
+        "copy": {
+          "eyebrow": "Seus passos. Seu mundo.",
+          "heroTitle": "Transforme cada caminhada em uma viagem.",
+          "heroText": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
+          "playSmall": "Baixe no",
+          "playStore": "Google Play",
+          "seeHow": "Veja como funciona",
+          "heroMeta": "Android · Health Connect · Sem precisar de conta",
+          "nextStop": "Próxima parada",
+          "cityName": "Paris",
+          "stepsToday": "passos hoje",
+          "stampUnlocked": "Novo carimbo desbloqueado",
+          "proofRoutes": "Rotas pelo mundo",
+          "proofRoutesText": "das ruas da cidade a trilhas lendárias",
+          "proofMotivation": "Motivação leve",
+          "proofMotivationText": "missões, sequências e conquistas",
+          "proofPrivate": "Seus passos são seus",
+          "proofPrivateText": "Dados de saúde nunca são usados em anúncios",
+          "howKicker": "Uma caminhada com destino",
+          "howTitle": "Três passos para a próxima aventura",
+          "howText": "Sem configuração complicada. Conecte, caminhe e veja o mapa ganhar vida.",
+          "step1Title": "Conecte seus passos",
+          "step1Text": "Permita acesso somente leitura aos passos pelo Android Health Connect.",
+          "step2Title": "Caminhe na vida real",
+          "step2Text": "Seu movimento diário vira distância na rota escolhida.",
+          "step3Title": "Descubra o mundo",
+          "step3Text": "Chegue a cidades, descubra lugares e encha seu passaporte de carimbos.",
+          "journeyKicker": "Progresso que dá para sentir",
+          "journeyTitle": "Sua caminhada diária agora tem uma história.",
+          "journeyText": "Escolha uma rota, siga no seu ritmo e veja todos os dias até onde seu esforço levou você.",
+          "journeyPoint1": "Desbloqueie cidades e histórias",
+          "journeyPoint2": "Crie sequências com missões diárias possíveis",
+          "journeyPoint3": "Colecione carimbos e certificados",
+          "activeRoute": "Rota ativa",
+          "routeName": "Capitais europeias",
+          "completed": "Concluído",
+          "currentStop": "Parada atual",
+          "upNext": "A seguir",
+          "distanceWalked": "Distância percorrida",
+          "streak": "Sequência atual",
+          "days": "dias",
+          "featuresKicker": "Feito para manter você em movimento",
+          "featuresTitle": "Mais que um contador de passos",
+          "feature1Title": "Rotas virtuais",
+          "feature1Text": "Explore o mundo, um quilômetro real por vez.",
+          "feature2Title": "Passaporte de viagem",
+          "feature2Text": "Colecione carimbos e guarde cada viagem concluída.",
+          "feature3Title": "Missões e XP",
+          "feature3Text": "Transforme constância em sequências, conquistas e progresso.",
+          "feature4Title": "Privacidade desde o início",
+          "feature4Text": "Sem conta. Seus passos só são lidos com sua permissão.",
+          "ctaKicker": "O mundo espera",
+          "ctaTitle": "Aonde sua próxima caminhada vai levar você?",
+          "ctaText": "Comece sua primeira rota virtual hoje.",
+          "heroImageAlt": "WalkQuest virtual travel illustration",
+          "previewLabel": "WalkQuest adventure preview",
+          "routeLabel": "Example virtual route"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+# WalkQuest website (Astro migration)
+
+This project builds the multilingual WalkQuest website as static HTML while preserving the existing public URLs.
+
+## Commands
+
+```sh
+npm install
+npm run dev
+npm run build
+npm run validate
+npm run preview
+```
+
+Shared site chrome and route calls to action are rendered by Astro components. The six routes live in `src/data/routes/`, and the nine other page types live in `src/data/pages/`. Each page type has one JSON document containing all localized variants. There are no generated source HTML copies or migration-only import scripts.
+
+SEO metadata is structured and type-checked in `src/lib/page-data.ts`. `BaseLayout.astro` renders titles, descriptions, canonical and hreflang links, Open Graph, Twitter cards, and JSON-LD directly instead of injecting a raw head fragment.
+
+Page chrome is component-based: the landing page and information pages use dedicated Astro header/footer components, privacy intentionally uses a minimal shell, and body scripts are declared as structured data. Raw header, footer, and script HTML fields are rejected by validation.
+
+The privacy policy is also component-rendered from typed rich-text blocks (headings, paragraphs, lists, emphasis, and links) for every locale; it no longer uses a raw main HTML fragment.
+
+The landing page is rendered by `LandingPage.astro` from localized copy fields. Its hero, proof strip, onboarding steps, route progress, feature cards, and calls to action no longer use a raw main HTML fragment.
+
+The news journal is rendered by `NewsPage.astro` from localized copy fields. Its featured story, journal cards, editorial roadmap, and call to action no longer use a raw main HTML fragment.
+
+The game guide is rendered by `RulesPage.astro` from localized copy fields. Its onboarding flow, map explanation, city cards, crossing options, and call to action no longer use a raw main HTML fragment.
+
+The Premium comparison is rendered by `PremiumPage.astro` from localized copy fields. Its plan benefits, purchase options, crossing details, and call to action no longer use a raw main HTML fragment.
+
+The route atlas is rendered by `RoutesCatalogPage.astro` from localized copy fields and structured route collections. Its featured journeys, complete atlas, route explanation, and call to action no longer use a raw main HTML fragment.
+
+Editorial stories are rendered by the shared `ArticlePage.astro` component from typed content blocks. Paragraphs, statistics, steps, lists, callouts, feature cards, quotes, related links, and calls to action are reusable across all locales without raw main HTML fragments.
+
+All detailed journeys are rendered by the shared `RoutePage.astro` component from typed route data: hero chips, jump navigation, statistics, route ribbons, city stops, crossings, FAQs, and calls to action. Route data no longer contains raw HTML fragments.
+
+The build keeps the existing `.html` URLs, emits all 240 localized pages, generates `sitemap.xml`, preserves the custom domain, and deploys through the official Astro GitHub Pages action.
+
+GitHub Actions builds and validates the migration branch and pull requests without publishing them. Only a successful build from `main` can deploy to GitHub Pages.
+
+New route work should copy an existing file in `src/data/routes/` and add the new slug to `src/lib/route-pages.ts`.

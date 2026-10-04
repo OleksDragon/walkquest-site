@@ -1,0 +1,17 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import RoutePage from "../components/RoutePage.astro";
+import { getPageData, listPageFiles } from "../lib/page-data";
+import { getRoutePage, isRouteFile } from "../lib/route-pages";
+
+export function getStaticPaths() {
+  return listPageFiles()
+    .filter((file) => !file.includes("/") && file !== "index.html")
+    .map((file) => ({ params: { page: file.replace(/\.html$/, "") }, props: { file } }));
+}
+
+const route = isRouteFile(Astro.props.file) ? getRoutePage(Astro.props.file) : null;
+const page = route ? null : getPageData(Astro.props.file);
+---
+
+{route ? <RoutePage route={route} /> : <PageLayout page={page!} />}

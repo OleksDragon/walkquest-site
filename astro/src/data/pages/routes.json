@@ -1,0 +1,3061 @@
+{
+  "slug": "routes",
+  "locales": {
+    "en": {
+      "relativePath": "routes.html",
+      "lang": "en",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "Home",
+        "navGuide": "Game guide",
+        "navRoutes": "Routes",
+        "navPremium": "Premium",
+        "navNews": "News",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Choose language",
+        "footerTagline": "Real steps. Remarkable journeys.",
+        "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Virtual Routes — Walk the World From Home",
+        "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Virtual Routes — Walk the World From Home",
+          "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Virtual Routes — Walk the World From Home",
+          "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "./pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Route atlas",
+          "routesTitle": "WalkQuest virtual routes for every kind of walker",
+          "routesDesc": "From a free European city-hop to islands, glaciers, temples, deserts, and a route around the world.",
+          "routesBadgeFree": "Free starter route",
+          "routesBadgeDifficulty": "Four difficulty levels",
+          "routesBadgeStories": "Localized city stories",
+          "routesStatRoutes": "virtual routes",
+          "routesStatStops": "city stops",
+          "routesStatTransfers": "special transfers",
+          "routesPickKicker": "Featured journeys",
+          "routesPickTitle": "Pick a world that makes you want to move",
+          "routesPickText": "Each route has its own distance, difficulty, destinations, stories, and estimated completion time.",
+          "routeEuropeTag": "Free · Easy",
+          "routeEuropeDesc": "Travel from London to Prague through twelve stops and six countries.",
+          "routeKyotoTag": "Medium",
+          "routeKyotoDesc": "Walk through maple colours, bamboo, shrines, and historic Kyoto.",
+          "routeGreekTag": "Hard · Ferries",
+          "routeGreekDesc": "Cross between Crete, Santorini, Delos, and Mykonos over bright Aegean water.",
+          "routeIcelandTag": "Epic",
+          "routeIcelandDesc": "Follow waterfalls, black beaches, glaciers, volcanoes, and geothermal landscapes.",
+          "route66Tag": "Epic",
+          "route66Desc": "A long American road trip from Chicago to the Pacific in Los Angeles.",
+          "routeWorldTag": "Epic · Global",
+          "routeWorldDesc": "Connect continents with walking stages, trains, ferries, and long-distance flights.",
+          "routesCatalogKicker": "The complete atlas",
+          "routesCatalogTitle": "Routes for a short goal or a year-long adventure",
+          "routesCatalogText": "The library includes city journeys, pilgrim trails, coastlines, historic roads, islands, mountain routes, and global expeditions.",
+          "routesHowKicker": "Inside every route",
+          "routesHowTitle": "More than a line on a map",
+          "routesHowText": "Stops unlock localized city guides, interesting facts, landmarks, food, Street View links, stamps, certificates, and shareable progress cards.",
+          "routesHowPoint1": "Difficulty and estimated duration help you choose a realistic goal.",
+          "routesHowPoint2": "Your progress stays separate on every route, so you can return later.",
+          "routesHowPoint3": "Special transfer markers make water and long-distance stages part of the journey.",
+          "routesCtaTitle": "Your next destination starts with today’s walk",
+          "routesCtaText": "Start with the free Europe Explorer route and choose your next world when you are ready.",
+          "playSmall": "Get it on",
+          "routesHeroAlt": "Illustrated WalkQuest routes across Europe, Japan, Iceland, Greece, and Route 66"
+        }
+      }
+    },
+    "uk": {
+      "relativePath": "uk/routes.html",
+      "lang": "uk",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Перейти до вмісту",
+        "navHome": "додому",
+        "navGuide": "Посібник з гри",
+        "navRoutes": "Маршрути",
+        "navPremium": "Premium",
+        "navNews": "Новини",
+        "navPrivacy": "Конфіденційність",
+        "languageLabel": "Виберіть мову",
+        "footerTagline": "Реальні кроки. Чудові подорожі.",
+        "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Маршрути | WalkQuest",
+        "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Маршрути | WalkQuest",
+          "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Маршрути | WalkQuest",
+          "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/uk/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Атлас маршрутів",
+          "routesTitle": "Тридцять подорожей. Одна пара кросівок.",
+          "routesDesc": "Від безкоштовної подорожі європейським містом до островів, льодовиків, храмів, пустель і маршруту навколо світу.",
+          "routesBadgeFree": "Безкоштовний стартовий маршрут",
+          "routesBadgeDifficulty": "Чотири рівня складності",
+          "routesBadgeStories": "Локалізовані міські історії",
+          "routesStatRoutes": "віртуальні маршрути",
+          "routesStatStops": "міські зупинки",
+          "routesStatTransfers": "спеціальні трансфери",
+          "routesPickKicker": "Рекомендовані подорожі",
+          "routesPickTitle": "Виберіть світ, який змушує вас рухатися",
+          "routesPickText": "Кожен маршрут має власну відстань, складність, пункти призначення, історії та орієнтовний час проходження.",
+          "routeEuropeTag": "Безкоштовно · Легко",
+          "routeEuropeDesc": "Подорожуйте з Лондона до Праги через дванадцять зупинок і шість країн.",
+          "routeKyotoTag": "Середній",
+          "routeKyotoDesc": "Пройдіться квітами клена, бамбуком, святинями та історичним Кіото.",
+          "routeGreekTag": "Важкі · Пороми",
+          "routeGreekDesc": "Переїзд між Критом, Санторіні, Делосом і Міконосом над світлою водою Егейського моря.",
+          "routeIcelandTag": "Епос",
+          "routeIcelandDesc": "Стежте за водоспадами, чорними пляжами, льодовиками, вулканами та геотермальними ландшафтами.",
+          "route66Tag": "Епос",
+          "route66Desc": "Довга американська подорож від Чикаго до Тихого океану в Лос-Анджелесі.",
+          "routeWorldTag": "Епос · Глобальний",
+          "routeWorldDesc": "З’єднайте континенти пішохідними маршрутами, поїздами, поромами та міжміськими рейсами.",
+          "routesCatalogKicker": "Повний атлас",
+          "routesCatalogTitle": "Маршрути для короткої мети або річної пригоди",
+          "routesCatalogText": "Бібліотека містить подорожі містами, стежки паломників, узбережжя, історичні дороги, острови, гірські маршрути та глобальні експедиції.",
+          "routesHowKicker": "Всередині кожного маршруту",
+          "routesHowTitle": "Більше ніж лінія на карті",
+          "routesHowText": "Зупинки відкривають локалізовані путівники по місту, цікаві факти, пам’ятки, їжу, посилання Street View, марки, сертифікати та картки прогресу, якими можна поділитися.",
+          "routesHowPoint1": "Складність і орієнтовна тривалість допоможуть вибрати реалістичну мету.",
+          "routesHowPoint2": "Ваш прогрес залишається окремо на кожному маршруті, тому ви можете повернутися пізніше.",
+          "routesHowPoint3": "Спеціальні маркери трансферу роблять водні та далекі етапи частиною подорожі.",
+          "routesCtaTitle": "Ваш наступний пункт призначення починається з сьогоднішньої прогулянки",
+          "routesCtaText": "Почніть з безкоштовного маршруту Europe Explorer і виберіть свій наступний світ, коли будете готові.",
+          "playSmall": "Завантажити з",
+          "routesHeroAlt": "Ілюстровані маршрути WalkQuest по Європі, Японії, Ісландії, Греції та Route 66"
+        }
+      }
+    },
+    "ru": {
+      "relativePath": "ru/routes.html",
+      "lang": "ru",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Перейти к содержимому",
+        "navHome": "Главная",
+        "navGuide": "Руководство по игре",
+        "navRoutes": "Маршруты",
+        "navPremium": "Premium",
+        "navNews": "Новости",
+        "navPrivacy": "Конфиденциальность",
+        "languageLabel": "Выберите язык",
+        "footerTagline": "Реальные шаги. Замечательные путешествия.",
+        "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Маршруты | WalkQuest",
+        "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Маршруты | WalkQuest",
+          "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Маршруты | WalkQuest",
+          "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ru/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Атлас маршрутов",
+          "routesTitle": "Тридцать путешествий. Одна пара кроссовок.",
+          "routesDesc": "От бесплатного путешествия по европейским городам до островов, ледников, храмов, пустынь и маршрута вокруг света.",
+          "routesBadgeFree": "Бесплатный стартовый маршрут",
+          "routesBadgeDifficulty": "Четыре уровня сложности",
+          "routesBadgeStories": "Локализованные городские истории",
+          "routesStatRoutes": "виртуальные маршруты",
+          "routesStatStops": "городские остановки",
+          "routesStatTransfers": "специальные трансферы",
+          "routesPickKicker": "Рекомендуемые путешествия",
+          "routesPickTitle": "Выберите мир, который заставит вас двигаться",
+          "routesPickText": "Каждый маршрут имеет свое расстояние, сложность, пункты назначения, истории и примерное время прохождения.",
+          "routeEuropeTag": "Бесплатно · Легко",
+          "routeEuropeDesc": "Путешествуйте из Лондона в Прагу через двенадцать остановок и шесть стран.",
+          "routeKyotoTag": "Средний",
+          "routeKyotoDesc": "Прогуляйтесь по цветам клена, бамбуку, святыням и историческому Киото.",
+          "routeGreekTag": "Сложный · Паромы",
+          "routeGreekDesc": "Пересеките Крит, Санторини, Делос и Миконос по ярким водам Эгейского моря.",
+          "routeIcelandTag": "Эпический",
+          "routeIcelandDesc": "Следуйте за водопадами, черными пляжами, ледниками, вулканами и геотермальными ландшафтами.",
+          "route66Tag": "Эпический",
+          "route66Desc": "Долгое путешествие по Америке из Чикаго до Тихого океана в Лос-Анджелесе.",
+          "routeWorldTag": "Эпический · Глобальный",
+          "routeWorldDesc": "Соединяйте континенты пешими этапами, поездами, паромами и дальними перелётами.",
+          "routesCatalogKicker": "Полный атлас",
+          "routesCatalogTitle": "Маршруты для короткой цели или приключения длиной в год",
+          "routesCatalogText": "Библиотека включает в себя поездки по городам, паломнические тропы, береговые линии, исторические дороги, острова, горные маршруты и глобальные экспедиции.",
+          "routesHowKicker": "Внутри каждого маршрута",
+          "routesHowTitle": "Больше, чем линия на карте",
+          "routesHowText": "Остановки открывают локализованные путеводители по городу, интересные факты, достопримечательности, еду, ссылки Street View, марки, сертификаты и карты прогресса, которыми можно поделиться.",
+          "routesHowPoint1": "Сложность и предполагаемая продолжительность помогут вам выбрать реалистичную цель.",
+          "routesHowPoint2": "Ваш прогресс на каждом маршруте сохраняется отдельно, поэтому вы можете вернуться позже.",
+          "routesHowPoint3": "Специальные пересадочные указатели делают водные и дальние этапы частью путешествия.",
+          "routesCtaTitle": "Ваш следующий пункт назначения начнется с сегодняшней прогулки",
+          "routesCtaText": "Начните с бесплатного маршрута Europe Explorer и выберите свой следующий мир, когда будете готовы.",
+          "playSmall": "Скачать в",
+          "routesHeroAlt": "Иллюстрированные маршруты WalkQuest по Европе, Японии, Исландии, Греции и Route 66."
+        }
+      }
+    },
+    "es": {
+      "relativePath": "es/routes.html",
+      "lang": "es",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Saltar al contenido",
+        "navHome": "Inicio",
+        "navGuide": "guía del juego",
+        "navRoutes": "Rutas",
+        "navPremium": "Premium",
+        "navNews": "Noticias",
+        "navPrivacy": "Privacidad",
+        "languageLabel": "Elige idioma",
+        "footerTagline": "Pasos reales. Viajes notables.",
+        "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rutas | WalkQuest",
+        "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rutas | WalkQuest",
+          "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rutas | WalkQuest",
+          "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/es/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlas de rutas",
+          "routesTitle": "Treinta viajes. Un par de zapatos para caminar.",
+          "routesDesc": "Desde un recorrido gratuito por una ciudad europea hasta islas, glaciares, templos, desiertos y una ruta alrededor del mundo.",
+          "routesBadgeFree": "Ruta de inicio gratuita",
+          "routesBadgeDifficulty": "Cuatro niveles de dificultad",
+          "routesBadgeStories": "Historias de ciudades localizadas",
+          "routesStatRoutes": "rutas virtuales",
+          "routesStatStops": "paradas de la ciudad",
+          "routesStatTransfers": "transferencias especiales",
+          "routesPickKicker": "Viajes destacados",
+          "routesPickTitle": "Elige un mundo que te haga querer moverte",
+          "routesPickText": "Cada ruta tiene su propia distancia, dificultad, destinos, historias y tiempo estimado de finalización.",
+          "routeEuropeTag": "Gratis · Fácil",
+          "routeEuropeDesc": "Viaja de Londres a Praga a través de doce paradas y seis países.",
+          "routeKyotoTag": "Medio",
+          "routeKyotoDesc": "Camine entre los colores de los arces, el bambú, los santuarios y el histórico Kioto.",
+          "routeGreekTag": "Duro · Ferries",
+          "routeGreekDesc": "Cruce entre Creta, Santorini, Delos y Mykonos sobre las brillantes aguas del Egeo.",
+          "routeIcelandTag": "Épico",
+          "routeIcelandDesc": "Siga cascadas, playas negras, glaciares, volcanes y paisajes geotérmicos.",
+          "route66Tag": "Épico",
+          "route66Desc": "Un largo viaje por carretera estadounidense desde Chicago hasta el Pacífico en Los Ángeles.",
+          "routeWorldTag": "Épico · Global",
+          "routeWorldDesc": "Conecte continentes con etapas a pie, trenes, ferries y vuelos de larga distancia.",
+          "routesCatalogKicker": "El atlas completo",
+          "routesCatalogTitle": "Rutas para una meta corta o una aventura de un año",
+          "routesCatalogText": "La biblioteca incluye viajes por ciudades, rutas de peregrinos, costas, caminos históricos, islas, rutas de montaña y expediciones globales.",
+          "routesHowKicker": "Dentro de cada ruta",
+          "routesHowTitle": "Más que una línea en un mapa",
+          "routesHowText": "Las paradas desbloquean guías de ciudades localizadas, datos interesantes, puntos de referencia, comida, enlaces Street View, sellos, certificados y tarjetas de progreso para compartir.",
+          "routesHowPoint1": "La dificultad y la duración estimada te ayudarán a elegir un objetivo realista.",
+          "routesHowPoint2": "Tu progreso permanece separado en cada ruta, para que puedas regresar más tarde.",
+          "routesHowPoint3": "Las señales de transferencia especiales hacen que las etapas acuáticas y de larga distancia formen parte del viaje.",
+          "routesCtaTitle": "Tu próximo destino comienza con la caminata de hoy.",
+          "routesCtaText": "Comienza con la ruta gratuita Europe Explorer y elige tu próximo mundo cuando estés listo.",
+          "playSmall": "Consíguelo",
+          "routesHeroAlt": "Rutas WalkQuest ilustradas a través de Europa, Japón, Islandia, Grecia y Route 66"
+        }
+      }
+    },
+    "de": {
+      "relativePath": "de/routes.html",
+      "lang": "de",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Zum Inhalt springen",
+        "navHome": "Zuhause",
+        "navGuide": "Spielanleitung",
+        "navRoutes": "Routen",
+        "navPremium": "Premium",
+        "navNews": "Nachrichten",
+        "navPrivacy": "Privatsphäre",
+        "languageLabel": "Sprache wählen",
+        "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
+        "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Routen | WalkQuest",
+        "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Routen | WalkQuest",
+          "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Routen | WalkQuest",
+          "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/de/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Routenatlas",
+          "routesTitle": "Dreißig Reisen. Ein Paar Wanderschuhe.",
+          "routesDesc": "Von einem kostenlosen europäischen Städtetrip zu Inseln, Gletschern, Tempeln, Wüsten und einer Route um die Welt.",
+          "routesBadgeFree": "Kostenlose Starterroute",
+          "routesBadgeDifficulty": "Vier Schwierigkeitsgrade",
+          "routesBadgeStories": "Lokalisierte Stadtgeschichten",
+          "routesStatRoutes": "virtuelle Routen",
+          "routesStatStops": "Stadt hält",
+          "routesStatTransfers": "Sondertransfers",
+          "routesPickKicker": "Ausgewählte Reisen",
+          "routesPickTitle": "Wählen Sie eine Welt, die Lust auf Bewegung macht",
+          "routesPickText": "Jede Route hat ihre eigene Entfernung, ihren eigenen Schwierigkeitsgrad, ihre eigenen Ziele, Geschichten und ihre voraussichtliche Fertigstellungszeit.",
+          "routeEuropeTag": "Kostenlos · Einfach",
+          "routeEuropeDesc": "Reisen Sie von London nach Prag über zwölf Haltestellen und sechs Länder.",
+          "routeKyotoTag": "Mittel",
+          "routeKyotoDesc": "Spazieren Sie durch Ahornfarben, Bambus, Schreine und das historische Kyoto.",
+          "routeGreekTag": "Schwer · Fähren",
+          "routeGreekDesc": "Überqueren Sie Kreta, Santorini, Delos und Mykonos über dem hellen Wasser der Ägäis.",
+          "routeIcelandTag": "Episch",
+          "routeIcelandDesc": "Folgen Sie Wasserfällen, schwarzen Stränden, Gletschern, Vulkanen und geothermischen Landschaften.",
+          "route66Tag": "Episch",
+          "route66Desc": "Ein langer amerikanischer Roadtrip von Chicago an den Pazifik in Los Angeles.",
+          "routeWorldTag": "Episch · Global",
+          "routeWorldDesc": "Verbinden Sie Kontinente mit Fußetappen, Zügen, Fähren und Langstreckenflügen.",
+          "routesCatalogKicker": "Der komplette Atlas",
+          "routesCatalogTitle": "Routen für ein kurzes Ziel oder ein einjähriges Abenteuer",
+          "routesCatalogText": "Die Bibliothek umfasst Stadtreisen, Pilgerwege, Küstenlinien, historische Straßen, Inseln, Bergrouten und globale Expeditionen.",
+          "routesHowKicker": "In jeder Route",
+          "routesHowTitle": "Mehr als eine Linie auf einer Karte",
+          "routesHowText": "Stopps schalten lokalisierte Stadtführer, interessante Fakten, Sehenswürdigkeiten, Essen, Street View-Links, Stempel, Zertifikate und gemeinsam nutzbare Fortschrittskarten frei.",
+          "routesHowPoint1": "Der Schwierigkeitsgrad und die geschätzte Dauer helfen Ihnen bei der Auswahl eines realistischen Ziels.",
+          "routesHowPoint2": "Ihr Fortschritt bleibt auf jeder Route getrennt, sodass Sie später zurückkehren können.",
+          "routesHowPoint3": "Spezielle Übergabemarkierungen machen Wasser- und Fernetappen zu einem Teil der Reise.",
+          "routesCtaTitle": "Ihr nächstes Ziel beginnt mit der heutigen Wanderung",
+          "routesCtaText": "Beginnen Sie mit der kostenlosen Europe Explorer-Route und wählen Sie Ihre nächste Welt, wenn Sie bereit sind.",
+          "playSmall": "Zieh es an",
+          "routesHeroAlt": "Illustrierte WalkQuest-Routen durch Europa, Japan, Island, Griechenland und Route 66"
+        }
+      }
+    },
+    "fr": {
+      "relativePath": "fr/routes.html",
+      "lang": "fr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Passer au contenu",
+        "navHome": "Accueil",
+        "navGuide": "Guide du jeu",
+        "navRoutes": "Itinéraires",
+        "navPremium": "Premium",
+        "navNews": "Actualités",
+        "navPrivacy": "Confidentialité",
+        "languageLabel": "Choisir la langue",
+        "footerTagline": "De vraies étapes. Des voyages remarquables.",
+        "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Itinéraires | WalkQuest",
+        "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Itinéraires | WalkQuest",
+          "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Itinéraires | WalkQuest",
+          "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/fr/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlas des itinéraires",
+          "routesTitle": "Trente voyages. Une paire de chaussures de marche.",
+          "routesDesc": "D'un city-hop européen gratuit aux îles, glaciers, temples, déserts et un itinéraire autour du monde.",
+          "routesBadgeFree": "Parcours de démarrage gratuit",
+          "routesBadgeDifficulty": "Quatre niveaux de difficulté",
+          "routesBadgeStories": "Histoires de ville localisées",
+          "routesStatRoutes": "itinéraires virtuels",
+          "routesStatStops": "arrêts en ville",
+          "routesStatTransfers": "transferts spéciaux",
+          "routesPickKicker": "Voyages en vedette",
+          "routesPickTitle": "Choisissez un monde qui vous donne envie de bouger",
+          "routesPickText": "Chaque itinéraire a sa propre distance, difficulté, destinations, histoires et temps d'achèvement estimé.",
+          "routeEuropeTag": "Gratuit · Facile",
+          "routeEuropeDesc": "Voyagez de Londres à Prague en passant par douze arrêts et six pays.",
+          "routeKyotoTag": "Moyen",
+          "routeKyotoDesc": "Promenez-vous à travers les couleurs de l'érable, les bambous, les sanctuaires et la ville historique de Kyoto.",
+          "routeGreekTag": "Difficile · Ferries",
+          "routeGreekDesc": "Traversez entre la Crète, Santorin, Délos et Mykonos sur les eaux vives de la mer Égée.",
+          "routeIcelandTag": "Épique",
+          "routeIcelandDesc": "Suivez les cascades, les plages noires, les glaciers, les volcans et les paysages géothermiques.",
+          "route66Tag": "Épique",
+          "route66Desc": "Un long road trip américain de Chicago jusqu'au Pacifique à Los Angeles.",
+          "routeWorldTag": "Épique · Mondial",
+          "routeWorldDesc": "Reliez les continents avec des étapes à pied, des trains, des ferries et des vols longue distance.",
+          "routesCatalogKicker": "L'atlas complet",
+          "routesCatalogTitle": "Itinéraires pour un objectif court ou une aventure d'un an",
+          "routesCatalogText": "La bibliothèque comprend des voyages en ville, des sentiers de pèlerinage, des côtes, des routes historiques, des îles, des routes de montagne et des expéditions mondiales.",
+          "routesHowKicker": "À l'intérieur de chaque itinéraire",
+          "routesHowTitle": "Plus qu'une ligne sur une carte",
+          "routesHowText": "Les arrêts débloquent des guides de la ville localisés, des faits intéressants, des monuments, de la nourriture, des liens Street View, des timbres, des certificats et des cartes de progression partageables.",
+          "routesHowPoint1": "La difficulté et la durée estimée vous aident à choisir un objectif réaliste.",
+          "routesHowPoint2": "Votre progression reste séparée sur chaque itinéraire, vous pouvez donc revenir plus tard.",
+          "routesHowPoint3": "Des balises de transfert spéciales intègrent les étapes aquatiques et les étapes longue distance au voyage.",
+          "routesCtaTitle": "Votre prochaine destination commence avec la marche d'aujourd'hui",
+          "routesCtaText": "Commencez par l'itinéraire gratuit Europe Explorer et choisissez votre prochain monde lorsque vous êtes prêt.",
+          "playSmall": "Mettez-le",
+          "routesHeroAlt": "Itinéraires WalkQuest illustrés à travers l'Europe, le Japon, l'Islande, la Grèce et Route 66"
+        }
+      }
+    },
+    "pl": {
+      "relativePath": "pl/routes.html",
+      "lang": "pl",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Przejdź do treści",
+        "navHome": "Dom",
+        "navGuide": "Przewodnik po grze",
+        "navRoutes": "Trasy",
+        "navPremium": "Premium",
+        "navNews": "Wiadomości",
+        "navPrivacy": "Prywatność",
+        "languageLabel": "Wybierz język",
+        "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
+        "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Trasy | WalkQuest",
+        "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Trasy | WalkQuest",
+          "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Trasy | WalkQuest",
+          "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pl/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlas tras",
+          "routesTitle": "Trzydzieści podróży. Jedna para butów do chodzenia.",
+          "routesDesc": "Od darmowego europejskiego miasta po wyspy, lodowce, świątynie, pustynie i trasę dookoła świata.",
+          "routesBadgeFree": "Darmowa trasa startowa",
+          "routesBadgeDifficulty": "Cztery poziomy trudności",
+          "routesBadgeStories": "Zlokalizowane historie miejskie",
+          "routesStatRoutes": "trasy wirtualne",
+          "routesStatStops": "przystanki miejskie",
+          "routesStatTransfers": "specjalne transfery",
+          "routesPickKicker": "Polecane podróże",
+          "routesPickTitle": "Wybierz świat, który sprawia, że chcesz się ruszać",
+          "routesPickText": "Każda trasa ma swój własny dystans, stopień trudności, miejsca docelowe, historie i szacowany czas ukończenia.",
+          "routeEuropeTag": "Bezpłatny · Łatwy",
+          "routeEuropeDesc": "Podróżuj z Londynu do Pragi przez dwanaście przystanków i sześć krajów.",
+          "routeKyotoTag": "Średni",
+          "routeKyotoDesc": "Spaceruj po kolorach klonu, bambusach, świątyniach i historycznym Kioto.",
+          "routeGreekTag": "Twarde · Promy",
+          "routeGreekDesc": "Przeprawa między Kretą, Santorini, Delos i Mykonos nad jasną wodą Morza Egejskiego.",
+          "routeIcelandTag": "Epicki",
+          "routeIcelandDesc": "Śledź wodospady, czarne plaże, lodowce, wulkany i krajobrazy geotermalne.",
+          "route66Tag": "Epicki",
+          "route66Desc": "Długa amerykańska podróż z Chicago na Pacyfik w Los Angeles.",
+          "routeWorldTag": "Epicki · Globalny",
+          "routeWorldDesc": "Łącz kontynenty za pomocą etapów pieszych, pociągów, promów i lotów długodystansowych.",
+          "routesCatalogKicker": "Kompletny atlas",
+          "routesCatalogTitle": "Trasy do krótkiego celu lub całorocznej przygody",
+          "routesCatalogText": "Biblioteka obejmuje podróże miejskie, szlaki pielgrzymkowe, wybrzeża, historyczne drogi, wyspy, szlaki górskie i wyprawy globalne.",
+          "routesHowKicker": "Wewnątrz każdej trasy",
+          "routesHowTitle": "Więcej niż linia na mapie",
+          "routesHowText": "Przystanki odblokowują zlokalizowane przewodniki po miastach, ciekawe fakty, punkty orientacyjne, jedzenie, linki do Street View, znaczki, certyfikaty i udostępniane karty postępu.",
+          "routesHowPoint1": "Stopień trudności i szacowany czas trwania pomagają wybrać realistyczny cel.",
+          "routesHowPoint2": "Twoje postępy są oddzielne dla każdej trasy, więc możesz wrócić później.",
+          "routesHowPoint3": "Specjalne znaczniki transferu sprawiają, że etapy wodne i długodystansowe są częścią podróży.",
+          "routesCtaTitle": "Twój następny cel zaczyna się od dzisiejszego spaceru",
+          "routesCtaText": "Zacznij od bezpłatnej trasy Europe Explorer i wybierz swój następny świat, gdy będziesz gotowy.",
+          "playSmall": "Włącz to",
+          "routesHeroAlt": "Ilustrowane trasy WalkQuest w Europie, Japonii, Islandii, Grecji i Route 66"
+        }
+      }
+    },
+    "pt": {
+      "relativePath": "pt/routes.html",
+      "lang": "pt",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Saltar para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotas | WalkQuest",
+        "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pt/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlas de rotas",
+          "routesTitle": "Trinta viagens. Um par de sapatos de caminhada.",
+          "routesDesc": "Desde um passeio gratuito por cidades europeias até ilhas, glaciares, templos, desertos e uma rota à volta do mundo.",
+          "routesBadgeFree": "Rota inicial gratuita",
+          "routesBadgeDifficulty": "Quatro níveis de dificuldade",
+          "routesBadgeStories": "Histórias localizadas da cidade",
+          "routesStatRoutes": "rotas virtuais",
+          "routesStatStops": "Paragens na cidade",
+          "routesStatTransfers": "transferências especiais",
+          "routesPickKicker": "Viagens em destaque",
+          "routesPickTitle": "Escolha um mundo que o faça querer mover-se",
+          "routesPickText": "Cada rota tem a sua própria distância, dificuldade, destinos, histórias e tempo estimado de conclusão.",
+          "routeEuropeTag": "Grátis · Fácil",
+          "routeEuropeDesc": "Viaje de Londres a Praga através de doze paragens e seis países.",
+          "routeKyotoTag": "Médio",
+          "routeKyotoDesc": "Caminhe pelas cores do bordo, do bambu, dos santuários e pela histórica Quioto.",
+          "routeGreekTag": "Difícil · Balsas",
+          "routeGreekDesc": "Cruze entre Creta, Santorini, Delos e Mykonos sobre as águas brilhantes do Egeu.",
+          "routeIcelandTag": "Épico",
+          "routeIcelandDesc": "Siga cascatas, praias negras, glaciares, vulcões e paisagens geotermais.",
+          "route66Tag": "Épico",
+          "route66Desc": "Uma longa viagem americana de Chicago ao Pacífico, em Los Angeles.",
+          "routeWorldTag": "Épico · Global",
+          "routeWorldDesc": "Ligue continentes com etapas de caminhada, comboios, ferries e voos de longa distância.",
+          "routesCatalogKicker": "O atlas completo",
+          "routesCatalogTitle": "Percursos para um objetivo curto ou uma aventura de um ano",
+          "routesCatalogText": "A biblioteca inclui viagens pela cidade, trilhos de peregrinação, litorais, estradas históricas, ilhas, rotas de montanha e expedições globais.",
+          "routesHowKicker": "Dentro de cada percurso",
+          "routesHowTitle": "Mais do que uma linha num mapa",
+          "routesHowText": "As paragens desbloqueiam guias de cidades localizados, factos interessantes, pontos de referência, comida, links Street View, selos, certificados e cartões de progresso partilháveis.",
+          "routesHowPoint1": "A dificuldade e a duração estimada ajudam-no a escolher um objetivo realista.",
+          "routesHowPoint2": "O seu progresso permanece separado em cada rota, para que possa regressar mais tarde.",
+          "routesHowPoint3": "Os marcadores especiais de transferência tornam as etapas aquáticas e de longa distância parte da viagem.",
+          "routesCtaTitle": "O seu próximo destino começa com a caminhada de hoje",
+          "routesCtaText": "Comece com a rota gratuita Europe Explorer e escolha o seu próximo mundo quando estiver pronto.",
+          "playSmall": "Comece",
+          "routesHeroAlt": "Rotas WalkQuest ilustradas pela Europa, Japão, Islândia, Grécia e Route 66"
+        }
+      }
+    },
+    "it": {
+      "relativePath": "it/routes.html",
+      "lang": "it",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Vai al contenuto",
+        "navHome": "Casa",
+        "navGuide": "Guida al gioco",
+        "navRoutes": "Percorsi",
+        "navPremium": "Premium",
+        "navNews": "Novità",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Scegli la lingua",
+        "footerTagline": "Passi veri. Viaggi straordinari.",
+        "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Percorsi | WalkQuest",
+        "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Percorsi | WalkQuest",
+          "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Percorsi | WalkQuest",
+          "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/it/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlante dei percorsi",
+          "routesTitle": "Trenta viaggi. Un paio di scarpe da passeggio.",
+          "routesDesc": "Da una libera città europea alle isole, ai ghiacciai, ai templi, ai deserti e a un percorso intorno al mondo.",
+          "routesBadgeFree": "Percorso iniziale gratuito",
+          "routesBadgeDifficulty": "Quattro livelli di difficoltà",
+          "routesBadgeStories": "Storie di città localizzate",
+          "routesStatRoutes": "percorsi virtuali",
+          "routesStatStops": "la città si ferma",
+          "routesStatTransfers": "trasferimenti speciali",
+          "routesPickKicker": "Viaggi in evidenza",
+          "routesPickTitle": "Scegli un mondo che ti faccia venire voglia di muoverti",
+          "routesPickText": "Ogni percorso ha la propria distanza, difficoltà, destinazioni, storie e tempo di completamento stimato.",
+          "routeEuropeTag": "Gratuito · Facile",
+          "routeEuropeDesc": "Viaggia da Londra a Praga attraverso dodici fermate e sei paesi.",
+          "routeKyotoTag": "Medio",
+          "routeKyotoDesc": "Passeggia tra i colori dell'acero, del bambù, dei santuari e della storica Kyoto.",
+          "routeGreekTag": "Difficile · Traghetti",
+          "routeGreekDesc": "Attraversa Creta, Santorini, Delos e Mykonos sulle limpide acque dell'Egeo.",
+          "routeIcelandTag": "Epico",
+          "routeIcelandDesc": "Segui cascate, spiagge nere, ghiacciai, vulcani e paesaggi geotermici.",
+          "route66Tag": "Epico",
+          "route66Desc": "Un lungo viaggio on the road americano da Chicago al Pacifico a Los Angeles.",
+          "routeWorldTag": "Epico · Globale",
+          "routeWorldDesc": "Collega i continenti con tappe a piedi, treni, traghetti e voli a lunga percorrenza.",
+          "routesCatalogKicker": "L'atlante completo",
+          "routesCatalogTitle": "Percorsi per un breve traguardo o un'avventura lunga un anno",
+          "routesCatalogText": "La biblioteca comprende viaggi in città, sentieri di pellegrinaggio, coste, strade storiche, isole, percorsi di montagna e spedizioni globali.",
+          "routesHowKicker": "Dentro ogni percorso",
+          "routesHowTitle": "Più di una linea su una mappa",
+          "routesHowText": "Le fermate sbloccano guide di città localizzate, fatti interessanti, punti di riferimento, cibo, collegamenti Street View, francobolli, certificati e schede di progresso condivisibili.",
+          "routesHowPoint1": "La difficoltà e la durata stimata ti aiutano a scegliere un obiettivo realistico.",
+          "routesHowPoint2": "I tuoi progressi rimangono separati su ogni percorso, quindi puoi tornare più tardi.",
+          "routesHowPoint3": "Speciali indicatori di trasferimento rendono le tappe acquatiche e di lunga percorrenza parte del viaggio.",
+          "routesCtaTitle": "La tua prossima destinazione inizia con la passeggiata di oggi",
+          "routesCtaText": "Inizia con il percorso gratuito Europe Explorer e scegli il tuo prossimo mondo quando sei pronto.",
+          "playSmall": "Mettiti al lavoro",
+          "routesHeroAlt": "Rotte WalkQuest illustrate in Europa, Giappone, Islanda, Grecia e Route 66"
+        }
+      }
+    },
+    "tr": {
+      "relativePath": "tr/routes.html",
+      "lang": "tr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "İçeriğe atla",
+        "navHome": "Ana sayfa",
+        "navGuide": "Oyun rehberi",
+        "navRoutes": "Rotalar",
+        "navPremium": "Premium",
+        "navNews": "Haberler",
+        "navPrivacy": "Gizlilik",
+        "languageLabel": "Dil seçin",
+        "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
+        "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotalar | WalkQuest",
+        "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotalar | WalkQuest",
+          "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotalar | WalkQuest",
+          "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/tr/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Rota atlası",
+          "routesTitle": "Otuz yolculuk. Bir çift yürüyüş ayakkabısı.",
+          "routesDesc": "Özgür bir Avrupa şehrinden adalara, buzullara, tapınaklara, çöllere ve dünya çapında bir rotaya kadar.",
+          "routesBadgeFree": "Ücretsiz başlangıç rotası",
+          "routesBadgeDifficulty": "Dört zorluk seviyesi",
+          "routesBadgeStories": "Yerelleştirilmiş şehir hikayeleri",
+          "routesStatRoutes": "sanal rotalar",
+          "routesStatStops": "şehir durakları",
+          "routesStatTransfers": "özel transferler",
+          "routesPickKicker": "Öne çıkan yolculuklar",
+          "routesPickTitle": "Hareket etme isteği uyandıracak bir dünya seçin",
+          "routesPickText": "Her rotanın kendine ait mesafesi, zorluğu, varış noktaları, hikayeleri ve tahmini tamamlanma süresi vardır.",
+          "routeEuropeTag": "Ücretsiz · Kolay",
+          "routeEuropeDesc": "Londra'dan Prag'a on iki durak ve altı ülke üzerinden seyahat edin.",
+          "routeKyotoTag": "Orta",
+          "routeKyotoDesc": "Akçaağaç renkleri, bambu, tapınaklar ve tarihi Kyoto'da yürüyün.",
+          "routeGreekTag": "Zor · Feribotlar",
+          "routeGreekDesc": "Parlak Ege suları üzerinde Girit, Santorini, Delos ve Mikonos arasında geçiş yapın.",
+          "routeIcelandTag": "Destansı",
+          "routeIcelandDesc": "Şelaleleri, siyah kumsalları, buzulları, volkanları ve jeotermal manzaraları takip edin.",
+          "route66Tag": "Destansı",
+          "route66Desc": "Chicago'dan Los Angeles'taki Pasifik'e uzanan uzun bir Amerikan yolculuğu.",
+          "routeWorldTag": "Destansı · Küresel",
+          "routeWorldDesc": "Kıtaları yürüyüş etapları, trenler, feribotlar ve uzun mesafeli uçuşlarla birbirine bağlayın.",
+          "routesCatalogKicker": "Tam atlas",
+          "routesCatalogTitle": "Kısa bir hedef veya bir yıl sürecek bir macera için rotalar",
+          "routesCatalogText": "Kütüphanede şehir yolculukları, hac yolları, sahil şeritleri, tarihi yollar, adalar, dağ yolları ve küresel keşif gezileri yer almaktadır.",
+          "routesHowKicker": "Her rotanın içinde",
+          "routesHowTitle": "Haritadaki bir çizgiden daha fazlası",
+          "routesHowText": "Duraklar, yerelleştirilmiş şehir rehberlerinin, ilginç gerçeklerin, önemli noktaların, yiyeceklerin, Street View bağlantılarının, pulların, sertifikaların ve paylaşılabilir ilerleme kartlarının kilidini açar.",
+          "routesHowPoint1": "Zorluk ve tahmini süre gerçekçi bir hedef seçmenize yardımcı olur.",
+          "routesHowPoint2": "İlerlemeniz her rotada ayrı kalır, böylece daha sonra geri dönebilirsiniz.",
+          "routesHowPoint3": "Özel transfer işaretleri, su ve uzun mesafe etaplarını yolculuğun bir parçası haline getirir.",
+          "routesCtaTitle": "Bir sonraki varış noktanız bugünkü yürüyüşle başlıyor",
+          "routesCtaText": "Ücretsiz Europe Explorer rotasıyla başlayın ve hazır olduğunuzda bir sonraki dünyanızı seçin.",
+          "playSmall": "Başla",
+          "routesHeroAlt": "Avrupa, Japonya, İzlanda, Yunanistan ve Route 66 genelinde resimli WalkQuest rotaları"
+        }
+      }
+    },
+    "ja": {
+      "relativePath": "ja/routes.html",
+      "lang": "ja",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "コンテンツにスキップ",
+        "navHome": "ホーム",
+        "navGuide": "ゲームガイド",
+        "navRoutes": "ルート",
+        "navPremium": "Premium",
+        "navNews": "ニュース",
+        "navPrivacy": "プライバシー",
+        "languageLabel": "言語を選択してください",
+        "footerTagline": "本当のステップ。素晴らしい旅。",
+        "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "ルート | WalkQuest",
+        "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "ルート | WalkQuest",
+          "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "ルート | WalkQuest",
+          "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ja/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "ルートアトラス",
+          "routesTitle": "30の旅。ウォーキングシューズ一足。",
+          "routesDesc": "ヨーロッパの無料シティホップから、島、氷河、寺院、砂漠、そして世界一周ルートまで。",
+          "routesBadgeFree": "無料のスタータールート",
+          "routesBadgeDifficulty": "4つの難易度レベル",
+          "routesBadgeStories": "ローカライズされた都市の物語",
+          "routesStatRoutes": "仮想ルート",
+          "routesStatStops": "市内の停留所",
+          "routesStatTransfers": "特別な転送",
+          "routesPickKicker": "注目の旅",
+          "routesPickTitle": "動きたくなる世界を選んでください",
+          "routesPickText": "各ルートには独自の距離、難易度、目的地、ストーリー、推定完了時間があります。",
+          "routeEuropeTag": "無料・簡単",
+          "routeEuropeDesc": "ロンドンから 6 か国 12 ヶ所の停留所を経由してプラハまで移動します。",
+          "routeKyotoTag": "中",
+          "routeKyotoDesc": "紅葉、竹、神社、歴史ある京都を散策します。",
+          "routeGreekTag": "ハード・フェリー",
+          "routeGreekDesc": "明るいエーゲ海の上をクレタ島、サントリーニ島、デロス島、ミコノス島の間を横断します。",
+          "routeIcelandTag": "エピック",
+          "routeIcelandDesc": "滝、黒い砂浜、氷河、火山、地熱地帯をたどりましょう。",
+          "route66Tag": "エピック",
+          "route66Desc": "シカゴから太平洋のロサンゼルスまでの長いアメリカのロードトリップ。",
+          "routeWorldTag": "エピック・グローバル",
+          "routeWorldDesc": "ウォーキング ステージ、電車、フェリー、長距離飛行機で大陸を結びましょう。",
+          "routesCatalogKicker": "完全なアトラス",
+          "routesCatalogTitle": "短い目標や 1 年にわたる冒険のルート",
+          "routesCatalogText": "ライブラリには、都市の旅、巡礼路、海岸線、歴史的な道路、島々、山道、世界的な探検が含まれています。",
+          "routesHowKicker": "各ルート内",
+          "routesHowTitle": "地図上の線以上のもの",
+          "routesHowText": "ローカライズされた都市ガイド、興味深い事実、ランドマーク、食べ物、Street View リンク、スタンプ、証明書、共有可能な進行状況カードのロックを解除するのを停止します。",
+          "routesHowPoint1": "難易度と推定所要時間は、現実的な目標を選択するのに役立ちます。",
+          "routesHowPoint2": "進行状況はルートごとに別々に表示されるため、後で戻ることができます。",
+          "routesHowPoint3": "特別なトランスファーマーカーにより、水上ステージや長距離ステージも旅の一部になります。",
+          "routesCtaTitle": "次の目的地は今日の散歩から始まります",
+          "routesCtaText": "無料の Europe Explorer ルートから始めて、準備ができたら次の世界を選択してください。",
+          "playSmall": "それを着てください",
+          "routesHeroAlt": "ヨーロッパ、日本、アイスランド、ギリシャ、および Route 66 にわたる図解付きの WalkQuest ルート"
+        }
+      }
+    },
+    "ko": {
+      "relativePath": "ko/routes.html",
+      "lang": "ko",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "콘텐츠로 건너뛰기",
+        "navHome": "홈",
+        "navGuide": "게임 가이드",
+        "navRoutes": "노선",
+        "navPremium": "Premium",
+        "navNews": "뉴스",
+        "navPrivacy": "개인 정보 보호",
+        "languageLabel": "언어를 선택하세요",
+        "footerTagline": "실제 단계. 놀라운 여행.",
+        "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "노선 | WalkQuest",
+        "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "노선 | WalkQuest",
+          "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "노선 | WalkQuest",
+          "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ko/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "경로 지도책",
+          "routesTitle": "서른 번의 여행. 운동화 한 켤레.",
+          "routesDesc": "자유로운 유럽 도시 홉부터 섬, 빙하, 사원, 사막, 세계일주 루트까지.",
+          "routesBadgeFree": "무료 출발 경로",
+          "routesBadgeDifficulty": "네 가지 난이도",
+          "routesBadgeStories": "현지화된 도시 이야기",
+          "routesStatRoutes": "가상 경로",
+          "routesStatStops": "도시 정류장",
+          "routesStatTransfers": "특별 환승",
+          "routesPickKicker": "주요 여행",
+          "routesPickTitle": "움직이고 싶게 만드는 세상을 선택하세요",
+          "routesPickText": "각 경로에는 고유한 거리, 난이도, 목적지, 스토리 및 예상 완료 시간이 있습니다.",
+          "routeEuropeTag": "무료 · 쉬움",
+          "routeEuropeDesc": "런던에서 프라하까지 12개 정거장, 6개국을 여행하세요.",
+          "routeKyotoTag": "중간",
+          "routeKyotoDesc": "단풍나무, 대나무, 신사, 유서 깊은 교토를 거닐어 보세요.",
+          "routeGreekTag": "하드 · 페리",
+          "routeGreekDesc": "밝은 에게해 물을 건너 크레타섬, 산토리니, 델로스, 미코노스 사이를 건너보세요.",
+          "routeIcelandTag": "에픽",
+          "routeIcelandDesc": "폭포, 검은 해변, 빙하, 화산, 지열 지형을 따라가보세요.",
+          "route66Tag": "에픽",
+          "route66Desc": "시카고에서 태평양 로스앤젤레스까지 미국의 장거리 자동차 여행.",
+          "routeWorldTag": "에픽 · 글로벌",
+          "routeWorldDesc": "워킹스테이지, 기차, 페리, 장거리 비행으로 대륙을 연결하세요.",
+          "routesCatalogKicker": "완전한 아틀라스",
+          "routesCatalogTitle": "짧은 목표 또는 1년 간의 모험을 위한 경로",
+          "routesCatalogText": "도서관에는 도시 여행, 순례자 길, 해안선, 역사적인 길, 섬, 산길 및 글로벌 탐험이 포함되어 있습니다.",
+          "routesHowKicker": "모든 경로 내부",
+          "routesHowTitle": "지도 위의 선 그 이상",
+          "routesHowText": "정류장은 현지화된 도시 가이드, 흥미로운 사실, 랜드마크, 음식, Street View 링크, 우표, 인증서 및 공유 가능한 진행 카드를 잠금 해제합니다.",
+          "routesHowPoint1": "난이도와 예상 기간은 현실적인 목표를 선택하는 데 도움이 됩니다.",
+          "routesHowPoint2": "진행 상황은 모든 경로에서 별도로 유지되므로 나중에 다시 돌아올 수 있습니다.",
+          "routesHowPoint3": "특수 환승 마커는 수상 및 장거리 스테이지를 여행의 일부로 만듭니다.",
+          "routesCtaTitle": "다음 목적지는 오늘의 산책부터 시작됩니다",
+          "routesCtaText": "무료 Europe Explorer 경로로 시작하고 준비가 되면 다음 세계를 선택하세요.",
+          "playSmall": "시작해 보세요",
+          "routesHeroAlt": "유럽, 일본, 아이슬란드, 그리스 및 Route 66 전역의 WalkQuest 노선 그림"
+        }
+      }
+    },
+    "zh-cn": {
+      "relativePath": "zh-cn/routes.html",
+      "lang": "zh-CN",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "跳至内容",
+        "navHome": "首页",
+        "navGuide": "游戏指南",
+        "navRoutes": "路线",
+        "navPremium": "Premium",
+        "navNews": "新闻动态",
+        "navPrivacy": "隐私",
+        "languageLabel": "选择语言",
+        "footerTagline": "真实的步骤。非凡的旅程。",
+        "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "路线 | WalkQuest",
+        "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "路线 | WalkQuest",
+          "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "路线 | WalkQuest",
+          "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/zh-cn/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "路线图集",
+          "routesTitle": "三十次旅程。一双步行鞋。",
+          "routesDesc": "从免费的欧洲城市之旅到岛屿、冰川、寺庙、沙漠以及环游世界的路线。",
+          "routesBadgeFree": "免费入门路线",
+          "routesBadgeDifficulty": "四个难度级别",
+          "routesBadgeStories": "本地化的城市故事",
+          "routesStatRoutes": "虚拟路线",
+          "routesStatStops": "城市停靠点",
+          "routesStatTransfers": "特别转移",
+          "routesPickKicker": "特色旅程",
+          "routesPickTitle": "选择一个让你想要移动的世界",
+          "routesPickText": "每条路线都有自己的距离、难度、目的地、故事和预计完成时间。",
+          "routeEuropeTag": "免费 · 简单",
+          "routeEuropeDesc": "从伦敦前往布拉格，途经十二个站点和六个国家。",
+          "routeKyotoTag": "中等",
+          "routeKyotoDesc": "漫步穿过枫叶色、竹林、神社和历史悠久的京都。",
+          "routeGreekTag": "硬·渡轮",
+          "routeGreekDesc": "跨越明亮的爱琴海，穿越克里特岛、圣托里尼岛、提洛岛和米科诺斯岛。",
+          "routeIcelandTag": "史诗",
+          "routeIcelandDesc": "追随瀑布、黑沙滩、冰川、火山和地热景观。",
+          "route66Tag": "史诗",
+          "route66Desc": "从芝加哥到太平洋洛杉矶的美国长途公路旅行。",
+          "routeWorldTag": "史诗·全球",
+          "routeWorldDesc": "通过步行舞台、火车、渡轮和长途航班连接各大洲。",
+          "routesCatalogKicker": "完整的图集",
+          "routesCatalogTitle": "短期目标或长达一年的冒险路线",
+          "routesCatalogText": "该图书馆包括城市之旅、朝圣之路、海岸线、历史道路、岛屿、山路和全球探险。",
+          "routesHowKicker": "每条路线内",
+          "routesHowTitle": "不仅仅是地图上的一条线",
+          "routesHowText": "停止解锁本地化的城市指南、有趣的事实、地标、食物、Street View 链接、邮票、证书和可共享的进度卡。",
+          "routesHowPoint1": "难度和预计持续时间可帮助您选择切合实际的目标。",
+          "routesHowPoint2": "每条路线的进度都是分开的，因此您可以稍后返回。",
+          "routesHowPoint3": "特殊的换乘标记使水上和长途赛段成为旅程的一部分。",
+          "routesCtaTitle": "您的下一个目的地从今天的步行开始",
+          "routesCtaText": "从免费的 Europe Explorer 路线开始，准备好后选择您的下一个世界。",
+          "playSmall": "穿上它",
+          "routesHeroAlt": "横跨欧洲、日本、冰岛、希腊和 Route 66 的 WalkQuest 航线图解"
+        }
+      }
+    },
+    "ar": {
+      "relativePath": "ar/routes.html",
+      "lang": "ar",
+      "dir": "rtl",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "انتقل إلى المحتوى",
+        "navHome": "الصفحة الرئيسية",
+        "navGuide": "دليل اللعبة",
+        "navRoutes": "الطرق",
+        "navPremium": "Premium",
+        "navNews": "أخبار",
+        "navPrivacy": "الخصوصية",
+        "languageLabel": "اختر اللغة",
+        "footerTagline": "خطوات حقيقية. رحلات رائعة.",
+        "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "الطرق | WalkQuest",
+        "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "الطرق | WalkQuest",
+          "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "الطرق | WalkQuest",
+          "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/ar/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "أطلس الطريق",
+          "routesTitle": "ثلاثون رحلة. زوج واحد من أحذية المشي.",
+          "routesDesc": "من التنقل الحر بين المدن الأوروبية إلى الجزر والأنهار الجليدية والمعابد والصحاري والطريق حول العالم.",
+          "routesBadgeFree": "طريق بداية مجانية",
+          "routesBadgeDifficulty": "أربعة مستويات صعوبة",
+          "routesBadgeStories": "قصص المدينة المحلية",
+          "routesStatRoutes": "الطرق الافتراضية",
+          "routesStatStops": "توقف المدينة",
+          "routesStatTransfers": "التحويلات الخاصة",
+          "routesPickKicker": "رحلات مميزة",
+          "routesPickTitle": "اختر عالمًا يجعلك ترغب في التحرك",
+          "routesPickText": "كل طريق له المسافة والصعوبة والوجهات والقصص الخاصة به ووقت الانتهاء المقدر.",
+          "routeEuropeTag": "مجاني · سهل",
+          "routeEuropeDesc": "سافر من لندن إلى براغ عبر اثنتي عشرة محطة وستة دول.",
+          "routeKyotoTag": "متوسط",
+          "routeKyotoDesc": "قم بالتجول عبر ألوان خشب القيقب والخيزران والأضرحة وكيوتو التاريخية.",
+          "routeGreekTag": "من الصعب · العبارات",
+          "routeGreekDesc": "اعبر بين جزيرة كريت وسانتوريني وديلوس وميكونوس فوق مياه بحر إيجة المشرقة.",
+          "routeIcelandTag": "ملحمة",
+          "routeIcelandDesc": "اتبع الشلالات والشواطئ السوداء والأنهار الجليدية والبراكين والمناظر الطبيعية الحرارية الأرضية.",
+          "route66Tag": "ملحمة",
+          "route66Desc": "رحلة برية أمريكية طويلة من شيكاغو إلى المحيط الهادئ في لوس أنجلوس.",
+          "routeWorldTag": "ملحمة · عالمية",
+          "routeWorldDesc": "قم بتوصيل القارات بمراحل المشي والقطارات والعبارات ورحلات الطيران لمسافات طويلة.",
+          "routesCatalogKicker": "الأطلس الكامل",
+          "routesCatalogTitle": "طرق لهدف قصير أو مغامرة لمدة عام",
+          "routesCatalogText": "تتضمن المكتبة رحلات المدينة ومسارات الحج والسواحل والطرق التاريخية والجزر والطرق الجبلية والبعثات العالمية.",
+          "routesHowKicker": "داخل كل طريق",
+          "routesHowTitle": "أكثر من خط على الخريطة",
+          "routesHowText": "تفتح نقاط التوقف أدلة المدن المحلية والحقائق المثيرة للاهتمام والمعالم والأطعمة وروابط Street View والطوابع والشهادات وبطاقات التقدم القابلة للمشاركة.",
+          "routesHowPoint1": "تساعدك الصعوبة والمدة المقدرة على اختيار هدف واقعي.",
+          "routesHowPoint2": "يظل تقدمك منفصلاً في كل مسار، حتى تتمكن من العودة لاحقًا.",
+          "routesHowPoint3": "علامات النقل الخاصة تجعل مراحل المياه والمسافات الطويلة جزءًا من الرحلة.",
+          "routesCtaTitle": "وجهتك التالية تبدأ بمسيرة اليوم",
+          "routesCtaText": "ابدأ بمسار Europe Explorer المجاني واختر عالمك التالي عندما تكون مستعدًا.",
+          "playSmall": "احصل عليه",
+          "routesHeroAlt": "طرق WalkQuest مصورة عبر أوروبا واليابان وأيسلندا واليونان وRoute 66"
+        }
+      }
+    },
+    "hi": {
+      "relativePath": "hi/routes.html",
+      "lang": "hi",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "सामग्री पर जाएं",
+        "navHome": "घर",
+        "navGuide": "गेम गाइड",
+        "navRoutes": "मार्ग",
+        "navPremium": "Premium",
+        "navNews": "समाचार",
+        "navPrivacy": "गोपनीयता",
+        "languageLabel": "भाषा चुनें",
+        "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
+        "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "मार्ग | WalkQuest",
+        "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "मार्ग | WalkQuest",
+          "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "मार्ग | WalkQuest",
+          "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/hi/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "रूट एटलस",
+          "routesTitle": "तीस यात्राएँ. चलने के जूते की एक जोड़ी.",
+          "routesDesc": "एक मुक्त यूरोपीय सिटी-हॉप से लेकर द्वीपों, ग्लेशियरों, मंदिरों, रेगिस्तानों और दुनिया भर के मार्ग तक।",
+          "routesBadgeFree": "निःशुल्क स्टार्टर मार्ग",
+          "routesBadgeDifficulty": "चार कठिनाई स्तर",
+          "routesBadgeStories": "स्थानीयकृत शहर की कहानियाँ",
+          "routesStatRoutes": "आभासी मार्ग",
+          "routesStatStops": "शहर रुक जाता है",
+          "routesStatTransfers": "विशेष स्थानान्तरण",
+          "routesPickKicker": "विशेष यात्राएँ",
+          "routesPickTitle": "ऐसी दुनिया चुनें जो आपको आगे बढ़ने के लिए प्रेरित करे",
+          "routesPickText": "प्रत्येक मार्ग की अपनी दूरी, कठिनाई, गंतव्य, कहानियाँ और अनुमानित समापन समय होता है।",
+          "routeEuropeTag": "मुफ़्त · आसान",
+          "routeEuropeDesc": "बारह पड़ावों और छह देशों से होते हुए लंदन से प्राग तक यात्रा करें।",
+          "routeKyotoTag": "मध्यम",
+          "routeKyotoDesc": "मेपल के रंगों, बांस, मंदिरों और ऐतिहासिक क्योटो से गुजरें।",
+          "routeGreekTag": "कठिन · घाट",
+          "routeGreekDesc": "चमकीले एजियन पानी के ऊपर क्रेते, सेंटोरिनी, डेलोस और मायकोनोस के बीच क्रॉस करें।",
+          "routeIcelandTag": "महाकाव्य",
+          "routeIcelandDesc": "झरनों, काले समुद्र तटों, ग्लेशियरों, ज्वालामुखियों और भूतापीय परिदृश्यों का अनुसरण करें।",
+          "route66Tag": "महाकाव्य",
+          "route66Desc": "शिकागो से लॉस एंजिल्स में प्रशांत महासागर तक एक लंबी अमेरिकी सड़क यात्रा।",
+          "routeWorldTag": "महाकाव्य · वैश्विक",
+          "routeWorldDesc": "महाद्वीपों को पैदल चरणों, ट्रेनों, फ़ेरी और लंबी दूरी की उड़ानों से जोड़ें।",
+          "routesCatalogKicker": "संपूर्ण एटलस",
+          "routesCatalogTitle": "छोटे लक्ष्य या साल भर के साहसिक कार्य के लिए मार्ग",
+          "routesCatalogText": "पुस्तकालय में शहर की यात्राएं, तीर्थ मार्ग, समुद्र तट, ऐतिहासिक सड़कें, द्वीप, पर्वतीय मार्ग और वैश्विक अभियान शामिल हैं।",
+          "routesHowKicker": "हर मार्ग के अंदर",
+          "routesHowTitle": "मानचित्र पर एक रेखा से भी अधिक",
+          "routesHowText": "स्टॉप स्थानीयकृत शहर गाइड, दिलचस्प तथ्य, स्थलचिह्न, भोजन, Street View लिंक, टिकटें, प्रमाण पत्र और साझा करने योग्य प्रगति कार्ड अनलॉक करते हैं।",
+          "routesHowPoint1": "कठिनाई और अनुमानित अवधि आपको यथार्थवादी लक्ष्य चुनने में मदद करती है।",
+          "routesHowPoint2": "आपकी प्रगति हर मार्ग पर अलग रहती है, इसलिए आप बाद में वापस लौट सकते हैं।",
+          "routesHowPoint3": "विशेष स्थानांतरण मार्कर पानी और लंबी दूरी के चरणों को यात्रा का हिस्सा बनाते हैं।",
+          "routesCtaTitle": "आपकी अगली मंजिल आज की सैर से शुरू होती है",
+          "routesCtaText": "मुफ़्त Europe Explorer मार्ग से शुरुआत करें और जब आप तैयार हों तो अपनी अगली दुनिया चुनें।",
+          "playSmall": "इसे लगाओ",
+          "routesHeroAlt": "यूरोप, जापान, आइसलैंड, ग्रीस और Route 66 में सचित्र WalkQuest मार्ग"
+        }
+      }
+    },
+    "pt-br": {
+      "relativePath": "pt-br/routes.html",
+      "lang": "pt-BR",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "routes"
+      },
+      "labels": {
+        "skipLink": "Pular para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Rotas | WalkQuest",
+        "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/routes.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/routes.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/routes.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/routes.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/routes.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/routes.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/routes.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/routes.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/routes.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/routes.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/routes.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/routes.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/routes.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/routes.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/routes.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/routes.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/routes.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/routes.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "imageAlt": "WalkQuest virtual walking routes around the world",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/routes.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Rotas | WalkQuest",
+          "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
+          "image": "https://walkquest.site/assets/routes-hero.png",
+          "url": "https://walkquest.site/pt-br/routes.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "routes": {
+        "copy": {
+          "routesEyebrow": "Atlas de rotas",
+          "routesTitle": "Trinta viagens. Um par de sapatos de caminhada.",
+          "routesDesc": "De um passeio gratuito por cidades europeias a ilhas, geleiras, templos, desertos e uma rota ao redor do mundo.",
+          "routesBadgeFree": "Rota inicial gratuita",
+          "routesBadgeDifficulty": "Quatro níveis de dificuldade",
+          "routesBadgeStories": "Histórias localizadas da cidade",
+          "routesStatRoutes": "rotas virtuais",
+          "routesStatStops": "paradas na cidade",
+          "routesStatTransfers": "transferências especiais",
+          "routesPickKicker": "Viagens em destaque",
+          "routesPickTitle": "Escolha um mundo que faça você querer se mover",
+          "routesPickText": "Cada rota tem sua própria distância, dificuldade, destinos, histórias e tempo estimado de conclusão.",
+          "routeEuropeTag": "Grátis · Fácil",
+          "routeEuropeDesc": "Viaje de Londres a Praga através de doze paradas e seis países.",
+          "routeKyotoTag": "Médio",
+          "routeKyotoDesc": "Caminhe pelas cores do bordo, bambu, santuários e pela histórica Kyoto.",
+          "routeGreekTag": "Difícil · Balsas",
+          "routeGreekDesc": "Cruze entre Creta, Santorini, Delos e Mykonos sobre as águas brilhantes do Egeu.",
+          "routeIcelandTag": "Épico",
+          "routeIcelandDesc": "Siga cachoeiras, praias negras, geleiras, vulcões e paisagens geotérmicas.",
+          "route66Tag": "Épico",
+          "route66Desc": "Uma longa viagem americana de Chicago ao Pacífico em Los Angeles.",
+          "routeWorldTag": "Épico · Global",
+          "routeWorldDesc": "Conecte continentes com etapas de caminhada, trens, balsas e voos de longa distância.",
+          "routesCatalogKicker": "O atlas completo",
+          "routesCatalogTitle": "Rotas para um objetivo curto ou uma aventura de um ano",
+          "routesCatalogText": "A biblioteca inclui viagens pela cidade, trilhas de peregrinação, litorais, estradas históricas, ilhas, rotas de montanha e expedições globais.",
+          "routesHowKicker": "Dentro de cada rota",
+          "routesHowTitle": "Mais do que uma linha em um mapa",
+          "routesHowText": "As paradas desbloqueiam guias de cidades localizados, fatos interessantes, pontos de referência, comida, links Street View, selos, certificados e cartões de progresso compartilháveis.",
+          "routesHowPoint1": "A dificuldade e a duração estimada ajudam você a escolher uma meta realista.",
+          "routesHowPoint2": "Seu progresso permanece separado em cada rota, para que você possa retornar mais tarde.",
+          "routesHowPoint3": "Marcadores especiais de transferência tornam as etapas aquáticas e de longa distância parte da viagem.",
+          "routesCtaTitle": "Seu próximo destino começa com a caminhada de hoje",
+          "routesCtaText": "Comece com a rota gratuita Europe Explorer e escolha seu próximo mundo quando estiver pronto.",
+          "playSmall": "Comece",
+          "routesHeroAlt": "Rotas WalkQuest ilustradas pela Europa, Japão, Islândia, Grécia e Route 66"
+        }
+      }
+    }
+  }
+}

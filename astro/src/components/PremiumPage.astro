@@ -1,0 +1,37 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+const c = page.premium!.copy;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const freeBenefits = ["free1", "free2", "free3", "free4"] as const;
+const premiumBenefits = ["plus1", "plus2", "plus3", "plus4", "plus5", "plus6"] as const;
+const purchases = [
+  ["🗓️", "monthlyTitle", "monthlyText"],
+  ["🌟", "yearlyTitle", "yearlyText"],
+  ["♾️", "lifetimeTitle", "lifetimeText"],
+  ["🗺️", "individualTitle", "individualText"],
+] as const;
+---
+
+<main id="main">
+  <section class="page-hero"><div class="shell page-hero-grid">
+    <div class="page-hero-copy"><span class="section-kicker" data-i18n="premiumEyebrow">{c.premiumEyebrow}</span><h1 data-i18n="premiumTitle">{c.premiumTitle}</h1><p data-i18n="premiumDesc">{c.premiumDesc}</p><div class="page-hero-badges"><span data-i18n="premiumBadgeRoutes">{c.premiumBadgeRoutes}</span><span data-i18n="premiumBadgeAds">{c.premiumBadgeAds}</span><span data-i18n="premiumBadgeCrossings">{c.premiumBadgeCrossings}</span></div></div>
+    <div class="page-hero-media"><img src={`${assetPrefix}assets/premium-hero.png`} width="1672" height="941" alt={c.premiumHeroAlt} data-i18n-alt="premiumHeroAlt" /></div>
+  </div></section>
+
+  <section class="page-section"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="premiumCompareKicker">{c.premiumCompareKicker}</span><h2 data-i18n="premiumCompareTitle">{c.premiumCompareTitle}</h2><p class="section-intro" data-i18n="premiumCompareText">{c.premiumCompareText}</p></div><div class="compare-grid">
+    <article class="plan-card"><span class="plan-label" data-i18n="freeLabel">{c.freeLabel}</span><a class="inline-route-link" href="./europe-explorer.html">Europe Explorer →</a><h3 data-i18n="freeTitle">{c.freeTitle}</h3><p data-i18n="freePrice">{c.freePrice}</p><ul>{freeBenefits.map((key) => <li data-i18n={key}>{c[key]}</li>)}</ul></article>
+    <article class="plan-card featured"><span class="plan-label">Premium</span><h3 data-i18n="plusTitle">{c.plusTitle}</h3><p data-i18n="plusPrice">{c.plusPrice}</p><ul>{premiumBenefits.map((key) => <li data-i18n={key}>{c[key]}</li>)}</ul></article>
+  </div></div></section>
+
+  <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="premiumPlansKicker">{c.premiumPlansKicker}</span><h2 data-i18n="premiumPlansTitle">{c.premiumPlansTitle}</h2><p class="section-intro" data-i18n="premiumPlansText">{c.premiumPlansText}</p></div><div class="purchase-grid">
+    {purchases.map(([emoji, title, text]) => <article class="purchase-card"><span>{emoji}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}
+  </div></div></section>
+
+  <section class="page-section dark"><div class="shell map-explainer"><div><span class="section-kicker" data-i18n="premiumCrossKicker">{c.premiumCrossKicker}</span><h2 data-i18n="premiumCrossTitle">{c.premiumCrossTitle}</h2><p class="section-intro" data-i18n="premiumCrossText">{c.premiumCrossText}</p><ul class="check-list"><li><span><strong data-i18n="premiumRestoreTitle">{c.premiumRestoreTitle}</strong> <span data-i18n="premiumRestoreText">{c.premiumRestoreText}</span></span></li><li><span><strong data-i18n="premiumBillingTitle">{c.premiumBillingTitle}</strong> <span data-i18n="premiumBillingText">{c.premiumBillingText}</span></span></li></ul></div><div class="transfer-grid" style="grid-template-columns:repeat(2,1fr)"><article class="transfer-card"><span>⛴️</span><h3 data-i18n="premiumFerryTitle">{c.premiumFerryTitle}</h3><p data-i18n="premiumFerryText">{c.premiumFerryText}</p></article><article class="transfer-card"><span>✈️</span><h3 data-i18n="premiumFlightTitle">{c.premiumFlightTitle}</h3><p data-i18n="premiumFlightText">{c.premiumFlightText}</p></article></div></div></section>
+
+  <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="premiumCtaTitle">{c.premiumCtaTitle}</h2><p data-i18n="premiumCtaText">{c.premiumCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
+</main>

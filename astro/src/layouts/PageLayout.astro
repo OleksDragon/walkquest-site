@@ -1,0 +1,21 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import LandingPage from "../components/LandingPage.astro";
+import NewsPage from "../components/NewsPage.astro";
+import RulesPage from "../components/RulesPage.astro";
+import PremiumPage from "../components/PremiumPage.astro";
+import RoutesCatalogPage from "../components/RoutesCatalogPage.astro";
+import ArticlePage from "../components/ArticlePage.astro";
+import PrivacyPage from "../components/PrivacyPage.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props {
+  page: PageData;
+}
+
+const { page } = Astro.props;
+---
+
+<BaseLayout page={page}>
+  {page.chrome === "privacy" ? <PrivacyPage page={page} /> : page.chrome === "landing" ? <LandingPage page={page} /> : page.news ? <NewsPage page={page} /> : page.rules ? <RulesPage page={page} /> : page.premium ? <PremiumPage page={page} /> : page.routes ? <RoutesCatalogPage page={page} /> : page.article ? <ArticlePage page={page} /> : null}
+</BaseLayout>

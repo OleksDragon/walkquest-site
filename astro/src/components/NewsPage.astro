@@ -1,0 +1,35 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+if (!page.news) throw new Error(`Missing news content for ${page.relativePath}`);
+const c = page.news.copy;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const nextStories = [
+  { href: "./release-notes.html", image: "article-release.png", alt: "releaseCardAlt", tag: "releaseTag", title: "newsNext1Title", text: "newsNext1Text" },
+  { href: "./europe-explorer.html", image: "article-europe.png", alt: "europeCardAlt", tag: "europeTag", title: "newsNext2Title", text: "newsNext2Text" },
+  { href: "./health-connect-guide.html", image: "article-health-connect.png", alt: "healthCardAlt", tag: "healthTag", title: "newsNext3Title", text: "newsNext3Text" },
+];
+---
+
+<main id="main">
+  <section class="page-hero"><div class="shell page-hero-grid">
+    <div class="page-hero-copy"><span class="section-kicker" data-i18n="newsEyebrow">{c.newsEyebrow}</span><h1 data-i18n="newsTitle">{c.newsTitle}</h1><p data-i18n="newsDesc">{c.newsDesc}</p><div class="page-hero-badges"><span data-i18n="newsBadgeUpdates">{c.newsBadgeUpdates}</span><span data-i18n="newsBadgeRoutes">{c.newsBadgeRoutes}</span><span data-i18n="newsBadgeGuides">{c.newsBadgeGuides}</span></div></div>
+    <div class="page-hero-media"><img src={`${assetPrefix}assets/news-hero-v3.png`} width="1672" height="941" alt={c.newsHeroAlt} data-i18n-alt="newsHeroAlt" /></div>
+  </div></section>
+  <section class="page-section"><div class="shell">
+    <div class="page-heading"><span class="section-kicker" data-i18n="newsLatestKicker">{c.newsLatestKicker}</span><h2 data-i18n="newsLatestTitle">{c.newsLatestTitle}</h2><p class="section-intro" data-i18n="newsLatestText">{c.newsLatestText}</p></div>
+    <div class="news-grid">
+      <a class="news-card featured news-card-link" href="./sharing-achievements.html"><img src={`${assetPrefix}assets/article-sharing.png`} width="1672" height="941" alt={c.shareHeroAlt} data-i18n-alt="shareHeroAlt" /><div class="news-card-copy"><span class="news-tag" data-i18n="shareTag">{c.shareTag}</span><time class="news-date" datetime="2026-10-03" data-i18n="shareDate">{c.shareDate}</time><h3 data-i18n="shareTitle">{c.shareTitle}</h3><p data-i18n="shareLead">{c.shareLead}</p><span class="news-card-action" data-i18n="readArticle">{c.readArticle}</span></div></a>
+      <article class="news-card"><span class="news-tag" data-i18n="news2Tag">{c.news2Tag}</span><time class="news-date" datetime="2026-09-28" data-i18n="news2Date">{c.news2Date}</time><h3 data-i18n="news2Title">{c.news2Title}</h3><p data-i18n="news2Text">{c.news2Text}</p></article>
+      <article class="news-card"><span class="news-tag" data-i18n="news3Tag">{c.news3Tag}</span><time class="news-date" datetime="2026-09-20" data-i18n="news3Date">{c.news3Date}</time><h3 data-i18n="news3Title">{c.news3Title}</h3><p data-i18n="news3Text">{c.news3Text}</p></article>
+    </div>
+  </div></section>
+  <section class="page-section dark journal-section"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker" data-i18n="newsNextKicker">{c.newsNextKicker}</span><h2 data-i18n="newsNextTitle">{c.newsNextTitle}</h2><p class="section-intro" data-i18n="newsNextText">{c.newsNextText}</p></div>
+    <div class="next-grid">{nextStories.map((story) => <a class="next-card" href={story.href}><img src={`${assetPrefix}assets/${story.image}`} width="1672" height="941" alt={c[story.alt]} data-i18n-alt={story.alt} /><div class="next-card-copy"><span class="news-tag" data-i18n={story.tag}>{c[story.tag]}</span><h3 data-i18n={story.title}>{c[story.title]}</h3><p data-i18n={story.text}>{c[story.text]}</p><span class="article-link-label" data-i18n="readArticle">{c.readArticle}</span></div></a>)}</div>
+  </div></section>
+  <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="newsCtaTitle">{c.newsCtaTitle}</h2><p data-i18n="newsCtaText">{c.newsCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
+</main>

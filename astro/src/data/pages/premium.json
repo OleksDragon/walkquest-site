@@ -1,0 +1,3269 @@
+{
+  "slug": "premium",
+  "locales": {
+    "en": {
+      "relativePath": "premium.html",
+      "lang": "en",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Skip to content",
+        "navHome": "Home",
+        "navGuide": "Game guide",
+        "navRoutes": "Routes",
+        "navPremium": "Premium",
+        "navNews": "News",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Choose language",
+        "footerTagline": "Real steps. Remarkable journeys.",
+        "footerRights": "All rights reserved."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+        "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "./styles.css",
+          "./pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+          "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "en"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
+          "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "./pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "./pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "WalkQuest Premium: more worlds, no ads, longer journeys",
+          "premiumDesc": "Premium opens the complete route library and adds the polished tools made for long-term travellers.",
+          "premiumBadgeRoutes": "All routes",
+          "premiumBadgeAds": "Ad-free",
+          "premiumBadgeCrossings": "Crossings included",
+          "premiumCompareKicker": "Choose your experience",
+          "premiumCompareTitle": "The core journey is free. Premium expands the world.",
+          "premiumCompareText": "WalkQuest does not require an account. Purchases are handled by Google Play and can be restored.",
+          "freeLabel": "Start free",
+          "freeTitle": "Free traveller",
+          "freePrice": "Explore before you upgrade.",
+          "free1": "The complete Europe Explorer starter route",
+          "free2": "Step sync, map progress, city guides, passport, missions, and achievements",
+          "free3": "Ads may appear between parts of the experience",
+          "free4": "Crossings can use travel points, rewarded videos, or individual tickets",
+          "plusTitle": "Complete traveller",
+          "plusPrice": "Unlock the full WalkQuest experience.",
+          "plus1": "All Premium routes unlocked",
+          "plus2": "No banner or interstitial ads",
+          "plus3": "Premium themes and advanced travel statistics",
+          "plus4": "Premium share cards and route certificates",
+          "plus5": "Route crossings included without travel-point cost",
+          "plus6": "One-day travel time for included transfers",
+          "premiumPlansKicker": "Purchase options",
+          "premiumPlansTitle": "Choose the option shown in your app",
+          "premiumPlansText": "Availability and localized prices come directly from Google Play. The website never displays an outdated fixed price.",
+          "monthlyTitle": "Monthly Premium",
+          "monthlyText": "Flexible access billed through Google Play according to the offer shown in the app.",
+          "yearlyTitle": "Yearly Premium",
+          "yearlyText": "Longer access for walkers planning several routes and seasons of progress.",
+          "lifetimeTitle": "Lifetime Premium",
+          "lifetimeText": "A one-time non-consumable purchase that permanently unlocks Premium.",
+          "individualTitle": "Individual routes",
+          "individualText": "Selected routes may also be available as separate one-time purchases.",
+          "premiumCrossKicker": "Premium crossings",
+          "premiumCrossTitle": "Keep the adventure moving across water",
+          "premiumCrossText": "When a route reaches a ferry, train, or flight gate, Premium starts the transfer without spending travel points and uses a one-day journey time.",
+          "premiumRestoreTitle": "Restore purchases.",
+          "premiumRestoreText": "Use the restore option in the app after reinstalling or moving to another Android device.",
+          "premiumBillingTitle": "Google Play billing.",
+          "premiumBillingText": "Payment details are processed by Google Play; WalkQuest does not store your full card information.",
+          "premiumFerryTitle": "Ferry",
+          "premiumFerryText": "Island routes and sea channels become memorable stages instead of dead ends.",
+          "premiumFlightTitle": "Flight",
+          "premiumFlightText": "Epic global routes can continue between continents while your walking effort stays banked.",
+          "premiumCtaTitle": "See the current Premium options in WalkQuest",
+          "premiumCtaText": "Open the app for availability, trial information, and your local Google Play price.",
+          "playSmall": "Get it on",
+          "premiumHeroAlt": "WalkQuest premium passport, route certificates, stamps, map, and transport tickets"
+        }
+      }
+    },
+    "uk": {
+      "relativePath": "uk/premium.html",
+      "lang": "uk",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Перейти до вмісту",
+        "navHome": "додому",
+        "navGuide": "Посібник з гри",
+        "navRoutes": "Маршрути",
+        "navPremium": "Premium",
+        "navNews": "Новини",
+        "navPrivacy": "Конфіденційність",
+        "languageLabel": "Виберіть мову",
+        "footerTagline": "Реальні кроки. Чудові подорожі.",
+        "footerRights": "Всі права захищені."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/uk/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/uk/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "uk"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/uk/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Більше світів. Без реклами. Кожна прогулянка йде далі.",
+          "premiumDesc": "Premium відкриває повну бібліотеку маршрутів і додає досконалі інструменти, створені для тривалих подорожей.",
+          "premiumBadgeRoutes": "Всі маршрути",
+          "premiumBadgeAds": "Без реклами",
+          "premiumBadgeCrossings": "Переходи включені",
+          "premiumCompareKicker": "Виберіть свій досвід",
+          "premiumCompareTitle": "Основна поїздка безкоштовна. Premium розширює світ.",
+          "premiumCompareText": "WalkQuest не потребує облікового запису. Покупки обробляються Google Play і можуть бути відновлені.",
+          "freeLabel": "Почніть безкоштовно",
+          "freeTitle": "Вільний мандрівник",
+          "freePrice": "Вивчіть перед оновленням.",
+          "free1": "Повний стартовий маршрут Europe Explorer",
+          "free2": "Покрокова синхронізація, прогрес на карті, путівники по місту, паспорт, місії та досягнення",
+          "free3": "Між частинами досвіду може з’являтися реклама",
+          "free4": "Для переходу можна використовувати бали подорожі, винагородні відео або окремі квитки",
+          "plusTitle": "Повний мандрівник",
+          "plusPrice": "Розблокуйте всі можливості WalkQuest.",
+          "plus1": "Усі маршрути Premium розблоковано",
+          "plus2": "Немає банерів або міжсторінкової реклами",
+          "plus3": "Теми Premium і розширена статистика подорожей",
+          "plus4": "Картки обміну Premium і сертифікати маршрутів",
+          "plus5": "Перетинання маршруту включено без вартості путівки",
+          "plus6": "Один день у дорозі з пересадками",
+          "premiumPlansKicker": "Варіанти покупки",
+          "premiumPlansTitle": "Виберіть параметр, показаний у вашому додатку",
+          "premiumPlansText": "Доступність і локалізовані ціни надходять безпосередньо від Google Play. На веб-сайті ніколи не відображається застаріла фіксована ціна.",
+          "monthlyTitle": "Щомісяця Premium",
+          "monthlyText": "Гнучкий доступ оплачується через Google Play відповідно до пропозиції, показаної в додатку.",
+          "yearlyTitle": "Щорічно Premium",
+          "yearlyText": "Довший доступ для пішоходів, які планують кілька маршрутів і сезонів прогресу.",
+          "lifetimeTitle": "Термін служби Premium",
+          "lifetimeText": "Одноразова покупка неспоживаного матеріалу, яка назавжди розблоковує Premium.",
+          "individualTitle": "Індивідуальні маршрути",
+          "individualText": "Вибрані маршрути також можуть бути доступні як окремі одноразові покупки.",
+          "premiumCrossKicker": "Переходи Premium",
+          "premiumCrossTitle": "Продовжуйте пригоди рухатися по воді",
+          "premiumCrossText": "Коли маршрут досягає порома, поїзда або виходу на рейс, Premium починає пересадку, не витрачаючи бали на подорож, і використовує одноденний час у дорозі.",
+          "premiumRestoreTitle": "Відновити покупки.",
+          "premiumRestoreText": "Скористайтеся опцією відновлення в додатку після перевстановлення або переходу на інший пристрій Android.",
+          "premiumBillingTitle": "Оплата за Google Play.",
+          "premiumBillingText": "Деталі платежу обробляє Google Play; WalkQuest не зберігає повну інформацію про вашу картку.",
+          "premiumFerryTitle": "Паром",
+          "premiumFerryText": "Острівні маршрути і морські канали стають пам'ятними етапами замість тупиків.",
+          "premiumFlightTitle": "політ",
+          "premiumFlightText": "Епічні глобальні маршрути можуть продовжуватися між континентами, а ваші зусилля залишаються на межі.",
+          "premiumCtaTitle": "Перегляньте поточні параметри Premium у WalkQuest",
+          "premiumCtaText": "Відкрийте програму, щоб дізнатися про наявність, інформацію про пробну версію та місцеву ціну Google Play.",
+          "playSmall": "Завантажити з",
+          "premiumHeroAlt": "Паспорт преміум-класу WalkQuest, маршрутні сертифікати, марки, карта та квитки на транспорт"
+        }
+      }
+    },
+    "ru": {
+      "relativePath": "ru/premium.html",
+      "lang": "ru",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Перейти к содержимому",
+        "navHome": "Главная",
+        "navGuide": "Руководство по игре",
+        "navRoutes": "Маршруты",
+        "navPremium": "Premium",
+        "navNews": "Новости",
+        "navPrivacy": "Конфиденциальность",
+        "languageLabel": "Выберите язык",
+        "footerTagline": "Реальные шаги. Замечательные путешествия.",
+        "footerRights": "Все права защищены."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ru/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ru/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ru"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ru/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Больше миров. Никакой рекламы. Каждая прогулка идет дальше.",
+          "premiumDesc": "Premium открывает полную библиотеку маршрутов и добавляет усовершенствованные инструменты, предназначенные для длительных путешественников.",
+          "premiumBadgeRoutes": "Все маршруты",
+          "premiumBadgeAds": "Без рекламы",
+          "premiumBadgeCrossings": "Переходы включены",
+          "premiumCompareKicker": "Выберите свой опыт",
+          "premiumCompareTitle": "Основное путешествие бесплатное. Premium расширяет мир.",
+          "premiumCompareText": "WalkQuest не требует учетной записи. Покупки обрабатываются Google Play и могут быть восстановлены.",
+          "freeLabel": "Начни бесплатно",
+          "freeTitle": "Свободный путешественник",
+          "freePrice": "Изучите возможности перед обновлением.",
+          "free1": "Полный стартовый маршрут Europe Explorer",
+          "free2": "Синхронизация шагов, прогресс на карте, путеводители по городам, паспорт, миссии и достижения",
+          "free3": "Реклама может появляться между частями опыта.",
+          "free4": "На переходах можно использовать очки путешествия, видео с вознаграждением или отдельные билеты.",
+          "plusTitle": "Путешественник Premium",
+          "plusPrice": "Откройте для себя все возможности WalkQuest.",
+          "plus1": "Все маршруты Premium разблокированы.",
+          "plus2": "Никаких баннеров и межстраничной рекламы.",
+          "plus3": "Темы Premium и расширенная статистика путешествий",
+          "plus4": "Карточки Premium для публикации и сертификаты маршрутов",
+          "plus5": "Переезды по маршрутам включены без затрат очков путешествия",
+          "plus6": "Один день в пути с включенными трансферами",
+          "premiumPlansKicker": "Варианты покупки",
+          "premiumPlansTitle": "Выберите вариант, показанный в вашем приложении.",
+          "premiumPlansText": "Доступность и локализованные цены поступают непосредственно от Google Play. На сайте никогда не отображается устаревшая фиксированная цена.",
+          "monthlyTitle": "Premium на месяц",
+          "monthlyText": "Гибкий доступ, оплачиваемый через Google Play в соответствии с предложением, указанным в приложении.",
+          "yearlyTitle": "Premium на год",
+          "yearlyText": "Более длинный доступ для пешеходов, планирующих несколько маршрутов и сезонов движения.",
+          "lifetimeTitle": "Premium навсегда",
+          "lifetimeText": "Одноразовая покупка, не требующая расходных материалов, которая навсегда разблокирует Premium.",
+          "individualTitle": "Индивидуальные маршруты",
+          "individualText": "Выбранные маршруты также могут быть доступны как отдельные единоразовые покупки.",
+          "premiumCrossKicker": "Переезды с Premium",
+          "premiumCrossTitle": "Продолжайте приключение, путешествуя по воде",
+          "premiumCrossText": "Когда маршрут доходит до парома, поезда или авиаперелёта, Premium запускает переезд без затрат очков путешествия и сокращает его до одного дня.",
+          "premiumRestoreTitle": "Восстановление покупок.",
+          "premiumRestoreText": "Используйте опцию восстановления в приложении после переустановки или перехода на другое устройство Android.",
+          "premiumBillingTitle": "Биллинг Google Play.",
+          "premiumBillingText": "Детали платежа обрабатываются Google Play; WalkQuest не хранит полную информацию о вашей карте.",
+          "premiumFerryTitle": "Паром",
+          "premiumFerryText": "Островные маршруты и морские каналы из тупиков становятся запоминающимися этапами.",
+          "premiumFlightTitle": "Полет",
+          "premiumFlightText": "Эпические глобальные маршруты могут продолжаться между континентами, пока ваши усилия по пешим прогулкам остаются в резерве.",
+          "premiumCtaTitle": "Посмотрите актуальные варианты Premium в WalkQuest",
+          "premiumCtaText": "Откройте приложение, чтобы узнать о доступности, пробной версии и местной цене Google Play.",
+          "playSmall": "Скачать в",
+          "premiumHeroAlt": "Премиум-паспорт WalkQuest, маршрутные удостоверения, марки, карта и билеты на транспорт."
+        }
+      }
+    },
+    "es": {
+      "relativePath": "es/premium.html",
+      "lang": "es",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Saltar al contenido",
+        "navHome": "Inicio",
+        "navGuide": "guía del juego",
+        "navRoutes": "Rutas",
+        "navPremium": "Premium",
+        "navNews": "Noticias",
+        "navPrivacy": "Privacidad",
+        "languageLabel": "Elige idioma",
+        "footerTagline": "Pasos reales. Viajes notables.",
+        "footerRights": "Todos los derechos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/es/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/es/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "es"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/es/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Más mundos. Sin anuncios. Cada paseo llega más lejos.",
+          "premiumDesc": "Premium abre la biblioteca de rutas completa y agrega herramientas pulidas diseñadas para viajeros de larga duración.",
+          "premiumBadgeRoutes": "Todas las rutas",
+          "premiumBadgeAds": "Sin publicidad",
+          "premiumBadgeCrossings": "Cruces incluidos",
+          "premiumCompareKicker": "Elige tu experiencia",
+          "premiumCompareTitle": "El viaje principal es gratuito. Premium se expande por el mundo.",
+          "premiumCompareText": "WalkQuest no requiere una cuenta. Las compras son manejadas por Google Play y pueden restaurarse.",
+          "freeLabel": "Empieza gratis",
+          "freeTitle": "viajero libre",
+          "freePrice": "Explora antes de actualizar.",
+          "free1": "La ruta completa de inicio de Europe Explorer",
+          "free2": "Sincronización de pasos, progreso del mapa, guías de la ciudad, pasaporte, misiones y logros",
+          "free3": "Pueden aparecer anuncios entre partes de la experiencia.",
+          "free4": "Los cruces pueden utilizar puntos de viaje, vídeos bonificados o billetes individuales.",
+          "plusTitle": "viajero completo",
+          "plusPrice": "Desbloquee la experiencia WalkQuest completa.",
+          "plus1": "Todas las rutas Premium desbloqueadas",
+          "plus2": "Sin banners ni anuncios intersticiales",
+          "plus3": "Temas Premium y estadísticas de viajes avanzadas",
+          "plus4": "Tarjetas de acciones Premium y certificados de ruta",
+          "plus5": "Cruces de ruta incluidos sin coste de puntos de viaje",
+          "plus6": "Tiempo de viaje de un día para traslados incluidos.",
+          "premiumPlansKicker": "Opciones de compra",
+          "premiumPlansTitle": "Elija la opción que se muestra en su aplicación",
+          "premiumPlansText": "La disponibilidad y los precios localizados provienen directamente de Google Play. El sitio web nunca muestra un precio fijo desactualizado.",
+          "monthlyTitle": "Premium Mensual",
+          "monthlyText": "Acceso flexible facturado a través de Google Play según la oferta mostrada en la aplicación.",
+          "yearlyTitle": "Premium anual",
+          "yearlyText": "Acceso más largo para caminantes que planifiquen varias rutas y temporadas de avance.",
+          "lifetimeTitle": "Premium de por vida",
+          "lifetimeText": "Una compra única de no consumibles que desbloquea permanentemente Premium.",
+          "individualTitle": "Rutas individuales",
+          "individualText": "Las rutas seleccionadas también pueden estar disponibles como compras únicas por separado.",
+          "premiumCrossKicker": "Cruces Premium",
+          "premiumCrossTitle": "Mantén la aventura avanzando a través del agua.",
+          "premiumCrossText": "Cuando una ruta llega a una puerta de ferry, tren o avión, Premium inicia la transferencia sin gastar puntos de viaje y utiliza un tiempo de viaje de un día.",
+          "premiumRestoreTitle": "Restaurar compras.",
+          "premiumRestoreText": "Utilice la opción de restauración en la aplicación después de reinstalarla o pasarla a otro dispositivo Android.",
+          "premiumBillingTitle": "Facturación Google Play.",
+          "premiumBillingText": "Los detalles de pago son procesados por Google Play; WalkQuest no almacena la información completa de su tarjeta.",
+          "premiumFerryTitle": "ferry",
+          "premiumFerryText": "Las rutas insulares y los canales marítimos se convierten en etapas memorables en lugar de callejones sin salida.",
+          "premiumFlightTitle": "Vuelo",
+          "premiumFlightText": "Las rutas globales épicas pueden continuar entre continentes mientras tu esfuerzo de caminata se mantiene.",
+          "premiumCtaTitle": "Vea las opciones actuales de Premium en WalkQuest",
+          "premiumCtaText": "Abra la aplicación para conocer la disponibilidad, información de prueba y el precio local de Google Play.",
+          "playSmall": "Consíguelo",
+          "premiumHeroAlt": "Pasaporte premium WalkQuest, certificados de ruta, sellos, mapas y billetes de transporte"
+        }
+      }
+    },
+    "de": {
+      "relativePath": "de/premium.html",
+      "lang": "de",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Zum Inhalt springen",
+        "navHome": "Zuhause",
+        "navGuide": "Spielanleitung",
+        "navRoutes": "Routen",
+        "navPremium": "Premium",
+        "navNews": "Nachrichten",
+        "navPrivacy": "Privatsphäre",
+        "languageLabel": "Sprache wählen",
+        "footerTagline": "Echte Schritte. Bemerkenswerte Reisen.",
+        "footerRights": "Alle Rechte vorbehalten."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/de/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/de/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "de"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/de/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Mehr Welten. Keine Werbung. Jeder Spaziergang geht weiter.",
+          "premiumDesc": "Premium öffnet die komplette Routenbibliothek und fügt die ausgefeilten Tools für Langzeitreisende hinzu.",
+          "premiumBadgeRoutes": "Alle Routen",
+          "premiumBadgeAds": "Werbefrei",
+          "premiumBadgeCrossings": "Überfahrten inklusive",
+          "premiumCompareKicker": "Wählen Sie Ihr Erlebnis",
+          "premiumCompareTitle": "Die Kernreise ist kostenlos. Premium erweitert die Welt.",
+          "premiumCompareText": "Für WalkQuest ist kein Konto erforderlich. Käufe werden von Google Play abgewickelt und können wiederhergestellt werden.",
+          "freeLabel": "Kostenlos starten",
+          "freeTitle": "Freier Reisender",
+          "freePrice": "Informieren Sie sich, bevor Sie ein Upgrade durchführen.",
+          "free1": "Die komplette Europe Explorer-Starterroute",
+          "free2": "Schrittsynchronisierung, Kartenfortschritt, Stadtführer, Reisepass, Missionen und Erfolge",
+          "free3": "Zwischen Teilen des Erlebnisses können Anzeigen erscheinen",
+          "free4": "Für Überfahrten können Reisepunkte, Prämienvideos oder Einzeltickets genutzt werden",
+          "plusTitle": "Kompletter Reisender",
+          "plusPrice": "Schalten Sie das volle WalkQuest-Erlebnis frei.",
+          "plus1": "Alle Premium-Routen freigeschaltet",
+          "plus2": "Keine Banner- oder Interstitial-Anzeigen",
+          "plus3": "Premium-Themen und erweiterte Reisestatistiken",
+          "plus4": "Premium Share Cards und Streckenzertifikate",
+          "plus5": "Streckenkreuzungen inklusive ohne Fahrtpunktkosten",
+          "plus6": "Eintägige Reisezeit für inbegriffene Transfers",
+          "premiumPlansKicker": "Kaufoptionen",
+          "premiumPlansTitle": "Wählen Sie die in Ihrer App angezeigte Option",
+          "premiumPlansText": "Verfügbarkeit und lokale Preise erhalten Sie direkt von Google Play. Auf der Website wird niemals ein veralteter Festpreis angezeigt.",
+          "monthlyTitle": "Monatlich Premium",
+          "monthlyText": "Flexibler Zugang, der über Google Play gemäß dem in der App angezeigten Angebot abgerechnet wird.",
+          "yearlyTitle": "Jährliches Premium",
+          "yearlyText": "Längerer Zugang für Wanderer, die mehrere Routen und Jahreszeiten planen.",
+          "lifetimeTitle": "Lebenslanges Premium",
+          "lifetimeText": "Ein einmaliger, nicht verbrauchbarer Kauf, der Premium dauerhaft freischaltet.",
+          "individualTitle": "Individuelle Routen",
+          "individualText": "Ausgewählte Routen sind möglicherweise auch als separate Einmalkäufe erhältlich.",
+          "premiumCrossKicker": "Premium Kreuzungen",
+          "premiumCrossTitle": "Halten Sie das Abenteuer über das Wasser in Bewegung",
+          "premiumCrossText": "Wenn eine Route eine Fähre, einen Zug oder ein Fluggate erreicht, startet Premium den Transfer ohne Ausgabe von Reisepunkten und verwendet eine eintägige Reisezeit.",
+          "premiumRestoreTitle": "Einkäufe wiederherstellen.",
+          "premiumRestoreText": "Nutzen Sie die Wiederherstellungsoption in der App nach einer Neuinstallation oder einem Wechsel auf ein anderes Android-Gerät.",
+          "premiumBillingTitle": "Google Play-Abrechnung.",
+          "premiumBillingText": "Zahlungsdetails werden von Google Play verarbeitet; WalkQuest speichert nicht Ihre vollständigen Karteninformationen.",
+          "premiumFerryTitle": "Fähre",
+          "premiumFerryText": "Inselrouten und Seekanäle werden zu unvergesslichen Etappen statt Sackgassen.",
+          "premiumFlightTitle": "Flug",
+          "premiumFlightText": "Epische globale Routen können zwischen Kontinenten fortgesetzt werden, während Ihre Gehanstrengungen konzentriert bleiben.",
+          "premiumCtaTitle": "Sehen Sie sich die aktuellen Premium-Optionen in WalkQuest an",
+          "premiumCtaText": "Öffnen Sie die App, um Verfügbarkeit, Testinformationen und Ihren lokalen Google Play-Preis zu erfahren.",
+          "playSmall": "Zieh es an",
+          "premiumHeroAlt": "WalkQuest Premium-Reisepass, Streckenzertifikate, Stempel, Karte und Fahrkarten"
+        }
+      }
+    },
+    "fr": {
+      "relativePath": "fr/premium.html",
+      "lang": "fr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Passer au contenu",
+        "navHome": "Accueil",
+        "navGuide": "Guide du jeu",
+        "navRoutes": "Itinéraires",
+        "navPremium": "Premium",
+        "navNews": "Actualités",
+        "navPrivacy": "Confidentialité",
+        "languageLabel": "Choisir la langue",
+        "footerTagline": "De vraies étapes. Des voyages remarquables.",
+        "footerRights": "Tous droits réservés."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/fr/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/fr/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "fr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/fr/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Plus de mondes. Aucune publicité. Chaque promenade va plus loin.",
+          "premiumDesc": "Premium ouvre la bibliothèque complète d'itinéraires et ajoute les outils perfectionnés conçus pour les voyageurs de longue durée.",
+          "premiumBadgeRoutes": "Tous les itinéraires",
+          "premiumBadgeAds": "Sans publicité",
+          "premiumBadgeCrossings": "Traversées incluses",
+          "premiumCompareKicker": "Choisissez votre expérience",
+          "premiumCompareTitle": "Le voyage principal est gratuit. Premium élargit le monde.",
+          "premiumCompareText": "WalkQuest ne nécessite pas de compte. Les achats sont gérés par Google Play et peuvent être restaurés.",
+          "freeLabel": "Commencez gratuitement",
+          "freeTitle": "Voyageur libre",
+          "freePrice": "Explorez avant de procéder à la mise à niveau.",
+          "free1": "L'itinéraire complet de démarrage du Europe Explorer",
+          "free2": "Synchronisation des étapes, progression de la carte, guides de la ville, passeport, missions et réalisations",
+          "free3": "Des publicités peuvent apparaître entre les parties de l'expérience",
+          "free4": "Les traversées peuvent utiliser des points de voyage, des vidéos récompensées ou des billets individuels",
+          "plusTitle": "Voyageur complet",
+          "plusPrice": "Débloquez toute l’expérience WalkQuest.",
+          "plus1": "Tous les itinéraires Premium débloqués",
+          "plus2": "Pas de bannière ni de publicité interstitielle",
+          "plus3": "Thèmes Premium et statistiques de voyage avancées",
+          "plus4": "Cartes de partage Premium et certificats de routage",
+          "plus5": "Traversées d'itinéraire incluses sans frais de déplacement",
+          "plus6": "Temps de trajet d'une journée pour les transferts inclus",
+          "premiumPlansKicker": "Options d'achat",
+          "premiumPlansTitle": "Choisissez l'option affichée dans votre application",
+          "premiumPlansText": "La disponibilité et les prix localisés proviennent directement de Google Play. Le site Internet n’affiche jamais de prix fixe obsolète.",
+          "monthlyTitle": "Mensuel Premium",
+          "monthlyText": "Accès flexible facturé via Google Play selon l'offre affichée dans l'application.",
+          "yearlyTitle": "Annuel Premium",
+          "yearlyText": "Accès plus long pour les marcheurs prévoyant plusieurs itinéraires et saisons de progression.",
+          "lifetimeTitle": "À vie Premium",
+          "lifetimeText": "Un achat unique non consommable qui débloque définitivement Premium.",
+          "individualTitle": "Itinéraires individuels",
+          "individualText": "Les itinéraires sélectionnés peuvent également être disponibles sous forme d'achats uniques distincts.",
+          "premiumCrossKicker": "Traversées Premium",
+          "premiumCrossTitle": "Poursuivez l'aventure sur l'eau",
+          "premiumCrossText": "Lorsqu'un itinéraire atteint une porte de ferry, de train ou de vol, Premium démarre le transfert sans dépenser de points de voyage et utilise un temps de trajet d'une journée.",
+          "premiumRestoreTitle": "Restaurer les achats.",
+          "premiumRestoreText": "Utilisez l'option de restauration dans l'application après la réinstallation ou le déplacement vers un autre appareil Android.",
+          "premiumBillingTitle": "Facturation Google Play.",
+          "premiumBillingText": "Les détails du paiement sont traités par Google Play ; WalkQuest ne stocke pas toutes les informations de votre carte.",
+          "premiumFerryTitle": "Traversier",
+          "premiumFerryText": "Les routes insulaires et les canaux maritimes deviennent des étapes mémorables plutôt que des impasses.",
+          "premiumFlightTitle": "Vol",
+          "premiumFlightText": "Des itinéraires mondiaux épiques peuvent continuer entre les continents pendant que votre effort de marche reste concentré.",
+          "premiumCtaTitle": "Voir les options Premium actuelles dans WalkQuest",
+          "premiumCtaText": "Ouvrez l'application pour connaître la disponibilité, les informations d'essai et votre prix Google Play local.",
+          "playSmall": "Mettez-le",
+          "premiumHeroAlt": "Passeport premium WalkQuest, certificats d'itinéraire, timbres, carte et titres de transport"
+        }
+      }
+    },
+    "pl": {
+      "relativePath": "pl/premium.html",
+      "lang": "pl",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Przejdź do treści",
+        "navHome": "Dom",
+        "navGuide": "Przewodnik po grze",
+        "navRoutes": "Trasy",
+        "navPremium": "Premium",
+        "navNews": "Wiadomości",
+        "navPrivacy": "Prywatność",
+        "languageLabel": "Wybierz język",
+        "footerTagline": "Prawdziwe kroki. Niezwykłe podróże.",
+        "footerRights": "Wszelkie prawa zastrzeżone."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pl/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pl/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pl"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pl/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Więcej światów. Brak reklam. Każdy spacer prowadzi dalej.",
+          "premiumDesc": "Premium otwiera pełną bibliotekę tras i dodaje dopracowane narzędzia stworzone z myślą o podróżujących długoterminowo.",
+          "premiumBadgeRoutes": "Wszystkie trasy",
+          "premiumBadgeAds": "Bez reklam",
+          "premiumBadgeCrossings": "Przejścia w cenie",
+          "premiumCompareKicker": "Wybierz swoje doświadczenie",
+          "premiumCompareTitle": "Podstawowa podróż jest bezpłatna. Premium rozszerza świat.",
+          "premiumCompareText": "WalkQuest nie wymaga konta. Zakupy są obsługiwane przez Google Play i można je przywrócić.",
+          "freeLabel": "Zacznij bezpłatnie",
+          "freeTitle": "Wolny podróżnik",
+          "freePrice": "Sprawdź, zanim dokonasz aktualizacji.",
+          "free1": "Kompletna trasa startowa Europe Explorer",
+          "free2": "Synchronizacja kroków, postęp mapy, przewodniki po miastach, paszport, misje i osiągnięcia",
+          "free3": "Pomiędzy częściami doświadczenia mogą pojawiać się reklamy",
+          "free4": "Podczas przejazdów można wykorzystać punkty podróżne, filmy z nagrodą lub pojedyncze bilety",
+          "plusTitle": "Kompletny podróżnik",
+          "plusPrice": "Odblokuj pełne doświadczenie WalkQuest.",
+          "plus1": "Wszystkie trasy Premium odblokowane",
+          "plus2": "Brak banerów i reklam pełnoekranowych",
+          "plus3": "Motywy Premium i zaawansowane statystyki podróży",
+          "plus4": "Karty udostępniania Premium i certyfikaty tras",
+          "plus5": "Przekroczenia trasy są uwzględnione bez kosztów punktów podróży",
+          "plus6": "Jednodniowy czas podróży w przypadku wliczonych transferów",
+          "premiumPlansKicker": "Opcje zakupu",
+          "premiumPlansTitle": "Wybierz opcję widoczną w Twojej aplikacji",
+          "premiumPlansText": "Dostępność i zlokalizowane ceny pochodzą bezpośrednio z Google Play. Na stronie internetowej nigdy nie jest wyświetlana nieaktualna stała cena.",
+          "monthlyTitle": "Miesięczny Premium",
+          "monthlyText": "Elastyczny dostęp rozliczany za pośrednictwem Google Play zgodnie z ofertą pokazaną w aplikacji.",
+          "yearlyTitle": "Roczny Premium",
+          "yearlyText": "Dłuższy dostęp dla spacerowiczów planujących kilka tras i sezonów postępu.",
+          "lifetimeTitle": "Dożywotnia Premium",
+          "lifetimeText": "Jednorazowy zakup nie nadający się do spożycia, który na stałe odblokowuje Premium.",
+          "individualTitle": "Indywidualne trasy",
+          "individualText": "Wybrane trasy mogą być również dostępne w formie odrębnych, jednorazowych zakupów.",
+          "premiumCrossKicker": "Przejścia Premium",
+          "premiumCrossTitle": "Kontynuuj przygodę w wodzie",
+          "premiumCrossText": "Gdy trasa dotrze do promu, pociągu lub bramki lotniczej, Premium rozpoczyna transfer bez wydawania punktów podróży i wykorzystuje jednodniowy czas podróży.",
+          "premiumRestoreTitle": "Przywróć zakupy.",
+          "premiumRestoreText": "Skorzystaj z opcji przywracania w aplikacji po ponownej instalacji lub przeniesieniu się na inne urządzenie z Androidem.",
+          "premiumBillingTitle": "Rozliczenia Google Play.",
+          "premiumBillingText": "Szczegóły płatności są przetwarzane przez Google Play; WalkQuest nie przechowuje pełnych informacji o Twojej karcie.",
+          "premiumFerryTitle": "Prom",
+          "premiumFerryText": "Trasy wyspiarskie i kanały morskie zamiast ślepych zaułków stają się niezapomnianymi etapami.",
+          "premiumFlightTitle": "Lot",
+          "premiumFlightText": "Imponujące trasy globalne mogą przebiegać między kontynentami, podczas gdy Twój wysiłek związany z chodzeniem pozostanie ograniczony.",
+          "premiumCtaTitle": "Zobacz aktualne opcje Premium w WalkQuest",
+          "premiumCtaText": "Otwórz aplikację, aby sprawdzić dostępność, informacje o wersji próbnej i lokalną cenę Google Play.",
+          "playSmall": "Włącz to",
+          "premiumHeroAlt": "Paszport premium WalkQuest, certyfikaty tras, pieczątki, mapa i bilety komunikacyjne"
+        }
+      }
+    },
+    "pt": {
+      "relativePath": "pt/premium.html",
+      "lang": "pt",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Saltar para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pt/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Mais mundos. Sem anúncios. Cada caminhada vai mais longe.",
+          "premiumDesc": "O Premium abre a biblioteca completa de rotas e acrescenta ferramentas sofisticadas feitas para viajantes de longa duração.",
+          "premiumBadgeRoutes": "Todas as rotas",
+          "premiumBadgeAds": "Sem anúncios",
+          "premiumBadgeCrossings": "Travessias incluídas",
+          "premiumCompareKicker": "Escolha a sua experiência",
+          "premiumCompareTitle": "A jornada principal é gratuita. Premium expande o mundo.",
+          "premiumCompareText": "O WalkQuest não requer uma conta. As compras são feitas por Google Play e podem ser restauradas.",
+          "freeLabel": "Comece gratuitamente",
+          "freeTitle": "Viajante grátis",
+          "freePrice": "Explore antes de atualizar.",
+          "free1": "A rota inicial completa do Europe Explorer",
+          "free2": "Sincronização de passos, progresso do mapa, guias de cidades, passaporte, missões e conquistas",
+          "free3": "Os anúncios podem aparecer entre partes da experiência",
+          "free4": "As travessias podem utilizar pontos de viagem, vídeos premiados ou bilhetes individuais",
+          "plusTitle": "Viajante completo",
+          "plusPrice": "Desbloqueie a experiência WalkQuest completa.",
+          "plus1": "Todas as rotas Premium desbloqueadas",
+          "plus2": "Sem banners ou anúncios intersticiais",
+          "plus3": "Temas Premium e estatísticas avançadas de viagens",
+          "plus4": "Cartões de partilha Premium e certificados de rota",
+          "plus5": "Travessias de percurso incluídas sem custos de ponto de viagem",
+          "plus6": "Tempo de viagem de um dia para transfers incluídos",
+          "premiumPlansKicker": "Opções de compra",
+          "premiumPlansTitle": "Escolha a opção apresentada na sua aplicação",
+          "premiumPlansText": "A disponibilidade e os preços localizados vêm diretamente do Google Play. O site nunca exibe um preço fixo desatualizado.",
+          "monthlyTitle": "Mensal Premium",
+          "monthlyText": "Acesso flexível faturado através do Google Play de acordo com a oferta apresentada na aplicação.",
+          "yearlyTitle": "Premium anual",
+          "yearlyText": "Maior acesso para os caminhantes que planeiam diversos percursos e temporadas de progresso.",
+          "lifetimeTitle": "Premium vitalício",
+          "lifetimeText": "Uma compra única não consumível que desbloqueia Premium permanentemente.",
+          "individualTitle": "Rotas individuais",
+          "individualText": "As rotas selecionadas também podem estar disponíveis como compras únicas separadas.",
+          "premiumCrossKicker": "Travessias Premium",
+          "premiumCrossTitle": "Mantenha a aventura em movimento através da água",
+          "premiumCrossText": "Quando uma rota chega a um ferry, comboio ou porta de voo, Premium inicia a transferência sem gastar pontos de viagem e utiliza o tempo de viagem de um dia.",
+          "premiumRestoreTitle": "Restaurar compras.",
+          "premiumRestoreText": "Utilize a opção de restauro na aplicação após reinstalar ou mudar para outro dispositivo Android.",
+          "premiumBillingTitle": "Faturação Google Play.",
+          "premiumBillingText": "Os dados de pagamento são processados por Google Play; WalkQuest não armazena as informações completas do seu cartão.",
+          "premiumFerryTitle": "Balsa",
+          "premiumFerryText": "As rotas insulares e os canais marítimos tornam-se etapas memoráveis em vez de becos sem saída.",
+          "premiumFlightTitle": "Voo",
+          "premiumFlightText": "Rotas globais épicas podem continuar entre continentes enquanto o seu esforço de caminhada permanece limitado.",
+          "premiumCtaTitle": "Veja as opções atuais do Premium em WalkQuest",
+          "premiumCtaText": "Abra a aplicação para disponibilidade, informações de teste e preço local do Google Play.",
+          "playSmall": "Comece",
+          "premiumHeroAlt": "Passaporte premium WalkQuest, certificados de percurso, selos, mapas e bilhetes de transporte"
+        }
+      }
+    },
+    "it": {
+      "relativePath": "it/premium.html",
+      "lang": "it",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Vai al contenuto",
+        "navHome": "Casa",
+        "navGuide": "Guida al gioco",
+        "navRoutes": "Percorsi",
+        "navPremium": "Premium",
+        "navNews": "Novità",
+        "navPrivacy": "Privacy",
+        "languageLabel": "Scegli la lingua",
+        "footerTagline": "Passi veri. Viaggi straordinari.",
+        "footerRights": "Tutti i diritti riservati."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/it/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/it/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "it"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/it/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Più mondi. Nessuna pubblicità. Ogni passeggiata va oltre.",
+          "premiumDesc": "Premium apre la libreria completa di percorsi e aggiunge gli strumenti raffinati realizzati per i viaggiatori a lungo termine.",
+          "premiumBadgeRoutes": "Tutti i percorsi",
+          "premiumBadgeAds": "Senza pubblicità",
+          "premiumBadgeCrossings": "Incroci inclusi",
+          "premiumCompareKicker": "Scegli la tua esperienza",
+          "premiumCompareTitle": "Il viaggio principale è gratuito. Premium espande il mondo.",
+          "premiumCompareText": "WalkQuest non richiede un account. Gli acquisti sono gestiti da Google Play e possono essere ripristinati.",
+          "freeLabel": "Inizia gratis",
+          "freeTitle": "Viaggiatore libero",
+          "freePrice": "Esplora prima di aggiornare.",
+          "free1": "Il percorso iniziale completo di Europe Explorer",
+          "free2": "Sincronizzazione dei passi, avanzamento della mappa, guide della città, passaporto, missioni e risultati",
+          "free3": "Potrebbero essere visualizzati annunci tra le parti dell'esperienza",
+          "free4": "Le traversate possono utilizzare punti di viaggio, video premio o biglietti individuali",
+          "plusTitle": "Viaggiatore completo",
+          "plusPrice": "Sblocca l'esperienza WalkQuest completa.",
+          "plus1": "Tutti i percorsi Premium sbloccati",
+          "plus2": "Nessun banner o pubblicità interstitial",
+          "plus3": "Temi Premium e statistiche di viaggio avanzate",
+          "plus4": "Carte condivise Premium e certificati di percorso",
+          "plus5": "Attraversamenti di percorso inclusi senza costo in punti viaggio",
+          "plus6": "Tempo di viaggio di un giorno per i trasferimenti inclusi",
+          "premiumPlansKicker": "Opzioni di acquisto",
+          "premiumPlansTitle": "Scegli l'opzione mostrata nella tua app",
+          "premiumPlansText": "Disponibilità e prezzi localizzati provengono direttamente da Google Play. Il sito web non mostra mai un prezzo fisso obsoleto.",
+          "monthlyTitle": "Premium mensile",
+          "monthlyText": "Accesso flessibile fatturato tramite Google Play in base all'offerta mostrata nell'app.",
+          "yearlyTitle": "Premium annuale",
+          "yearlyText": "Accesso più lungo per gli escursionisti che pianificano diversi percorsi e stagioni di progresso.",
+          "lifetimeTitle": "Premium a vita",
+          "lifetimeText": "Un acquisto una tantum non consumabile che sblocca permanentemente Premium.",
+          "individualTitle": "Percorsi individuali",
+          "individualText": "I percorsi selezionati potrebbero essere disponibili anche come acquisti separati una tantum.",
+          "premiumCrossKicker": "Incroci Premium",
+          "premiumCrossTitle": "Continua l'avventura in movimento sull'acqua",
+          "premiumCrossText": "Quando un percorso raggiunge un traghetto, un treno o un gate di volo, Premium avvia il trasferimento senza spendere punti di viaggio e utilizza un tempo di viaggio di un giorno.",
+          "premiumRestoreTitle": "Ripristina gli acquisti.",
+          "premiumRestoreText": "Utilizza l'opzione di ripristino nell'app dopo aver reinstallato o spostato su un altro dispositivo Android.",
+          "premiumBillingTitle": "Fatturazione Google Play.",
+          "premiumBillingText": "I dettagli del pagamento vengono elaborati da Google Play; WalkQuest non memorizza i dati completi della tua carta.",
+          "premiumFerryTitle": "Traghetto",
+          "premiumFerryText": "Le rotte delle isole e i canali marittimi diventano tappe memorabili anziché vicoli ciechi.",
+          "premiumFlightTitle": "Volo",
+          "premiumFlightText": "Gli epici percorsi globali possono continuare tra i continenti mentre il tuo sforzo di camminare rimane limitato.",
+          "premiumCtaTitle": "Visualizza le attuali opzioni Premium in WalkQuest",
+          "premiumCtaText": "Apri l'app per verificare la disponibilità, le informazioni sulla prova e il prezzo Google Play locale.",
+          "playSmall": "Mettiti al lavoro",
+          "premiumHeroAlt": "Passaporto premium WalkQuest, certificati di percorso, francobolli, mappa e biglietti di trasporto"
+        }
+      }
+    },
+    "tr": {
+      "relativePath": "tr/premium.html",
+      "lang": "tr",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "İçeriğe atla",
+        "navHome": "Ana sayfa",
+        "navGuide": "Oyun rehberi",
+        "navRoutes": "Rotalar",
+        "navPremium": "Premium",
+        "navNews": "Haberler",
+        "navPrivacy": "Gizlilik",
+        "languageLabel": "Dil seçin",
+        "footerTagline": "Gerçek adımlar. Dikkat çekici yolculuklar.",
+        "footerRights": "Tüm hakları saklıdır."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/tr/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/tr/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "tr"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/tr/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Daha fazla dünya. Reklam yok. Her yürüyüş daha da ileri gider.",
+          "premiumDesc": "Premium, rota kitaplığının tamamını açar ve uzun süreli seyahat edenlere yönelik geliştirilmiş araçları ekler.",
+          "premiumBadgeRoutes": "Tüm rotalar",
+          "premiumBadgeAds": "Reklamsız",
+          "premiumBadgeCrossings": "Geçişler dahil",
+          "premiumCompareKicker": "Deneyiminizi seçin",
+          "premiumCompareTitle": "Temel yolculuk ücretsizdir. Premium dünyayı genişletiyor.",
+          "premiumCompareText": "WalkQuest bir hesap gerektirmez. Satın alma işlemleri Google Play tarafından gerçekleştirilir ve geri yüklenebilir.",
+          "freeLabel": "Ücretsiz başlayın",
+          "freeTitle": "Özgür gezgin",
+          "freePrice": "Yükseltmeden önce keşfedin.",
+          "free1": "Tam Europe Explorer başlangıç rotası",
+          "free2": "Adım senkronizasyonu, harita ilerlemesi, şehir rehberleri, pasaport, görevler ve başarılar",
+          "free3": "Deneyimin bölümleri arasında reklamlar görünebilir",
+          "free4": "Geçişlerde seyahat puanları, ödüllü videolar veya bireysel biletler kullanılabilir",
+          "plusTitle": "Komple gezgin",
+          "plusPrice": "Tam WalkQuest deneyiminin kilidini açın.",
+          "plus1": "Tüm Premium rotalarının kilidi açıldı",
+          "plus2": "Banner veya geçiş reklamı yok",
+          "plus3": "Premium temaları ve gelişmiş seyahat istatistikleri",
+          "plus4": "Premium paylaşım kartları ve yönlendirme sertifikaları",
+          "plus5": "Güzergah geçişleri, seyahat noktası maliyeti olmaksızın dahildir",
+          "plus6": "Dahil olan transferler için bir günlük seyahat süresi",
+          "premiumPlansKicker": "Satın alma seçenekleri",
+          "premiumPlansTitle": "Uygulamanızda gösterilen seçeneği seçin",
+          "premiumPlansText": "Kullanılabilirlik ve yerelleştirilmiş fiyatlar doğrudan Google Play'ten gelir. Web sitesi hiçbir zaman güncel olmayan bir sabit fiyat göstermez.",
+          "monthlyTitle": "Aylık Premium",
+          "monthlyText": "Uygulamada gösterilen teklife göre Google Play aracılığıyla faturalandırılan esnek erişim.",
+          "yearlyTitle": "Yıllık Premium",
+          "yearlyText": "Birkaç rota ve ilerleme mevsimi planlayan yürüyüşçüler için daha uzun erişim.",
+          "lifetimeTitle": "Ömür boyu Premium",
+          "lifetimeText": "Premium'in kilidini kalıcı olarak açan, tek seferlik, sarf malzemesi olmayan bir satın alma işlemidir.",
+          "individualTitle": "Bireysel rotalar",
+          "individualText": "Seçilen rotalar tek seferlik ayrı satın alımlar olarak da mevcut olabilir.",
+          "premiumCrossKicker": "Premium geçişleri",
+          "premiumCrossTitle": "Macerayı suyun üzerinde ilerletin",
+          "premiumCrossText": "Bir rota feribota, trene veya uçuş kapısına ulaştığında Premium seyahat puanı harcamadan aktarımı başlatır ve bir günlük yolculuk süresini kullanır.",
+          "premiumRestoreTitle": "Satın alınanları geri yükleyin.",
+          "premiumRestoreText": "Başka bir Android cihazını yeniden yükledikten veya taşıdıktan sonra uygulamadaki geri yükleme seçeneğini kullanın.",
+          "premiumBillingTitle": "Google Play faturalandırma.",
+          "premiumBillingText": "Ödeme ayrıntıları Google Play tarafından işlenir; WalkQuest kart bilgilerinizin tamamını saklamaz.",
+          "premiumFerryTitle": "Feribot",
+          "premiumFerryText": "Ada rotaları ve deniz kanalları çıkmaz sokaklar yerine unutulmaz sahnelere dönüşüyor.",
+          "premiumFlightTitle": "Uçuş",
+          "premiumFlightText": "Yürüme çabanız bankada kalırken, kıtalar arasında destansı küresel rotalar devam edebilir.",
+          "premiumCtaTitle": "WalkQuest'teki mevcut Premium seçeneklerine bakın",
+          "premiumCtaText": "Kullanılabilirlik, deneme bilgileri ve yerel Google Play fiyatınız için uygulamayı açın.",
+          "playSmall": "Başla",
+          "premiumHeroAlt": "WalkQuest premium pasaport, rota sertifikaları, pullar, harita ve ulaşım biletleri"
+        }
+      }
+    },
+    "ja": {
+      "relativePath": "ja/premium.html",
+      "lang": "ja",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "コンテンツにスキップ",
+        "navHome": "ホーム",
+        "navGuide": "ゲームガイド",
+        "navRoutes": "ルート",
+        "navPremium": "Premium",
+        "navNews": "ニュース",
+        "navPrivacy": "プライバシー",
+        "languageLabel": "言語を選択してください",
+        "footerTagline": "本当のステップ。素晴らしい旅。",
+        "footerRights": "すべての著作権は留保されています。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ja/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ja/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ja"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ja/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "さらなる世界。広告はありません。歩くたびにさらに前進します。",
+          "premiumDesc": "Premium は完全なルート ライブラリを開き、長期旅行者向けに作られた洗練されたツールを追加します。",
+          "premiumBadgeRoutes": "全路線",
+          "premiumBadgeAds": "広告なし",
+          "premiumBadgeCrossings": "交差点を含む",
+          "premiumCompareKicker": "あなたの経験を選択してください",
+          "premiumCompareTitle": "主要な旅程は無料です。 Premiumで世界が広がります。",
+          "premiumCompareText": "WalkQuest にはアカウントは必要ありません。購入は Google Play によって処理され、復元できます。",
+          "freeLabel": "無料で始める",
+          "freeTitle": "自由な旅行者",
+          "freePrice": "アップグレードする前に調べてください。",
+          "free1": "完全な Europe Explorer スターター ルート",
+          "free2": "ステップ同期、マップの進行状況、シティガイド、パスポート、ミッション、実績",
+          "free3": "エクスペリエンスの各部分の間に広告が表示される場合があります",
+          "free4": "交差点では、トラベル ポイント、特典ビデオ、または個別のチケットを使用できます",
+          "plusTitle": "完全な旅行者",
+          "plusPrice": "完全な WalkQuest エクスペリエンスのロックを解除してください。",
+          "plus1": "すべての Premium ルートがロック解除されました",
+          "plus2": "バナーやインタースティシャル広告はありません",
+          "plus3": "Premium テーマと高度な旅行統計",
+          "plus4": "Premium 共有カードとルート証明書",
+          "plus5": "ルート横断は移動ポイントの費用なしで含まれます",
+          "plus6": "送迎込みの場合の移動時間は 1 日です",
+          "premiumPlansKicker": "購入オプション",
+          "premiumPlansTitle": "アプリに表示されるオプションを選択してください",
+          "premiumPlansText": "入手可能性とローカライズされた価格は Google Play から直接提供されます。ウェブサイトには古い固定価格が表示されることはありません。",
+          "monthlyTitle": "月刊Premium",
+          "monthlyText": "アプリに表示されるオファーに従って、Google Play を通じて請求される柔軟なアクセス。",
+          "yearlyTitle": "年間 Premium",
+          "yearlyText": "複数のルートやシーズンの進行を計画しているウォーカーにとって、より長いアクセスが可能です。",
+          "lifetimeTitle": "生涯 Premium",
+          "lifetimeText": "Premium を永久にロック解除する非消耗品の 1 回限りの購入。",
+          "individualTitle": "個別ルート",
+          "individualText": "選択したルートは、個別の 1 回限りの購入としても利用できる場合があります。",
+          "premiumCrossKicker": "Premium交差点",
+          "premiumCrossTitle": "水の上で冒険を続けましょう",
+          "premiumCrossText": "ルートがフェリー、電車、または飛行機のゲートに到着すると、Premium はトラベル ポイントを消費せずに移動を開始し、移動時間は 1 日になります。",
+          "premiumRestoreTitle": "購入したものを復元します。",
+          "premiumRestoreText": "別の Android デバイスを再インストールまたは移動した後は、アプリの復元オプションを使用してください。",
+          "premiumBillingTitle": "Google Play課金。",
+          "premiumBillingText": "支払いの詳細は Google Play によって処理されます。 WalkQuest は完全なカード情報を保存しません。",
+          "premiumFerryTitle": "フェリー",
+          "premiumFerryText": "島の航路や海路は行き止まりではなく、思い出に残るステージになります。",
+          "premiumFlightTitle": "フライト",
+          "premiumFlightText": "壮大な世界ルートは、歩く努力を無駄にせずに大陸間を続けることができます。",
+          "premiumCtaTitle": "WalkQuest の現在の Premium オプションを参照してください",
+          "premiumCtaText": "アプリを開いて、在庫状況、トライアル情報、および現地の Google Play 価格を確認してください。",
+          "playSmall": "それを着てください",
+          "premiumHeroAlt": "WalkQuest プレミアムパスポート、路線証明書、スタンプ、地図、交通チケット"
+        }
+      }
+    },
+    "ko": {
+      "relativePath": "ko/premium.html",
+      "lang": "ko",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "콘텐츠로 건너뛰기",
+        "navHome": "홈",
+        "navGuide": "게임 가이드",
+        "navRoutes": "노선",
+        "navPremium": "Premium",
+        "navNews": "뉴스",
+        "navPrivacy": "개인 정보 보호",
+        "languageLabel": "언어를 선택하세요",
+        "footerTagline": "실제 단계. 놀라운 여행.",
+        "footerRights": "모든 권리 보유."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ko/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ko/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ko"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ko/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "더 많은 세계. 광고가 없습니다. 걸을 때마다 더 멀리 나아갑니다.",
+          "premiumDesc": "Premium는 전체 경로 라이브러리를 열고 장기 여행자를 위해 만들어진 세련된 도구를 추가합니다.",
+          "premiumBadgeRoutes": "모든 노선",
+          "premiumBadgeAds": "광고 없음",
+          "premiumBadgeCrossings": "횡단시설 포함",
+          "premiumCompareKicker": "당신의 경험을 선택하세요",
+          "premiumCompareTitle": "핵심 여행은 무료입니다. Premium는 세상을 확장합니다.",
+          "premiumCompareText": "WalkQuest에는 계정이 필요하지 않습니다. 구매는 Google Play에서 처리되며 복원될 수 있습니다.",
+          "freeLabel": "무료로 시작하세요",
+          "freeTitle": "자유 여행자",
+          "freePrice": "업그레이드하기 전에 살펴보세요.",
+          "free1": "완전한 Europe Explorer 스타터 루트",
+          "free2": "단계 동기화, 지도 진행 상황, 도시 가이드, 여권, 임무 및 업적",
+          "free3": "경험의 일부 사이에 광고가 나타날 수 있습니다.",
+          "free4": "횡단에는 여행 포인트, 보상 비디오 또는 개별 티켓을 사용할 수 있습니다.",
+          "plusTitle": "완전한 여행자",
+          "plusPrice": "전체 WalkQuest 경험을 잠금 해제하세요.",
+          "plus1": "모든 Premium 경로 잠금 해제",
+          "plus2": "배너 또는 전면 광고 없음",
+          "plus3": "Premium 테마 및 고급 여행 통계",
+          "plus4": "Premium 공유 카드 및 경로 인증서",
+          "plus5": "이동 포인트 비용 없이 포함된 노선 교차점",
+          "plus6": "포함된 교통편의 하루 여행 시간",
+          "premiumPlansKicker": "구매 옵션",
+          "premiumPlansTitle": "앱에 표시된 옵션을 선택하세요.",
+          "premiumPlansText": "가용성 및 현지화된 가격은 Google Play에서 직접 제공됩니다. 웹사이트에는 오래된 고정 가격이 표시되지 않습니다.",
+          "monthlyTitle": "월간 Premium",
+          "monthlyText": "앱에 표시된 제안에 따라 Google Play를 통해 청구되는 유연한 액세스입니다.",
+          "yearlyTitle": "연간 Premium",
+          "yearlyText": "여러 경로와 진행 시즌을 계획하는 보행자를 위한 더 긴 접근성.",
+          "lifetimeTitle": "평생 Premium",
+          "lifetimeText": "Premium를 영구적으로 잠금 해제하는 일회성 비소모성 구매입니다.",
+          "individualTitle": "개별 노선",
+          "individualText": "선택한 노선은 별도의 일회성 구매로도 이용 가능합니다.",
+          "premiumCrossKicker": "Premium 교차로",
+          "premiumCrossTitle": "계속해서 물을 건너 모험을 떠나세요",
+          "premiumCrossText": "경로가 페리, 기차 또는 비행 게이트에 도달하면 Premium는 여행 포인트를 사용하지 않고 환승을 시작하고 1일 여행 시간을 사용합니다.",
+          "premiumRestoreTitle": "구매를 복원합니다.",
+          "premiumRestoreText": "다른 Android 기기를 재설치하거나 이동한 후 앱의 복원 옵션을 사용하세요.",
+          "premiumBillingTitle": "Google Play 청구.",
+          "premiumBillingText": "결제 세부정보는 Google Play에서 처리됩니다. WalkQuest는 전체 카드 정보를 저장하지 않습니다.",
+          "premiumFerryTitle": "페리",
+          "premiumFerryText": "섬길과 바다 수로는 막다른 골목이 아닌 기억에 남는 무대가 됩니다.",
+          "premiumFlightTitle": "비행",
+          "premiumFlightText": "걷는 노력이 계속 유지되는 동안 대륙 간에 서사시적인 글로벌 경로가 계속될 수 있습니다.",
+          "premiumCtaTitle": "WalkQuest의 현재 Premium 옵션을 확인하세요.",
+          "premiumCtaText": "가용성, 평가판 정보 및 현지 Google Play 가격을 보려면 앱을 엽니다.",
+          "playSmall": "시작해 보세요",
+          "premiumHeroAlt": "WalkQuest 프리미엄 여권, 노선증명서, 스탬프, 지도, 교통티켓"
+        }
+      }
+    },
+    "zh-cn": {
+      "relativePath": "zh-cn/premium.html",
+      "lang": "zh-CN",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "跳至内容",
+        "navHome": "首页",
+        "navGuide": "游戏指南",
+        "navRoutes": "路线",
+        "navPremium": "Premium",
+        "navNews": "新闻动态",
+        "navPrivacy": "隐私",
+        "languageLabel": "选择语言",
+        "footerTagline": "真实的步骤。非凡的旅程。",
+        "footerRights": "保留所有权利。"
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/zh-cn/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/zh-cn/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "zh_CN"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/zh-cn/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "更多的世界。没有广告。每一次行走，都会走得更远。",
+          "premiumDesc": "Premium 打开完整的路线库，并添加了专为长期旅行者设计的精美工具。",
+          "premiumBadgeRoutes": "所有航线",
+          "premiumBadgeAds": "无广告",
+          "premiumBadgeCrossings": "包括交叉口",
+          "premiumCompareKicker": "选择您的经历",
+          "premiumCompareTitle": "核心旅程是免费的。 Premium 拓展世界。",
+          "premiumCompareText": "WalkQuest 不需要帐户。购买由 Google Play 处理并可以恢复。",
+          "freeLabel": "免费开始",
+          "freeTitle": "自由行者",
+          "freePrice": "升级前先进行探索。",
+          "free1": "完整的 Europe Explorer 入门路线",
+          "free2": "步骤同步、地图进度、城市指南、护照、任务和成就",
+          "free3": "广告可能会出现在体验的各个部分之间",
+          "free4": "交叉口可以使用旅行积分、奖励视频或个人门票",
+          "plusTitle": "完整的旅行者",
+          "plusPrice": "解锁完整的 WalkQuest 体验。",
+          "plus1": "所有Premium路线已解锁",
+          "plus2": "没有横幅或插页式广告",
+          "plus3": "Premium 主题和高级旅行统计数据",
+          "plus4": "Premium 共享卡和路由证书",
+          "plus5": "包括路线交叉口，无需支付旅行点费用",
+          "plus6": "包含接送服务的一日旅行时间",
+          "premiumPlansKicker": "购买选项",
+          "premiumPlansTitle": "选择您的应用程序中显示的选项",
+          "premiumPlansText": "可用性和本地化价格直接来自 Google Play。该网站从不显示过时的固定价格。",
+          "monthlyTitle": "每月 Premium",
+          "monthlyText": "根据应用程序中显示的优惠通过 Google Play 灵活访问。",
+          "yearlyTitle": "每年 Premium",
+          "yearlyText": "为规划多条路线和多个季节的步行者提供更长的通道。",
+          "lifetimeTitle": "终身 Premium",
+          "lifetimeText": "一次性非消耗品购买，可永久解锁 Premium。",
+          "individualTitle": "个别路线",
+          "individualText": "选定的路线也可以单独一次性购买。",
+          "premiumCrossKicker": "Premium 交叉口",
+          "premiumCrossTitle": "让冒险继续在水上进行",
+          "premiumCrossText": "当航线到达轮渡、火车或登机口时，Premium 无需花费旅行积分即可开始转乘，并使用一日旅程时间。",
+          "premiumRestoreTitle": "恢复购买。",
+          "premiumRestoreText": "重新安装或移动到另一台 Android 设备后，请使用应用程序中的恢复选项。",
+          "premiumBillingTitle": "Google Play计费。",
+          "premiumBillingText": "付款详情由Google Play处理； WalkQuest 不会存储您的完整卡信息。",
+          "premiumFerryTitle": "渡轮",
+          "premiumFerryText": "岛屿航线和海道成为令人难忘的舞台，而不是死胡同。",
+          "premiumFlightTitle": "航班",
+          "premiumFlightText": "史诗般的全球路线可以在各大洲之间继续进行，同时您的步行努力也不会受到影响。",
+          "premiumCtaTitle": "查看 WalkQuest 中当前的 Premium 选项",
+          "premiumCtaText": "打开应用程序了解可用性、试用信息以及您当地的 Google Play 价格。",
+          "playSmall": "穿上它",
+          "premiumHeroAlt": "WalkQuest 高级护照、路线证明、邮票、地图和交通票"
+        }
+      }
+    },
+    "ar": {
+      "relativePath": "ar/premium.html",
+      "lang": "ar",
+      "dir": "rtl",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "انتقل إلى المحتوى",
+        "navHome": "الصفحة الرئيسية",
+        "navGuide": "دليل اللعبة",
+        "navRoutes": "الطرق",
+        "navPremium": "Premium",
+        "navNews": "أخبار",
+        "navPrivacy": "الخصوصية",
+        "languageLabel": "اختر اللغة",
+        "footerTagline": "خطوات حقيقية. رحلات رائعة.",
+        "footerRights": "جميع الحقوق محفوظة."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/ar/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/ar/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "ar"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/ar/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "المزيد من العوالم. لا إعلانات. كل المشي يذهب أبعد من ذلك.",
+          "premiumDesc": "يفتح Premium مكتبة المسارات الكاملة ويضيف الأدوات المصقولة المصممة للمسافرين لفترات طويلة.",
+          "premiumBadgeRoutes": "جميع الطرق",
+          "premiumBadgeAds": "خالية من الإعلانات",
+          "premiumBadgeCrossings": "وشملت المعابر",
+          "premiumCompareKicker": "اختر تجربتك",
+          "premiumCompareTitle": "الرحلة الأساسية مجانية. Premium توسع العالم.",
+          "premiumCompareText": "WalkQuest لا يتطلب حسابًا. تتم معالجة عمليات الشراء بواسطة Google Play ويمكن استعادتها.",
+          "freeLabel": "ابدأ مجانًا",
+          "freeTitle": "مسافر حر",
+          "freePrice": "استكشف قبل الترقية.",
+          "free1": "مسار بداية Europe Explorer الكامل",
+          "free2": "مزامنة الخطوات وتقدم الخريطة وأدلة المدن وجواز السفر والمهام والإنجازات",
+          "free3": "قد تظهر الإعلانات بين أجزاء التجربة",
+          "free4": "يمكن أن تستخدم المعابر نقاط السفر أو مقاطع الفيديو المكافأة أو التذاكر الفردية",
+          "plusTitle": "مسافر كامل",
+          "plusPrice": "أطلق العنان لتجربة WalkQuest الكاملة.",
+          "plus1": "جميع طرق Premium مقفلة",
+          "plus2": "لا لافتة أو الإعلانات البينية",
+          "plus3": "سمات Premium وإحصائيات السفر المتقدمة",
+          "plus4": "بطاقات مشاركة Premium وشهادات المسار",
+          "plus5": "معابر الطريق متضمنة بدون تكلفة نقطة السفر",
+          "plus6": "وقت السفر ليوم واحد للانتقالات المشمولة",
+          "premiumPlansKicker": "خيارات الشراء",
+          "premiumPlansTitle": "اختر الخيار الموضح في تطبيقك",
+          "premiumPlansText": "التوفر والأسعار المحلية تأتي مباشرة من Google Play. لا يعرض الموقع أبدًا سعرًا ثابتًا قديمًا.",
+          "monthlyTitle": "Premium الشهري",
+          "monthlyText": "الوصول المرن الذي تتم فوترته من خلال Google Play وفقًا للعرض الموضح في التطبيق.",
+          "yearlyTitle": "سنوي Premium",
+          "yearlyText": "وصول أطول للمشاة الذين يخططون لعدة طرق ومواسم من التقدم.",
+          "lifetimeTitle": "مدى الحياة Premium",
+          "lifetimeText": "عملية شراء غير قابلة للاستهلاك لمرة واحدة تفتح Premium بشكل دائم.",
+          "individualTitle": "الطرق الفردية",
+          "individualText": "قد تكون المسارات المحددة متاحة أيضًا كمشتريات منفصلة لمرة واحدة.",
+          "premiumCrossKicker": "معابر Premium",
+          "premiumCrossTitle": "حافظ على المغامرة تتحرك عبر الماء",
+          "premiumCrossText": "عندما يصل المسار إلى عبّارة أو قطار أو بوابة طيران، تبدأ Premium عملية النقل دون إنفاق نقاط السفر وتستخدم وقت رحلة مدته يوم واحد.",
+          "premiumRestoreTitle": "استعادة المشتريات.",
+          "premiumRestoreText": "استخدم خيار الاستعادة في التطبيق بعد إعادة التثبيت أو الانتقال إلى جهاز Android آخر.",
+          "premiumBillingTitle": "فاتورة Google Play.",
+          "premiumBillingText": "تتم معالجة تفاصيل الدفع بواسطة Google Play؛ لا تقوم WalkQuest بتخزين معلومات بطاقتك الكاملة.",
+          "premiumFerryTitle": "العبارة",
+          "premiumFerryText": "تصبح طرق الجزيرة والقنوات البحرية محطات لا تُنسى بدلاً من الطرق المسدودة.",
+          "premiumFlightTitle": "رحلة",
+          "premiumFlightText": "يمكن أن تستمر الطرق العالمية الملحمية بين القارات بينما يظل جهد المشي الخاص بك متوقفًا.",
+          "premiumCtaTitle": "راجع خيارات Premium الحالية في WalkQuest",
+          "premiumCtaText": "افتح التطبيق لمعرفة مدى التوفر والمعلومات التجريبية وسعر Google Play المحلي.",
+          "playSmall": "احصل عليه",
+          "premiumHeroAlt": "جواز سفر WalkQuest المميز وشهادات الطريق والطوابع والخريطة وتذاكر النقل"
+        }
+      }
+    },
+    "hi": {
+      "relativePath": "hi/premium.html",
+      "lang": "hi",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "सामग्री पर जाएं",
+        "navHome": "घर",
+        "navGuide": "गेम गाइड",
+        "navRoutes": "मार्ग",
+        "navPremium": "Premium",
+        "navNews": "समाचार",
+        "navPrivacy": "गोपनीयता",
+        "languageLabel": "भाषा चुनें",
+        "footerTagline": "असली कदम. उल्लेखनीय यात्राएँ.",
+        "footerRights": "सर्वाधिकार सुरक्षित."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/hi/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/hi/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "hi"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/hi/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "और अधिक संसार. कोई विज्ञापन नहीं. हर चाल आगे बढ़ती है।",
+          "premiumDesc": "Premium संपूर्ण रूट लाइब्रेरी खोलता है और लंबी अवधि के यात्रियों के लिए बनाए गए परिष्कृत उपकरण जोड़ता है।",
+          "premiumBadgeRoutes": "सभी मार्ग",
+          "premiumBadgeAds": "विज्ञापन-मुक्त",
+          "premiumBadgeCrossings": "क्रॉसिंग शामिल हैं",
+          "premiumCompareKicker": "अपना अनुभव चुनें",
+          "premiumCompareTitle": "मुख्य यात्रा मुफ़्त है. Premium दुनिया का विस्तार करता है।",
+          "premiumCompareText": "WalkQuest को किसी खाते की आवश्यकता नहीं है। खरीदारी Google Play द्वारा नियंत्रित की जाती है और उसे पुनर्स्थापित किया जा सकता है।",
+          "freeLabel": "निःशुल्क प्रारंभ करें",
+          "freeTitle": "स्वतंत्र यात्री",
+          "freePrice": "अपग्रेड करने से पहले अन्वेषण करें.",
+          "free1": "संपूर्ण Europe Explorer स्टार्टर मार्ग",
+          "free2": "चरण समन्वयन, मानचित्र प्रगति, शहर गाइड, पासपोर्ट, मिशन और उपलब्धियाँ",
+          "free3": "विज्ञापन अनुभव के कुछ हिस्सों के बीच प्रदर्शित हो सकते हैं",
+          "free4": "क्रॉसिंग यात्रा बिंदु, पुरस्कृत वीडियो या व्यक्तिगत टिकटों का उपयोग कर सकते हैं",
+          "plusTitle": "पूर्ण यात्री",
+          "plusPrice": "संपूर्ण WalkQuest अनुभव अनलॉक करें।",
+          "plus1": "सभी Premium मार्ग अनलॉक हो गए",
+          "plus2": "कोई बैनर या मध्यवर्ती विज्ञापन नहीं",
+          "plus3": "Premium थीम और उन्नत यात्रा आँकड़े",
+          "plus4": "Premium शेयर कार्ड और रूट प्रमाणपत्र",
+          "plus5": "यात्रा-बिंदु लागत के बिना रूट क्रॉसिंग शामिल है",
+          "plus6": "शामिल स्थानान्तरण के लिए एक दिवसीय यात्रा का समय",
+          "premiumPlansKicker": "खरीद विकल्प",
+          "premiumPlansTitle": "अपने ऐप में दिखाया गया विकल्प चुनें",
+          "premiumPlansText": "उपलब्धता और स्थानीय कीमतें सीधे Google Play से आती हैं। वेबसाइट कभी भी पुराना निर्धारित मूल्य प्रदर्शित नहीं करती।",
+          "monthlyTitle": "मासिक Premium",
+          "monthlyText": "ऐप में दिखाए गए ऑफर के अनुसार Google Play के माध्यम से लचीले एक्सेस बिल का भुगतान किया जाता है।",
+          "yearlyTitle": "वार्षिक Premium",
+          "yearlyText": "कई मार्गों और प्रगति के मौसमों की योजना बनाने वाले पैदल यात्रियों के लिए लंबी पहुंच।",
+          "lifetimeTitle": "लाइफटाइम Premium",
+          "lifetimeText": "एक बार की गैर-उपभोज्य खरीदारी जो स्थायी रूप से Premium को अनलॉक करती है।",
+          "individualTitle": "व्यक्तिगत मार्ग",
+          "individualText": "चयनित मार्ग अलग-अलग एकमुश्त खरीदारी के रूप में भी उपलब्ध हो सकते हैं।",
+          "premiumCrossKicker": "Premium क्रॉसिंग",
+          "premiumCrossTitle": "पानी के पार साहसिक कार्य जारी रखें",
+          "premiumCrossText": "जब कोई मार्ग किसी नौका, ट्रेन या उड़ान गेट तक पहुंचता है, तो Premium यात्रा बिंदु खर्च किए बिना स्थानांतरण शुरू करता है और एक दिन की यात्रा के समय का उपयोग करता है।",
+          "premiumRestoreTitle": "खरीदारी बहाल करें.",
+          "premiumRestoreText": "दोबारा इंस्टॉल करने या किसी अन्य एंड्रॉइड डिवाइस पर जाने के बाद ऐप में रिस्टोर विकल्प का उपयोग करें।",
+          "premiumBillingTitle": "Google Play बिलिंग।",
+          "premiumBillingText": "भुगतान विवरण Google Play द्वारा संसाधित किए जाते हैं; WalkQuest आपके कार्ड की पूरी जानकारी संग्रहीत नहीं करता है।",
+          "premiumFerryTitle": "नौका",
+          "premiumFerryText": "द्वीप मार्ग और समुद्री चैनल गतिरोध के स्थान पर यादगार पड़ाव बन जाते हैं।",
+          "premiumFlightTitle": "उड़ान",
+          "premiumFlightText": "महाकाव्य वैश्विक मार्ग महाद्वीपों के बीच जारी रह सकते हैं, जबकि आपके चलने का प्रयास सुरक्षित रहेगा।",
+          "premiumCtaTitle": "WalkQuest में वर्तमान Premium विकल्प देखें",
+          "premiumCtaText": "उपलब्धता, परीक्षण जानकारी और अपने स्थानीय Google Play मूल्य के लिए ऐप खोलें।",
+          "playSmall": "इसे लगाओ",
+          "premiumHeroAlt": "WalkQuest प्रीमियम पासपोर्ट, रूट प्रमाणपत्र, टिकटें, मानचित्र और परिवहन टिकट"
+        }
+      }
+    },
+    "pt-br": {
+      "relativePath": "pt-br/premium.html",
+      "lang": "pt-BR",
+      "dir": "ltr",
+      "bodyAttributes": {
+        "class": "info-site",
+        "data-page": "premium"
+      },
+      "labels": {
+        "skipLink": "Pular para o conteúdo",
+        "navHome": "Página inicial",
+        "navGuide": "Guia do jogo",
+        "navRoutes": "Rotas",
+        "navPremium": "Premium",
+        "navNews": "Notícias",
+        "navPrivacy": "Privacidade",
+        "languageLabel": "Escolha o idioma",
+        "footerTagline": "Passos reais. Viagens notáveis.",
+        "footerRights": "Todos os direitos reservados."
+      },
+      "head": {
+        "charset": "utf-8",
+        "title": "Premium | WalkQuest",
+        "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+        "robots": "index, follow",
+        "canonical": "https://walkquest.site/pt-br/premium.html",
+        "alternates": [
+          {
+            "lang": "en",
+            "href": "https://walkquest.site/premium.html"
+          },
+          {
+            "lang": "uk",
+            "href": "https://walkquest.site/uk/premium.html"
+          },
+          {
+            "lang": "ru",
+            "href": "https://walkquest.site/ru/premium.html"
+          },
+          {
+            "lang": "es",
+            "href": "https://walkquest.site/es/premium.html"
+          },
+          {
+            "lang": "de",
+            "href": "https://walkquest.site/de/premium.html"
+          },
+          {
+            "lang": "fr",
+            "href": "https://walkquest.site/fr/premium.html"
+          },
+          {
+            "lang": "pl",
+            "href": "https://walkquest.site/pl/premium.html"
+          },
+          {
+            "lang": "pt",
+            "href": "https://walkquest.site/pt/premium.html"
+          },
+          {
+            "lang": "it",
+            "href": "https://walkquest.site/it/premium.html"
+          },
+          {
+            "lang": "tr",
+            "href": "https://walkquest.site/tr/premium.html"
+          },
+          {
+            "lang": "ja",
+            "href": "https://walkquest.site/ja/premium.html"
+          },
+          {
+            "lang": "ko",
+            "href": "https://walkquest.site/ko/premium.html"
+          },
+          {
+            "lang": "zh-CN",
+            "href": "https://walkquest.site/zh-cn/premium.html"
+          },
+          {
+            "lang": "ar",
+            "href": "https://walkquest.site/ar/premium.html"
+          },
+          {
+            "lang": "hi",
+            "href": "https://walkquest.site/hi/premium.html"
+          },
+          {
+            "lang": "pt-BR",
+            "href": "https://walkquest.site/pt-br/premium.html"
+          },
+          {
+            "lang": "x-default",
+            "href": "https://walkquest.site/premium.html"
+          }
+        ],
+        "icon": {
+          "href": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23082f36'/%3E%3Cpath d='M16 43c10-19 22-7 32-25' fill='none' stroke='%23ffd166' stroke-width='6' stroke-linecap='round' stroke-dasharray='2 10'/%3E%3Ccircle cx='48' cy='18' r='7' fill='%23ff6b4a'/%3E%3Ccircle cx='16' cy='43' r='6' fill='%2377dfb3'/%3E%3C/svg%3E",
+          "type": "image/svg+xml"
+        },
+        "preconnects": [
+          {
+            "href": "https://fonts.googleapis.com",
+            "crossOrigin": false
+          },
+          {
+            "href": "https://fonts.gstatic.com",
+            "crossOrigin": true
+          }
+        ],
+        "stylesheets": [
+          "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700;800&display=swap",
+          "../styles.css",
+          "../pages.css?v=3"
+        ],
+        "openGraph": {
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
+          "imageWidth": "1672",
+          "imageHeight": "941",
+          "url": "https://walkquest.site/pt-br/premium.html",
+          "type": "website",
+          "siteName": "WalkQuest",
+          "locale": "pt_BR"
+        },
+        "twitter": {
+          "card": "summary_large_image",
+          "title": "Premium | WalkQuest",
+          "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
+          "image": "https://walkquest.site/assets/premium-hero.png",
+          "url": "https://walkquest.site/pt-br/premium.html"
+        },
+        "structuredData": [],
+        "scripts": [],
+        "inlineStyles": []
+      },
+      "chrome": "site",
+      "bodyScripts": [
+        {
+          "src": "../pages-translations.js",
+          "defer": false
+        },
+        {
+          "src": "../pages.js",
+          "defer": false
+        }
+      ],
+      "premium": {
+        "copy": {
+          "premiumEyebrow": "WalkQuest Premium",
+          "premiumTitle": "Mais mundos. Sem anúncios. Cada caminhada vai mais longe.",
+          "premiumDesc": "Premium abre a biblioteca completa de rotas e adiciona ferramentas sofisticadas feitas para viajantes de longo prazo.",
+          "premiumBadgeRoutes": "Todas as rotas",
+          "premiumBadgeAds": "Sem anúncios",
+          "premiumBadgeCrossings": "Travessias incluídas",
+          "premiumCompareKicker": "Escolha sua experiência",
+          "premiumCompareTitle": "A jornada principal é gratuita. Premium expande o mundo.",
+          "premiumCompareText": "WalkQuest não requer uma conta. As compras são feitas por Google Play e podem ser restauradas.",
+          "freeLabel": "Comece gratuitamente",
+          "freeTitle": "Viajante grátis",
+          "freePrice": "Explore antes de atualizar.",
+          "free1": "A rota inicial completa do Europe Explorer",
+          "free2": "Sincronização de etapas, progresso do mapa, guias de cidades, passaporte, missões e conquistas",
+          "free3": "Os anúncios podem aparecer entre partes da experiência",
+          "free4": "As travessias podem usar pontos de viagem, vídeos premiados ou ingressos individuais",
+          "plusTitle": "Viajante completo",
+          "plusPrice": "Desbloqueie a experiência WalkQuest completa.",
+          "plus1": "Todas as rotas Premium desbloqueadas",
+          "plus2": "Sem banners ou anúncios intersticiais",
+          "plus3": "Temas Premium e estatísticas avançadas de viagens",
+          "plus4": "Cartões de compartilhamento Premium e certificados de rota",
+          "plus5": "Travessias de rota incluídas sem custo de ponto de viagem",
+          "plus6": "Tempo de viagem de um dia para transferências incluídas",
+          "premiumPlansKicker": "Opções de compra",
+          "premiumPlansTitle": "Escolha a opção mostrada em seu aplicativo",
+          "premiumPlansText": "A disponibilidade e os preços localizados vêm diretamente do Google Play. O site nunca exibe um preço fixo desatualizado.",
+          "monthlyTitle": "Mensal Premium",
+          "monthlyText": "Acesso flexível faturado através do Google Play de acordo com a oferta apresentada no aplicativo.",
+          "yearlyTitle": "Premium anual",
+          "yearlyText": "Maior acesso para caminhantes que planejam diversos percursos e temporadas de progresso.",
+          "lifetimeTitle": "Premium vitalício",
+          "lifetimeText": "Uma compra única não consumível que desbloqueia Premium permanentemente.",
+          "individualTitle": "Rotas individuais",
+          "individualText": "As rotas selecionadas também podem estar disponíveis como compras únicas separadas.",
+          "premiumCrossKicker": "Travessias Premium",
+          "premiumCrossTitle": "Mantenha a aventura em movimento através da água",
+          "premiumCrossText": "Quando uma rota chega a uma balsa, trem ou portão de voo, Premium inicia a transferência sem gastar pontos de viagem e usa o tempo de viagem de um dia.",
+          "premiumRestoreTitle": "Restaurar compras.",
+          "premiumRestoreText": "Use a opção de restauração no aplicativo após reinstalar ou mudar para outro dispositivo Android.",
+          "premiumBillingTitle": "Faturamento Google Play.",
+          "premiumBillingText": "Os detalhes de pagamento são processados por Google Play; WalkQuest não armazena as informações completas do seu cartão.",
+          "premiumFerryTitle": "Balsa",
+          "premiumFerryText": "As rotas insulares e os canais marítimos tornam-se etapas memoráveis em vez de becos sem saída.",
+          "premiumFlightTitle": "Voo",
+          "premiumFlightText": "Rotas globais épicas podem continuar entre continentes enquanto seu esforço de caminhada permanece limitado.",
+          "premiumCtaTitle": "Veja as opções atuais do Premium em WalkQuest",
+          "premiumCtaText": "Abra o aplicativo para disponibilidade, informações de teste e preço local do Google Play.",
+          "playSmall": "Comece",
+          "premiumHeroAlt": "Passaporte premium WalkQuest, certificados de rota, selos, mapas e bilhetes de transporte"
+        }
+      }
+    }
+  }
+}

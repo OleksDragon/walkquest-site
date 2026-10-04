@@ -63,6 +63,10 @@ export interface NewsContent {
   copy: Record<string, string>;
 }
 
+export interface RulesContent {
+  copy: Record<string, string>;
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
@@ -73,6 +77,7 @@ export interface PageData {
   privacy?: PrivacyContent;
   landing?: LandingContent;
   news?: NewsContent;
+  rules?: RulesContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

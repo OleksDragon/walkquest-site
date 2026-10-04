@@ -1,0 +1,49 @@
+---
+import GooglePlayButton from "./GooglePlayButton.astro";
+import type { PageData } from "../lib/page-data";
+
+interface Props { page: PageData; }
+const { page } = Astro.props;
+const c = page.rules!.copy;
+const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const steps = [
+  ["01", "♥", "guideStep1Title", "guideStep1Text"],
+  ["02", "👟", "guideStep2Title", "guideStep2Text"],
+  ["03", "🗺️", "guideStep3Title", "guideStep3Text"],
+] as const;
+const cities = [
+  ["📖", "guideCity1Title", "guideCity1Text"],
+  ["📍", "guideCity2Title", "guideCity2Text"],
+  ["🍜", "guideCity3Title", "guideCity3Text"],
+  ["📔", "guideCity4Title", "guideCity4Text"],
+] as const;
+const crossings = [
+  ["✨", "guideWaterPremiumTitle", "guideWaterPremiumText"],
+  ["🧭", "guideWaterPointsTitle", "guideWaterPointsText"],
+  ["▶️", "guideWaterAdsTitle", "guideWaterAdsText"],
+  ["🎫", "guideWaterTicketTitle", "guideWaterTicketText"],
+] as const;
+---
+
+<main id="main">
+  <section class="page-hero"><div class="shell page-hero-grid">
+    <div class="page-hero-copy"><span class="section-kicker" data-i18n="guideEyebrow">{c.guideEyebrow}</span><h1 data-i18n="guideTitle">{c.guideTitle}</h1><p data-i18n="guideDesc">{c.guideDesc}</p><div class="page-hero-badges"><span>👟 1,250 ≈ 1 km</span><span data-i18n="guideBadgeCities">{c.guideBadgeCities}</span><span data-i18n="guideBadgeNoAccount">{c.guideBadgeNoAccount}</span></div></div>
+    <div class="page-hero-media"><img src={`${assetPrefix}assets/guide-hero.png`} width="1672" height="941" alt={c.guideHeroAlt} data-i18n-alt="guideHeroAlt" /></div>
+  </div></section>
+
+  <section class="page-section"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="guideFlowKicker">{c.guideFlowKicker}</span><h2 data-i18n="guideFlowTitle">{c.guideFlowTitle}</h2><p class="section-intro" data-i18n="guideFlowText">{c.guideFlowText}</p></div><div class="card-grid">
+    {steps.map(([number, emoji, title, text]) => <article class="info-card"><span class="card-number">{number}</span><span class="card-emoji">{emoji}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}
+  </div></div></section>
+
+  <section class="page-section soft"><div class="shell map-explainer"><div class="mock-map" aria-hidden="true"><span class="mock-map-label" data-i18n="guideMockLabel">{c.guideMockLabel}</span><div class="mock-path"></div><span class="mock-pin one">🏙️</span><span class="mock-walker">🚶</span><span class="mock-pin two">🏰</span><span class="mock-pin three">🗼</span></div><div><span class="section-kicker" data-i18n="guideMapKicker">{c.guideMapKicker}</span><h2 data-i18n="guideMapTitle">{c.guideMapTitle}</h2><p class="section-intro" data-i18n="guideMapText">{c.guideMapText}</p><ul class="check-list"><li><span><strong data-i18n="guideMapCurrentTitle">{c.guideMapCurrentTitle}</strong> <span data-i18n="guideMapCurrentText">{c.guideMapCurrentText}</span></span></li><li><span><strong data-i18n="guideMapCitiesTitle">{c.guideMapCitiesTitle}</strong> <span data-i18n="guideMapCitiesText">{c.guideMapCitiesText}</span></span></li><li><span><strong data-i18n="guideMapStreetTitle">{c.guideMapStreetTitle}</strong> <span data-i18n="guideMapStreetText">{c.guideMapStreetText}</span></span></li></ul></div></div></section>
+
+  <section class="page-section"><div class="shell"><div class="page-heading"><span class="section-kicker" data-i18n="guideCitiesKicker">{c.guideCitiesKicker}</span><h2 data-i18n="guideCitiesTitle">{c.guideCitiesTitle}</h2><p class="section-intro" data-i18n="guideCitiesText">{c.guideCitiesText}</p></div><div class="card-grid">
+    {cities.map(([emoji, title, text]) => <article class="info-card"><span class="card-emoji">{emoji}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}
+  </div></div></section>
+
+  <section class="page-section dark"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="guideWaterKicker">{c.guideWaterKicker}</span><h2 data-i18n="guideWaterTitle">{c.guideWaterTitle}</h2><p class="section-intro" data-i18n="guideWaterText">{c.guideWaterText}</p></div><div class="transfer-grid">
+    {crossings.map(([emoji, title, text]) => <article class="transfer-card"><span>{emoji}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}
+  </div><p style="margin:28px auto 0;max-width:780px;text-align:center;color:#bfd0d2" data-i18n="guideWaterNote">{c.guideWaterNote}</p></div></section>
+
+  <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="guideCtaTitle">{c.guideCtaTitle}</h2><a class="inline-route-link" href="./europe-explorer.html">Europe Explorer →</a><p data-i18n="guideCtaText">{c.guideCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
+</main>

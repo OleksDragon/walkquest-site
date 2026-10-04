@@ -59,6 +59,10 @@ export interface LandingContent {
   copy: Record<string, string>;
 }
 
+export interface NewsContent {
+  copy: Record<string, string>;
+}
+
 export interface PageData {
   relativePath: string;
   lang: string;
@@ -68,6 +72,7 @@ export interface PageData {
   mainHtml?: string;
   privacy?: PrivacyContent;
   landing?: LandingContent;
+  news?: NewsContent;
   chrome: "landing" | "site" | "privacy";
   bodyScripts: Array<{ src: string; defer: boolean }>;
   labels: Record<string, string>;

@@ -22,6 +22,8 @@ The privacy policy is also component-rendered from typed rich-text blocks (headi
 
 The landing page is rendered by `LandingPage.astro` from localized copy fields. Its hero, proof strip, onboarding steps, route progress, feature cards, and calls to action no longer use a raw main HTML fragment.
 
+The news journal is rendered by `NewsPage.astro` from localized copy fields. Its featured story, journal cards, editorial roadmap, and call to action no longer use a raw main HTML fragment.
+
 The build keeps the existing `.html` URLs, emits all 240 localized pages, generates `sitemap.xml`, preserves the custom domain, and deploys through the official Astro GitHub Pages action.
 
 New route work should copy an existing file in `src/data/routes/` and add the new slug to `src/lib/route-pages.ts`.

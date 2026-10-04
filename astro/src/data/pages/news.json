@@ -9,7 +9,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest journal</span><h1 data-i18n=\"newsTitle\">WalkQuest news from the road</h1><p data-i18n=\"newsDesc\">Product updates, new destinations, feature guides, and stories from the expanding WalkQuest world.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Product updates</span><span data-i18n=\"newsBadgeRoutes\">Route spotlights</span><span data-i18n=\"newsBadgeGuides\">Player guides</span></div></div><div class=\"page-hero-media\"><img src=\"./assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest traveller celebrating new destinations around a globe\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Latest stories</span><h2 data-i18n=\"newsLatestTitle\">What is happening in WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">This page will grow with release notes, route launches, and practical tips.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"./assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest achievement sharing illustration\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Product update</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">October 3, 2026</time><h3 data-i18n=\"shareTitle\">Share every WalkQuest milestone — now free</h3><p data-i18n=\"shareLead\">Achievements, passport progress, routes, and distance milestones can now be shared without Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Read article →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Routes</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">September 28, 2026</time><h3 data-i18n=\"news2Title\">The route library reaches thirty journeys</h3><p data-i18n=\"news2Text\">WalkQuest now spans 303 city stops and 18 train, ferry, or flight transfers across routes from Kyiv and Kyoto to Patagonia and Iceland.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guide</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">September 20, 2026</time><h3 data-i18n=\"news3Title\">Discover more inside every unlocked city</h3><p data-i18n=\"news3Text\">Open city stories, landmarks, local food, Google Maps, nearby Street View, passport stamps, and shareable travel cards.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Fresh from the journal</span><h2 data-i18n=\"newsNextTitle\">Three stories to start with</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Release details, a route worth walking, and a practical setup guide—written to be useful, not noisy.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"./assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest app update illustration\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Release notes</span><h3 data-i18n=\"newsNext1Title\">A bigger home for every WalkQuest journey</h3><p data-i18n=\"newsNext1Text\">See what changed on the multilingual website and why the new guides make the first walk easier.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Read article →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"./assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Europe Explorer route illustration\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Route spotlight</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1,240 km from London to Prague</h3><p data-i18n=\"newsNext2Text\">Meet the free starter route with twelve city stops, six countries, and a rewarding rhythm.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Read article →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"./assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect synchronization illustration\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Practical guide</span><h3 data-i18n=\"newsNext3Title\">Connect Health Connect without guesswork</h3><p data-i18n=\"newsNext3Text\">Set up step access, understand synchronization, and solve the most common missing-step problems.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Read article →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">The next story begins with your next walk</h2><p data-i18n=\"newsCtaText\">Download WalkQuest and turn today’s steps into a destination.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Get it on</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Skip to content",
         "navHome": "Home",
@@ -154,7 +153,53 @@
           "src": "./pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest journal",
+          "newsTitle": "WalkQuest news from the road",
+          "newsDesc": "Product updates, new destinations, feature guides, and stories from the expanding WalkQuest world.",
+          "newsBadgeUpdates": "Product updates",
+          "newsBadgeRoutes": "Route spotlights",
+          "newsBadgeGuides": "Player guides",
+          "newsLatestKicker": "Latest stories",
+          "newsLatestTitle": "What is happening in WalkQuest",
+          "newsLatestText": "This page will grow with release notes, route launches, and practical tips.",
+          "shareTag": "Product update",
+          "shareDate": "October 3, 2026",
+          "shareTitle": "Share every WalkQuest milestone — now free",
+          "shareLead": "Achievements, passport progress, routes, and distance milestones can now be shared without Premium.",
+          "readArticle": "Read article →",
+          "news2Tag": "Routes",
+          "news2Date": "September 28, 2026",
+          "news2Title": "The route library reaches thirty journeys",
+          "news2Text": "WalkQuest now spans 303 city stops and 18 train, ferry, or flight transfers across routes from Kyiv and Kyoto to Patagonia and Iceland.",
+          "news3Tag": "Guide",
+          "news3Date": "September 20, 2026",
+          "news3Title": "Discover more inside every unlocked city",
+          "news3Text": "Open city stories, landmarks, local food, Google Maps, nearby Street View, passport stamps, and shareable travel cards.",
+          "newsNextKicker": "Fresh from the journal",
+          "newsNextTitle": "Three stories to start with",
+          "newsNextText": "Release details, a route worth walking, and a practical setup guide—written to be useful, not noisy.",
+          "releaseTag": "Release notes",
+          "newsNext1Title": "A bigger home for every WalkQuest journey",
+          "newsNext1Text": "See what changed on the multilingual website and why the new guides make the first walk easier.",
+          "europeTag": "Route spotlight",
+          "newsNext2Title": "Europe Explorer: 1,240 km from London to Prague",
+          "newsNext2Text": "Meet the free starter route with twelve city stops, six countries, and a rewarding rhythm.",
+          "healthTag": "Practical guide",
+          "newsNext3Title": "Connect Health Connect without guesswork",
+          "newsNext3Text": "Set up step access, understand synchronization, and solve the most common missing-step problems.",
+          "newsCtaTitle": "The next story begins with your next walk",
+          "newsCtaText": "Download WalkQuest and turn today’s steps into a destination.",
+          "playSmall": "Get it on",
+          "newsHeroAlt": "WalkQuest traveller celebrating new destinations around a globe",
+          "shareHeroAlt": "WalkQuest achievement sharing illustration",
+          "releaseCardAlt": "WalkQuest app update illustration",
+          "europeCardAlt": "Europe Explorer route illustration",
+          "healthCardAlt": "Health Connect synchronization illustration"
+        }
+      }
     },
     "uk": {
       "relativePath": "uk/news.html",
@@ -164,7 +209,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Журнал WalkQuest</span><h1 data-i18n=\"newsTitle\">Новини з дороги</h1><p data-i18n=\"newsDesc\">Оновлення продуктів, нові напрямки, путівники по функціях та історії зі світу WalkQuest, що розширюється.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Оновлення продукту</span><span data-i18n=\"newsBadgeRoutes\">Маршрутні прожектори</span><span data-i18n=\"newsBadgeGuides\">Посібники для гравців</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest мандрівник, який відзначає нові напрямки по всьому світу\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Останні історії</span><h2 data-i18n=\"newsLatestTitle\">Що відбувається в WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Ця сторінка буде розширюватися з примітками до випуску, запусками маршрутів і практичними порадами.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ілюстрація поширення досягнень WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Оновлення продукту</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 жовтня 2026</time><h3 data-i18n=\"shareTitle\">Діліться кожним досягненням WalkQuest — тепер безкоштовно</h3><p data-i18n=\"shareLead\">Досягненнями, прогресом паспорта, маршрутами та рекордами відстані тепер можна ділитися без Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Читати статтю →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Маршрути</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 вересня 2026 р</time><h3 data-i18n=\"news2Title\">Маршрутна бібліотека сягає тридцяти поїздок</h3><p data-i18n=\"news2Text\">WalkQuest тепер охоплює 303 міські зупинки та 18 пересадок на потягах, поромах або літаках за маршрутами з Києва та Кіото до Патагонії та Ісландії.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Гід</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 вересня 2026 р</time><h3 data-i18n=\"news3Title\">Відкрийте для себе більше в кожному розблокованому місті</h3><p data-i18n=\"news3Text\">Відкрийте історії міста, пам’ятки, місцеву їжу, Карти Google, найближчу вулицю Street View, штампи в паспорті та проїзні картки, якими можна поділитися.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Нове в журналі</span><h2 data-i18n=\"newsNextTitle\">Три статті для початку</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Подробиці оновлення, маршрут для натхнення та практичний посібник — корисно й без зайвого шуму.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Ілюстрація оновлення додатка WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Нотатки до випуску</span><h3 data-i18n=\"newsNext1Title\">Новий простір для кожної подорожі з WalkQuest</h3><p data-i18n=\"newsNext1Text\">Подивіться, що змінилося на багатомовному сайті та чому нові посібники полегшують першу прогулянку.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читати статтю →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Ілюстрація маршруту Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Огляд маршруту</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1240 км від Лондона до Праги</h3><p data-i18n=\"newsNext2Text\">Знайомтеся з безкоштовним стартовим маршрутом: 12 зупинок у містах, 6 країн і приємний ритм руху.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читати статтю →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Ілюстрація синхронізації з Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Практичний посібник</span><h3 data-i18n=\"newsNext3Title\">Підключення Health Connect без зайвих запитань</h3><p data-i18n=\"newsNext3Text\">Налаштуйте доступ до даних про кроки, зрозумійте принцип синхронізації та вирішіть найпоширеніші проблеми з їхнім обліком.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читати статтю →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">Наступна історія починається з вашої наступної прогулянки</h2><p data-i18n=\"newsCtaText\">Завантажте WalkQuest і перетворите сьогоднішні кроки на пункт призначення.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Завантажити з</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Перейти до вмісту",
         "navHome": "додому",
@@ -309,7 +353,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Журнал WalkQuest",
+          "newsTitle": "Новини з дороги",
+          "newsDesc": "Оновлення продуктів, нові напрямки, путівники по функціях та історії зі світу WalkQuest, що розширюється.",
+          "newsBadgeUpdates": "Оновлення продукту",
+          "newsBadgeRoutes": "Маршрутні прожектори",
+          "newsBadgeGuides": "Посібники для гравців",
+          "newsLatestKicker": "Останні історії",
+          "newsLatestTitle": "Що відбувається в WalkQuest",
+          "newsLatestText": "Ця сторінка буде розширюватися з примітками до випуску, запусками маршрутів і практичними порадами.",
+          "shareTag": "Оновлення продукту",
+          "shareDate": "3 жовтня 2026",
+          "shareTitle": "Діліться кожним досягненням WalkQuest — тепер безкоштовно",
+          "shareLead": "Досягненнями, прогресом паспорта, маршрутами та рекордами відстані тепер можна ділитися без Premium.",
+          "readArticle": "Читати статтю →",
+          "news2Tag": "Маршрути",
+          "news2Date": "28 вересня 2026 р",
+          "news2Title": "Маршрутна бібліотека сягає тридцяти поїздок",
+          "news2Text": "WalkQuest тепер охоплює 303 міські зупинки та 18 пересадок на потягах, поромах або літаках за маршрутами з Києва та Кіото до Патагонії та Ісландії.",
+          "news3Tag": "Гід",
+          "news3Date": "20 вересня 2026 р",
+          "news3Title": "Відкрийте для себе більше в кожному розблокованому місті",
+          "news3Text": "Відкрийте історії міста, пам’ятки, місцеву їжу, Карти Google, найближчу вулицю Street View, штампи в паспорті та проїзні картки, якими можна поділитися.",
+          "newsNextKicker": "Нове в журналі",
+          "newsNextTitle": "Три статті для початку",
+          "newsNextText": "Подробиці оновлення, маршрут для натхнення та практичний посібник — корисно й без зайвого шуму.",
+          "releaseTag": "Нотатки до випуску",
+          "newsNext1Title": "Новий простір для кожної подорожі з WalkQuest",
+          "newsNext1Text": "Подивіться, що змінилося на багатомовному сайті та чому нові посібники полегшують першу прогулянку.",
+          "europeTag": "Огляд маршруту",
+          "newsNext2Title": "Europe Explorer: 1240 км від Лондона до Праги",
+          "newsNext2Text": "Знайомтеся з безкоштовним стартовим маршрутом: 12 зупинок у містах, 6 країн і приємний ритм руху.",
+          "healthTag": "Практичний посібник",
+          "newsNext3Title": "Підключення Health Connect без зайвих запитань",
+          "newsNext3Text": "Налаштуйте доступ до даних про кроки, зрозумійте принцип синхронізації та вирішіть найпоширеніші проблеми з їхнім обліком.",
+          "newsCtaTitle": "Наступна історія починається з вашої наступної прогулянки",
+          "newsCtaText": "Завантажте WalkQuest і перетворите сьогоднішні кроки на пункт призначення.",
+          "playSmall": "Завантажити з",
+          "newsHeroAlt": "WalkQuest мандрівник, який відзначає нові напрямки по всьому світу",
+          "shareHeroAlt": "Ілюстрація поширення досягнень WalkQuest",
+          "releaseCardAlt": "Ілюстрація оновлення додатка WalkQuest",
+          "europeCardAlt": "Ілюстрація маршруту Europe Explorer",
+          "healthCardAlt": "Ілюстрація синхронізації з Health Connect"
+        }
+      }
     },
     "ru": {
       "relativePath": "ru/news.html",
@@ -319,7 +409,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">журнал WalkQuest</span><h1 data-i18n=\"newsTitle\">Новости с дороги</h1><p data-i18n=\"newsDesc\">Обновления продуктов, новые направления, руководства по функциям и истории из расширяющегося мира WalkQuest.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Обновления продукта</span><span data-i18n=\"newsBadgeRoutes\">Истории маршрутов</span><span data-i18n=\"newsBadgeGuides\">Руководства для игроков</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Путешественник WalkQuest отмечает новые направления по всему миру\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Последние истории</span><h2 data-i18n=\"newsLatestTitle\">Что происходит в WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Эта страница будет пополняться примечаниями к выпуску, новыми маршрутами и практическими советами.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Иллюстрация публикации достижений WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Обновление продукта</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 октября 2026</time><h3 data-i18n=\"shareTitle\">Делитесь каждым достижением WalkQuest — теперь бесплатно</h3><p data-i18n=\"shareLead\">Достижениями, прогрессом паспорта, маршрутами и рекордами расстояния теперь можно делиться без Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Читать статью →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Маршруты</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 сентября 2026 г.</time><h3 data-i18n=\"news2Title\">В библиотеке уже тридцать путешествий</h3><p data-i18n=\"news2Text\">WalkQuest теперь охватывает 303 городские остановки и 18 пересадок на поездах, паромах или самолетах по маршрутам из Киева и Киото в Патагонию и Исландию.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Руководство</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 сентября 2026 г.</time><h3 data-i18n=\"news3Title\">Узнайте больше в каждом открытом городе</h3><p data-i18n=\"news3Text\">Читайте истории городов, открывайте достопримечательности и местную кухню, запускайте Google Maps и Street View, собирайте паспортные печати и делитесь карточками путешествий.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Новое в журнале</span><h2 data-i18n=\"newsNextTitle\">Три статьи для начала</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Подробности обновления, маршрут для вдохновения и практическое руководство — полезно и без лишнего шума.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Иллюстрация обновления приложения WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Информация о выпуске</span><h3 data-i18n=\"newsNext1Title\">Больше пространства для каждого путешествия с WalkQuest</h3><p data-i18n=\"newsNext1Text\">Узнайте, что изменилось на многоязычном сайте и почему новые руководства упрощают начало пути.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читать статью →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Иллюстрация маршрута Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Обзор маршрута</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1240 км от Лондона до Праги</h3><p data-i18n=\"newsNext2Text\">Знакомьтесь: бесплатный стартовый маршрут с двенадцатью остановками в городах, проходящий через шесть стран и задающий приятный ритм ходьбы.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читать статью →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Иллюстрация синхронизации с Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Практическое руководство</span><h3 data-i18n=\"newsNext3Title\">Подключение Health Connect без лишних сложностей</h3><p data-i18n=\"newsNext3Text\">Настройте доступ к данным о шагах, разберитесь в работе синхронизации и решите распространенные проблемы с отсутствием данных.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Читать статью →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">Следующая история начинается с вашей следующей прогулки</h2><p data-i18n=\"newsCtaText\">Загрузите WalkQuest и превратите сегодняшние шаги в пункт назначения.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Скачать в</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Перейти к содержимому",
         "navHome": "Главная",
@@ -464,7 +553,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "журнал WalkQuest",
+          "newsTitle": "Новости с дороги",
+          "newsDesc": "Обновления продуктов, новые направления, руководства по функциям и истории из расширяющегося мира WalkQuest.",
+          "newsBadgeUpdates": "Обновления продукта",
+          "newsBadgeRoutes": "Истории маршрутов",
+          "newsBadgeGuides": "Руководства для игроков",
+          "newsLatestKicker": "Последние истории",
+          "newsLatestTitle": "Что происходит в WalkQuest",
+          "newsLatestText": "Эта страница будет пополняться примечаниями к выпуску, новыми маршрутами и практическими советами.",
+          "shareTag": "Обновление продукта",
+          "shareDate": "3 октября 2026",
+          "shareTitle": "Делитесь каждым достижением WalkQuest — теперь бесплатно",
+          "shareLead": "Достижениями, прогрессом паспорта, маршрутами и рекордами расстояния теперь можно делиться без Premium.",
+          "readArticle": "Читать статью →",
+          "news2Tag": "Маршруты",
+          "news2Date": "28 сентября 2026 г.",
+          "news2Title": "В библиотеке уже тридцать путешествий",
+          "news2Text": "WalkQuest теперь охватывает 303 городские остановки и 18 пересадок на поездах, паромах или самолетах по маршрутам из Киева и Киото в Патагонию и Исландию.",
+          "news3Tag": "Руководство",
+          "news3Date": "20 сентября 2026 г.",
+          "news3Title": "Узнайте больше в каждом открытом городе",
+          "news3Text": "Читайте истории городов, открывайте достопримечательности и местную кухню, запускайте Google Maps и Street View, собирайте паспортные печати и делитесь карточками путешествий.",
+          "newsNextKicker": "Новое в журнале",
+          "newsNextTitle": "Три статьи для начала",
+          "newsNextText": "Подробности обновления, маршрут для вдохновения и практическое руководство — полезно и без лишнего шума.",
+          "releaseTag": "Информация о выпуске",
+          "newsNext1Title": "Больше пространства для каждого путешествия с WalkQuest",
+          "newsNext1Text": "Узнайте, что изменилось на многоязычном сайте и почему новые руководства упрощают начало пути.",
+          "europeTag": "Обзор маршрута",
+          "newsNext2Title": "Europe Explorer: 1240 км от Лондона до Праги",
+          "newsNext2Text": "Знакомьтесь: бесплатный стартовый маршрут с двенадцатью остановками в городах, проходящий через шесть стран и задающий приятный ритм ходьбы.",
+          "healthTag": "Практическое руководство",
+          "newsNext3Title": "Подключение Health Connect без лишних сложностей",
+          "newsNext3Text": "Настройте доступ к данным о шагах, разберитесь в работе синхронизации и решите распространенные проблемы с отсутствием данных.",
+          "newsCtaTitle": "Следующая история начинается с вашей следующей прогулки",
+          "newsCtaText": "Загрузите WalkQuest и превратите сегодняшние шаги в пункт назначения.",
+          "playSmall": "Скачать в",
+          "newsHeroAlt": "Путешественник WalkQuest отмечает новые направления по всему миру",
+          "shareHeroAlt": "Иллюстрация публикации достижений WalkQuest",
+          "releaseCardAlt": "Иллюстрация обновления приложения WalkQuest",
+          "europeCardAlt": "Иллюстрация маршрута Europe Explorer",
+          "healthCardAlt": "Иллюстрация синхронизации с Health Connect"
+        }
+      }
     },
     "es": {
       "relativePath": "es/news.html",
@@ -474,7 +609,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Diario WalkQuest</span><h1 data-i18n=\"newsTitle\">Noticias de la carretera</h1><p data-i18n=\"newsDesc\">Actualizaciones de productos, nuevos destinos, guías de funciones e historias del mundo en expansión de WalkQuest.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Actualizaciones de productos</span><span data-i18n=\"newsBadgeRoutes\">Focos de ruta</span><span data-i18n=\"newsBadgeGuides\">Guías del jugador</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Viajero de WalkQuest celebrando nuevos destinos alrededor del mundo\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Últimas historias</span><h2 data-i18n=\"newsLatestTitle\">¿Qué está pasando en WalkQuest?</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Esta página crecerá con notas de la versión, lanzamientos de rutas y consejos prácticos.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustración para compartir logros de WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Actualización del producto</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de octubre de 2026</time><h3 data-i18n=\"shareTitle\">Comparte cada logro de WalkQuest — ahora gratis</h3><p data-i18n=\"shareLead\">Ya puedes compartir logros, progreso del pasaporte, rutas y récords de distancia sin Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Leer artículo →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Rutas</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 de septiembre de 2026</time><h3 data-i18n=\"news2Title\">La biblioteca de rutas llega a la treintena de viajes</h3><p data-i18n=\"news2Text\">WalkQuest ahora abarca 303 paradas en ciudades y 18 traslados en tren, ferry o avión a través de rutas desde Kiev y Kioto hasta la Patagonia e Islandia.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guía</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 de septiembre de 2026</time><h3 data-i18n=\"news3Title\">Descubre más dentro de cada ciudad desbloqueada</h3><p data-i18n=\"news3Text\">Abra historias de la ciudad, puntos de referencia, comida local, Google Maps, Street View cercano, sellos de pasaporte y tarjetas de viaje para compartir.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Recién salido del diario</span><h2 data-i18n=\"newsNextTitle\">Tres historias para empezar</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Detalles de la actualización, una ruta que vale la pena recorrer y una guía de configuración práctica: contenido útil, sin distracciones.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Ilustración de la actualización de la aplicación WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas de la versión</span><h3 data-i18n=\"newsNext1Title\">Un espacio más amplio para cada viaje en WalkQuest</h3><p data-i18n=\"newsNext1Text\">Descubre las novedades del sitio web multilingüe y cómo las nuevas guías facilitan el primer recorrido.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leer artículo →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Ilustración de la ruta Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Ruta destacada</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1240 km de Londres a Praga</h3><p data-i18n=\"newsNext2Text\">Conoce la ruta inicial gratuita, con doce paradas en ciudades, seis países y un ritmo gratificante.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leer artículo →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Ilustración de la sincronización con Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Guía práctica</span><h3 data-i18n=\"newsNext3Title\">Conecta Health Connect sin complicaciones</h3><p data-i18n=\"newsNext3Text\">Configura el acceso a los pasos, comprende la sincronización y resuelve los problemas más comunes de recuento de pasos.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leer artículo →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">La próxima historia comienza con tu próxima caminata.</h2><p data-i18n=\"newsCtaText\">Descargue WalkQuest y convierta los pasos de hoy en un destino.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Consíguelo</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Saltar al contenido",
         "navHome": "Inicio",
@@ -619,7 +753,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diario WalkQuest",
+          "newsTitle": "Noticias de la carretera",
+          "newsDesc": "Actualizaciones de productos, nuevos destinos, guías de funciones e historias del mundo en expansión de WalkQuest.",
+          "newsBadgeUpdates": "Actualizaciones de productos",
+          "newsBadgeRoutes": "Focos de ruta",
+          "newsBadgeGuides": "Guías del jugador",
+          "newsLatestKicker": "Últimas historias",
+          "newsLatestTitle": "¿Qué está pasando en WalkQuest?",
+          "newsLatestText": "Esta página crecerá con notas de la versión, lanzamientos de rutas y consejos prácticos.",
+          "shareTag": "Actualización del producto",
+          "shareDate": "3 de octubre de 2026",
+          "shareTitle": "Comparte cada logro de WalkQuest — ahora gratis",
+          "shareLead": "Ya puedes compartir logros, progreso del pasaporte, rutas y récords de distancia sin Premium.",
+          "readArticle": "Leer artículo →",
+          "news2Tag": "Rutas",
+          "news2Date": "28 de septiembre de 2026",
+          "news2Title": "La biblioteca de rutas llega a la treintena de viajes",
+          "news2Text": "WalkQuest ahora abarca 303 paradas en ciudades y 18 traslados en tren, ferry o avión a través de rutas desde Kiev y Kioto hasta la Patagonia e Islandia.",
+          "news3Tag": "Guía",
+          "news3Date": "20 de septiembre de 2026",
+          "news3Title": "Descubre más dentro de cada ciudad desbloqueada",
+          "news3Text": "Abra historias de la ciudad, puntos de referencia, comida local, Google Maps, Street View cercano, sellos de pasaporte y tarjetas de viaje para compartir.",
+          "newsNextKicker": "Recién salido del diario",
+          "newsNextTitle": "Tres historias para empezar",
+          "newsNextText": "Detalles de la actualización, una ruta que vale la pena recorrer y una guía de configuración práctica: contenido útil, sin distracciones.",
+          "releaseTag": "Notas de la versión",
+          "newsNext1Title": "Un espacio más amplio para cada viaje en WalkQuest",
+          "newsNext1Text": "Descubre las novedades del sitio web multilingüe y cómo las nuevas guías facilitan el primer recorrido.",
+          "europeTag": "Ruta destacada",
+          "newsNext2Title": "Europe Explorer: 1240 km de Londres a Praga",
+          "newsNext2Text": "Conoce la ruta inicial gratuita, con doce paradas en ciudades, seis países y un ritmo gratificante.",
+          "healthTag": "Guía práctica",
+          "newsNext3Title": "Conecta Health Connect sin complicaciones",
+          "newsNext3Text": "Configura el acceso a los pasos, comprende la sincronización y resuelve los problemas más comunes de recuento de pasos.",
+          "newsCtaTitle": "La próxima historia comienza con tu próxima caminata.",
+          "newsCtaText": "Descargue WalkQuest y convierta los pasos de hoy en un destino.",
+          "playSmall": "Consíguelo",
+          "newsHeroAlt": "Viajero de WalkQuest celebrando nuevos destinos alrededor del mundo",
+          "shareHeroAlt": "Ilustración para compartir logros de WalkQuest",
+          "releaseCardAlt": "Ilustración de la actualización de la aplicación WalkQuest",
+          "europeCardAlt": "Ilustración de la ruta Europe Explorer",
+          "healthCardAlt": "Ilustración de la sincronización con Health Connect"
+        }
+      }
     },
     "de": {
       "relativePath": "de/news.html",
@@ -629,7 +809,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest-Tagebuch</span><h1 data-i18n=\"newsTitle\">Neuigkeiten von unterwegs</h1><p data-i18n=\"newsDesc\">Produktaktualisierungen, neue Reiseziele, Funktionsführer und Geschichten aus der wachsenden WalkQuest-Welt.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Produktaktualisierungen</span><span data-i18n=\"newsBadgeRoutes\">Routenstrahler</span><span data-i18n=\"newsBadgeGuides\">Spielerhandbücher</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest-Reisender feiert neue Reiseziele rund um den Globus\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Neueste Geschichten</span><h2 data-i18n=\"newsLatestTitle\">Was passiert in WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Diese Seite wird mit Versionshinweisen, Routeneinführungen und praktischen Tipps erweitert.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustration zum Teilen von WalkQuest-Erfolgen\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Produktupdate</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3. Oktober 2026</time><h3 data-i18n=\"shareTitle\">Teile jeden WalkQuest-Meilenstein — jetzt kostenlos</h3><p data-i18n=\"shareLead\">Erfolge, Passfortschritt, Routen und Distanzrekorde lassen sich jetzt ohne Premium teilen.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Artikel lesen →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Routen</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28. September 2026</time><h3 data-i18n=\"news2Title\">Die Streckenbibliothek umfasst dreißig Fahrten</h3><p data-i18n=\"news2Text\">WalkQuest umfasst mittlerweile 303 Haltestellen in der Stadt und 18 Zug-, Fähr- oder Flugtransfers auf Strecken von Kiew und Kyoto nach Patagonien und Island.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Leitfaden</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20. September 2026</time><h3 data-i18n=\"news3Title\">Entdecken Sie mehr in jeder freigeschalteten Stadt</h3><p data-i18n=\"news3Text\">Öffnen Sie Stadtgeschichten, Sehenswürdigkeiten, lokales Essen, Google Maps, das nahegelegene Street View, Passstempel und gemeinsam nutzbare Reisekarten.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Neu aus dem Journal</span><h2 data-i18n=\"newsNextTitle\">Drei Geschichten für den Start</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Details zum Update, eine lohnende Route und eine praktische Einrichtungsanleitung – informativ und ohne unnötiges Rauschen.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Illustration zum WalkQuest-App-Update\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Versionshinweise</span><h3 data-i18n=\"newsNext1Title\">Mehr Platz für jede WalkQuest-Reise</h3><p data-i18n=\"newsNext1Text\">Entdecken Sie die Neuerungen auf der mehrsprachigen Website und erfahren Sie, wie die neuen Anleitungen den ersten Spaziergang erleichtern.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Artikel lesen →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Illustration der Europe-Explorer-Route\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Routen-Porträt</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1. 240 km von London nach Prag</h3><p data-i18n=\"newsNext2Text\">Lernen Sie die kostenlose Start-Route kennen – mit zwölf Städte-Etappen, sechs Ländern und einem angenehmen Rhythmus.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Artikel lesen →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Illustration zur Health-Connect-Synchronisierung\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Praktischer Leitfaden</span><h3 data-i18n=\"newsNext3Title\">Health Connect ganz einfach verbinden</h3><p data-i18n=\"newsNext3Text\">Zugriff auf Schrittdaten einrichten, Synchronisierung verstehen und die häufigsten Probleme bei der Schrittzählung lösen.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Artikel lesen →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">Die nächste Geschichte beginnt mit Ihrem nächsten Spaziergang</h2><p data-i18n=\"newsCtaText\">Laden Sie WalkQuest herunter und verwandeln Sie die heutigen Schritte in ein Ziel.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Zieh es an</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Zum Inhalt springen",
         "navHome": "Zuhause",
@@ -774,7 +953,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest-Tagebuch",
+          "newsTitle": "Neuigkeiten von unterwegs",
+          "newsDesc": "Produktaktualisierungen, neue Reiseziele, Funktionsführer und Geschichten aus der wachsenden WalkQuest-Welt.",
+          "newsBadgeUpdates": "Produktaktualisierungen",
+          "newsBadgeRoutes": "Routenstrahler",
+          "newsBadgeGuides": "Spielerhandbücher",
+          "newsLatestKicker": "Neueste Geschichten",
+          "newsLatestTitle": "Was passiert in WalkQuest",
+          "newsLatestText": "Diese Seite wird mit Versionshinweisen, Routeneinführungen und praktischen Tipps erweitert.",
+          "shareTag": "Produktupdate",
+          "shareDate": "3. Oktober 2026",
+          "shareTitle": "Teile jeden WalkQuest-Meilenstein — jetzt kostenlos",
+          "shareLead": "Erfolge, Passfortschritt, Routen und Distanzrekorde lassen sich jetzt ohne Premium teilen.",
+          "readArticle": "Artikel lesen →",
+          "news2Tag": "Routen",
+          "news2Date": "28. September 2026",
+          "news2Title": "Die Streckenbibliothek umfasst dreißig Fahrten",
+          "news2Text": "WalkQuest umfasst mittlerweile 303 Haltestellen in der Stadt und 18 Zug-, Fähr- oder Flugtransfers auf Strecken von Kiew und Kyoto nach Patagonien und Island.",
+          "news3Tag": "Leitfaden",
+          "news3Date": "20. September 2026",
+          "news3Title": "Entdecken Sie mehr in jeder freigeschalteten Stadt",
+          "news3Text": "Öffnen Sie Stadtgeschichten, Sehenswürdigkeiten, lokales Essen, Google Maps, das nahegelegene Street View, Passstempel und gemeinsam nutzbare Reisekarten.",
+          "newsNextKicker": "Neu aus dem Journal",
+          "newsNextTitle": "Drei Geschichten für den Start",
+          "newsNextText": "Details zum Update, eine lohnende Route und eine praktische Einrichtungsanleitung – informativ und ohne unnötiges Rauschen.",
+          "releaseTag": "Versionshinweise",
+          "newsNext1Title": "Mehr Platz für jede WalkQuest-Reise",
+          "newsNext1Text": "Entdecken Sie die Neuerungen auf der mehrsprachigen Website und erfahren Sie, wie die neuen Anleitungen den ersten Spaziergang erleichtern.",
+          "europeTag": "Routen-Porträt",
+          "newsNext2Title": "Europe Explorer: 1. 240 km von London nach Prag",
+          "newsNext2Text": "Lernen Sie die kostenlose Start-Route kennen – mit zwölf Städte-Etappen, sechs Ländern und einem angenehmen Rhythmus.",
+          "healthTag": "Praktischer Leitfaden",
+          "newsNext3Title": "Health Connect ganz einfach verbinden",
+          "newsNext3Text": "Zugriff auf Schrittdaten einrichten, Synchronisierung verstehen und die häufigsten Probleme bei der Schrittzählung lösen.",
+          "newsCtaTitle": "Die nächste Geschichte beginnt mit Ihrem nächsten Spaziergang",
+          "newsCtaText": "Laden Sie WalkQuest herunter und verwandeln Sie die heutigen Schritte in ein Ziel.",
+          "playSmall": "Zieh es an",
+          "newsHeroAlt": "WalkQuest-Reisender feiert neue Reiseziele rund um den Globus",
+          "shareHeroAlt": "Illustration zum Teilen von WalkQuest-Erfolgen",
+          "releaseCardAlt": "Illustration zum WalkQuest-App-Update",
+          "europeCardAlt": "Illustration der Europe-Explorer-Route",
+          "healthCardAlt": "Illustration zur Health-Connect-Synchronisierung"
+        }
+      }
     },
     "fr": {
       "relativePath": "fr/news.html",
@@ -784,7 +1009,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Revue WalkQuest</span><h1 data-i18n=\"newsTitle\">Des nouvelles de la route</h1><p data-i18n=\"newsDesc\">Mises à jour de produits, nouvelles destinations, guides de fonctionnalités et histoires du monde en expansion de WalkQuest.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Mises à jour du produit</span><span data-i18n=\"newsBadgeRoutes\">Projecteurs d&#039;itinéraire</span><span data-i18n=\"newsBadgeGuides\">Guides du joueur</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Voyageur WalkQuest célébrant de nouvelles destinations à travers le monde\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Dernières histoires</span><h2 data-i18n=\"newsLatestTitle\">Que se passe-t-il dans WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Cette page s&#039;enrichira de notes de version, de lancements d&#039;itinéraires et de conseils pratiques.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustration du partage des succès WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Mise à jour du produit</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 octobre 2026</time><h3 data-i18n=\"shareTitle\">Partagez chaque étape WalkQuest — désormais gratuitement</h3><p data-i18n=\"shareLead\">Les succès, la progression du passeport, les parcours et les records de distance se partagent maintenant sans Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Lire l&#039;article →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Itinéraires</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 septembre 2026</time><h3 data-i18n=\"news2Title\">La bibliothèque d&#039;itinéraires atteint une trentaine de trajets</h3><p data-i18n=\"news2Text\">WalkQuest couvre désormais 303 arrêts urbains et 18 transferts en train, ferry ou avion sur des itinéraires allant de Kiev et Kyoto à la Patagonie et à l&#039;Islande.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guider</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 septembre 2026</time><h3 data-i18n=\"news3Title\">Découvrez-en davantage dans chaque ville déverrouillée</h3><p data-i18n=\"news3Text\">Histoires de la ville ouvertes, monuments, cuisine locale, Google Maps, Street View à proximité, tampons de passeport et cartes de voyage partageables.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Les dernières nouvelles du journal</span><h2 data-i18n=\"newsNextTitle\">Trois histoires pour commencer</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Détails de la mise à jour, un itinéraire qui vaut le détour et un guide de configuration pratique : conçu pour être utile, sans superflu.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Illustration de la mise à jour de l&#039;application WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Notes de mise à jour</span><h3 data-i18n=\"newsNext1Title\">Un espace plus vaste pour chaque aventure WalkQuest</h3><p data-i18n=\"newsNext1Text\">Découvrez les nouveautés du site multilingue et comment les nouveaux guides facilitent votre première marche.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Lire l&#039;article →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Illustration de l&#039;itinéraire Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Plein feu sur un itinéraire</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer : 1 240 km de Londres à Prague</h3><p data-i18n=\"newsNext2Text\">Découvrez l&#039;itinéraire de départ gratuit : douze étapes urbaines, six pays et un rythme gratifiant.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Lire l&#039;article →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Illustration de la synchronisation avec Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Guide pratique</span><h3 data-i18n=\"newsNext3Title\">Connectez Health Connect sans tâtonner</h3><p data-i18n=\"newsNext3Text\">Configurez l&#039;accès aux données de pas, comprenez la synchronisation et résolvez les problèmes courants de comptage des pas.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Lire l&#039;article →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">La prochaine histoire commence avec votre prochaine promenade</h2><p data-i18n=\"newsCtaText\">Téléchargez WalkQuest et transformez les étapes d&#039;aujourd&#039;hui en destination.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Mettez-le</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Passer au contenu",
         "navHome": "Accueil",
@@ -929,7 +1153,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Revue WalkQuest",
+          "newsTitle": "Des nouvelles de la route",
+          "newsDesc": "Mises à jour de produits, nouvelles destinations, guides de fonctionnalités et histoires du monde en expansion de WalkQuest.",
+          "newsBadgeUpdates": "Mises à jour du produit",
+          "newsBadgeRoutes": "Projecteurs d'itinéraire",
+          "newsBadgeGuides": "Guides du joueur",
+          "newsLatestKicker": "Dernières histoires",
+          "newsLatestTitle": "Que se passe-t-il dans WalkQuest",
+          "newsLatestText": "Cette page s'enrichira de notes de version, de lancements d'itinéraires et de conseils pratiques.",
+          "shareTag": "Mise à jour du produit",
+          "shareDate": "3 octobre 2026",
+          "shareTitle": "Partagez chaque étape WalkQuest — désormais gratuitement",
+          "shareLead": "Les succès, la progression du passeport, les parcours et les records de distance se partagent maintenant sans Premium.",
+          "readArticle": "Lire l'article →",
+          "news2Tag": "Itinéraires",
+          "news2Date": "28 septembre 2026",
+          "news2Title": "La bibliothèque d'itinéraires atteint une trentaine de trajets",
+          "news2Text": "WalkQuest couvre désormais 303 arrêts urbains et 18 transferts en train, ferry ou avion sur des itinéraires allant de Kiev et Kyoto à la Patagonie et à l'Islande.",
+          "news3Tag": "Guider",
+          "news3Date": "20 septembre 2026",
+          "news3Title": "Découvrez-en davantage dans chaque ville déverrouillée",
+          "news3Text": "Histoires de la ville ouvertes, monuments, cuisine locale, Google Maps, Street View à proximité, tampons de passeport et cartes de voyage partageables.",
+          "newsNextKicker": "Les dernières nouvelles du journal",
+          "newsNextTitle": "Trois histoires pour commencer",
+          "newsNextText": "Détails de la mise à jour, un itinéraire qui vaut le détour et un guide de configuration pratique : conçu pour être utile, sans superflu.",
+          "releaseTag": "Notes de mise à jour",
+          "newsNext1Title": "Un espace plus vaste pour chaque aventure WalkQuest",
+          "newsNext1Text": "Découvrez les nouveautés du site multilingue et comment les nouveaux guides facilitent votre première marche.",
+          "europeTag": "Plein feu sur un itinéraire",
+          "newsNext2Title": "Europe Explorer : 1 240 km de Londres à Prague",
+          "newsNext2Text": "Découvrez l'itinéraire de départ gratuit : douze étapes urbaines, six pays et un rythme gratifiant.",
+          "healthTag": "Guide pratique",
+          "newsNext3Title": "Connectez Health Connect sans tâtonner",
+          "newsNext3Text": "Configurez l'accès aux données de pas, comprenez la synchronisation et résolvez les problèmes courants de comptage des pas.",
+          "newsCtaTitle": "La prochaine histoire commence avec votre prochaine promenade",
+          "newsCtaText": "Téléchargez WalkQuest et transformez les étapes d'aujourd'hui en destination.",
+          "playSmall": "Mettez-le",
+          "newsHeroAlt": "Voyageur WalkQuest célébrant de nouvelles destinations à travers le monde",
+          "shareHeroAlt": "Illustration du partage des succès WalkQuest",
+          "releaseCardAlt": "Illustration de la mise à jour de l'application WalkQuest",
+          "europeCardAlt": "Illustration de l'itinéraire Europe Explorer",
+          "healthCardAlt": "Illustration de la synchronisation avec Health Connect"
+        }
+      }
     },
     "pl": {
       "relativePath": "pl/news.html",
@@ -939,7 +1209,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Dziennik WalkQuest</span><h1 data-i18n=\"newsTitle\">Wiadomości z drogi</h1><p data-i18n=\"newsDesc\">Aktualizacje produktów, nowe miejsca docelowe, przewodniki po funkcjach i historie z rozwijającego się świata WalkQuest.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Aktualizacje produktów</span><span data-i18n=\"newsBadgeRoutes\">Reflektory trasy</span><span data-i18n=\"newsBadgeGuides\">Przewodniki dla graczy</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Podróżnik WalkQuest świętujący nowe miejsca na całym świecie\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Najnowsze historie</span><h2 data-i18n=\"newsLatestTitle\">Co się dzieje w WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Ta strona będzie się powiększać o informacje o wydaniach, premiery tras i praktyczne wskazówki.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustracja udostępniania osiągnięć WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Aktualizacja produktu</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 października 2026</time><h3 data-i18n=\"shareTitle\">Udostępniaj każde osiągnięcie WalkQuest — teraz bezpłatnie</h3><p data-i18n=\"shareLead\">Osiągnięcia, postęp paszportu, trasy i rekordy dystansu można teraz udostępniać bez Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Przeczytaj artykuł →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Trasy</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 września 2026 r</time><h3 data-i18n=\"news2Title\">Biblioteka tras obejmuje trzydzieści przejazdów</h3><p data-i18n=\"news2Text\">WalkQuest obejmuje obecnie 303 przystanki miejskie oraz 18 przesiadek kolejowych, promowych i lotniczych na trasach z Kijowa i Kioto do Patagonii i Islandii.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Przewodnik</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 września 2026 r</time><h3 data-i18n=\"news3Title\">Odkryj więcej w każdym odblokowanym mieście</h3><p data-i18n=\"news3Text\">Otwórz historie miast, zabytki, lokalną kuchnię, Mapy Google, pobliski Street View, pieczątki paszportowe i wspólne karty podróżne.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Nowości z dziennika</span><h2 data-i18n=\"newsNextTitle\">Trzy historie na początek</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Szczegóły aktualizacji, trasa warta przejścia i praktyczny poradnik konfiguracji – treści przydatne, a nie natrętne.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Ilustracja aktualizacji aplikacji WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Informacje o wydaniu</span><h3 data-i18n=\"newsNext1Title\">Więcej przestrzeni dla każdej podróży z WalkQuest</h3><p data-i18n=\"newsNext1Text\">Zobacz, co zmieniło się na wielojęzycznej stronie i dlaczego nowe poradniki ułatwiają pierwszy spacer.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Przeczytaj artykuł →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Ilustracja trasy Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Prezentacja trasy</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1240 km z Londynu do Pragi</h3><p data-i18n=\"newsNext2Text\">Poznaj darmową trasę startową z dwunastoma przystankami w miastach, sześcioma krajami i satysfakcjonującym rytmem marszu.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Przeczytaj artykuł →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Ilustracja synchronizacji z Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Praktyczny przewodnik</span><h3 data-i18n=\"newsNext3Title\">Połącz Health Connect bez zbędnych domysłów</h3><p data-i18n=\"newsNext3Text\">Skonfiguruj dostęp do danych o krokach, zrozum zasady synchronizacji i rozwiąż najczęstsze problemy z brakiem zliczeń.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Przeczytaj artykuł →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">Następna historia zaczyna się od następnego spaceru</h2><p data-i18n=\"newsCtaText\">Pobierz WalkQuest i zamień dzisiejsze kroki w cel.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Włącz to</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Przejdź do treści",
         "navHome": "Dom",
@@ -1084,7 +1353,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Dziennik WalkQuest",
+          "newsTitle": "Wiadomości z drogi",
+          "newsDesc": "Aktualizacje produktów, nowe miejsca docelowe, przewodniki po funkcjach i historie z rozwijającego się świata WalkQuest.",
+          "newsBadgeUpdates": "Aktualizacje produktów",
+          "newsBadgeRoutes": "Reflektory trasy",
+          "newsBadgeGuides": "Przewodniki dla graczy",
+          "newsLatestKicker": "Najnowsze historie",
+          "newsLatestTitle": "Co się dzieje w WalkQuest",
+          "newsLatestText": "Ta strona będzie się powiększać o informacje o wydaniach, premiery tras i praktyczne wskazówki.",
+          "shareTag": "Aktualizacja produktu",
+          "shareDate": "3 października 2026",
+          "shareTitle": "Udostępniaj każde osiągnięcie WalkQuest — teraz bezpłatnie",
+          "shareLead": "Osiągnięcia, postęp paszportu, trasy i rekordy dystansu można teraz udostępniać bez Premium.",
+          "readArticle": "Przeczytaj artykuł →",
+          "news2Tag": "Trasy",
+          "news2Date": "28 września 2026 r",
+          "news2Title": "Biblioteka tras obejmuje trzydzieści przejazdów",
+          "news2Text": "WalkQuest obejmuje obecnie 303 przystanki miejskie oraz 18 przesiadek kolejowych, promowych i lotniczych na trasach z Kijowa i Kioto do Patagonii i Islandii.",
+          "news3Tag": "Przewodnik",
+          "news3Date": "20 września 2026 r",
+          "news3Title": "Odkryj więcej w każdym odblokowanym mieście",
+          "news3Text": "Otwórz historie miast, zabytki, lokalną kuchnię, Mapy Google, pobliski Street View, pieczątki paszportowe i wspólne karty podróżne.",
+          "newsNextKicker": "Nowości z dziennika",
+          "newsNextTitle": "Trzy historie na początek",
+          "newsNextText": "Szczegóły aktualizacji, trasa warta przejścia i praktyczny poradnik konfiguracji – treści przydatne, a nie natrętne.",
+          "releaseTag": "Informacje o wydaniu",
+          "newsNext1Title": "Więcej przestrzeni dla każdej podróży z WalkQuest",
+          "newsNext1Text": "Zobacz, co zmieniło się na wielojęzycznej stronie i dlaczego nowe poradniki ułatwiają pierwszy spacer.",
+          "europeTag": "Prezentacja trasy",
+          "newsNext2Title": "Europe Explorer: 1240 km z Londynu do Pragi",
+          "newsNext2Text": "Poznaj darmową trasę startową z dwunastoma przystankami w miastach, sześcioma krajami i satysfakcjonującym rytmem marszu.",
+          "healthTag": "Praktyczny przewodnik",
+          "newsNext3Title": "Połącz Health Connect bez zbędnych domysłów",
+          "newsNext3Text": "Skonfiguruj dostęp do danych o krokach, zrozum zasady synchronizacji i rozwiąż najczęstsze problemy z brakiem zliczeń.",
+          "newsCtaTitle": "Następna historia zaczyna się od następnego spaceru",
+          "newsCtaText": "Pobierz WalkQuest i zamień dzisiejsze kroki w cel.",
+          "playSmall": "Włącz to",
+          "newsHeroAlt": "Podróżnik WalkQuest świętujący nowe miejsca na całym świecie",
+          "shareHeroAlt": "Ilustracja udostępniania osiągnięć WalkQuest",
+          "releaseCardAlt": "Ilustracja aktualizacji aplikacji WalkQuest",
+          "europeCardAlt": "Ilustracja trasy Europe Explorer",
+          "healthCardAlt": "Ilustracja synchronizacji z Health Connect"
+        }
+      }
     },
     "pt": {
       "relativePath": "pt/news.html",
@@ -1094,7 +1409,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Diário WalkQuest</span><h1 data-i18n=\"newsTitle\">Notícias da estrada</h1><p data-i18n=\"newsDesc\">Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Atualizações de produtos</span><span data-i18n=\"newsBadgeRoutes\">Destaques de percurso</span><span data-i18n=\"newsBadgeGuides\">Guias do jogador</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Viajante WalkQuest a celebrar novos destinos ao redor do mundo\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Últimas histórias</span><h2 data-i18n=\"newsLatestTitle\">O que está a acontecer em WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Esta página irá crescer com notas de lançamento, lançamentos de rotas e dicas práticas.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustração de partilha de conquistas WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Atualização do produto</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de outubro de 2026</time><h3 data-i18n=\"shareTitle\">Partilha cada conquista WalkQuest — agora grátis</h3><p data-i18n=\"shareLead\">Conquistas, progresso do passaporte, rotas e recordes de distância podem agora ser partilhados sem Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Ler artigo →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Rotas</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 de setembro de 2026</time><h3 data-i18n=\"news2Title\">A biblioteca de rotas chega às trinta viagens</h3><p data-i18n=\"news2Text\">O WalkQuest abrange agora 303 paragens na cidade e 18 transfers de comboio, ferry ou voo em rotas de Kiev e Quioto para a Patagónia e Islândia.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guia</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 de setembro de 2026</time><h3 data-i18n=\"news3Title\">Descubra mais dentro de cada cidade desbloqueada</h3><p data-i18n=\"news3Text\">Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem partilháveis.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Direto do diário</span><h2 data-i18n=\"newsNextTitle\">Três histórias para começar</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Detalhes do lançamento, uma rota que vale a pena percorrer e um guia prático de configuração — escrito para ser útil, e não confuso.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da atualização da aplicação WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas de lançamento</span><h3 data-i18n=\"newsNext1Title\">Um espaço maior para cada jornada do WalkQuest</h3><p data-i18n=\"newsNext1Text\">Veja o que mudou no site multilingue e porque é que os novos guias facilitam a primeira caminhada.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Ler artigo →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da rota Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Destaque da rota</span><h3 data-i18n=\"newsNext2Title\">Explorador da Europa: 1. 240 km de Londres a Praga</h3><p data-i18n=\"newsNext2Text\">Conheça a rota inicial gratuita com doze paragens em cidades, seis países e um ritmo compensador.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Ler artigo →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da sincronização do Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Guia prático</span><h3 data-i18n=\"newsNext3Title\">Ligue o Health Connect sem complicações</h3><p data-i18n=\"newsNext3Text\">Configure o acesso aos passos, compreenda a sincronização e resolva os problemas mais comuns de passos em falta.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Ler artigo →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">A próxima história começa com a sua próxima caminhada</h2><p data-i18n=\"newsCtaText\">Descarregue o WalkQuest e transforme os passos de hoje num destino.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Comece</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Saltar para o conteúdo",
         "navHome": "Página inicial",
@@ -1239,7 +1553,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diário WalkQuest",
+          "newsTitle": "Notícias da estrada",
+          "newsDesc": "Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.",
+          "newsBadgeUpdates": "Atualizações de produtos",
+          "newsBadgeRoutes": "Destaques de percurso",
+          "newsBadgeGuides": "Guias do jogador",
+          "newsLatestKicker": "Últimas histórias",
+          "newsLatestTitle": "O que está a acontecer em WalkQuest",
+          "newsLatestText": "Esta página irá crescer com notas de lançamento, lançamentos de rotas e dicas práticas.",
+          "shareTag": "Atualização do produto",
+          "shareDate": "3 de outubro de 2026",
+          "shareTitle": "Partilha cada conquista WalkQuest — agora grátis",
+          "shareLead": "Conquistas, progresso do passaporte, rotas e recordes de distância podem agora ser partilhados sem Premium.",
+          "readArticle": "Ler artigo →",
+          "news2Tag": "Rotas",
+          "news2Date": "28 de setembro de 2026",
+          "news2Title": "A biblioteca de rotas chega às trinta viagens",
+          "news2Text": "O WalkQuest abrange agora 303 paragens na cidade e 18 transfers de comboio, ferry ou voo em rotas de Kiev e Quioto para a Patagónia e Islândia.",
+          "news3Tag": "Guia",
+          "news3Date": "20 de setembro de 2026",
+          "news3Title": "Descubra mais dentro de cada cidade desbloqueada",
+          "news3Text": "Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem partilháveis.",
+          "newsNextKicker": "Direto do diário",
+          "newsNextTitle": "Três histórias para começar",
+          "newsNextText": "Detalhes do lançamento, uma rota que vale a pena percorrer e um guia prático de configuração — escrito para ser útil, e não confuso.",
+          "releaseTag": "Notas de lançamento",
+          "newsNext1Title": "Um espaço maior para cada jornada do WalkQuest",
+          "newsNext1Text": "Veja o que mudou no site multilingue e porque é que os novos guias facilitam a primeira caminhada.",
+          "europeTag": "Destaque da rota",
+          "newsNext2Title": "Explorador da Europa: 1. 240 km de Londres a Praga",
+          "newsNext2Text": "Conheça a rota inicial gratuita com doze paragens em cidades, seis países e um ritmo compensador.",
+          "healthTag": "Guia prático",
+          "newsNext3Title": "Ligue o Health Connect sem complicações",
+          "newsNext3Text": "Configure o acesso aos passos, compreenda a sincronização e resolva os problemas mais comuns de passos em falta.",
+          "newsCtaTitle": "A próxima história começa com a sua próxima caminhada",
+          "newsCtaText": "Descarregue o WalkQuest e transforme os passos de hoje num destino.",
+          "playSmall": "Comece",
+          "newsHeroAlt": "Viajante WalkQuest a celebrar novos destinos ao redor do mundo",
+          "shareHeroAlt": "Ilustração de partilha de conquistas WalkQuest",
+          "releaseCardAlt": "Ilustração da atualização da aplicação WalkQuest",
+          "europeCardAlt": "Ilustração da rota Europe Explorer",
+          "healthCardAlt": "Ilustração da sincronização do Health Connect"
+        }
+      }
     },
     "it": {
       "relativePath": "it/news.html",
@@ -1249,7 +1609,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Diario WalkQuest</span><h1 data-i18n=\"newsTitle\">Notizie dalla strada</h1><p data-i18n=\"newsDesc\">Aggiornamenti sui prodotti, nuove destinazioni, guide alle funzionalità e storie dal mondo in espansione di WalkQuest.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Aggiornamenti del prodotto</span><span data-i18n=\"newsBadgeRoutes\">Faretti di percorso</span><span data-i18n=\"newsBadgeGuides\">Guide per i giocatori</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Il viaggiatore WalkQuest celebra nuove destinazioni in tutto il mondo\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Ultime storie</span><h2 data-i18n=\"newsLatestTitle\">Cosa sta succedendo in WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Questa pagina crescerà con note di rilascio, lanci di percorsi e suggerimenti pratici.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Illustrazione della condivisione dei traguardi WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Aggiornamento prodotto</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 ottobre 2026</time><h3 data-i18n=\"shareTitle\">Condividi ogni traguardo WalkQuest — ora gratis</h3><p data-i18n=\"shareLead\">Traguardi, progressi del passaporto, percorsi e record di distanza si possono ora condividere senza Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Leggi l&#039;articolo →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Percorsi</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 settembre 2026</time><h3 data-i18n=\"news2Title\">La biblioteca delle rotte raggiunge trenta viaggi</h3><p data-i18n=\"news2Text\">WalkQuest ora copre 303 fermate in città e 18 trasferimenti in treno, traghetto o volo su rotte da Kiev e Kyoto alla Patagonia e all&#039;Islanda.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guida</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 settembre 2026</time><h3 data-i18n=\"news3Title\">Scopri di più in ogni città sbloccata</h3><p data-i18n=\"news3Text\">Apri storie di città, punti di riferimento, cibo locale, Google Maps, Street View nelle vicinanze, timbri sui passaporti e abbonamenti di viaggio condivisibili.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Novità dal diario di bordo</span><h2 data-i18n=\"newsNextTitle\">Tre storie da cui cominciare</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Dettagli sulla versione, un percorso imperdibile e una guida pratica alla configurazione: contenuti utili, senza inutili distrazioni.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Illustrazione dell&#039;aggiornamento dell&#039;app WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Note di rilascio</span><h3 data-i18n=\"newsNext1Title\">Più spazio per ogni viaggio WalkQuest</h3><p data-i18n=\"newsNext1Text\">Scopri le novità del sito multilingue e come le nuove guide rendono più semplice la prima camminata.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leggi l&#039;articolo →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Illustrazione del percorso Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Focus sul percorso</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1. 240 km da Londra a Praga</h3><p data-i18n=\"newsNext2Text\">Scopri il percorso iniziale gratuito: dodici tappe cittadine, sei paesi e un ritmo gratificante.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leggi l&#039;articolo →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Illustrazione della sincronizzazione con Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Guida pratica</span><h3 data-i18n=\"newsNext3Title\">Collega Health Connect senza incertezze</h3><p data-i18n=\"newsNext3Text\">Configura l&#039;accesso ai dati dei passi, comprendi la sincronizzazione e risolvi i problemi più comuni relativi alla mancata rilevazione dei passi.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leggi l&#039;articolo →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">La prossima storia inizia con la tua prossima passeggiata</h2><p data-i18n=\"newsCtaText\">Scarica WalkQuest e trasforma i passi di oggi in una destinazione.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Mettiti al lavoro</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Vai al contenuto",
         "navHome": "Casa",
@@ -1394,7 +1753,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diario WalkQuest",
+          "newsTitle": "Notizie dalla strada",
+          "newsDesc": "Aggiornamenti sui prodotti, nuove destinazioni, guide alle funzionalità e storie dal mondo in espansione di WalkQuest.",
+          "newsBadgeUpdates": "Aggiornamenti del prodotto",
+          "newsBadgeRoutes": "Faretti di percorso",
+          "newsBadgeGuides": "Guide per i giocatori",
+          "newsLatestKicker": "Ultime storie",
+          "newsLatestTitle": "Cosa sta succedendo in WalkQuest",
+          "newsLatestText": "Questa pagina crescerà con note di rilascio, lanci di percorsi e suggerimenti pratici.",
+          "shareTag": "Aggiornamento prodotto",
+          "shareDate": "3 ottobre 2026",
+          "shareTitle": "Condividi ogni traguardo WalkQuest — ora gratis",
+          "shareLead": "Traguardi, progressi del passaporto, percorsi e record di distanza si possono ora condividere senza Premium.",
+          "readArticle": "Leggi l'articolo →",
+          "news2Tag": "Percorsi",
+          "news2Date": "28 settembre 2026",
+          "news2Title": "La biblioteca delle rotte raggiunge trenta viaggi",
+          "news2Text": "WalkQuest ora copre 303 fermate in città e 18 trasferimenti in treno, traghetto o volo su rotte da Kiev e Kyoto alla Patagonia e all'Islanda.",
+          "news3Tag": "Guida",
+          "news3Date": "20 settembre 2026",
+          "news3Title": "Scopri di più in ogni città sbloccata",
+          "news3Text": "Apri storie di città, punti di riferimento, cibo locale, Google Maps, Street View nelle vicinanze, timbri sui passaporti e abbonamenti di viaggio condivisibili.",
+          "newsNextKicker": "Novità dal diario di bordo",
+          "newsNextTitle": "Tre storie da cui cominciare",
+          "newsNextText": "Dettagli sulla versione, un percorso imperdibile e una guida pratica alla configurazione: contenuti utili, senza inutili distrazioni.",
+          "releaseTag": "Note di rilascio",
+          "newsNext1Title": "Più spazio per ogni viaggio WalkQuest",
+          "newsNext1Text": "Scopri le novità del sito multilingue e come le nuove guide rendono più semplice la prima camminata.",
+          "europeTag": "Focus sul percorso",
+          "newsNext2Title": "Europe Explorer: 1. 240 km da Londra a Praga",
+          "newsNext2Text": "Scopri il percorso iniziale gratuito: dodici tappe cittadine, sei paesi e un ritmo gratificante.",
+          "healthTag": "Guida pratica",
+          "newsNext3Title": "Collega Health Connect senza incertezze",
+          "newsNext3Text": "Configura l'accesso ai dati dei passi, comprendi la sincronizzazione e risolvi i problemi più comuni relativi alla mancata rilevazione dei passi.",
+          "newsCtaTitle": "La prossima storia inizia con la tua prossima passeggiata",
+          "newsCtaText": "Scarica WalkQuest e trasforma i passi di oggi in una destinazione.",
+          "playSmall": "Mettiti al lavoro",
+          "newsHeroAlt": "Il viaggiatore WalkQuest celebra nuove destinazioni in tutto il mondo",
+          "shareHeroAlt": "Illustrazione della condivisione dei traguardi WalkQuest",
+          "releaseCardAlt": "Illustrazione dell'aggiornamento dell'app WalkQuest",
+          "europeCardAlt": "Illustrazione del percorso Europe Explorer",
+          "healthCardAlt": "Illustrazione della sincronizzazione con Health Connect"
+        }
+      }
     },
     "tr": {
       "relativePath": "tr/news.html",
@@ -1404,7 +1809,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest günlüğü</span><h1 data-i18n=\"newsTitle\">Yoldan haberler</h1><p data-i18n=\"newsDesc\">Genişleyen WalkQuest dünyasından ürün güncellemeleri, yeni yerler, özellik kılavuzları ve hikayeler.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Ürün güncellemeleri</span><span data-i18n=\"newsBadgeRoutes\">Rota spot ışıkları</span><span data-i18n=\"newsBadgeGuides\">Oyuncu kılavuzları</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest gezgini dünya çapında yeni destinasyonları kutluyor\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">En son hikayeler</span><h2 data-i18n=\"newsLatestTitle\">WalkQuest&#039;te neler oluyor</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Bu sayfa sürüm notları, rota lansmanları ve pratik ipuçlarıyla büyüyecek.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest başarı paylaşımı çizimi\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Ürün güncellemesi</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 Ekim 2026</time><h3 data-i18n=\"shareTitle\">Her WalkQuest başarısını paylaş — artık ücretsiz</h3><p data-i18n=\"shareLead\">Başarılar, pasaport ilerlemesi, rotalar ve mesafe rekorları artık Premium olmadan paylaşılabilir.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Makaleyi okuyun →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Rotalar</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 Eylül 2026</time><h3 data-i18n=\"news2Title\">Rota kütüphanesi otuz yolculuğa ulaşıyor</h3><p data-i18n=\"news2Text\">WalkQuest artık Kiev ve Kyoto&#039;dan Patagonya ve İzlanda&#039;ya kadar 303 şehir durağını ve 18 tren, feribot veya uçuş transferini kapsıyor.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Rehber</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 Eylül 2026</time><h3 data-i18n=\"news3Title\">Kilidi açılmış her şehrin içinde daha fazlasını keşfedin</h3><p data-i18n=\"news3Text\">Açık şehir hikayeleri, önemli noktalar, yerel yemekler, Google Haritalar, yakındaki Street View, pasaport pulları ve paylaşılabilir seyahat kartları.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Günlükten en yeni haberler</span><h2 data-i18n=\"newsNextTitle\">Başlangıç için üç hikaye</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Sürüm detayları, yürümeye değer bir rota ve pratik bir kurulum rehberi; gürültü yaratmak için değil, faydalı olmak için hazırlandı.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest uygulaması güncelleme görseli\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Sürüm notları</span><h3 data-i18n=\"newsNext1Title\">Her WalkQuest yolculuğu için daha geniş bir yuva</h3><p data-i18n=\"newsNext1Text\">Çok dilli web sitesindeki değişiklikleri ve yeni rehberlerin ilk yürüyüşü nasıl kolaylaştırdığını görün.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Makaleyi okuyun →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Europe Explorer rotası görseli\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Rota tanıtımı</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: Londra&#039;dan Prag&#039;a 1. 240 km</h3><p data-i18n=\"newsNext2Text\">On iki şehir durağı, altı ülke ve tatmin edici bir tempoya sahip ücretsiz başlangıç rotasıyla tanışın.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Makaleyi okuyun →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect senkronizasyon görseli\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Pratik rehber</span><h3 data-i18n=\"newsNext3Title\">Tahmin yürütmeden Health Connect bağlantısı kurun</h3><p data-i18n=\"newsNext3Text\">Adım erişimini ayarlayın, senkronizasyonu anlayın ve en sık karşılaşılan eksik adım sorunlarını çözün.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Makaleyi okuyun →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">Bir sonraki hikaye bir sonraki yürüyüşünüzle başlar</h2><p data-i18n=\"newsCtaText\">WalkQuest&#039;i indirin ve bugünün adımlarını hedefe dönüştürün.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Başla</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "İçeriğe atla",
         "navHome": "Ana sayfa",
@@ -1549,7 +1953,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest günlüğü",
+          "newsTitle": "Yoldan haberler",
+          "newsDesc": "Genişleyen WalkQuest dünyasından ürün güncellemeleri, yeni yerler, özellik kılavuzları ve hikayeler.",
+          "newsBadgeUpdates": "Ürün güncellemeleri",
+          "newsBadgeRoutes": "Rota spot ışıkları",
+          "newsBadgeGuides": "Oyuncu kılavuzları",
+          "newsLatestKicker": "En son hikayeler",
+          "newsLatestTitle": "WalkQuest'te neler oluyor",
+          "newsLatestText": "Bu sayfa sürüm notları, rota lansmanları ve pratik ipuçlarıyla büyüyecek.",
+          "shareTag": "Ürün güncellemesi",
+          "shareDate": "3 Ekim 2026",
+          "shareTitle": "Her WalkQuest başarısını paylaş — artık ücretsiz",
+          "shareLead": "Başarılar, pasaport ilerlemesi, rotalar ve mesafe rekorları artık Premium olmadan paylaşılabilir.",
+          "readArticle": "Makaleyi okuyun →",
+          "news2Tag": "Rotalar",
+          "news2Date": "28 Eylül 2026",
+          "news2Title": "Rota kütüphanesi otuz yolculuğa ulaşıyor",
+          "news2Text": "WalkQuest artık Kiev ve Kyoto'dan Patagonya ve İzlanda'ya kadar 303 şehir durağını ve 18 tren, feribot veya uçuş transferini kapsıyor.",
+          "news3Tag": "Rehber",
+          "news3Date": "20 Eylül 2026",
+          "news3Title": "Kilidi açılmış her şehrin içinde daha fazlasını keşfedin",
+          "news3Text": "Açık şehir hikayeleri, önemli noktalar, yerel yemekler, Google Haritalar, yakındaki Street View, pasaport pulları ve paylaşılabilir seyahat kartları.",
+          "newsNextKicker": "Günlükten en yeni haberler",
+          "newsNextTitle": "Başlangıç için üç hikaye",
+          "newsNextText": "Sürüm detayları, yürümeye değer bir rota ve pratik bir kurulum rehberi; gürültü yaratmak için değil, faydalı olmak için hazırlandı.",
+          "releaseTag": "Sürüm notları",
+          "newsNext1Title": "Her WalkQuest yolculuğu için daha geniş bir yuva",
+          "newsNext1Text": "Çok dilli web sitesindeki değişiklikleri ve yeni rehberlerin ilk yürüyüşü nasıl kolaylaştırdığını görün.",
+          "europeTag": "Rota tanıtımı",
+          "newsNext2Title": "Europe Explorer: Londra'dan Prag'a 1. 240 km",
+          "newsNext2Text": "On iki şehir durağı, altı ülke ve tatmin edici bir tempoya sahip ücretsiz başlangıç rotasıyla tanışın.",
+          "healthTag": "Pratik rehber",
+          "newsNext3Title": "Tahmin yürütmeden Health Connect bağlantısı kurun",
+          "newsNext3Text": "Adım erişimini ayarlayın, senkronizasyonu anlayın ve en sık karşılaşılan eksik adım sorunlarını çözün.",
+          "newsCtaTitle": "Bir sonraki hikaye bir sonraki yürüyüşünüzle başlar",
+          "newsCtaText": "WalkQuest'i indirin ve bugünün adımlarını hedefe dönüştürün.",
+          "playSmall": "Başla",
+          "newsHeroAlt": "WalkQuest gezgini dünya çapında yeni destinasyonları kutluyor",
+          "shareHeroAlt": "WalkQuest başarı paylaşımı çizimi",
+          "releaseCardAlt": "WalkQuest uygulaması güncelleme görseli",
+          "europeCardAlt": "Europe Explorer rotası görseli",
+          "healthCardAlt": "Health Connect senkronizasyon görseli"
+        }
+      }
     },
     "ja": {
       "relativePath": "ja/news.html",
@@ -1559,7 +2009,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest ジャーナル</span><h1 data-i18n=\"newsTitle\">道路からのニュース</h1><p data-i18n=\"newsDesc\">製品のアップデート、新しい目的地、機能ガイド、拡大する WalkQuest の世界のストーリー。</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">製品のアップデート</span><span data-i18n=\"newsBadgeRoutes\">ルートのスポットライト</span><span data-i18n=\"newsBadgeGuides\">プレイヤーガイド</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"世界中の新しい目的地を祝う WalkQuest 旅行者\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">最新話</span><h2 data-i18n=\"newsLatestTitle\">WalkQuestで何が起こっているのか</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">このページは、リリース ノート、ルートの開始、実用的なヒントとともに成長していきます。</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest実績共有のイラスト\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">製品アップデート</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026年10月3日</time><h3 data-i18n=\"shareTitle\">WalkQuestの達成を共有 — 今なら無料</h3><p data-i18n=\"shareLead\">実績、パスポートの進捗、ルート、距離記録をPremiumなしで共有できるようになりました。</p><span class=\"news-card-action\" data-i18n=\"readArticle\">記事を読む →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">ルート</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">2026 年 9 月 28 日</time><h3 data-i18n=\"news2Title\">ルート ライブラリが 30 行に達しました</h3><p data-i18n=\"news2Text\">WalkQuest は現在、キエフと京都からパタゴニアとアイスランドまでのルートで 303 の都市停留所と 18 の列車、フェリー、または飛行機の乗り継ぎを行っています。</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">ガイド</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">2026 年 9 月 20 日</time><h3 data-i18n=\"news3Title\">ロックされていないすべての都市でさらに発見してください</h3><p data-i18n=\"news3Text\">オープンな街のストーリー、ランドマーク、地元の食べ物、Google マップ、近くの Street View、パスポートのスタンプ、共有可能な旅行カード。</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">ジャーナルからの最新情報</span><h2 data-i18n=\"newsNextTitle\">まず試したい3つのストーリー</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">リリース詳細、歩きがいのあるルート、そして実践的な設定ガイド。ノイズではなく、役に立つ情報を届けます。</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuestアプリのアップデート図\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">リリースノート</span><h3 data-i18n=\"newsNext1Title\">すべてのWalkQuestの旅を支える、より充実したホーム画面</h3><p data-i18n=\"newsNext1Text\">多言語対応ウェブサイトの変更点と、新しいガイドが「最初のウォーキング」をより簡単にする理由をご覧ください。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">記事を読む →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"ヨーロッパ・エクスプローラー・ルートの図\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">ルート特集</span><h3 data-i18n=\"newsNext2Title\">ヨーロッパ・エクスプローラー：ロンドンからプラハまでの1,240km</h3><p data-i18n=\"newsNext2Text\">6カ国・12都市を巡る、充実感あふれる無料のスタータールートをご紹介します。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">記事を読む →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect同期の図\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">実践ガイド</span><h3 data-i18n=\"newsNext3Title\">迷うことなくHealth Connectを連携</h3><p data-i18n=\"newsNext3Text\">歩数データへのアクセス設定、同期の仕組みの理解、そしてよくある「歩数が反映されない」問題の解決方法を解説します。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">記事を読む →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">次のストーリーはあなたの次の散歩から始まります</h2><p data-i18n=\"newsCtaText\">WalkQuest をダウンロードして、今日の一歩を目的地に変えましょう。</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">それを着てください</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "コンテンツにスキップ",
         "navHome": "ホーム",
@@ -1704,7 +2153,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest ジャーナル",
+          "newsTitle": "道路からのニュース",
+          "newsDesc": "製品のアップデート、新しい目的地、機能ガイド、拡大する WalkQuest の世界のストーリー。",
+          "newsBadgeUpdates": "製品のアップデート",
+          "newsBadgeRoutes": "ルートのスポットライト",
+          "newsBadgeGuides": "プレイヤーガイド",
+          "newsLatestKicker": "最新話",
+          "newsLatestTitle": "WalkQuestで何が起こっているのか",
+          "newsLatestText": "このページは、リリース ノート、ルートの開始、実用的なヒントとともに成長していきます。",
+          "shareTag": "製品アップデート",
+          "shareDate": "2026年10月3日",
+          "shareTitle": "WalkQuestの達成を共有 — 今なら無料",
+          "shareLead": "実績、パスポートの進捗、ルート、距離記録をPremiumなしで共有できるようになりました。",
+          "readArticle": "記事を読む →",
+          "news2Tag": "ルート",
+          "news2Date": "2026 年 9 月 28 日",
+          "news2Title": "ルート ライブラリが 30 行に達しました",
+          "news2Text": "WalkQuest は現在、キエフと京都からパタゴニアとアイスランドまでのルートで 303 の都市停留所と 18 の列車、フェリー、または飛行機の乗り継ぎを行っています。",
+          "news3Tag": "ガイド",
+          "news3Date": "2026 年 9 月 20 日",
+          "news3Title": "ロックされていないすべての都市でさらに発見してください",
+          "news3Text": "オープンな街のストーリー、ランドマーク、地元の食べ物、Google マップ、近くの Street View、パスポートのスタンプ、共有可能な旅行カード。",
+          "newsNextKicker": "ジャーナルからの最新情報",
+          "newsNextTitle": "まず試したい3つのストーリー",
+          "newsNextText": "リリース詳細、歩きがいのあるルート、そして実践的な設定ガイド。ノイズではなく、役に立つ情報を届けます。",
+          "releaseTag": "リリースノート",
+          "newsNext1Title": "すべてのWalkQuestの旅を支える、より充実したホーム画面",
+          "newsNext1Text": "多言語対応ウェブサイトの変更点と、新しいガイドが「最初のウォーキング」をより簡単にする理由をご覧ください。",
+          "europeTag": "ルート特集",
+          "newsNext2Title": "ヨーロッパ・エクスプローラー：ロンドンからプラハまでの1,240km",
+          "newsNext2Text": "6カ国・12都市を巡る、充実感あふれる無料のスタータールートをご紹介します。",
+          "healthTag": "実践ガイド",
+          "newsNext3Title": "迷うことなくHealth Connectを連携",
+          "newsNext3Text": "歩数データへのアクセス設定、同期の仕組みの理解、そしてよくある「歩数が反映されない」問題の解決方法を解説します。",
+          "newsCtaTitle": "次のストーリーはあなたの次の散歩から始まります",
+          "newsCtaText": "WalkQuest をダウンロードして、今日の一歩を目的地に変えましょう。",
+          "playSmall": "それを着てください",
+          "newsHeroAlt": "世界中の新しい目的地を祝う WalkQuest 旅行者",
+          "shareHeroAlt": "WalkQuest実績共有のイラスト",
+          "releaseCardAlt": "WalkQuestアプリのアップデート図",
+          "europeCardAlt": "ヨーロッパ・エクスプローラー・ルートの図",
+          "healthCardAlt": "Health Connect同期の図"
+        }
+      }
     },
     "ko": {
       "relativePath": "ko/news.html",
@@ -1714,7 +2209,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest 저널</span><h1 data-i18n=\"newsTitle\">길에서 온 소식</h1><p data-i18n=\"newsDesc\">확장되는 WalkQuest 세계의 제품 업데이트, 새로운 목적지, 기능 가이드 및 스토리.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">제품 업데이트</span><span data-i18n=\"newsBadgeRoutes\">경로 스포트라이트</span><span data-i18n=\"newsBadgeGuides\">플레이어 가이드</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"전 세계의 새로운 목적지를 축하하는 WalkQuest 여행자\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">최신 기사</span><h2 data-i18n=\"newsLatestTitle\">WalkQuest에서는 무슨 일이 일어나고 있나요?</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">이 페이지는 릴리스 노트, 경로 출시 및 실용적인 팁으로 성장할 것입니다.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 업적 공유 일러스트\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">제품 업데이트</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026년 10월 3일</time><h3 data-i18n=\"shareTitle\">WalkQuest의 모든 성과를 공유하세요 — 이제 무료</h3><p data-i18n=\"shareLead\">업적, 여권 진행도, 경로와 거리 기록을 Premium 없이 공유할 수 있습니다.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">기사 읽기 →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">노선</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">2026년 9월 28일</time><h3 data-i18n=\"news2Title\">경로 라이브러리가 30개 여정에 도달했습니다.</h3><p data-i18n=\"news2Text\">WalkQuest는 이제 키예프와 교토에서 파타고니아와 아이슬란드까지 노선을 가로지르는 303개의 도시 정류장과 18개의 기차, 페리, 항공 환승 서비스를 제공합니다.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">가이드</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">2026년 9월 20일</time><h3 data-i18n=\"news3Title\">잠금 해제된 모든 도시에서 더 많은 것을 발견하세요</h3><p data-i18n=\"news3Text\">도시 이야기, 랜드마크, 현지 음식, Google 지도, 인근 Street View, 여권 스탬프, 공유 가능한 여행 카드를 공개하세요.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">최신 저널 소식</span><h2 data-i18n=\"newsNextTitle\">시작하기 좋은 세 가지 이야기</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">릴리스 정보, 걷기 좋은 경로, 실용적인 설정 가이드—불필요한 알림 없이 꼭 필요한 정보만 담았습니다.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 앱 업데이트 일러스트\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">릴리스 노트</span><h3 data-i18n=\"newsNext1Title\">모든 WalkQuest 여정을 위한 더 넓은 공간</h3><p data-i18n=\"newsNext1Text\">다국어 웹사이트의 변경 사항과, 새로운 가이드가 어떻게 첫 걸음을 더 쉽게 만들어주는지 확인해 보세요.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">기사 읽기 →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"유럽 탐험가 경로 일러스트\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">경로 집중 조명</span><h3 data-i18n=\"newsNext2Title\">유럽 탐험가(Europe Explorer): 런던에서 프라하까지 1,240km</h3><p data-i18n=\"newsNext2Text\">6개국, 12개 도시를 거치며 보람찬 리듬으로 걷는 무료 시작 경로를 만나보세요.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">기사 읽기 →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect 동기화 일러스트\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">실용적인 가이드</span><h3 data-i18n=\"newsNext3Title\">복잡한 과정 없이 Health Connect 연결하기</h3><p data-i18n=\"newsNext3Text\">걸음 수 데이터 접근 권한 설정, 동기화 원리 이해, 그리고 흔히 발생하는 데이터 누락 문제 해결법.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">기사 읽기 →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">다음 이야기는 당신의 다음 산책에서부터 시작됩니다</h2><p data-i18n=\"newsCtaText\">WalkQuest를 다운로드하고 오늘의 발걸음을 목표로 삼으세요.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">시작해 보세요</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "콘텐츠로 건너뛰기",
         "navHome": "홈",
@@ -1859,7 +2353,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest 저널",
+          "newsTitle": "길에서 온 소식",
+          "newsDesc": "확장되는 WalkQuest 세계의 제품 업데이트, 새로운 목적지, 기능 가이드 및 스토리.",
+          "newsBadgeUpdates": "제품 업데이트",
+          "newsBadgeRoutes": "경로 스포트라이트",
+          "newsBadgeGuides": "플레이어 가이드",
+          "newsLatestKicker": "최신 기사",
+          "newsLatestTitle": "WalkQuest에서는 무슨 일이 일어나고 있나요?",
+          "newsLatestText": "이 페이지는 릴리스 노트, 경로 출시 및 실용적인 팁으로 성장할 것입니다.",
+          "shareTag": "제품 업데이트",
+          "shareDate": "2026년 10월 3일",
+          "shareTitle": "WalkQuest의 모든 성과를 공유하세요 — 이제 무료",
+          "shareLead": "업적, 여권 진행도, 경로와 거리 기록을 Premium 없이 공유할 수 있습니다.",
+          "readArticle": "기사 읽기 →",
+          "news2Tag": "노선",
+          "news2Date": "2026년 9월 28일",
+          "news2Title": "경로 라이브러리가 30개 여정에 도달했습니다.",
+          "news2Text": "WalkQuest는 이제 키예프와 교토에서 파타고니아와 아이슬란드까지 노선을 가로지르는 303개의 도시 정류장과 18개의 기차, 페리, 항공 환승 서비스를 제공합니다.",
+          "news3Tag": "가이드",
+          "news3Date": "2026년 9월 20일",
+          "news3Title": "잠금 해제된 모든 도시에서 더 많은 것을 발견하세요",
+          "news3Text": "도시 이야기, 랜드마크, 현지 음식, Google 지도, 인근 Street View, 여권 스탬프, 공유 가능한 여행 카드를 공개하세요.",
+          "newsNextKicker": "최신 저널 소식",
+          "newsNextTitle": "시작하기 좋은 세 가지 이야기",
+          "newsNextText": "릴리스 정보, 걷기 좋은 경로, 실용적인 설정 가이드—불필요한 알림 없이 꼭 필요한 정보만 담았습니다.",
+          "releaseTag": "릴리스 노트",
+          "newsNext1Title": "모든 WalkQuest 여정을 위한 더 넓은 공간",
+          "newsNext1Text": "다국어 웹사이트의 변경 사항과, 새로운 가이드가 어떻게 첫 걸음을 더 쉽게 만들어주는지 확인해 보세요.",
+          "europeTag": "경로 집중 조명",
+          "newsNext2Title": "유럽 탐험가(Europe Explorer): 런던에서 프라하까지 1,240km",
+          "newsNext2Text": "6개국, 12개 도시를 거치며 보람찬 리듬으로 걷는 무료 시작 경로를 만나보세요.",
+          "healthTag": "실용적인 가이드",
+          "newsNext3Title": "복잡한 과정 없이 Health Connect 연결하기",
+          "newsNext3Text": "걸음 수 데이터 접근 권한 설정, 동기화 원리 이해, 그리고 흔히 발생하는 데이터 누락 문제 해결법.",
+          "newsCtaTitle": "다음 이야기는 당신의 다음 산책에서부터 시작됩니다",
+          "newsCtaText": "WalkQuest를 다운로드하고 오늘의 발걸음을 목표로 삼으세요.",
+          "playSmall": "시작해 보세요",
+          "newsHeroAlt": "전 세계의 새로운 목적지를 축하하는 WalkQuest 여행자",
+          "shareHeroAlt": "WalkQuest 업적 공유 일러스트",
+          "releaseCardAlt": "WalkQuest 앱 업데이트 일러스트",
+          "europeCardAlt": "유럽 탐험가 경로 일러스트",
+          "healthCardAlt": "Health Connect 동기화 일러스트"
+        }
+      }
     },
     "zh-cn": {
       "relativePath": "zh-cn/news.html",
@@ -1869,7 +2409,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest 期刊</span><h1 data-i18n=\"newsTitle\">路上传来的消息</h1><p data-i18n=\"newsDesc\">产品更新、新目的地、功能指南以及不断扩展的 WalkQuest 世界的故事。</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">产品更新</span><span data-i18n=\"newsBadgeRoutes\">路线聚光灯</span><span data-i18n=\"newsBadgeGuides\">玩家指南</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 旅行者庆祝全球新目的地\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">最新故事</span><h2 data-i18n=\"newsLatestTitle\">WalkQuest 发生了什么</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">此页面将随着发行说明、路线发布和实用技巧而不断增长。</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 成就分享插图\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">产品更新</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">2026年10月3日</time><h3 data-i18n=\"shareTitle\">分享每个 WalkQuest 里程碑——现在免费</h3><p data-i18n=\"shareLead\">成就、护照进度、路线和距离记录现在无需 Premium 即可分享。</p><span class=\"news-card-action\" data-i18n=\"readArticle\">阅读文章 →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">路线</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">2026 年 9 月 28 日</time><h3 data-i18n=\"news2Title\">航线库已达三十条旅程</h3><p data-i18n=\"news2Text\">WalkQuest 目前横跨 303 个城市站点以及 18 个火车、渡轮或航班换乘服务，横跨从基辅和京都到巴塔哥尼亚和冰岛的路线。</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">指南</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">2026 年 9 月 20 日</time><h3 data-i18n=\"news3Title\">在每个解锁的城市中发现更多</h3><p data-i18n=\"news3Text\">打开城市故事、地标、当地美食、Google 地图、附近的 Street View、护照印章和可共享的旅行卡。</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">来自日志的最新动态</span><h2 data-i18n=\"newsNextTitle\">三个值得体验的入门故事</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">版本更新详情、一条值得探索的路线以及实用的设置指南——内容力求实用，拒绝冗余干扰。</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest 应用更新示意图\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">发布说明</span><h3 data-i18n=\"newsNext1Title\">为每一段 WalkQuest 旅程打造更广阔的展示空间</h3><p data-i18n=\"newsNext1Text\">了解多语言网站的更新内容，以及新版指南如何让首次徒步体验更轻松。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">阅读文章 →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"“欧洲探索之旅”路线示意图\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">路线聚焦</span><h3 data-i18n=\"newsNext2Title\">欧洲探索之旅 (Europe Explorer)：从伦敦到布拉格，全长 1,240 公里</h3><p data-i18n=\"newsNext2Text\">体验这条免费的入门路线：途经六国、十二个城市站点，节奏舒缓且充满成就感。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">阅读文章 →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect 同步示意图\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">实用指南</span><h3 data-i18n=\"newsNext3Title\">轻松连接 Health Connect，无需盲目摸索</h3><p data-i18n=\"newsNext3Text\">设置步数访问权限，理解同步机制，并解决常见的步数数据缺失问题。</p><span class=\"article-link-label\" data-i18n=\"readArticle\">阅读文章 →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">下一个故事从你的下一次散步开始</h2><p data-i18n=\"newsCtaText\">下载 WalkQuest，将今天的脚步变成目的地。</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">穿上它</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "跳至内容",
         "navHome": "首页",
@@ -2014,7 +2553,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest 期刊",
+          "newsTitle": "路上传来的消息",
+          "newsDesc": "产品更新、新目的地、功能指南以及不断扩展的 WalkQuest 世界的故事。",
+          "newsBadgeUpdates": "产品更新",
+          "newsBadgeRoutes": "路线聚光灯",
+          "newsBadgeGuides": "玩家指南",
+          "newsLatestKicker": "最新故事",
+          "newsLatestTitle": "WalkQuest 发生了什么",
+          "newsLatestText": "此页面将随着发行说明、路线发布和实用技巧而不断增长。",
+          "shareTag": "产品更新",
+          "shareDate": "2026年10月3日",
+          "shareTitle": "分享每个 WalkQuest 里程碑——现在免费",
+          "shareLead": "成就、护照进度、路线和距离记录现在无需 Premium 即可分享。",
+          "readArticle": "阅读文章 →",
+          "news2Tag": "路线",
+          "news2Date": "2026 年 9 月 28 日",
+          "news2Title": "航线库已达三十条旅程",
+          "news2Text": "WalkQuest 目前横跨 303 个城市站点以及 18 个火车、渡轮或航班换乘服务，横跨从基辅和京都到巴塔哥尼亚和冰岛的路线。",
+          "news3Tag": "指南",
+          "news3Date": "2026 年 9 月 20 日",
+          "news3Title": "在每个解锁的城市中发现更多",
+          "news3Text": "打开城市故事、地标、当地美食、Google 地图、附近的 Street View、护照印章和可共享的旅行卡。",
+          "newsNextKicker": "来自日志的最新动态",
+          "newsNextTitle": "三个值得体验的入门故事",
+          "newsNextText": "版本更新详情、一条值得探索的路线以及实用的设置指南——内容力求实用，拒绝冗余干扰。",
+          "releaseTag": "发布说明",
+          "newsNext1Title": "为每一段 WalkQuest 旅程打造更广阔的展示空间",
+          "newsNext1Text": "了解多语言网站的更新内容，以及新版指南如何让首次徒步体验更轻松。",
+          "europeTag": "路线聚焦",
+          "newsNext2Title": "欧洲探索之旅 (Europe Explorer)：从伦敦到布拉格，全长 1,240 公里",
+          "newsNext2Text": "体验这条免费的入门路线：途经六国、十二个城市站点，节奏舒缓且充满成就感。",
+          "healthTag": "实用指南",
+          "newsNext3Title": "轻松连接 Health Connect，无需盲目摸索",
+          "newsNext3Text": "设置步数访问权限，理解同步机制，并解决常见的步数数据缺失问题。",
+          "newsCtaTitle": "下一个故事从你的下一次散步开始",
+          "newsCtaText": "下载 WalkQuest，将今天的脚步变成目的地。",
+          "playSmall": "穿上它",
+          "newsHeroAlt": "WalkQuest 旅行者庆祝全球新目的地",
+          "shareHeroAlt": "WalkQuest 成就分享插图",
+          "releaseCardAlt": "WalkQuest 应用更新示意图",
+          "europeCardAlt": "“欧洲探索之旅”路线示意图",
+          "healthCardAlt": "Health Connect 同步示意图"
+        }
+      }
     },
     "ar": {
       "relativePath": "ar/news.html",
@@ -2024,7 +2609,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">مجلة WalkQuest</span><h1 data-i18n=\"newsTitle\">أخبار من الطريق</h1><p data-i18n=\"newsDesc\">تحديثات المنتج والوجهات الجديدة وأدلة الميزات والقصص من عالم WalkQuest المتوسع.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">تحديثات المنتج</span><span data-i18n=\"newsBadgeRoutes\">أضواء الطريق</span><span data-i18n=\"newsBadgeGuides\">أدلة اللاعب</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"مسافر WalkQuest يحتفل بالوجهات الجديدة حول العالم\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">أحدث القصص</span><h2 data-i18n=\"newsLatestTitle\">ما يحدث في WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">ستنمو هذه الصفحة مع ملاحظات الإصدار وعمليات إطلاق المسار والنصائح العملية.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"رسم توضيحي لمشاركة إنجازات WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">تحديث المنتج</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 أكتوبر 2026</time><h3 data-i18n=\"shareTitle\">شارك كل إنجاز في WalkQuest — مجانًا الآن</h3><p data-i18n=\"shareLead\">يمكن الآن مشاركة الإنجازات وتقدم الجواز والمسارات وأرقام المسافة من دون Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">اقرأ المقال ←</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">الطرق</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 سبتمبر 2026</time><h3 data-i18n=\"news2Title\">تصل مكتبة الطرق إلى ثلاثين رحلة</h3><p data-i18n=\"news2Text\">تمتد WalkQuest الآن على 303 محطة توقف في المدينة و18 رحلة بالقطار أو العبارة أو الطيران عبر الطرق من كييف وكيوتو إلى باتاغونيا وأيسلندا.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">دليل</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 سبتمبر 2026</time><h3 data-i18n=\"news3Title\">اكتشف المزيد داخل كل مدينة غير مقفلة</h3><p data-i18n=\"news3Text\">افتح قصص المدينة والمعالم والأطعمة المحلية وخرائط Google وStreet View القريبة وطوابع جواز السفر وبطاقات السفر القابلة للمشاركة.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">جديد المدونة</span><h2 data-i18n=\"newsNextTitle\">ثلاث قصص للبدء بها</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">تفاصيل الإصدار، ومسار يستحق المشي، ودليل إعداد عملي؛ محتوى مفيد ومباشر بعيداً عن الإزعاج.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"رسم توضيحي لتحديث تطبيق WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">ملاحظات الإصدار</span><h3 data-i18n=\"newsNext1Title\">مساحة أكبر لكل رحلة من رحلات WalkQuest</h3><p data-i18n=\"newsNext1Text\">اطّلع على التغييرات في الموقع متعدد اللغات واعرف كيف تجعل الأدلة الجديدة رحلة المشي الأولى أسهل.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">اقرأ المقال ←</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"رسم توضيحي لمسار &quot;مستكشف أوروبا&quot; (Europe Explorer)\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">تسليط الضوء على مسار</span><h3 data-i18n=\"newsNext2Title\">مستكشف أوروبا (Europe Explorer): مسافة 1240 كم من لندن إلى براغ</h3><p data-i18n=\"newsNext2Text\">تعرّف على المسار المجاني للمبتدئين الذي يضم اثنتي عشرة محطة في المدن، ويمر عبر ست دول، ويتميز بإيقاع ممتع ومجزٍ.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">اقرأ المقال ←</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"رسم توضيحي لمزامنة Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">دليل عملي</span><h3 data-i18n=\"newsNext3Title\">ربط خدمة Health Connect دون عناء أو تخمين</h3><p data-i18n=\"newsNext3Text\">قم بإعداد صلاحية الوصول للخطوات، وافهم آلية المزامنة، وحل أكثر المشكلات شيوعاً المتعلقة بفقدان بيانات الخطوات.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">اقرأ المقال ←</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">تبدأ القصة التالية بمسيرتك التالية</h2><p data-i18n=\"newsCtaText\">قم بتنزيل WalkQuest وحوّل خطوات اليوم إلى وجهة.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">احصل عليه</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "انتقل إلى المحتوى",
         "navHome": "الصفحة الرئيسية",
@@ -2169,7 +2753,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "مجلة WalkQuest",
+          "newsTitle": "أخبار من الطريق",
+          "newsDesc": "تحديثات المنتج والوجهات الجديدة وأدلة الميزات والقصص من عالم WalkQuest المتوسع.",
+          "newsBadgeUpdates": "تحديثات المنتج",
+          "newsBadgeRoutes": "أضواء الطريق",
+          "newsBadgeGuides": "أدلة اللاعب",
+          "newsLatestKicker": "أحدث القصص",
+          "newsLatestTitle": "ما يحدث في WalkQuest",
+          "newsLatestText": "ستنمو هذه الصفحة مع ملاحظات الإصدار وعمليات إطلاق المسار والنصائح العملية.",
+          "shareTag": "تحديث المنتج",
+          "shareDate": "3 أكتوبر 2026",
+          "shareTitle": "شارك كل إنجاز في WalkQuest — مجانًا الآن",
+          "shareLead": "يمكن الآن مشاركة الإنجازات وتقدم الجواز والمسارات وأرقام المسافة من دون Premium.",
+          "readArticle": "اقرأ المقال ←",
+          "news2Tag": "الطرق",
+          "news2Date": "28 سبتمبر 2026",
+          "news2Title": "تصل مكتبة الطرق إلى ثلاثين رحلة",
+          "news2Text": "تمتد WalkQuest الآن على 303 محطة توقف في المدينة و18 رحلة بالقطار أو العبارة أو الطيران عبر الطرق من كييف وكيوتو إلى باتاغونيا وأيسلندا.",
+          "news3Tag": "دليل",
+          "news3Date": "20 سبتمبر 2026",
+          "news3Title": "اكتشف المزيد داخل كل مدينة غير مقفلة",
+          "news3Text": "افتح قصص المدينة والمعالم والأطعمة المحلية وخرائط Google وStreet View القريبة وطوابع جواز السفر وبطاقات السفر القابلة للمشاركة.",
+          "newsNextKicker": "جديد المدونة",
+          "newsNextTitle": "ثلاث قصص للبدء بها",
+          "newsNextText": "تفاصيل الإصدار، ومسار يستحق المشي، ودليل إعداد عملي؛ محتوى مفيد ومباشر بعيداً عن الإزعاج.",
+          "releaseTag": "ملاحظات الإصدار",
+          "newsNext1Title": "مساحة أكبر لكل رحلة من رحلات WalkQuest",
+          "newsNext1Text": "اطّلع على التغييرات في الموقع متعدد اللغات واعرف كيف تجعل الأدلة الجديدة رحلة المشي الأولى أسهل.",
+          "europeTag": "تسليط الضوء على مسار",
+          "newsNext2Title": "مستكشف أوروبا (Europe Explorer): مسافة 1240 كم من لندن إلى براغ",
+          "newsNext2Text": "تعرّف على المسار المجاني للمبتدئين الذي يضم اثنتي عشرة محطة في المدن، ويمر عبر ست دول، ويتميز بإيقاع ممتع ومجزٍ.",
+          "healthTag": "دليل عملي",
+          "newsNext3Title": "ربط خدمة Health Connect دون عناء أو تخمين",
+          "newsNext3Text": "قم بإعداد صلاحية الوصول للخطوات، وافهم آلية المزامنة، وحل أكثر المشكلات شيوعاً المتعلقة بفقدان بيانات الخطوات.",
+          "newsCtaTitle": "تبدأ القصة التالية بمسيرتك التالية",
+          "newsCtaText": "قم بتنزيل WalkQuest وحوّل خطوات اليوم إلى وجهة.",
+          "playSmall": "احصل عليه",
+          "newsHeroAlt": "مسافر WalkQuest يحتفل بالوجهات الجديدة حول العالم",
+          "shareHeroAlt": "رسم توضيحي لمشاركة إنجازات WalkQuest",
+          "releaseCardAlt": "رسم توضيحي لتحديث تطبيق WalkQuest",
+          "europeCardAlt": "رسم توضيحي لمسار \"مستكشف أوروبا\" (Europe Explorer)",
+          "healthCardAlt": "رسم توضيحي لمزامنة Health Connect"
+        }
+      }
     },
     "hi": {
       "relativePath": "hi/news.html",
@@ -2179,7 +2809,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">WalkQuest जर्नल</span><h1 data-i18n=\"newsTitle\">सड़क से समाचार</h1><p data-i18n=\"newsDesc\">उत्पाद अपडेट, नए गंतव्य, फीचर गाइड और विस्तारित WalkQuest दुनिया की कहानियां।</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">उत्पाद अद्यतन</span><span data-i18n=\"newsBadgeRoutes\">रूट स्पॉटलाइट</span><span data-i18n=\"newsBadgeGuides\">खिलाड़ी मार्गदर्शन करता है</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest यात्री दुनिया भर में नए गंतव्यों का जश्न मना रहा है\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">नवीनतम कहानियाँ</span><h2 data-i18n=\"newsLatestTitle\">WalkQuest में क्या हो रहा है?</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">यह पृष्ठ रिलीज़ नोट्स, रूट लॉन्च और व्यावहारिक युक्तियों के साथ विकसित होगा।</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest उपलब्धि साझा करने का चित्र\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">प्रोडक्ट अपडेट</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 अक्टूबर 2026</time><h3 data-i18n=\"shareTitle\">हर WalkQuest उपलब्धि साझा करें — अब मुफ़्त</h3><p data-i18n=\"shareLead\">उपलब्धियाँ, पासपोर्ट प्रगति, रूट और दूरी रिकॉर्ड अब Premium के बिना साझा किए जा सकते हैं।</p><span class=\"news-card-action\" data-i18n=\"readArticle\">आर्टिकल पढ़ें →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">मार्ग</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 सितंबर 2026</time><h3 data-i18n=\"news2Title\">मार्ग पुस्तकालय तीस यात्राओं तक पहुंचता है</h3><p data-i18n=\"news2Text\">WalkQuest अब 303 सिटी स्टॉप और कीव और क्योटो से पैटागोनिया और आइसलैंड तक के मार्गों पर 18 ट्रेन, फ़ेरी या उड़ान स्थानांतरण तक फैला हुआ है।</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">मार्गदर्शक</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 सितंबर 2026</time><h3 data-i18n=\"news3Title\">प्रत्येक अनलॉक शहर के अंदर और अधिक जानें</h3><p data-i18n=\"news3Text\">खुले शहर की कहानियाँ, स्थलचिह्न, स्थानीय भोजन, Google मानचित्र, निकटवर्ती Street View, पासपोर्ट टिकट और साझा करने योग्य यात्रा कार्ड।</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">जर्नल से ताज़ा जानकारी</span><h2 data-i18n=\"newsNextTitle\">शुरुआत करने के लिए तीन कहानियाँ</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">रिलीज़ की जानकारी, चलने लायक रूट, और एक प्रैक्टिकल सेटअप गाइड—जो काम की हो, न कि फालतू जानकारी से भरी।</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"WalkQuest ऐप अपडेट का इलस्ट्रेशन\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">रिलीज़ नोट्स</span><h3 data-i18n=\"newsNext1Title\">हर WalkQuest यात्रा के लिए एक बड़ी जगह</h3><p data-i18n=\"newsNext1Text\">देखें कि मल्टीलिंगुअल वेबसाइट पर क्या बदला है और नए गाइड पहली वॉक को कैसे आसान बनाते हैं।</p><span class=\"article-link-label\" data-i18n=\"readArticle\">आर्टिकल पढ़ें →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"यूरोप एक्सप्लोरर रूट का इलस्ट्रेशन\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">रूट स्पॉटलाइट</span><h3 data-i18n=\"newsNext2Title\">यूरोप एक्सप्लोरर: लंदन से प्राग तक 1,240 km</h3><p data-i18n=\"newsNext2Text\">मुफ़्त स्टार्टर रूट से मिलें जिसमें बारह शहरों में स्टॉप, छह देश और एक शानदार रिदम है।</p><span class=\"article-link-label\" data-i18n=\"readArticle\">आर्टिकल पढ़ें →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Health Connect सिंक्रोनाइज़ेशन का इलस्ट्रेशन\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">प्रैक्टिकल गाइड</span><h3 data-i18n=\"newsNext3Title\">बिना किसी अंदाज़े के Health Connect को कनेक्ट करें</h3><p data-i18n=\"newsNext3Text\">स्टेप एक्सेस सेट अप करें, सिंक्रोनाइज़ेशन को समझें, और स्टेप्स न दिखने की आम समस्याओं को हल करें।</p><span class=\"article-link-label\" data-i18n=\"readArticle\">आर्टिकल पढ़ें →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">अगली कहानी आपकी अगली सैर से शुरू होती है</h2><p data-i18n=\"newsCtaText\">WalkQuest डाउनलोड करें और आज के कदमों को गंतव्य में बदलें।</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">इसे लगाओ</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "सामग्री पर जाएं",
         "navHome": "घर",
@@ -2324,7 +2953,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "WalkQuest जर्नल",
+          "newsTitle": "सड़क से समाचार",
+          "newsDesc": "उत्पाद अपडेट, नए गंतव्य, फीचर गाइड और विस्तारित WalkQuest दुनिया की कहानियां।",
+          "newsBadgeUpdates": "उत्पाद अद्यतन",
+          "newsBadgeRoutes": "रूट स्पॉटलाइट",
+          "newsBadgeGuides": "खिलाड़ी मार्गदर्शन करता है",
+          "newsLatestKicker": "नवीनतम कहानियाँ",
+          "newsLatestTitle": "WalkQuest में क्या हो रहा है?",
+          "newsLatestText": "यह पृष्ठ रिलीज़ नोट्स, रूट लॉन्च और व्यावहारिक युक्तियों के साथ विकसित होगा।",
+          "shareTag": "प्रोडक्ट अपडेट",
+          "shareDate": "3 अक्टूबर 2026",
+          "shareTitle": "हर WalkQuest उपलब्धि साझा करें — अब मुफ़्त",
+          "shareLead": "उपलब्धियाँ, पासपोर्ट प्रगति, रूट और दूरी रिकॉर्ड अब Premium के बिना साझा किए जा सकते हैं।",
+          "readArticle": "आर्टिकल पढ़ें →",
+          "news2Tag": "मार्ग",
+          "news2Date": "28 सितंबर 2026",
+          "news2Title": "मार्ग पुस्तकालय तीस यात्राओं तक पहुंचता है",
+          "news2Text": "WalkQuest अब 303 सिटी स्टॉप और कीव और क्योटो से पैटागोनिया और आइसलैंड तक के मार्गों पर 18 ट्रेन, फ़ेरी या उड़ान स्थानांतरण तक फैला हुआ है।",
+          "news3Tag": "मार्गदर्शक",
+          "news3Date": "20 सितंबर 2026",
+          "news3Title": "प्रत्येक अनलॉक शहर के अंदर और अधिक जानें",
+          "news3Text": "खुले शहर की कहानियाँ, स्थलचिह्न, स्थानीय भोजन, Google मानचित्र, निकटवर्ती Street View, पासपोर्ट टिकट और साझा करने योग्य यात्रा कार्ड।",
+          "newsNextKicker": "जर्नल से ताज़ा जानकारी",
+          "newsNextTitle": "शुरुआत करने के लिए तीन कहानियाँ",
+          "newsNextText": "रिलीज़ की जानकारी, चलने लायक रूट, और एक प्रैक्टिकल सेटअप गाइड—जो काम की हो, न कि फालतू जानकारी से भरी।",
+          "releaseTag": "रिलीज़ नोट्स",
+          "newsNext1Title": "हर WalkQuest यात्रा के लिए एक बड़ी जगह",
+          "newsNext1Text": "देखें कि मल्टीलिंगुअल वेबसाइट पर क्या बदला है और नए गाइड पहली वॉक को कैसे आसान बनाते हैं।",
+          "europeTag": "रूट स्पॉटलाइट",
+          "newsNext2Title": "यूरोप एक्सप्लोरर: लंदन से प्राग तक 1,240 km",
+          "newsNext2Text": "मुफ़्त स्टार्टर रूट से मिलें जिसमें बारह शहरों में स्टॉप, छह देश और एक शानदार रिदम है।",
+          "healthTag": "प्रैक्टिकल गाइड",
+          "newsNext3Title": "बिना किसी अंदाज़े के Health Connect को कनेक्ट करें",
+          "newsNext3Text": "स्टेप एक्सेस सेट अप करें, सिंक्रोनाइज़ेशन को समझें, और स्टेप्स न दिखने की आम समस्याओं को हल करें।",
+          "newsCtaTitle": "अगली कहानी आपकी अगली सैर से शुरू होती है",
+          "newsCtaText": "WalkQuest डाउनलोड करें और आज के कदमों को गंतव्य में बदलें।",
+          "playSmall": "इसे लगाओ",
+          "newsHeroAlt": "WalkQuest यात्री दुनिया भर में नए गंतव्यों का जश्न मना रहा है",
+          "shareHeroAlt": "WalkQuest उपलब्धि साझा करने का चित्र",
+          "releaseCardAlt": "WalkQuest ऐप अपडेट का इलस्ट्रेशन",
+          "europeCardAlt": "यूरोप एक्सप्लोरर रूट का इलस्ट्रेशन",
+          "healthCardAlt": "Health Connect सिंक्रोनाइज़ेशन का इलस्ट्रेशन"
+        }
+      }
     },
     "pt-br": {
       "relativePath": "pt-br/news.html",
@@ -2334,7 +3009,6 @@
         "class": "info-site",
         "data-page": "news"
       },
-      "mainHtml": "<main id=\"main\">\n    <section class=\"page-hero\"><div class=\"shell page-hero-grid\"><div class=\"page-hero-copy\"><span class=\"section-kicker\" data-i18n=\"newsEyebrow\">Diário WalkQuest</span><h1 data-i18n=\"newsTitle\">Notícias da estrada</h1><p data-i18n=\"newsDesc\">Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.</p><div class=\"page-hero-badges\"><span data-i18n=\"newsBadgeUpdates\">Atualizações de produtos</span><span data-i18n=\"newsBadgeRoutes\">Destaques de rota</span><span data-i18n=\"newsBadgeGuides\">Guias do jogador</span></div></div><div class=\"page-hero-media\"><img src=\"../assets/news-hero-v3.png\" width=\"1672\" height=\"941\" alt=\"Viajante WalkQuest comemorando novos destinos ao redor do mundo\" data-i18n-alt=\"newsHeroAlt\"></div></div></section>\n\n    <section class=\"page-section\"><div class=\"shell\"><div class=\"page-heading\"><span class=\"section-kicker\" data-i18n=\"newsLatestKicker\">Últimas histórias</span><h2 data-i18n=\"newsLatestTitle\">O que está acontecendo em WalkQuest</h2><p class=\"section-intro\" data-i18n=\"newsLatestText\">Esta página crescerá com notas de lançamento, lançamentos de rotas e dicas práticas.</p></div><div class=\"news-grid\">\n      <a class=\"news-card featured news-card-link\" href=\"./sharing-achievements.html\"><img src=\"../assets/article-sharing.png\" width=\"1672\" height=\"941\" alt=\"Ilustração de compartilhamento de conquistas WalkQuest\" data-i18n-alt=\"shareHeroAlt\"><div class=\"news-card-copy\"><span class=\"news-tag\" data-i18n=\"shareTag\">Atualização do produto</span><time class=\"news-date\" datetime=\"2026-10-03\" data-i18n=\"shareDate\">3 de outubro de 2026</time><h3 data-i18n=\"shareTitle\">Compartilhe cada conquista WalkQuest — agora grátis</h3><p data-i18n=\"shareLead\">Conquistas, progresso do passaporte, rotas e recordes de distância agora podem ser compartilhados sem Premium.</p><span class=\"news-card-action\" data-i18n=\"readArticle\">Leia o artigo →</span></div></a>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news2Tag\">Rotas</span><time class=\"news-date\" datetime=\"2026-09-28\" data-i18n=\"news2Date\">28 de setembro de 2026</time><h3 data-i18n=\"news2Title\">A biblioteca de rotas chega a trinta viagens</h3><p data-i18n=\"news2Text\">WalkQuest agora abrange 303 paradas na cidade e 18 transferências de trem, balsa ou voo em rotas de Kiev e Kyoto para a Patagônia e Islândia.</p></article>\n      <article class=\"news-card\"><span class=\"news-tag\" data-i18n=\"news3Tag\">Guia</span><time class=\"news-date\" datetime=\"2026-09-20\" data-i18n=\"news3Date\">20 de setembro de 2026</time><h3 data-i18n=\"news3Title\">Descubra mais dentro de cada cidade desbloqueada</h3><p data-i18n=\"news3Text\">Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem compartilháveis.</p></article>\n    </div></div></section>\n\n    <section class=\"page-section dark journal-section\"><div class=\"shell\"><div class=\"page-heading center\"><span class=\"section-kicker\" data-i18n=\"newsNextKicker\">Novidades do diário</span><h2 data-i18n=\"newsNextTitle\">Três histórias para começar</h2><p class=\"section-intro\" data-i18n=\"newsNextText\">Detalhes da atualização, uma rota que vale a pena percorrer e um guia prático de configuração — tudo feito para ser útil, sem excesso de ruído.</p></div><div class=\"next-grid\">\n      <a class=\"next-card\" href=\"./release-notes.html\"><img src=\"../assets/article-release.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da atualização do aplicativo WalkQuest\" data-i18n-alt=\"releaseCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"releaseTag\">Notas da atualização</span><h3 data-i18n=\"newsNext1Title\">Um espaço maior para cada jornada no WalkQuest</h3><p data-i18n=\"newsNext1Text\">Veja o que mudou no site multilíngue e por que os novos guias facilitam a primeira caminhada.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leia o artigo →</span></div></a>\n      <a class=\"next-card\" href=\"./europe-explorer.html\"><img src=\"../assets/article-europe.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da rota Europe Explorer\" data-i18n-alt=\"europeCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"europeTag\">Destaque de rota</span><h3 data-i18n=\"newsNext2Title\">Europe Explorer: 1. 240 km de Londres a Praga</h3><p data-i18n=\"newsNext2Text\">Conheça a rota inicial gratuita, com doze paradas em cidades, seis países e um ritmo gratificante.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leia o artigo →</span></div></a>\n      <a class=\"next-card\" href=\"./health-connect-guide.html\"><img src=\"../assets/article-health-connect.png\" width=\"1672\" height=\"941\" alt=\"Ilustração da sincronização com o Health Connect\" data-i18n-alt=\"healthCardAlt\"><div class=\"next-card-copy\"><span class=\"news-tag\" data-i18n=\"healthTag\">Guia prático</span><h3 data-i18n=\"newsNext3Title\">Conecte o Health Connect sem dúvidas</h3><p data-i18n=\"newsNext3Text\">Configure o acesso aos passos, entenda a sincronização e resolva os problemas mais comuns de contagem de passos.</p><span class=\"article-link-label\" data-i18n=\"readArticle\">Leia o artigo →</span></div></a>\n    </div></div></section>\n\n    <section class=\"page-cta\"><div class=\"shell page-cta-card\"><div><h2 data-i18n=\"newsCtaTitle\">A próxima história começa com sua próxima caminhada</h2><p data-i18n=\"newsCtaText\">Baixe WalkQuest e transforme os passos de hoje em um destino.</p></div><a class=\"play-button\" href=\"https://play.google.com/store/apps/details?id=com.walkquest\" target=\"_blank\" rel=\"noopener noreferrer\"><svg viewBox=\"0 0 32 36\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M2.4 1.2A4 4 0 0 0 1 4.3v27.4a4 4 0 0 0 1.4 3.1L18 18 2.4 1.2Zm18.2 19.5-4 4.3 9.2 5.2a3.4 3.4 0 0 0 4.9-2.8c0-1.2-.7-2.3-1.7-2.9l-8.4-3.8Zm8.4-9.2-8.4 3.8-4-4.3 9.2-5.2a3.4 3.4 0 0 1 4.9 2.8c0 1.2-.7 2.3-1.7 2.9ZM3.9 35.6l14.2-8.1-4-4.3L3.9 35.6Zm0-35.2 10.2 12.4 4-4.3L3.9.4Z\"/></svg><span><small data-i18n=\"playSmall\">Comece</small><strong>Google Play</strong></span></a></div></section>\n  </main>",
       "labels": {
         "skipLink": "Pular para o conteúdo",
         "navHome": "Página inicial",
@@ -2479,7 +3153,53 @@
           "src": "../pages.js",
           "defer": false
         }
-      ]
+      ],
+      "news": {
+        "copy": {
+          "newsEyebrow": "Diário WalkQuest",
+          "newsTitle": "Notícias da estrada",
+          "newsDesc": "Atualizações de produtos, novos destinos, guias de recursos e histórias do mundo WalkQuest em expansão.",
+          "newsBadgeUpdates": "Atualizações de produtos",
+          "newsBadgeRoutes": "Destaques de rota",
+          "newsBadgeGuides": "Guias do jogador",
+          "newsLatestKicker": "Últimas histórias",
+          "newsLatestTitle": "O que está acontecendo em WalkQuest",
+          "newsLatestText": "Esta página crescerá com notas de lançamento, lançamentos de rotas e dicas práticas.",
+          "shareTag": "Atualização do produto",
+          "shareDate": "3 de outubro de 2026",
+          "shareTitle": "Compartilhe cada conquista WalkQuest — agora grátis",
+          "shareLead": "Conquistas, progresso do passaporte, rotas e recordes de distância agora podem ser compartilhados sem Premium.",
+          "readArticle": "Leia o artigo →",
+          "news2Tag": "Rotas",
+          "news2Date": "28 de setembro de 2026",
+          "news2Title": "A biblioteca de rotas chega a trinta viagens",
+          "news2Text": "WalkQuest agora abrange 303 paradas na cidade e 18 transferências de trem, balsa ou voo em rotas de Kiev e Kyoto para a Patagônia e Islândia.",
+          "news3Tag": "Guia",
+          "news3Date": "20 de setembro de 2026",
+          "news3Title": "Descubra mais dentro de cada cidade desbloqueada",
+          "news3Text": "Abra histórias da cidade, pontos de referência, comida local, Google Maps, Street View próximo, carimbos de passaporte e cartões de viagem compartilháveis.",
+          "newsNextKicker": "Novidades do diário",
+          "newsNextTitle": "Três histórias para começar",
+          "newsNextText": "Detalhes da atualização, uma rota que vale a pena percorrer e um guia prático de configuração — tudo feito para ser útil, sem excesso de ruído.",
+          "releaseTag": "Notas da atualização",
+          "newsNext1Title": "Um espaço maior para cada jornada no WalkQuest",
+          "newsNext1Text": "Veja o que mudou no site multilíngue e por que os novos guias facilitam a primeira caminhada.",
+          "europeTag": "Destaque de rota",
+          "newsNext2Title": "Europe Explorer: 1. 240 km de Londres a Praga",
+          "newsNext2Text": "Conheça a rota inicial gratuita, com doze paradas em cidades, seis países e um ritmo gratificante.",
+          "healthTag": "Guia prático",
+          "newsNext3Title": "Conecte o Health Connect sem dúvidas",
+          "newsNext3Text": "Configure o acesso aos passos, entenda a sincronização e resolva os problemas mais comuns de contagem de passos.",
+          "newsCtaTitle": "A próxima história começa com sua próxima caminhada",
+          "newsCtaText": "Baixe WalkQuest e transforme os passos de hoje em um destino.",
+          "playSmall": "Comece",
+          "newsHeroAlt": "Viajante WalkQuest comemorando novos destinos ao redor do mundo",
+          "shareHeroAlt": "Ilustração de compartilhamento de conquistas WalkQuest",
+          "releaseCardAlt": "Ilustração da atualização do aplicativo WalkQuest",
+          "europeCardAlt": "Ilustração da rota Europe Explorer",
+          "healthCardAlt": "Ilustração da sincronização com o Health Connect"
+        }
+      }
     }
   }
 }

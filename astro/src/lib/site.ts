@@ -21,6 +21,61 @@ export const languages = [
 
 export type Language = (typeof languages)[number];
 
+export const openGraphLocales: Record<Language["code"], string> = {
+  en: "en_US",
+  uk: "uk_UA",
+  ru: "ru_RU",
+  es: "es_ES",
+  de: "de_DE",
+  fr: "fr_FR",
+  pl: "pl_PL",
+  pt: "pt_PT",
+  it: "it_IT",
+  tr: "tr_TR",
+  ja: "ja_JP",
+  ko: "ko_KR",
+  "zh-CN": "zh_CN",
+  ar: "ar_SA",
+  hi: "hi_IN",
+  "pt-BR": "pt_BR",
+};
+
 export function languageBySlug(slug: string): Language {
   return languages.find((language) => language.slug === slug) ?? languages[0];
+}
+
+export function pageFilename(relativePath: string): string {
+  return relativePath.replaceAll("\\", "/").split("/").at(-1) ?? "index.html";
+}
+
+export function localizedPageUrl(language: Language, filename: string): string {
+  if (language.code === "en") {
+    return filename === "index.html" ? `${siteUrl}/` : `${siteUrl}/${filename}`;
+  }
+  return `${siteUrl}/${language.slug}/${filename}`;
+}
+
+export function canonicalUrl(relativePath: string): string {
+  const normalized = relativePath.replaceAll("\\", "/");
+  return normalized === "index.html" ? `${siteUrl}/` : `${siteUrl}/${normalized}`;
+}
+
+export function alternateLinks(relativePath: string): Array<{ lang: string; href: string }> {
+  const filename = pageFilename(relativePath);
+  const links = languages.map((language) => ({
+    lang: language.code,
+    href: localizedPageUrl(language, filename),
+  }));
+  return [...links, { lang: "x-default", href: localizedPageUrl(languages[0], filename) }];
+}
+
+export function openGraphLocale(languageCode: string): string {
+  const language = languages.find((item) => item.code === languageCode) ?? languages[0];
+  return openGraphLocales[language.code];
+}
+
+export function openGraphAlternateLocales(languageCode: string): string[] {
+  return languages
+    .filter((language) => language.code !== languageCode)
+    .map((language) => openGraphLocales[language.code]);
 }

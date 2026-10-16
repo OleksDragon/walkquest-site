@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { alternateLinks, canonicalUrl, openGraphLocale } from "./site";
 
 const pageDataRoot = path.resolve("src/data/pages");
 const routeDataRoot = path.resolve("src/data/routes");
@@ -111,6 +112,30 @@ export interface PageData {
   labels: Record<string, string>;
 }
 
+export function normalizePageSeo(page: PageData): PageData {
+  const canonical = canonicalUrl(page.relativePath);
+  return {
+    ...page,
+    head: {
+      ...page.head,
+      canonical,
+      alternates: alternateLinks(page.relativePath),
+      openGraph: {
+        ...page.head.openGraph,
+        url: canonical,
+        locale: openGraphLocale(page.lang),
+      },
+      twitter: {
+        ...page.head.twitter,
+        url: canonical,
+      },
+      structuredData: page.head.structuredData.map((entry) =>
+        entry.url === page.head.canonical ? { ...entry, url: canonical } : entry
+      ),
+    },
+  };
+}
+
 export function getPageData(relativePath: string): PageData {
   const normalized = relativePath.replaceAll("\\", "/");
   const parts = normalized.split("/");
@@ -123,7 +148,7 @@ export function getPageData(relativePath: string): PageData {
   }
   const page = data?.locales[locale];
   if (!page) throw new Error(`Missing structured page data for ${relativePath}`);
-  return page;
+  return normalizePageSeo(page);
 }
 
 export function listPageFiles(): string[] {

@@ -5,6 +5,8 @@ const root = path.resolve("dist");
 const errors = [];
 const routeSlugs = new Set(["europe-explorer", "kyoto-autumn-temples", "greek-islands-odyssey", "iceland-ring-road", "route-66-usa", "around-the-world-lite"]);
 const expectedLocales = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "it", "tr", "ja", "ko", "zh-cn", "ar", "hi", "pt-br"]);
+const expectedHreflang = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "pt-BR", "it", "tr", "ja", "ko", "zh-CN", "ar", "hi", "x-default"]);
+const expectedOgLocales = new Set(["en_US", "uk_UA", "ru_RU", "es_ES", "de_DE", "fr_FR", "pl_PL", "pt_PT", "pt_BR", "it_IT", "tr_TR", "ja_JP", "ko_KR", "zh_CN", "ar_SA", "hi_IN"]);
 
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -80,11 +82,21 @@ if (pages.length !== 240) errors.push(`Expected 240 HTML pages, found ${pages.le
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
   const relative = path.relative(root, page).replaceAll("\\", "/");
+  const expectedCanonical = relative === "index.html" ? "https://walkquest.site/" : `https://walkquest.site/${relative}`;
   for (const required of ['<link rel="canonical"', 'hreflang="x-default"', '<meta name="description"', "<main"]) {
     if (!html.includes(required)) errors.push(`${relative}: missing ${required}`);
   }
   if ([...html.matchAll(/<link rel="canonical"/g)].length !== 1) errors.push(`${relative}: expected one canonical link.`);
+  if (!html.includes(`<link rel="canonical" href="${expectedCanonical}">`)) errors.push(`${relative}: canonical is not self-referencing.`);
   if ([...html.matchAll(/<link rel="alternate" hreflang=/g)].length !== 17) errors.push(`${relative}: expected 17 hreflang links.`);
+  const hreflangValues = new Set([...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">/g)].map((match) => match[1]));
+  if (hreflangValues.size !== expectedHreflang.size || [...expectedHreflang].some((lang) => !hreflangValues.has(lang))) {
+    errors.push(`${relative}: incomplete hreflang language set.`);
+  }
+  const ogLocaleValues = [...html.matchAll(/<meta property="og:locale(?:|:alternate)" content="([^"]+)">/g)].map((match) => match[1]);
+  if (ogLocaleValues.length !== 16 || new Set(ogLocaleValues).size !== expectedOgLocales.size || [...expectedOgLocales].some((locale) => !ogLocaleValues.includes(locale))) {
+    errors.push(`${relative}: incomplete Open Graph locale set.`);
+  }
   for (const required of ['property="og:title"', 'property="og:image"', 'name="twitter:card"', 'name="twitter:title"']) {
     if (!html.includes(required)) errors.push(`${relative}: missing ${required}`);
   }
@@ -111,6 +123,9 @@ for (const page of pages) {
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapCount = [...sitemap.matchAll(/<url>/g)].length;
 if (sitemapCount !== 240) errors.push(`Expected 240 sitemap URLs, found ${sitemapCount}.`);
+if (!sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"')) errors.push("Sitemap xhtml namespace is missing.");
+const sitemapAlternates = [...sitemap.matchAll(/<xhtml:link rel="alternate" hreflang="([^"]+)" href="([^"]+)" \/>/g)];
+if (sitemapAlternates.length !== 240 * 17) errors.push(`Expected ${240 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
 if (!fs.existsSync(path.join(root, "CNAME"))) errors.push("CNAME is missing.");
 if (!fs.existsSync(path.join(root, ".nojekyll"))) errors.push(".nojekyll is missing.");
 

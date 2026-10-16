@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { ArticleBlock, PageData } from "./page-data";
+import { normalizePageSeo, type ArticleBlock, type PageData } from "./page-data";
 
 const routeDataRoot = path.resolve("src/data/routes");
 const cache = new Map<string, { slug: string; locales: Record<string, RoutePage> }>();
@@ -50,5 +50,5 @@ export function getRoutePage(relativePath: string): RoutePage {
   }
   const route = data?.locales[locale];
   if (!route) throw new Error(`Missing structured route data for ${relativePath}`);
-  return route;
+  return { ...route, page: normalizePageSeo(route.page) };
 }

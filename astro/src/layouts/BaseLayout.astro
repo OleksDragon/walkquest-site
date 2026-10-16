@@ -4,6 +4,7 @@ import LandingHeader from "../components/LandingHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import type { PageData } from "../lib/page-data";
+import { openGraphAlternateLocales } from "../lib/site";
 
 interface Props {
   page: PageData;
@@ -40,6 +41,7 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
     <meta property="og:type" content={head.openGraph.type} />
     <meta property="og:site_name" content={head.openGraph.siteName} />
     <meta property="og:locale" content={head.openGraph.locale} />
+    {openGraphAlternateLocales(page.lang).map((locale) => <meta property="og:locale:alternate" content={locale} />)}
     <meta name="twitter:card" content={head.twitter.card} />
     <meta name="twitter:title" content={head.twitter.title} />
     <meta name="twitter:description" content={head.twitter.description} />

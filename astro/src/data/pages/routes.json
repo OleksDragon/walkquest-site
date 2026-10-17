@@ -119,7 +119,7 @@
         "openGraph": {
           "title": "WalkQuest Virtual Routes — Walk the World From Home",
           "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -132,7 +132,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest Virtual Routes — Walk the World From Home",
           "description": "Explore WalkQuest virtual walking routes across cities, islands, mountains and famous trails. Compare distance, difficulty, stops and transport crossings.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/routes.html"
         },
         "structuredData": [],
@@ -310,7 +310,7 @@
         "openGraph": {
           "title": "Маршрути | WalkQuest",
           "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -323,7 +323,7 @@
           "card": "summary_large_image",
           "title": "Маршрути | WalkQuest",
           "description": "Відкрийте для себе 30 віртуальних подорожей WalkQuest із 303 зупинками в містах від Європи та Кіото до Ісландії, Патагонії та Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/uk/routes.html"
         },
         "structuredData": [],
@@ -501,7 +501,7 @@
         "openGraph": {
           "title": "Маршруты | WalkQuest",
           "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -514,7 +514,7 @@
           "card": "summary_large_image",
           "title": "Маршруты | WalkQuest",
           "description": "Исследуйте 30 виртуальных путешествий WalkQuest с 303 остановками в городах: от Европы и Киото до Исландии, Патагонии и Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/ru/routes.html"
         },
         "structuredData": [],
@@ -692,7 +692,7 @@
         "openGraph": {
           "title": "Rutas | WalkQuest",
           "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -705,7 +705,7 @@
           "card": "summary_large_image",
           "title": "Rutas | WalkQuest",
           "description": "Explore 30 viajes virtuales WalkQuest con 303 paradas en ciudades, desde Europa y Kioto hasta Islandia, la Patagonia y Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/es/routes.html"
         },
         "structuredData": [],
@@ -883,7 +883,7 @@
         "openGraph": {
           "title": "Routen | WalkQuest",
           "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -896,7 +896,7 @@
           "card": "summary_large_image",
           "title": "Routen | WalkQuest",
           "description": "Entdecken Sie 30 virtuelle WalkQuest-Reisen mit 303 Stadtstopps, von Europa und Kyoto bis Island, Patagonien und Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/de/routes.html"
         },
         "structuredData": [],
@@ -1074,7 +1074,7 @@
         "openGraph": {
           "title": "Itinéraires | WalkQuest",
           "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1087,7 +1087,7 @@
           "card": "summary_large_image",
           "title": "Itinéraires | WalkQuest",
           "description": "Explorez 30 voyages virtuels WalkQuest avec 303 arrêts urbains, de l'Europe et de Kyoto à l'Islande, la Patagonie et le Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/fr/routes.html"
         },
         "structuredData": [],
@@ -1265,7 +1265,7 @@
         "openGraph": {
           "title": "Trasy | WalkQuest",
           "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1278,7 +1278,7 @@
           "card": "summary_large_image",
           "title": "Trasy | WalkQuest",
           "description": "Przeglądaj 30 wirtualnych podróży WalkQuest z 303 przystankami w miastach, z Europy i Kioto po Islandię, Patagonię i Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/pl/routes.html"
         },
         "structuredData": [],
@@ -1456,7 +1456,7 @@
         "openGraph": {
           "title": "Rotas | WalkQuest",
           "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1469,7 +1469,7 @@
           "card": "summary_large_image",
           "title": "Rotas | WalkQuest",
           "description": "Explore 30 viagens virtuais WalkQuest com 303 paragens em cidades, da Europa e Quioto à Islândia, Patagónia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/pt/routes.html"
         },
         "structuredData": [],
@@ -1647,7 +1647,7 @@
         "openGraph": {
           "title": "Percorsi | WalkQuest",
           "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1660,7 +1660,7 @@
           "card": "summary_large_image",
           "title": "Percorsi | WalkQuest",
           "description": "Esplora 30 viaggi virtuali WalkQuest con 303 fermate in città, dall'Europa e Kyoto all'Islanda, alla Patagonia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/it/routes.html"
         },
         "structuredData": [],
@@ -1838,7 +1838,7 @@
         "openGraph": {
           "title": "Rotalar | WalkQuest",
           "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1851,7 +1851,7 @@
           "card": "summary_large_image",
           "title": "Rotalar | WalkQuest",
           "description": "Avrupa ve Kyoto'dan İzlanda, Patagonya ve Route 66'e kadar 303 şehir durağıyla 30 WalkQuest sanal yolculuğunu keşfedin.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/tr/routes.html"
         },
         "structuredData": [],
@@ -2029,7 +2029,7 @@
         "openGraph": {
           "title": "ルート | WalkQuest",
           "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2042,7 +2042,7 @@
           "card": "summary_large_image",
           "title": "ルート | WalkQuest",
           "description": "ヨーロッパ、京都からアイスランド、パタゴニア、Route 66 まで、303 都市の停留所を含む 30 の WalkQuest 仮想旅を探索しましょう。",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/ja/routes.html"
         },
         "structuredData": [],
@@ -2220,7 +2220,7 @@
         "openGraph": {
           "title": "노선 | WalkQuest",
           "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2233,7 +2233,7 @@
           "card": "summary_large_image",
           "title": "노선 | WalkQuest",
           "description": "유럽과 교토에서 아이슬란드, 파타고니아, Route 66까지 303개의 도시 정류장에서 30개의 WalkQuest 가상 여행을 탐험해보세요.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/ko/routes.html"
         },
         "structuredData": [],
@@ -2411,7 +2411,7 @@
         "openGraph": {
           "title": "路线 | WalkQuest",
           "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2424,7 +2424,7 @@
           "card": "summary_large_image",
           "title": "路线 | WalkQuest",
           "description": "探索 30 个 WalkQuest 虚拟旅程，涵盖 303 个城市站点，从欧洲和京都到冰岛、巴塔哥尼亚和 Route 66。",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/zh-cn/routes.html"
         },
         "structuredData": [],
@@ -2602,7 +2602,7 @@
         "openGraph": {
           "title": "الطرق | WalkQuest",
           "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2615,7 +2615,7 @@
           "card": "summary_large_image",
           "title": "الطرق | WalkQuest",
           "description": "استكشف 30 رحلة افتراضية لـ WalkQuest مع 303 محطة توقف في المدينة، من أوروبا وكيوتو إلى أيسلندا وباتاغونيا وRoute 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/ar/routes.html"
         },
         "structuredData": [],
@@ -2793,7 +2793,7 @@
         "openGraph": {
           "title": "मार्ग | WalkQuest",
           "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2806,7 +2806,7 @@
           "card": "summary_large_image",
           "title": "मार्ग | WalkQuest",
           "description": "यूरोप और क्योटो से आइसलैंड, पैटागोनिया और Route 66 तक 303 सिटी स्टॉप के साथ 30 WalkQuest आभासी यात्राओं का अन्वेषण करें।",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/hi/routes.html"
         },
         "structuredData": [],
@@ -2984,7 +2984,7 @@
         "openGraph": {
           "title": "Rotas | WalkQuest",
           "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "imageAlt": "WalkQuest virtual walking routes around the world",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2997,7 +2997,7 @@
           "card": "summary_large_image",
           "title": "Rotas | WalkQuest",
           "description": "Explore 30 viagens virtuais WalkQuest com 303 paradas em cidades, da Europa e Kyoto à Islândia, Patagônia e Route 66.",
-          "image": "https://walkquest.site/assets/routes-hero.png",
+          "image": "https://walkquest.site/assets/routes-hero.webp",
           "url": "https://walkquest.site/pt-br/routes.html"
         },
         "structuredData": [],

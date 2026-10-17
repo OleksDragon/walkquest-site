@@ -11,7 +11,7 @@ const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
 ---
 
 <main id="main"><article>
-  <header class="article-hero"><div class="shell article-hero-inner"><a class="article-back" href="./news.html" data-i18n="articleBack">{c.articleBack}</a><span class="news-tag" data-i18n={h.tag}>{c[h.tag]}</span><h1 data-i18n={h.title}>{c[h.title]}</h1><p class="article-lead" data-i18n={h.lead}>{c[h.lead]}</p><div class="article-meta"><time datetime={h.dateTime} data-i18n={h.date}>{c[h.date]}</time><span>•</span><span data-i18n={h.readTime}>{c[h.readTime]}</span></div><img src={`${assetPrefix}assets/${h.image}`} width="1672" height="941" alt={c[h.alt]} data-i18n-alt={h.alt} /></div></header>
+  <header class="article-hero"><div class="shell article-hero-inner"><a class="article-back" href="./news.html" data-i18n="articleBack">{c.articleBack}</a><span class="news-tag" data-i18n={h.tag}>{c[h.tag]}</span><h1 data-i18n={h.title}>{c[h.title]}</h1><p class="article-lead" data-i18n={h.lead}>{c[h.lead]}</p><div class="article-meta"><time datetime={h.dateTime} data-i18n={h.date}>{c[h.date]}</time><span>•</span><span data-i18n={h.readTime}>{c[h.readTime]}</span></div><img src={`${assetPrefix}assets/${h.image}`} width="1279" height="720" alt={c[h.alt]} data-i18n-alt={h.alt} fetchpriority="high" decoding="async" /></div></header>
   <div class="shell article-layout"><div class="article-body">
     {article.blocks.map((block) => block.type === "paragraph" ? <p class:list={{ "article-drop": block.drop }} data-i18n={block.key}>{c[block.key]}</p>
       : block.type === "heading" ? <h2 data-i18n={block.key}>{c[block.key]}</h2>

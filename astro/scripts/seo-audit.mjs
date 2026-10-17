@@ -1,0 +1,154 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = path.resolve("dist");
+const reportPath = path.resolve("seo-audit-report.json");
+const files = [];
+const errors = [];
+const warnings = [];
+
+function walk(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const target = path.join(directory, entry.name);
+    return entry.isDirectory() ? walk(target) : [target];
+  });
+}
+
+function decode(value = "") {
+  return value
+    .replaceAll("&amp;", "&")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#39;", "'")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">");
+}
+
+function first(html, pattern) {
+  return decode(html.match(pattern)?.[1]?.trim() ?? "");
+}
+
+function stripHtml(value) {
+  return decode(value
+    .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim());
+}
+
+function outputPathFromUrl(url, currentFile) {
+  let pathname;
+  try {
+    if (/^https?:/i.test(url)) {
+      const parsed = new URL(url);
+      if (parsed.hostname !== "walkquest.site" && parsed.hostname !== "www.walkquest.site") return null;
+      pathname = parsed.pathname;
+    } else {
+      pathname = url.split(/[?#]/)[0];
+    }
+  } catch {
+    return null;
+  }
+  if (!pathname || /^(?:mailto:|tel:|data:|javascript:)/i.test(pathname) || pathname.startsWith("#")) return null;
+  const resolved = pathname.startsWith("/")
+    ? path.join(root, pathname)
+    : path.resolve(path.dirname(currentFile), pathname);
+  if (pathname.endsWith("/")) return path.join(resolved, "index.html");
+  if (!path.extname(resolved)) return `${resolved}.html`;
+  return resolved;
+}
+
+if (!fs.existsSync(root)) throw new Error("dist/ does not exist. Run npm run build first.");
+
+for (const file of walk(root).filter((entry) => entry.endsWith(".html"))) {
+  const html = fs.readFileSync(file, "utf8");
+  const relative = path.relative(root, file).replaceAll("\\", "/");
+  const lang = first(html, /<html\b[^>]*\blang="([^"]+)"/i).toLowerCase();
+  const localeSegment = relative.includes("/") ? relative.split("/")[0] : "en";
+  const localeSlugs = new Set(["uk", "ru", "es", "de", "fr", "pl", "pt", "it", "tr", "ja", "ko", "zh-cn", "ar", "hi", "pt-br"]);
+  const expectedLang = (localeSlugs.has(localeSegment) ? localeSegment : "en").toLowerCase();
+  const title = first(html, /<title>([\s\S]*?)<\/title>/i);
+  const description = first(html, /<meta\s+name="description"\s+content="([^"]*)"/i);
+  const canonical = first(html, /<link\s+rel="canonical"\s+href="([^"]+)"/i);
+  const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].map((match) => stripHtml(match[1]));
+  const main = first(html, /<main\b[^>]*>([\s\S]*?)<\/main>/i);
+  const mainText = stripHtml(main);
+  const wordCount = mainText.split(/\s+/u).filter(Boolean).length;
+  const hreflangs = [...html.matchAll(/<link\s+rel="alternate"\s+hreflang="([^"]+)"\s+href="([^"]+)"/gi)]
+    .map((match) => ({ lang: match[1], href: decode(match[2]) }));
+  const robots = first(html, /<meta\s+name="robots"\s+content="([^"]+)"/i);
+  const jsonLd = [...html.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
+
+  if (!lang) errors.push(`${relative}: missing html lang.`);
+  if (lang !== expectedLang) errors.push(`${relative}: html lang is ${lang}, expected ${expectedLang} from URL.`);
+  if (h1s.length !== 1) errors.push(`${relative}: expected exactly one H1, found ${h1s.length}.`);
+  if (!title) errors.push(`${relative}: missing title.`);
+  if (!description) errors.push(`${relative}: missing meta description.`);
+  if (!canonical) errors.push(`${relative}: missing canonical.`);
+  if (!robots.includes("index") || !robots.includes("follow")) errors.push(`${relative}: page is not index,follow.`);
+  if (title.length > 75) warnings.push(`${relative}: title is ${title.length} characters.`);
+  const compactScript = /^(?:ja|ko|zh-cn)$/i.test(lang);
+  const minimumDescriptionLength = compactScript ? 18 : 50;
+  if (description.length < minimumDescriptionLength || description.length > 190) warnings.push(`${relative}: description is ${description.length} characters.`);
+  const hasSubstantialContent = compactScript ? mainText.length >= 400 : wordCount >= 120;
+  if (!hasSubstantialContent && !relative.endsWith("privacy.html")) warnings.push(`${relative}: thin main content (${wordCount} tokens, ${mainText.length} characters).`);
+  if (hreflangs.length !== 17) errors.push(`${relative}: expected 17 hreflang links, found ${hreflangs.length}.`);
+  if (!hreflangs.some((item) => item.lang === "x-default")) errors.push(`${relative}: missing x-default hreflang.`);
+  for (const item of hreflangs) {
+    const target = outputPathFromUrl(item.href, file);
+    if (!target || !fs.existsSync(target)) errors.push(`${relative}: hreflang target does not exist: ${item.href}`);
+  }
+  for (const block of jsonLd) {
+    try { JSON.parse(block[1]); } catch { errors.push(`${relative}: invalid JSON-LD.`); }
+  }
+  if (!jsonLd.length) warnings.push(`${relative}: no JSON-LD.`);
+  for (const match of html.matchAll(/<a\b[^>]*\bhref="([^"]+)"[^>]*>/gi)) {
+    const href = decode(match[1]);
+    const target = outputPathFromUrl(href, file);
+    if (target && !fs.existsSync(target)) errors.push(`${relative}: broken internal link ${href}`);
+  }
+  for (const match of html.matchAll(/<img\b([^>]*)>/gi)) {
+    const attributes = match[1];
+    const src = first(attributes, /\bsrc="([^"]+)"/i);
+    const altMatch = attributes.match(/\balt="([^"]*)"/i);
+    if (!altMatch || !decode(altMatch[1]).trim()) errors.push(`${relative}: image has empty or missing alt (${src}).`);
+    if (!/\bwidth="\d+"/i.test(attributes) || !/\bheight="\d+"/i.test(attributes)) warnings.push(`${relative}: image lacks intrinsic dimensions (${src}).`);
+    const target = outputPathFromUrl(src, file);
+    if (target && !fs.existsSync(target)) errors.push(`${relative}: missing image ${src}`);
+  }
+  files.push({ relative, lang, title, description, canonical, h1: h1s[0] ?? "", wordCount });
+}
+
+function duplicates(field) {
+  const groups = new Map();
+  for (const page of files) {
+    const key = `${page.lang}\u0000${page[field].toLocaleLowerCase(page.lang || "en")}`;
+    const list = groups.get(key) ?? [];
+    list.push(page.relative);
+    groups.set(key, list);
+  }
+  return [...groups.values()].filter((list) => list.length > 1);
+}
+
+const duplicateTitles = duplicates("title");
+const duplicateDescriptions = duplicates("description");
+const duplicateH1s = duplicates("h1");
+for (const group of duplicateTitles) errors.push(`Duplicate title: ${group.join(", ")}`);
+for (const group of duplicateDescriptions) errors.push(`Duplicate description: ${group.join(", ")}`);
+for (const group of duplicateH1s) warnings.push(`Duplicate H1: ${group.join(", ")}`);
+
+const report = {
+  generatedAt: new Date().toISOString(),
+  pages: files.length,
+  errors,
+  warnings,
+  duplicateTitles,
+  duplicateDescriptions,
+  duplicateH1s,
+  titleLengths: { min: Math.min(...files.map((page) => page.title.length)), max: Math.max(...files.map((page) => page.title.length)) },
+  descriptionLengths: { min: Math.min(...files.map((page) => page.description.length)), max: Math.max(...files.map((page) => page.description.length)) },
+};
+fs.writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`);
+console.log(`SEO audit: ${files.length} pages, ${errors.length} errors, ${warnings.length} warnings.`);
+console.log(`Report: ${reportPath}`);
+if (errors.length) process.exitCode = 1;

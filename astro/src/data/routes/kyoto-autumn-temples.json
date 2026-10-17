@@ -123,7 +123,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km through Kyoto in autumn | WalkQuest",
             "description": "Walk through maple colours, bamboo, shrines, and historic Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -136,7 +136,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km through Kyoto in autumn | WalkQuest",
             "description": "Walk through maple colours, bamboo, shrines, and historic Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -145,7 +145,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km through Kyoto in autumn | WalkQuest",
               "description": "Walk through maple colours, bamboo, shrines, and historic Kyoto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/kyoto-autumn-temples.html",
@@ -233,7 +233,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -663,7 +663,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 км осіннім Кіото | WalkQuest",
             "description": "Пройдіться квітами клена, бамбуком, святинями та історичним Кіото.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -676,7 +676,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 км осіннім Кіото | WalkQuest",
             "description": "Пройдіться квітами клена, бамбуком, святинями та історичним Кіото.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/uk/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -685,7 +685,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 км осіннім Кіото | WalkQuest",
               "description": "Пройдіться квітами клена, бамбуком, святинями та історичним Кіото.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/uk/kyoto-autumn-temples.html",
@@ -773,7 +773,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -1203,7 +1203,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 км по осеннему Киото | WalkQuest",
             "description": "Прогуляйтесь по цветам клена, бамбуку, святыням и историческому Киото.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -1216,7 +1216,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 км по осеннему Киото | WalkQuest",
             "description": "Прогуляйтесь по цветам клена, бамбуку, святыням и историческому Киото.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/ru/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -1225,7 +1225,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 км по осеннему Киото | WalkQuest",
               "description": "Прогуляйтесь по цветам клена, бамбуку, святыням и историческому Киото.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ru/kyoto-autumn-temples.html",
@@ -1313,7 +1313,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -1743,7 +1743,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km por el Kioto otoñal | WalkQuest",
             "description": "Camine entre los colores de los arces, el bambú, los santuarios y el histórico Kioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -1756,7 +1756,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km por el Kioto otoñal | WalkQuest",
             "description": "Camine entre los colores de los arces, el bambú, los santuarios y el histórico Kioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/es/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -1765,7 +1765,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km por el Kioto otoñal | WalkQuest",
               "description": "Camine entre los colores de los arces, el bambú, los santuarios y el histórico Kioto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/es/kyoto-autumn-temples.html",
@@ -1853,7 +1853,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -2283,7 +2283,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km durch das herbstliche Kyoto | WalkQuest",
             "description": "Spazieren Sie durch Ahornfarben, Bambus, Schreine und das historische Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -2296,7 +2296,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km durch das herbstliche Kyoto | WalkQuest",
             "description": "Spazieren Sie durch Ahornfarben, Bambus, Schreine und das historische Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/de/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -2305,7 +2305,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km durch das herbstliche Kyoto | WalkQuest",
               "description": "Spazieren Sie durch Ahornfarben, Bambus, Schreine und das historische Kyoto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/de/kyoto-autumn-temples.html",
@@ -2393,7 +2393,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -2823,7 +2823,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples : 165 km dans le Kyoto d’automne | WalkQuest",
             "description": "Promenez-vous à travers les couleurs de l'érable, les bambous, les sanctuaires et la ville historique de Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -2836,7 +2836,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples : 165 km dans le Kyoto d’automne | WalkQuest",
             "description": "Promenez-vous à travers les couleurs de l'érable, les bambous, les sanctuaires et la ville historique de Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/fr/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -2845,7 +2845,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples : 165 km dans le Kyoto d’automne | WalkQuest",
               "description": "Promenez-vous à travers les couleurs de l'érable, les bambous, les sanctuaires et la ville historique de Kyoto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/fr/kyoto-autumn-temples.html",
@@ -2933,7 +2933,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -3363,7 +3363,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km przez jesienne Kioto | WalkQuest",
             "description": "Spaceruj po kolorach klonu, bambusach, świątyniach i historycznym Kioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -3376,7 +3376,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km przez jesienne Kioto | WalkQuest",
             "description": "Spaceruj po kolorach klonu, bambusach, świątyniach i historycznym Kioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/pl/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -3385,7 +3385,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km przez jesienne Kioto | WalkQuest",
               "description": "Spaceruj po kolorach klonu, bambusach, świątyniach i historycznym Kioto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pl/kyoto-autumn-temples.html",
@@ -3473,7 +3473,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -3903,7 +3903,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km pela Quioto outonal | WalkQuest",
             "description": "Caminhe pelas cores do bordo, do bambu, dos santuários e pela histórica Quioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -3916,7 +3916,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km pela Quioto outonal | WalkQuest",
             "description": "Caminhe pelas cores do bordo, do bambu, dos santuários e pela histórica Quioto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/pt/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -3925,7 +3925,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km pela Quioto outonal | WalkQuest",
               "description": "Caminhe pelas cores do bordo, do bambu, dos santuários e pela histórica Quioto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt/kyoto-autumn-temples.html",
@@ -4013,7 +4013,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -4443,7 +4443,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km nella Kyoto d’autunno | WalkQuest",
             "description": "Passeggia tra i colori dell'acero, del bambù, dei santuari e della storica Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -4456,7 +4456,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km nella Kyoto d’autunno | WalkQuest",
             "description": "Passeggia tra i colori dell'acero, del bambù, dei santuari e della storica Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/it/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -4465,7 +4465,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km nella Kyoto d’autunno | WalkQuest",
               "description": "Passeggia tra i colori dell'acero, del bambù, dei santuari e della storica Kyoto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/it/kyoto-autumn-temples.html",
@@ -4553,7 +4553,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -4983,7 +4983,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: Sonbahar Kyoto’sunda 165 km | WalkQuest",
             "description": "Akçaağaç renkleri, bambu, tapınaklar ve tarihi Kyoto'da yürüyün.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -4996,7 +4996,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: Sonbahar Kyoto’sunda 165 km | WalkQuest",
             "description": "Akçaağaç renkleri, bambu, tapınaklar ve tarihi Kyoto'da yürüyün.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/tr/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -5005,7 +5005,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: Sonbahar Kyoto’sunda 165 km | WalkQuest",
               "description": "Akçaağaç renkleri, bambu, tapınaklar ve tarihi Kyoto'da yürüyün.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/tr/kyoto-autumn-temples.html",
@@ -5093,7 +5093,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -5523,7 +5523,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples：秋の京都を巡る165km | WalkQuest",
             "description": "紅葉、竹、神社、歴史ある京都を散策します。",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -5536,7 +5536,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples：秋の京都を巡る165km | WalkQuest",
             "description": "紅葉、竹、神社、歴史ある京都を散策します。",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/ja/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -5545,7 +5545,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples：秋の京都を巡る165km | WalkQuest",
               "description": "紅葉、竹、神社、歴史ある京都を散策します。",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ja/kyoto-autumn-temples.html",
@@ -5633,7 +5633,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -6063,7 +6063,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 가을 교토를 걷는 165km | WalkQuest",
             "description": "단풍나무, 대나무, 신사, 유서 깊은 교토를 거닐어 보세요.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -6076,7 +6076,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 가을 교토를 걷는 165km | WalkQuest",
             "description": "단풍나무, 대나무, 신사, 유서 깊은 교토를 거닐어 보세요.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/ko/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -6085,7 +6085,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 가을 교토를 걷는 165km | WalkQuest",
               "description": "단풍나무, 대나무, 신사, 유서 깊은 교토를 거닐어 보세요.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ko/kyoto-autumn-temples.html",
@@ -6173,7 +6173,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -6603,7 +6603,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples：穿越秋日京都的 165 公里 | WalkQuest",
             "description": "漫步穿过枫叶色、竹林、神社和历史悠久的京都。",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -6616,7 +6616,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples：穿越秋日京都的 165 公里 | WalkQuest",
             "description": "漫步穿过枫叶色、竹林、神社和历史悠久的京都。",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/zh-cn/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -6625,7 +6625,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples：穿越秋日京都的 165 公里 | WalkQuest",
               "description": "漫步穿过枫叶色、竹林、神社和历史悠久的京都。",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/zh-cn/kyoto-autumn-temples.html",
@@ -6713,7 +6713,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -7143,7 +7143,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: مسافة 165 كم عبر كيوتو الخريفية | WalkQuest",
             "description": "قم بالتجول عبر ألوان خشب القيقب والخيزران والأضرحة وكيوتو التاريخية.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -7156,7 +7156,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: مسافة 165 كم عبر كيوتو الخريفية | WalkQuest",
             "description": "قم بالتجول عبر ألوان خشب القيقب والخيزران والأضرحة وكيوتو التاريخية.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/ar/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -7165,7 +7165,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: مسافة 165 كم عبر كيوتو الخريفية | WalkQuest",
               "description": "قم بالتجول عبر ألوان خشب القيقب والخيزران والأضرحة وكيوتو التاريخية.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ar/kyoto-autumn-temples.html",
@@ -7253,7 +7253,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -7683,7 +7683,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: पतझड़ के क्योटो में 165 किमी | WalkQuest",
             "description": "मेपल के रंगों, बांस, मंदिरों और ऐतिहासिक क्योटो से गुजरें।",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -7696,7 +7696,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: पतझड़ के क्योटो में 165 किमी | WalkQuest",
             "description": "मेपल के रंगों, बांस, मंदिरों और ऐतिहासिक क्योटो से गुजरें।",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/hi/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -7705,7 +7705,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: पतझड़ के क्योटो में 165 किमी | WalkQuest",
               "description": "मेपल के रंगों, बांस, मंदिरों और ऐतिहासिक क्योटो से गुजरें।",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/hi/kyoto-autumn-temples.html",
@@ -7793,7 +7793,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {
@@ -8223,7 +8223,7 @@
           "openGraph": {
             "title": "Kyoto Autumn Temples: 165 km pela Quioto de outono | WalkQuest",
             "description": "Caminhe pelas cores do bordo, bambu, santuários e pela histórica Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "imageAlt": "Europe Explorer walking route from London to Prague in WalkQuest",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -8236,7 +8236,7 @@
             "card": "summary_large_image",
             "title": "Kyoto Autumn Temples: 165 km pela Quioto de outono | WalkQuest",
             "description": "Caminhe pelas cores do bordo, bambu, santuários e pela histórica Kyoto.",
-            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+            "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
             "url": "https://walkquest.site/pt-br/kyoto-autumn-temples.html"
           },
           "structuredData": [
@@ -8245,7 +8245,7 @@
               "@type": "Article",
               "headline": "Kyoto Autumn Temples: 165 km pela Quioto de outono | WalkQuest",
               "description": "Caminhe pelas cores do bordo, bambu, santuários e pela histórica Kyoto.",
-              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.png",
+              "image": "https://walkquest.site/assets/kyoto-autumn-temples-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt-br/kyoto-autumn-temples.html",
@@ -8333,7 +8333,7 @@
           "tag": "routeKyotoTag",
           "title": "kyotoTitle",
           "lead": "routeKyotoDesc",
-          "image": "kyoto-autumn-temples-panorama.png",
+          "image": "kyoto-autumn-temples-panorama.webp",
           "alt": "kyotoHeroAlt",
           "chips": [
             {

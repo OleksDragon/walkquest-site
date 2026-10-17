@@ -133,8 +133,11 @@ const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapCount = [...sitemap.matchAll(/<url>/g)].length;
 if (sitemapCount !== 624) errors.push(`Expected 624 sitemap URLs, found ${sitemapCount}.`);
 if (!sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"')) errors.push("Sitemap xhtml namespace is missing.");
+if (!sitemap.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"')) errors.push("Sitemap image namespace is missing.");
 const sitemapAlternates = [...sitemap.matchAll(/<xhtml:link rel="alternate" hreflang="([^"]+)" href="([^"]+)" \/>/g)];
 if (sitemapAlternates.length !== 624 * 17) errors.push(`Expected ${624 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
+const sitemapImages = [...sitemap.matchAll(/<image:image>/g)].length;
+if (sitemapImages !== 624) errors.push(`Expected 624 sitemap image records, found ${sitemapImages}.`);
 for (const slug of newRouteSlugs) {
   const image = path.resolve("public", "images", "routes", `${slug}.webp`);
   if (!fs.existsSync(image)) errors.push(`${slug}: hero image is missing.`);

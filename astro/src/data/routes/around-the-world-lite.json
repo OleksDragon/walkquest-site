@@ -123,7 +123,7 @@
           "openGraph": {
             "title": "Around the World Lite: a 12,000 km global adventure | WalkQuest",
             "description": "Connect continents with walking stages, trains, ferries, and long-distance flights.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -136,7 +136,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: a 12,000 km global adventure | WalkQuest",
             "description": "Connect continents with walking stages, trains, ferries, and long-distance flights.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/around-the-world-lite.html"
           },
           "structuredData": [
@@ -145,7 +145,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: a 12,000 km global adventure | WalkQuest",
               "description": "Connect continents with walking stages, trains, ferries, and long-distance flights.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/around-the-world-lite.html",
@@ -292,7 +292,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -892,7 +892,7 @@
           "openGraph": {
             "title": "Around the World Lite: глобальна пригода на 12 000 км | WalkQuest",
             "description": "З’єднайте континенти пішохідними маршрутами, поїздами, поромами та міжміськими рейсами.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -905,7 +905,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: глобальна пригода на 12 000 км | WalkQuest",
             "description": "З’єднайте континенти пішохідними маршрутами, поїздами, поромами та міжміськими рейсами.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/uk/around-the-world-lite.html"
           },
           "structuredData": [
@@ -914,7 +914,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: глобальна пригода на 12 000 км | WalkQuest",
               "description": "З’єднайте континенти пішохідними маршрутами, поїздами, поромами та міжміськими рейсами.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/uk/around-the-world-lite.html",
@@ -1061,7 +1061,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -1661,7 +1661,7 @@
           "openGraph": {
             "title": "Around the World Lite: кругосветное приключение на 12 000 км | WalkQuest",
             "description": "Соединяйте континенты пешими этапами, поездами, паромами и дальними перелётами.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -1674,7 +1674,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: кругосветное приключение на 12 000 км | WalkQuest",
             "description": "Соединяйте континенты пешими этапами, поездами, паромами и дальними перелётами.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/ru/around-the-world-lite.html"
           },
           "structuredData": [
@@ -1683,7 +1683,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: кругосветное приключение на 12 000 км | WalkQuest",
               "description": "Соединяйте континенты пешими этапами, поездами, паромами и дальними перелётами.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ru/around-the-world-lite.html",
@@ -1830,7 +1830,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -2430,7 +2430,7 @@
           "openGraph": {
             "title": "Around the World Lite: una aventura global de 12 000 km | WalkQuest",
             "description": "Conecte continentes con etapas a pie, trenes, ferries y vuelos de larga distancia.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -2443,7 +2443,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: una aventura global de 12 000 km | WalkQuest",
             "description": "Conecte continentes con etapas a pie, trenes, ferries y vuelos de larga distancia.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/es/around-the-world-lite.html"
           },
           "structuredData": [
@@ -2452,7 +2452,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: una aventura global de 12 000 km | WalkQuest",
               "description": "Conecte continentes con etapas a pie, trenes, ferries y vuelos de larga distancia.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/es/around-the-world-lite.html",
@@ -2599,7 +2599,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -3199,7 +3199,7 @@
           "openGraph": {
             "title": "Around the World Lite: ein globales Abenteuer über 12.000 km | WalkQuest",
             "description": "Verbinden Sie Kontinente mit Fußetappen, Zügen, Fähren und Langstreckenflügen.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -3212,7 +3212,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: ein globales Abenteuer über 12.000 km | WalkQuest",
             "description": "Verbinden Sie Kontinente mit Fußetappen, Zügen, Fähren und Langstreckenflügen.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/de/around-the-world-lite.html"
           },
           "structuredData": [
@@ -3221,7 +3221,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: ein globales Abenteuer über 12.000 km | WalkQuest",
               "description": "Verbinden Sie Kontinente mit Fußetappen, Zügen, Fähren und Langstreckenflügen.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/de/around-the-world-lite.html",
@@ -3368,7 +3368,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -3968,7 +3968,7 @@
           "openGraph": {
             "title": "Around the World Lite : une aventure mondiale de 12 000 km | WalkQuest",
             "description": "Reliez les continents avec des étapes à pied, des trains, des ferries et des vols longue distance.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -3981,7 +3981,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite : une aventure mondiale de 12 000 km | WalkQuest",
             "description": "Reliez les continents avec des étapes à pied, des trains, des ferries et des vols longue distance.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/fr/around-the-world-lite.html"
           },
           "structuredData": [
@@ -3990,7 +3990,7 @@
               "@type": "Article",
               "headline": "Around the World Lite : une aventure mondiale de 12 000 km | WalkQuest",
               "description": "Reliez les continents avec des étapes à pied, des trains, des ferries et des vols longue distance.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/fr/around-the-world-lite.html",
@@ -4137,7 +4137,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -4737,7 +4737,7 @@
           "openGraph": {
             "title": "Around the World Lite: globalna przygoda na 12 000 km | WalkQuest",
             "description": "Łącz kontynenty za pomocą etapów pieszych, pociągów, promów i lotów długodystansowych.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -4750,7 +4750,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: globalna przygoda na 12 000 km | WalkQuest",
             "description": "Łącz kontynenty za pomocą etapów pieszych, pociągów, promów i lotów długodystansowych.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/pl/around-the-world-lite.html"
           },
           "structuredData": [
@@ -4759,7 +4759,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: globalna przygoda na 12 000 km | WalkQuest",
               "description": "Łącz kontynenty za pomocą etapów pieszych, pociągów, promów i lotów długodystansowych.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pl/around-the-world-lite.html",
@@ -4906,7 +4906,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -5506,7 +5506,7 @@
           "openGraph": {
             "title": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
             "description": "Ligue continentes com etapas de caminhada, comboios, ferries e voos de longa distância.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -5519,7 +5519,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
             "description": "Ligue continentes com etapas de caminhada, comboios, ferries e voos de longa distância.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/pt/around-the-world-lite.html"
           },
           "structuredData": [
@@ -5528,7 +5528,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
               "description": "Ligue continentes com etapas de caminhada, comboios, ferries e voos de longa distância.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt/around-the-world-lite.html",
@@ -5675,7 +5675,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -6275,7 +6275,7 @@
           "openGraph": {
             "title": "Around the World Lite: un’avventura globale di 12.000 km | WalkQuest",
             "description": "Collega i continenti con tappe a piedi, treni, traghetti e voli a lunga percorrenza.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -6288,7 +6288,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: un’avventura globale di 12.000 km | WalkQuest",
             "description": "Collega i continenti con tappe a piedi, treni, traghetti e voli a lunga percorrenza.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/it/around-the-world-lite.html"
           },
           "structuredData": [
@@ -6297,7 +6297,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: un’avventura globale di 12.000 km | WalkQuest",
               "description": "Collega i continenti con tappe a piedi, treni, traghetti e voli a lunga percorrenza.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/it/around-the-world-lite.html",
@@ -6444,7 +6444,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -7044,7 +7044,7 @@
           "openGraph": {
             "title": "Around the World Lite: 12.000 km’lik küresel macera | WalkQuest",
             "description": "Kıtaları yürüyüş etapları, trenler, feribotlar ve uzun mesafeli uçuşlarla birbirine bağlayın.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -7057,7 +7057,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: 12.000 km’lik küresel macera | WalkQuest",
             "description": "Kıtaları yürüyüş etapları, trenler, feribotlar ve uzun mesafeli uçuşlarla birbirine bağlayın.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/tr/around-the-world-lite.html"
           },
           "structuredData": [
@@ -7066,7 +7066,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: 12.000 km’lik küresel macera | WalkQuest",
               "description": "Kıtaları yürüyüş etapları, trenler, feribotlar ve uzun mesafeli uçuşlarla birbirine bağlayın.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/tr/around-the-world-lite.html",
@@ -7213,7 +7213,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -7813,7 +7813,7 @@
           "openGraph": {
             "title": "Around the World Lite：世界を巡る12,000kmの冒険 | WalkQuest",
             "description": "ウォーキング ステージ、電車、フェリー、長距離飛行機で大陸を結びましょう。",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -7826,7 +7826,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite：世界を巡る12,000kmの冒険 | WalkQuest",
             "description": "ウォーキング ステージ、電車、フェリー、長距離飛行機で大陸を結びましょう。",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/ja/around-the-world-lite.html"
           },
           "structuredData": [
@@ -7835,7 +7835,7 @@
               "@type": "Article",
               "headline": "Around the World Lite：世界を巡る12,000kmの冒険 | WalkQuest",
               "description": "ウォーキング ステージ、電車、フェリー、長距離飛行機で大陸を結びましょう。",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ja/around-the-world-lite.html",
@@ -7982,7 +7982,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -8582,7 +8582,7 @@
           "openGraph": {
             "title": "Around the World Lite: 세계를 잇는 12,000km 모험 | WalkQuest",
             "description": "워킹스테이지, 기차, 페리, 장거리 비행으로 대륙을 연결하세요.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -8595,7 +8595,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: 세계를 잇는 12,000km 모험 | WalkQuest",
             "description": "워킹스테이지, 기차, 페리, 장거리 비행으로 대륙을 연결하세요.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/ko/around-the-world-lite.html"
           },
           "structuredData": [
@@ -8604,7 +8604,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: 세계를 잇는 12,000km 모험 | WalkQuest",
               "description": "워킹스테이지, 기차, 페리, 장거리 비행으로 대륙을 연결하세요.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ko/around-the-world-lite.html",
@@ -8751,7 +8751,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -9351,7 +9351,7 @@
           "openGraph": {
             "title": "Around the World Lite：跨越全球的 12,000 公里冒险 | WalkQuest",
             "description": "通过步行舞台、火车、渡轮和长途航班连接各大洲。",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -9364,7 +9364,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite：跨越全球的 12,000 公里冒险 | WalkQuest",
             "description": "通过步行舞台、火车、渡轮和长途航班连接各大洲。",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/zh-cn/around-the-world-lite.html"
           },
           "structuredData": [
@@ -9373,7 +9373,7 @@
               "@type": "Article",
               "headline": "Around the World Lite：跨越全球的 12,000 公里冒险 | WalkQuest",
               "description": "通过步行舞台、火车、渡轮和长途航班连接各大洲。",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/zh-cn/around-the-world-lite.html",
@@ -9520,7 +9520,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -10120,7 +10120,7 @@
           "openGraph": {
             "title": "Around the World Lite: مغامرة عالمية بطول 12000 كم | WalkQuest",
             "description": "قم بتوصيل القارات بمراحل المشي والقطارات والعبارات ورحلات الطيران لمسافات طويلة.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -10133,7 +10133,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: مغامرة عالمية بطول 12000 كم | WalkQuest",
             "description": "قم بتوصيل القارات بمراحل المشي والقطارات والعبارات ورحلات الطيران لمسافات طويلة.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/ar/around-the-world-lite.html"
           },
           "structuredData": [
@@ -10142,7 +10142,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: مغامرة عالمية بطول 12000 كم | WalkQuest",
               "description": "قم بتوصيل القارات بمراحل المشي والقطارات والعبارات ورحلات الطيران لمسافات طويلة.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ar/around-the-world-lite.html",
@@ -10289,7 +10289,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -10889,7 +10889,7 @@
           "openGraph": {
             "title": "Around the World Lite: 12,000 किमी का वैश्विक रोमांच | WalkQuest",
             "description": "महाद्वीपों को पैदल चरणों, ट्रेनों, फ़ेरी और लंबी दूरी की उड़ानों से जोड़ें।",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -10902,7 +10902,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: 12,000 किमी का वैश्विक रोमांच | WalkQuest",
             "description": "महाद्वीपों को पैदल चरणों, ट्रेनों, फ़ेरी और लंबी दूरी की उड़ानों से जोड़ें।",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/hi/around-the-world-lite.html"
           },
           "structuredData": [
@@ -10911,7 +10911,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: 12,000 किमी का वैश्विक रोमांच | WalkQuest",
               "description": "महाद्वीपों को पैदल चरणों, ट्रेनों, फ़ेरी और लंबी दूरी की उड़ानों से जोड़ें।",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/hi/around-the-world-lite.html",
@@ -11058,7 +11058,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {
@@ -11658,7 +11658,7 @@
           "openGraph": {
             "title": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
             "description": "Conecte continentes com etapas de caminhada, trens, balsas e voos de longa distância.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "imageAlt": "Illustrated global route linking Europe, Africa, Asia, Australia, Hawaii and San Francisco",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -11671,7 +11671,7 @@
             "card": "summary_large_image",
             "title": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
             "description": "Conecte continentes com etapas de caminhada, trens, balsas e voos de longa distância.",
-            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+            "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
             "url": "https://walkquest.site/pt-br/around-the-world-lite.html"
           },
           "structuredData": [
@@ -11680,7 +11680,7 @@
               "@type": "Article",
               "headline": "Around the World Lite: uma aventura global de 12.000 km | WalkQuest",
               "description": "Conecte continentes com etapas de caminhada, trens, balsas e voos de longa distância.",
-              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.png",
+              "image": "https://walkquest.site/assets/around-the-world-lite-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt-br/around-the-world-lite.html",
@@ -11827,7 +11827,7 @@
           "tag": "routeWorldTag",
           "title": "worldTitle",
           "lead": "routeWorldDesc",
-          "image": "around-the-world-lite-panorama.png",
+          "image": "around-the-world-lite-panorama.webp",
           "alt": "worldHeroAlt",
           "chips": [
             {

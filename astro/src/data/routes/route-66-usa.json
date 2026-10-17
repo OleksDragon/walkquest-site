@@ -123,7 +123,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3,940 km from Chicago to the Pacific | WalkQuest",
             "description": "A long American road trip from Chicago to the Pacific in Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -136,7 +136,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3,940 km from Chicago to the Pacific | WalkQuest",
             "description": "A long American road trip from Chicago to the Pacific in Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/route-66-usa.html"
           },
           "structuredData": [
@@ -145,7 +145,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3,940 km from Chicago to the Pacific | WalkQuest",
               "description": "A long American road trip from Chicago to the Pacific in Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/route-66-usa.html",
@@ -302,7 +302,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -932,7 +932,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3 940 км від Чикаго до Тихого океану | WalkQuest",
             "description": "Довга американська подорож від Чикаго до Тихого океану в Лос-Анджелесі.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -945,7 +945,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3 940 км від Чикаго до Тихого океану | WalkQuest",
             "description": "Довга американська подорож від Чикаго до Тихого океану в Лос-Анджелесі.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/uk/route-66-usa.html"
           },
           "structuredData": [
@@ -954,7 +954,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3 940 км від Чикаго до Тихого океану | WalkQuest",
               "description": "Довга американська подорож від Чикаго до Тихого океану в Лос-Анджелесі.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/uk/route-66-usa.html",
@@ -1111,7 +1111,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -1741,7 +1741,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3 940 км от Чикаго до Тихого океана | WalkQuest",
             "description": "Долгое путешествие по Америке из Чикаго до Тихого океана в Лос-Анджелесе.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -1754,7 +1754,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3 940 км от Чикаго до Тихого океана | WalkQuest",
             "description": "Долгое путешествие по Америке из Чикаго до Тихого океана в Лос-Анджелесе.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/ru/route-66-usa.html"
           },
           "structuredData": [
@@ -1763,7 +1763,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3 940 км от Чикаго до Тихого океана | WalkQuest",
               "description": "Долгое путешествие по Америке из Чикаго до Тихого океана в Лос-Анджелесе.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ru/route-66-usa.html",
@@ -1920,7 +1920,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -2550,7 +2550,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3940 km de Chicago al Pacífico | WalkQuest",
             "description": "Un largo viaje por carretera estadounidense desde Chicago hasta el Pacífico en Los Ángeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -2563,7 +2563,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3940 km de Chicago al Pacífico | WalkQuest",
             "description": "Un largo viaje por carretera estadounidense desde Chicago hasta el Pacífico en Los Ángeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/es/route-66-usa.html"
           },
           "structuredData": [
@@ -2572,7 +2572,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3940 km de Chicago al Pacífico | WalkQuest",
               "description": "Un largo viaje por carretera estadounidense desde Chicago hasta el Pacífico en Los Ángeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/es/route-66-usa.html",
@@ -2729,7 +2729,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -3359,7 +3359,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3.940 km von Chicago zum Pazifik | WalkQuest",
             "description": "Ein langer amerikanischer Roadtrip von Chicago an den Pazifik in Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -3372,7 +3372,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3.940 km von Chicago zum Pazifik | WalkQuest",
             "description": "Ein langer amerikanischer Roadtrip von Chicago an den Pazifik in Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/de/route-66-usa.html"
           },
           "structuredData": [
@@ -3381,7 +3381,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3.940 km von Chicago zum Pazifik | WalkQuest",
               "description": "Ein langer amerikanischer Roadtrip von Chicago an den Pazifik in Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/de/route-66-usa.html",
@@ -3538,7 +3538,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -4168,7 +4168,7 @@
           "openGraph": {
             "title": "Route 66 USA : 3 940 km de Chicago au Pacifique | WalkQuest",
             "description": "Un long road trip américain de Chicago jusqu'au Pacifique à Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -4181,7 +4181,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA : 3 940 km de Chicago au Pacifique | WalkQuest",
             "description": "Un long road trip américain de Chicago jusqu'au Pacifique à Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/fr/route-66-usa.html"
           },
           "structuredData": [
@@ -4190,7 +4190,7 @@
               "@type": "Article",
               "headline": "Route 66 USA : 3 940 km de Chicago au Pacifique | WalkQuest",
               "description": "Un long road trip américain de Chicago jusqu'au Pacifique à Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/fr/route-66-usa.html",
@@ -4347,7 +4347,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -4977,7 +4977,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3940 km z Chicago nad Pacyfik | WalkQuest",
             "description": "Długa amerykańska podróż z Chicago na Pacyfik w Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -4990,7 +4990,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3940 km z Chicago nad Pacyfik | WalkQuest",
             "description": "Długa amerykańska podróż z Chicago na Pacyfik w Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/pl/route-66-usa.html"
           },
           "structuredData": [
@@ -4999,7 +4999,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3940 km z Chicago nad Pacyfik | WalkQuest",
               "description": "Długa amerykańska podróż z Chicago na Pacyfik w Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pl/route-66-usa.html",
@@ -5156,7 +5156,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -5786,7 +5786,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
             "description": "Uma longa viagem americana de Chicago ao Pacífico, em Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -5799,7 +5799,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
             "description": "Uma longa viagem americana de Chicago ao Pacífico, em Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/pt/route-66-usa.html"
           },
           "structuredData": [
@@ -5808,7 +5808,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
               "description": "Uma longa viagem americana de Chicago ao Pacífico, em Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt/route-66-usa.html",
@@ -5965,7 +5965,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -6595,7 +6595,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3.940 km da Chicago al Pacifico | WalkQuest",
             "description": "Un lungo viaggio on the road americano da Chicago al Pacifico a Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -6608,7 +6608,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3.940 km da Chicago al Pacifico | WalkQuest",
             "description": "Un lungo viaggio on the road americano da Chicago al Pacifico a Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/it/route-66-usa.html"
           },
           "structuredData": [
@@ -6617,7 +6617,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3.940 km da Chicago al Pacifico | WalkQuest",
               "description": "Un lungo viaggio on the road americano da Chicago al Pacifico a Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/it/route-66-usa.html",
@@ -6774,7 +6774,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -7404,7 +7404,7 @@
           "openGraph": {
             "title": "Route 66 USA: Chicago’dan Pasifik’e 3.940 km | WalkQuest",
             "description": "Chicago'dan Los Angeles'taki Pasifik'e uzanan uzun bir Amerikan yolculuğu.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -7417,7 +7417,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: Chicago’dan Pasifik’e 3.940 km | WalkQuest",
             "description": "Chicago'dan Los Angeles'taki Pasifik'e uzanan uzun bir Amerikan yolculuğu.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/tr/route-66-usa.html"
           },
           "structuredData": [
@@ -7426,7 +7426,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: Chicago’dan Pasifik’e 3.940 km | WalkQuest",
               "description": "Chicago'dan Los Angeles'taki Pasifik'e uzanan uzun bir Amerikan yolculuğu.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/tr/route-66-usa.html",
@@ -7583,7 +7583,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -8213,7 +8213,7 @@
           "openGraph": {
             "title": "Route 66 USA：シカゴから太平洋まで3,940km | WalkQuest",
             "description": "シカゴから太平洋のロサンゼルスまでの長いアメリカのロードトリップ。",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -8226,7 +8226,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA：シカゴから太平洋まで3,940km | WalkQuest",
             "description": "シカゴから太平洋のロサンゼルスまでの長いアメリカのロードトリップ。",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/ja/route-66-usa.html"
           },
           "structuredData": [
@@ -8235,7 +8235,7 @@
               "@type": "Article",
               "headline": "Route 66 USA：シカゴから太平洋まで3,940km | WalkQuest",
               "description": "シカゴから太平洋のロサンゼルスまでの長いアメリカのロードトリップ。",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ja/route-66-usa.html",
@@ -8392,7 +8392,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -9022,7 +9022,7 @@
           "openGraph": {
             "title": "Route 66 USA: 시카고에서 태평양까지 3,940km | WalkQuest",
             "description": "시카고에서 태평양 로스앤젤레스까지 미국의 장거리 자동차 여행.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -9035,7 +9035,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 시카고에서 태평양까지 3,940km | WalkQuest",
             "description": "시카고에서 태평양 로스앤젤레스까지 미국의 장거리 자동차 여행.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/ko/route-66-usa.html"
           },
           "structuredData": [
@@ -9044,7 +9044,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 시카고에서 태평양까지 3,940km | WalkQuest",
               "description": "시카고에서 태평양 로스앤젤레스까지 미국의 장거리 자동차 여행.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ko/route-66-usa.html",
@@ -9201,7 +9201,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -9831,7 +9831,7 @@
           "openGraph": {
             "title": "Route 66 USA：从芝加哥到太平洋的 3,940 公里 | WalkQuest",
             "description": "从芝加哥到太平洋洛杉矶的美国长途公路旅行。",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -9844,7 +9844,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA：从芝加哥到太平洋的 3,940 公里 | WalkQuest",
             "description": "从芝加哥到太平洋洛杉矶的美国长途公路旅行。",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/zh-cn/route-66-usa.html"
           },
           "structuredData": [
@@ -9853,7 +9853,7 @@
               "@type": "Article",
               "headline": "Route 66 USA：从芝加哥到太平洋的 3,940 公里 | WalkQuest",
               "description": "从芝加哥到太平洋洛杉矶的美国长途公路旅行。",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/zh-cn/route-66-usa.html",
@@ -10010,7 +10010,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -10640,7 +10640,7 @@
           "openGraph": {
             "title": "Route 66 USA: مسافة 3940 كم من شيكاغو إلى المحيط الهادئ | WalkQuest",
             "description": "رحلة برية أمريكية طويلة من شيكاغو إلى المحيط الهادئ في لوس أنجلوس.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -10653,7 +10653,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: مسافة 3940 كم من شيكاغو إلى المحيط الهادئ | WalkQuest",
             "description": "رحلة برية أمريكية طويلة من شيكاغو إلى المحيط الهادئ في لوس أنجلوس.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/ar/route-66-usa.html"
           },
           "structuredData": [
@@ -10662,7 +10662,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: مسافة 3940 كم من شيكاغو إلى المحيط الهادئ | WalkQuest",
               "description": "رحلة برية أمريكية طويلة من شيكاغو إلى المحيط الهادئ في لوس أنجلوس.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/ar/route-66-usa.html",
@@ -10819,7 +10819,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -11449,7 +11449,7 @@
           "openGraph": {
             "title": "Route 66 USA: शिकागो से प्रशांत तक 3,940 किमी | WalkQuest",
             "description": "शिकागो से लॉस एंजिल्स में प्रशांत महासागर तक एक लंबी अमेरिकी सड़क यात्रा।",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -11462,7 +11462,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: शिकागो से प्रशांत तक 3,940 किमी | WalkQuest",
             "description": "शिकागो से लॉस एंजिल्स में प्रशांत महासागर तक एक लंबी अमेरिकी सड़क यात्रा।",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/hi/route-66-usa.html"
           },
           "structuredData": [
@@ -11471,7 +11471,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: शिकागो से प्रशांत तक 3,940 किमी | WalkQuest",
               "description": "शिकागो से लॉस एंजिल्स में प्रशांत महासागर तक एक लंबी अमेरिकी सड़क यात्रा।",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/hi/route-66-usa.html",
@@ -11628,7 +11628,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {
@@ -12258,7 +12258,7 @@
           "openGraph": {
             "title": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
             "description": "Uma longa viagem americana de Chicago ao Pacífico em Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "imageAlt": "Illustrated Route 66 journey from Chicago through classic American roads to Los Angeles",
             "imageWidth": "1672",
             "imageHeight": "941",
@@ -12271,7 +12271,7 @@
             "card": "summary_large_image",
             "title": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
             "description": "Uma longa viagem americana de Chicago ao Pacífico em Los Angeles.",
-            "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+            "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
             "url": "https://walkquest.site/pt-br/route-66-usa.html"
           },
           "structuredData": [
@@ -12280,7 +12280,7 @@
               "@type": "Article",
               "headline": "Route 66 USA: 3.940 km de Chicago ao Pacífico | WalkQuest",
               "description": "Uma longa viagem americana de Chicago ao Pacífico em Los Angeles.",
-              "image": "https://walkquest.site/assets/route-66-usa-panorama.png",
+              "image": "https://walkquest.site/assets/route-66-usa-panorama.webp",
               "datePublished": "2026-10-03",
               "dateModified": "2026-10-03",
               "mainEntityOfPage": "https://walkquest.site/pt-br/route-66-usa.html",
@@ -12437,7 +12437,7 @@
           "tag": "route66Tag",
           "title": "route66Title",
           "lead": "route66Desc",
-          "image": "route-66-usa-panorama.png",
+          "image": "route-66-usa-panorama.webp",
           "alt": "route66HeroAlt",
           "chips": [
             {

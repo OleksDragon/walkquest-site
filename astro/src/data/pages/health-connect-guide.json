@@ -122,7 +122,7 @@
         "openGraph": {
           "title": "Health Connect Setup Guide for WalkQuest Walking Game",
           "description": "Connect Health Connect to WalkQuest, allow read-only step access, understand synchronization delays and solve the most common missing-step problems on Android.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -135,7 +135,7 @@
           "card": "summary_large_image",
           "title": "Health Connect Setup Guide for WalkQuest Walking Game",
           "description": "Connect Health Connect to WalkQuest, allow read-only step access, understand synchronization delays and solve the most common missing-step problems on Android.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/health-connect-guide.html"
         },
         "structuredData": [
@@ -144,7 +144,7 @@
             "@type": "Article",
             "headline": "Health Connect Setup Guide for WalkQuest Walking Game",
             "description": "Connect Health Connect to WalkQuest, allow read-only step access, understand synchronization delays and solve the most common missing-step problems on Android.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/health-connect-guide.html",
@@ -182,7 +182,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -444,7 +444,7 @@
         "openGraph": {
           "title": "Посібник із Health Connect | WalkQuest",
           "description": "Підключіть Health Connect до WalkQuest, дізнайтеся про дозволи на відстеження кроків і вирішуйте поширені проблеми із синхронізацією.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -457,7 +457,7 @@
           "card": "summary_large_image",
           "title": "Посібник із Health Connect | WalkQuest",
           "description": "Підключіть Health Connect до WalkQuest, дізнайтеся про дозволи на відстеження кроків і вирішуйте поширені проблеми із синхронізацією.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/uk/health-connect-guide.html"
         },
         "structuredData": [
@@ -466,7 +466,7 @@
             "@type": "Article",
             "headline": "Посібник із Health Connect | WalkQuest",
             "description": "Підключіть Health Connect до WalkQuest, дізнайтеся про дозволи на відстеження кроків і вирішуйте поширені проблеми із синхронізацією.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/uk/health-connect-guide.html",
@@ -504,7 +504,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -766,7 +766,7 @@
         "openGraph": {
           "title": "Руководство по Health Connect | WalkQuest",
           "description": "Подключите Health Connect к WalkQuest, разберитесь с разрешениями на доступ к данным о шагах и устраните распространенные проблемы с синхронизацией.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -779,7 +779,7 @@
           "card": "summary_large_image",
           "title": "Руководство по Health Connect | WalkQuest",
           "description": "Подключите Health Connect к WalkQuest, разберитесь с разрешениями на доступ к данным о шагах и устраните распространенные проблемы с синхронизацией.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/ru/health-connect-guide.html"
         },
         "structuredData": [
@@ -788,7 +788,7 @@
             "@type": "Article",
             "headline": "Руководство по Health Connect | WalkQuest",
             "description": "Подключите Health Connect к WalkQuest, разберитесь с разрешениями на доступ к данным о шагах и устраните распространенные проблемы с синхронизацией.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ru/health-connect-guide.html",
@@ -826,7 +826,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -1088,7 +1088,7 @@
         "openGraph": {
           "title": "Guía de Health Connect | WalkQuest",
           "description": "Conecta Health Connect a WalkQuest, comprende los permisos de pasos y resuelve problemas comunes de sincronización.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1101,7 +1101,7 @@
           "card": "summary_large_image",
           "title": "Guía de Health Connect | WalkQuest",
           "description": "Conecta Health Connect a WalkQuest, comprende los permisos de pasos y resuelve problemas comunes de sincronización.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/es/health-connect-guide.html"
         },
         "structuredData": [
@@ -1110,7 +1110,7 @@
             "@type": "Article",
             "headline": "Guía de Health Connect | WalkQuest",
             "description": "Conecta Health Connect a WalkQuest, comprende los permisos de pasos y resuelve problemas comunes de sincronización.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/es/health-connect-guide.html",
@@ -1148,7 +1148,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -1410,7 +1410,7 @@
         "openGraph": {
           "title": "Health-Connect-Anleitung | WalkQuest",
           "description": "Verbinden Sie Health Connect mit WalkQuest, machen Sie sich mit den Berechtigungen für Schrittdaten vertraut und beheben Sie häufige Synchronisierungsprobleme.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1423,7 +1423,7 @@
           "card": "summary_large_image",
           "title": "Health-Connect-Anleitung | WalkQuest",
           "description": "Verbinden Sie Health Connect mit WalkQuest, machen Sie sich mit den Berechtigungen für Schrittdaten vertraut und beheben Sie häufige Synchronisierungsprobleme.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/de/health-connect-guide.html"
         },
         "structuredData": [
@@ -1432,7 +1432,7 @@
             "@type": "Article",
             "headline": "Health-Connect-Anleitung | WalkQuest",
             "description": "Verbinden Sie Health Connect mit WalkQuest, machen Sie sich mit den Berechtigungen für Schrittdaten vertraut und beheben Sie häufige Synchronisierungsprobleme.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/de/health-connect-guide.html",
@@ -1470,7 +1470,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -1732,7 +1732,7 @@
         "openGraph": {
           "title": "Guide Health Connect | WalkQuest",
           "description": "Connectez Health Connect à WalkQuest, comprenez les autorisations liées aux pas et résolvez les problèmes de synchronisation courants.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1745,7 +1745,7 @@
           "card": "summary_large_image",
           "title": "Guide Health Connect | WalkQuest",
           "description": "Connectez Health Connect à WalkQuest, comprenez les autorisations liées aux pas et résolvez les problèmes de synchronisation courants.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/fr/health-connect-guide.html"
         },
         "structuredData": [
@@ -1754,7 +1754,7 @@
             "@type": "Article",
             "headline": "Guide Health Connect | WalkQuest",
             "description": "Connectez Health Connect à WalkQuest, comprenez les autorisations liées aux pas et résolvez les problèmes de synchronisation courants.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/fr/health-connect-guide.html",
@@ -1792,7 +1792,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -2054,7 +2054,7 @@
         "openGraph": {
           "title": "Poradnik dotyczący Health Connect | WalkQuest",
           "description": "Połącz Health Connect z aplikacją WalkQuest, zapoznaj się z uprawnieniami dotyczącymi liczby kroków i rozwiąż typowe problemy z synchronizacją.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2067,7 +2067,7 @@
           "card": "summary_large_image",
           "title": "Poradnik dotyczący Health Connect | WalkQuest",
           "description": "Połącz Health Connect z aplikacją WalkQuest, zapoznaj się z uprawnieniami dotyczącymi liczby kroków i rozwiąż typowe problemy z synchronizacją.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/pl/health-connect-guide.html"
         },
         "structuredData": [
@@ -2076,7 +2076,7 @@
             "@type": "Article",
             "headline": "Poradnik dotyczący Health Connect | WalkQuest",
             "description": "Połącz Health Connect z aplikacją WalkQuest, zapoznaj się z uprawnieniami dotyczącymi liczby kroków i rozwiąż typowe problemy z synchronizacją.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pl/health-connect-guide.html",
@@ -2114,7 +2114,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -2376,7 +2376,7 @@
         "openGraph": {
           "title": "Guia Health Connect | WalkQuest",
           "description": "Ligue o Health Connect ao WalkQuest, compreenda as permissões de passos e resolva problemas comuns de sincronização.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2389,7 +2389,7 @@
           "card": "summary_large_image",
           "title": "Guia Health Connect | WalkQuest",
           "description": "Ligue o Health Connect ao WalkQuest, compreenda as permissões de passos e resolva problemas comuns de sincronização.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/pt/health-connect-guide.html"
         },
         "structuredData": [
@@ -2398,7 +2398,7 @@
             "@type": "Article",
             "headline": "Guia Health Connect | WalkQuest",
             "description": "Ligue o Health Connect ao WalkQuest, compreenda as permissões de passos e resolva problemas comuns de sincronização.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pt/health-connect-guide.html",
@@ -2436,7 +2436,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -2698,7 +2698,7 @@
         "openGraph": {
           "title": "Guida a Health Connect | WalkQuest",
           "description": "Collega Health Connect a WalkQuest, comprendi le autorizzazioni per i passi e risolvi i problemi di sincronizzazione più comuni.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2711,7 +2711,7 @@
           "card": "summary_large_image",
           "title": "Guida a Health Connect | WalkQuest",
           "description": "Collega Health Connect a WalkQuest, comprendi le autorizzazioni per i passi e risolvi i problemi di sincronizzazione più comuni.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/it/health-connect-guide.html"
         },
         "structuredData": [
@@ -2720,7 +2720,7 @@
             "@type": "Article",
             "headline": "Guida a Health Connect | WalkQuest",
             "description": "Collega Health Connect a WalkQuest, comprendi le autorizzazioni per i passi e risolvi i problemi di sincronizzazione più comuni.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/it/health-connect-guide.html",
@@ -2758,7 +2758,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -3020,7 +3020,7 @@
         "openGraph": {
           "title": "Health Connect rehberi | WalkQuest",
           "description": "Health Connect'i WalkQuest'e bağlayın, adım izinlerini anlayın ve yaygın senkronizasyon sorunlarını çözün.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3033,7 +3033,7 @@
           "card": "summary_large_image",
           "title": "Health Connect rehberi | WalkQuest",
           "description": "Health Connect'i WalkQuest'e bağlayın, adım izinlerini anlayın ve yaygın senkronizasyon sorunlarını çözün.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/tr/health-connect-guide.html"
         },
         "structuredData": [
@@ -3042,7 +3042,7 @@
             "@type": "Article",
             "headline": "Health Connect rehberi | WalkQuest",
             "description": "Health Connect'i WalkQuest'e bağlayın, adım izinlerini anlayın ve yaygın senkronizasyon sorunlarını çözün.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/tr/health-connect-guide.html",
@@ -3080,7 +3080,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -3342,7 +3342,7 @@
         "openGraph": {
           "title": "Health Connectガイド | WalkQuest",
           "description": "Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3355,7 +3355,7 @@
           "card": "summary_large_image",
           "title": "Health Connectガイド | WalkQuest",
           "description": "Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/ja/health-connect-guide.html"
         },
         "structuredData": [
@@ -3364,7 +3364,7 @@
             "@type": "Article",
             "headline": "Health Connectガイド | WalkQuest",
             "description": "Health ConnectをWalkQuestに接続し、歩数データの権限について理解した上で、よくある同期の問題を解決する。",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ja/health-connect-guide.html",
@@ -3402,7 +3402,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -3664,7 +3664,7 @@
         "openGraph": {
           "title": "Health Connect 가이드 | WalkQuest",
           "description": "WalkQuest에 Health Connect를 연결하고, 걸음 수 권한을 이해하며, 일반적인 동기화 문제를 해결하세요.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3677,7 +3677,7 @@
           "card": "summary_large_image",
           "title": "Health Connect 가이드 | WalkQuest",
           "description": "WalkQuest에 Health Connect를 연결하고, 걸음 수 권한을 이해하며, 일반적인 동기화 문제를 해결하세요.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/ko/health-connect-guide.html"
         },
         "structuredData": [
@@ -3686,7 +3686,7 @@
             "@type": "Article",
             "headline": "Health Connect 가이드 | WalkQuest",
             "description": "WalkQuest에 Health Connect를 연결하고, 걸음 수 권한을 이해하며, 일반적인 동기화 문제를 해결하세요.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ko/health-connect-guide.html",
@@ -3724,7 +3724,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -3986,7 +3986,7 @@
         "openGraph": {
           "title": "Health Connect 使用指南 | WalkQuest",
           "description": "将 Health Connect 连接到 WalkQuest，了解步数权限，并解决常见的同步问题。",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3999,7 +3999,7 @@
           "card": "summary_large_image",
           "title": "Health Connect 使用指南 | WalkQuest",
           "description": "将 Health Connect 连接到 WalkQuest，了解步数权限，并解决常见的同步问题。",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/zh-cn/health-connect-guide.html"
         },
         "structuredData": [
@@ -4008,7 +4008,7 @@
             "@type": "Article",
             "headline": "Health Connect 使用指南 | WalkQuest",
             "description": "将 Health Connect 连接到 WalkQuest，了解步数权限，并解决常见的同步问题。",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/zh-cn/health-connect-guide.html",
@@ -4046,7 +4046,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -4308,7 +4308,7 @@
         "openGraph": {
           "title": "دليل Health Connect | WalkQuest",
           "description": "اربط Health Connect بتطبيق WalkQuest، وافهم أذونات تتبع الخطوات، وحُلَّ مشكلات المزامنة الشائعة.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4321,7 +4321,7 @@
           "card": "summary_large_image",
           "title": "دليل Health Connect | WalkQuest",
           "description": "اربط Health Connect بتطبيق WalkQuest، وافهم أذونات تتبع الخطوات، وحُلَّ مشكلات المزامنة الشائعة.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/ar/health-connect-guide.html"
         },
         "structuredData": [
@@ -4330,7 +4330,7 @@
             "@type": "Article",
             "headline": "دليل Health Connect | WalkQuest",
             "description": "اربط Health Connect بتطبيق WalkQuest، وافهم أذونات تتبع الخطوات، وحُلَّ مشكلات المزامنة الشائعة.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ar/health-connect-guide.html",
@@ -4368,7 +4368,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -4630,7 +4630,7 @@
         "openGraph": {
           "title": "Health Connect गाइड | WalkQuest",
           "description": "Health Connect को WalkQuest से कनेक्ट करें, स्टेप परमिशन को समझें और सिंक करने से जुड़ी आम समस्याओं को हल करें।",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4643,7 +4643,7 @@
           "card": "summary_large_image",
           "title": "Health Connect गाइड | WalkQuest",
           "description": "Health Connect को WalkQuest से कनेक्ट करें, स्टेप परमिशन को समझें और सिंक करने से जुड़ी आम समस्याओं को हल करें।",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/hi/health-connect-guide.html"
         },
         "structuredData": [
@@ -4652,7 +4652,7 @@
             "@type": "Article",
             "headline": "Health Connect गाइड | WalkQuest",
             "description": "Health Connect को WalkQuest से कनेक्ट करें, स्टेप परमिशन को समझें और सिंक करने से जुड़ी आम समस्याओं को हल करें।",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/hi/health-connect-guide.html",
@@ -4690,7 +4690,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [
@@ -4952,7 +4952,7 @@
         "openGraph": {
           "title": "Guia do Health Connect | WalkQuest",
           "description": "Conecte o Health Connect ao WalkQuest, entenda as permissões de passos e resolva problemas comuns de sincronização.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "imageAlt": "Health Connect step synchronization guide for WalkQuest",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4965,7 +4965,7 @@
           "card": "summary_large_image",
           "title": "Guia do Health Connect | WalkQuest",
           "description": "Conecte o Health Connect ao WalkQuest, entenda as permissões de passos e resolva problemas comuns de sincronização.",
-          "image": "https://walkquest.site/assets/article-health-connect.png",
+          "image": "https://walkquest.site/assets/article-health-connect.webp",
           "url": "https://walkquest.site/pt-br/health-connect-guide.html"
         },
         "structuredData": [
@@ -4974,7 +4974,7 @@
             "@type": "Article",
             "headline": "Guia do Health Connect | WalkQuest",
             "description": "Conecte o Health Connect ao WalkQuest, entenda as permissões de passos e resolva problemas comuns de sincronização.",
-            "image": "https://walkquest.site/assets/article-health-connect.png",
+            "image": "https://walkquest.site/assets/article-health-connect.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pt-br/health-connect-guide.html",
@@ -5012,7 +5012,7 @@
           "date": "healthDate",
           "readTime": "healthReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-health-connect.png",
+          "image": "article-health-connect.webp",
           "alt": "healthHeroAlt"
         },
         "blocks": [

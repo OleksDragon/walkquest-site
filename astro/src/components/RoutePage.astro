@@ -11,11 +11,14 @@ const { route } = Astro.props;
 const detail = route.detail;
 const c = detail.copy;
 const assetPrefix = route.page.relativePath.includes("/") ? "../" : "./";
+const heroDimensions = detail.hero.image === "route-66-usa-panorama.webp"
+  ? { width: 1280, height: 512 }
+  : { width: 1279, height: 720 };
 ---
 
 <BaseLayout page={route.page}>
   <main id="main"><article>
-    <header class={detail.hero.className}><div class="shell article-hero-inner"><a class="article-back" href="./routes.html"><span aria-hidden="true">←</span> <span data-i18n="navRoutes">{c.navRoutes}</span></a><span class="news-tag" data-i18n={detail.hero.tag}>{c[detail.hero.tag]}</span><h1 data-i18n={detail.hero.title}>{c[detail.hero.title]}</h1><p class="article-lead" data-i18n={detail.hero.lead}>{c[detail.hero.lead]}</p><div class="route-hero-chips">{detail.hero.chips.map((chip) => <span>{chip.key && <span data-i18n={chip.key}>{c[chip.key]}</span>}{chip.literal}{chip.label && <> <span data-i18n={chip.label}>{c[chip.label]}</span></>}</span>)}</div><img src={`${assetPrefix}assets/${detail.hero.image}`} width="1672" height="941" alt={c[detail.hero.alt]} data-i18n-alt={detail.hero.alt} /></div></header>
+    <header class={detail.hero.className}><div class="shell article-hero-inner"><a class="article-back" href="./routes.html"><span aria-hidden="true">←</span> <span data-i18n="navRoutes">{c.navRoutes}</span></a><span class="news-tag" data-i18n={detail.hero.tag}>{c[detail.hero.tag]}</span><h1 data-i18n={detail.hero.title}>{c[detail.hero.title]}</h1><p class="article-lead" data-i18n={detail.hero.lead}>{c[detail.hero.lead]}</p><div class="route-hero-chips">{detail.hero.chips.map((chip) => <span>{chip.key && <span data-i18n={chip.key}>{c[chip.key]}</span>}{chip.literal}{chip.label && <> <span data-i18n={chip.label}>{c[chip.label]}</span></>}</span>)}</div><img src={`${assetPrefix}assets/${detail.hero.image}`} width={heroDimensions.width} height={heroDimensions.height} alt={c[detail.hero.alt]} data-i18n-alt={detail.hero.alt} fetchpriority="high" decoding="async" /></div></header>
     <nav class="route-jump-nav" aria-label={`${c[detail.hero.title]} page sections`}><div class="shell">{detail.jumpLinks.map((link) => <a href={link.href} data-i18n={link.label}>{c[link.label]}</a>)}</div></nav>
     <div class="shell article-layout"><div class="article-body" id="overview">
       <div class="article-stat-grid">{detail.stats.map((stat) => <div><strong data-i18n={stat.key}>{stat.literal ?? c[stat.key!]}</strong><span data-i18n={stat.label}>{c[stat.label]}</span></div>)}</div>

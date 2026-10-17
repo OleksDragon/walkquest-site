@@ -119,7 +119,7 @@
         "openGraph": {
           "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
           "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -132,7 +132,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest Premium — More Routes, No Ads, More Fun Today",
           "description": "See what WalkQuest Premium includes: the complete route library, ad-free play, themes, advanced statistics, certificates and included transport crossings.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/premium.html"
         },
         "structuredData": [],
@@ -323,7 +323,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -336,7 +336,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Порівняйте безкоштовні та Premium WalkQuest функції, маршрути, гру без реклами, теми, статистику, сертифікати та включені трансфери.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/uk/premium.html"
         },
         "structuredData": [],
@@ -527,7 +527,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -540,7 +540,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Сравните бесплатные возможности WalkQuest и Premium: маршруты, игру без рекламы, темы, статистику, сертификаты и включённые переезды.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/ru/premium.html"
         },
         "structuredData": [],
@@ -731,7 +731,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -744,7 +744,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Compare funciones, rutas, juegos sin publicidad, temas, estadísticas, certificados y transferencias incluidas gratuitas y Premium WalkQuest.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/es/premium.html"
         },
         "structuredData": [],
@@ -935,7 +935,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -948,7 +948,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Vergleichen Sie kostenlose und Premium WalkQuest Funktionen, Routen, werbefreies Spielen, Themen, Statistiken, Zertifikate und inbegriffene Transfers.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/de/premium.html"
         },
         "structuredData": [],
@@ -1139,7 +1139,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1152,7 +1152,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Comparez les fonctionnalités, les itinéraires, le jeu sans publicité, les thèmes, les statistiques, les certificats et les transferts inclus gratuits et Premium WalkQuest.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/fr/premium.html"
         },
         "structuredData": [],
@@ -1343,7 +1343,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1356,7 +1356,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Porównaj funkcje bezpłatne i Premium WalkQuest, trasy, grę bez reklam, motywy, statystyki, certyfikaty i uwzględnione transfery.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/pl/premium.html"
         },
         "structuredData": [],
@@ -1547,7 +1547,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1560,7 +1560,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/pt/premium.html"
         },
         "structuredData": [],
@@ -1751,7 +1751,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1764,7 +1764,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Confronta funzionalità gratuite e Premium WalkQuest, percorsi, gioco senza pubblicità, temi, statistiche, certificati e trasferimenti inclusi.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/it/premium.html"
         },
         "structuredData": [],
@@ -1955,7 +1955,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1968,7 +1968,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Ücretsiz ve Premium WalkQuest özelliklerini, rotalarını, reklamsız oynatmayı, temaları, istatistikleri, sertifikaları ve dahil olan transferleri karşılaştırın.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/tr/premium.html"
         },
         "structuredData": [],
@@ -2159,7 +2159,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2172,7 +2172,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "無料と Premium WalkQuest の機能、ルート、広告なしのプレイ、テーマ、統計、証明書、含まれる転送を比較します。",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/ja/premium.html"
         },
         "structuredData": [],
@@ -2363,7 +2363,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2376,7 +2376,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "무료 및 Premium WalkQuest 기능, 경로, 광고 없는 플레이, 테마, 통계, 인증서 및 포함된 전송을 비교하세요.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/ko/premium.html"
         },
         "structuredData": [],
@@ -2567,7 +2567,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2580,7 +2580,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "比较免费和 Premium WalkQuest 的功能、路线、无广告游戏、主题、统计数据、证书和包含的接送服务。",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/zh-cn/premium.html"
         },
         "structuredData": [],
@@ -2771,7 +2771,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2784,7 +2784,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "قارن ميزات Premium WalkQuest المجانية والطرق واللعب الخالي من الإعلانات والموضوعات والإحصائيات والشهادات وعمليات النقل المضمنة.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/ar/premium.html"
         },
         "structuredData": [],
@@ -2975,7 +2975,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2988,7 +2988,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "मुफ़्त और Premium WalkQuest सुविधाओं, मार्गों, विज्ञापन-मुक्त खेल, थीम, सांख्यिकी, प्रमाणपत्र और शामिल स्थानांतरण की तुलना करें।",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/hi/premium.html"
         },
         "structuredData": [],
@@ -3179,7 +3179,7 @@
         "openGraph": {
           "title": "Premium | WalkQuest",
           "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "imageAlt": "WalkQuest Premium routes, passport stamps and travel rewards",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3192,7 +3192,7 @@
           "card": "summary_large_image",
           "title": "Premium | WalkQuest",
           "description": "Compare recursos gratuitos e Premium WalkQuest, rotas, jogos sem anúncios, temas, estatísticas, certificados e transferências incluídas.",
-          "image": "https://walkquest.site/assets/premium-hero.png",
+          "image": "https://walkquest.site/assets/premium-hero.webp",
           "url": "https://walkquest.site/pt-br/premium.html"
         },
         "structuredData": [],

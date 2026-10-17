@@ -117,7 +117,7 @@
         "openGraph": {
           "title": "WalkQuest Walking Game — Turn Steps Into Adventures",
           "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -130,7 +130,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest Walking Game — Turn Steps Into Adventures",
           "description": "Turn real Health Connect steps into virtual travel with WalkQuest, an Android walking game with routes, cities, passport stamps, missions, XP and rewards.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/"
         },
         "structuredData": [
@@ -149,7 +149,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -346,7 +346,7 @@
         "openGraph": {
           "title": "Перетвори кожну прогулянку на подорож. | WalkQuest",
           "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -359,7 +359,7 @@
           "card": "summary_large_image",
           "title": "Перетвори кожну прогулянку на подорож. | WalkQuest",
           "description": "WalkQuest перетворює реальні кроки з Health Connect на рух віртуальними маршрутами, містами й пам’ятками.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/uk/"
         },
         "structuredData": [
@@ -378,7 +378,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -575,7 +575,7 @@
         "openGraph": {
           "title": "Преврати каждую прогулку в путешествие. | WalkQuest",
           "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -588,7 +588,7 @@
           "card": "summary_large_image",
           "title": "Преврати каждую прогулку в путешествие. | WalkQuest",
           "description": "WalkQuest превращает реальные шаги из Health Connect в продвижение по виртуальным маршрутам, городам и достопримечательностям.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/ru/"
         },
         "structuredData": [
@@ -607,7 +607,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -804,7 +804,7 @@
         "openGraph": {
           "title": "Convierte cada paseo en un viaje. | WalkQuest",
           "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -817,7 +817,7 @@
           "card": "summary_large_image",
           "title": "Convierte cada paseo en un viaje. | WalkQuest",
           "description": "WalkQuest transforma tus pasos reales de Health Connect en progreso por rutas, ciudades y lugares virtuales.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/es/"
         },
         "structuredData": [
@@ -836,7 +836,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -1033,7 +1033,7 @@
         "openGraph": {
           "title": "Mach jeden Spaziergang zur Reise. | WalkQuest",
           "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1046,7 +1046,7 @@
           "card": "summary_large_image",
           "title": "Mach jeden Spaziergang zur Reise. | WalkQuest",
           "description": "WalkQuest verwandelt deine echten Schritte aus Health Connect in Fortschritt auf virtuellen Routen durch Städte und Sehenswürdigkeiten.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/de/"
         },
         "structuredData": [
@@ -1065,7 +1065,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -1262,7 +1262,7 @@
         "openGraph": {
           "title": "Transformez chaque marche en voyage. | WalkQuest",
           "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1275,7 +1275,7 @@
           "card": "summary_large_image",
           "title": "Transformez chaque marche en voyage. | WalkQuest",
           "description": "WalkQuest transforme vos pas réels de Health Connect en progression sur des itinéraires, villes et sites virtuels.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/fr/"
         },
         "structuredData": [
@@ -1294,7 +1294,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -1491,7 +1491,7 @@
         "openGraph": {
           "title": "Zmień każdy spacer w podróż. | WalkQuest",
           "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1504,7 +1504,7 @@
           "card": "summary_large_image",
           "title": "Zmień każdy spacer w podróż. | WalkQuest",
           "description": "WalkQuest zmienia prawdziwe kroki z Health Connect w postęp na wirtualnych trasach przez miasta i atrakcje.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/pl/"
         },
         "structuredData": [
@@ -1523,7 +1523,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -1720,7 +1720,7 @@
         "openGraph": {
           "title": "Transforma cada caminhada numa viagem. | WalkQuest",
           "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1733,7 +1733,7 @@
           "card": "summary_large_image",
           "title": "Transforma cada caminhada numa viagem. | WalkQuest",
           "description": "O WalkQuest transforma passos reais do Health Connect em progresso por rotas, cidades e locais virtuais.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/pt/"
         },
         "structuredData": [
@@ -1752,7 +1752,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -1949,7 +1949,7 @@
         "openGraph": {
           "title": "Trasforma ogni passeggiata in un viaggio. | WalkQuest",
           "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1962,7 +1962,7 @@
           "card": "summary_large_image",
           "title": "Trasforma ogni passeggiata in un viaggio. | WalkQuest",
           "description": "WalkQuest trasforma i passi reali di Health Connect in progressi lungo percorsi, città e luoghi virtuali.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/it/"
         },
         "structuredData": [
@@ -1981,7 +1981,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -2178,7 +2178,7 @@
         "openGraph": {
           "title": "Her yürüyüşü bir yolculuğa dönüştür. | WalkQuest",
           "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2191,7 +2191,7 @@
           "card": "summary_large_image",
           "title": "Her yürüyüşü bir yolculuğa dönüştür. | WalkQuest",
           "description": "WalkQuest, Health Connect’teki gerçek adımlarını sanal rotalarda, şehirlerde ve yerlerde ilerlemeye dönüştürür.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/tr/"
         },
         "structuredData": [
@@ -2210,7 +2210,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -2407,7 +2407,7 @@
         "openGraph": {
           "title": "いつもの散歩を、旅に変えよう。 | WalkQuest",
           "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2420,7 +2420,7 @@
           "card": "summary_large_image",
           "title": "いつもの散歩を、旅に変えよう。 | WalkQuest",
           "description": "WalkQuestはHealth Connectの実際の歩数を、バーチャルルートや都市、名所を進む力に変えます。",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/ja/"
         },
         "structuredData": [
@@ -2439,7 +2439,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -2636,7 +2636,7 @@
         "openGraph": {
           "title": "모든 산책을 여행으로 바꾸세요. | WalkQuest",
           "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2649,7 +2649,7 @@
           "card": "summary_large_image",
           "title": "모든 산책을 여행으로 바꾸세요. | WalkQuest",
           "description": "WalkQuest는 Health Connect의 실제 걸음을 가상 경로와 도시, 명소를 향한 진행으로 바꿉니다.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/ko/"
         },
         "structuredData": [
@@ -2668,7 +2668,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -2865,7 +2865,7 @@
         "openGraph": {
           "title": "让每次步行都成为一段旅程。 | WalkQuest",
           "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2878,7 +2878,7 @@
           "card": "summary_large_image",
           "title": "让每次步行都成为一段旅程。 | WalkQuest",
           "description": "WalkQuest 将 Health Connect 中的真实步数转化为虚拟路线、城市和地标上的进度。",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/zh-cn/"
         },
         "structuredData": [
@@ -2897,7 +2897,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -3094,7 +3094,7 @@
         "openGraph": {
           "title": "حوّل كل مشي إلى رحلة. | WalkQuest",
           "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3107,7 +3107,7 @@
           "card": "summary_large_image",
           "title": "حوّل كل مشي إلى رحلة. | WalkQuest",
           "description": "يحوّل WalkQuest خطواتك الحقيقية من Health Connect إلى تقدّم عبر مسارات ومدن ومعالم افتراضية.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/ar/"
         },
         "structuredData": [
@@ -3126,7 +3126,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -3323,7 +3323,7 @@
         "openGraph": {
           "title": "हर सैर को यात्रा बनाएँ। | WalkQuest",
           "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3336,7 +3336,7 @@
           "card": "summary_large_image",
           "title": "हर सैर को यात्रा बनाएँ। | WalkQuest",
           "description": "WalkQuest Health Connect के असली कदमों को वर्चुअल रास्तों, शहरों और स्थलों की प्रगति में बदलता है।",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/hi/"
         },
         "structuredData": [
@@ -3355,7 +3355,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",
@@ -3552,7 +3552,7 @@
         "openGraph": {
           "title": "Transforme cada caminhada em uma viagem. | WalkQuest",
           "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "imageAlt": "WalkQuest walking game turning real steps into virtual travel",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3565,7 +3565,7 @@
           "card": "summary_large_image",
           "title": "Transforme cada caminhada em uma viagem. | WalkQuest",
           "description": "O WalkQuest transforma seus passos reais do Health Connect em progresso por rotas, cidades e pontos turísticos virtuais.",
-          "image": "https://walkquest.site/assets/news-hero-v3.png",
+          "image": "https://walkquest.site/assets/news-hero-v3.webp",
           "url": "https://walkquest.site/pt-br/"
         },
         "structuredData": [
@@ -3584,7 +3584,7 @@
               "priceCurrency": "USD"
             },
             "installUrl": "https://play.google.com/store/apps/details?id=com.walkquest",
-            "image": "https://walkquest.site/assets/welcome-hero.png",
+            "image": "https://walkquest.site/assets/welcome-hero.webp",
             "publisher": {
               "@type": "Organization",
               "name": "Gold Digital Studio",

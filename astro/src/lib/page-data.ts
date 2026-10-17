@@ -5,6 +5,23 @@ import { alternateLinks, canonicalUrl, openGraphLocale } from "./site";
 const pageDataRoot = path.resolve("src/data/pages");
 const routeDataRoot = path.resolve("src/data/routes");
 const cache = new Map<string, { slug: string; locales: Record<string, PageData> }>();
+const legacyImageDimensions: Record<string, { width: string; height: string }> = {
+  "around-the-world-lite-panorama.webp": { width: "1279", height: "720" },
+  "article-europe.webp": { width: "1279", height: "720" },
+  "article-health-connect.webp": { width: "1279", height: "720" },
+  "article-release.webp": { width: "1279", height: "720" },
+  "article-sharing.webp": { width: "1279", height: "720" },
+  "europe-explorer-panorama.webp": { width: "1279", height: "720" },
+  "greek-islands-odyssey-panorama.webp": { width: "1279", height: "720" },
+  "guide-hero.webp": { width: "1279", height: "720" },
+  "iceland-ring-road-panorama.webp": { width: "1279", height: "720" },
+  "kyoto-autumn-temples-panorama.webp": { width: "1279", height: "720" },
+  "news-hero-v3.webp": { width: "1279", height: "720" },
+  "premium-hero.webp": { width: "1279", height: "720" },
+  "route-66-usa-panorama.webp": { width: "1280", height: "512" },
+  "routes-hero.webp": { width: "1279", height: "720" },
+  "welcome-hero.webp": { width: "720", height: "720" },
+};
 
 export interface HeadData {
   charset: string;
@@ -115,6 +132,8 @@ export interface PageData {
 
 export function normalizePageSeo(page: PageData): PageData {
   const canonical = canonicalUrl(page.relativePath);
+  const imageName = page.head.openGraph.image.split("/").at(-1) ?? "";
+  const imageDimensions = legacyImageDimensions[imageName];
   return {
     ...page,
     head: {
@@ -125,6 +144,7 @@ export function normalizePageSeo(page: PageData): PageData {
         ...page.head.openGraph,
         url: canonical,
         locale: openGraphLocale(page.lang),
+        ...(imageDimensions ? { imageWidth: imageDimensions.width, imageHeight: imageDimensions.height } : {}),
       },
       twitter: {
         ...page.head.twitter,
@@ -144,10 +164,14 @@ export function getPageData(relativePath: string): PageData {
   const locale = parts.length === 1 ? "en" : parts[0];
   let data = cache.get(slug);
   if (!data) {
-    data = JSON.parse(fs.readFileSync(path.join(pageDataRoot, `${slug}.json`), "utf8"));
+    const pageFile = path.join(pageDataRoot, `${slug}.json`);
+    const routeFile = path.join(routeDataRoot, `${slug}.json`);
+    const dataFile = fs.existsSync(pageFile) ? pageFile : routeFile;
+    data = JSON.parse(fs.readFileSync(dataFile, "utf8"));
     cache.set(slug, data!);
   }
-  const page = data?.locales[locale];
+  const localized = data?.locales[locale] as PageData | { page: PageData } | undefined;
+  const page = localized && "page" in localized ? localized.page : localized;
   if (!page) throw new Error(`Missing structured page data for ${relativePath}`);
   return normalizePageSeo(page);
 }

@@ -1,3 +1,4 @@
+html{overflow-x:clip}body{overflow-wrap:break-word}img,svg{max-width:100%}h1,h2,h3,h4{hyphens:auto;text-wrap:balance}
 .info-site{background:#f7faf7}
 .info-site .site-header{position:relative;background:rgba(251,253,249,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(18px)}
 .info-site .desktop-nav{gap:22px}

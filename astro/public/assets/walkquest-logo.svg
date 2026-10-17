@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">WalkQuest</title>
+  <rect width="512" height="512" rx="128" fill="#082f36"/>
+  <path d="M128 344c80-152 176-56 256-200" fill="none" stroke="#ffd166" stroke-width="48" stroke-linecap="round" stroke-dasharray="16 80"/>
+  <circle cx="384" cy="144" r="56" fill="#ff6b4a"/>
+  <circle cx="128" cy="344" r="48" fill="#77dfb3"/>
+</svg>

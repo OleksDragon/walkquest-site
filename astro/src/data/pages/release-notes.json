@@ -122,7 +122,7 @@
         "openGraph": {
           "title": "WalkQuest Release Notes — Website and Game Updates",
           "description": "Discover the latest WalkQuest website and game updates, including multilingual guides, route stories, practical help and improvements for every traveller.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -135,7 +135,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest Release Notes — Website and Game Updates",
           "description": "Discover the latest WalkQuest website and game updates, including multilingual guides, route stories, practical help and improvements for every traveller.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/release-notes.html"
         },
         "structuredData": [
@@ -144,7 +144,7 @@
             "@type": "Article",
             "headline": "WalkQuest Release Notes — Website and Game Updates",
             "description": "Discover the latest WalkQuest website and game updates, including multilingual guides, route stories, practical help and improvements for every traveller.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/release-notes.html",
@@ -182,7 +182,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -420,7 +420,7 @@
         "openGraph": {
           "title": "Інформація про оновлення | WalkQuest",
           "description": "Огляд нового багатомовного сайту WalkQuest і того, як він допомагає кожному мандрівнику знайти потрібну інформацію.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -433,7 +433,7 @@
           "card": "summary_large_image",
           "title": "Інформація про оновлення | WalkQuest",
           "description": "Огляд нового багатомовного сайту WalkQuest і того, як він допомагає кожному мандрівнику знайти потрібну інформацію.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/uk/release-notes.html"
         },
         "structuredData": [
@@ -442,7 +442,7 @@
             "@type": "Article",
             "headline": "Інформація про оновлення | WalkQuest",
             "description": "Огляд нового багатомовного сайту WalkQuest і того, як він допомагає кожному мандрівнику знайти потрібну інформацію.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/uk/release-notes.html",
@@ -480,7 +480,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -718,7 +718,7 @@
         "openGraph": {
           "title": "Информация об обновлении | WalkQuest",
           "description": "Обзор нового многоязычного сайта WalkQuest и того, как он помогает каждому путешественнику найти нужную информацию.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -731,7 +731,7 @@
           "card": "summary_large_image",
           "title": "Информация об обновлении | WalkQuest",
           "description": "Обзор нового многоязычного сайта WalkQuest и того, как он помогает каждому путешественнику найти нужную информацию.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/ru/release-notes.html"
         },
         "structuredData": [
@@ -740,7 +740,7 @@
             "@type": "Article",
             "headline": "Информация об обновлении | WalkQuest",
             "description": "Обзор нового многоязычного сайта WalkQuest и того, как он помогает каждому путешественнику найти нужную информацию.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ru/release-notes.html",
@@ -778,7 +778,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -1016,7 +1016,7 @@
         "openGraph": {
           "title": "Notas de la versión | WalkQuest",
           "description": "Un vistazo al nuevo sitio web multilingüe de WalkQuest y a cómo ayuda a cada viajero a encontrar la información adecuada.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1029,7 +1029,7 @@
           "card": "summary_large_image",
           "title": "Notas de la versión | WalkQuest",
           "description": "Un vistazo al nuevo sitio web multilingüe de WalkQuest y a cómo ayuda a cada viajero a encontrar la información adecuada.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/es/release-notes.html"
         },
         "structuredData": [
@@ -1038,7 +1038,7 @@
             "@type": "Article",
             "headline": "Notas de la versión | WalkQuest",
             "description": "Un vistazo al nuevo sitio web multilingüe de WalkQuest y a cómo ayuda a cada viajero a encontrar la información adecuada.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/es/release-notes.html",
@@ -1076,7 +1076,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -1314,7 +1314,7 @@
         "openGraph": {
           "title": "Versionshinweise | WalkQuest",
           "description": "Ein Blick auf die neue, mehrsprachige WalkQuest-Website und wie sie Reisenden hilft, die passenden Informationen zu finden.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1327,7 +1327,7 @@
           "card": "summary_large_image",
           "title": "Versionshinweise | WalkQuest",
           "description": "Ein Blick auf die neue, mehrsprachige WalkQuest-Website und wie sie Reisenden hilft, die passenden Informationen zu finden.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/de/release-notes.html"
         },
         "structuredData": [
@@ -1336,7 +1336,7 @@
             "@type": "Article",
             "headline": "Versionshinweise | WalkQuest",
             "description": "Ein Blick auf die neue, mehrsprachige WalkQuest-Website und wie sie Reisenden hilft, die passenden Informationen zu finden.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/de/release-notes.html",
@@ -1374,7 +1374,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -1612,7 +1612,7 @@
         "openGraph": {
           "title": "Notes de mise à jour | WalkQuest",
           "description": "Zoom sur le nouveau site multilingue de WalkQuest et la façon dont il aide chaque voyageur à trouver les bonnes informations.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1625,7 +1625,7 @@
           "card": "summary_large_image",
           "title": "Notes de mise à jour | WalkQuest",
           "description": "Zoom sur le nouveau site multilingue de WalkQuest et la façon dont il aide chaque voyageur à trouver les bonnes informations.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/fr/release-notes.html"
         },
         "structuredData": [
@@ -1634,7 +1634,7 @@
             "@type": "Article",
             "headline": "Notes de mise à jour | WalkQuest",
             "description": "Zoom sur le nouveau site multilingue de WalkQuest et la façon dont il aide chaque voyageur à trouver les bonnes informations.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/fr/release-notes.html",
@@ -1672,7 +1672,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -1910,7 +1910,7 @@
         "openGraph": {
           "title": "Informacje o aktualizacji | WalkQuest",
           "description": "Spójrz na nową, wielojęzyczną stronę WalkQuest i dowiedz się, jak pomaga ona każdemu podróżnikowi znaleźć potrzebne informacje.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -1923,7 +1923,7 @@
           "card": "summary_large_image",
           "title": "Informacje o aktualizacji | WalkQuest",
           "description": "Spójrz na nową, wielojęzyczną stronę WalkQuest i dowiedz się, jak pomaga ona każdemu podróżnikowi znaleźć potrzebne informacje.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/pl/release-notes.html"
         },
         "structuredData": [
@@ -1932,7 +1932,7 @@
             "@type": "Article",
             "headline": "Informacje o aktualizacji | WalkQuest",
             "description": "Spójrz na nową, wielojęzyczną stronę WalkQuest i dowiedz się, jak pomaga ona każdemu podróżnikowi znaleźć potrzebne informacje.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pl/release-notes.html",
@@ -1970,7 +1970,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -2208,7 +2208,7 @@
         "openGraph": {
           "title": "Notas de lançamento | WalkQuest",
           "description": "Uma vista de olhos ao novo site multilingue do WalkQuest e como ajuda todos os viajantes a encontrar as informações certas.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2221,7 +2221,7 @@
           "card": "summary_large_image",
           "title": "Notas de lançamento | WalkQuest",
           "description": "Uma vista de olhos ao novo site multilingue do WalkQuest e como ajuda todos os viajantes a encontrar as informações certas.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/pt/release-notes.html"
         },
         "structuredData": [
@@ -2230,7 +2230,7 @@
             "@type": "Article",
             "headline": "Notas de lançamento | WalkQuest",
             "description": "Uma vista de olhos ao novo site multilingue do WalkQuest e como ajuda todos os viajantes a encontrar as informações certas.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pt/release-notes.html",
@@ -2268,7 +2268,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -2506,7 +2506,7 @@
         "openGraph": {
           "title": "Note di rilascio | WalkQuest",
           "description": "Uno sguardo al nuovo sito multilingue di WalkQuest e a come aiuta ogni viaggiatore a trovare le informazioni giuste.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2519,7 +2519,7 @@
           "card": "summary_large_image",
           "title": "Note di rilascio | WalkQuest",
           "description": "Uno sguardo al nuovo sito multilingue di WalkQuest e a come aiuta ogni viaggiatore a trovare le informazioni giuste.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/it/release-notes.html"
         },
         "structuredData": [
@@ -2528,7 +2528,7 @@
             "@type": "Article",
             "headline": "Note di rilascio | WalkQuest",
             "description": "Uno sguardo al nuovo sito multilingue di WalkQuest e a come aiuta ogni viaggiatore a trovare le informazioni giuste.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/it/release-notes.html",
@@ -2566,7 +2566,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -2804,7 +2804,7 @@
         "openGraph": {
           "title": "Sürüm notları | WalkQuest",
           "description": "Yeni ve çok dilli WalkQuest web sitesine ve her gezginin doğru bilgiyi bulmasına nasıl yardımcı olduğuna bir bakış.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -2817,7 +2817,7 @@
           "card": "summary_large_image",
           "title": "Sürüm notları | WalkQuest",
           "description": "Yeni ve çok dilli WalkQuest web sitesine ve her gezginin doğru bilgiyi bulmasına nasıl yardımcı olduğuna bir bakış.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/tr/release-notes.html"
         },
         "structuredData": [
@@ -2826,7 +2826,7 @@
             "@type": "Article",
             "headline": "Sürüm notları | WalkQuest",
             "description": "Yeni ve çok dilli WalkQuest web sitesine ve her gezginin doğru bilgiyi bulmasına nasıl yardımcı olduğuna bir bakış.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/tr/release-notes.html",
@@ -2864,7 +2864,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -3102,7 +3102,7 @@
         "openGraph": {
           "title": "リリースノート | WalkQuest",
           "description": "新しくなった多言語対応WalkQuestウェブサイトと、すべての旅行者が適切な情報を見つけるための工夫をご紹介します。",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3115,7 +3115,7 @@
           "card": "summary_large_image",
           "title": "リリースノート | WalkQuest",
           "description": "新しくなった多言語対応WalkQuestウェブサイトと、すべての旅行者が適切な情報を見つけるための工夫をご紹介します。",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/ja/release-notes.html"
         },
         "structuredData": [
@@ -3124,7 +3124,7 @@
             "@type": "Article",
             "headline": "リリースノート | WalkQuest",
             "description": "新しくなった多言語対応WalkQuestウェブサイトと、すべての旅行者が適切な情報を見つけるための工夫をご紹介します。",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ja/release-notes.html",
@@ -3162,7 +3162,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -3400,7 +3400,7 @@
         "openGraph": {
           "title": "릴리스 노트 | WalkQuest",
           "description": "새로운 다국어 WalkQuest 웹사이트 소개 및 모든 여행자가 필요한 정보를 쉽게 찾는 방법.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3413,7 +3413,7 @@
           "card": "summary_large_image",
           "title": "릴리스 노트 | WalkQuest",
           "description": "새로운 다국어 WalkQuest 웹사이트 소개 및 모든 여행자가 필요한 정보를 쉽게 찾는 방법.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/ko/release-notes.html"
         },
         "structuredData": [
@@ -3422,7 +3422,7 @@
             "@type": "Article",
             "headline": "릴리스 노트 | WalkQuest",
             "description": "새로운 다국어 WalkQuest 웹사이트 소개 및 모든 여행자가 필요한 정보를 쉽게 찾는 방법.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ko/release-notes.html",
@@ -3460,7 +3460,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -3698,7 +3698,7 @@
         "openGraph": {
           "title": "版本说明 | WalkQuest",
           "description": "探索全新的 WalkQuest 多语言网站，了解它如何帮助每位旅行者快速找到所需信息。",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -3711,7 +3711,7 @@
           "card": "summary_large_image",
           "title": "版本说明 | WalkQuest",
           "description": "探索全新的 WalkQuest 多语言网站，了解它如何帮助每位旅行者快速找到所需信息。",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/zh-cn/release-notes.html"
         },
         "structuredData": [
@@ -3720,7 +3720,7 @@
             "@type": "Article",
             "headline": "版本说明 | WalkQuest",
             "description": "探索全新的 WalkQuest 多语言网站，了解它如何帮助每位旅行者快速找到所需信息。",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/zh-cn/release-notes.html",
@@ -3758,7 +3758,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -3996,7 +3996,7 @@
         "openGraph": {
           "title": "ملاحظات الإصدار | WalkQuest",
           "description": "نظرة على موقع WalkQuest الجديد متعدد اللغات وكيف يساعد كل مسافر في العثور على المعلومات المناسبة.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4009,7 +4009,7 @@
           "card": "summary_large_image",
           "title": "ملاحظات الإصدار | WalkQuest",
           "description": "نظرة على موقع WalkQuest الجديد متعدد اللغات وكيف يساعد كل مسافر في العثور على المعلومات المناسبة.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/ar/release-notes.html"
         },
         "structuredData": [
@@ -4018,7 +4018,7 @@
             "@type": "Article",
             "headline": "ملاحظات الإصدار | WalkQuest",
             "description": "نظرة على موقع WalkQuest الجديد متعدد اللغات وكيف يساعد كل مسافر في العثور على المعلومات المناسبة.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/ar/release-notes.html",
@@ -4056,7 +4056,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -4294,7 +4294,7 @@
         "openGraph": {
           "title": "रिलीज़ नोट्स | WalkQuest",
           "description": "नई मल्टीलिंगुअल WalkQuest वेबसाइट पर एक नज़र और यह कैसे हर यात्री को सही जानकारी खोजने में मदद करती है।",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4307,7 +4307,7 @@
           "card": "summary_large_image",
           "title": "रिलीज़ नोट्स | WalkQuest",
           "description": "नई मल्टीलिंगुअल WalkQuest वेबसाइट पर एक नज़र और यह कैसे हर यात्री को सही जानकारी खोजने में मदद करती है।",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/hi/release-notes.html"
         },
         "structuredData": [
@@ -4316,7 +4316,7 @@
             "@type": "Article",
             "headline": "रिलीज़ नोट्स | WalkQuest",
             "description": "नई मल्टीलिंगुअल WalkQuest वेबसाइट पर एक नज़र और यह कैसे हर यात्री को सही जानकारी खोजने में मदद करती है।",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/hi/release-notes.html",
@@ -4354,7 +4354,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [
@@ -4592,7 +4592,7 @@
         "openGraph": {
           "title": "Notas da atualização | WalkQuest",
           "description": "Conheça o novo site multilíngue do WalkQuest e veja como ele ajuda cada viajante a encontrar as informações certas.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "imageAlt": "WalkQuest release notes and multilingual travel guides",
           "imageWidth": "1672",
           "imageHeight": "941",
@@ -4605,7 +4605,7 @@
           "card": "summary_large_image",
           "title": "Notas da atualização | WalkQuest",
           "description": "Conheça o novo site multilíngue do WalkQuest e veja como ele ajuda cada viajante a encontrar as informações certas.",
-          "image": "https://walkquest.site/assets/article-release.png",
+          "image": "https://walkquest.site/assets/article-release.webp",
           "url": "https://walkquest.site/pt-br/release-notes.html"
         },
         "structuredData": [
@@ -4614,7 +4614,7 @@
             "@type": "Article",
             "headline": "Notas da atualização | WalkQuest",
             "description": "Conheça o novo site multilíngue do WalkQuest e veja como ele ajuda cada viajante a encontrar as informações certas.",
-            "image": "https://walkquest.site/assets/article-release.png",
+            "image": "https://walkquest.site/assets/article-release.webp",
             "datePublished": "2026-10-01",
             "dateModified": "2026-10-03",
             "mainEntityOfPage": "https://walkquest.site/pt-br/release-notes.html",
@@ -4652,7 +4652,7 @@
           "date": "releaseDate",
           "readTime": "releaseReadTime",
           "dateTime": "2026-10-01",
-          "image": "article-release.png",
+          "image": "article-release.webp",
           "alt": "releaseHeroAlt"
         },
         "blocks": [

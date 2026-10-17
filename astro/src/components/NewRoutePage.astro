@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GooglePlayButton from "./GooglePlayButton.astro";
-import { labelsFor, localizedRoutePath, newRoutes, type LandmarkType, type RouteData, type RouteTranslation } from "../data/new-routes";
+import { labelsFor, localizedRoutePath, newRoutes, type RouteData, type RouteTranslation } from "../data/new-routes";
 import type { Language } from "../lib/site";
 import type { PageData } from "../lib/page-data";
 
@@ -11,7 +11,6 @@ const t: RouteTranslation = route.translations[language.code];
 const labels = labelsFor(language.code);
 const regionalRelated = newRoutes.filter((item) => item.region === route.region && item.slug !== route.slug);
 const related = [...regionalRelated, ...newRoutes.filter((item) => item.region !== route.region && item.slug !== route.slug)].slice(0, 3);
-const landmarks = Object.entries(Object.groupBy(route.landmarks.map((item, index) => ({ ...item, index })), (item) => item.type)) as Array<[LandmarkType, Array<RouteData["landmarks"][number] & { index: number }>]>;
 const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`;
 ---
 
@@ -52,7 +51,7 @@ const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/r
 
         <section id="cities" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.route}</span><h2>{labels.cities}</h2></div><div class="route-city-grid modern-city-grid">{route.cities.map((city, index) => <article class="route-city-card"><div class="route-city-number">{String(index + 1).padStart(2, "0")}</div><span class="route-city-km">{city.km.toLocaleString(language.code)} km</span><h3>{city.name}</h3><p class="route-city-country">{city.country}</p><p>{t.cityDescriptions[index]}</p></article>)}</div></section>
 
-        <section id="landmarks" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.explore}</span><h2>{labels.landmarks}</h2></div>{landmarks.map(([type, items]) => <div class="landmark-group"><h3>{labels.categoryText[type]}</h3><div class="landmark-grid">{items!.map((item) => <article><span aria-hidden="true">{type === "natural" ? "🌿" : type === "religious" ? "✦" : type === "historical" ? "🏛️" : "🎨"}</span><h4>{item.name}</h4><p>{t.landmarkDescriptions[item.index]}</p></article>)}</div></div>)}</section>
+        <section id="landmarks" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.explore}</span><h2>{labels.landmarks}</h2></div><div class="landmark-grid route-landmark-grid">{route.landmarks.map((item, index) => <article><span class="landmark-type-badge">{labels.categoryText[item.type]}</span><span class="landmark-icon" aria-hidden="true">{item.type === "natural" ? "🌿" : item.type === "religious" ? "✦" : item.type === "historical" ? "🏛️" : "🎨"}</span><h4>{item.name}</h4><p>{t.landmarkDescriptions[index]}</p></article>)}</div></section>
 
         <section id="sources" class="route-sources"><h2>{labels.sources}</h2><ul>{route.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a></li>)}</ul><p>{labels.imageCredit}</p></section>
 

@@ -314,6 +314,47 @@ const categoryLabels: Record<string, Record<LandmarkType, string>> = {
   en: { religious: "Religious", historical: "Historical", natural: "Natural", cultural: "Cultural" }, uk: { religious: "Релігійні", historical: "Історичні", natural: "Природні", cultural: "Культурні" }, ru: { religious: "Религиозные", historical: "Исторические", natural: "Природные", cultural: "Культурные" }, es: { religious: "Religiosos", historical: "Históricos", natural: "Naturales", cultural: "Culturales" }, de: { religious: "Religiös", historical: "Historisch", natural: "Natur", cultural: "Kultur" }, fr: { religious: "Religieux", historical: "Historiques", natural: "Naturels", cultural: "Culturels" }, pl: { religious: "Religijne", historical: "Historyczne", natural: "Przyrodnicze", cultural: "Kulturowe" }, pt: { religious: "Religiosos", historical: "Históricos", natural: "Naturais", cultural: "Culturais" }, "pt-BR": { religious: "Religiosos", historical: "Históricos", natural: "Naturais", cultural: "Culturais" }, it: { religious: "Religiosi", historical: "Storici", natural: "Naturali", cultural: "Culturali" }, tr: { religious: "Dini", historical: "Tarihî", natural: "Doğal", cultural: "Kültürel" }, ja: { religious: "宗教", historical: "歴史", natural: "自然", cultural: "文化" }, ko: { religious: "종교", historical: "역사", natural: "자연", cultural: "문화" }, "zh-CN": { religious: "宗教", historical: "历史", natural: "自然", cultural: "文化" }, ar: { religious: "دينية", historical: "تاريخية", natural: "طبيعية", cultural: "ثقافية" }, hi: { religious: "धार्मिक", historical: "ऐतिहासिक", natural: "प्राकृतिक", cultural: "सांस्कृतिक" }
 };
 
+type CityContext = (city: string, country: string, km: number, route: string, previous: string, next: string, landmark: string, index: number, last: boolean) => string;
+type LandmarkContext = (name: string, type: string, route: string, city: string, index: number) => string;
+
+const cityContexts: Record<string, CityContext> = {
+  en: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} completes ${route} at kilometre ${km}, after the final approach from ${prev}.` : i === 0 ? `${c} opens ${route} in ${country}; the first chapter introduces ${landmark} before the journey turns toward ${next}.` : i % 2 ? `At kilometre ${km}, ${c} connects the ${prev} stage with the road toward ${next}, adding ${landmark} to the ${country} chapter.` : `${c} anchors kilometre ${km} of ${route}. From ${prev}, the story shifts to ${landmark} and continues toward ${next}.`,
+  uk: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} завершує маршрут «${route}» на позначці ${km} км після фінального переходу від ${prev}.` : i === 0 ? `${c} відкриває маршрут «${route}» у ${country}: перший розділ знайомить із ${landmark}, а далі шлях веде до ${next}.` : i % 2 ? `На ${km}-му кілометрі ${c} поєднує етап ${prev} із напрямком на ${next} та додає до місцевої історії ${landmark}.` : `${c} формує окремий розділ маршруту «${route}» на позначці ${km} км: після ${prev} у фокусі опиняється ${landmark}, а наступна ціль — ${next}.`,
+  ru: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} завершает маршрут «${route}» на отметке ${km} км после финального перехода от ${prev}.` : i === 0 ? `${c} открывает маршрут «${route}» в ${country}: первая глава знакомит с ${landmark}, затем путь ведёт к ${next}.` : i % 2 ? `На ${km}-м километре ${c} связывает этап ${prev} с направлением на ${next} и добавляет в местную историю ${landmark}.` : `${c} образует отдельную главу маршрута «${route}» на отметке ${km} км: после ${prev} в центре внимания ${landmark}, а следующая цель — ${next}.`,
+  es: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} completa ${route} en el kilómetro ${km}, tras la aproximación final desde ${prev}.` : i === 0 ? `${c} abre ${route} en ${country}; el primer capítulo presenta ${landmark} antes de avanzar hacia ${next}.` : i % 2 ? `En el kilómetro ${km}, ${c} enlaza la etapa de ${prev} con el camino a ${next} e incorpora ${landmark} al relato local.` : `${c} da forma a un capítulo propio de ${route} en el kilómetro ${km}: desde ${prev}, la atención pasa a ${landmark} y después a ${next}.`,
+  de: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} beendet ${route} bei Kilometer ${km} nach der letzten Etappe ab ${prev}.` : i === 0 ? `${c} eröffnet ${route} in ${country}; das erste Kapitel stellt ${landmark} vor, bevor es nach ${next} weitergeht.` : i % 2 ? `Bei Kilometer ${km} verbindet ${c} die Etappe von ${prev} mit dem Weg nach ${next} und nimmt ${landmark} in die lokale Geschichte auf.` : `${c} bildet bei Kilometer ${km} ein eigenes Kapitel von ${route}: Nach ${prev} rückt ${landmark} in den Mittelpunkt, danach folgt ${next}.`,
+  fr: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} achève ${route} au kilomètre ${km}, après l'approche finale depuis ${prev}.` : i === 0 ? `${c} ouvre ${route} en ${country} ; le premier chapitre présente ${landmark} avant de partir vers ${next}.` : i % 2 ? `Au kilomètre ${km}, ${c} relie l'étape de ${prev} à la route vers ${next} et inscrit ${landmark} dans le récit local.` : `${c} compose un chapitre distinct de ${route} au kilomètre ${km} : après ${prev}, ${landmark} précède la direction de ${next}.`,
+  pl: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} kończy trasę „${route}” na ${km}. kilometrze po finałowym odcinku z ${prev}.` : i === 0 ? `${c} otwiera trasę „${route}” w ${country}; pierwszy rozdział przedstawia ${landmark}, zanim droga ruszy ku ${next}.` : i % 2 ? `Na ${km}. kilometrze ${c} łączy etap ${prev} z drogą do ${next}, wprowadzając ${landmark} do lokalnej opowieści.` : `${c} tworzy osobny rozdział trasy „${route}” na ${km}. kilometrze: po ${prev} pojawia się ${landmark}, a dalej ${next}.`,
+  pt: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} conclui ${route} ao quilómetro ${km}, depois da aproximação final desde ${prev}.` : i === 0 ? `${c} abre ${route} em ${country}; o primeiro capítulo apresenta ${landmark} antes de seguir para ${next}.` : i % 2 ? `Ao quilómetro ${km}, ${c} liga a etapa de ${prev} ao caminho para ${next} e integra ${landmark} na história local.` : `${c} forma um capítulo próprio de ${route} ao quilómetro ${km}: depois de ${prev}, surge ${landmark} e a viagem continua para ${next}.`,
+  "pt-BR": (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} conclui ${route} no quilômetro ${km}, após a aproximação final desde ${prev}.` : i === 0 ? `${c} abre ${route} em ${country}; o primeiro capítulo apresenta ${landmark} antes de seguir para ${next}.` : i % 2 ? `No quilômetro ${km}, ${c} liga a etapa de ${prev} ao caminho para ${next} e integra ${landmark} à história local.` : `${c} forma um capítulo próprio de ${route} no quilômetro ${km}: depois de ${prev}, surge ${landmark} e a jornada continua para ${next}.`,
+  it: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c} conclude ${route} al chilometro ${km}, dopo l'avvicinamento finale da ${prev}.` : i === 0 ? `${c} apre ${route} in ${country}; il primo capitolo presenta ${landmark} prima di proseguire verso ${next}.` : i % 2 ? `Al chilometro ${km}, ${c} collega la tappa di ${prev} alla strada per ${next} e inserisce ${landmark} nel racconto locale.` : `${c} crea un capitolo distinto di ${route} al chilometro ${km}: dopo ${prev}, emerge ${landmark} e il viaggio continua verso ${next}.`,
+  tr: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c}, ${prev} üzerinden gelen son bölümün ardından ${route} rotasını ${km}. kilometrede tamamlar.` : i === 0 ? `${c}, ${country} içindeki ${route} yolculuğunu başlatır; ilk bölüm ${landmark} ile açılır ve ${next} yönüne ilerler.` : i % 2 ? `${km}. kilometredeki ${c}, ${prev} etabını ${next} yoluna bağlarken ${landmark} yerel öyküye katılır.` : `${c}, ${route} rotasının ${km}. kilometresinde ayrı bir bölüm oluşturur: ${prev} sonrasında ${landmark} öne çıkar, sırada ${next} vardır.`,
+  ja: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c}は${prev}からの最終区間を経て、${km}km地点で「${route}」を締めくくります。` : i === 0 ? `${c}から${country}の「${route}」が始まります。最初の章では${landmark}を紹介し、${next}へ進みます。` : i % 2 ? `${km}km地点の${c}は、${prev}の区間と${next}への道を結び、${landmark}を地域の物語に加えます。` : `${c}は「${route}」の${km}km地点を彩る一章です。${prev}の次に${landmark}へ注目し、${next}を目指します。`,
+  ko: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c}은(는) ${prev}에서 이어진 마지막 구간 끝, ${km}km 지점에서 ‘${route}’을(를) 완성합니다.` : i === 0 ? `${c}에서 ${country}의 ‘${route}’이(가) 시작됩니다. 첫 장은 ${landmark}을(를) 소개한 뒤 ${next}로 향합니다.` : i % 2 ? `${km}km 지점의 ${c}은(는) ${prev} 구간과 ${next}로 가는 길을 잇고, ${landmark}을(를) 지역 이야기 속에 담습니다.` : `${c}은(는) ‘${route}’ ${km}km 지점의 독립된 장입니다. ${prev} 다음에는 ${landmark}, 이어서 ${next}가 기다립니다.`,
+  "zh-CN": (c,country,km,route,prev,next,landmark,i,last) => last ? `${c}位于第${km}公里，在从${prev}而来的最后一段之后，为“${route}”画上句号。` : i === 0 ? `${c}开启${country}境内的“${route}”；首章介绍${landmark}，随后前往${next}。` : i % 2 ? `第${km}公里的${c}连接${prev}与通往${next}的路，并把${landmark}写入当地篇章。` : `${c}构成“${route}”第${km}公里的独立篇章：离开${prev}后聚焦${landmark}，再继续前往${next}。`,
+  ar: (c,country,km,route,prev,next,landmark,i,last) => last ? `تختتم ${c} مسار «${route}» عند الكيلومتر ${km} بعد المرحلة الأخيرة القادمة من ${prev}.` : i === 0 ? `تفتتح ${c} مسار «${route}» في ${country}؛ ويعرّف الفصل الأول بـ${landmark} قبل التوجه إلى ${next}.` : i % 2 ? `عند الكيلومتر ${km} تصل ${c} مرحلة ${prev} بالطريق نحو ${next}، وتضيف ${landmark} إلى الحكاية المحلية.` : `تشكل ${c} فصلاً مستقلاً من «${route}» عند الكيلومتر ${km}؛ فبعد ${prev} يبرز ${landmark} ثم تتجه الرحلة إلى ${next}.`,
+  hi: (c,country,km,route,prev,next,landmark,i,last) => last ? `${c}, ${prev} से आने वाले अंतिम चरण के बाद ${km} किमी पर “${route}” को पूरा करता है।` : i === 0 ? `${c}, ${country} में “${route}” की शुरुआत करता है; पहला अध्याय ${landmark} से परिचय कराकर ${next} की ओर बढ़ता है।` : i % 2 ? `${km} किमी पर ${c}, ${prev} के चरण को ${next} की राह से जोड़ता है और ${landmark} को स्थानीय कहानी में शामिल करता है।` : `${c}, “${route}” के ${km} किमी पड़ाव का स्वतंत्र अध्याय है: ${prev} के बाद ${landmark} सामने आता है और यात्रा ${next} की ओर बढ़ती है।`
+};
+
+const landmarkContexts: Record<string, LandmarkContext> = {
+  en: (n,t,r,c) => `${n} gives the ${c} chapter of ${r} its ${t.toLowerCase()} focus and unlocks the place's documented context.`,
+  uk: (n,t,r,c,i) => i % 2 ? `${n} поглиблює ${t.toLowerCase()} тему етапу ${c} на маршруті «${r}» та пояснює значення місця.` : `У розділі ${c} маршруту «${r}» пам’ятка ${n} відкриває перевірений ${t.toLowerCase()} контекст місцевості.`,
+  ru: (n,t,r,c,i) => i % 2 ? `${n} раскрывает ${t.toLowerCase()} тему этапа ${c} на маршруте «${r}» и объясняет значение места.` : `В главе ${c} маршрута «${r}» объект ${n} открывает проверенный ${t.toLowerCase()} контекст местности.`,
+  es: (n,t,r,c,i) => i % 2 ? `${n} profundiza en el tema ${t.toLowerCase()} de la etapa de ${c} en ${r} y explica la relevancia del lugar.` : `En el capítulo de ${c} de ${r}, ${n} abre un contexto ${t.toLowerCase()} documentado del destino.`,
+  de: (n,t,r,c,i) => i % 2 ? `${n} vertieft den ${t.toLowerCase()} geprägten Abschnitt ${c} von ${r} und erklärt die Bedeutung des Ortes.` : `Im Kapitel ${c} von ${r} eröffnet ${n} den belegten ${t.toLowerCase()} Kontext des Reiseziels.`,
+  fr: (n,t,r,c,i) => i % 2 ? `${n} approfondit le thème ${t.toLowerCase()} de l'étape de ${c} sur ${r} et éclaire l'importance du lieu.` : `Dans le chapitre de ${c} de ${r}, ${n} ouvre un contexte ${t.toLowerCase()} documenté de la destination.`,
+  pl: (n,t,r,c,i) => i % 2 ? `${n} rozwija ${t.toLowerCase()} temat etapu ${c} na trasie „${r}” i wyjaśnia znaczenie miejsca.` : `W rozdziale ${c} trasy „${r}” obiekt ${n} otwiera udokumentowany ${t.toLowerCase()} kontekst regionu.`,
+  pt: (n,t,r,c,i) => i % 2 ? `${n} aprofunda o tema ${t.toLowerCase()} da etapa de ${c} em ${r} e explica a importância do lugar.` : `No capítulo de ${c} de ${r}, ${n} abre um contexto ${t.toLowerCase()} documentado do destino.`,
+  "pt-BR": (n,t,r,c,i) => i % 2 ? `${n} aprofunda o tema ${t.toLowerCase()} da etapa de ${c} em ${r} e explica a importância do lugar.` : `No capítulo de ${c} de ${r}, ${n} abre um contexto ${t.toLowerCase()} documentado do destino.`,
+  it: (n,t,r,c,i) => i % 2 ? `${n} approfondisce il tema ${t.toLowerCase()} della tappa di ${c} in ${r} e chiarisce il valore del luogo.` : `Nel capitolo di ${c} di ${r}, ${n} apre un contesto ${t.toLowerCase()} documentato della destinazione.`,
+  tr: (n,t,r,c,i) => i % 2 ? `${n}, ${r} rotasındaki ${c} etabının ${t.toLowerCase()} temasını derinleştirir ve yerin önemini açıklar.` : `${r} rotasının ${c} bölümünde ${n}, bölgenin belgelenmiş ${t.toLowerCase()} bağlamını açar.`,
+  ja: (n,t,r,c,i) => i % 2 ? `${n}は「${r}」の${c}区間における${t}のテーマを深め、この場所の意味を伝えます。` : `「${r}」の${c}章では、${n}を通して目的地の記録された${t}背景を紹介します。`,
+  ko: (n,t,r,c,i) => i % 2 ? `${n}은(는) ‘${r}’의 ${c} 구간에서 ${t} 주제를 깊게 다루며 장소의 의미를 설명합니다.` : `‘${r}’의 ${c} 장에서는 ${n}을(를) 통해 목적지의 기록된 ${t} 맥락을 소개합니다.`,
+  "zh-CN": (n,t,r,c,i) => i % 2 ? `${n}深化“${r}”中${c}路段的${t}主题，并说明这处地点的意义。` : `在“${r}”的${c}篇章中，${n}呈现目的地有据可查的${t}背景。`,
+  ar: (n,t,r,c,i) => i % 2 ? `يعمّق ${n} الموضوع ${t} في مرحلة ${c} من «${r}» ويوضح أهمية المكان.` : `في فصل ${c} من «${r}» يقدّم ${n} سياقاً ${t} موثقاً للوجهة.`,
+  hi: (n,t,r,c,i) => i % 2 ? `${n}, “${r}” के ${c} चरण में ${t} विषय को गहराई देता है और स्थान का महत्व समझाता है।` : `“${r}” के ${c} अध्याय में ${n} गंतव्य का प्रमाणित ${t} संदर्भ प्रस्तुत करता है।`
+};
+
 const titleSuffix: Record<string, string> = { en: "Virtual Walking Route | WalkQuest", uk: "віртуальний маршрут | WalkQuest", ru: "виртуальный маршрут | WalkQuest", es: "ruta virtual | WalkQuest", de: "virtuelle Route | WalkQuest", fr: "parcours virtuel | WalkQuest", pl: "wirtualna trasa | WalkQuest", pt: "rota virtual | WalkQuest", "pt-BR": "rota virtual | WalkQuest", it: "percorso virtuale | WalkQuest", tr: "sanal rota | WalkQuest", ja: "バーチャル徒歩ルート | WalkQuest", ko: "가상 도보 경로 | WalkQuest", "zh-CN": "虚拟徒步路线 | WalkQuest", ar: "مسار مشي افتراضي | WalkQuest", hi: "आभासी पैदल मार्ग | WalkQuest" };
 
 function compactTitle(name: string, locale: string): string {
@@ -327,6 +368,15 @@ function metaDescription(name: string, distance: number, locale: string): string
     ? `Explore ${name}, a ${distance.toLocaleString("en")} km virtual walking route with real cities, landmarks and collectible stamps. Start your WalkQuest journey today.`
     : `${pack.explore} ${name}: ${pack.journey.toLowerCase()}, ${distance.toLocaleString(locale)} km. ${pack.cities}, ${pack.landmarks}, ${pack.stamps}. ${pack.open}.`;
   return raw.length > 160 ? `${raw.slice(0, 157).replace(/\s+\S*$/, "")}…` : raw;
+}
+
+function landmarkForCity(fact: RouteFact, cityIndex: number): LandmarkFact {
+  const cityName = fact.cities[cityIndex].name.toLocaleLowerCase("en");
+  const direct = fact.landmarks.find((landmark) => {
+    const landmarkName = landmark.name.toLocaleLowerCase("en");
+    return landmarkName.includes(cityName) || cityName.includes(landmarkName.split(/\s+/)[0]);
+  });
+  return direct ?? fact.landmarks[Math.min(fact.landmarks.length - 1, Math.floor(cityIndex * fact.landmarks.length / fact.cities.length))];
 }
 
 function buildTranslation(fact: RouteFact, language: Language, weeks: number): RouteTranslation {
@@ -352,8 +402,24 @@ function buildTranslation(fact: RouteFact, language: Language, weeks: number): R
       `${pack.cities}: ${fact.cities.slice(2, 6).map((item) => item.name).join(", ")}`,
       `${pack.stamps}: ${fact.stamps}`
     ],
-    cityDescriptions: fact.cities.map((item) => locale === "en" ? item.note : pack.cityNote(item.name, item.country, item.km)),
-    landmarkDescriptions: fact.landmarks.map((item) => locale === "en" ? item.note : pack.landmarkNote(item.name, categoryLabels[locale][item.type]))
+    cityDescriptions: fact.cities.map((item, index) => locale === "en" ? item.note : cityContexts[locale](
+      item.name,
+      item.country,
+      item.km,
+      name,
+      fact.cities[Math.max(0, index - 1)].name,
+      fact.cities[Math.min(fact.cities.length - 1, index + 1)].name,
+      landmarkForCity(fact, index).name,
+      index,
+      index === fact.cities.length - 1
+    )),
+    landmarkDescriptions: fact.landmarks.map((item, index) => locale === "en" ? item.note : landmarkContexts[locale](
+      item.name,
+      categoryLabels[locale][item.type],
+      name,
+      fact.cities[Math.min(fact.cities.length - 1, Math.round(index * (fact.cities.length - 1) / Math.max(1, fact.landmarks.length - 1)))].name,
+      index
+    ))
   };
 }
 

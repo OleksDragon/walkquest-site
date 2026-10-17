@@ -10,7 +10,7 @@ const { route, language, page } = Astro.props;
 const t: RouteTranslation = route.translations[language.code];
 const labels = labelsFor(language.code);
 const regionalRelated = newRoutes.filter((item) => item.region === route.region && item.slug !== route.slug);
-const related = [...regionalRelated, ...newRoutes.filter((item) => item.region !== route.region && item.slug !== route.slug)].slice(0, 4);
+const related = [...regionalRelated, ...newRoutes.filter((item) => item.region !== route.region && item.slug !== route.slug)].slice(0, 3);
 const landmarks = Object.entries(Object.groupBy(route.landmarks.map((item, index) => ({ ...item, index })), (item) => item.type)) as Array<[LandmarkType, Array<RouteData["landmarks"][number] & { index: number }>]>;
 const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`;
 ---

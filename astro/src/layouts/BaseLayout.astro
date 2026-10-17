@@ -12,6 +12,7 @@ interface Props {
 
 const { page } = Astro.props;
 const { head } = page;
+const stylesheets = [...new Set([...head.stylesheets.filter((href) => !href.includes("pages.css")), "/pages.css?v=6"])];
 const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringify(value).replaceAll("</script", "<\\/script");
 ---
 
@@ -29,7 +30,7 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
     {head.preconnects.map((connection) => (
       <link rel="preconnect" href={connection.href} crossorigin={connection.crossOrigin ? "anonymous" : undefined} />
     ))}
-    {head.stylesheets.map((href) => <link rel="stylesheet" href={href} />)}
+    {stylesheets.map((href) => <link rel="stylesheet" href={href} />)}
     <link rel="canonical" href={head.canonical} />
     {head.alternates.map((alternate) => <link rel="alternate" hreflang={alternate.lang} href={alternate.href} />)}
     <meta property="og:title" content={head.openGraph.title} />

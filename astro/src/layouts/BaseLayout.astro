@@ -13,6 +13,11 @@ interface Props {
 const { page } = Astro.props;
 const { head } = page;
 const stylesheets = [...new Set([...head.stylesheets.filter((href) => !href.includes("pages.css")), "/pages.css?v=6"])];
+const bodyScripts = page.bodyScripts.map((script) => {
+  if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
+  if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };
+  return script;
+});
 const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringify(value).replaceAll("</script", "<\\/script");
 ---
 
@@ -60,6 +65,6 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
     <slot />
     {page.chrome === "site" && <SiteFooter labels={page.labels} lang={page.lang} />}
     {page.chrome === "landing" && <LandingFooter labels={page.labels} />}
-    {page.bodyScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
+    {bodyScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
   </body>
 </html>

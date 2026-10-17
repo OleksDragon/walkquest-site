@@ -471,7 +471,10 @@ export function routePageData(route: RouteData, language: Language): PageData {
         { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: localePacks[language.code].home, item: `${siteUrl}${language.code === "en" ? "/" : `/${language.slug}/`}` }, { "@type": "ListItem", position: 2, name: localePacks[language.code].allRoutes, item: `${siteUrl}${language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`}` }, { "@type": "ListItem", position: 3, name: t.name, item: url }] },
         { "@context": "https://schema.org", "@type": "ImageObject", contentUrl: imageUrl, url: imageUrl, caption: t.alt, creditText: route.imageCredit, creator: { "@type": "Organization", name: "OpenAI" } }
       ], scripts: [], inlineStyles: []
-    }, chrome: "site", bodyScripts: [{ src: "/pages.js", defer: false }],
+    }, chrome: "site", bodyScripts: [
+      { src: "/pages-translations.js", defer: false },
+      { src: "/pages.js", defer: false }
+    ],
   };
 }
 

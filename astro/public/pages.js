@@ -21,6 +21,7 @@
   const description = document.querySelector('meta[name="description"]');
   const page = document.body.dataset.page || "guide";
   const navPage = document.body.dataset.navPage || page;
+  const isGeneratedRoute = document.body.classList.contains("new-route-site");
 
   languages.forEach(({ code, label }) => select.add(new Option(label, code)));
 
@@ -102,21 +103,26 @@
     });
   }
 
-  const isStaticLocalizedRoute = document.body.classList.contains("new-route-site");
-
   select.addEventListener("change", (event) => {
     const nextLanguage = event.target.value;
-    if (isStaticLocalizedRoute) {
-      localStorage.setItem("walkquest-language", nextLanguage);
-      window.location.assign(localizedPath(nextLanguage));
-      return;
-    }
-    applyLanguage(nextLanguage);
+    localStorage.setItem("walkquest-language", nextLanguage);
+    window.location.assign(localizedPath(nextLanguage));
   });
   document.getElementById("year").textContent = new Date().getFullYear();
   const detectedLanguage = detectLanguage();
-  if (isStaticLocalizedRoute && detectedLanguage !== (pathLanguage() || "en")) {
+  if (detectedLanguage !== (pathLanguage() || "en")) {
     window.location.replace(localizedPath(detectedLanguage));
+  } else if (isGeneratedRoute) {
+    const language = languages.find((item) => item.code === detectedLanguage) || languages[0];
+    document.documentElement.lang = language.code;
+    document.documentElement.dir = language.dir || "ltr";
+    select.value = language.code;
+    select.setAttribute("aria-label", translations[language.code]?.languageLabel || translations.en.languageLabel);
+    localStorage.setItem("walkquest-language", language.code);
+    document.querySelectorAll("[data-page-link]").forEach((link) => {
+      if (link.dataset.pageLink === navPage) link.setAttribute("aria-current", "page");
+      else link.removeAttribute("aria-current");
+    });
   } else {
     applyLanguage(detectedLanguage);
   }

@@ -1,10 +1,12 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { PageData } from "../lib/page-data";
+import { languageForCode, localizedRoutePath, newRoutes } from "../data/new-routes";
 
 interface Props { page: PageData; }
 const { page } = Astro.props;
 const c = page.routes!.copy;
+const language = languageForCode(page.lang);
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
 const featured = [
   ["europe-explorer", "🏙️", "Europe Explorer", "1,240 km", "routeEuropeTag", "routeEuropeDesc"],
@@ -22,7 +24,7 @@ const linkedRoutes = new Map([
   ["Greek Islands Odyssey", "greek-islands-odyssey"],
   ["Iceland Ring Road", "iceland-ring-road"],
 ]);
-const routeNames = ["Europe Explorer", "Italy Dream", "Japan Tour", "Route 66 USA", "Nordic Route", "Camino de Santiago", "Silk Road Journey", "Ancient Egypt", "Australia Coast", "Alps Journey", "Around Ukraine", "France Tour", "Spain Tour", "Great Britain Walk", "Turkey Journey", "Balkan Route", "South America Explorer", "Canada Route", "Thailand Journey", "Around the World Lite", "Kyiv Heritage & Legends", "Alpine Peaks & Castles", "Kyoto Autumn Temples", "Greek Islands Odyssey", "Iceland Ring Road", "Bali Tropical Trail", "Scandinavian Fjords & Coast", "Prague & Bohemian Castles", "Patagonia Wilderness", "Scottish Highlands & Lochs"];
+const legacyRoutes = [...linkedRoutes.entries()].map(([name, slug]) => ({ name, href: `./${slug}.html` }));
 ---
 
 <main id="main">
@@ -33,9 +35,10 @@ const routeNames = ["Europe Explorer", "Italy Dream", "Japan Tour", "Route 66 US
     {featured.map(([slug, emoji, name, distance, tag, description]) => <a class="route-feature route-feature-link" href={`./${slug}.html`} aria-label={`${name} route guide`}><div class="route-feature-top"><span>{emoji}</span><h3>{name}</h3></div><div class="route-feature-body"><div class="route-meta"><b>{distance}</b><b data-i18n={tag}>{c[tag]}</b></div><p data-i18n={description}>{c[description]}</p></div><span class="route-card-action">{name} →</span></a>)}
   </div></div></section>
 
-  <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="routesCatalogKicker">{c.routesCatalogKicker}</span><h2 data-i18n="routesCatalogTitle">{c.routesCatalogTitle}</h2><p class="section-intro" data-i18n="routesCatalogText">{c.routesCatalogText}</p></div><div class="route-cloud" aria-label="WalkQuest route names">
-    {routeNames.map((name) => linkedRoutes.has(name) ? <a href={`./${linkedRoutes.get(name)}.html`}>{name}</a> : <span>{name}</span>)}
-  </div></div></section>
+  <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="routesCatalogKicker">{c.routesCatalogKicker}</span><h2 data-i18n="routesCatalogTitle">{c.routesCatalogTitle}</h2><p class="section-intro" data-i18n="routesCatalogText">{c.routesCatalogText}</p></div>
+    <div class="route-cloud" aria-label="WalkQuest route names">{legacyRoutes.map((route) => <a href={route.href}>{route.name}</a>)}</div>
+    <div class="new-route-catalog">{newRoutes.map((route) => <a class="new-route-card" href={localizedRoutePath(route, language)}><img src={route.image} alt={route.translations[page.lang].alt} width="1200" height="630" loading="lazy" decoding="async" /><div><span>{route.region}</span><h3>{route.translations[page.lang].name}</h3><p>{route.distanceKm.toLocaleString(page.lang)} km · {route.weeks} {page.lang === "en" ? "weeks" : ""}</p></div></a>)}</div>
+  </div></section>
 
   <section class="page-section dark"><div class="shell map-explainer"><div><span class="section-kicker" data-i18n="routesHowKicker">{c.routesHowKicker}</span><h2 data-i18n="routesHowTitle">{c.routesHowTitle}</h2><p class="section-intro" data-i18n="routesHowText">{c.routesHowText}</p><ul class="check-list"><li data-i18n="routesHowPoint1">{c.routesHowPoint1}</li><li data-i18n="routesHowPoint2">{c.routesHowPoint2}</li><li data-i18n="routesHowPoint3">{c.routesHowPoint3}</li></ul></div><div class="mock-map" aria-hidden="true"><span class="mock-map-label">Europe Explorer</span><div class="mock-path"></div><span class="mock-pin one">🇬🇧</span><span class="mock-walker">🚶</span><span class="mock-pin two">🇫🇷</span><span class="mock-pin three">🇨🇿</span></div></div></section>
 

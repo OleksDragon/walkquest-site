@@ -11,6 +11,7 @@ export interface HeadData {
   title: string;
   description: string;
   robots: string;
+  imageCredit?: string;
   themeColor?: string;
   canonical: string;
   alternates: Array<{ lang: string; href: string }>;

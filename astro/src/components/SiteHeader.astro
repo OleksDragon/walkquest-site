@@ -1,23 +1,26 @@
 ---
 interface Props {
   labels: Record<string, string>;
+  lang: string;
 }
 
-const { labels } = Astro.props;
+const { labels, lang } = Astro.props;
+const localeSlug = lang === "zh-CN" ? "zh-cn" : lang === "pt-BR" ? "pt-br" : lang;
+const base = lang === "en" ? "" : `/${localeSlug}`;
 ---
 
 <header class="site-header">
   <div class="shell nav-wrap">
-    <a class="brand" href="./index.html" aria-label="WalkQuest home">
+    <a class="brand" href={`${base}/`} aria-label="WalkQuest home">
       <span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span>
     </a>
     <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="./index.html" data-page-link="home" data-i18n="navHome">{labels.navHome}</a>
-      <a href="./rules.html" data-page-link="guide" data-i18n="navGuide">{labels.navGuide}</a>
-      <a href="./routes.html" data-page-link="routes" data-i18n="navRoutes">{labels.navRoutes}</a>
-      <a href="./premium.html" data-page-link="premium" data-i18n="navPremium">{labels.navPremium}</a>
-      <a href="./news.html" data-page-link="news" data-i18n="navNews">{labels.navNews}</a>
-      <a href="./privacy.html" data-i18n="navPrivacy">{labels.navPrivacy}</a>
+      <a href={`${base}/`} data-page-link="home" data-i18n="navHome">{labels.navHome}</a>
+      <a href={`${base}/rules.html`} data-page-link="guide" data-i18n="navGuide">{labels.navGuide}</a>
+      <a href={`${base}/routes.html`} data-page-link="routes" data-i18n="navRoutes">{labels.navRoutes}</a>
+      <a href={`${base}/premium.html`} data-page-link="premium" data-i18n="navPremium">{labels.navPremium}</a>
+      <a href={`${base}/news.html`} data-page-link="news" data-i18n="navNews">{labels.navNews}</a>
+      <a href={`${base}/privacy.html`} data-i18n="navPrivacy">{labels.navPrivacy}</a>
     </nav>
     <label class="language-picker">
       <span class="sr-only" id="pageLanguageLabel" data-i18n="languageLabel">{labels.languageLabel}</span>

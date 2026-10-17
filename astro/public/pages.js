@@ -102,9 +102,24 @@
     });
   }
 
-  select.addEventListener("change", (event) => applyLanguage(event.target.value));
+  const isStaticLocalizedRoute = document.body.classList.contains("new-route-site");
+
+  select.addEventListener("change", (event) => {
+    const nextLanguage = event.target.value;
+    if (isStaticLocalizedRoute) {
+      localStorage.setItem("walkquest-language", nextLanguage);
+      window.location.assign(localizedPath(nextLanguage));
+      return;
+    }
+    applyLanguage(nextLanguage);
+  });
   document.getElementById("year").textContent = new Date().getFullYear();
-  applyLanguage(detectLanguage());
+  const detectedLanguage = detectLanguage();
+  if (isStaticLocalizedRoute && detectedLanguage !== (pathLanguage() || "en")) {
+    window.location.replace(localizedPath(detectedLanguage));
+  } else {
+    applyLanguage(detectedLanguage);
+  }
 
   window.WalkQuestPages = Object.freeze({ resolveLanguage, applyLanguage });
 })();

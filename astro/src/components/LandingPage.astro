@@ -1,11 +1,15 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { PageData } from "../lib/page-data";
+import { languageForCode, localizedRoutePath, newRoutes } from "../data/new-routes";
 
 interface Props { page: PageData; }
 const { page } = Astro.props;
 if (!page.landing) throw new Error(`Missing landing content for ${page.relativePath}`);
 const c = page.landing.copy;
+const language = languageForCode(page.lang);
+const featuredRouteSlugs = ["camino-de-santiago", "japan-tour", "patagonia-wilderness", "silk-road-journey", "italy-dream", "bali-tropical-trail"];
+const featuredRoutes = featuredRouteSlugs.map((slug) => newRoutes.find((route) => route.slug === slug)!);
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
 const proofItems = [
   ["proofRoutes", "proofRoutesText"],
@@ -65,6 +69,7 @@ const features = [
       <div class="route-stats"><div><span data-i18n="distanceWalked">{c.distanceWalked}</span><strong>31.6 km</strong></div><div><span data-i18n="streak">{c.streak}</span><strong>7 <small data-i18n="days">{c.days}</small></strong></div></div>
     </div>
   </div></section>
+  <section class="section landing-featured-routes"><div class="shell"><div class="section-heading compact"><span class="section-kicker">WalkQuest Routes</span><h2>{page.lang === "en" ? "Choose your next virtual journey" : c.journeyTitle}</h2></div><div class="landing-route-grid">{featuredRoutes.map((route) => <a href={localizedRoutePath(route, language)}><img src={route.image} width="1200" height="630" loading="lazy" decoding="async" alt={route.translations[page.lang].alt} /><div><span>{route.region}</span><h3>{route.translations[page.lang].name}</h3><small>{route.distanceKm.toLocaleString(page.lang)} km</small></div></a>)}</div></div></section>
   <section class="section features" id="features"><div class="shell">
     <div class="section-heading compact"><span class="section-kicker" data-i18n="featuresKicker">{c.featuresKicker}</span><h2 data-i18n="featuresTitle">{c.featuresTitle}</h2></div>
     <div class="feature-grid">{features.map(([icon, title, text]) => <article><span>{icon}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}</div>

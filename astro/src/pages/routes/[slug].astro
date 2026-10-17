@@ -1,0 +1,14 @@
+---
+import NewRoutePage from "../../components/NewRoutePage.astro";
+import { languages } from "../../lib/site";
+import { newRoutes, routePageData, type RouteData } from "../../data/new-routes";
+
+export function getStaticPaths() {
+  return newRoutes.map((route) => ({ params: { slug: route.slug }, props: { route } }));
+}
+
+const route = Astro.props.route as RouteData;
+const language = languages[0];
+const page = routePageData(route, language);
+---
+<NewRoutePage route={route} language={language} page={page} />

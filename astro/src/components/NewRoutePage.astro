@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import GooglePlayButton from "./GooglePlayButton.astro";
+import { labelsFor, localizedRoutePath, newRoutes, type LandmarkType, type RouteData, type RouteTranslation } from "../data/new-routes";
+import type { Language } from "../lib/site";
+import type { PageData } from "../lib/page-data";
+
+interface Props { route: RouteData; language: Language; page: PageData; }
+const { route, language, page } = Astro.props;
+const t: RouteTranslation = route.translations[language.code];
+const labels = labelsFor(language.code);
+const related = newRoutes.filter((item) => item.region === route.region && item.slug !== route.slug).slice(0, 4);
+const landmarks = Object.entries(Object.groupBy(route.landmarks.map((item, index) => ({ ...item, index })), (item) => item.type)) as Array<[LandmarkType, Array<RouteData["landmarks"][number] & { index: number }>]>;
+const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`;
+---
+
+<BaseLayout page={page}>
+  <main id="main">
+    <article class="modern-route">
+      <header class="article-hero route-detail-hero modern-route-hero">
+        <div class="shell article-hero-inner">
+          <nav class="route-breadcrumb" aria-label="Breadcrumb">
+            <a href={language.code === "en" ? "/" : `/${language.slug}/`}>{labels.home}</a><span>›</span><a href={routesUrl}>{labels.allRoutes}</a><span>›</span><span>{t.name}</span>
+          </nav>
+          <span class="news-tag">{labels.journey}</span>
+          <h1>{t.name}</h1>
+          <p class="article-lead">{labels.regionText[route.region]} · {route.countries.join(" · ")}</p>
+          <div class="route-hero-chips">
+            <span>{route.distanceKm.toLocaleString(language.code)} km</span><span>{labels.difficulty}: {labels.difficultyText[route.difficulty]}</span><span>{route.weeks} {labels.weeks}</span><span>{route.isFree ? labels.free : labels.premium}</span>
+          </div>
+          <figure class="modern-route-image"><img src={route.image} alt={t.alt} width="1200" height="630" fetchpriority="high" decoding="async" /><figcaption>{labels.imageCredit}</figcaption></figure>
+        </div>
+      </header>
+
+      <nav class="route-jump-nav" aria-label="Page sections"><div class="shell"><a href="#overview">{labels.route}</a><a href="#highlights">{labels.highlights}</a><a href="#cities">{labels.cities}</a><a href="#landmarks">{labels.landmarks}</a><a href="#sources">{labels.sources}</a></div></nav>
+
+      <div class="shell modern-route-layout">
+        <section id="overview" class="modern-route-intro">
+          <span class="section-kicker">{labels.explore} {labels.regionText[route.region]}</span>
+          {t.description.split(/(?<=\.)\s+(?=[A-ZА-ЯІЇЄҐÄÖÜÉÈÀÂÇÑÁÉÍÓÚĄĆĘŁŃÓŚŹŻА-ЯЁ一-龯ぁ-んァ-ン가-힣])/u).reduce<string[][]>((groups, sentence, index) => { const bucket = Math.min(2, Math.floor(index / Math.max(1, Math.ceil(t.description.split(". ").length / 3)))); (groups[bucket] ??= []).push(sentence); return groups; }, []).filter(Boolean).map((sentences) => <p>{sentences.join(" ")}</p>)}
+        </section>
+
+        <section class="modern-route-stats" aria-label={labels.stats}>
+          <div><strong>{route.distanceKm.toLocaleString(language.code)} km</strong><span>{labels.distance}</span></div>
+          <div><strong>{route.weeks}</strong><span>{labels.weeks}</span></div>
+          <div><strong>{route.stamps}</strong><span>{labels.stamps}</span></div>
+          <div><strong>{labels.difficultyText[route.difficulty]}</strong><span>{labels.difficulty}</span></div>
+        </section>
+
+        <section id="highlights" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.highlights}</span><h2>{labels.highlights}</h2></div><ul class="route-highlight-list">{t.highlights.map((highlight) => <li><span>✓</span><span>{highlight}</span></li>)}</ul></section>
+
+        <section id="cities" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.route}</span><h2>{labels.cities}</h2></div><div class="route-city-grid modern-city-grid">{route.cities.map((city, index) => <article class="route-city-card"><div class="route-city-number">{String(index + 1).padStart(2, "0")}</div><span class="route-city-km">{city.km.toLocaleString(language.code)} km</span><h3>{city.name}</h3><p class="route-city-country">{city.country}</p><p>{t.cityDescriptions[index]}</p></article>)}</div></section>
+
+        <section id="landmarks" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.explore}</span><h2>{labels.landmarks}</h2></div>{landmarks.map(([type, items]) => <div class="landmark-group"><h3>{labels.categoryText[type]}</h3><div class="landmark-grid">{items!.map((item) => <article><span aria-hidden="true">{type === "natural" ? "🌿" : type === "religious" ? "✦" : type === "historical" ? "🏛️" : "🎨"}</span><h4>{item.name}</h4><p>{t.landmarkDescriptions[item.index]}</p></article>)}</div></div>)}</section>
+
+        <section id="sources" class="route-sources"><h2>{labels.sources}</h2><ul>{route.sources.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a></li>)}</ul><p>{labels.imageCredit}</p></section>
+
+        <section class="modern-route-section related-routes"><div class="page-heading"><span class="section-kicker">WalkQuest</span><h2>{labels.related}</h2></div><div class="related-route-grid">{related.map((item) => <a href={localizedRoutePath(item, language)}><img src={item.image} alt={item.translations[language.code].alt} width="1200" height="630" loading="lazy" decoding="async" /><span>{item.translations[language.code].name}</span><small>{item.distanceKm.toLocaleString(language.code)} km</small></a>)}</div></section>
+      </div>
+
+      <section class="page-cta"><div class="shell page-cta-card"><div><span class="section-kicker light">WalkQuest</span><h2>{labels.open}</h2><p>{t.metaDescription}</p></div><GooglePlayButton label={labels.open} light /></div></section>
+    </article>
+  </main>
+</BaseLayout>

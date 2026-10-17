@@ -23,6 +23,7 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
     <title>{head.title}</title>
     <meta name="description" content={head.description} />
     <meta name="robots" content={head.robots} />
+    {head.imageCredit && <meta name="image-credit" content={head.imageCredit} />}
     {head.themeColor && <meta name="theme-color" content={head.themeColor} />}
     {head.icon && <link rel="icon" type={head.icon.type} href={head.icon.href} />}
     {head.preconnects.map((connection) => (
@@ -53,10 +54,10 @@ const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringi
   </head>
   <body {...page.bodyAttributes}>
     <a class="skip-link" href="#main">{page.labels.skipLink}</a>
-    {page.chrome === "site" && <SiteHeader labels={page.labels} />}
+    {page.chrome === "site" && <SiteHeader labels={page.labels} lang={page.lang} />}
     {page.chrome === "landing" && <LandingHeader labels={page.labels} />}
     <slot />
-    {page.chrome === "site" && <SiteFooter labels={page.labels} />}
+    {page.chrome === "site" && <SiteFooter labels={page.labels} lang={page.lang} />}
     {page.chrome === "landing" && <LandingFooter labels={page.labels} />}
     {page.bodyScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
   </body>

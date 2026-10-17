@@ -1,25 +1,32 @@
 ---
 interface Props {
   labels: Record<string, string>;
+  lang: string;
 }
 
-const { labels } = Astro.props;
+const { labels, lang } = Astro.props;
+const localeSlug = lang === "zh-CN" ? "zh-cn" : lang === "pt-BR" ? "pt-br" : lang;
+const base = lang === "en" ? "" : `/${localeSlug}`;
+const popular = [
+  ["Camino de Santiago", "camino-de-santiago"], ["Japan Tour", "japan-tour"], ["Patagonia Wilderness", "patagonia-wilderness"], ["Silk Road Journey", "silk-road-journey"], ["Italy Dream", "italy-dream"],
+] as const;
 ---
 
 <footer>
   <div class="shell footer-grid">
     <div>
-      <a class="brand footer-brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span></a>
+      <a class="brand footer-brand" href={`${base}/`}><span class="brand-mark" aria-hidden="true"><span></span></span><span>WalkQuest</span></a>
       <p data-i18n="footerTagline">{labels.footerTagline}</p>
     </div>
     <div class="footer-links">
-      <a href="./rules.html" data-i18n="navGuide">{labels.navGuide}</a>
-      <a href="./routes.html" data-i18n="navRoutes">{labels.navRoutes}</a>
-      <a href="./premium.html" data-i18n="navPremium">{labels.navPremium}</a>
-      <a href="./news.html" data-i18n="navNews">{labels.navNews}</a>
-      <a href="./privacy.html" data-i18n="navPrivacy">{labels.navPrivacy}</a>
+      <a href={`${base}/rules.html`} data-i18n="navGuide">{labels.navGuide}</a>
+      <a href={`${base}/routes.html`} data-i18n="navRoutes">{labels.navRoutes}</a>
+      <a href={`${base}/premium.html`} data-i18n="navPremium">{labels.navPremium}</a>
+      <a href={`${base}/news.html`} data-i18n="navNews">{labels.navNews}</a>
+      <a href={`${base}/privacy.html`} data-i18n="navPrivacy">{labels.navPrivacy}</a>
       <a href="https://play.google.com/store/apps/details?id=com.walkquest" target="_blank" rel="noopener noreferrer">Google Play</a>
     </div>
+    <div class="footer-route-links">{popular.map(([name, slug]) => <a href={`${base}/routes/${slug}.html`}>{name}</a>)}</div>
     <p class="copyright">© <span id="year"></span> WalkQuest. <span data-i18n="footerRights">{labels.footerRights}</span></p>
   </div>
 </footer>

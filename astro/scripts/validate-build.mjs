@@ -3,7 +3,9 @@ import path from "node:path";
 
 const root = path.resolve("dist");
 const errors = [];
-const routeSlugs = new Set(["europe-explorer", "kyoto-autumn-temples", "greek-islands-odyssey", "iceland-ring-road", "route-66-usa", "around-the-world-lite"]);
+const legacyRouteSlugs = ["europe-explorer", "kyoto-autumn-temples", "greek-islands-odyssey", "iceland-ring-road", "route-66-usa", "around-the-world-lite"];
+const newRouteSlugs = ["italy-dream", "japan-tour", "nordic-route", "camino-de-santiago", "silk-road-journey", "ancient-egypt", "australia-coast", "alps-journey", "around-ukraine", "france-tour", "spain-tour", "great-britain-walk", "turkey-journey", "balkan-route", "south-america-explorer", "canada-route", "thailand-journey", "kyiv-heritage-legends", "alpine-peaks-castles", "bali-tropical-trail", "scandinavian-fjords-coast", "prague-bohemian-castles", "patagonia-wilderness", "scottish-highlands-lochs"];
+const routeSlugs = new Set([...legacyRouteSlugs, ...newRouteSlugs]);
 const expectedLocales = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "it", "tr", "ja", "ko", "zh-cn", "ar", "hi", "pt-br"]);
 const expectedHreflang = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "pt-BR", "it", "tr", "ja", "ko", "zh-CN", "ar", "hi", "x-default"]);
 const expectedOgLocales = new Set(["en_US", "uk_UA", "ru_RU", "es_ES", "de_DE", "fr_FR", "pl_PL", "pt_PT", "pt_BR", "it_IT", "tr_TR", "ja_JP", "ko_KR", "zh_CN", "ar_SA", "hi_IN"]);
@@ -77,7 +79,7 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
 if (sourcePageCount !== 240) errors.push(`Expected 240 source page records, found ${sourcePageCount}.`);
 
 const pages = walk(root).filter((file) => file.endsWith(".html"));
-if (pages.length !== 240) errors.push(`Expected 240 HTML pages, found ${pages.length}.`);
+if (pages.length !== 624) errors.push(`Expected 624 HTML pages, found ${pages.length}.`);
 
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
@@ -118,14 +120,26 @@ for (const page of pages) {
     const completeIcons = [...html.matchAll(/M3\.9 35\.6l14\.2-8\.1/g)].length;
     if (routeCtas !== 1 || completeIcons !== 1) errors.push(`${relative}: route CTA is not using one complete shared Google Play icon.`);
   }
+  if (newRouteSlugs.includes(path.basename(page, ".html"))) {
+    for (const schemaType of ['"@type":"TouristTrip"', '"@type":"BreadcrumbList"', '"@type":"ImageObject"']) {
+      if (!html.includes(schemaType)) errors.push(`${relative}: missing ${schemaType} structured data.`);
+    }
+    if (!html.includes('<meta name="image-credit"')) errors.push(`${relative}: image credit meta is missing.`);
+    if (!html.includes('width="1200" height="630"')) errors.push(`${relative}: hero dimensions are missing.`);
+  }
 }
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapCount = [...sitemap.matchAll(/<url>/g)].length;
-if (sitemapCount !== 240) errors.push(`Expected 240 sitemap URLs, found ${sitemapCount}.`);
+if (sitemapCount !== 624) errors.push(`Expected 624 sitemap URLs, found ${sitemapCount}.`);
 if (!sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"')) errors.push("Sitemap xhtml namespace is missing.");
 const sitemapAlternates = [...sitemap.matchAll(/<xhtml:link rel="alternate" hreflang="([^"]+)" href="([^"]+)" \/>/g)];
-if (sitemapAlternates.length !== 240 * 17) errors.push(`Expected ${240 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
+if (sitemapAlternates.length !== 624 * 17) errors.push(`Expected ${624 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
+for (const slug of newRouteSlugs) {
+  const image = path.resolve("public", "images", "routes", `${slug}.webp`);
+  if (!fs.existsSync(image)) errors.push(`${slug}: hero image is missing.`);
+  else if (fs.statSync(image).size > 250 * 1024) errors.push(`${slug}: hero image exceeds 250 KB.`);
+}
 if (!fs.existsSync(path.join(root, "CNAME"))) errors.push("CNAME is missing.");
 if (!fs.existsSync(path.join(root, ".nojekyll"))) errors.push(".nojekyll is missing.");
 
@@ -134,4 +148,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Validated ${sourcePageCount} typed page records, ${pages.length} pages, ${sitemapCount} sitemap URLs, SEO metadata, RTL, local resources and Google Play links.`);
+console.log(`Validated ${sourcePageCount} legacy records plus ${newRouteSlugs.length * 16} generated route pages, ${pages.length} pages, ${sitemapCount} sitemap URLs, SEO metadata, schema, RTL, local resources and Google Play links.`);

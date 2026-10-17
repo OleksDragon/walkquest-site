@@ -1,37 +1,115 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { PageData } from "../lib/page-data";
+import { premiumExtras } from "../data/premium-details";
 
 interface Props { page: PageData; }
 const { page } = Astro.props;
 const c = page.premium!.copy;
+const x = premiumExtras(page.lang);
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
-const freeBenefits = ["free1", "free2", "free3", "free4"] as const;
-const premiumBenefits = ["plus1", "plus2", "plus3", "plus4", "plus5", "plus6"] as const;
-const purchases = [
+const freeBenefits = [x.starter, c.free3, c.free4];
+const premiumBenefits = [c.plus1, x.syncTitle, c.plus2, c.plus5, c.plus3, c.plus4, x.rewardsTitle];
+const featureCards = [
+  ["🗺️", c.plus1, c.premiumDesc],
+  ["👟", x.syncTitle, x.syncText],
+  ["◌", c.plus2, c.plusPrice],
+  ["⛴️", c.plus5, c.premiumCrossText],
+  ["⚡", c.plus6, c.premiumCrossText],
+  ["📊", c.plus3, c.plus3],
+  ["🏅", c.plus4, c.plus4],
+  ["🎡", x.rewardsTitle, x.rewardsText],
+] as const;
+const plans = [
   ["🗓️", "monthlyTitle", "monthlyText"],
   ["🌟", "yearlyTitle", "yearlyText"],
   ["♾️", "lifetimeTitle", "lifetimeText"],
-  ["🗺️", "individualTitle", "individualText"],
+] as const;
+const comparisonRows = [
+  [c.plus1, "10 km", "✓"],
+  [x.syncTitle, "—", "✓"],
+  [c.plus2, "—", "✓"],
+  [c.plus5, "—", "✓"],
+  [c.plus3, "—", "✓"],
+  [c.plus4, "—", "✓"],
+  [x.rewardsTitle, "—", "✓"],
+] as const;
+const tickets = [
+  ["🚆", x.train, "+5 km", "500 Travel Points"],
+  ["⛴️", c.premiumFerryTitle, "+15 km", "1,400 Travel Points"],
+  ["✈️", c.premiumFlightTitle, "+30 km", "2,600 Travel Points"],
+] as const;
+const faqItems = [
+  [c.monthlyTitle, c.monthlyText],
+  [c.yearlyTitle, c.yearlyText],
+  [c.lifetimeTitle, c.lifetimeText],
+  [c.premiumRestoreTitle, c.premiumRestoreText],
+  [c.premiumBillingTitle, c.premiumBillingText],
+  [x.ticketRuleTitle, x.ticketRuleText],
 ] as const;
 ---
 
-<main id="main">
-  <section class="page-hero"><div class="shell page-hero-grid">
-    <div class="page-hero-copy"><span class="section-kicker" data-i18n="premiumEyebrow">{c.premiumEyebrow}</span><h1 data-i18n="premiumTitle">{c.premiumTitle}</h1><p data-i18n="premiumDesc">{c.premiumDesc}</p><div class="page-hero-badges"><span data-i18n="premiumBadgeRoutes">{c.premiumBadgeRoutes}</span><span data-i18n="premiumBadgeAds">{c.premiumBadgeAds}</span><span data-i18n="premiumBadgeCrossings">{c.premiumBadgeCrossings}</span></div></div>
-    <div class="page-hero-media"><img src={`${assetPrefix}assets/premium-hero.webp`} width="1279" height="720" alt={c.premiumHeroAlt} data-i18n-alt="premiumHeroAlt" fetchpriority="high" decoding="async" /></div>
+<main id="main" class="premium-page">
+  <section class="page-hero premium-hero"><div class="shell page-hero-grid">
+    <div class="page-hero-copy">
+      <span class="section-kicker">{c.premiumEyebrow}</span>
+      <h1>{c.premiumTitle}</h1>
+      <p>{c.premiumDesc}</p>
+      <div class="page-hero-badges"><span>{c.premiumBadgeRoutes}</span><span>{c.premiumBadgeAds}</span><span>{c.premiumBadgeCrossings}</span></div>
+      <div class="premium-hero-action"><GooglePlayButton label={c.playSmall} /></div>
+    </div>
+    <div class="page-hero-media"><img src={`${assetPrefix}assets/premium-hero.webp`} width="1279" height="720" alt={c.premiumHeroAlt} fetchpriority="high" decoding="async" /></div>
   </div></section>
 
-  <section class="page-section"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="premiumCompareKicker">{c.premiumCompareKicker}</span><h2 data-i18n="premiumCompareTitle">{c.premiumCompareTitle}</h2><p class="section-intro" data-i18n="premiumCompareText">{c.premiumCompareText}</p></div><div class="compare-grid">
-    <article class="plan-card"><span class="plan-label" data-i18n="freeLabel">{c.freeLabel}</span><a class="inline-route-link" href="./europe-explorer.html">Europe Explorer →</a><h3 data-i18n="freeTitle">{c.freeTitle}</h3><p data-i18n="freePrice">{c.freePrice}</p><ul>{freeBenefits.map((key) => <li data-i18n={key}>{c[key]}</li>)}</ul></article>
-    <article class="plan-card featured"><span class="plan-label">Premium</span><h3 data-i18n="plusTitle">{c.plusTitle}</h3><p data-i18n="plusPrice">{c.plusPrice}</p><ul>{premiumBenefits.map((key) => <li data-i18n={key}>{c[key]}</li>)}</ul></article>
-  </div></div></section>
+  <section class="page-section"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker">{c.premiumCompareKicker}</span><h2>{c.premiumCompareTitle}</h2><p class="section-intro">{c.premiumCompareText}</p></div>
+    <div class="premium-feature-grid">
+      {featureCards.map(([icon, title, text]) => <article class="premium-feature-card"><span class="premium-feature-icon" aria-hidden="true">{icon}</span><h3>{title}</h3>{text !== title && <p>{text}</p>}</article>)}
+    </div>
+  </div></section>
 
-  <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="premiumPlansKicker">{c.premiumPlansKicker}</span><h2 data-i18n="premiumPlansTitle">{c.premiumPlansTitle}</h2><p class="section-intro" data-i18n="premiumPlansText">{c.premiumPlansText}</p></div><div class="purchase-grid">
-    {purchases.map(([emoji, title, text]) => <article class="purchase-card"><span>{emoji}</span><h3 data-i18n={title}>{c[title]}</h3><p data-i18n={text}>{c[text]}</p></article>)}
-  </div></div></section>
+  <section class="page-section soft"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker">{c.premiumCompareKicker}</span><h2>{c.freeTitle} / {c.plusTitle}</h2><p class="section-intro">{x.starter}</p></div>
+    <div class="premium-comparison" role="table" aria-label={`${c.freeTitle} / ${c.plusTitle}`}>
+      <div class="premium-comparison-head" role="row"><span role="columnheader"></span><strong role="columnheader">{c.freeTitle}</strong><strong role="columnheader">Premium</strong></div>
+      {comparisonRows.map(([label, free, premium]) => <div class="premium-comparison-row" role="row"><span role="cell">{label}</span><span role="cell" class="comparison-free">{free}</span><strong role="cell" class="comparison-premium">{premium}</strong></div>)}
+    </div>
+    <div class="compare-grid premium-summary-grid">
+      <article class="plan-card"><span class="plan-label">{c.freeLabel}</span><h3>{c.freeTitle}</h3><p>{c.freePrice}</p><ul>{freeBenefits.map((item) => <li>{item}</li>)}</ul></article>
+      <article class="plan-card featured"><span class="plan-label">Premium</span><h3>{c.plusTitle}</h3><p>{c.plusPrice}</p><ul>{premiumBenefits.map((item) => <li>{item}</li>)}</ul></article>
+    </div>
+  </div></section>
 
-  <section class="page-section dark"><div class="shell map-explainer"><div><span class="section-kicker" data-i18n="premiumCrossKicker">{c.premiumCrossKicker}</span><h2 data-i18n="premiumCrossTitle">{c.premiumCrossTitle}</h2><p class="section-intro" data-i18n="premiumCrossText">{c.premiumCrossText}</p><ul class="check-list"><li><span><strong data-i18n="premiumRestoreTitle">{c.premiumRestoreTitle}</strong> <span data-i18n="premiumRestoreText">{c.premiumRestoreText}</span></span></li><li><span><strong data-i18n="premiumBillingTitle">{c.premiumBillingTitle}</strong> <span data-i18n="premiumBillingText">{c.premiumBillingText}</span></span></li></ul></div><div class="transfer-grid" style="grid-template-columns:repeat(2,1fr)"><article class="transfer-card"><span>⛴️</span><h3 data-i18n="premiumFerryTitle">{c.premiumFerryTitle}</h3><p data-i18n="premiumFerryText">{c.premiumFerryText}</p></article><article class="transfer-card"><span>✈️</span><h3 data-i18n="premiumFlightTitle">{c.premiumFlightTitle}</h3><p data-i18n="premiumFlightText">{c.premiumFlightText}</p></article></div></div></section>
+  <section class="page-section"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker">{c.premiumPlansKicker}</span><h2>{c.premiumPlansTitle}</h2><p class="section-intro">{c.premiumPlansText}</p></div>
+    <div class="purchase-grid premium-plan-grid">
+      {plans.map(([emoji, title, text], index) => <article class:list={["purchase-card", { recommended: index === 1 }]}>{index === 1 && <span class="purchase-ribbon">★</span>}<span aria-hidden="true">{emoji}</span><h3>{c[title]}</h3><p>{c[text]}</p><div class="purchase-includes">{c.plus1}<br />{c.plus2}<br />{x.syncTitle}</div></article>)}
+    </div>
+  </div></section>
 
-  <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="premiumCtaTitle">{c.premiumCtaTitle}</h2><p data-i18n="premiumCtaText">{c.premiumCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
+  <section class="page-section dark premium-transport"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker">{c.premiumCrossKicker}</span><h2>{c.premiumCrossTitle}</h2><p class="section-intro">{c.premiumCrossText}</p></div>
+    <div class="premium-ticket-grid">
+      {tickets.map(([icon, title, distance, points]) => <article class="premium-ticket-card"><span aria-hidden="true">{icon}</span><h3>{title}</h3><strong>{distance}</strong><small>{points}</small></article>)}
+    </div>
+    <div class="premium-walking-rule"><span aria-hidden="true">👟</span><div><h3>{x.ticketRuleTitle}</h3><p>{x.ticketRuleText}</p></div></div>
+  </div></section>
+
+  <section class="page-section"><div class="shell">
+    <div class="page-heading center"><span class="section-kicker">Google Play</span><h2>{c.premiumPlansTitle}</h2><p class="section-intro">{c.premiumPlansText}</p></div>
+    <div class="premium-how-grid">
+      <article><span>1</span><h3>{c.premiumBillingTitle}</h3><p>{c.premiumBillingText}</p></article>
+      <article><span>2</span><h3>{c.premiumCtaTitle}</h3><p>{c.premiumCtaText}</p></article>
+      <article><span>3</span><h3>{c.premiumRestoreTitle}</h3><p>{c.premiumRestoreText}</p></article>
+    </div>
+  </div></section>
+
+  <section class="page-section soft"><div class="shell premium-faq-shell">
+    <div class="page-heading center"><span class="section-kicker">{x.faqKicker}</span><h2>{x.faqTitle}</h2></div>
+    <div class="premium-faq-list">
+      {faqItems.map(([question, answer], index) => <details open={index === 0}><summary>{question}<span aria-hidden="true">＋</span></summary><p>{answer}</p></details>)}
+    </div>
+  </div></section>
+
+  <section class="page-cta"><div class="shell page-cta-card"><div><h2>{c.premiumCtaTitle}</h2><p>{c.premiumCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
 </main>

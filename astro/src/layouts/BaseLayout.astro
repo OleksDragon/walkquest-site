@@ -12,7 +12,7 @@ interface Props {
 
 const { page } = Astro.props;
 const { head } = page;
-const stylesheets = [...new Set([...head.stylesheets.filter((href) => !href.includes("pages.css")), "/pages.css?v=9"])];
+const stylesheets = [...new Set([...head.stylesheets.filter((href) => !href.includes("pages.css")), "/pages.css?v=10"])];
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
   if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };

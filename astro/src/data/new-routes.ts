@@ -335,7 +335,7 @@ function buildTranslation(fact: RouteFact, language: Language, weeks: number): R
   const name = routeNameTranslations[fact.slug]?.[locale] ?? fact.name;
   const countryList = fact.countries.join(", ");
   const cityList = fact.cities.slice(0, 4).map((item) => item.name).join(", ");
-  const signature = fact.signature.slice(0, 3).join(", ");
+  const signature = fact.landmarks.slice(0, 3).map((item) => item.name).join(", ");
   const generated = pack.describe(name, fact.distanceKm, countryList, cityList, signature, weeks);
   const description = locale === "en" ? `${fact.story} ${generated}` : generated;
   return {
@@ -353,7 +353,7 @@ function buildTranslation(fact: RouteFact, language: Language, weeks: number): R
       `${pack.stamps}: ${fact.stamps}`
     ],
     cityDescriptions: fact.cities.map((item) => locale === "en" ? item.note : pack.cityNote(item.name, item.country, item.km)),
-    landmarkDescriptions: fact.landmarks.map((item) => locale === "en" ? item.note : pack.landmarkNote(item.name, item.type))
+    landmarkDescriptions: fact.landmarks.map((item) => locale === "en" ? item.note : pack.landmarkNote(item.name, categoryLabels[locale][item.type]))
   };
 }
 

@@ -9,6 +9,7 @@
     "check": "astro check",
     "validate": "node scripts/validate-build.mjs",
     "audit:seo": "node scripts/seo-audit.mjs",
+    "audit:live": "node scripts/live-crawl-audit.mjs",
     "indexnow": "node scripts/submit-indexnow.mjs"
   },
   "devDependencies": {

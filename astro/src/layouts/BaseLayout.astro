@@ -25,6 +25,7 @@ const structuredImageRights = imageRights(page.lang);
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
   if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };
+  if (/(^|\/)privacy\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/privacy.js?v=2" };
   return script;
 });
 const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringify(value).replaceAll("</script", "<\\/script");

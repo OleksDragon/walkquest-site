@@ -52,12 +52,14 @@ export function localizedPageUrl(language: Language, filename: string): string {
   if (language.code === "en") {
     return filename === "index.html" ? `${siteUrl}/` : `${siteUrl}/${filename}`;
   }
-  return `${siteUrl}/${language.slug}/${filename}`;
+  return filename === "index.html" ? `${siteUrl}/${language.slug}/` : `${siteUrl}/${language.slug}/${filename}`;
 }
 
 export function canonicalUrl(relativePath: string): string {
   const normalized = relativePath.replaceAll("\\", "/");
-  return normalized === "index.html" ? `${siteUrl}/` : `${siteUrl}/${normalized}`;
+  if (normalized === "index.html") return `${siteUrl}/`;
+  if (normalized.endsWith("/index.html")) return `${siteUrl}/${normalized.slice(0, -"index.html".length)}`;
+  return `${siteUrl}/${normalized}`;
 }
 
 export function alternateLinks(relativePath: string): Array<{ lang: string; href: string }> {

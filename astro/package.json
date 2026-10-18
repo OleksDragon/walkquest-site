@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "validate": "node scripts/validate-build.mjs",
-    "audit:seo": "node scripts/seo-audit.mjs"
+    "audit:seo": "node scripts/seo-audit.mjs",
+    "indexnow": "node scripts/submit-indexnow.mjs"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

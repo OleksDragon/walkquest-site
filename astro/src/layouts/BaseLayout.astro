@@ -12,7 +12,15 @@ interface Props {
 
 const { page } = Astro.props;
 const { head } = page;
-const stylesheets = [...new Set([...head.stylesheets.filter((href) => !href.includes("pages.css")), "/pages.css?v=10"])];
+// Keep every indexable page self-contained. External font stylesheets add a
+// render-time dependency for users and search-engine renderers, while the CSS
+// already has robust system-font fallbacks.
+const stylesheets = [...new Set([
+  ...head.stylesheets.filter((href) => !href.includes("pages.css") && !/^https?:\/\//i.test(href)),
+  "/pages.css?v=10",
+])];
+const preconnects = head.preconnects.filter(({ href }) => !/^https?:\/\/(?:fonts\.googleapis\.com|fonts\.gstatic\.com)/i.test(href));
+const socialImageAlt = page.news?.copy.newsHeroAlt ?? head.openGraph.imageAlt;
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
   if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };
@@ -48,7 +56,7 @@ const globalStructuredData = {
       primaryImageOfPage: {
         "@type": "ImageObject",
         url: head.openGraph.image,
-        caption: head.openGraph.imageAlt,
+        caption: socialImageAlt,
       },
     },
   ],
@@ -68,7 +76,7 @@ const globalStructuredData = {
     {head.imageCredit && <meta name="image-credit" content={head.imageCredit} />}
     {head.themeColor && <meta name="theme-color" content={head.themeColor} />}
     {head.icon && <link rel="icon" type={head.icon.type} href={head.icon.href} />}
-    {head.preconnects.map((connection) => (
+    {preconnects.map((connection) => (
       <link rel="preconnect" href={connection.href} crossorigin={connection.crossOrigin ? "anonymous" : undefined} />
     ))}
     {stylesheets.map((href) => <link rel="stylesheet" href={href} />)}
@@ -77,7 +85,7 @@ const globalStructuredData = {
     <meta property="og:title" content={head.openGraph.title} />
     <meta property="og:description" content={head.openGraph.description} />
     <meta property="og:image" content={head.openGraph.image} />
-    <meta property="og:image:alt" content={head.openGraph.imageAlt} />
+    <meta property="og:image:alt" content={socialImageAlt} />
     {head.openGraph.imageWidth && <meta property="og:image:width" content={head.openGraph.imageWidth} />}
     {head.openGraph.imageHeight && <meta property="og:image:height" content={head.openGraph.imageHeight} />}
     <meta property="og:url" content={head.openGraph.url} />
@@ -89,7 +97,7 @@ const globalStructuredData = {
     <meta name="twitter:title" content={head.twitter.title} />
     <meta name="twitter:description" content={head.twitter.description} />
     <meta name="twitter:image" content={head.twitter.image} />
-    <meta name="twitter:image:alt" content={head.openGraph.imageAlt} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
     <meta name="twitter:url" content={head.twitter.url} />
     {head.inlineStyles.map((styles) => <style set:html={styles} />)}
     <script type="application/ld+json" set:html={serializeStructuredData(globalStructuredData)} />

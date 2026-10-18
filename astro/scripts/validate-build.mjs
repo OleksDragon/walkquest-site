@@ -84,7 +84,11 @@ if (pages.length !== 624) errors.push(`Expected 624 HTML pages, found ${pages.le
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
   const relative = path.relative(root, page).replaceAll("\\", "/");
-  const expectedCanonical = relative === "index.html" ? "https://walkquest.site/" : `https://walkquest.site/${relative}`;
+  const expectedCanonical = relative === "index.html"
+    ? "https://walkquest.site/"
+    : relative.endsWith("/index.html")
+      ? `https://walkquest.site/${relative.slice(0, -"index.html".length)}`
+      : `https://walkquest.site/${relative}`;
   for (const required of ['<link rel="canonical"', 'hreflang="x-default"', '<meta name="description"', "<main"]) {
     if (!html.includes(required)) errors.push(`${relative}: missing ${required}`);
   }
@@ -145,6 +149,7 @@ for (const slug of newRouteSlugs) {
 }
 if (!fs.existsSync(path.join(root, "CNAME"))) errors.push("CNAME is missing.");
 if (!fs.existsSync(path.join(root, ".nojekyll"))) errors.push(".nojekyll is missing.");
+if (!fs.existsSync(path.join(root, "65d7c3e213a94afe9b0b38a697859c42.txt"))) errors.push("IndexNow verification key is missing.");
 
 if (errors.length) {
   console.error(errors.join("\n"));

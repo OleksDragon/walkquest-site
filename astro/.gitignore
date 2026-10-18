@@ -2,3 +2,4 @@ node_modules/
 dist/
 .astro/
 seo-audit-report.json
+build-check.log

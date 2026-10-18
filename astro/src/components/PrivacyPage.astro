@@ -28,9 +28,11 @@ const imageLicenseCopy: Record<string, { title: string; body: string; contact: s
   hi: { title: "छवि अधिकार और लाइसेंस", body: "जब तक अलग से उल्लेख न हो, इस वेबसाइट पर प्रकाशित चित्र और मार्गों की मुख्य छवियाँ WalkQuest के लिए एआई की सहायता से बनाई गई मौलिक कलाकृतियाँ हैं। © 2026 Gold Digital Studio. सर्वाधिकार सुरक्षित। Google Play और अन्य तृतीय पक्षों के नाम, लोगो और चिह्न उनके संबंधित स्वामियों की संपत्ति हैं।", contact: "पुनः उपयोग, पुनर्वितरण या व्यावसायिक उपयोग के लिए पहले लिखित अनुमति आवश्यक है। लाइसेंस, संपादकीय उपयोग या साझेदारी के लिए संपर्क करें" },
 };
 const imageLicense = imageLicenseCopy[page.lang] ?? imageLicenseCopy.en;
+const serializedImageLicenseCopy = JSON.stringify(imageLicenseCopy).replaceAll("</script", "<\\/script");
 ---
 
 <main id="main" class="privacy-page" style="width:min(780px,calc(100% - 32px));margin:0 auto;padding:64px 0 80px;">
+  <script is:inline set:html={`window.WalkQuestImageLicenseI18n = ${serializedImageLicenseCopy};`} />
   <header class="privacy-toolbar">
     <a id="privacyBackLink" href="./index.html" style="display:inline-block;margin-bottom:32px;font-weight:800;">{privacy.backLabel}</a>
     <label class="privacy-language" for="privacyLanguageSelect">

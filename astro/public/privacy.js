@@ -3,6 +3,7 @@
   if (!config) return;
 
   const { languages, translations } = config;
+  const imageLicenseTranslations = window.WalkQuestImageLicenseI18n || {};
   const supported = new Set(languages.map(({ code }) => code));
   const localeBySlug = new Map(languages.map(({ code }) => [code.toLowerCase(), code]));
 
@@ -116,6 +117,18 @@
     return output.join("");
   }
 
+  function renderImageLicense(code) {
+    const copy = imageLicenseTranslations[code] || imageLicenseTranslations.en;
+    if (!copy) return "";
+    return [
+      '<section id="image-license" aria-labelledby="image-license-title" style="scroll-margin-top:24px;border-top:1px solid rgba(23,60,63,.12);margin-top:36px;padding-top:28px;">',
+      '<h2 id="image-license-title">' + escapeHtml(copy.title) + "</h2>",
+      "<p>" + escapeHtml(copy.body) + "</p>",
+      "<p>" + escapeHtml(copy.contact) + ': <a href="mailto:digitalstudiogold@gmail.com">digitalstudiogold@gmail.com</a>.</p>',
+      "</section>",
+    ].join("");
+  }
+
   function applyLanguage(code) {
     const language = languages.find((item) => item.code === code) || languages[0];
     const copy = translations[language.code] || translations.en;
@@ -138,7 +151,7 @@
     languageLabel.textContent = copy.languageLabel;
     backLink.textContent = "← " + copy.backLabel;
     backLink.setAttribute("aria-label", copy.backLabel);
-    content.innerHTML = renderMarkdown(copy.content);
+    content.innerHTML = renderMarkdown(copy.content) + renderImageLicense(language.code);
     select.value = language.code;
     select.setAttribute("aria-label", copy.languageLabel);
     localStorage.setItem("walkquest-language", language.code);

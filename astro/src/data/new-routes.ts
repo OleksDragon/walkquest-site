@@ -1,4 +1,4 @@
-import { languages, openGraphLocale, siteUrl, type Language } from "../lib/site";
+import { imageRights, languages, openGraphLocale, siteUrl, type Language } from "../lib/site";
 import { getPageData, type PageData } from "../lib/page-data";
 
 export type RouteRegion = "Europe" | "Asia" | "Americas" | "Africa" | "Oceania";
@@ -469,7 +469,7 @@ export function routePageData(route: RouteData, language: Language): PageData {
       structuredData: [
         { "@context": "https://schema.org", "@type": "TouristTrip", name: t.name, description: t.description, url, image: imageUrl, touristType: "Virtual walkers and fitness game players", itinerary: { "@type": "ItemList", numberOfItems: itinerary.length, itemListElement: itinerary }, inLanguage: language.code },
         { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: localePacks[language.code].home, item: `${siteUrl}${language.code === "en" ? "/" : `/${language.slug}/`}` }, { "@type": "ListItem", position: 2, name: localePacks[language.code].allRoutes, item: `${siteUrl}${language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`}` }, { "@type": "ListItem", position: 3, name: t.name, item: url }] },
-        { "@context": "https://schema.org", "@type": "ImageObject", contentUrl: imageUrl, url: imageUrl, caption: t.alt, creditText: route.imageCredit, creator: { "@type": "Organization", name: "OpenAI" } }
+        { "@context": "https://schema.org", "@type": "ImageObject", contentUrl: imageUrl, url: imageUrl, caption: t.alt, creditText: route.imageCredit, creator: { "@type": "Organization", name: "Gold Digital Studio" }, ...imageRights(language.code) }
       ], scripts: [], inlineStyles: []
     }, chrome: "site", bodyScripts: [
       { src: "/pages-translations.js", defer: false },

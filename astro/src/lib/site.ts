@@ -1,4 +1,5 @@
 export const siteUrl = "https://walkquest.site";
+export const imageCopyrightNotice = "© 2026 Gold Digital Studio. All rights reserved.";
 
 export const languages = [
   { code: "en", slug: "", label: "🇬🇧 English", dir: "ltr" },
@@ -53,6 +54,16 @@ export function localizedPageUrl(language: Language, filename: string): string {
     return filename === "index.html" ? `${siteUrl}/` : `${siteUrl}/${filename}`;
   }
   return filename === "index.html" ? `${siteUrl}/${language.slug}/` : `${siteUrl}/${language.slug}/${filename}`;
+}
+
+export function imageRights(languageCode: string) {
+  const language = languages.find((item) => item.code === languageCode) ?? languages[0];
+  const rightsUrl = `${localizedPageUrl(language, "privacy.html")}#image-license`;
+  return {
+    copyrightNotice: imageCopyrightNotice,
+    license: rightsUrl,
+    acquireLicensePage: rightsUrl,
+  };
 }
 
 export function canonicalUrl(relativePath: string): string {

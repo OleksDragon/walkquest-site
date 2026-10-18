@@ -4,7 +4,7 @@ import LandingHeader from "../components/LandingHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import type { PageData } from "../lib/page-data";
-import { openGraphAlternateLocales } from "../lib/site";
+import { imageRights, openGraphAlternateLocales } from "../lib/site";
 
 interface Props {
   page: PageData;
@@ -21,6 +21,7 @@ const stylesheets = [...new Set([
 ])];
 const preconnects = head.preconnects.filter(({ href }) => !/^https?:\/\/(?:fonts\.googleapis\.com|fonts\.gstatic\.com)/i.test(href));
 const socialImageAlt = page.news?.copy.newsHeroAlt ?? head.openGraph.imageAlt;
+const structuredImageRights = imageRights(page.lang);
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
   if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };
@@ -35,7 +36,16 @@ const globalStructuredData = {
       "@id": "https://walkquest.site/#organization",
       name: "WalkQuest",
       url: "https://walkquest.site/",
-      logo: { "@type": "ImageObject", url: "https://walkquest.site/assets/walkquest-logo.svg", width: 512, height: 512 },
+      logo: {
+        "@type": "ImageObject",
+        contentUrl: "https://walkquest.site/assets/walkquest-logo.svg",
+        url: "https://walkquest.site/assets/walkquest-logo.svg",
+        width: 512,
+        height: 512,
+        creditText: "WalkQuest",
+        creator: { "@type": "Organization", name: "Gold Digital Studio" },
+        ...structuredImageRights,
+      },
     },
     {
       "@type": "WebSite",
@@ -55,8 +65,12 @@ const globalStructuredData = {
       isPartOf: { "@id": "https://walkquest.site/#website" },
       primaryImageOfPage: {
         "@type": "ImageObject",
+        contentUrl: head.openGraph.image,
         url: head.openGraph.image,
         caption: socialImageAlt,
+        creditText: head.imageCredit ?? "WalkQuest",
+        creator: { "@type": "Organization", name: "Gold Digital Studio" },
+        ...structuredImageRights,
       },
     },
   ],

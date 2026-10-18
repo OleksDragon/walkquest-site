@@ -1,6 +1,7 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { PageData } from "../lib/page-data";
+import { imageRights } from "../lib/site";
 
 interface Props { page: PageData; }
 const { page } = Astro.props;
@@ -8,6 +9,7 @@ if (!page.news) throw new Error(`Missing news content for ${page.relativePath}`)
 const c = page.news.copy;
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
 const localeBase = page.lang === "en" ? "" : `/${page.lang === "zh-CN" ? "zh-cn" : page.lang === "pt-BR" ? "pt-br" : page.lang}`;
+const structuredImageRights = imageRights(page.lang);
 const nextStories = [
   { href: "./release-notes.html", image: "article-release.webp", alt: "releaseCardAlt", tag: "releaseTag", title: "newsNext1Title", text: "newsNext1Text" },
   { href: "./europe-explorer.html", image: "article-europe.webp", alt: "europeCardAlt", tag: "europeTag", title: "newsNext2Title", text: "newsNext2Text" },
@@ -24,8 +26,12 @@ const journalSchema = {
   isPartOf: { "@id": "https://walkquest.site/#website" },
   primaryImageOfPage: {
     "@type": "ImageObject",
+    contentUrl: "https://walkquest.site/assets/news-hero-v3.webp",
     url: "https://walkquest.site/assets/news-hero-v3.webp",
     caption: c.newsHeroAlt,
+    creditText: "WalkQuest",
+    creator: { "@type": "Organization", name: "Gold Digital Studio" },
+    ...structuredImageRights,
   },
   mainEntity: {
     "@type": "ItemList",

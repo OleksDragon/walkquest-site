@@ -23,6 +23,16 @@ function localTarget(page, reference) {
   return clean.startsWith("/") ? path.join(root, clean) : path.resolve(path.dirname(page), clean);
 }
 
+function visitStructuredData(value, visitor) {
+  if (Array.isArray(value)) {
+    value.forEach((item) => visitStructuredData(item, visitor));
+    return;
+  }
+  if (!value || typeof value !== "object") return;
+  visitor(value);
+  Object.values(value).forEach((item) => visitStructuredData(item, visitor));
+}
+
 if (!fs.existsSync(root)) throw new Error("dist/ does not exist. Run npm run build first.");
 
 let sourcePageCount = 0;
@@ -107,7 +117,17 @@ for (const page of pages) {
     if (!html.includes(required)) errors.push(`${relative}: missing ${required}`);
   }
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
-    try { JSON.parse(match[1]); } catch { errors.push(`${relative}: invalid JSON-LD.`); }
+    try {
+      const data = JSON.parse(match[1]);
+      visitStructuredData(data, (item) => {
+        if (item["@type"] !== "ImageObject") return;
+        for (const property of ["contentUrl", "license", "acquireLicensePage", "copyrightNotice"]) {
+          if (!item[property]) errors.push(`${relative}: ImageObject is missing ${property}.`);
+        }
+      });
+    } catch {
+      errors.push(`${relative}: invalid JSON-LD.`);
+    }
   }
   if (relative.startsWith("ar/") && !/<html\s+lang="ar"\s+dir="rtl">/.test(html)) {
     errors.push(`${relative}: Arabic page is not RTL.`);

@@ -17,7 +17,7 @@ const { head } = page;
 // already has robust system-font fallbacks.
 const stylesheets = [...new Set([
   ...head.stylesheets.filter((href) => !href.includes("pages.css") && !/^https?:\/\//i.test(href)),
-  "/pages.css?v=10",
+  "/pages.css?v=11",
 ])];
 const preconnects = head.preconnects.filter(({ href }) => !/^https?:\/\/(?:fonts\.googleapis\.com|fonts\.gstatic\.com)/i.test(href));
 const socialImageAlt = page.news?.copy.newsHeroAlt ?? head.openGraph.imageAlt;

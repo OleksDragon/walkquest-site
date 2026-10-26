@@ -133,6 +133,7 @@ for (const page of pages) {
     errors.push(`${relative}: Arabic page is not RTL.`);
   }
   for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
+    if (/(?:^|\/)index\.html(?:[?#]|$)/i.test(match[1])) errors.push(`${relative}: non-canonical index.html reference ${match[1]}`);
     const target = localTarget(page, match[1]);
     if (target && !fs.existsSync(target)) errors.push(`${relative}: missing local resource ${match[1]}`);
   }
@@ -170,6 +171,13 @@ for (const slug of newRouteSlugs) {
 if (!fs.existsSync(path.join(root, "CNAME"))) errors.push("CNAME is missing.");
 if (!fs.existsSync(path.join(root, ".nojekyll"))) errors.push(".nojekyll is missing.");
 if (!fs.existsSync(path.join(root, "65d7c3e213a94afe9b0b38a697859c42.txt"))) errors.push("IndexNow verification key is missing.");
+
+for (const script of ["app.js", "pages.js"]) {
+  const source = fs.readFileSync(path.resolve("public", script), "utf8");
+  if (!/parts\.at\(-1\)\?\.toLowerCase\(\)\s*===\s*"index\.html"/.test(source)) {
+    errors.push(`${script}: localized paths do not normalize index.html to the canonical directory URL.`);
+  }
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));

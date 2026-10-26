@@ -13,6 +13,7 @@
   function localizedPath(code) {
     const parts = location.pathname.split("/").filter(Boolean);
     if (parts.length && localeBySlug.has(parts[0].toLowerCase())) parts.shift();
+    if (parts.at(-1)?.toLowerCase() === "index.html") parts.pop();
     const suffix = parts.length ? "/" + parts.join("/") : "/";
     return code === "en" ? suffix : "/" + code.toLowerCase() + suffix;
   }

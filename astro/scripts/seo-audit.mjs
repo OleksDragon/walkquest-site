@@ -120,6 +120,7 @@ for (const file of walk(root).filter((entry) => entry.endsWith(".html"))) {
   if (externalStylesheets.length) errors.push(`${relative}: external stylesheet dependency ${externalStylesheets[0][1]}`);
   for (const match of html.matchAll(/<a\b[^>]*\bhref="([^"]+)"[^>]*>/gi)) {
     const href = decode(match[1]);
+    if (/(?:^|\/)index\.html(?:[?#]|$)/i.test(href)) errors.push(`${relative}: non-canonical internal home link ${href}`);
     const target = outputPathFromUrl(href, file);
     if (target && !fs.existsSync(target)) errors.push(`${relative}: broken internal link ${href}`);
   }

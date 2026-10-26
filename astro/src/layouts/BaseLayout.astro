@@ -22,9 +22,13 @@ const stylesheets = [...new Set([
 const preconnects = head.preconnects.filter(({ href }) => !/^https?:\/\/(?:fonts\.googleapis\.com|fonts\.gstatic\.com)/i.test(href));
 const socialImageAlt = page.news?.copy.newsHeroAlt ?? head.openGraph.imageAlt;
 const structuredImageRights = imageRights(page.lang);
+const headScripts = head.scripts.map((script) => {
+  if (/(^|\/)app\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/app.js?v=2" };
+  return script;
+});
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
-  if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=7" };
+  if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=8" };
   if (/(^|\/)privacy\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/privacy.js?v=2" };
   return script;
 });
@@ -117,7 +121,7 @@ const globalStructuredData = {
     {head.inlineStyles.map((styles) => <style set:html={styles} />)}
     <script type="application/ld+json" set:html={serializeStructuredData(globalStructuredData)} />
     {head.structuredData.map((entry) => <script type="application/ld+json" set:html={serializeStructuredData(entry)} />)}
-    {head.scripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
+    {headScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
   </head>
   <body {...page.bodyAttributes}>
     <a class="skip-link" href="#main">{page.labels.skipLink}</a>

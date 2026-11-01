@@ -11,7 +11,7 @@ const legacyImageDimensions: Record<string, { width: string; height: string }> =
   "article-health-connect.webp": { width: "1279", height: "720" },
   "article-release.webp": { width: "1279", height: "720" },
   "article-sharing.webp": { width: "1279", height: "720" },
-  "article-social-channels-v2.webp": { width: "1279", height: "720" },
+  "article-social-channels-light.webp": { width: "1279", height: "720" },
   "europe-explorer-panorama.webp": { width: "1279", height: "720" },
   "greek-islands-odyssey-panorama.webp": { width: "1279", height: "720" },
   "guide-hero.webp": { width: "1279", height: "720" },

@@ -122,7 +122,7 @@
         "openGraph": {
           "title": "WalkQuest Social Channels: YouTube, Instagram & TikTok",
           "description": "Follow WalkQuest on YouTube, Instagram and TikTok for route videos, app guides, city stories, achievements and product updates.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "WalkQuest app connected to three official social video channels showing routes, stamps and achievements",
           "url": "https://walkquest.site/walkquest-social-channels.html",
           "type": "article",
@@ -133,7 +133,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest Social Channels: YouTube, Instagram & TikTok",
           "description": "Follow WalkQuest on YouTube, Instagram and TikTok for route videos, app guides, city stories, achievements and product updates.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -142,7 +142,7 @@
             "@type": "Article",
             "headline": "WalkQuest is now on YouTube, Instagram and TikTok",
             "description": "Follow WalkQuest on YouTube, Instagram and TikTok for route videos, app guides, city stories, achievements and product updates.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/walkquest-social-channels.html",
@@ -209,7 +209,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -437,7 +437,7 @@
         "openGraph": {
           "title": "WalkQuest у YouTube, Instagram і TikTok",
           "description": "Підписуйтеся на WalkQuest у YouTube, Instagram і TikTok: відео маршрутів, посібники, історії міст, досягнення та новини.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Застосунок WalkQuest, з’єднаний із трьома офіційними відеоканалами з маршрутами, штампами й досягненнями",
           "url": "https://walkquest.site/uk/walkquest-social-channels.html",
           "type": "article",
@@ -448,7 +448,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest у YouTube, Instagram і TikTok",
           "description": "Підписуйтеся на WalkQuest у YouTube, Instagram і TikTok: відео маршрутів, посібники, історії міст, досягнення та новини.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/uk/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -457,7 +457,7 @@
             "@type": "Article",
             "headline": "WalkQuest тепер у YouTube, Instagram і TikTok",
             "description": "Підписуйтеся на WalkQuest у YouTube, Instagram і TikTok: відео маршрутів, посібники, історії міст, досягнення та новини.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/uk/walkquest-social-channels.html",
@@ -524,7 +524,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -752,7 +752,7 @@
         "openGraph": {
           "title": "WalkQuest в YouTube, Instagram и TikTok",
           "description": "Подпишитесь на WalkQuest в YouTube, Instagram и TikTok: видео маршрутов, руководства, истории городов, достижения и новости.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Приложение WalkQuest, связанное с тремя официальными видеоканалами с маршрутами, штампами и достижениями",
           "url": "https://walkquest.site/ru/walkquest-social-channels.html",
           "type": "article",
@@ -763,7 +763,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest в YouTube, Instagram и TikTok",
           "description": "Подпишитесь на WalkQuest в YouTube, Instagram и TikTok: видео маршрутов, руководства, истории городов, достижения и новости.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/ru/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -772,7 +772,7 @@
             "@type": "Article",
             "headline": "WalkQuest теперь в YouTube, Instagram и TikTok",
             "description": "Подпишитесь на WalkQuest в YouTube, Instagram и TikTok: видео маршрутов, руководства, истории городов, достижения и новости.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/ru/walkquest-social-channels.html",
@@ -839,7 +839,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -1067,7 +1067,7 @@
         "openGraph": {
           "title": "WalkQuest en YouTube, Instagram y TikTok",
           "description": "Sigue WalkQuest en YouTube, Instagram y TikTok para ver rutas, guías de la app, ciudades, logros y novedades del producto.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "La app WalkQuest conectada con tres canales oficiales de vídeo sobre rutas, sellos y logros",
           "url": "https://walkquest.site/es/walkquest-social-channels.html",
           "type": "article",
@@ -1078,7 +1078,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest en YouTube, Instagram y TikTok",
           "description": "Sigue WalkQuest en YouTube, Instagram y TikTok para ver rutas, guías de la app, ciudades, logros y novedades del producto.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/es/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -1087,7 +1087,7 @@
             "@type": "Article",
             "headline": "WalkQuest ya está en YouTube, Instagram y TikTok",
             "description": "Sigue WalkQuest en YouTube, Instagram y TikTok para ver rutas, guías de la app, ciudades, logros y novedades del producto.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/es/walkquest-social-channels.html",
@@ -1154,7 +1154,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -1382,7 +1382,7 @@
         "openGraph": {
           "title": "WalkQuest auf YouTube, Instagram und TikTok",
           "description": "Folge WalkQuest auf YouTube, Instagram und TikTok für Routenvideos, App-Guides, Stadtgeschichten, Erfolge und Produktnews.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "WalkQuest-App verbunden mit drei offiziellen Videokanälen für Routen, Stempel und Erfolge",
           "url": "https://walkquest.site/de/walkquest-social-channels.html",
           "type": "article",
@@ -1393,7 +1393,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest auf YouTube, Instagram und TikTok",
           "description": "Folge WalkQuest auf YouTube, Instagram und TikTok für Routenvideos, App-Guides, Stadtgeschichten, Erfolge und Produktnews.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/de/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -1402,7 +1402,7 @@
             "@type": "Article",
             "headline": "WalkQuest ist jetzt auf YouTube, Instagram und TikTok",
             "description": "Folge WalkQuest auf YouTube, Instagram und TikTok für Routenvideos, App-Guides, Stadtgeschichten, Erfolge und Produktnews.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/de/walkquest-social-channels.html",
@@ -1469,7 +1469,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -1697,7 +1697,7 @@
         "openGraph": {
           "title": "WalkQuest sur YouTube, Instagram et TikTok",
           "description": "Suivez WalkQuest sur YouTube, Instagram et TikTok : vidéos d’itinéraires, guides, histoires de villes, exploits et nouveautés.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Application WalkQuest reliée à trois chaînes vidéo officielles présentant itinéraires, tampons et exploits",
           "url": "https://walkquest.site/fr/walkquest-social-channels.html",
           "type": "article",
@@ -1708,7 +1708,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest sur YouTube, Instagram et TikTok",
           "description": "Suivez WalkQuest sur YouTube, Instagram et TikTok : vidéos d’itinéraires, guides, histoires de villes, exploits et nouveautés.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/fr/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -1717,7 +1717,7 @@
             "@type": "Article",
             "headline": "WalkQuest arrive sur YouTube, Instagram et TikTok",
             "description": "Suivez WalkQuest sur YouTube, Instagram et TikTok : vidéos d’itinéraires, guides, histoires de villes, exploits et nouveautés.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/fr/walkquest-social-channels.html",
@@ -1784,7 +1784,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -2012,7 +2012,7 @@
         "openGraph": {
           "title": "WalkQuest na YouTube, Instagramie i TikToku",
           "description": "Obserwuj WalkQuest na YouTube, Instagramie i TikToku: filmy z tras, poradniki, historie miast, osiągnięcia i aktualizacje.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Aplikacja WalkQuest połączona z trzema oficjalnymi kanałami wideo o trasach, pieczęciach i osiągnięciach",
           "url": "https://walkquest.site/pl/walkquest-social-channels.html",
           "type": "article",
@@ -2023,7 +2023,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest na YouTube, Instagramie i TikToku",
           "description": "Obserwuj WalkQuest na YouTube, Instagramie i TikToku: filmy z tras, poradniki, historie miast, osiągnięcia i aktualizacje.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/pl/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -2032,7 +2032,7 @@
             "@type": "Article",
             "headline": "WalkQuest jest już na YouTube, Instagramie i TikToku",
             "description": "Obserwuj WalkQuest na YouTube, Instagramie i TikToku: filmy z tras, poradniki, historie miast, osiągnięcia i aktualizacje.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/pl/walkquest-social-channels.html",
@@ -2099,7 +2099,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -2327,7 +2327,7 @@
         "openGraph": {
           "title": "WalkQuest no YouTube, Instagram e TikTok",
           "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de percursos, guias, histórias de cidades, conquistas e novidades.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Aplicação WalkQuest ligada a três canais de vídeo oficiais com percursos, carimbos e conquistas",
           "url": "https://walkquest.site/pt/walkquest-social-channels.html",
           "type": "article",
@@ -2338,7 +2338,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest no YouTube, Instagram e TikTok",
           "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de percursos, guias, histórias de cidades, conquistas e novidades.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/pt/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -2347,7 +2347,7 @@
             "@type": "Article",
             "headline": "WalkQuest chegou ao YouTube, Instagram e TikTok",
             "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de percursos, guias, histórias de cidades, conquistas e novidades.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/pt/walkquest-social-channels.html",
@@ -2414,7 +2414,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -2642,7 +2642,7 @@
         "openGraph": {
           "title": "WalkQuest su YouTube, Instagram e TikTok",
           "description": "Segui WalkQuest su YouTube, Instagram e TikTok per video dei percorsi, guide dell’app, città, traguardi e aggiornamenti.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "App WalkQuest collegata a tre canali video ufficiali con percorsi, timbri e traguardi",
           "url": "https://walkquest.site/it/walkquest-social-channels.html",
           "type": "article",
@@ -2653,7 +2653,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest su YouTube, Instagram e TikTok",
           "description": "Segui WalkQuest su YouTube, Instagram e TikTok per video dei percorsi, guide dell’app, città, traguardi e aggiornamenti.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/it/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -2662,7 +2662,7 @@
             "@type": "Article",
             "headline": "WalkQuest è ora su YouTube, Instagram e TikTok",
             "description": "Segui WalkQuest su YouTube, Instagram e TikTok per video dei percorsi, guide dell’app, città, traguardi e aggiornamenti.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/it/walkquest-social-channels.html",
@@ -2729,7 +2729,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -2957,7 +2957,7 @@
         "openGraph": {
           "title": "WalkQuest YouTube, Instagram ve TikTok’ta",
           "description": "Rota videoları, uygulama rehberleri, şehir hikâyeleri, başarılar ve güncellemeler için WalkQuest’i takip edin.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Rotalar, damgalar ve başarılar gösteren üç resmî video kanalına bağlı WalkQuest uygulaması",
           "url": "https://walkquest.site/tr/walkquest-social-channels.html",
           "type": "article",
@@ -2968,7 +2968,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest YouTube, Instagram ve TikTok’ta",
           "description": "Rota videoları, uygulama rehberleri, şehir hikâyeleri, başarılar ve güncellemeler için WalkQuest’i takip edin.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/tr/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -2977,7 +2977,7 @@
             "@type": "Article",
             "headline": "WalkQuest artık YouTube, Instagram ve TikTok’ta",
             "description": "Rota videoları, uygulama rehberleri, şehir hikâyeleri, başarılar ve güncellemeler için WalkQuest’i takip edin.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/tr/walkquest-social-channels.html",
@@ -3044,7 +3044,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -3272,7 +3272,7 @@
         "openGraph": {
           "title": "WalkQuest公式SNS：YouTube・Instagram・TikTok",
           "description": "WalkQuest公式YouTube、Instagram、TikTokでルート動画、アプリガイド、都市の物語、実績、最新情報をチェック。",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "ルート、スタンプ、実績を紹介する3つの公式動画チャンネルにつながるWalkQuestアプリ",
           "url": "https://walkquest.site/ja/walkquest-social-channels.html",
           "type": "article",
@@ -3283,7 +3283,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest公式SNS：YouTube・Instagram・TikTok",
           "description": "WalkQuest公式YouTube、Instagram、TikTokでルート動画、アプリガイド、都市の物語、実績、最新情報をチェック。",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/ja/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -3292,7 +3292,7 @@
             "@type": "Article",
             "headline": "WalkQuest公式YouTube・Instagram・TikTokがスタート",
             "description": "WalkQuest公式YouTube、Instagram、TikTokでルート動画、アプリガイド、都市の物語、実績、最新情報をチェック。",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/ja/walkquest-social-channels.html",
@@ -3359,7 +3359,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -3587,7 +3587,7 @@
         "openGraph": {
           "title": "WalkQuest 공식 YouTube·Instagram·TikTok",
           "description": "WalkQuest 공식 YouTube, Instagram, TikTok에서 경로 영상, 앱 가이드, 도시 이야기, 성과와 업데이트를 확인하세요.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "경로와 스탬프, 성과를 보여 주는 세 공식 영상 채널에 연결된 WalkQuest 앱",
           "url": "https://walkquest.site/ko/walkquest-social-channels.html",
           "type": "article",
@@ -3598,7 +3598,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest 공식 YouTube·Instagram·TikTok",
           "description": "WalkQuest 공식 YouTube, Instagram, TikTok에서 경로 영상, 앱 가이드, 도시 이야기, 성과와 업데이트를 확인하세요.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/ko/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -3607,7 +3607,7 @@
             "@type": "Article",
             "headline": "WalkQuest 공식 YouTube·Instagram·TikTok 오픈",
             "description": "WalkQuest 공식 YouTube, Instagram, TikTok에서 경로 영상, 앱 가이드, 도시 이야기, 성과와 업데이트를 확인하세요.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/ko/walkquest-social-channels.html",
@@ -3674,7 +3674,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -3902,7 +3902,7 @@
         "openGraph": {
           "title": "WalkQuest 官方 YouTube、Instagram 与 TikTok",
           "description": "关注 WalkQuest 官方 YouTube、Instagram 和 TikTok，观看路线视频、应用指南、城市故事、成就与产品更新。",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "WalkQuest 应用连接三个展示路线、印章与成就的官方视频频道",
           "url": "https://walkquest.site/zh-cn/walkquest-social-channels.html",
           "type": "article",
@@ -3913,7 +3913,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest 官方 YouTube、Instagram 与 TikTok",
           "description": "关注 WalkQuest 官方 YouTube、Instagram 和 TikTok，观看路线视频、应用指南、城市故事、成就与产品更新。",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/zh-cn/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -3922,7 +3922,7 @@
             "@type": "Article",
             "headline": "WalkQuest 正式入驻 YouTube、Instagram 和 TikTok",
             "description": "关注 WalkQuest 官方 YouTube、Instagram 和 TikTok，观看路线视频、应用指南、城市故事、成就与产品更新。",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/zh-cn/walkquest-social-channels.html",
@@ -3989,7 +3989,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -4217,7 +4217,7 @@
         "openGraph": {
           "title": "WalkQuest على YouTube وInstagram وTikTok",
           "description": "تابع WalkQuest على YouTube وInstagram وTikTok لمشاهدة فيديوهات المسارات وأدلة التطبيق وقصص المدن والإنجازات والتحديثات.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "تطبيق WalkQuest متصل بثلاث قنوات فيديو رسمية تعرض المسارات والأختام والإنجازات",
           "url": "https://walkquest.site/ar/walkquest-social-channels.html",
           "type": "article",
@@ -4228,7 +4228,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest على YouTube وInstagram وTikTok",
           "description": "تابع WalkQuest على YouTube وInstagram وTikTok لمشاهدة فيديوهات المسارات وأدلة التطبيق وقصص المدن والإنجازات والتحديثات.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/ar/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -4237,7 +4237,7 @@
             "@type": "Article",
             "headline": "WalkQuest الآن على YouTube وInstagram وTikTok",
             "description": "تابع WalkQuest على YouTube وInstagram وTikTok لمشاهدة فيديوهات المسارات وأدلة التطبيق وقصص المدن والإنجازات والتحديثات.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/ar/walkquest-social-channels.html",
@@ -4304,7 +4304,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -4532,7 +4532,7 @@
         "openGraph": {
           "title": "WalkQuest के YouTube, Instagram और TikTok चैनल",
           "description": "रूट वीडियो, ऐप गाइड, शहरों की कहानियाँ, उपलब्धियाँ और अपडेट के लिए WalkQuest को YouTube, Instagram और TikTok पर फ़ॉलो करें।",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "रूट, स्टैम्प और उपलब्धियाँ दिखाने वाले तीन आधिकारिक वीडियो चैनलों से जुड़ा WalkQuest ऐप",
           "url": "https://walkquest.site/hi/walkquest-social-channels.html",
           "type": "article",
@@ -4543,7 +4543,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest के YouTube, Instagram और TikTok चैनल",
           "description": "रूट वीडियो, ऐप गाइड, शहरों की कहानियाँ, उपलब्धियाँ और अपडेट के लिए WalkQuest को YouTube, Instagram और TikTok पर फ़ॉलो करें।",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/hi/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -4552,7 +4552,7 @@
             "@type": "Article",
             "headline": "WalkQuest अब YouTube, Instagram और TikTok पर",
             "description": "रूट वीडियो, ऐप गाइड, शहरों की कहानियाँ, उपलब्धियाँ और अपडेट के लिए WalkQuest को YouTube, Instagram और TikTok पर फ़ॉलो करें।",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/hi/walkquest-social-channels.html",
@@ -4619,7 +4619,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [
@@ -4847,7 +4847,7 @@
         "openGraph": {
           "title": "WalkQuest no YouTube, Instagram e TikTok",
           "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de rotas, guias do app, histórias de cidades, conquistas e novidades.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "imageAlt": "Aplicativo WalkQuest conectado a três canais oficiais de vídeo com rotas, carimbos e conquistas",
           "url": "https://walkquest.site/pt-br/walkquest-social-channels.html",
           "type": "article",
@@ -4858,7 +4858,7 @@
           "card": "summary_large_image",
           "title": "WalkQuest no YouTube, Instagram e TikTok",
           "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de rotas, guias do app, histórias de cidades, conquistas e novidades.",
-          "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+          "image": "https://walkquest.site/assets/article-social-channels-light.webp",
           "url": "https://walkquest.site/pt-br/walkquest-social-channels.html"
         },
         "structuredData": [
@@ -4867,7 +4867,7 @@
             "@type": "Article",
             "headline": "WalkQuest chegou ao YouTube, Instagram e TikTok",
             "description": "Siga WalkQuest no YouTube, Instagram e TikTok para vídeos de rotas, guias do app, histórias de cidades, conquistas e novidades.",
-            "image": "https://walkquest.site/assets/article-social-channels-v2.webp",
+            "image": "https://walkquest.site/assets/article-social-channels-light.webp",
             "datePublished": "2026-11-01",
             "dateModified": "2026-11-01",
             "mainEntityOfPage": "https://walkquest.site/pt-br/walkquest-social-channels.html",
@@ -4934,7 +4934,7 @@
           "date": "socialDate",
           "readTime": "socialReadTime",
           "dateTime": "2026-11-01",
-          "image": "article-social-channels-v2.webp",
+          "image": "article-social-channels-light.webp",
           "alt": "socialHeroAlt"
         },
         "blocks": [

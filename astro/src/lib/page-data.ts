@@ -11,6 +11,7 @@ const legacyImageDimensions: Record<string, { width: string; height: string }> =
   "article-health-connect.webp": { width: "1279", height: "720" },
   "article-release.webp": { width: "1279", height: "720" },
   "article-sharing.webp": { width: "1279", height: "720" },
+  "article-social-channels-v2.webp": { width: "1279", height: "720" },
   "europe-explorer-panorama.webp": { width: "1279", height: "720" },
   "greek-islands-odyssey-panorama.webp": { width: "1279", height: "720" },
   "guide-hero.webp": { width: "1279", height: "720" },
@@ -102,7 +103,8 @@ export type ArticleBlock =
   | { type: "list"; items: string[] }
   | { type: "steps"; items: Array<{ title: string; text: string }> }
   | { type: "stats"; items: Array<{ value?: string; literal?: string; label: string }> }
-  | { type: "features"; items: Array<{ emoji: string; title: string; text: string }> };
+  | { type: "features"; items: Array<{ emoji: string; title: string; text: string }> }
+  | { type: "socials"; items: Array<{ icon: string; platform: string; handle: string; text: string; href: string }> };
 
 export interface ArticleContent {
   copy: Record<string, string>;

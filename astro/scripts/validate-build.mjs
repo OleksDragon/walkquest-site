@@ -86,10 +86,10 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
     }
   }
 }
-if (sourcePageCount !== 256) errors.push(`Expected 256 source page records, found ${sourcePageCount}.`);
+if (sourcePageCount !== 272) errors.push(`Expected 272 source page records, found ${sourcePageCount}.`);
 
 const pages = walk(root).filter((file) => file.endsWith(".html"));
-if (pages.length !== 640) errors.push(`Expected 640 HTML pages, found ${pages.length}.`);
+if (pages.length !== 656) errors.push(`Expected 656 HTML pages, found ${pages.length}.`);
 
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
@@ -156,13 +156,13 @@ for (const page of pages) {
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapCount = [...sitemap.matchAll(/<url>/g)].length;
-if (sitemapCount !== 640) errors.push(`Expected 640 sitemap URLs, found ${sitemapCount}.`);
+if (sitemapCount !== 656) errors.push(`Expected 656 sitemap URLs, found ${sitemapCount}.`);
 if (!sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"')) errors.push("Sitemap xhtml namespace is missing.");
 if (!sitemap.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"')) errors.push("Sitemap image namespace is missing.");
 const sitemapAlternates = [...sitemap.matchAll(/<xhtml:link rel="alternate" hreflang="([^"]+)" href="([^"]+)" \/>/g)];
-if (sitemapAlternates.length !== 640 * 17) errors.push(`Expected ${640 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
+if (sitemapAlternates.length !== 656 * 17) errors.push(`Expected ${656 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
 const sitemapImages = [...sitemap.matchAll(/<image:image>/g)].length;
-if (sitemapImages !== 640) errors.push(`Expected 640 sitemap image records, found ${sitemapImages}.`);
+if (sitemapImages !== 656) errors.push(`Expected 656 sitemap image records, found ${sitemapImages}.`);
 for (const slug of newRouteSlugs) {
   const image = path.resolve("public", "images", "routes", `${slug}.webp`);
   if (!fs.existsSync(image)) errors.push(`${slug}: hero image is missing.`);

@@ -1,5 +1,5 @@
 (() => {
-  const config = window.WalkQuestPrivacyI18n;
+  const config = window.WalkQuestTermsI18n || window.WalkQuestPrivacyI18n;
   if (!config) return;
 
   const { languages, translations } = config;
@@ -118,6 +118,7 @@
   }
 
   function renderImageLicense(code) {
+    if (window.WalkQuestLegalPageType === "terms") return "";
     const copy = imageLicenseTranslations[code] || imageLicenseTranslations.en;
     if (!copy) return "";
     return [

@@ -9,6 +9,7 @@ interface Props {
 const { page } = Astro.props;
 if (!page.privacy) throw new Error(`Missing privacy content for ${page.relativePath}`);
 const { privacy } = page;
+const legalPageType = page.relativePath.endsWith("terms.html") ? "terms" : "privacy";
 const imageLicenseCopy: Record<string, { title: string; body: string; contact: string }> = {
   en: { title: "Image rights and licensing", body: "Unless otherwise identified, the illustrations and route hero images published on this website are original AI-assisted artwork created for WalkQuest. © 2026 Gold Digital Studio. All rights reserved. Google Play and other third-party names, logos and marks remain the property of their respective owners.", contact: "Reuse, redistribution or commercial use requires prior written permission. For licensing, editorial or partnership requests, contact" },
   uk: { title: "Права на зображення та ліцензування", body: "Якщо не зазначено інше, ілюстрації та головні зображення маршрутів на цьому сайті є оригінальними роботами, створеними для WalkQuest за допомогою ШІ. © 2026 Gold Digital Studio. Усі права захищено. Назви, логотипи й торговельні марки Google Play та інших третіх сторін належать їхнім власникам.", contact: "Повторне використання, розповсюдження або комерційне застосування потребує попереднього письмового дозволу. Щодо ліцензування, редакційного використання чи партнерства звертайтеся" },
@@ -32,6 +33,7 @@ const serializedImageLicenseCopy = JSON.stringify(imageLicenseCopy).replaceAll("
 ---
 
 <main id="main" class="privacy-page" style="width:min(780px,calc(100% - 32px));margin:0 auto;padding:64px 0 80px;">
+  <script is:inline set:html={`window.WalkQuestLegalPageType = ${JSON.stringify(legalPageType)};`} />
   <script is:inline set:html={`window.WalkQuestImageLicenseI18n = ${serializedImageLicenseCopy};`} />
   <header class="privacy-toolbar">
     <a id="privacyBackLink" href="./" style="display:inline-block;margin-bottom:32px;font-weight:800;">{privacy.backLabel}</a>
@@ -48,10 +50,12 @@ const serializedImageLicenseCopy = JSON.stringify(imageLicenseCopy).replaceAll("
     ) : (
       <ul>{block.items.map((item) => <li><InlineContent nodes={item} /></li>)}</ul>
     ))}
-    <section id="image-license" aria-labelledby="image-license-title" style="scroll-margin-top:24px;border-top:1px solid rgba(23,60,63,.12);margin-top:36px;padding-top:28px;">
-      <h2 id="image-license-title">{imageLicense.title}</h2>
-      <p>{imageLicense.body}</p>
-      <p>{imageLicense.contact}: <a href="mailto:digitalstudiogold@gmail.com">digitalstudiogold@gmail.com</a>.</p>
-    </section>
+    {legalPageType === "privacy" && (
+      <section id="image-license" aria-labelledby="image-license-title" style="scroll-margin-top:24px;border-top:1px solid rgba(23,60,63,.12);margin-top:36px;padding-top:28px;">
+        <h2 id="image-license-title">{imageLicense.title}</h2>
+        <p>{imageLicense.body}</p>
+        <p>{imageLicense.contact}: <a href="mailto:digitalstudiogold@gmail.com">digitalstudiogold@gmail.com</a>.</p>
+      </section>
+    )}
   </article>
 </main>

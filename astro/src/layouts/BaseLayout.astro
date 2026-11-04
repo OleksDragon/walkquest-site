@@ -29,7 +29,7 @@ const headScripts = head.scripts.map((script) => {
 const bodyScripts = page.bodyScripts.map((script) => {
   if (script.src.includes("pages-translations.js")) return { ...script, src: "/pages-translations.js?v=7" };
   if (/(^|\/)pages\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/pages.js?v=8" };
-  if (/(^|\/)privacy\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/privacy.js?v=2" };
+  if (/(^|\/)privacy\.js(?:\?.*)?$/.test(script.src)) return { ...script, src: "/privacy.js?v=3" };
   return script;
 });
 const serializeStructuredData = (value: Record<string, unknown>) => JSON.stringify(value).replaceAll("</script", "<\\/script");
@@ -129,7 +129,7 @@ const globalStructuredData = {
     {page.chrome === "landing" && <LandingHeader labels={page.labels} />}
     <slot />
     {page.chrome === "site" && <SiteFooter labels={page.labels} lang={page.lang} />}
-    {page.chrome === "landing" && <LandingFooter labels={page.labels} />}
+    {page.chrome === "landing" && <LandingFooter labels={page.labels} lang={page.lang} />}
     {bodyScripts.map((script) => <script src={script.src} defer={script.defer}></script>)}
   </body>
 </html>

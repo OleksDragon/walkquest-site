@@ -1,8 +1,9 @@
 import { imageRights, languages, openGraphLocale, siteUrl, type Language } from "../lib/site";
 import { getPageData, type PageData } from "../lib/page-data";
+import appRouteCatalog from "./app-route-catalog.json";
 
 export type RouteRegion = "Europe" | "Asia" | "Americas" | "Africa" | "Oceania";
-export type RouteDifficulty = "easy" | "medium" | "hard";
+export type RouteDifficulty = "easy" | "medium" | "hard" | "epic";
 export type LandmarkType = "religious" | "historical" | "natural" | "cultural";
 
 interface CityFact { name: string; country: string; km: number; note: string; }
@@ -20,7 +21,17 @@ interface RouteFact {
   signature: string[];
   stamps: number;
   isFree: boolean;
+  isStarter?: boolean;
+  estimatedCompletion?: string;
+  imageOverride?: string;
   sources: Array<{ title: string; url: string }>;
+}
+
+interface AppRouteStop { name: string; country: string; distanceKm: number; description: string; fact: string; }
+interface AppRouteCatalogItem {
+  id: string; title: string; description: string; shortTagline: string; totalKm: number;
+  difficulty: RouteDifficulty; estimatedCompletion: string; isPremium: boolean; isStarter: boolean;
+  countries: string[]; stopCount: number; stops: AppRouteStop[];
 }
 
 export interface RouteTranslation {
@@ -239,7 +250,74 @@ const facts: RouteFact[] = [
   }
 ];
 
+const appRoutes = appRouteCatalog as AppRouteCatalogItem[];
+const starterImages: Record<string, string> = {
+  "first-journey-london": "/assets/article-europe.webp",
+  "first-journey-new-york": "/assets/route-66-usa-panorama.webp",
+  "first-journey-tokyo": "/images/routes/japan-tour.webp",
+  "first-journey-cairo": "/images/routes/ancient-egypt.webp",
+  "first-journey-rio": "/images/routes/south-america-explorer.webp"
+};
+const starterRegions: Record<string, RouteRegion> = {
+  "first-journey-london": "Europe", "first-journey-new-york": "Americas",
+  "first-journey-tokyo": "Asia", "first-journey-cairo": "Africa", "first-journey-rio": "Americas"
+};
+
+function stopLandmarks(route: AppRouteCatalogItem): LandmarkFact[] {
+  const types: LandmarkType[] = ["cultural", "historical", "natural", "religious"];
+  return route.stops.slice(0, 6).map((stop, index) => mark(
+    stop.name,
+    types[index % types.length],
+    `${stop.description} ${stop.fact}`
+  ));
+}
+
+function truthfulStory(route: AppRouteCatalogItem): string {
+  const sequence = route.stops.map((stop) => stop.name).join(" → ");
+  const chapters = route.stops.slice(0, 7).map((stop) => `${stop.name}: ${stop.description} ${stop.fact}`).join(" ");
+  const last = route.stops.at(-1)!;
+  return `${route.description} ${route.shortTagline} This is the exact ${route.totalKm.toLocaleString("en")} km itinerary currently available in the WalkQuest app, with ${route.stopCount} milestones in this order: ${sequence}. ${chapters} The journey finishes at ${last.name} after ${route.totalKm.toLocaleString("en")} km. Distances and milestone counts on this page are generated from the same route catalog used by the app, so the guide matches the experience users unlock.`;
+}
+
+function canonicalFact(route: AppRouteCatalogItem, existing?: RouteFact): RouteFact {
+  const slug = route.id.replaceAll("_", "-");
+  const starter = route.isStarter;
+  return {
+    ...(existing ?? {
+      slug,
+      name: route.title,
+      region: starterRegions[slug],
+      sources: [{ title: "WalkQuest on Google Play", url: "https://play.google.com/store/apps/details?id=com.walkquest" }]
+    }),
+    slug,
+    name: route.title,
+    countries: route.countries,
+    distanceKm: route.totalKm,
+    difficulty: route.difficulty,
+    estimatedCompletion: route.estimatedCompletion,
+    isFree: starter,
+    isStarter: starter,
+    imageOverride: starterImages[slug],
+    stamps: route.stopCount,
+    story: truthfulStory(route),
+    signature: [route.shortTagline, ...route.stops.slice(0, 5).map((stop) => stop.name)],
+    cities: route.stops.map((stop) => city(stop.name, stop.country, stop.distanceKm, `${stop.description} ${stop.fact}`)),
+    landmarks: stopLandmarks(route)
+  } as RouteFact;
+}
+
+// App data is the source of truth. Existing editorial facts provide region and sources;
+// distances, access level, completion estimate and milestones always come from the app catalog.
+const synchronizedFacts: RouteFact[] = appRoutes
+  .filter((route) => !["europe_explorer", "route_66_usa", "around_the_world_lite", "kyoto_autumn_temples", "greek_islands_odyssey", "iceland_ring_road"].includes(route.id))
+  .map((route) => canonicalFact(route, facts.find((fact) => fact.slug === route.id.replaceAll("_", "-"))));
+
 const routeNameTranslations: Record<string, Partial<Record<Language["code"], string>>> = {
+  "first-journey-london": { uk: "Перша подорож: Лондон", ru: "Первое путешествие: Лондон", es: "Primer viaje: Londres", de: "Erste Reise: London", fr: "Premier voyage : Londres", pl: "Pierwsza podróż: Londyn", pt: "Primeira viagem: Londres", "pt-BR": "Primeira viagem: Londres", it: "Primo viaggio: Londra", tr: "İlk Yolculuk: Londra", ja: "はじめての旅：ロンドン", ko: "첫 여행: 런던", "zh-CN": "首次旅程：伦敦", ar: "الرحلة الأولى: لندن", hi: "पहली यात्रा: लंदन" },
+  "first-journey-new-york": { uk: "Перша подорож: Нью-Йорк", ru: "Первое путешествие: Нью-Йорк", es: "Primer viaje: Nueva York", de: "Erste Reise: New York", fr: "Premier voyage : New York", pl: "Pierwsza podróż: Nowy Jork", pt: "Primeira viagem: Nova Iorque", "pt-BR": "Primeira viagem: Nova York", it: "Primo viaggio: New York", tr: "İlk Yolculuk: New York", ja: "はじめての旅：ニューヨーク", ko: "첫 여행: 뉴욕", "zh-CN": "首次旅程：纽约", ar: "الرحلة الأولى: نيويورك", hi: "पहली यात्रा: न्यूयॉर्क" },
+  "first-journey-tokyo": { uk: "Перша подорож: Токіо", ru: "Первое путешествие: Токио", es: "Primer viaje: Tokio", de: "Erste Reise: Tokio", fr: "Premier voyage : Tokyo", pl: "Pierwsza podróż: Tokio", pt: "Primeira viagem: Tóquio", "pt-BR": "Primeira viagem: Tóquio", it: "Primo viaggio: Tokyo", tr: "İlk Yolculuk: Tokyo", ja: "はじめての旅：東京", ko: "첫 여행: 도쿄", "zh-CN": "首次旅程：东京", ar: "الرحلة الأولى: طوكيو", hi: "पहली यात्रा: टोक्यो" },
+  "first-journey-cairo": { uk: "Перша подорож: Каїр", ru: "Первое путешествие: Каир", es: "Primer viaje: El Cairo", de: "Erste Reise: Kairo", fr: "Premier voyage : Le Caire", pl: "Pierwsza podróż: Kair", pt: "Primeira viagem: Cairo", "pt-BR": "Primeira viagem: Cairo", it: "Primo viaggio: Il Cairo", tr: "İlk Yolculuk: Kahire", ja: "はじめての旅：カイロ", ko: "첫 여행: 카이로", "zh-CN": "首次旅程：开罗", ar: "الرحلة الأولى: القاهرة", hi: "पहली यात्रा: काहिरा" },
+  "first-journey-rio": { uk: "Перша подорож: Ріо", ru: "Первое путешествие: Рио", es: "Primer viaje: Río", de: "Erste Reise: Rio", fr: "Premier voyage : Rio", pl: "Pierwsza podróż: Rio", pt: "Primeira viagem: Rio", "pt-BR": "Primeira viagem: Rio", it: "Primo viaggio: Rio", tr: "İlk Yolculuk: Rio", ja: "はじめての旅：リオ", ko: "첫 여행: 리우", "zh-CN": "首次旅程：里约", ar: "الرحلة الأولى: ريو", hi: "पहली यात्रा: रियो" },
   "italy-dream": { uk: "Мрія про Італію", ru: "Мечта об Италии", es: "Sueño italiano", de: "Italienischer Traum", fr: "Rêve d’Italie", pl: "Włoskie marzenie", pt: "Sonho Italiano", "pt-BR": "Sonho Italiano", it: "Sogno Italiano", tr: "İtalya Rüyası", ja: "イタリア夢紀行", ko: "이탈리아 드림", "zh-CN": "意大利梦之旅", ar: "حلم إيطاليا", hi: "इटली का सपना" },
   "japan-tour": { uk: "Подорож Японією", ru: "Путешествие по Японии", es: "Tour de Japón", de: "Japan-Rundreise", fr: "Tour du Japon", pl: "Podróż po Japonii", pt: "Rota do Japão", "pt-BR": "Rota do Japão", it: "Tour del Giappone", tr: "Japonya Turu", ja: "日本周遊", ko: "일본 일주", "zh-CN": "日本巡游", ar: "جولة اليابان", hi: "जापान यात्रा" },
   "nordic-route": { uk: "Північний маршрут", ru: "Северный маршрут", es: "Ruta Nórdica", de: "Nordische Route", fr: "Route Nordique", pl: "Trasa Nordycka", pt: "Rota Nórdica", "pt-BR": "Rota Nórdica", it: "Rotta Nordica", tr: "Nordik Rota", ja: "北欧ルート", ko: "북유럽 루트", "zh-CN": "北欧路线", ar: "مسار الشمال الأوروبي", hi: "नॉर्डिक मार्ग" },
@@ -287,8 +365,18 @@ const localePacks: Record<string, {
   hi: { journey: "आभासी पैदल यात्रा", explore: "अन्वेषण करें", through: "के पार", route: "मार्ग", distance: "दूरी", highlights: "मुख्य आकर्षण", cities: "शहर और पड़ाव", landmarks: "दर्शनीय स्थल", stats: "मार्ग आँकड़े", weeks: "प्रतिदिन 10,000 कदम पर सप्ताह", difficulty: "कठिनाई", stamps: "संग्रह योग्य टिकट", free: "निःशुल्क मार्ग", premium: "प्रीमियम मार्ग", open: "WalkQuest में खोलें", related: "संबंधित मार्ग", sources: "तथ्य स्रोत", imageCredit: "मुख्य चित्र: WalkQuest के लिए OpenAI द्वारा बनाई गई मौलिक कलाकृति।", home: "मुखपृष्ठ", allRoutes: "मार्ग", cityNote: (c,country,km) => `${c}, ${country} में ${km} किमी का पड़ाव है, जो यात्रा में एक अलग स्थानीय अध्याय जोड़ता है।`, landmarkNote: (n,t) => `${n} को इस चरण के संदर्भ के साथ ${t} स्थल के रूप में प्रस्तुत किया गया है।`, describe: (n,d,c,cs,s,w) => `${n}, ${c} के पार ${d} किमी की आभासी पैदल यात्रा है। यह ${cs} को जोड़ती है और वास्तविक भूगोल तथा प्रमाणित विरासत को दीर्घकालीन रोमांच में बदलती है। इसके प्रमुख अध्याय हैं ${s}। प्रतिदिन 10,000 कदम पर पूरी दूरी लगभग ${w} सप्ताह में तय होती है। हर पड़ाव इतिहास, संस्कृति और प्रकृति का संदर्भ खोलता है, जबकि डिजिटल टिकट प्रगति दिखाते हैं। सुरक्षित और सुविधाजनक स्थान पर चलें: Health Connect के कदम समुद्र, पर्वत और लंबे स्थानांतरण वाले आभासी मानचित्र को भी आगे बढ़ाते हैं।` }
 };
 
-const difficultyLabels: Record<string, Record<RouteDifficulty, string>> = {
+const difficultyLabels: Record<string, Record<string, string>> = {
   en: { easy: "Easy", medium: "Medium", hard: "Hard" }, uk: { easy: "Легко", medium: "Середньо", hard: "Складно" }, ru: { easy: "Легко", medium: "Средне", hard: "Сложно" }, es: { easy: "Fácil", medium: "Media", hard: "Difícil" }, de: { easy: "Leicht", medium: "Mittel", hard: "Schwer" }, fr: { easy: "Facile", medium: "Moyenne", hard: "Difficile" }, pl: { easy: "Łatwa", medium: "Średnia", hard: "Trudna" }, pt: { easy: "Fácil", medium: "Média", hard: "Difícil" }, "pt-BR": { easy: "Fácil", medium: "Média", hard: "Difícil" }, it: { easy: "Facile", medium: "Media", hard: "Difficile" }, tr: { easy: "Kolay", medium: "Orta", hard: "Zor" }, ja: { easy: "初級", medium: "中級", hard: "上級" }, ko: { easy: "쉬움", medium: "보통", hard: "어려움" }, "zh-CN": { easy: "简单", medium: "中等", hard: "困难" }, ar: { easy: "سهل", medium: "متوسط", hard: "صعب" }, hi: { easy: "आसान", medium: "मध्यम", hard: "कठिन" }
+};
+
+const epicLabels: Record<string, string> = {
+  en: "Epic", uk: "Епічно", ru: "Эпическая", es: "Épica", de: "Episch", fr: "Épique", pl: "Epicka",
+  pt: "Épica", "pt-BR": "Épica", it: "Epica", tr: "Destansı", ja: "最上級", ko: "에픽", "zh-CN": "史诗级", ar: "ملحمي", hi: "महाकाव्य"
+};
+
+const starterLabels: Record<string, string> = {
+  en: "Starter route", uk: "Стартовий маршрут", ru: "Стартовый маршрут", es: "Ruta inicial", de: "Startroute", fr: "Parcours de départ", pl: "Trasa startowa",
+  pt: "Rota inicial", "pt-BR": "Rota inicial", it: "Percorso iniziale", tr: "Başlangıç rotası", ja: "スタータールート", ko: "스타터 경로", "zh-CN": "入门路线", ar: "مسار البداية", hi: "स्टार्टर मार्ग"
 };
 
 const regionLabels: Record<string, Record<RouteRegion, string>> = {
@@ -423,12 +511,13 @@ function buildTranslation(fact: RouteFact, language: Language, weeks: number): R
   };
 }
 
-export const newRoutes: RouteData[] = facts.map((fact) => {
-  const weeks = Math.max(1, Math.round(fact.distanceKm / 52.5));
+export const newRoutes: RouteData[] = synchronizedFacts.map((fact) => {
+  const completionMatch = fact.estimatedCompletion?.match(/(\d+)(?:-(\d+))?/);
+  const weeks = completionMatch ? Math.round((Number(completionMatch[1]) + Number(completionMatch[2] ?? completionMatch[1])) / 2) : Math.max(1, Math.round(fact.distanceKm / 52.5));
   return {
     ...fact,
     weeks,
-    image: `/images/routes/${fact.slug}.webp`,
+    image: fact.imageOverride ?? `/images/routes/${fact.slug}.webp`,
     imageCredit: "AI-generated original artwork by OpenAI for WalkQuest",
     translations: Object.fromEntries(languages.map((language) => [language.code, buildTranslation(fact, language, weeks)]))
   };
@@ -479,5 +568,6 @@ export function routePageData(route: RouteData, language: Language): PageData {
 }
 
 export function labelsFor(locale: string) {
-  return { ...localePacks[locale], difficultyText: difficultyLabels[locale], regionText: regionLabels[locale], categoryText: categoryLabels[locale] };
+  const difficultyText = { ...difficultyLabels[locale], epic: epicLabels[locale] } as Record<RouteDifficulty, string>;
+  return { ...localePacks[locale], starter: starterLabels[locale], difficultyText, regionText: regionLabels[locale], categoryText: categoryLabels[locale] };
 }

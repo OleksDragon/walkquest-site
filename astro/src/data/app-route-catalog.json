@@ -1,0 +1,3528 @@
+[
+  {
+    "id": "europe_explorer",
+    "title": "Europe Explorer",
+    "description": "Hop across Europe from London landmarks to Prague castles.",
+    "shortTagline": "Capital cities, canals, and old town streets.",
+    "routeTheme": "Europe",
+    "totalKm": 1240.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "8-10 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 6,
+    "countries": [
+      "UK",
+      "France",
+      "Belgium",
+      "Netherlands",
+      "Germany",
+      "Czechia"
+    ],
+    "stopCount": 12,
+    "stops": [
+      {
+        "name": "London",
+        "country": "United Kingdom",
+        "distanceKm": 0.0,
+        "description": "Start beside the Thames and historic landmarks.",
+        "fact": "London has more than 170 museums.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dover",
+        "country": "United Kingdom",
+        "distanceKm": 120.0,
+        "description": "White cliffs mark the final English stop before the Channel.",
+        "fact": "Dover Castle has guarded the narrowest part of the Channel for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Calais",
+        "country": "France",
+        "distanceKm": 150.0,
+        "description": "Arrive in France beside the Channel and its historic harbor.",
+        "fact": "On clear days the cliffs of Dover can be seen from Calais.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Paris",
+        "country": "France",
+        "distanceKm": 345.0,
+        "description": "Boulevards, bridges, cafes, and the Eiffel Tower.",
+        "fact": "The Eiffel Tower can grow taller in hot weather.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lille",
+        "country": "France",
+        "distanceKm": 470.0,
+        "description": "Discover Flemish facades, lively squares, and northern French culture.",
+        "fact": "Lille was once one of the great merchant cities of Flanders.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Brussels",
+        "country": "Belgium",
+        "distanceKm": 610.0,
+        "description": "A compact capital full of squares and chocolate.",
+        "fact": "Brussels is famous for more than 180 nationalities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Antwerp",
+        "country": "Belgium",
+        "distanceKm": 690.0,
+        "description": "Pause among guild houses, art, and a working river port.",
+        "fact": "Antwerp has been a major diamond-trading center for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rotterdam",
+        "country": "Netherlands",
+        "distanceKm": 755.0,
+        "description": "Modern architecture rises around one of Europe’s busiest ports.",
+        "fact": "Rotterdam rebuilt with bold modern design after World War II.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Amsterdam",
+        "country": "Netherlands",
+        "distanceKm": 820.0,
+        "description": "Canals, bikes, narrow houses, and bright water.",
+        "fact": "Amsterdam has more bikes than residents.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hannover",
+        "country": "Germany",
+        "distanceKm": 970.0,
+        "description": "Green parks and red-brick streets break up the journey east.",
+        "fact": "Hannover’s Eilenriede is one of Europe’s largest urban forests.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Berlin",
+        "country": "Germany",
+        "distanceKm": 1120.0,
+        "description": "A creative capital with layered history.",
+        "fact": "Berlin has more bridges than Venice.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Prague",
+        "country": "Czechia",
+        "distanceKm": 1240.0,
+        "description": "Finish among castle views and old town streets.",
+        "fact": "Prague Castle is one of the largest castle complexes on Earth.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 1,
+    "transfers": [
+      {
+        "id": "europe_channel_train",
+        "mode": "ferry",
+        "startKm": 120.0,
+        "endKm": 150.0,
+        "rewardedAdsRequired": 2
+      }
+    ]
+  },
+  {
+    "id": "italy_dream",
+    "title": "Italy Dream",
+    "description": "Walk Italy from Milan style to the warm streets of Naples.",
+    "shortTagline": "Art, canals, ruins, and coastal flavor.",
+    "routeTheme": "Europe",
+    "totalKm": 980.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "7-9 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 2,
+    "countries": [
+      "Italy",
+      "Vatican City"
+    ],
+    "stopCount": 14,
+    "stops": [
+      {
+        "name": "Milan",
+        "country": "Italy",
+        "distanceKm": 0.0,
+        "description": "Fashion, design, and cathedral spires.",
+        "fact": "Milan Cathedral took nearly six centuries to complete.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Bergamo",
+        "country": "Italy",
+        "distanceKm": 55.0,
+        "description": "Climb into a walled upper city of stone lanes and broad views.",
+        "fact": "Bergamo’s Venetian Walls are part of a UNESCO World Heritage site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Brescia",
+        "country": "Italy",
+        "distanceKm": 105.0,
+        "description": "Roman ruins and graceful squares mark the road east.",
+        "fact": "Brescia preserves one of northern Italy’s largest Roman archaeological areas.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Verona",
+        "country": "Italy",
+        "distanceKm": 165.0,
+        "description": "Walk beside the Adige through Roman gates and medieval streets.",
+        "fact": "Verona’s Roman arena has hosted public events for nearly two thousand years.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Padua",
+        "country": "Italy",
+        "distanceKm": 230.0,
+        "description": "Arcaded streets lead to frescoes, markets, and a vast elliptical square.",
+        "fact": "The University of Padua was founded in 1222.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Venice",
+        "country": "Italy",
+        "distanceKm": 270.0,
+        "description": "A floating maze of canals and bridges.",
+        "fact": "Venice is built on more than 100 small islands.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ferrara",
+        "country": "Italy",
+        "distanceKm": 350.0,
+        "description": "Renaissance walls, bicycles, and a moated castle shape this quiet stop.",
+        "fact": "Ferrara was one of Europe’s earliest cities planned with modern urban principles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Bologna",
+        "country": "Italy",
+        "distanceKm": 420.0,
+        "description": "Long porticoes shelter a city of towers, markets, and rich food traditions.",
+        "fact": "Bologna’s historic porticoes extend for more than 60 kilometers.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Florence",
+        "country": "Italy",
+        "distanceKm": 530.0,
+        "description": "Renaissance art wrapped in Tuscan light.",
+        "fact": "Florence was once the capital of Italy.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Siena",
+        "country": "Italy",
+        "distanceKm": 610.0,
+        "description": "Brick lanes converge on a shell-shaped piazza in the Tuscan hills.",
+        "fact": "Siena’s Palio horse race has roots stretching back to the seventeenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Orvieto",
+        "country": "Italy",
+        "distanceKm": 710.0,
+        "description": "A dramatic volcanic plateau carries a striped cathedral above the valley.",
+        "fact": "Orvieto sits on a mass of volcanic tuff above caves carved over many centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rome",
+        "country": "Italy",
+        "distanceKm": 805.0,
+        "description": "Ancient ruins, fountains, and endless streets.",
+        "fact": "Rome has a sovereign country inside it: Vatican City.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cassino",
+        "country": "Italy",
+        "distanceKm": 895.0,
+        "description": "The route passes beneath a rebuilt hilltop abbey with a long history.",
+        "fact": "Monte Cassino Abbey was founded by Benedict of Nursia around 529.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Naples",
+        "country": "Italy",
+        "distanceKm": 980.0,
+        "description": "A lively finish near the bay and Vesuvius.",
+        "fact": "Naples is often called the birthplace of pizza.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "japan_tour",
+    "title": "Japan Tour",
+    "description": "Trace Japan from Tokyo energy to Kyoto calm and Hiroshima.",
+    "shortTagline": "Neon cities, temples, mountains, and peace parks.",
+    "routeTheme": "Asia",
+    "totalKm": 890.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "6-8 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Japan"
+    ],
+    "stopCount": 13,
+    "stops": [
+      {
+        "name": "Tokyo",
+        "country": "Japan",
+        "distanceKm": 0.0,
+        "description": "A neon start with temples tucked between towers.",
+        "fact": "Tokyo is one of the world's most populous metro areas.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Yokohama",
+        "country": "Japan",
+        "distanceKm": 30.0,
+        "description": "A waterfront skyline and historic port open the road south.",
+        "fact": "Yokohama developed rapidly after its port opened to international trade in 1859.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hakone",
+        "country": "Japan",
+        "distanceKm": 95.0,
+        "description": "Hot springs and mountain views near Fuji.",
+        "fact": "Hakone is known for black eggs boiled in volcanic springs.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Shizuoka",
+        "country": "Japan",
+        "distanceKm": 180.0,
+        "description": "Tea country and views of Mount Fuji accompany the journey west.",
+        "fact": "Shizuoka Prefecture is one of Japan’s leading tea-producing regions.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hamamatsu",
+        "country": "Japan",
+        "distanceKm": 270.0,
+        "description": "Lakeside landscapes meet a city known for music and engineering.",
+        "fact": "Major Japanese musical-instrument companies were founded in Hamamatsu.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Nagoya",
+        "country": "Japan",
+        "distanceKm": 350.0,
+        "description": "A castle city blends samurai history with modern industry.",
+        "fact": "Nagoya Castle is famous for the golden shachihoko on its roof.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kyoto",
+        "country": "Japan",
+        "distanceKm": 460.0,
+        "description": "Shrines, bamboo groves, and old lanes.",
+        "fact": "Kyoto has more than 1,600 Buddhist temples.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Osaka",
+        "country": "Japan",
+        "distanceKm": 515.0,
+        "description": "Street food, castles, and bright nightlife.",
+        "fact": "Osaka is nicknamed Japan's kitchen.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kobe",
+        "country": "Japan",
+        "distanceKm": 550.0,
+        "description": "Mountain slopes descend toward a cosmopolitan harbor.",
+        "fact": "Kobe was among the first Japanese ports opened to international trade in the nineteenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Himeji",
+        "country": "Japan",
+        "distanceKm": 625.0,
+        "description": "A brilliant white castle rises above gardens and old streets.",
+        "fact": "Himeji Castle is Japan’s largest surviving feudal castle complex.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Okayama",
+        "country": "Japan",
+        "distanceKm": 705.0,
+        "description": "A celebrated landscape garden offers a calm stop beside the river.",
+        "fact": "Korakuen is traditionally counted among Japan’s three great gardens.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Fukuyama",
+        "country": "Japan",
+        "distanceKm": 790.0,
+        "description": "A castle town leads toward the historic ports of the Seto Inland Sea.",
+        "fact": "Nearby Tomonoura has served as a sheltered port for more than a thousand years.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hiroshima",
+        "country": "Japan",
+        "distanceKm": 890.0,
+        "description": "A meaningful final stop by Peace Memorial Park.",
+        "fact": "Hiroshima rebuilt its streetcar network after World War II.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "route_66_usa",
+    "title": "Route 66 USA",
+    "description": "Follow the spirit of Route 66 from Chicago to Los Angeles.",
+    "shortTagline": "Classic diners, desert towns, and Pacific dreams.",
+    "routeTheme": "America",
+    "totalKm": 3940.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "24-30 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "USA"
+    ],
+    "stopCount": 19,
+    "stops": [
+      {
+        "name": "Chicago",
+        "country": "USA",
+        "distanceKm": 0.0,
+        "description": "Begin near Lake Michigan and classic diners.",
+        "fact": "Route 66 originally began in Chicago in 1926.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Joliet",
+        "country": "USA",
+        "distanceKm": 70.0,
+        "description": "Historic road signs and limestone landmarks welcome travelers out of Chicago.",
+        "fact": "Joliet’s former prison is one of the best-known landmarks along Illinois Route 66.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Springfield, Illinois",
+        "country": "USA",
+        "distanceKm": 320.0,
+        "description": "Lincoln history and classic roadside stops anchor the Illinois stretch.",
+        "fact": "Springfield contains Abraham Lincoln’s home and presidential museum.",
+        "imageAsset": ""
+      },
+      {
+        "name": "St. Louis",
+        "country": "USA",
+        "distanceKm": 480.0,
+        "description": "Pass the Gateway Arch on the Mississippi.",
+        "fact": "The Gateway Arch is 630 feet tall and 630 feet wide.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Springfield, Missouri",
+        "country": "USA",
+        "distanceKm": 810.0,
+        "description": "Neon signs and roadside history mark the birthplace of the route’s famous name.",
+        "fact": "A 1926 telegram sent from Springfield helped establish the name Route 66.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Joplin",
+        "country": "USA",
+        "distanceKm": 1010.0,
+        "description": "Murals and mining history accompany the road toward Oklahoma.",
+        "fact": "Joplin grew rapidly during the regional lead and zinc mining boom.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tulsa",
+        "country": "USA",
+        "distanceKm": 1120.0,
+        "description": "Art deco details and road-trip history.",
+        "fact": "Tulsa calls itself the capital of Route 66.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Oklahoma City",
+        "country": "USA",
+        "distanceKm": 1300.0,
+        "description": "The route crosses a state capital filled with western and road-trip history.",
+        "fact": "Oklahoma has more drivable miles of historic Route 66 than any other state.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Amarillo",
+        "country": "USA",
+        "distanceKm": 1730.0,
+        "description": "Big skies, cattle culture, and roadside art define the Texas Panhandle.",
+        "fact": "Cadillac Ranch has displayed its line of buried cars west of Amarillo since 1974.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tucumcari",
+        "country": "USA",
+        "distanceKm": 1990.0,
+        "description": "Restored neon motels preserve the atmosphere of the Mother Road.",
+        "fact": "Tucumcari Boulevard retains a notable collection of Route 66 neon signs.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Santa Fe",
+        "country": "USA",
+        "distanceKm": 2300.0,
+        "description": "Desert colors, adobe architecture, and big sky.",
+        "fact": "Santa Fe is the oldest state capital in the United States.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Albuquerque",
+        "country": "USA",
+        "distanceKm": 2430.0,
+        "description": "Adobe neighborhoods and vintage signs follow the Rio Grande valley.",
+        "fact": "Central Avenue carries Route 66 through the heart of Albuquerque.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Gallup",
+        "country": "USA",
+        "distanceKm": 2730.0,
+        "description": "Red-rock country surrounds a trading town rich in Native American culture.",
+        "fact": "Gallup has long been a regional center for Native arts and trading posts.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Winslow",
+        "country": "USA",
+        "distanceKm": 2980.0,
+        "description": "Railroad heritage and a famous downtown corner enliven the Arizona road.",
+        "fact": "Winslow grew as an important stop on the Santa Fe Railway.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Flagstaff",
+        "country": "USA",
+        "distanceKm": 3150.0,
+        "description": "Pine forest and mountain air replace the open desert.",
+        "fact": "Flagstaff became the world’s first International Dark Sky City in 2001.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kingman",
+        "country": "USA",
+        "distanceKm": 3410.0,
+        "description": "A historic depot introduces one of Arizona’s best-preserved Route 66 stretches.",
+        "fact": "Kingman sits beside a long driveable section of historic Route 66 through northwestern Arizona.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Barstow",
+        "country": "USA",
+        "distanceKm": 3710.0,
+        "description": "Desert rail history and roadside museums signal the approach to California’s coast.",
+        "fact": "Barstow stands at a major historic junction of Route 66 and rail lines.",
+        "imageAsset": ""
+      },
+      {
+        "name": "San Bernardino",
+        "country": "USA",
+        "distanceKm": 3830.0,
+        "description": "The road leaves the Mojave behind and enters Southern California’s urban basin.",
+        "fact": "San Bernardino is home to the site of the first McDonald’s restaurant.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Los Angeles",
+        "country": "USA",
+        "distanceKm": 3940.0,
+        "description": "Finish by the Pacific after a long virtual trek.",
+        "fact": "Historic Route 66 ended near Santa Monica Pier.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "nordic_route",
+    "title": "Nordic Route",
+    "description": "Explore Nordic capitals and calm coastal landscapes.",
+    "shortTagline": "Harbors, islands, fjords, and northern design.",
+    "routeTheme": "Nature",
+    "totalKm": 1780.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "12-15 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 4,
+    "countries": [
+      "Denmark",
+      "Sweden",
+      "Norway",
+      "Finland"
+    ],
+    "stopCount": 9,
+    "stops": [
+      {
+        "name": "Copenhagen",
+        "country": "Denmark",
+        "distanceKm": 0.0,
+        "description": "Start with harbors, bikes, and colorful facades.",
+        "fact": "Copenhagen has more bicycles than cars.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Malmö",
+        "country": "Sweden",
+        "distanceKm": 20.0,
+        "description": "Cross the Öresund into a waterfront city of old squares and bold modern design.",
+        "fact": "The Öresund Bridge carries both road and rail traffic between Denmark and Sweden.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Jönköping",
+        "country": "Sweden",
+        "distanceKm": 310.0,
+        "description": "Pause beside Lake Vättern among lakeside paths, museums, and match-manufacturing history.",
+        "fact": "Jönköping sits at the southern end of Lake Vättern, Sweden’s second-largest lake.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Stockholm",
+        "country": "Sweden",
+        "distanceKm": 655.0,
+        "description": "An island capital built across water.",
+        "fact": "Stockholm spreads across 14 islands.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Örebro",
+        "country": "Sweden",
+        "distanceKm": 800.0,
+        "description": "Follow the Svartån River past a medieval castle and wooden historic quarter.",
+        "fact": "Örebro Castle has stood at this river crossing for roughly seven centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Karlstad",
+        "country": "Sweden",
+        "distanceKm": 990.0,
+        "description": "Meet the Klarälven River near Lake Vänern in Sweden’s sunny city.",
+        "fact": "Karlstad stands where Sweden’s longest river reaches Vänern, the European Union’s largest lake.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Oslo",
+        "country": "Norway",
+        "distanceKm": 1180.0,
+        "description": "Green hills, fjord views, and modern museums.",
+        "fact": "Most of Oslo is forest or green space.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Turku",
+        "country": "Finland",
+        "distanceKm": 1650.0,
+        "description": "Arrive on the Aura River among medieval landmarks and Baltic maritime history.",
+        "fact": "Turku Cathedral was consecrated in 1300 and is Finland’s national shrine.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Helsinki",
+        "country": "Finland",
+        "distanceKm": 1780.0,
+        "description": "A Baltic finish with design and sea air.",
+        "fact": "Helsinki has hundreds of islands in its archipelago.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 2,
+    "transfers": [
+      {
+        "id": "nordic_oresund_train",
+        "mode": "train",
+        "startKm": 0.0,
+        "endKm": 20.0,
+        "rewardedAdsRequired": 2
+      },
+      {
+        "id": "nordic_baltic_ferry",
+        "mode": "ferry",
+        "startKm": 1180.0,
+        "endKm": 1650.0,
+        "rewardedAdsRequired": 6
+      }
+    ]
+  },
+  {
+    "id": "camino_de_santiago",
+    "title": "Camino de Santiago",
+    "description": "Walk a Camino-inspired route toward Santiago de Compostela.",
+    "shortTagline": "Pilgrim towns, cathedrals, and quiet roads.",
+    "routeTheme": "Historic",
+    "totalKm": 790.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "5-7 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 2,
+    "countries": [
+      "France",
+      "Spain"
+    ],
+    "stopCount": 10,
+    "stops": [
+      {
+        "name": "Saint-Jean-Pied-de-Port",
+        "country": "France",
+        "distanceKm": 0.0,
+        "description": "A mountain village at the traditional Camino start.",
+        "fact": "The town name means Saint John at the foot of the pass.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Pamplona",
+        "country": "Spain",
+        "distanceKm": 75.0,
+        "description": "Medieval streets and lively plazas.",
+        "fact": "Pamplona is famous for the San Fermin festival.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Logrono",
+        "country": "Spain",
+        "distanceKm": 170.0,
+        "description": "A Rioja capital where the Camino crosses the Ebro beside old churches and lively tapas streets.",
+        "fact": "Logrono is mentioned in the 12th-century Codex Calixtinus, an early guide to the Camino.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Burgos",
+        "country": "Spain",
+        "distanceKm": 290.0,
+        "description": "A cathedral city with Gothic drama.",
+        "fact": "Burgos Cathedral is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Fromista",
+        "country": "Spain",
+        "distanceKm": 370.0,
+        "description": "A compact Castilian stop of Romanesque stone, canal water, and open meseta landscapes.",
+        "fact": "The Church of San Martin is one of the best-known Romanesque landmarks on the French Way.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Leon",
+        "country": "Spain",
+        "distanceKm": 470.0,
+        "description": "Stained glass, old walls, and pilgrim energy.",
+        "fact": "Leon Cathedral is nicknamed the House of Light.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Astorga",
+        "country": "Spain",
+        "distanceKm": 525.0,
+        "description": "Roman heritage and Gaudi architecture meet where two historic pilgrimage routes cross.",
+        "fact": "Gaudi designed Astorga Episcopal Palace in a distinctive neo-Gothic style.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ponferrada",
+        "country": "Spain",
+        "distanceKm": 600.0,
+        "description": "A Bierzo valley city dominated by a many-towered Templar castle.",
+        "fact": "The Castle of the Templars guards a historic crossing of the Sil River.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sarria",
+        "country": "Spain",
+        "distanceKm": 690.0,
+        "description": "A green Galician Camino town and the most popular starting point for the final walk to Santiago.",
+        "fact": "Sarria lies just beyond the minimum 100-kilometre walking distance required for the Compostela certificate.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Santiago de Compostela",
+        "country": "Spain",
+        "distanceKm": 790.0,
+        "description": "The classic finish at the cathedral square.",
+        "fact": "Pilgrims have walked to Santiago for more than 1,000 years.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "silk_road_journey",
+    "title": "Silk Road Journey",
+    "description": "Join a virtual caravan across great Silk Road cities.",
+    "shortTagline": "Trading cities, blue domes, and desert crossings.",
+    "routeTheme": "Epic",
+    "totalKm": 5200.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "35-45 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 4,
+    "countries": [
+      "Turkey",
+      "Iran",
+      "Uzbekistan",
+      "China"
+    ],
+    "stopCount": 14,
+    "stops": [
+      {
+        "name": "Istanbul",
+        "country": "Turkey",
+        "distanceKm": 0.0,
+        "description": "A bridge between continents and cultures.",
+        "fact": "Istanbul has been capital of three major empires.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ankara",
+        "country": "Turkey",
+        "distanceKm": 500.0,
+        "description": "An Anatolian capital layered with a Roman temple, a hilltop citadel, and modern museums.",
+        "fact": "Ankara became the capital of the Republic of Turkey in 1923.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Goreme",
+        "country": "Turkey",
+        "distanceKm": 760.0,
+        "description": "A Cappadocian settlement surrounded by volcanic valleys, cave churches, and rock-cut homes.",
+        "fact": "The Goreme Open-Air Museum preserves a major complex of medieval rock-cut churches.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tabriz",
+        "country": "Iran",
+        "distanceKm": 1450.0,
+        "description": "A historic Iranian trading city centered on one of the Silk Road's great covered bazaars.",
+        "fact": "The Tabriz Historic Bazaar Complex is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tehran",
+        "country": "Iran",
+        "distanceKm": 2050.0,
+        "description": "A mountain-framed capital with deep history.",
+        "fact": "Tehran sits near the Alborz Mountains.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mashhad",
+        "country": "Iran",
+        "distanceKm": 2600.0,
+        "description": "A major Khorasan city shaped by pilgrimage, poetry, bazaars, and routes toward Central Asia.",
+        "fact": "Mashhad grew around the shrine of Imam Reza, one of the world's largest mosque complexes.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Bukhara",
+        "country": "Uzbekistan",
+        "distanceKm": 3000.0,
+        "description": "An oasis city of blue domes, brick minarets, trading halls, and preserved caravan history.",
+        "fact": "Bukhara served for centuries as a major center of trade and Islamic learning.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Samarkand",
+        "country": "Uzbekistan",
+        "distanceKm": 3150.0,
+        "description": "Blue domes and caravanserai memories.",
+        "fact": "Samarkand was a key Silk Road crossroads.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tashkent",
+        "country": "Uzbekistan",
+        "distanceKm": 3350.0,
+        "description": "A leafy Central Asian capital where old mahallas and markets meet monumental modern avenues.",
+        "fact": "Tashkent has long connected the settled oases of Transoxiana with routes toward the Tian Shan.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Osh",
+        "country": "Kyrgyzstan",
+        "distanceKm": 3700.0,
+        "description": "A Fergana Valley market city beneath sacred Sulayman Mountain.",
+        "fact": "Osh has served travelers and traders on Central Asian routes for more than two millennia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kashgar",
+        "country": "China",
+        "distanceKm": 4200.0,
+        "description": "Markets, desert routes, and old trading paths.",
+        "fact": "Kashgar has been a trading hub for over two millennia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Turpan",
+        "country": "China",
+        "distanceKm": 4600.0,
+        "description": "A desert oasis of vineyards, ancient ruins, and underground irrigation north of the Taklamakan.",
+        "fact": "Turpan's karez channels carry mountain water underground to fields in the arid basin.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dunhuang",
+        "country": "China",
+        "distanceKm": 4900.0,
+        "description": "A Gansu Corridor oasis known for painted caves, dunes, and caravan-route archaeology.",
+        "fact": "The Mogao Caves preserve nearly a thousand years of Buddhist art beside the Silk Roads.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Xian",
+        "country": "China",
+        "distanceKm": 5200.0,
+        "description": "End near ancient walls and terracotta warriors.",
+        "fact": "Xian was the eastern starting point of the Silk Road.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "ancient_egypt",
+    "title": "Ancient Egypt",
+    "description": "Follow the Nile from Cairo to ancient southern temples.",
+    "shortTagline": "Pyramids, Nile cities, temples, and desert light.",
+    "routeTheme": "Historic",
+    "totalKm": 920.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "6-8 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Egypt"
+    ],
+    "stopCount": 9,
+    "stops": [
+      {
+        "name": "Cairo",
+        "country": "Egypt",
+        "distanceKm": 0.0,
+        "description": "Begin near the Nile and the pyramids.",
+        "fact": "Cairo is one of the largest cities in Africa.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Giza",
+        "country": "Egypt",
+        "distanceKm": 20.0,
+        "description": "Walk toward the last ancient wonder still standing.",
+        "fact": "The Great Pyramid was the tallest human-made structure for millennia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Saqqara",
+        "country": "Egypt",
+        "distanceKm": 55.0,
+        "description": "A vast desert necropolis where royal tombs trace the development of pyramid building.",
+        "fact": "Djoser's Step Pyramid is the oldest monumental stone pyramid in Egypt.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Minya",
+        "country": "Egypt",
+        "distanceKm": 300.0,
+        "description": "A Nile city near limestone cliffs, ancient tombs, and the ruins of Akhenaten's capital.",
+        "fact": "Nearby Tell el-Amarna was founded as the royal city Akhetaten in the 14th century BCE.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Abydos",
+        "country": "Egypt",
+        "distanceKm": 520.0,
+        "description": "A sacred Upper Egyptian site associated with Osiris and the earliest pharaohs.",
+        "fact": "The Temple of Seti I contains the Abydos King List of earlier Egyptian rulers.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Luxor",
+        "country": "Egypt",
+        "distanceKm": 670.0,
+        "description": "Open-air history among temples and tombs.",
+        "fact": "Luxor is often called the world's greatest open-air museum.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Edfu",
+        "country": "Egypt",
+        "distanceKm": 780.0,
+        "description": "A riverside town centered on one of Egypt's most complete ancient temples.",
+        "fact": "The Temple of Horus at Edfu was built mainly during the Ptolemaic period.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kom Ombo",
+        "country": "Egypt",
+        "distanceKm": 860.0,
+        "description": "A Nile bend where a rare double temple overlooks the river and cultivated fields.",
+        "fact": "Kom Ombo Temple has twin sanctuaries dedicated to Sobek and Horus the Elder.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Aswan",
+        "country": "Egypt",
+        "distanceKm": 920.0,
+        "description": "A calm southern finish by islands and desert.",
+        "fact": "Aswan was an ancient gateway to Nubia.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "australia_coast",
+    "title": "Australia Coast",
+    "description": "Walk Australia’s east coast from Sydney to Cairns.",
+    "shortTagline": "Harbors, surf towns, tropics, and reef gateways.",
+    "routeTheme": "Nature",
+    "totalKm": 2420.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "16-20 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Australia"
+    ],
+    "stopCount": 12,
+    "stops": [
+      {
+        "name": "Sydney",
+        "country": "Australia",
+        "distanceKm": 0.0,
+        "description": "Harbor views, beaches, and a bright coastal start.",
+        "fact": "The Sydney Opera House has over one million roof tiles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Newcastle",
+        "country": "Australia",
+        "distanceKm": 160.0,
+        "description": "Surf beaches and harbor history.",
+        "fact": "Newcastle is one of the world's largest coal export ports.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Port Macquarie",
+        "country": "Australia",
+        "distanceKm": 390.0,
+        "description": "A Hastings River town of beaches, coastal rainforest, and important koala conservation work.",
+        "fact": "Port Macquarie was established as a British penal settlement in 1821.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Coffs Harbour",
+        "country": "Australia",
+        "distanceKm": 550.0,
+        "description": "A subtropical coast stop of beaches, banana-growing history, and marine reserves.",
+        "fact": "The Big Banana opened in 1964 and became one of Australia's first famous Big Things.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Byron Bay",
+        "country": "Australia",
+        "distanceKm": 770.0,
+        "description": "A surf town where rainforest hills meet beaches at mainland Australia's eastern edge.",
+        "fact": "Cape Byron is the easternmost point of mainland Australia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Brisbane",
+        "country": "Australia",
+        "distanceKm": 930.0,
+        "description": "River walks and warm subtropical air.",
+        "fact": "Brisbane gets more than 280 days of sunshine a year.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hervey Bay",
+        "country": "Australia",
+        "distanceKm": 1250.0,
+        "description": "A sheltered coastal city known for whale watching and access to K'gari.",
+        "fact": "The calm waters of Hervey Bay are an important resting area for migrating humpback whales.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rockhampton",
+        "country": "Australia",
+        "distanceKm": 1520.0,
+        "description": "A Fitzroy River city blending heritage streets, tropical gardens, and cattle-country culture.",
+        "fact": "The Tropic of Capricorn passes just south of central Rockhampton.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Airlie Beach",
+        "country": "Australia",
+        "distanceKm": 1800.0,
+        "description": "A lively coastal gateway to the Whitsunday Islands and the Great Barrier Reef.",
+        "fact": "Airlie Beach faces the Whitsundays, an archipelago of 74 islands.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Townsville",
+        "country": "Australia",
+        "distanceKm": 2020.0,
+        "description": "A tropical gateway near Magnetic Island.",
+        "fact": "Magnetic Island has one of Australia's largest wild koala colonies.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mission Beach",
+        "country": "Australia",
+        "distanceKm": 2250.0,
+        "description": "A tropical village corridor between rainforest, long beaches, and the Coral Sea.",
+        "fact": "The Mission Beach region is habitat for the endangered southern cassowary.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cairns",
+        "country": "Australia",
+        "distanceKm": 2420.0,
+        "description": "Finish near rainforest and reef adventures.",
+        "fact": "Cairns is a gateway to the Great Barrier Reef.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "alps_journey",
+    "title": "Alps Journey",
+    "description": "Cross scenic Alpine stops from Geneva to Munich.",
+    "shortTagline": "Lakes, valleys, alpine towns, and mountain air.",
+    "routeTheme": "Nature",
+    "totalKm": 760.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "6-8 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 3,
+    "countries": [
+      "Switzerland",
+      "Austria",
+      "Germany"
+    ],
+    "stopCount": 10,
+    "stops": [
+      {
+        "name": "Geneva",
+        "country": "Switzerland",
+        "distanceKm": 0.0,
+        "description": "Lake views and mountain horizons.",
+        "fact": "Geneva has one of the world's tallest fountain jets.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lausanne",
+        "country": "Switzerland",
+        "distanceKm": 65.0,
+        "description": "A steep lakeside city of vineyards, medieval streets, and Olympic heritage.",
+        "fact": "Lausanne has hosted the International Olympic Committee since 1915.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Bern",
+        "country": "Switzerland",
+        "distanceKm": 150.0,
+        "description": "Arcaded sandstone streets curl around an Aare River peninsula beneath Alpine views.",
+        "fact": "Bern's medieval old town is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Interlaken",
+        "country": "Switzerland",
+        "distanceKm": 220.0,
+        "description": "A valley stop between two lakes.",
+        "fact": "Interlaken sits between Lake Thun and Lake Brienz.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lucerne",
+        "country": "Switzerland",
+        "distanceKm": 285.0,
+        "description": "A lake city of painted squares, wooden bridges, and mountain excursions.",
+        "fact": "The Chapel Bridge is one of Europe's oldest covered wooden bridges.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Andermatt",
+        "country": "Switzerland",
+        "distanceKm": 360.0,
+        "description": "An Urseren Valley village ringed by high passes and the dramatic Schollenen Gorge.",
+        "fact": "The headwaters of the Rhine, Rhone, Reuss, and Ticino lie in the wider Gotthard region.",
+        "imageAsset": ""
+      },
+      {
+        "name": "St. Moritz",
+        "country": "Switzerland",
+        "distanceKm": 440.0,
+        "description": "An Engadin resort beside a high Alpine lake, known for winter sport and panoramic railways.",
+        "fact": "St. Moritz hosted the Winter Olympic Games in 1928 and 1948.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Innsbruck",
+        "country": "Austria",
+        "distanceKm": 520.0,
+        "description": "Colorful facades beneath steep peaks.",
+        "fact": "Innsbruck hosted the Winter Olympics twice.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Garmisch-Partenkirchen",
+        "country": "Germany",
+        "distanceKm": 640.0,
+        "description": "A Bavarian mountain town beneath the Zugspitze, with painted houses and deep gorges.",
+        "fact": "The nearby Zugspitze is Germany's highest mountain at 2,962 metres.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Munich",
+        "country": "Germany",
+        "distanceKm": 760.0,
+        "description": "A Bavarian finish with parks and beer gardens.",
+        "fact": "Munich's English Garden is larger than Central Park.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "around_ukraine",
+    "title": "Around Ukraine",
+    "description": "Discover Ukraine through its capitals, coast, and culture.",
+    "shortTagline": "Historic cities, Carpathian charm, and Black Sea light.",
+    "routeTheme": "Europe",
+    "totalKm": 1580.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "11-14 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Ukraine"
+    ],
+    "stopCount": 12,
+    "stops": [
+      {
+        "name": "Kyiv",
+        "country": "Ukraine",
+        "distanceKm": 0.0,
+        "description": "Begin among hills, domes, and the Dnipro River.",
+        "fact": "Kyiv is one of Eastern Europe's oldest cities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Zhytomyr",
+        "country": "Ukraine",
+        "distanceKm": 140.0,
+        "description": "A green riverside city shaped by space exploration and old trade routes.",
+        "fact": "Zhytomyr is the birthplace of rocket engineer Sergei Korolev.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rivne",
+        "country": "Ukraine",
+        "distanceKm": 330.0,
+        "description": "A compact Volhynian city of parks, museums, and amber traditions.",
+        "fact": "Rivne region contains major deposits of Ukrainian amber.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lviv",
+        "country": "Ukraine",
+        "distanceKm": 540.0,
+        "description": "Coffee houses, courtyards, and old town charm.",
+        "fact": "Lviv's historic center is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ivano-Frankivsk",
+        "country": "Ukraine",
+        "distanceKm": 650.0,
+        "description": "A welcoming Carpathian gateway centered on a lively pedestrian old town.",
+        "fact": "The city was founded in the 17th century as Stanislawow.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mukachevo",
+        "country": "Ukraine",
+        "distanceKm": 750.0,
+        "description": "A Transcarpathian town watched over by hilltop Palanok Castle.",
+        "fact": "Palanok Castle rises on an ancient volcanic hill.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Uzhhorod",
+        "country": "Ukraine",
+        "distanceKm": 810.0,
+        "description": "A compact Carpathian city near the border.",
+        "fact": "Uzhhorod is known for its spring cherry blossoms.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Chernivtsi",
+        "country": "Ukraine",
+        "distanceKm": 950.0,
+        "description": "Bukovinian architecture, café culture, and a remarkable university ensemble.",
+        "fact": "The former Residence of Bukovinian Metropolitans is UNESCO-listed.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Vinnytsia",
+        "country": "Ukraine",
+        "distanceKm": 1120.0,
+        "description": "A Podillia city of river promenades, historic estates, and museums.",
+        "fact": "Vinnytsia stands on both banks of the Southern Bug River.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Odesa",
+        "country": "Ukraine",
+        "distanceKm": 1320.0,
+        "description": "Sea air, grand stairs, and sunny boulevards.",
+        "fact": "The Potemkin Stairs are one of Odesa's famous landmarks.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dnipro",
+        "country": "Ukraine",
+        "distanceKm": 1460.0,
+        "description": "A major city of broad river views, engineering, and space history.",
+        "fact": "Dnipro became an important center of rocket and spacecraft engineering.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kharkiv",
+        "country": "Ukraine",
+        "distanceKm": 1580.0,
+        "description": "A major cultural and university city.",
+        "fact": "Kharkiv was once the capital of Soviet Ukraine.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "france_tour",
+    "title": "France Tour",
+    "description": "Travel France from Paris elegance to Mediterranean sun.",
+    "shortTagline": "Boulevards, wine regions, Provence, and Riviera blue.",
+    "routeTheme": "Europe",
+    "totalKm": 1150.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "8-10 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "France"
+    ],
+    "stopCount": 12,
+    "stops": [
+      {
+        "name": "Paris",
+        "country": "France",
+        "distanceKm": 0.0,
+        "description": "Begin with bridges, museums, and grand avenues.",
+        "fact": "Paris has more than 450 parks and gardens.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Fontainebleau",
+        "country": "France",
+        "distanceKm": 70.0,
+        "description": "A royal town beside a vast forest and centuries of palace architecture.",
+        "fact": "French rulers transformed Fontainebleau Palace across eight centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Auxerre",
+        "country": "France",
+        "distanceKm": 170.0,
+        "description": "A Burgundy river town of half-timbered lanes and church towers.",
+        "fact": "Auxerre overlooks the Yonne on a historic route toward Burgundy.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dijon",
+        "country": "France",
+        "distanceKm": 315.0,
+        "description": "Burgundy flavors and tiled rooftops.",
+        "fact": "Dijon is famous for mustard and wine country nearby.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Beaune",
+        "country": "France",
+        "distanceKm": 365.0,
+        "description": "Burgundy wine heritage surrounds a beautifully tiled medieval hospice.",
+        "fact": "The Hospices de Beaune has held a famous charity wine auction since 1859.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lyon",
+        "country": "France",
+        "distanceKm": 510.0,
+        "description": "A food capital between two rivers.",
+        "fact": "Lyon has hidden passageways called traboules.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Valence",
+        "country": "France",
+        "distanceKm": 620.0,
+        "description": "A Rhône Valley stop where southern light meets parks and canals.",
+        "fact": "Valence is often described as a gateway to the south of France.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Avignon",
+        "country": "France",
+        "distanceKm": 760.0,
+        "description": "Medieval walls and papal palace views.",
+        "fact": "Avignon was once the seat of popes.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Marseille",
+        "country": "France",
+        "distanceKm": 850.0,
+        "description": "An ancient Mediterranean port framed by islands and limestone calanques.",
+        "fact": "Marseille was founded by Greek settlers around 600 BCE.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Toulon",
+        "country": "France",
+        "distanceKm": 970.0,
+        "description": "A Mediterranean naval city gathered around a sheltered harbor and steep hills.",
+        "fact": "Toulon has been one of France's principal naval bases for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cannes",
+        "country": "France",
+        "distanceKm": 1080.0,
+        "description": "A Riviera city of old hillside lanes, beaches, and cinema history.",
+        "fact": "The Cannes Film Festival has been held in the city since 1946.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Nice",
+        "country": "France",
+        "distanceKm": 1150.0,
+        "description": "A Riviera finish by blue Mediterranean water.",
+        "fact": "Nice became part of France in 1860.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "spain_tour",
+    "title": "Spain Tour",
+    "description": "Loop through Spain’s cities, coast, and warm plazas.",
+    "shortTagline": "Royal plazas, flamenco, paella, and Gaudi curves.",
+    "routeTheme": "Europe",
+    "totalKm": 1320.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "9-12 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Spain"
+    ],
+    "stopCount": 10,
+    "stops": [
+      {
+        "name": "Madrid",
+        "country": "Spain",
+        "distanceKm": 0.0,
+        "description": "Start in the energetic heart of Spain.",
+        "fact": "Madrid is one of Europe's highest capital cities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Toledo",
+        "country": "Spain",
+        "distanceKm": 75.0,
+        "description": "A hilltop city of stone lanes and old walls.",
+        "fact": "Toledo is known as the City of Three Cultures.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Merida",
+        "country": "Spain",
+        "distanceKm": 280.0,
+        "description": "A walkable city where Roman monuments line the Guadiana River.",
+        "fact": "Merida preserves one of Spain's finest Roman archaeological ensembles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cordoba",
+        "country": "Spain",
+        "distanceKm": 400.0,
+        "description": "Patios, stone lanes, and layered cultures beside the Guadalquivir.",
+        "fact": "Cordoba's historic center is among Europe's largest UNESCO urban sites.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Seville",
+        "country": "Spain",
+        "distanceKm": 520.0,
+        "description": "Orange trees, flamenco, and warm plazas.",
+        "fact": "Seville's cathedral is one of the largest Gothic cathedrals.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Granada",
+        "country": "Spain",
+        "distanceKm": 690.0,
+        "description": "A dramatic Andalusian city beneath the Alhambra and Sierra Nevada.",
+        "fact": "The Alhambra began as a fortress and became a Nasrid royal city.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Alicante",
+        "country": "Spain",
+        "distanceKm": 850.0,
+        "description": "A Mediterranean port beneath the rocky Santa Barbara Castle.",
+        "fact": "Alicante's patterned Explanada promenade uses millions of marble tiles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Valencia",
+        "country": "Spain",
+        "distanceKm": 980.0,
+        "description": "A coastal city of gardens and modern architecture.",
+        "fact": "Valencia is the birthplace of paella.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tarragona",
+        "country": "Spain",
+        "distanceKm": 1180.0,
+        "description": "Roman ruins and Catalan streets rise above the Mediterranean.",
+        "fact": "Ancient Tarraco was the first major Roman base on the Iberian Peninsula.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Barcelona",
+        "country": "Spain",
+        "distanceKm": 1320.0,
+        "description": "Finish among Gaudi curves and Mediterranean light.",
+        "fact": "La Sagrada Familia has been under construction since 1882.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "great_britain_walk",
+    "title": "Great Britain Walk",
+    "description": "Walk from London to Edinburgh through British highlights.",
+    "shortTagline": "University towns, northern cities, and castle views.",
+    "routeTheme": "Europe",
+    "totalKm": 920.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "6-8 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 2,
+    "countries": [
+      "England",
+      "Scotland"
+    ],
+    "stopCount": 10,
+    "stops": [
+      {
+        "name": "London",
+        "country": "England",
+        "distanceKm": 0.0,
+        "description": "Begin in the capital beside the Thames.",
+        "fact": "The London Underground opened in 1863.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Oxford",
+        "country": "England",
+        "distanceKm": 95.0,
+        "description": "College courtyards and river paths.",
+        "fact": "Oxford University is older than the Aztec Empire.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Stratford-upon-Avon",
+        "country": "England",
+        "distanceKm": 180.0,
+        "description": "A riverside market town shaped by Shakespeare and Tudor architecture.",
+        "fact": "William Shakespeare was born and died in Stratford-upon-Avon.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Birmingham",
+        "country": "England",
+        "distanceKm": 240.0,
+        "description": "Canals, industrial heritage, creative districts, and a renowned food scene.",
+        "fact": "Birmingham's Jewellery Quarter has produced jewelry for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Manchester",
+        "country": "England",
+        "distanceKm": 365.0,
+        "description": "Music, industry, and red-brick streets.",
+        "fact": "Manchester helped drive the Industrial Revolution.",
+        "imageAsset": ""
+      },
+      {
+        "name": "York",
+        "country": "England",
+        "distanceKm": 485.0,
+        "description": "Ancient walls and medieval lanes.",
+        "fact": "York Minster has some of Europe's largest medieval stained glass.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Durham",
+        "country": "England",
+        "distanceKm": 610.0,
+        "description": "A compact cathedral city wrapped around a wooded river peninsula.",
+        "fact": "Durham Cathedral and Castle form a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Newcastle upon Tyne",
+        "country": "England",
+        "distanceKm": 660.0,
+        "description": "A lively Tyne city known for bridges, engineering, and culture.",
+        "fact": "The Tyne Bridge opened in 1928 and became a symbol of the city.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Alnwick",
+        "country": "England",
+        "distanceKm": 745.0,
+        "description": "A Northumberland market town dominated by a grand working castle.",
+        "fact": "Alnwick Castle has served as a screen location for film and television.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Edinburgh",
+        "country": "Scotland",
+        "distanceKm": 920.0,
+        "description": "A castle-topped finish with dramatic streets.",
+        "fact": "Edinburgh has more listed buildings than anywhere in the UK outside London.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "turkey_journey",
+    "title": "Turkey Journey",
+    "description": "Cross Turkey from Istanbul to Cappadocia and Antalya.",
+    "shortTagline": "Two continents, fairy chimneys, and turquoise coast.",
+    "routeTheme": "Asia",
+    "totalKm": 1260.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "9-11 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Turkey"
+    ],
+    "stopCount": 9,
+    "stops": [
+      {
+        "name": "Istanbul",
+        "country": "Turkey",
+        "distanceKm": 0.0,
+        "description": "Begin between Europe and Asia.",
+        "fact": "Istanbul is the only city spanning two continents.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Bursa",
+        "country": "Turkey",
+        "distanceKm": 150.0,
+        "description": "An early Ottoman capital of green parks, markets, mosques, and thermal baths.",
+        "fact": "Bursa and nearby Cumalikizik are recognized together by UNESCO.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Eskisehir",
+        "country": "Turkey",
+        "distanceKm": 300.0,
+        "description": "A youthful Anatolian city with colorful Ottoman houses and river walks.",
+        "fact": "Eskisehir is famous for carving local meerschaum stone.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ankara",
+        "country": "Turkey",
+        "distanceKm": 450.0,
+        "description": "A modern capital on the Anatolian plateau.",
+        "fact": "Ankara became Turkey's capital in 1923.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hattusa",
+        "country": "Turkey",
+        "distanceKm": 580.0,
+        "description": "Monumental gates and stone walls mark the Hittite imperial capital.",
+        "fact": "Thousands of cuneiform tablets found at Hattusa included ancient treaties.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cappadocia",
+        "country": "Turkey",
+        "distanceKm": 730.0,
+        "description": "Fairy chimneys and sunrise balloons.",
+        "fact": "Cappadocia has ancient underground cities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Konya",
+        "country": "Turkey",
+        "distanceKm": 920.0,
+        "description": "A Seljuk city of turquoise tiles, spiritual heritage, and broad squares.",
+        "fact": "Konya is closely associated with the poet and mystic Rumi.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Side",
+        "country": "Turkey",
+        "distanceKm": 1140.0,
+        "description": "Ancient columns and a seaside theater meet beaches on a small peninsula.",
+        "fact": "Side was an important ancient port of Pamphylia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Antalya",
+        "country": "Turkey",
+        "distanceKm": 1260.0,
+        "description": "Finish by cliffs and turquoise water.",
+        "fact": "Antalya is known as the gateway to the Turkish Riviera.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "balkan_route",
+    "title": "Balkan Route",
+    "description": "Move through the Balkans from Zagreb to Thessaloniki.",
+    "shortTagline": "Layered capitals, river forts, and seaside history.",
+    "routeTheme": "Historic",
+    "totalKm": 1550.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "11-13 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 5,
+    "countries": [
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Serbia",
+      "Bulgaria",
+      "Greece"
+    ],
+    "stopCount": 10,
+    "stops": [
+      {
+        "name": "Zagreb",
+        "country": "Croatia",
+        "distanceKm": 0.0,
+        "description": "A graceful start of trams and cafe streets.",
+        "fact": "Zagreb has one of the shortest funiculars in the world.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Banja Luka",
+        "country": "Bosnia and Herzegovina",
+        "distanceKm": 220.0,
+        "description": "A green riverside city of boulevards, fortifications, and thermal traditions.",
+        "fact": "The Vrbas River runs through the center of Banja Luka.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "distanceKm": 405.0,
+        "description": "A city where cultures meet in narrow streets.",
+        "fact": "Sarajevo hosted the 1984 Winter Olympics.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tuzla",
+        "country": "Bosnia and Herzegovina",
+        "distanceKm": 520.0,
+        "description": "A lively city built around salt heritage and unusual urban lakes.",
+        "fact": "Tuzla takes its name and much of its history from local salt deposits.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Belgrade",
+        "country": "Serbia",
+        "distanceKm": 700.0,
+        "description": "Rivers, fortress views, and late-night energy.",
+        "fact": "Belgrade sits where the Sava meets the Danube.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Nis",
+        "country": "Serbia",
+        "distanceKm": 880.0,
+        "description": "A southern Serbian crossroads with Roman heritage and an Ottoman fortress.",
+        "fact": "Roman emperor Constantine the Great was born in ancient Naissus.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sofia",
+        "country": "Bulgaria",
+        "distanceKm": 1090.0,
+        "description": "Mountain-backed boulevards and ancient layers.",
+        "fact": "Sofia is one of Europe's oldest capitals.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rila Monastery",
+        "country": "Bulgaria",
+        "distanceKm": 1200.0,
+        "description": "A mountain monastery of striped arcades, frescoes, and forested peaks.",
+        "fact": "Rila Monastery is Bulgaria's largest Eastern Orthodox monastery.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sandanski",
+        "country": "Bulgaria",
+        "distanceKm": 1370.0,
+        "description": "A warm spa town of parks and mineral springs near the Greek border.",
+        "fact": "Sandanski is named after Bulgarian revolutionary Yane Sandanski.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Thessaloniki",
+        "country": "Greece",
+        "distanceKm": 1550.0,
+        "description": "A seaside finish with Byzantine history.",
+        "fact": "Thessaloniki is known for its long waterfront promenade.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "south_america_explorer",
+    "title": "South America Explorer",
+    "description": "Explore South America from Buenos Aires to Rio.",
+    "shortTagline": "Tango streets, Andes views, Inca history, and beaches.",
+    "routeTheme": "America",
+    "totalKm": 4200.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "28-36 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 4,
+    "countries": [
+      "Argentina",
+      "Chile",
+      "Peru",
+      "Brazil"
+    ],
+    "stopCount": 13,
+    "stops": [
+      {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "distanceKm": 0.0,
+        "description": "A tango-filled start of avenues and cafes.",
+        "fact": "Buenos Aires has one of the world's widest avenues.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cordoba Argentina",
+        "country": "Argentina",
+        "distanceKm": 500.0,
+        "description": "A university city of Jesuit heritage, plazas, and nearby sierras.",
+        "fact": "The Jesuit Block of Cordoba is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mendoza",
+        "country": "Argentina",
+        "distanceKm": 1000.0,
+        "description": "Tree-lined streets and vineyards rise beneath the eastern Andes.",
+        "fact": "Mendoza is the heart of Argentina's best-known wine region.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Santiago",
+        "country": "Chile",
+        "distanceKm": 1400.0,
+        "description": "A capital framed by the Andes.",
+        "fact": "Santiago sits in a valley surrounded by mountains.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Antofagasta",
+        "country": "Chile",
+        "distanceKm": 1800.0,
+        "description": "A Pacific port between the ocean and the immense Atacama Desert.",
+        "fact": "Antofagasta grew rapidly through the nitrate and copper industries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Arica",
+        "country": "Chile",
+        "distanceKm": 2250.0,
+        "description": "A sunny northern port beneath the steep Morro de Arica.",
+        "fact": "Arica lies near the mouth of the fertile Azapa Valley.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Arequipa",
+        "country": "Peru",
+        "distanceKm": 2450.0,
+        "description": "A highland city of pale volcanic stone beneath dramatic volcanoes.",
+        "fact": "Arequipa's historic center is built largely from white sillar stone.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cusco",
+        "country": "Peru",
+        "distanceKm": 2650.0,
+        "description": "High-altitude streets and Inca foundations.",
+        "fact": "Cusco was the capital of the Inca Empire.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Nazca",
+        "country": "Peru",
+        "distanceKm": 2950.0,
+        "description": "A desert town near vast ancient geoglyphs and ingenious aqueducts.",
+        "fact": "The Nazca Lines were created across the desert over many centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lima",
+        "country": "Peru",
+        "distanceKm": 3300.0,
+        "description": "Clifftop ocean views and culinary fame.",
+        "fact": "Lima is one of the driest capital cities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Foz do Iguacu",
+        "country": "Brazil",
+        "distanceKm": 3650.0,
+        "description": "A border city beside one of the world's great waterfall systems.",
+        "fact": "Iguacu Falls spans the frontier between Brazil and Argentina.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sao Paulo",
+        "country": "Brazil",
+        "distanceKm": 3950.0,
+        "description": "A vast cultural and culinary metropolis of museums and neighborhoods.",
+        "fact": "Sao Paulo is the largest city in the Southern Hemisphere by population.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "distanceKm": 4200.0,
+        "description": "A dramatic finish of beaches and mountains.",
+        "fact": "Rio was once the capital of Portugal for a brief period.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "canada_route",
+    "title": "Canada Route",
+    "description": "Cross Canada from Montreal to Vancouver.",
+    "shortTagline": "Great lakes, prairies, Rockies, and Pacific forests.",
+    "routeTheme": "America",
+    "totalKm": 4550.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "30-40 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Canada"
+    ],
+    "stopCount": 16,
+    "stops": [
+      {
+        "name": "Montreal",
+        "country": "Canada",
+        "distanceKm": 0.0,
+        "description": "A bilingual start of festivals and old stone streets.",
+        "fact": "Montreal is built around Mount Royal.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ottawa",
+        "country": "Canada",
+        "distanceKm": 200.0,
+        "description": "Canada's capital combines Gothic landmarks, museums, and river paths.",
+        "fact": "Ottawa became the capital of the Province of Canada in 1857.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kingston",
+        "country": "Canada",
+        "distanceKm": 380.0,
+        "description": "A limestone city where Lake Ontario meets the Saint Lawrence River.",
+        "fact": "Kingston briefly served as the first capital of the united Province of Canada.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Toronto",
+        "country": "Canada",
+        "distanceKm": 540.0,
+        "description": "Skylines, neighborhoods, and Lake Ontario.",
+        "fact": "Toronto is one of the most multicultural cities in the world.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tobermory",
+        "country": "Canada",
+        "distanceKm": 760.0,
+        "description": "A harbor village of clear water, limestone cliffs, and island ferries.",
+        "fact": "Tobermory is the northern terminus of the Bruce Trail.",
+        "imageAsset": ""
+      },
+      {
+        "name": "South Baymouth",
+        "country": "Canada",
+        "distanceKm": 810.0,
+        "description": "The southern gateway to Manitoulin Island beside Lake Huron.",
+        "fact": "The seasonal Chi-Cheemaun ferry links South Baymouth with Tobermory.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sault Ste. Marie",
+        "country": "Canada",
+        "distanceKm": 1200.0,
+        "description": "A Great Lakes city beside the rapids joining Superior and Huron.",
+        "fact": "The Sault locks allow vessels to bypass the St. Marys River rapids.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Thunder Bay",
+        "country": "Canada",
+        "distanceKm": 1600.0,
+        "description": "A Lake Superior port framed by boreal forest and the Sleeping Giant.",
+        "fact": "Thunder Bay was formed by the merger of Fort William and Port Arthur.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Winnipeg",
+        "country": "Canada",
+        "distanceKm": 2050.0,
+        "description": "Prairie skies and river meeting points.",
+        "fact": "Winnipeg is known as the Gateway to the West.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Regina",
+        "country": "Canada",
+        "distanceKm": 2600.0,
+        "description": "A prairie capital of broad skies, parks, museums, and civic landmarks.",
+        "fact": "Regina was named in honor of Queen Victoria.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Medicine Hat",
+        "country": "Canada",
+        "distanceKm": 3150.0,
+        "description": "A sunny prairie city shaped by clay, natural gas, and river coulees.",
+        "fact": "Medicine Hat became known for industries powered by abundant natural gas.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Calgary",
+        "country": "Canada",
+        "distanceKm": 3350.0,
+        "description": "Foothills, rodeo spirit, and mountain access.",
+        "fact": "Calgary is close to Banff National Park.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Banff",
+        "country": "Canada",
+        "distanceKm": 3500.0,
+        "description": "A mountain town surrounded by the peaks and lakes of Banff National Park.",
+        "fact": "Banff National Park was Canada's first national park.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Golden",
+        "country": "Canada",
+        "distanceKm": 3850.0,
+        "description": "A mountain railway town near six Canadian national parks.",
+        "fact": "Golden stands where the Kicking Horse and Columbia rivers meet.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kelowna",
+        "country": "Canada",
+        "distanceKm": 4200.0,
+        "description": "An Okanagan Valley city of orchards, vineyards, beaches, and lake views.",
+        "fact": "Kelowna sits on the eastern shore of Okanagan Lake.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Vancouver",
+        "country": "Canada",
+        "distanceKm": 4550.0,
+        "description": "Finish between ocean, forests, and peaks.",
+        "fact": "Vancouver has one of North Americas largest urban parks.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 1,
+    "transfers": [
+      {
+        "id": "canada_lake_huron_ferry",
+        "mode": "ferry",
+        "startKm": 760.0,
+        "endKm": 810.0,
+        "rewardedAdsRequired": 4
+      }
+    ]
+  },
+  {
+    "id": "thailand_journey",
+    "title": "Thailand Journey",
+    "description": "Travel Thailand from Bangkok bustle to Phuket beaches.",
+    "shortTagline": "Temples, old capitals, northern markets, and islands.",
+    "routeTheme": "Asia",
+    "totalKm": 980.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "7-9 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Thailand"
+    ],
+    "stopCount": 12,
+    "stops": [
+      {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "distanceKm": 0.0,
+        "description": "A vibrant start of temples and river boats.",
+        "fact": "Bangkok has one of the world's longest ceremonial city names.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ayutthaya",
+        "country": "Thailand",
+        "distanceKm": 80.0,
+        "description": "Ancient ruins and peaceful waterways.",
+        "fact": "Ayutthaya was once one of the world's largest cities.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lopburi",
+        "country": "Thailand",
+        "distanceKm": 160.0,
+        "description": "An ancient central Thai city of Khmer ruins and lively temple squares.",
+        "fact": "Lopburi was an important royal center during the reign of King Narai.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sukhothai",
+        "country": "Thailand",
+        "distanceKm": 400.0,
+        "description": "Lotus ponds and brick temples preserve Thailand's first great capital.",
+        "fact": "Sukhothai Historical Park is a UNESCO World Heritage Site.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lampang",
+        "country": "Thailand",
+        "distanceKm": 580.0,
+        "description": "A northern city of teak houses, ceramics, temples, and horse carriages.",
+        "fact": "Lampang remains famous for its traditional horse-drawn carriages.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Chiang Mai",
+        "country": "Thailand",
+        "distanceKm": 700.0,
+        "description": "Northern temples, markets, and mountain air.",
+        "fact": "Chiang Mai has hundreds of Buddhist temples.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Surat Thani",
+        "country": "Thailand",
+        "distanceKm": 820.0,
+        "description": "A southern river city and gateway to the islands of the Gulf of Thailand.",
+        "fact": "The name Surat Thani means City of Good People.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Khao Sok",
+        "country": "Thailand",
+        "distanceKm": 880.0,
+        "description": "Rainforest cliffs, caves, and jungle trails surround a protected park.",
+        "fact": "Khao Sok protects one of southern Thailand's largest rainforest landscapes.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Phang Nga",
+        "country": "Thailand",
+        "distanceKm": 920.0,
+        "description": "A limestone landscape of caves, mangroves, islands, and sheltered bays.",
+        "fact": "Phang Nga Bay is known for steep limestone karst towers.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Krabi",
+        "country": "Thailand",
+        "distanceKm": 940.0,
+        "description": "A coastal gateway of limestone cliffs, mangroves, beaches, and island ferries.",
+        "fact": "Krabi Province includes more than one hundred islands in the Andaman Sea.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Phi Phi Islands",
+        "country": "Thailand",
+        "distanceKm": 960.0,
+        "description": "Dramatic limestone islands rise from clear Andaman waters between Krabi and Phuket.",
+        "fact": "Ko Phi Phi Don is the only permanently inhabited island in the Phi Phi group.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Phuket",
+        "country": "Thailand",
+        "distanceKm": 980.0,
+        "description": "A tropical finish near beaches and islands.",
+        "fact": "Phuket is Thailands largest island.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 2,
+    "transfers": [
+      {
+        "id": "thailand_krabi_phi_phi_ferry",
+        "mode": "ferry",
+        "startKm": 940.0,
+        "endKm": 960.0,
+        "rewardedAdsRequired": 2
+      },
+      {
+        "id": "thailand_phi_phi_phuket_ferry",
+        "mode": "ferry",
+        "startKm": 960.0,
+        "endKm": 980.0,
+        "rewardedAdsRequired": 2
+      }
+    ]
+  },
+  {
+    "id": "around_the_world_lite",
+    "title": "Around the World Lite",
+    "description": "Touch six world regions in one long virtual journey.",
+    "shortTagline": "A compact world tour across iconic global stops.",
+    "routeTheme": "Epic",
+    "totalKm": 12000.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "75-95 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 10,
+    "countries": [
+      "United Kingdom",
+      "France",
+      "Switzerland",
+      "Italy",
+      "Egypt",
+      "India",
+      "Singapore",
+      "Indonesia",
+      "Australia",
+      "USA"
+    ],
+    "stopCount": 17,
+    "stops": [
+      {
+        "name": "London",
+        "country": "United Kingdom",
+        "distanceKm": 0.0,
+        "description": "Begin with a global city and royal parks.",
+        "fact": "London is home to speakers of more than 300 languages.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dover",
+        "country": "United Kingdom",
+        "distanceKm": 100.0,
+        "description": "White cliffs and a great castle guard the narrow English Channel.",
+        "fact": "Dover has served as a gateway between Britain and continental Europe for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Calais",
+        "country": "France",
+        "distanceKm": 130.0,
+        "description": "A French Channel port facing the cliffs of England.",
+        "fact": "Calais lies near the narrowest part of the English Channel.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Paris",
+        "country": "France",
+        "distanceKm": 700.0,
+        "description": "Bridges, museums, markets, and boulevards mark the first continental capital.",
+        "fact": "Paris grew around islands and crossings of the Seine.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dijon",
+        "country": "France",
+        "distanceKm": 1000.0,
+        "description": "Burgundy architecture and food traditions fill the historic center.",
+        "fact": "Dijon was a capital of the powerful medieval Duchy of Burgundy.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lyon",
+        "country": "France",
+        "distanceKm": 1200.0,
+        "description": "A culinary city where the Rhone and Saone rivers meet.",
+        "fact": "Lyon's old passageways are known as traboules.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Geneva",
+        "country": "Switzerland",
+        "distanceKm": 1350.0,
+        "description": "An international lakeside city framed by the Alps and Jura.",
+        "fact": "Geneva hosts the European headquarters of the United Nations.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Milan",
+        "country": "Italy",
+        "distanceKm": 1700.0,
+        "description": "Gothic spires, design, and grand arcades introduce northern Italy.",
+        "fact": "Milan Cathedral took nearly six centuries to complete.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Florence",
+        "country": "Italy",
+        "distanceKm": 1900.0,
+        "description": "Renaissance art and stone bridges line the Arno River.",
+        "fact": "Florence was a major center of the Italian Renaissance.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rome",
+        "country": "Italy",
+        "distanceKm": 2100.0,
+        "description": "Ancient monuments and layered neighborhoods complete the European leg.",
+        "fact": "Rome contains monuments spanning more than two thousand years.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cairo",
+        "country": "Egypt",
+        "distanceKm": 3500.0,
+        "description": "Step from river streets toward ancient monuments.",
+        "fact": "The Nile is often considered the world's longest river.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Delhi",
+        "country": "India",
+        "distanceKm": 5600.0,
+        "description": "Markets, monuments, and layered history.",
+        "fact": "Delhi has been rebuilt many times across centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Singapore",
+        "country": "Singapore",
+        "distanceKm": 8200.0,
+        "description": "A clean, green city-state stop near the equator.",
+        "fact": "Singapore has four official languages.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Jakarta",
+        "country": "Indonesia",
+        "distanceKm": 9000.0,
+        "description": "A vast island capital shaped by trade, canals, and many cultures.",
+        "fact": "Jakarta developed around the historic port of Sunda Kelapa.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Sydney",
+        "country": "Australia",
+        "distanceKm": 10300.0,
+        "description": "Harbor bridges and ocean light.",
+        "fact": "Sydney Harbour Bridge opened in 1932.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Honolulu",
+        "country": "USA",
+        "distanceKm": 11200.0,
+        "description": "A Pacific island capital between volcanic ridges and the sea.",
+        "fact": "Honolulu is the only US state capital located in Polynesia.",
+        "imageAsset": ""
+      },
+      {
+        "name": "San Francisco",
+        "country": "USA",
+        "distanceKm": 12000.0,
+        "description": "Finish by hills, fog, and the Golden Gate.",
+        "fact": "The Golden Gate Bridge was once the world's longest suspension bridge.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 8,
+    "transfers": [
+      {
+        "id": "world_channel_ferry",
+        "mode": "ferry",
+        "startKm": 100.0,
+        "endKm": 130.0,
+        "rewardedAdsRequired": 2
+      },
+      {
+        "id": "world_london_cairo_flight",
+        "mode": "flight",
+        "startKm": 2100.0,
+        "endKm": 3500.0,
+        "rewardedAdsRequired": 8
+      },
+      {
+        "id": "world_cairo_delhi_flight",
+        "mode": "flight",
+        "startKm": 3500.0,
+        "endKm": 5600.0,
+        "rewardedAdsRequired": 8
+      },
+      {
+        "id": "world_delhi_singapore_flight",
+        "mode": "flight",
+        "startKm": 5600.0,
+        "endKm": 8200.0,
+        "rewardedAdsRequired": 8
+      },
+      {
+        "id": "world_singapore_jakarta_flight",
+        "mode": "flight",
+        "startKm": 8200.0,
+        "endKm": 9000.0,
+        "rewardedAdsRequired": 6
+      },
+      {
+        "id": "world_singapore_sydney_flight",
+        "mode": "flight",
+        "startKm": 9000.0,
+        "endKm": 10300.0,
+        "rewardedAdsRequired": 8
+      },
+      {
+        "id": "world_sydney_honolulu_flight",
+        "mode": "flight",
+        "startKm": 10300.0,
+        "endKm": 11200.0,
+        "rewardedAdsRequired": 6
+      },
+      {
+        "id": "world_sydney_san_francisco_flight",
+        "mode": "flight",
+        "startKm": 11200.0,
+        "endKm": 12000.0,
+        "rewardedAdsRequired": 6
+      }
+    ]
+  },
+  {
+    "id": "kyiv_heritage_legends",
+    "title": "Kyiv Heritage & Legends",
+    "description": "Walk through the history and legends of ancient Kyiv.",
+    "shortTagline": "Golden domes, old streets, and Dnipro views.",
+    "routeTheme": "Historic",
+    "totalKm": 90.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "2-3 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Ukraine"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Golden Gate",
+        "country": "Ukraine",
+        "distanceKm": 0.0,
+        "description": "Begin at the fortified gateway of medieval Kyiv.",
+        "fact": "The reconstructed gate stands above foundations from the eleventh century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Saint Sophia’s Cathedral",
+        "country": "Ukraine",
+        "distanceKm": 16.0,
+        "description": "Discover mosaics and frescoes at Kyiv’s spiritual heart.",
+        "fact": "Its surviving mosaics include works created in the eleventh century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Andriyivskyy Descent",
+        "country": "Ukraine",
+        "distanceKm": 31.0,
+        "description": "Follow the storied cobbled street into the old city.",
+        "fact": "The descent has long connected Upper Kyiv with the Podil district.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Podil",
+        "country": "Ukraine",
+        "distanceKm": 47.0,
+        "description": "Explore Kyiv’s historic riverside trading quarter.",
+        "fact": "Podil was rebuilt on a new street grid after the great fire of 1811.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mariinskyi Park",
+        "country": "Ukraine",
+        "distanceKm": 67.0,
+        "description": "Walk through a leafy park above the Dnipro slopes.",
+        "fact": "The park adjoins the eighteenth-century Mariinskyi Palace.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kyiv Pechersk Lavra",
+        "country": "Ukraine",
+        "distanceKm": 90.0,
+        "description": "Finish among golden domes and ancient monastic caves.",
+        "fact": "The monastery was founded in 1051 and became a major Orthodox center.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "alpine_peaks_castles",
+    "title": "Alpine Peaks & Castles",
+    "description": "Cross Alpine lakes, peaks, passes, and storybook castles.",
+    "shortTagline": "Mountain air, blue lakes, and royal fortresses.",
+    "routeTheme": "Nature",
+    "totalKm": 225.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "4-6 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 2,
+    "countries": [
+      "Germany",
+      "Austria"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Neuschwanstein Castle",
+        "country": "Germany",
+        "distanceKm": 0.0,
+        "description": "Start beneath Bavaria’s famous fairytale castle.",
+        "fact": "King Ludwig II commissioned the castle in the nineteenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Eibsee",
+        "country": "Germany",
+        "distanceKm": 38.0,
+        "description": "Circle a clear mountain lake beneath the Zugspitze.",
+        "fact": "Eight small islands dot the lake beneath Germany’s highest peak.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Zugspitze",
+        "country": "Germany",
+        "distanceKm": 76.0,
+        "description": "Reach the dramatic summit ridge of Germany.",
+        "fact": "The summit rises to 2,962 meters above sea level.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Innsbruck Old Town",
+        "country": "Austria",
+        "distanceKm": 118.0,
+        "description": "Enter a colorful Alpine city framed by steep peaks.",
+        "fact": "Its Golden Roof is covered with thousands of gilded copper tiles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Salzburg Alpine Passes",
+        "country": "Austria",
+        "distanceKm": 176.0,
+        "description": "Traverse sweeping high roads and mountain viewpoints.",
+        "fact": "The Grossglockner road crosses one of Austria’s great high passes.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hohensalzburg Fortress",
+        "country": "Austria",
+        "distanceKm": 225.0,
+        "description": "Finish above Salzburg at its hilltop fortress.",
+        "fact": "The fortress is among Europe’s largest preserved medieval castles.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "kyoto_autumn_temples",
+    "title": "Kyoto Autumn Temples",
+    "description": "Wander through maple colors, bamboo, shrines, and old Kyoto.",
+    "shortTagline": "Autumn leaves, temple bells, and lantern-lit lanes.",
+    "routeTheme": "Asia",
+    "totalKm": 165.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "3-4 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Japan"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Arashiyama Bamboo Grove",
+        "country": "Japan",
+        "distanceKm": 0.0,
+        "description": "Begin beneath towering stalks of green bamboo.",
+        "fact": "The grove’s rustling sound is recognized as a symbolic Japanese soundscape.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kinkaku-ji",
+        "country": "Japan",
+        "distanceKm": 29.0,
+        "description": "See the Golden Pavilion reflected in its garden pond.",
+        "fact": "The upper stories are covered in gold leaf.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ryoan-ji",
+        "country": "Japan",
+        "distanceKm": 55.0,
+        "description": "Pause beside one of Japan’s best-known rock gardens.",
+        "fact": "From any single viewing point, at least one of its fifteen stones is hidden.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Fushimi Inari Taisha",
+        "country": "Japan",
+        "distanceKm": 88.0,
+        "description": "Climb through tunnels of vermilion torii gates.",
+        "fact": "Thousands of donated gates line the trails of Mount Inari.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Gion",
+        "country": "Japan",
+        "distanceKm": 124.0,
+        "description": "Walk lantern-lit lanes and traditional wooden streets.",
+        "fact": "Gion developed as an entertainment district serving nearby shrines.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kiyomizu-dera",
+        "country": "Japan",
+        "distanceKm": 165.0,
+        "description": "Finish on a temple terrace above autumn-colored hills.",
+        "fact": "Its main stage was assembled without nails.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "greek_islands_odyssey",
+    "title": "Greek Islands Odyssey",
+    "description": "Island-hop through Minoan ruins, volcanic towns, and Aegean beaches.",
+    "shortTagline": "Ancient myths, white villages, and blue water.",
+    "routeTheme": "Historic",
+    "totalKm": 200.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "4-5 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Greece"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Knossos Palace",
+        "country": "Greece",
+        "distanceKm": 0.0,
+        "description": "Begin among the remains of Crete’s Minoan palace.",
+        "fact": "Knossos is closely linked with the myth of the Minotaur and labyrinth.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Samaria Gorge",
+        "country": "Greece",
+        "distanceKm": 42.0,
+        "description": "Descend one of Europe’s longest celebrated gorges.",
+        "fact": "The trail passes through the narrow rock walls known as the Gates.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Fira",
+        "country": "Greece",
+        "distanceKm": 82.0,
+        "description": "Climb whitewashed lanes along Santorini’s caldera.",
+        "fact": "Fira sits high on cliffs formed by ancient volcanic eruptions.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Oia",
+        "country": "Greece",
+        "distanceKm": 118.0,
+        "description": "Follow blue domes toward a famous Aegean sunset.",
+        "fact": "Oia’s cave houses were carved into volcanic rock.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Delos",
+        "country": "Greece",
+        "distanceKm": 158.0,
+        "description": "Explore a sacred island of temples and ancient streets.",
+        "fact": "In Greek mythology, Delos was the birthplace of Apollo and Artemis.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mykonos Beaches",
+        "country": "Greece",
+        "distanceKm": 200.0,
+        "description": "Finish beside bright coves and clear Cycladic water.",
+        "fact": "Mykonos is nicknamed the Island of the Winds.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 3,
+    "transfers": [
+      {
+        "id": "greek_crete_santorini_ferry",
+        "mode": "ferry",
+        "startKm": 42.0,
+        "endKm": 82.0,
+        "rewardedAdsRequired": 2
+      },
+      {
+        "id": "greek_santorini_delos_ferry",
+        "mode": "ferry",
+        "startKm": 118.0,
+        "endKm": 158.0,
+        "rewardedAdsRequired": 2
+      },
+      {
+        "id": "greek_delos_mykonos_ferry",
+        "mode": "ferry",
+        "startKm": 158.0,
+        "endKm": 200.0,
+        "rewardedAdsRequired": 2
+      }
+    ]
+  },
+  {
+    "id": "iceland_ring_road",
+    "title": "Iceland Ring Road",
+    "description": "Trace Iceland’s waterfalls, black beaches, ice, and geothermal north.",
+    "shortTagline": "Waterfalls, glaciers, volcanoes, and northern light.",
+    "routeTheme": "Epic",
+    "totalKm": 380.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "7-9 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Iceland"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Golden Circle",
+        "country": "Iceland",
+        "distanceKm": 0.0,
+        "description": "Begin among rift valleys, geysers, and powerful falls.",
+        "fact": "Thingvellir lies where the North American and Eurasian plates diverge.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Skogafoss",
+        "country": "Iceland",
+        "distanceKm": 67.0,
+        "description": "Approach a broad curtain of water on the south coast.",
+        "fact": "On sunny days the spray often creates a double rainbow.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Reynisfjara Black Beach",
+        "country": "Iceland",
+        "distanceKm": 128.0,
+        "description": "Walk beside basalt columns and roaring Atlantic surf.",
+        "fact": "The offshore Reynisdrangar stacks feature in Icelandic troll legends.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Jokulsarlon Glacier Lagoon",
+        "country": "Iceland",
+        "distanceKm": 205.0,
+        "description": "Pass blue icebergs drifting toward the ocean.",
+        "fact": "The lagoon has expanded as the Breidamerkurjokull glacier retreats.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Dettifoss",
+        "country": "Iceland",
+        "distanceKm": 296.0,
+        "description": "Feel the force of a vast glacial waterfall.",
+        "fact": "Dettifoss is one of Europe’s most powerful waterfalls by water flow.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Lake Myvatn",
+        "country": "Iceland",
+        "distanceKm": 380.0,
+        "description": "Finish amid lava fields, crater lakes, and geothermal steam.",
+        "fact": "The lake’s name refers to the abundant midges that support its birdlife.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "bali_tropical_trail",
+    "title": "Bali Tropical Trail",
+    "description": "Cross rice terraces, waterfalls, temples, and volcanic landscapes.",
+    "shortTagline": "Tropical paths, sacred temples, and green terraces.",
+    "routeTheme": "Nature",
+    "totalKm": 145.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "3-4 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Indonesia"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Ubud Monkey Forest",
+        "country": "Indonesia",
+        "distanceKm": 0.0,
+        "description": "Begin beneath a dense canopy of banyan trees and temples.",
+        "fact": "The sanctuary protects three temple complexes and hundreds of macaques.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tegallalang Rice Terraces",
+        "country": "Indonesia",
+        "distanceKm": 24.0,
+        "description": "Follow green contours shaped by traditional irrigation.",
+        "fact": "The terraces use Bali’s cooperative subak water-management system.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tegenungan Waterfall",
+        "country": "Indonesia",
+        "distanceKm": 49.0,
+        "description": "Descend through tropical forest to a powerful cascade.",
+        "fact": "Unlike many Balinese waterfalls, Tegenungan is not in the high mountains.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mount Batur",
+        "country": "Indonesia",
+        "distanceKm": 78.0,
+        "description": "Climb toward sunrise above a volcanic caldera.",
+        "fact": "Mount Batur remains an active volcano within a larger ancient caldera.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tanah Lot",
+        "country": "Indonesia",
+        "distanceKm": 110.0,
+        "description": "Reach a sea temple perched on a wave-cut rock.",
+        "fact": "At high tide the temple appears separated from the mainland.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Uluwatu Temple",
+        "country": "Indonesia",
+        "distanceKm": 145.0,
+        "description": "Finish on cliffs above the Indian Ocean.",
+        "fact": "The temple stands roughly seventy meters above the sea.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "scandinavian_fjords_coast",
+    "title": "Scandinavian Fjords & Coast",
+    "description": "Follow Norway’s colorful ports, deep fjords, cliffs, and ocean roads.",
+    "shortTagline": "Deep fjords, high cliffs, and wild ocean roads.",
+    "routeTheme": "Nature",
+    "totalKm": 275.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "5-7 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Norway"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Bergen Bryggen",
+        "country": "Norway",
+        "distanceKm": 0.0,
+        "description": "Begin among colorful timber warehouses by the harbor.",
+        "fact": "Bryggen preserves the legacy of Bergen’s Hanseatic trading era.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Trolltunga",
+        "country": "Norway",
+        "distanceKm": 48.0,
+        "description": "Reach a rock ledge suspended above Ringedalsvatnet.",
+        "fact": "The ledge was shaped by glacial erosion thousands of years ago.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Geirangerfjord",
+        "country": "Norway",
+        "distanceKm": 105.0,
+        "description": "Move between steep green walls and ribbon waterfalls.",
+        "fact": "Geirangerfjord forms part of a UNESCO-listed fjord landscape.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Alesund",
+        "country": "Norway",
+        "distanceKm": 154.0,
+        "description": "Walk through an Art Nouveau town scattered across islands.",
+        "fact": "Alesund was rebuilt in a unified Jugendstil style after a 1904 fire.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Atlantic Ocean Road",
+        "country": "Norway",
+        "distanceKm": 215.0,
+        "description": "Cross bridges that curve between skerries and open sea.",
+        "fact": "The road links small islands with eight distinctive bridges.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Trollstigen",
+        "country": "Norway",
+        "distanceKm": 275.0,
+        "description": "Finish above a serpentine mountain road and valley.",
+        "fact": "Trollstigen climbs through eleven dramatic hairpin bends.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "prague_bohemian_castles",
+    "title": "Prague & Bohemian Castles",
+    "description": "Journey from Prague’s medieval heart to Bohemia’s castle towns.",
+    "shortTagline": "Stone bridges, royal castles, and old town squares.",
+    "routeTheme": "Historic",
+    "totalKm": 115.0,
+    "difficulty": "medium",
+    "estimatedCompletion": "2-3 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Czechia"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Old Town Square Prague",
+        "country": "Czechia",
+        "distanceKm": 0.0,
+        "description": "Begin beneath Gothic spires and the astronomical clock.",
+        "fact": "The square has served as Prague’s civic center for centuries.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Charles Bridge",
+        "country": "Czechia",
+        "distanceKm": 19.0,
+        "description": "Cross the Vltava between statues and old towers.",
+        "fact": "The bridge’s foundation stone was laid in 1357.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Prague Castle",
+        "country": "Czechia",
+        "distanceKm": 38.0,
+        "description": "Climb into a vast complex of palaces and courtyards.",
+        "fact": "Prague Castle has been a seat of rulers for more than a millennium.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Karlstejn Castle",
+        "country": "Czechia",
+        "distanceKm": 61.0,
+        "description": "Approach a hilltop fortress built for imperial treasures.",
+        "fact": "Charles IV founded the castle in 1348.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Kutna Hora",
+        "country": "Czechia",
+        "distanceKm": 87.0,
+        "description": "Explore a silver-mining town of cathedrals and stone lanes.",
+        "fact": "Its medieval silver mines helped finance the Bohemian kingdom.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cesky Krumlov Castle",
+        "country": "Czechia",
+        "distanceKm": 115.0,
+        "description": "Finish above a winding river and red-roofed old town.",
+        "fact": "The castle complex includes a rare preserved Baroque theater.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "patagonia_wilderness",
+    "title": "Patagonia Wilderness",
+    "description": "Cross glacier country, granite peaks, lakes, and windswept wilderness.",
+    "shortTagline": "Granite towers, blue ice, and untamed horizons.",
+    "routeTheme": "Epic",
+    "totalKm": 450.0,
+    "difficulty": "epic",
+    "estimatedCompletion": "9-11 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 2,
+    "countries": [
+      "Argentina",
+      "Chile"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Bariloche Lake District",
+        "country": "Argentina",
+        "distanceKm": 0.0,
+        "description": "Begin among blue lakes and forested Andean ridges.",
+        "fact": "Bariloche sits within Argentina’s oldest national park.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Mount Fitz Roy",
+        "country": "Argentina",
+        "distanceKm": 82.0,
+        "description": "Approach sharp granite towers above El Chalten.",
+        "fact": "Fitz Roy’s Tehuelche name, Chalten, means smoking mountain.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Perito Moreno Glacier",
+        "country": "Argentina",
+        "distanceKm": 165.0,
+        "description": "Walk beside a wall of blue ice advancing into the lake.",
+        "fact": "The glacier is famous for periodic ice-bridge ruptures.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Torres del Paine",
+        "country": "Chile",
+        "distanceKm": 260.0,
+        "description": "Enter a park of granite towers, steppe, and turquoise lakes.",
+        "fact": "The three granite towers are among Patagonia’s defining landmarks.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Grey Glacier",
+        "country": "Chile",
+        "distanceKm": 350.0,
+        "description": "Follow floating ice toward the Southern Patagonian Ice Field.",
+        "fact": "Grey Glacier is part of one of the largest ice fields outside the polar regions.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tierra del Fuego",
+        "country": "Argentina",
+        "distanceKm": 450.0,
+        "description": "Finish where forested mountains meet the Beagle Channel.",
+        "fact": "The archipelago’s name dates to fires observed by early European sailors.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 1,
+    "transfers": [
+      {
+        "id": "patagonia_tierra_del_fuego_ferry",
+        "mode": "ferry",
+        "startKm": 350.0,
+        "endKm": 450.0,
+        "rewardedAdsRequired": 4
+      }
+    ]
+  },
+  {
+    "id": "scottish_highlands_lochs",
+    "title": "Scottish Highlands & Lochs",
+    "description": "Follow Highland glens, legendary lochs, castles, and island cliffs.",
+    "shortTagline": "Misty glens, ancient castles, and legendary lochs.",
+    "routeTheme": "Historic",
+    "totalKm": 245.0,
+    "difficulty": "hard",
+    "estimatedCompletion": "5-6 weeks",
+    "isPremium": true,
+    "isStarter": false,
+    "countryCount": 1,
+    "countries": [
+      "Scotland"
+    ],
+    "stopCount": 6,
+    "stops": [
+      {
+        "name": "Edinburgh Castle",
+        "country": "Scotland",
+        "distanceKm": 0.0,
+        "description": "Begin at the fortress above Scotland’s capital.",
+        "fact": "The castle rock is the remnant of an extinct volcano.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Glencoe",
+        "country": "Scotland",
+        "distanceKm": 43.0,
+        "description": "Enter a steep-sided glen shaped by glaciers and history.",
+        "fact": "Glencoe’s landscape formed from ancient volcanic activity and ice.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Glenfinnan Viaduct",
+        "country": "Scotland",
+        "distanceKm": 84.0,
+        "description": "Cross a sweeping railway viaduct above a green valley.",
+        "fact": "Its twenty-one arches were completed at the end of the nineteenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Loch Ness",
+        "country": "Scotland",
+        "distanceKm": 128.0,
+        "description": "Trace the dark water of Scotland’s most legendary loch.",
+        "fact": "Loch Ness contains more water than all the lakes of England and Wales combined.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Eilean Donan Castle",
+        "country": "Scotland",
+        "distanceKm": 184.0,
+        "description": "Reach an island castle where three sea lochs meet.",
+        "fact": "The restored castle stands on foundations first fortified in the thirteenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Isle of Skye",
+        "country": "Scotland",
+        "distanceKm": 245.0,
+        "description": "Finish among sea cliffs, pinnacles, and misty ridges.",
+        "fact": "Skye’s dramatic Cuillin mountains include twelve Munros.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "first_journey_london",
+    "title": "First Journey: London",
+    "description": "Build your walking habit on a short route across central London.",
+    "shortTagline": "Five landmarks and your first 15 km adventure.",
+    "routeTheme": "Starter",
+    "totalKm": 15.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "1-2 weeks",
+    "isPremium": false,
+    "isStarter": true,
+    "countryCount": 1,
+    "countries": [
+      "United Kingdom"
+    ],
+    "stopCount": 5,
+    "stops": [
+      {
+        "name": "Westminster",
+        "country": "United Kingdom",
+        "distanceKm": 0.0,
+        "description": "Begin beside Big Ben and the Houses of Parliament.",
+        "fact": "The Elizabeth Tower is commonly known by the name of its great bell, Big Ben.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Buckingham Palace",
+        "country": "United Kingdom",
+        "distanceKm": 3.0,
+        "description": "Reach the royal residence through St James’s Park.",
+        "fact": "The palace has served as the official London residence of the sovereign since 1837.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Hyde Park",
+        "country": "United Kingdom",
+        "distanceKm": 6.0,
+        "description": "Walk through one of London’s largest green spaces.",
+        "fact": "Hyde Park began as a royal hunting ground in the sixteenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "British Museum",
+        "country": "United Kingdom",
+        "distanceKm": 10.0,
+        "description": "Explore a landmark dedicated to human history and culture.",
+        "fact": "The museum opened to the public in 1759.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Tower Bridge",
+        "country": "United Kingdom",
+        "distanceKm": 15.0,
+        "description": "Finish above the Thames at London’s iconic bascule bridge.",
+        "fact": "Tower Bridge opened in 1894 and still raises for river traffic.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "first_journey_new_york",
+    "title": "First Journey: New York",
+    "description": "Build your walking habit on a short route through New York.",
+    "shortTagline": "Five landmarks and your first 15 km adventure.",
+    "routeTheme": "Starter",
+    "totalKm": 15.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "1-2 weeks",
+    "isPremium": false,
+    "isStarter": true,
+    "countryCount": 1,
+    "countries": [
+      "USA"
+    ],
+    "stopCount": 5,
+    "stops": [
+      {
+        "name": "Times Square",
+        "country": "USA",
+        "distanceKm": 0.0,
+        "description": "Begin among the lights and theaters of Times Square.",
+        "fact": "Times Square was renamed in 1904 after The New York Times moved nearby.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Empire State Building",
+        "country": "USA",
+        "distanceKm": 3.0,
+        "description": "Reach one of the world’s most recognizable skyscrapers.",
+        "fact": "The Empire State Building opened in 1931.",
+        "imageAsset": ""
+      },
+      {
+        "name": "High Line",
+        "country": "USA",
+        "distanceKm": 6.0,
+        "description": "Follow an elevated park above Manhattan streets.",
+        "fact": "The High Line was created on a former freight railway.",
+        "imageAsset": ""
+      },
+      {
+        "name": "One World Trade Center",
+        "country": "USA",
+        "distanceKm": 10.0,
+        "description": "Walk south to the landmark rising above Lower Manhattan.",
+        "fact": "Its architectural height is 1,776 feet.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Brooklyn Bridge",
+        "country": "USA",
+        "distanceKm": 15.0,
+        "description": "Finish above the East River on the historic bridge.",
+        "fact": "Brooklyn Bridge opened in 1883.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "first_journey_tokyo",
+    "title": "First Journey: Tokyo",
+    "description": "Build your walking habit on a short route through Tokyo.",
+    "shortTagline": "Five landmarks and your first 16 km adventure.",
+    "routeTheme": "Starter",
+    "totalKm": 16.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "1-2 weeks",
+    "isPremium": false,
+    "isStarter": true,
+    "countryCount": 1,
+    "countries": [
+      "Japan"
+    ],
+    "stopCount": 5,
+    "stops": [
+      {
+        "name": "Shibuya Crossing",
+        "country": "Japan",
+        "distanceKm": 0.0,
+        "description": "Begin at Tokyo’s famous pedestrian crossing.",
+        "fact": "Thousands of people can cross here during the busiest periods.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Meiji Shrine",
+        "country": "Japan",
+        "distanceKm": 3.0,
+        "description": "Enter a forested shrine in the heart of the city.",
+        "fact": "The shrine is dedicated to Emperor Meiji and Empress Shoken.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Shinjuku Gyoen",
+        "country": "Japan",
+        "distanceKm": 6.0,
+        "description": "Walk through broad lawns and traditional gardens.",
+        "fact": "The park combines Japanese, English, and French garden styles.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Imperial Palace",
+        "country": "Japan",
+        "distanceKm": 11.0,
+        "description": "Reach the moats and gardens of the Imperial Palace.",
+        "fact": "The palace stands on the former site of Edo Castle.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Senso-ji",
+        "country": "Japan",
+        "distanceKm": 16.0,
+        "description": "Finish at Tokyo’s oldest Buddhist temple.",
+        "fact": "Senso-ji traces its history to the seventh century.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "first_journey_cairo",
+    "title": "First Journey: Cairo",
+    "description": "Build your walking habit on a short route through Cairo.",
+    "shortTagline": "Five landmarks and your first 15 km adventure.",
+    "routeTheme": "Starter",
+    "totalKm": 15.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "1-2 weeks",
+    "isPremium": false,
+    "isStarter": true,
+    "countryCount": 1,
+    "countries": [
+      "Egypt"
+    ],
+    "stopCount": 5,
+    "stops": [
+      {
+        "name": "Egyptian Museum",
+        "country": "Egypt",
+        "distanceKm": 0.0,
+        "description": "Begin beside a landmark collection of ancient Egyptian history.",
+        "fact": "The museum opened in its Tahrir Square building in 1902.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cairo Tower",
+        "country": "Egypt",
+        "distanceKm": 3.0,
+        "description": "Reach the tower overlooking the Nile and the city.",
+        "fact": "The lattice design was inspired by the lotus plant.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Al-Azhar Mosque",
+        "country": "Egypt",
+        "distanceKm": 7.0,
+        "description": "Continue into historic Islamic Cairo.",
+        "fact": "Al-Azhar was founded in the tenth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Cairo Citadel",
+        "country": "Egypt",
+        "distanceKm": 11.0,
+        "description": "Climb toward the medieval fortress above Cairo.",
+        "fact": "Saladin began building the citadel in the twelfth century.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Khan el-Khalili",
+        "country": "Egypt",
+        "distanceKm": 15.0,
+        "description": "Finish among the lanes and markets of the historic bazaar.",
+        "fact": "The market district dates back to the fourteenth century.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  },
+  {
+    "id": "first_journey_rio",
+    "title": "First Journey: Rio",
+    "description": "Build your walking habit on a short route through Rio de Janeiro.",
+    "shortTagline": "Five landmarks and your first 18 km adventure.",
+    "routeTheme": "Starter",
+    "totalKm": 18.0,
+    "difficulty": "easy",
+    "estimatedCompletion": "1-2 weeks",
+    "isPremium": false,
+    "isStarter": true,
+    "countryCount": 1,
+    "countries": [
+      "Brazil"
+    ],
+    "stopCount": 5,
+    "stops": [
+      {
+        "name": "Copacabana Beach",
+        "country": "Brazil",
+        "distanceKm": 0.0,
+        "description": "Begin beside the Atlantic on Copacabana’s famous promenade.",
+        "fact": "The promenade is known for its black-and-white wave mosaic.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Ipanema Beach",
+        "country": "Brazil",
+        "distanceKm": 4.0,
+        "description": "Follow the coast toward Ipanema and its mountain views.",
+        "fact": "Ipanema became internationally famous through a bossa nova song.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rodrigo de Freitas Lagoon",
+        "country": "Brazil",
+        "distanceKm": 8.0,
+        "description": "Circle a lagoon framed by Rio’s hills.",
+        "fact": "The lagoon hosted rowing events during the 2016 Olympic Games.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Rio Botanical Garden",
+        "country": "Brazil",
+        "distanceKm": 12.0,
+        "description": "Walk beneath palms in Rio’s historic botanical garden.",
+        "fact": "The garden was founded in 1808.",
+        "imageAsset": ""
+      },
+      {
+        "name": "Christ the Redeemer",
+        "country": "Brazil",
+        "distanceKm": 18.0,
+        "description": "Finish on Corcovado beneath Rio’s iconic statue.",
+        "fact": "Christ the Redeemer was completed in 1931.",
+        "imageAsset": ""
+      }
+    ],
+    "transferCount": 0,
+    "transfers": []
+  }
+]

@@ -4,7 +4,7 @@ import path from "node:path";
 const root = path.resolve("dist");
 const errors = [];
 const legacyRouteSlugs = ["europe-explorer", "kyoto-autumn-temples", "greek-islands-odyssey", "iceland-ring-road", "route-66-usa", "around-the-world-lite"];
-const newRouteSlugs = ["italy-dream", "japan-tour", "nordic-route", "camino-de-santiago", "silk-road-journey", "ancient-egypt", "australia-coast", "alps-journey", "around-ukraine", "france-tour", "spain-tour", "great-britain-walk", "turkey-journey", "balkan-route", "south-america-explorer", "canada-route", "thailand-journey", "kyiv-heritage-legends", "alpine-peaks-castles", "bali-tropical-trail", "scandinavian-fjords-coast", "prague-bohemian-castles", "patagonia-wilderness", "scottish-highlands-lochs"];
+const newRouteSlugs = ["italy-dream", "japan-tour", "nordic-route", "camino-de-santiago", "silk-road-journey", "ancient-egypt", "australia-coast", "alps-journey", "around-ukraine", "france-tour", "spain-tour", "great-britain-walk", "turkey-journey", "balkan-route", "south-america-explorer", "canada-route", "thailand-journey", "kyiv-heritage-legends", "alpine-peaks-castles", "bali-tropical-trail", "scandinavian-fjords-coast", "prague-bohemian-castles", "patagonia-wilderness", "scottish-highlands-lochs", "first-journey-london", "first-journey-new-york", "first-journey-tokyo", "first-journey-cairo", "first-journey-rio"];
 const routeSlugs = new Set([...legacyRouteSlugs, ...newRouteSlugs]);
 const expectedLocales = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "it", "tr", "ja", "ko", "zh-cn", "ar", "hi", "pt-br"]);
 const expectedHreflang = new Set(["en", "uk", "ru", "es", "de", "fr", "pl", "pt", "pt-BR", "it", "tr", "ja", "ko", "zh-CN", "ar", "hi", "x-default"]);
@@ -89,7 +89,7 @@ for (const directory of [path.resolve("src/data/pages"), path.resolve("src/data/
 if (sourcePageCount !== 272) errors.push(`Expected 272 source page records, found ${sourcePageCount}.`);
 
 const pages = walk(root).filter((file) => file.endsWith(".html"));
-if (pages.length !== 656) errors.push(`Expected 656 HTML pages, found ${pages.length}.`);
+if (pages.length !== 736) errors.push(`Expected 736 HTML pages, found ${pages.length}.`);
 
 for (const page of pages) {
   const html = fs.readFileSync(page, "utf8");
@@ -156,17 +156,30 @@ for (const page of pages) {
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 const sitemapCount = [...sitemap.matchAll(/<url>/g)].length;
-if (sitemapCount !== 656) errors.push(`Expected 656 sitemap URLs, found ${sitemapCount}.`);
+if (sitemapCount !== 736) errors.push(`Expected 736 sitemap URLs, found ${sitemapCount}.`);
 if (!sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"')) errors.push("Sitemap xhtml namespace is missing.");
 if (!sitemap.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"')) errors.push("Sitemap image namespace is missing.");
 const sitemapAlternates = [...sitemap.matchAll(/<xhtml:link rel="alternate" hreflang="([^"]+)" href="([^"]+)" \/>/g)];
-if (sitemapAlternates.length !== 656 * 17) errors.push(`Expected ${656 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
+if (sitemapAlternates.length !== 736 * 17) errors.push(`Expected ${736 * 17} sitemap hreflang links, found ${sitemapAlternates.length}.`);
 const sitemapImages = [...sitemap.matchAll(/<image:image>/g)].length;
-if (sitemapImages !== 656) errors.push(`Expected 656 sitemap image records, found ${sitemapImages}.`);
+if (sitemapImages !== 736) errors.push(`Expected 736 sitemap image records, found ${sitemapImages}.`);
 for (const slug of newRouteSlugs) {
+  if (slug.startsWith("first-journey-")) continue;
   const image = path.resolve("public", "images", "routes", `${slug}.webp`);
   if (!fs.existsSync(image)) errors.push(`${slug}: hero image is missing.`);
   else if (fs.statSync(image).size > 250 * 1024) errors.push(`${slug}: hero image exceeds 250 KB.`);
+}
+
+const appRouteCatalog = JSON.parse(fs.readFileSync(path.resolve("src/data/app-route-catalog.json"), "utf8"));
+for (const route of appRouteCatalog) {
+  const slug = route.id.replaceAll("_", "-");
+  const relative = legacyRouteSlugs.includes(slug) ? `${slug}.html` : `routes/${slug}.html`;
+  const html = fs.readFileSync(path.join(root, relative), "utf8");
+  const normalized = html.replaceAll(",", "").replaceAll(".", "").replaceAll(" ", "");
+  if (!normalized.includes(String(Math.trunc(route.totalKm)))) errors.push(`${relative}: app distance ${route.totalKm} km is missing.`);
+  for (const stop of route.stops) {
+    if (!html.includes(stop.name.replaceAll("&", "&amp;")) && !html.includes(stop.name)) errors.push(`${relative}: app stop ${stop.name} is missing.`);
+  }
 }
 if (!fs.existsSync(path.join(root, "CNAME"))) errors.push("CNAME is missing.");
 if (!fs.existsSync(path.join(root, ".nojekyll"))) errors.push(".nojekyll is missing.");

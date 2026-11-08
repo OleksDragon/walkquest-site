@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GooglePlayButton from "./GooglePlayButton.astro";
 import { labelsFor, localizedRoutePath, newRoutes, type RouteData, type RouteTranslation } from "../data/new-routes";
+import { premiumExtras } from "../data/premium-details";
 import type { Language } from "../lib/site";
 import type { PageData } from "../lib/page-data";
 
@@ -9,9 +10,11 @@ interface Props { route: RouteData; language: Language; page: PageData; }
 const { route, language, page } = Astro.props;
 const t: RouteTranslation = route.translations[language.code];
 const labels = labelsFor(language.code);
+const access = premiumExtras(language.code);
 const regionalRelated = newRoutes.filter((item) => item.region === route.region && item.slug !== route.slug);
 const related = [...regionalRelated, ...newRoutes.filter((item) => item.region !== route.region && item.slug !== route.slug)].slice(0, 3);
 const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/routes.html`;
+const completionRange = route.estimatedCompletion?.replace(/\s*weeks$/i, "") ?? String(route.weeks);
 ---
 
 <BaseLayout page={page}>
@@ -26,7 +29,7 @@ const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/r
           <h1>{t.name}</h1>
           <p class="article-lead">{labels.regionText[route.region]} · {route.countries.join(" · ")}</p>
           <div class="route-hero-chips">
-            <span>{route.distanceKm.toLocaleString(language.code)} km</span><span>{labels.difficulty}: {labels.difficultyText[route.difficulty]}</span><span>{route.weeks} {labels.weeks}</span><span>{route.isFree ? labels.free : labels.premium}</span>
+            <span>{route.distanceKm.toLocaleString(language.code)} km</span><span>{labels.difficulty}: {labels.difficultyText[route.difficulty]}</span><span>{completionRange} {labels.weeks}</span><span>{route.isStarter ? labels.starter : labels.premium}</span>
           </div>
           <figure class="modern-route-image"><img src={route.image} alt={t.alt} width="1200" height="630" fetchpriority="high" decoding="async" /><figcaption>{labels.imageCredit}</figcaption></figure>
         </div>
@@ -42,10 +45,11 @@ const routesUrl = language.code === "en" ? "/routes.html" : `/${language.slug}/r
 
         <section class="modern-route-stats" aria-label={labels.stats}>
           <div><strong>{route.distanceKm.toLocaleString(language.code)} km</strong><span>{labels.distance}</span></div>
-          <div><strong>{route.weeks}</strong><span>{labels.weeks}</span></div>
+          <div><strong>{completionRange}</strong><span>{labels.weeks}</span></div>
           <div><strong>{route.stamps}</strong><span>{labels.stamps}</span></div>
           <div><strong>{labels.difficultyText[route.difficulty]}</strong><span>{labels.difficulty}</span></div>
         </section>
+        <aside class="route-access-note"><strong>{access.accessTitle}</strong><p>{access.accessText}</p></aside>
 
         <section id="highlights" class="modern-route-section"><div class="page-heading"><span class="section-kicker">{labels.highlights}</span><h2>{labels.highlights}</h2></div><ul class="route-highlight-list">{t.highlights.map((highlight) => <li><span>✓</span><span>{highlight}</span></li>)}</ul></section>
 

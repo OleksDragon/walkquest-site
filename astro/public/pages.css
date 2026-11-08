@@ -289,3 +289,4 @@ html:lang(ja) .page-hero h1,html:lang(ko) .page-hero h1,html:lang(zh-CN) .page-h
   .page-hero h1,.premium-hero h1{font-size:clamp(2.35rem,10.5vw,3.35rem);line-height:1.05;letter-spacing:-.045em}
   html[dir=rtl] .page-hero h1{line-height:1.16;letter-spacing:0}
 }
+.route-access-note{margin:1.25rem 0 3rem;padding:1.25rem 1.4rem;border:1px solid rgba(8,47,54,.14);border-radius:20px;background:#edfaf4;color:#082f36}.route-access-note strong{display:block;margin-bottom:.35rem;font-weight:800}.route-access-note p{margin:0;max-width:80ch;color:#47646a;line-height:1.65}

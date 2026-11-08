@@ -22,7 +22,6 @@
   const description = document.querySelector('meta[name="description"]');
   const page = document.body.dataset.page || "guide";
   const navPage = document.body.dataset.navPage || page;
-  const isGeneratedRoute = document.body.classList.contains("new-route-site");
 
   languages.forEach(({ code, label }) => select.add(new Option(label, code)));
 
@@ -113,7 +112,7 @@
   const detectedLanguage = detectLanguage();
   if (detectedLanguage !== (pathLanguage() || "en")) {
     window.location.replace(localizedPath(detectedLanguage));
-  } else if (isGeneratedRoute) {
+  } else {
     const language = languages.find((item) => item.code === detectedLanguage) || languages[0];
     document.documentElement.lang = language.code;
     document.documentElement.dir = language.dir || "ltr";
@@ -124,8 +123,6 @@
       if (link.dataset.pageLink === navPage) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     });
-  } else {
-    applyLanguage(detectedLanguage);
   }
 
   window.WalkQuestPages = Object.freeze({ resolveLanguage, applyLanguage });

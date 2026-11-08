@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { RoutePage as RoutePageData } from "../lib/route-pages";
+import { premiumExtras } from "../data/premium-details";
 
 interface Props {
   route: RoutePageData;
@@ -10,6 +11,7 @@ interface Props {
 const { route } = Astro.props;
 const detail = route.detail;
 const c = detail.copy;
+const access = premiumExtras(route.page.lang);
 const assetPrefix = route.page.relativePath.includes("/") ? "../" : "./";
 const heroDimensions = detail.hero.image === "route-66-usa-panorama.webp"
   ? { width: 1280, height: 512 }
@@ -22,6 +24,7 @@ const heroDimensions = detail.hero.image === "route-66-usa-panorama.webp"
     <nav class="route-jump-nav" aria-label={`${c[detail.hero.title]} page sections`}><div class="shell">{detail.jumpLinks.map((link) => <a href={link.href} data-i18n={link.label}>{c[link.label]}</a>)}</div></nav>
     <div class="shell article-layout"><div class="article-body" id="overview">
       <div class="article-stat-grid">{detail.stats.map((stat) => <div><strong data-i18n={stat.key}>{stat.literal ?? c[stat.key!]}</strong><span data-i18n={stat.label}>{c[stat.label]}</span></div>)}</div>
+      <aside class="route-access-note"><strong>{access.accessTitle}</strong><p>{access.accessText}</p></aside>
       {detail.introBlocks.map((block) => block.type === "paragraph" ? <p class:list={{ "article-drop": block.drop }} data-i18n={block.key}>{c[block.key]}</p> : block.type === "heading" ? <h2 data-i18n={block.key}>{c[block.key]}</h2> : block.type === "callout" ? <aside class="article-callout"><strong data-i18n={block.title}>{c[block.title]}</strong><p data-i18n={block.text}>{c[block.text]}</p></aside> : null)}
       {detail.features.length > 0 && <div class="article-feature-grid">{detail.features.map((item) => <section><span>{item.emoji}</span><h3 data-i18n={item.title}>{c[item.title]}</h3><p data-i18n={item.text}>{c[item.text]}</p></section>)}</div>}
       <div class={detail.ribbon.className} aria-label={detail.ribbon.label}><div class="route-ribbon-line"></div>{detail.ribbon.stops.map((stop) => <span style={`--at:${stop.at}`}><b>{stop.name}</b><small>{stop.distance}</small></span>)}</div>

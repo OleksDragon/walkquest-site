@@ -8,9 +8,10 @@ const { page } = Astro.props;
 const c = page.premium!.copy;
 const x = premiumExtras(page.lang);
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
-const freeBenefits = [x.starter, c.free3, c.free4];
+const freeBenefits = [x.starter, x.accessText, c.free3, c.free4];
 const premiumBenefits = [c.plus1, x.syncTitle, c.plus2, c.plus5, c.plus3, c.plus4, x.rewardsTitle];
 const featureCards = [
+  ["🔓", x.accessTitle, x.accessText],
   ["🗺️", c.plus1, c.premiumDesc],
   ["👟", x.syncTitle, x.syncText],
   ["◌", c.plus2, c.plusPrice],
@@ -40,6 +41,7 @@ const tickets = [
   ["✈️", c.premiumFlightTitle, "+30 km", "2,600 Travel Points"],
 ] as const;
 const faqItems = [
+  [x.accessTitle, x.accessText],
   [c.monthlyTitle, c.monthlyText],
   [c.yearlyTitle, c.yearlyText],
   [c.lifetimeTitle, c.lifetimeText],

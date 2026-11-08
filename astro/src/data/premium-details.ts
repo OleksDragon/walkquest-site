@@ -9,9 +9,30 @@ export interface PremiumExtraCopy {
   ticketRuleText: string;
   faqKicker: string;
   faqTitle: string;
+  accessTitle: string;
+  accessText: string;
 }
 
-export const premiumExtraCopy: Record<string, PremiumExtraCopy> = {
+const routeAccessCopy: Record<string, { accessTitle: string; accessText: string }> = {
+  en: { accessTitle: "Routes with or without Premium", accessText: "Choose one of five starter routes free. Unlock each other starter permanently with 3 rewarded ads. For a regular route, 3 rewarded ads unlock the first 10 km; after 10 km, one rewarded ad unlocks Health Connect step syncing for the rest of that day. Premium removes this daily ad gate." },
+  uk: { accessTitle: "Маршрути з Premium або без нього", accessText: "Оберіть один із п’яти стартових маршрутів безкоштовно. Кожен інший стартовий маршрут назавжди відкривається за 3 винагороджувані реклами. Для звичайного маршруту 3 реклами відкривають перші 10 км; після 10 км одна реклама відкриває синхронізацію кроків Health Connect до кінця дня. Premium прибирає це щоденне обмеження." },
+  ru: { accessTitle: "Маршруты с Premium и без него", accessText: "Выберите один из пяти стартовых маршрутов бесплатно. Каждый другой стартовый маршрут навсегда открывается за 3 рекламы с вознаграждением. Для обычного маршрута 3 рекламы открывают первые 10 км; после 10 км одна реклама открывает синхронизацию шагов Health Connect до конца дня. Premium убирает это ежедневное ограничение." },
+  es: { accessTitle: "Rutas con o sin Premium", accessText: "Elige gratis una de cinco rutas iniciales. Desbloquea para siempre cada ruta inicial restante con 3 anuncios con recompensa. En una ruta normal, 3 anuncios abren los primeros 10 km; después, un anuncio habilita la sincronización de Health Connect durante el resto del día. Premium elimina este límite diario." },
+  de: { accessTitle: "Routen mit oder ohne Premium", accessText: "Wähle eine von fünf Startrouten kostenlos. Jede weitere Startroute wird mit 3 Rewarded Ads dauerhaft freigeschaltet. Bei einer normalen Route öffnen 3 Ads die ersten 10 km; danach schaltet eine Ad die Health-Connect-Synchronisierung für den restlichen Tag frei. Premium entfernt diese tägliche Hürde." },
+  fr: { accessTitle: "Parcours avec ou sans Premium", accessText: "Choisissez gratuitement l’un des cinq parcours de départ. Trois publicités récompensées déverrouillent définitivement chaque autre parcours de départ. Pour un parcours normal, 3 publicités ouvrent les 10 premiers km ; ensuite, une publicité active la synchronisation Health Connect pour le reste de la journée. Premium supprime cette limite quotidienne." },
+  pl: { accessTitle: "Trasy z Premium lub bez", accessText: "Wybierz bezpłatnie jedną z pięciu tras startowych. Każdą pozostałą trasę startową odblokujesz na stałe po 3 reklamach z nagrodą. Na zwykłej trasie 3 reklamy otwierają pierwsze 10 km; później jedna reklama włącza synchronizację Health Connect do końca dnia. Premium usuwa tę codzienną blokadę." },
+  pt: { accessTitle: "Rotas com ou sem Premium", accessText: "Escolha gratuitamente uma de cinco rotas iniciais. Desbloqueie permanentemente cada uma das restantes com 3 anúncios recompensados. Numa rota normal, 3 anúncios abrem os primeiros 10 km; depois, um anúncio ativa a sincronização do Health Connect durante o resto do dia. O Premium remove este limite diário." },
+  "pt-BR": { accessTitle: "Rotas com ou sem Premium", accessText: "Escolha grátis uma de cinco rotas iniciais. Desbloqueie permanentemente cada outra rota inicial com 3 anúncios premiados. Em uma rota normal, 3 anúncios liberam os primeiros 10 km; depois disso, um anúncio habilita a sincronização do Health Connect pelo restante do dia. O Premium remove esse limite diário." },
+  it: { accessTitle: "Percorsi con o senza Premium", accessText: "Scegli gratis uno dei cinque percorsi iniziali. Sblocca definitivamente ogni altro percorso iniziale con 3 annunci con premio. Per un percorso normale, 3 annunci aprono i primi 10 km; dopo, un annuncio abilita la sincronizzazione Health Connect per il resto della giornata. Premium elimina questo limite quotidiano." },
+  tr: { accessTitle: "Premium ile veya Premium olmadan rotalar", accessText: "Beş başlangıç rotasından birini ücretsiz seçin. Diğer her başlangıç rotasını 3 ödüllü reklamla kalıcı olarak açın. Normal bir rotada 3 reklam ilk 10 km’yi açar; 10 km’den sonra bir reklam Health Connect adım eşitlemesini günün geri kalanı için açar. Premium bu günlük sınırı kaldırır." },
+  ja: { accessTitle: "Premiumあり・なしでのルート利用", accessText: "5つのスタータールートから1つを無料で選べます。残りの各スタータールートはリワード広告3回で永久に解放できます。通常ルートは広告3回で最初の10kmを解放し、10km以降は広告1回でその日のHealth Connect歩数同期を解放します。Premiumではこの日次制限がなくなります。" },
+  ko: { accessTitle: "Premium 사용 여부에 따른 경로", accessText: "5개의 스타터 경로 중 하나를 무료로 선택하세요. 나머지 스타터 경로는 각각 보상형 광고 3회로 영구 해제됩니다. 일반 경로는 광고 3회로 첫 10km가 열리고, 10km 이후에는 광고 1회로 그날 남은 시간 동안 Health Connect 걸음 동기화가 열립니다. Premium은 이 일일 제한을 없앱니다." },
+  "zh-CN": { accessTitle: "使用或不使用 Premium 的路线", accessText: "可免费选择五条入门路线中的一条。其余每条入门路线观看3次激励广告即可永久解锁。普通路线观看3次广告可解锁前10公里；超过10公里后，每天观看1次广告即可在当天剩余时间启用Health Connect步数同步。Premium可移除此每日限制。" },
+  ar: { accessTitle: "المسارات مع Premium أو بدونه", accessText: "اختر مجانًا مسار بداية واحدًا من خمسة. افتح كل مسار بداية آخر نهائيًا عبر 3 إعلانات بمكافأة. في المسار العادي تفتح 3 إعلانات أول 10 كم؛ وبعدها يفتح إعلان واحد مزامنة خطوات Health Connect لبقية اليوم. يزيل Premium هذا القيد اليومي." },
+  hi: { accessTitle: "Premium के साथ या बिना मार्ग", accessText: "पाँच स्टार्टर मार्गों में से एक मुफ़्त चुनें। हर दूसरे स्टार्टर मार्ग को 3 रिवॉर्ड विज्ञापनों से हमेशा के लिए खोलें। सामान्य मार्ग में 3 विज्ञापन पहले 10 किमी खोलते हैं; 10 किमी के बाद एक विज्ञापन उस दिन के बाकी समय के लिए Health Connect कदम सिंक खोलता है। Premium यह दैनिक सीमा हटा देता है।" }
+};
+
+export const premiumExtraCopy: Record<string, Omit<PremiumExtraCopy, "accessTitle" | "accessText">> = {
   en: {
     starter: "Choose one of five starter journeys; core step sync, maps, city guides, passport, missions and achievements remain free.",
     syncTitle: "Automatic step recovery",
@@ -207,5 +228,6 @@ export const premiumExtraCopy: Record<string, PremiumExtraCopy> = {
 };
 
 export function premiumExtras(lang: string): PremiumExtraCopy {
-  return premiumExtraCopy[lang] ?? premiumExtraCopy.en;
+  const base = premiumExtraCopy[lang] ?? premiumExtraCopy.en;
+  return { ...base, ...(routeAccessCopy[lang] ?? routeAccessCopy.en) };
 }

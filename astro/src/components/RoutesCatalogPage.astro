@@ -1,7 +1,8 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
 import type { PageData } from "../lib/page-data";
-import { labelsFor, languageForCode, localizedRoutePath, newRoutes } from "../data/new-routes";
+import appRouteCatalog from "../data/app-route-catalog.json";
+import { labelsFor, languageForCode, localizedRoutePath, newRoutes, type RouteDifficulty, type RouteRegion } from "../data/new-routes";
 
 interface Props { page: PageData; }
 const { page } = Astro.props;
@@ -9,6 +10,59 @@ const c = page.routes!.copy;
 const language = languageForCode(page.lang);
 const routeLabels = labelsFor(page.lang);
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+const catalogUi: Record<string, { search: string; access: string; region: string; difficulty: string; sort: string; all: string; starter: string; premium: string; recommended: string; distanceAsc: string; distanceDesc: string; name: string; difficultySort: string; reset: string; results: string; noResults: string }> = {
+  en: { search: "Search routes", access: "Access", region: "Region", difficulty: "Difficulty", sort: "Sort by", all: "All", starter: "Starter routes", premium: "Premium routes", recommended: "Recommended", distanceAsc: "Distance: shortest first", distanceDesc: "Distance: longest first", name: "Name: A–Z", difficultySort: "Difficulty: easy to epic", reset: "Reset filters", results: "{count} routes shown", noResults: "No routes match these filters." },
+  uk: { search: "Пошук маршрутів", access: "Доступ", region: "Регіон", difficulty: "Складність", sort: "Сортування", all: "Усі", starter: "Стартові маршрути", premium: "Преміум-маршрути", recommended: "Рекомендовані", distanceAsc: "Відстань: від коротких", distanceDesc: "Відстань: від довгих", name: "Назва: А–Я", difficultySort: "Складність: від легкої", reset: "Скинути фільтри", results: "Показано маршрутів: {count}", noResults: "За цими фільтрами маршрутів немає." },
+  ru: { search: "Поиск маршрутов", access: "Доступ", region: "Регион", difficulty: "Сложность", sort: "Сортировка", all: "Все", starter: "Стартовые маршруты", premium: "Премиум-маршруты", recommended: "Рекомендуемые", distanceAsc: "Расстояние: сначала короткие", distanceDesc: "Расстояние: сначала длинные", name: "Название: А–Я", difficultySort: "Сложность: от лёгкой", reset: "Сбросить фильтры", results: "Показано маршрутов: {count}", noResults: "По этим фильтрам маршрутов нет." },
+  es: { search: "Buscar rutas", access: "Acceso", region: "Región", difficulty: "Dificultad", sort: "Ordenar", all: "Todas", starter: "Rutas iniciales", premium: "Rutas Premium", recommended: "Recomendadas", distanceAsc: "Distancia: menor primero", distanceDesc: "Distancia: mayor primero", name: "Nombre: A–Z", difficultySort: "Dificultad: fácil a épica", reset: "Restablecer filtros", results: "{count} rutas mostradas", noResults: "Ninguna ruta coincide con los filtros." },
+  de: { search: "Routen suchen", access: "Zugang", region: "Region", difficulty: "Schwierigkeit", sort: "Sortieren", all: "Alle", starter: "Startrouten", premium: "Premium-Routen", recommended: "Empfohlen", distanceAsc: "Distanz: kürzeste zuerst", distanceDesc: "Distanz: längste zuerst", name: "Name: A–Z", difficultySort: "Schwierigkeit: leicht bis episch", reset: "Filter zurücksetzen", results: "{count} Routen angezeigt", noResults: "Keine Route entspricht diesen Filtern." },
+  fr: { search: "Rechercher des itinéraires", access: "Accès", region: "Région", difficulty: "Difficulté", sort: "Trier", all: "Tous", starter: "Itinéraires de départ", premium: "Itinéraires Premium", recommended: "Recommandés", distanceAsc: "Distance : plus courte d’abord", distanceDesc: "Distance : plus longue d’abord", name: "Nom : A–Z", difficultySort: "Difficulté : facile à épique", reset: "Réinitialiser", results: "{count} itinéraires affichés", noResults: "Aucun itinéraire ne correspond aux filtres." },
+  pl: { search: "Szukaj tras", access: "Dostęp", region: "Region", difficulty: "Trudność", sort: "Sortuj", all: "Wszystkie", starter: "Trasy startowe", premium: "Trasy Premium", recommended: "Polecane", distanceAsc: "Dystans: najkrótsze", distanceDesc: "Dystans: najdłuższe", name: "Nazwa: A–Z", difficultySort: "Trudność: od łatwej", reset: "Wyczyść filtry", results: "Wyświetlono tras: {count}", noResults: "Brak tras pasujących do filtrów." },
+  pt: { search: "Pesquisar rotas", access: "Acesso", region: "Região", difficulty: "Dificuldade", sort: "Ordenar", all: "Todas", starter: "Rotas iniciais", premium: "Rotas Premium", recommended: "Recomendadas", distanceAsc: "Distância: menor primeiro", distanceDesc: "Distância: maior primeiro", name: "Nome: A–Z", difficultySort: "Dificuldade: fácil a épica", reset: "Limpar filtros", results: "{count} rotas apresentadas", noResults: "Nenhuma rota corresponde aos filtros." },
+  "pt-BR": { search: "Pesquisar rotas", access: "Acesso", region: "Região", difficulty: "Dificuldade", sort: "Ordenar", all: "Todas", starter: "Rotas iniciais", premium: "Rotas Premium", recommended: "Recomendadas", distanceAsc: "Distância: menor primeiro", distanceDesc: "Distância: maior primeiro", name: "Nome: A–Z", difficultySort: "Dificuldade: fácil a épica", reset: "Limpar filtros", results: "{count} rotas exibidas", noResults: "Nenhuma rota corresponde aos filtros." },
+  it: { search: "Cerca percorsi", access: "Accesso", region: "Regione", difficulty: "Difficoltà", sort: "Ordina", all: "Tutti", starter: "Percorsi iniziali", premium: "Percorsi Premium", recommended: "Consigliati", distanceAsc: "Distanza: più brevi", distanceDesc: "Distanza: più lunghi", name: "Nome: A–Z", difficultySort: "Difficoltà: facile a epica", reset: "Azzera filtri", results: "{count} percorsi mostrati", noResults: "Nessun percorso corrisponde ai filtri." },
+  tr: { search: "Rota ara", access: "Erişim", region: "Bölge", difficulty: "Zorluk", sort: "Sırala", all: "Tümü", starter: "Başlangıç rotaları", premium: "Premium rotalar", recommended: "Önerilen", distanceAsc: "Mesafe: kısadan uzuna", distanceDesc: "Mesafe: uzundan kısaya", name: "Ad: A–Z", difficultySort: "Zorluk: kolaydan destansıya", reset: "Filtreleri sıfırla", results: "{count} rota gösteriliyor", noResults: "Bu filtrelere uygun rota yok." },
+  ja: { search: "ルートを検索", access: "アクセス", region: "地域", difficulty: "難易度", sort: "並べ替え", all: "すべて", starter: "スタータールート", premium: "プレミアムルート", recommended: "おすすめ順", distanceAsc: "距離：短い順", distanceDesc: "距離：長い順", name: "名前：A–Z", difficultySort: "難易度：易しい順", reset: "フィルターをリセット", results: "{count}件のルートを表示", noResults: "条件に一致するルートがありません。" },
+  ko: { search: "경로 검색", access: "이용 방식", region: "지역", difficulty: "난이도", sort: "정렬", all: "전체", starter: "시작 경로", premium: "프리미엄 경로", recommended: "추천순", distanceAsc: "거리: 짧은 순", distanceDesc: "거리: 긴 순", name: "이름: A–Z", difficultySort: "난이도: 쉬운 순", reset: "필터 초기화", results: "경로 {count}개 표시", noResults: "필터와 일치하는 경로가 없습니다." },
+  "zh-CN": { search: "搜索路线", access: "访问方式", region: "地区", difficulty: "难度", sort: "排序", all: "全部", starter: "入门路线", premium: "高级路线", recommended: "推荐顺序", distanceAsc: "距离：从短到长", distanceDesc: "距离：从长到短", name: "名称：A–Z", difficultySort: "难度：从易到难", reset: "重置筛选", results: "显示 {count} 条路线", noResults: "没有符合筛选条件的路线。" },
+  ar: { search: "ابحث عن مسار", access: "الوصول", region: "المنطقة", difficulty: "الصعوبة", sort: "الترتيب", all: "الكل", starter: "مسارات البداية", premium: "المسارات المميزة", recommended: "الموصى بها", distanceAsc: "المسافة: الأقصر أولاً", distanceDesc: "المسافة: الأطول أولاً", name: "الاسم: أ–ي", difficultySort: "الصعوبة: من السهل", reset: "إعادة ضبط الفلاتر", results: "عدد المسارات المعروضة: {count}", noResults: "لا توجد مسارات تطابق هذه الفلاتر." },
+  hi: { search: "मार्ग खोजें", access: "पहुँच", region: "क्षेत्र", difficulty: "कठिनाई", sort: "क्रम", all: "सभी", starter: "शुरुआती मार्ग", premium: "प्रीमियम मार्ग", recommended: "सुझाए गए", distanceAsc: "दूरी: छोटी पहले", distanceDesc: "दूरी: लंबी पहले", name: "नाम: A–Z", difficultySort: "कठिनाई: आसान से", reset: "फ़िल्टर रीसेट करें", results: "{count} मार्ग दिखाए गए", noResults: "इन फ़िल्टर से कोई मार्ग नहीं मिला।" },
+};
+const ui = catalogUi[page.lang] ?? catalogUi.en;
+const regions: RouteRegion[] = ["Europe", "Asia", "Americas", "Africa", "Oceania"];
+const difficulties: RouteDifficulty[] = ["easy", "medium", "hard", "epic"];
+const legacyInfo = [
+  { id: "europe_explorer", slug: "europe-explorer", region: "Europe", image: "/assets/europe-explorer-panorama.webp" },
+  { id: "route_66_usa", slug: "route-66-usa", region: "Americas", image: "/assets/route-66-usa-panorama.webp" },
+  { id: "around_the_world_lite", slug: "around-the-world-lite", region: "Americas", image: "/assets/around-the-world-lite-panorama.webp" },
+  { id: "kyoto_autumn_temples", slug: "kyoto-autumn-temples", region: "Asia", image: "/assets/kyoto-autumn-temples-panorama.webp" },
+  { id: "greek_islands_odyssey", slug: "greek-islands-odyssey", region: "Europe", image: "/assets/greek-islands-odyssey-panorama.webp" },
+  { id: "iceland_ring_road", slug: "iceland-ring-road", region: "Europe", image: "/assets/iceland-ring-road-panorama.webp" },
+] as const;
+const newRouteMap = new Map(newRoutes.map((route) => [route.slug, route]));
+const legacyMap = new Map<string, (typeof legacyInfo)[number]>(legacyInfo.map((route) => [route.slug, route]));
+const catalogRoutes = appRouteCatalog.map((appRoute, order) => {
+  const slug = appRoute.id.replaceAll("_", "-");
+  const route = newRouteMap.get(slug);
+  const legacy = legacyMap.get(slug);
+  if (!route && !legacy) return null;
+  const region = (route?.region ?? legacy?.region ?? "Europe") as RouteRegion;
+  return {
+    slug,
+    name: route?.translations[page.lang]?.name ?? appRoute.title,
+    search: [route?.translations[page.lang]?.name, appRoute.title, ...appRoute.countries].filter(Boolean).join(" "),
+    region,
+    difficulty: appRoute.difficulty as RouteDifficulty,
+    access: appRoute.isStarter ? "starter" : "premium",
+    isStarter: appRoute.isStarter,
+    distanceKm: appRoute.totalKm,
+    completion: appRoute.estimatedCompletion.replace(/\s*weeks$/i, ""),
+    image: route?.image ?? legacy!.image,
+    alt: route?.translations[page.lang]?.alt ?? `${appRoute.title} — ${routeLabels.regionText[region]}`,
+    href: route ? localizedRoutePath(route, language) : `./${slug}.html`,
+    order,
+  };
+}).filter((route): route is NonNullable<typeof route> => Boolean(route)).sort((a, b) => Number(b.isStarter) - Number(a.isStarter) || a.order - b.order);
 const featured = [
   ["europe-explorer", "🏙️", "Europe Explorer", "1,240 km", "routeEuropeTag", "routeEuropeDesc"],
   ["kyoto-autumn-temples", "⛩️", "Kyoto Autumn Temples", "165 km", "routeKyotoTag", "routeKyotoDesc"],
@@ -17,15 +71,6 @@ const featured = [
   ["route-66-usa", "🛣️", "Route 66 USA", "3,940 km", "route66Tag", "route66Desc"],
   ["around-the-world-lite", "🌍", "Around the World Lite", "12,000 km", "routeWorldTag", "routeWorldDesc"],
 ] as const;
-const linkedRoutes = new Map([
-  ["Europe Explorer", "europe-explorer"],
-  ["Route 66 USA", "route-66-usa"],
-  ["Around the World Lite", "around-the-world-lite"],
-  ["Kyoto Autumn Temples", "kyoto-autumn-temples"],
-  ["Greek Islands Odyssey", "greek-islands-odyssey"],
-  ["Iceland Ring Road", "iceland-ring-road"],
-]);
-const legacyRoutes = [...linkedRoutes.entries()].map(([name, slug]) => ({ name, href: `./${slug}.html` }));
 ---
 
 <main id="main">
@@ -37,11 +82,21 @@ const legacyRoutes = [...linkedRoutes.entries()].map(([name, slug]) => ({ name, 
   </div></div></section>
 
   <section class="page-section soft"><div class="shell"><div class="page-heading center"><span class="section-kicker" data-i18n="routesCatalogKicker">{c.routesCatalogKicker}</span><h2 data-i18n="routesCatalogTitle">{c.routesCatalogTitle}</h2><p class="section-intro" data-i18n="routesCatalogText">{c.routesCatalogText}</p></div>
-    <div class="route-cloud" aria-label="WalkQuest route names">{legacyRoutes.map((route) => <a href={route.href}>{route.name}</a>)}</div>
-    <div class="new-route-catalog">{newRoutes.map((route) => <a class="new-route-card" href={localizedRoutePath(route, language)}><img src={route.image} alt={route.translations[page.lang].alt} width="1200" height="630" loading="lazy" decoding="async" /><div><span>{route.isStarter ? routeLabels.starter : routeLabels.regionText[route.region]}</span><h3>{route.translations[page.lang].name}</h3><p>{route.distanceKm.toLocaleString(page.lang)} km · {(route.estimatedCompletion ?? String(route.weeks)).replace(/\s*weeks$/i, "")} {routeLabels.weeks}</p></div></a>)}</div>
+    <div class="route-catalog-tools" data-route-tools>
+      <label class="route-search"><span>{ui.search}</span><input type="search" name="route-search" placeholder={ui.search} autocomplete="off" data-route-search /></label>
+      <label><span>{ui.access}</span><select data-route-filter="access"><option value="all">{ui.all}</option><option value="starter">{ui.starter}</option><option value="premium">{ui.premium}</option></select></label>
+      <label><span>{ui.region}</span><select data-route-filter="region"><option value="all">{ui.all}</option>{regions.map((region) => <option value={region}>{routeLabels.regionText[region]}</option>)}</select></label>
+      <label><span>{ui.difficulty}</span><select data-route-filter="difficulty"><option value="all">{ui.all}</option>{difficulties.map((difficulty) => <option value={difficulty}>{routeLabels.difficultyText[difficulty]}</option>)}</select></label>
+      <label><span>{ui.sort}</span><select data-route-sort><option value="recommended">{ui.recommended}</option><option value="distance-asc">{ui.distanceAsc}</option><option value="distance-desc">{ui.distanceDesc}</option><option value="name">{ui.name}</option><option value="difficulty">{ui.difficultySort}</option></select></label>
+      <button type="button" class="route-filter-reset" data-route-reset>{ui.reset}</button>
+    </div>
+    <div class="route-catalog-summary"><p aria-live="polite" data-route-results data-template={ui.results}>{ui.results.replace("{count}", String(catalogRoutes.length))}</p></div>
+    <div class="new-route-catalog" data-route-grid>{catalogRoutes.map((route, index) => <a class="new-route-card" href={route.href} data-route-card data-search={route.search.toLocaleLowerCase(page.lang)} data-access={route.access} data-region={route.region} data-difficulty={route.difficulty} data-distance={route.distanceKm} data-name={route.name} data-order={index}><img src={route.image} alt={route.alt} width="1200" height="630" loading="lazy" decoding="async" /><div><span>{route.isStarter ? routeLabels.starter : routeLabels.regionText[route.region]}</span><h3>{route.name}</h3><p>{route.distanceKm.toLocaleString(page.lang)} km · {route.completion} {routeLabels.weeks}</p></div></a>)}</div>
+    <p class="route-catalog-empty" data-route-empty hidden>{ui.noResults}</p>
   </div></section>
 
   <section class="page-section dark"><div class="shell map-explainer"><div><span class="section-kicker" data-i18n="routesHowKicker">{c.routesHowKicker}</span><h2 data-i18n="routesHowTitle">{c.routesHowTitle}</h2><p class="section-intro" data-i18n="routesHowText">{c.routesHowText}</p><ul class="check-list"><li data-i18n="routesHowPoint1">{c.routesHowPoint1}</li><li data-i18n="routesHowPoint2">{c.routesHowPoint2}</li><li data-i18n="routesHowPoint3">{c.routesHowPoint3}</li></ul></div><div class="mock-map" aria-hidden="true"><span class="mock-map-label">Europe Explorer</span><div class="mock-path"></div><span class="mock-pin one">🇬🇧</span><span class="mock-walker">🚶</span><span class="mock-pin two">🇫🇷</span><span class="mock-pin three">🇨🇿</span></div></div></section>
 
   <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n="routesCtaTitle">{c.routesCtaTitle}</h2><p data-i18n="routesCtaText">{c.routesCtaText}</p></div><GooglePlayButton label={c.playSmall} /></div></section>
 </main>
+<script is:inline src={`${assetPrefix}route-catalog.js`} defer></script>

@@ -1,5 +1,6 @@
 ---
 import GooglePlayButton from "./GooglePlayButton.astro";
+import { SOCIAL_LINKS_BY_KEY } from "../config/socialLinks";
 import type { PageData } from "../lib/page-data";
 
 interface Props { page: PageData; }
@@ -8,6 +9,14 @@ const article = page.article!;
 const c = article.copy;
 const h = article.hero;
 const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
+
+type SocialLinkKey = keyof typeof SOCIAL_LINKS_BY_KEY;
+
+const getSocialLink = (key: string) => {
+  const link = SOCIAL_LINKS_BY_KEY[key as SocialLinkKey];
+  if (!link) throw new Error(`Missing social link configuration for "${key}"`);
+  return link;
+};
 ---
 
 <main id="main"><article>
@@ -21,7 +30,7 @@ const assetPrefix = page.relativePath.includes("/") ? "../" : "./";
       : block.type === "steps" ? <ol class="article-steps">{block.items.map((item) => <li><strong data-i18n={item.title}>{c[item.title]}</strong><span data-i18n={item.text}>{c[item.text]}</span></li>)}</ol>
       : block.type === "stats" ? <div class="article-stat-grid">{block.items.map((item) => <div><strong data-i18n={item.value}>{item.literal ?? c[item.value!]}</strong><span data-i18n={item.label}>{c[item.label]}</span></div>)}</div>
       : block.type === "features" ? <div class="article-feature-grid">{block.items.map((item) => <section><span>{item.emoji}</span><h3 data-i18n={item.title}>{c[item.title]}</h3><p data-i18n={item.text}>{c[item.text]}</p></section>)}</div>
-      : <div class="article-social-grid">{block.items.map((item) => <a href={item.href} target="_blank" rel="me noopener noreferrer"><span class="article-social-icon" aria-hidden="true">{item.icon}</span><span><strong data-i18n={item.platform}>{c[item.platform]}</strong><small>{item.handle}</small><span data-i18n={item.text}>{c[item.text]}</span></span><b aria-hidden="true">↗</b></a>)}</div>)}
+      : <div class="article-social-grid">{block.items.map((item) => <a href={getSocialLink(item.platform).url} target="_blank" rel="me noopener noreferrer"><span class="article-social-icon" aria-hidden="true">{item.icon}</span><span><strong data-i18n={item.platform}>{c[item.platform]}</strong><small>{getSocialLink(item.platform).handle}</small><span data-i18n={item.text}>{c[item.text]}</span></span><b aria-hidden="true">↗</b></a>)}</div>)}
   </div></div>
   {article.next && <nav class="article-next shell" aria-label="Related articles"><a href={article.next.href}><span data-i18n={article.next.label}>{c[article.next.label]}</span><strong data-i18n={article.next.title}>{c[article.next.title]}</strong></a></nav>}
   {article.cta && <section class="page-cta"><div class="shell page-cta-card"><div><h2 data-i18n={article.cta.title}>{c[article.cta.title]}</h2><p data-i18n={article.cta.text}>{c[article.cta.text]}</p></div><GooglePlayButton label={c[article.cta.label]} href={article.cta.href} /></div></section>}

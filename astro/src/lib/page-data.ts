@@ -104,7 +104,7 @@ export type ArticleBlock =
   | { type: "steps"; items: Array<{ title: string; text: string }> }
   | { type: "stats"; items: Array<{ value?: string; literal?: string; label: string }> }
   | { type: "features"; items: Array<{ emoji: string; title: string; text: string }> }
-  | { type: "socials"; items: Array<{ icon: string; platform: string; handle: string; text: string; href: string }> };
+  | { type: "socials"; items: Array<{ icon: string; platform: string; text: string }> };
 
 export interface ArticleContent {
   copy: Record<string, string>;

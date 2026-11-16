@@ -38,7 +38,6 @@ const popular = [
     <div class="footer-route-links">{popular.map(([name, slug]) => <a href={`${base}/routes/${slug}.html`}>{name}</a>)}</div>
     <nav class="footer-social-links" aria-label="WalkQuest social media">
       <a href={SOCIAL_LINKS.youtube.url} target="_blank" rel="me noopener noreferrer"><span aria-hidden="true">▶</span>YouTube</a>
-      <a href={SOCIAL_LINKS.instagram.url} target="_blank" rel="me noopener noreferrer"><span aria-hidden="true">◎</span>Instagram</a>
       <a href={SOCIAL_LINKS.tiktok.url} target="_blank" rel="me noopener noreferrer"><span aria-hidden="true">♪</span>TikTok</a>
     </nav>
     <p class="copyright">© <span id="year"></span> WalkQuest. <span data-i18n="footerRights">{labels.footerRights}</span></p>
